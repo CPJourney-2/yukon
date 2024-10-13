@@ -1,0 +1,98 @@
+{
+    "id": "d9f4da97-c017-415a-aec7-cd283c0992b7",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "51c89a5a-e3e4-4edd-86a0-24532bef33cc",
+            "label": "container_1",
+            "y": -30.707796772258746,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "d606c653-9bad-4c57-9b72-9f4555884095",
+                    "label": "btn",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.outline.visible = true",
+                    "SimpleButton.hoverOutCallback": "() => this.outline.visible = false",
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(this.itemId)",
+                    "y": 30.707796772258746,
+                    "width": 224,
+                    "height": 224
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "4562d90c-623c-462f-b417-a8cad2ae8dfb",
+                    "label": "outline",
+                    "scope": "CLASS",
+                    "y": 30.707796772258746,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 224,
+                    "height": 224
+                },
+                {
+                    "type": "Container",
+                    "id": "edd89887-d05c-43de-8ad6-89b26198eb60",
+                    "label": "photoContainer",
+                    "scope": "CLASS",
+                    "y": 30.707796772258746,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "72775210-1486-4b76-828b-adc5d19408b8",
+                    "label": "penguin",
+                    "texture": {
+                        "key": "commonbook",
+                        "frame": "cc-penguin-sil"
+                    },
+                    "y": 30.707796772258746
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "prefabProperties": [
+        {
+            "name": "itemId",
+            "label": "Item ID",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "hoverColor",
+            "label": "Outline Color",
+            "tooltip": "",
+            "defValue": "#3A9ACC",
+            "customDefinition": false,
+            "type": {
+                "id": "color"
+            }
+        }
+    ]
+}

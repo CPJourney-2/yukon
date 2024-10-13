@@ -1,0 +1,609 @@
+{
+    "id": "c4768c3d-e740-4a8e-b1c6-e79765ed2ace",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0d9820be-13e5-422f-b4ae-b613533a5a10",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "71c23e93-6b36-4dcc-8239-b7f070a6bc85",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "dc4b7e00-dd9b-4f6f-ae60-f90f3a8bae8a",
+                    "label": "largeContainer",
+                    "scope": "CLASS",
+                    "x": -264,
+                    "y": -341,
+                    "list": [
+                        {
+                            "type": "NineSlice",
+                            "id": "cd4aed8d-20d8-4e90-9838-7619ec504724",
+                            "label": "bg_1",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "prompt",
+                                "frame": "window"
+                            },
+                            "x": 273,
+                            "y": 312,
+                            "width": 720,
+                            "height": 750,
+                            "leftWidth": 44,
+                            "rightWidth": 39,
+                            "topHeight": 40,
+                            "bottomHeight": 41
+                        },
+                        {
+                            "type": "Text",
+                            "id": "88afe03b-0ae1-4e7b-b49e-275d758cb69f",
+                            "label": "stampText",
+                            "scope": "CLASS",
+                            "x": 375,
+                            "y": 313,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "0 of 25",
+                            "fixedWidth": 628,
+                            "fixedHeight": 136,
+                            "fontFamily": "Burbank Small Black",
+                            "fontSize": "40px",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.fill": true,
+                            "shadow.color": "#003399"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "46a1e105-67ac-4b73-9948-ae9dfb2797ee",
+                            "label": "coinText",
+                            "scope": "CLASS",
+                            "x": 378,
+                            "y": 174,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "88888888 coins",
+                            "fixedWidth": 628,
+                            "fixedHeight": 136,
+                            "fontFamily": "Burbank Small Black",
+                            "fontSize": "40px",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.fill": true,
+                            "shadow.color": "#003399"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ab64c519-909b-4d35-8b48-b0a1ad26bc10",
+                            "label": "prompt_coin",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "main-stampcoins",
+                                "frame": "coins"
+                            },
+                            "y": 134
+                        },
+                        {
+                            "type": "Text",
+                            "id": "9f5a99c2-08e1-40af-be9d-4561594a46b3",
+                            "label": "x2large",
+                            "scope": "CLASS",
+                            "x": 21,
+                            "y": 162,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "x2",
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "24px",
+                            "fontStyle": "bold",
+                            "stroke": "#643200",
+                            "strokeThickness": 8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5eadd643-eeba-4a37-b3c3-bbca79550ab9",
+                            "label": "stampIcon",
+                            "texture": {
+                                "key": "main-stampcoins",
+                                "frame": "stampIcon"
+                            },
+                            "x": 5,
+                            "y": 274
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7384b65e-c960-429f-9d4f-3072ef795357",
+                            "label": "progress",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "main-stampcoins",
+                                "frame": "progress0100"
+                            },
+                            "x": 265,
+                            "y": 375
+                        },
+                        {
+                            "type": "Text",
+                            "id": "71d6298f-ce4f-4839-bda7-ae3e65577fce",
+                            "label": "roomText",
+                            "scope": "CLASS",
+                            "x": 282,
+                            "y": 54,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Aqua Grabber",
+                            "fixedWidth": 628,
+                            "fixedHeight": 136,
+                            "align": "center",
+                            "fontFamily": "Burbank Small Black",
+                            "fontSize": "50px",
+                            "shadow.offsetX": 3,
+                            "shadow.offsetY": 3,
+                            "shadow.fill": true,
+                            "shadow.color": "#003399"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b350594e-94af-40a4-a9dc-f2cd0921850d",
+                            "label": "totalCoins",
+                            "scope": "CLASS",
+                            "x": 379,
+                            "y": 222,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Your total coins: 888 888 888",
+                            "fixedWidth": 628,
+                            "fixedHeight": 136,
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "28px",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.color": "#003399"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "7a9970d7-5611-4cd4-aadd-1886068eb720",
+                            "label": "totalStamps",
+                            "scope": "CLASS",
+                            "x": 379,
+                            "y": 367,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Aqua Grabber stamps",
+                            "fixedWidth": 628,
+                            "fixedHeight": 136,
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "28px",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.color": "#003399"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ac1b9f30-dd39-439f-b05d-d0e7f154072f",
+                            "label": "coinreference0004",
+                            "texture": {
+                                "key": "coinreference0004"
+                            },
+                            "x": 264,
+                            "y": 341,
+                            "visible": false,
+                            "alpha": 0.5,
+                            "alphaTopLeft": 0.5,
+                            "alphaTopRight": 0.5,
+                            "alphaBottomLeft": 0.5,
+                            "alphaBottomRight": 0.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c8c32ac3-f1e4-4d8b-850a-39cc33ebba58",
+                            "label": "closebtn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => {this.callback()}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 567
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f5cda503-f607-437f-975e-35b4aaf9d85a",
+                            "label": "blue_x",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-x"
+                            },
+                            "x": 567,
+                            "y": -2
+                        },
+                        {
+                            "type": "Text",
+                            "id": "bb4cdc65-45e8-4e55-88fa-fa1b7a6c37e7",
+                            "label": "youveEarned",
+                            "scope": "CLASS",
+                            "x": 281,
+                            "y": 114,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "You've earned:",
+                            "fixedWidth": 628,
+                            "fixedHeight": 136,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "28px",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.color": "#003399"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "03c97ed4-ead8-46f6-b8c5-110387293e5a",
+                            "label": "percentageText",
+                            "scope": "CLASS",
+                            "x": 414,
+                            "y": 356,
+                            "text": "100%",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold"
+                        },
+                        {
+                            "type": "Container",
+                            "id": "0a455c6b-21eb-4b3d-93c1-ec716d8f0d50",
+                            "label": "howToBtn",
+                            "scope": "CLASS",
+                            "x": 240,
+                            "y": 519,
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "358a6aae-6b55-470f-b109-8544191fe353",
+                                    "label": "earnbtn",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "earnbtn",
+                                    "Button.callback": "() => this.toggleHowTo()",
+                                    "Button.activeFrame": true,
+                                    "texture": {
+                                        "key": "main-stampcoins",
+                                        "frame": "earnbtn"
+                                    },
+                                    "x": 28,
+                                    "y": 1
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "69f19172-6d7d-42da-967e-f9aefba8d8cf",
+                                    "label": "earnbtncontent",
+                                    "texture": {
+                                        "key": "main-stampcoins",
+                                        "frame": "earnbtncontent"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "prefabId": "09772baf-fc76-478c-913b-476d459e509f",
+                            "id": "4be9e1e7-9fa4-4062-9443-c5c96ef65bec",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "stampListView",
+                            "scope": "CLASS",
+                            "x": -15,
+                            "y": 437
+                        },
+                        {
+                            "type": "Text",
+                            "id": "1ee87459-9c98-4315-8501-42d32ed2a2f4",
+                            "label": "congratulationsText",
+                            "scope": "CLASS",
+                            "x": -39,
+                            "y": 552,
+                            "text": "Congratulations, all Aqua Grabber stamps earned. Double coin bonus!",
+                            "fixedWidth": 620,
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "32px",
+                            "wordWrapWidth": 620
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "52f5dd40-4f39-493e-983c-83058917c7a4",
+                    "label": "smallContainer",
+                    "scope": "CLASS",
+                    "x": -264,
+                    "y": -341,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "NineSlice",
+                            "id": "fe1fcbe8-12ef-47c7-9399-99cdfb81f021",
+                            "label": "bgSmall",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "prompt",
+                                "frame": "window"
+                            },
+                            "x": 269,
+                            "y": 343,
+                            "width": 740,
+                            "height": 320,
+                            "leftWidth": 44,
+                            "rightWidth": 39,
+                            "topHeight": 40,
+                            "bottomHeight": 41
+                        },
+                        {
+                            "type": "Text",
+                            "id": "e50ae6a2-d03a-4eb1-b72b-a624157ea896",
+                            "label": "coinTextSmall",
+                            "scope": "CLASS",
+                            "x": 378,
+                            "y": 435,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "88888888 coins",
+                            "fixedWidth": 628,
+                            "fixedHeight": 136,
+                            "fontFamily": "Burbank Small Black",
+                            "fontSize": "40px",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.fill": true,
+                            "shadow.color": "#003399"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8387a0e1-8154-4ed6-bca7-972b488dcf12",
+                            "label": "prompt_coinSmall",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "main-stampcoins",
+                                "frame": "coins"
+                            },
+                            "y": 395
+                        },
+                        {
+                            "type": "Text",
+                            "id": "e319f883-c7ca-4c2e-b5e9-d4edc5a505e5",
+                            "label": "x2small",
+                            "scope": "CLASS",
+                            "x": 23,
+                            "y": 421,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "x2",
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "24px",
+                            "fontStyle": "bold",
+                            "stroke": "#643200",
+                            "strokeThickness": 8
+                        },
+                        {
+                            "type": "Text",
+                            "id": "4d30984d-40d3-4970-94ce-bd2a365f335e",
+                            "label": "totalCoinsSmall",
+                            "scope": "CLASS",
+                            "x": 379,
+                            "y": 483,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Your total coins: 888 888 888",
+                            "fixedWidth": 628,
+                            "fixedHeight": 136,
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "28px",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.color": "#003399"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "d6a02861-24dc-4959-9f74-0c55795a4a4b",
+                            "label": "youveEarnedSmall",
+                            "scope": "CLASS",
+                            "x": 281,
+                            "y": 363,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "You've earned:",
+                            "fixedWidth": 628,
+                            "fixedHeight": 136,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "28px",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.color": "#003399"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "3af4bff7-ddec-4bf7-a70d-8c22f885de3f",
+                            "label": "roomTextSmall",
+                            "scope": "CLASS",
+                            "x": 282,
+                            "y": 303,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Aqua Grabber",
+                            "fixedWidth": 628,
+                            "fixedHeight": 136,
+                            "align": "center",
+                            "fontFamily": "Burbank Small Black",
+                            "fontSize": "50px",
+                            "shadow.offsetX": 3,
+                            "shadow.offsetY": 3,
+                            "shadow.fill": true,
+                            "shadow.color": "#003399"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4fb0b84d-6bcc-4526-97f4-7799ad66eefc",
+                            "label": "closebtn_2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => {this.callback()}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 582,
+                            "y": 239
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3918cbf8-c813-419d-bd78-bb0f4e7ce703",
+                            "label": "blue_x_1",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-x"
+                            },
+                            "x": 582,
+                            "y": 237
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "57cdd971-54ae-4b9f-9e53-b2cc0b9469da",
+                    "label": "howToEarn",
+                    "scope": "CLASS",
+                    "x": -263,
+                    "y": -333,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "NineSlice",
+                            "id": "f144a045-eb3a-4e23-99c4-82c03470ae58",
+                            "label": "bg",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "prompt",
+                                "frame": "window"
+                            },
+                            "x": 272,
+                            "y": 304,
+                            "width": 720,
+                            "height": 750,
+                            "leftWidth": 44,
+                            "rightWidth": 39,
+                            "topHeight": 40,
+                            "bottomHeight": 41
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0cbe21ba-b74e-4401-943c-6310ffe6fe29",
+                            "label": "earnStamps",
+                            "texture": {
+                                "key": "main-stampcoins",
+                                "frame": "earnStamps"
+                            },
+                            "x": 297,
+                            "y": 299
+                        },
+                        {
+                            "type": "Image",
+                            "id": "08140916-7b2d-4ed4-b6ba-af5624571aba",
+                            "label": "closebtn_howto",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.toggleHowTo()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 563
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f2ef151d-4b82-4820-a488-006e7da466f3",
+                            "label": "blue_x_how2",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-x"
+                            },
+                            "x": 563,
+                            "y": -2
+                        },
+                        {
+                            "type": "Text",
+                            "id": "fbe9ed54-3bfc-466e-a3f1-adf6dca3c481",
+                            "label": "text_1",
+                            "x": -3,
+                            "y": 86,
+                            "text": "Complete special tasks in games,\nat parties, and around Club Penguin.\nClick  (s)  on your player card\nto access your stamp book\nand learn more.",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "28px"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fe3f5d77-98c8-43e6-a6ff-9e1652cfe644",
+                            "label": "stampIcon_1",
+                            "texture": {
+                                "key": "main-stampcoins",
+                                "frame": "stampIcon"
+                            },
+                            "x": 92,
+                            "y": 173,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

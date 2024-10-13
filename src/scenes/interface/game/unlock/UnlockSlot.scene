@@ -1,0 +1,91 @@
+{
+    "id": "6f846360-1d13-4631-8d17-8142e4d4f49f",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "7f237268-1b2d-4f1a-bb3c-122870c34ae2",
+            "label": "container_2",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "dd651647-8b69-4f39-9bdb-a0c972bd0ba5",
+                    "label": "slot",
+                    "scope": "CLASS",
+                    "components": [
+                        "Interactive",
+                        "ShowHint"
+                    ],
+                    "ShowHint.text": "Item",
+                    "texture": {
+                        "key": "unlock",
+                        "frame": "slot"
+                    },
+                    "y": -11.766840215372177,
+                    "originY": 0.41085727109566533
+                },
+                {
+                    "type": "Container",
+                    "id": "69307145-4482-4edb-a1fd-a90574ecfdf2",
+                    "label": "itemContainer",
+                    "scope": "CLASS",
+                    "scaleX": 0.9,
+                    "scaleY": 0.9
+                },
+                {
+                    "type": "Container",
+                    "id": "bcd3c36b-89f4-483c-85f1-38b6794a057b",
+                    "label": "coins",
+                    "scope": "CLASS",
+                    "y": -13,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b460beb9-b5a3-4ddc-979f-50e5fee6a0ba",
+                            "label": "prompt_coin",
+                            "texture": {
+                                "key": "main",
+                                "frame": "prompt_coin"
+                            },
+                            "scaleX": 0.45,
+                            "scaleY": 0.45
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6627e8c7-d7f9-48d9-9efd-a9fffb9968dc",
+                            "label": "coinCount",
+                            "scope": "CLASS",
+                            "y": 48,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "99999",
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "27px",
+                            "fontStyle": "bold",
+                            "color": "#4a4a4aff"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

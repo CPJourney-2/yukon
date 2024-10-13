@@ -1,0 +1,68 @@
+{
+    "id": "45d15521-e7df-4824-9c1e-2a8b317ab0b8",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eefc5a3-1b9a-4b15-a92a-1a543086f96d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "637cca7d-b294-4dcd-aa38-991230ee66f5",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -12,
+                    "y": 10,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "isFilled": true,
+                    "fillColor": "#1e1e1e",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "prefabId": "1de1eb22-93eb-4755-aeba-c735ea72b677",
+                    "id": "55206899-c06e-4537-932c-5ef80994d0e3",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "spinner",
+                    "scope": "CLASS",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Container",
+                    "id": "43048769-541b-4653-b16e-9adbbc582bc9",
+                    "label": "videoContainer",
+                    "scope": "CLASS"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

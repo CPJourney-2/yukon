@@ -1,0 +1,104 @@
+{
+    "id": "8b32d404-ee37-4ac7-aecd-37878f966eda",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/logcabin/logcabin-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "LogCabin",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Layer",
+            "id": "6bf500d2-e798-4778-afc4-98eb5cbfd1e8",
+            "label": "floor",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "d17cf53d-0385-4c40-b08c-2c121a9587db",
+                    "label": "floor_1",
+                    "texture": {
+                        "key": "logcabin",
+                        "frame": "floor_1"
+                    },
+                    "x": 760,
+                    "y": 703
+                },
+                {
+                    "type": "Image",
+                    "id": "98aaa491-15a7-4c06-9c57-afba35e81543",
+                    "label": "floor_2",
+                    "texture": {
+                        "key": "logcabin",
+                        "frame": "floor_2"
+                    },
+                    "x": 748,
+                    "y": 838,
+                    "originY": 0.5070422535211268
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "e414dbe5-fc7a-4203-9c06-71ee34f2a1da",
+            "label": "wall",
+            "texture": {
+                "key": "logcabin",
+                "frame": "wall"
+            },
+            "x": 760,
+            "y": 426,
+            "originX": 0.5003441156228493,
+            "originY": 0.5006896551724138
+        },
+        {
+            "type": "Image",
+            "id": "b08b3534-e2db-40b2-84ae-aa88534e24d9",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "texture": {
+                "key": "logcabin",
+                "frame": "door"
+            },
+            "x": 421,
+            "y": 555
+        },
+        {
+            "type": "Rectangle",
+            "id": "cbcf1c96-bd4a-4d64-bd5f-f1d3144d23eb",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 420,
+            "y": 662.0000000000001,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.6254501023166346,
+            "originY": 0.7961357746050495,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

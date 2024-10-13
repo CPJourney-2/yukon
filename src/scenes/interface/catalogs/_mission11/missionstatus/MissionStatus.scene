@@ -1,0 +1,502 @@
+{
+    "id": "784b069b-763f-4b7a-b5f2-24a26aadb268",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "ce65507c-3297-4e7d-83c7-8286b38a78ff",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "d8b7af06-823b-4871-9f66-97c320b44dc4",
+                    "label": "widget_bg",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "texture": {
+                        "key": "missionstatus-pack",
+                        "frame": "widget_bg"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "73990ddd-479f-4ea3-b352-bae5ce0fa2cf",
+                    "label": "item_grid",
+                    "texture": {
+                        "key": "missionstatus-pack",
+                        "frame": "item_grid"
+                    },
+                    "x": -5,
+                    "y": -59
+                },
+                {
+                    "type": "Image",
+                    "id": "cde21234-529f-4484-84e6-00aeecccb1dc",
+                    "label": "nextPageBtn",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.nextPage()",
+                    "texture": {
+                        "key": "missionstatus-pack",
+                        "frame": "arrow"
+                    },
+                    "x": 599,
+                    "y": 328,
+                    "scaleX": 0.47,
+                    "scaleY": 0.47
+                },
+                {
+                    "type": "Image",
+                    "id": "4c2ae102-164a-43d1-a74e-62d667dd344d",
+                    "label": "prevPageBtn",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.prevPage()",
+                    "texture": {
+                        "key": "missionstatus-pack",
+                        "frame": "arrow"
+                    },
+                    "x": -601,
+                    "y": 328,
+                    "scaleX": 0.47,
+                    "scaleY": 0.47,
+                    "flipX": true,
+                    "alpha": 0.4,
+                    "alphaTopLeft": 0.4,
+                    "alphaTopRight": 0.4,
+                    "alphaBottomLeft": 0.4,
+                    "alphaBottomRight": 0.4
+                },
+                {
+                    "type": "Text",
+                    "id": "d0995924-d81e-4989-8f24-d9925f6831de",
+                    "label": "text_1",
+                    "x": -165,
+                    "y": -329,
+                    "text": "Special Gear",
+                    "fontFamily": "cplcd",
+                    "fontSize": "30px",
+                    "color": "#20d800ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "47984d48-48e9-49e8-98b2-91fa300b5e30",
+                    "label": "objective",
+                    "scope": "CLASS",
+                    "x": 293,
+                    "y": 17,
+                    "text": "Herbert P. Bear is up to no good. Track down his activities and stop him!",
+                    "fixedWidth": 322,
+                    "fontFamily": "cplcd",
+                    "fontSize": "30px",
+                    "color": "#20d800ff",
+                    "maxLines": 39,
+                    "wordWrapWidth": 322
+                },
+                {
+                    "type": "Text",
+                    "id": "44d40e14-ba92-4957-a99f-5007733db414",
+                    "label": "text_2",
+                    "x": 282,
+                    "y": -265,
+                    "text": "Current Objective",
+                    "fontFamily": "cplcd",
+                    "fontSize": "30px",
+                    "color": "#20d800ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "df44db29-388b-4032-a03d-6fea9e5adaaf",
+                    "label": "text_3",
+                    "x": -652,
+                    "y": -389,
+                    "text": "Logged in:",
+                    "fontFamily": "cplcd",
+                    "fontSize": "30px",
+                    "color": "#20d800ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "7c735226-9cfe-4b86-8a62-945c8817951c",
+                    "label": "agent_name",
+                    "scope": "CLASS",
+                    "x": -514,
+                    "y": -390,
+                    "text": "Agent P.",
+                    "fontFamily": "cplcd",
+                    "fontSize": "30px",
+                    "color": "#20d800ff"
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "059ecf22-e748-4f73-af93-b46f210f2b24",
+                    "label": "ellipse",
+                    "x": 31,
+                    "y": 279,
+                    "alpha": 0.5,
+                    "isFilled": true,
+                    "fillColor": "#17db07",
+                    "width": 15,
+                    "height": 15
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "10139ea0-2937-45b4-805b-7dd2b18281ea",
+                    "label": "ellipse_1",
+                    "x": -25,
+                    "y": 279,
+                    "isFilled": true,
+                    "fillColor": "#17db07",
+                    "width": 15,
+                    "height": 15
+                },
+                {
+                    "type": "Container",
+                    "id": "4e06bfca-43da-4c6f-96da-ef8666720e4f",
+                    "label": "page2_items",
+                    "scope": "CLASS",
+                    "x": -88,
+                    "y": -205,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "1ae28b31-9f33-46b4-ab5a-bae18afc6217",
+                            "label": "item7",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(380565)",
+                            "texture": {
+                                "key": "missionstatus-pack",
+                                "frame": "item7"
+                            },
+                            "y": 5,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d5626e6d-215b-42d0-b597-740055d1cf7d",
+                            "label": "item8",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(380566)",
+                            "texture": {
+                                "key": "missionstatus-pack",
+                                "frame": "item8"
+                            },
+                            "x": 164,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "aad16605-ffdd-42b5-ae3b-5e7652ab120e",
+                            "label": "item9",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(380567)",
+                            "texture": {
+                                "key": "missionstatus-pack",
+                                "frame": "item9"
+                            },
+                            "x": -2,
+                            "y": 156,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a1865f94-79fa-4d36-8e54-dfa145acd2b0",
+                            "label": "item10",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(380568)",
+                            "texture": {
+                                "key": "missionstatus-pack",
+                                "frame": "item10"
+                            },
+                            "x": 167,
+                            "y": 160,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f30ac6e4-25bd-4bee-99a5-7073203e6d0e",
+                            "label": "item11",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(380572)",
+                            "texture": {
+                                "key": "missionstatus-pack",
+                                "frame": "item11"
+                            },
+                            "x": -2,
+                            "y": 330,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2fd81f59-a5f9-4afb-be0a-a666cfe29889",
+                            "label": "item12",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showLocation(22)",
+                            "texture": {
+                                "key": "missionstatus-pack",
+                                "frame": "item12"
+                            },
+                            "x": 167,
+                            "y": 330,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "57f96572-3c3a-478e-be7d-ca001b153b2b",
+                    "label": "page1_items",
+                    "scope": "CLASS",
+                    "x": -88,
+                    "y": -205,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "0b5207bb-0342-4391-a9f7-e02374b4f083",
+                            "label": "item1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(380569)",
+                            "texture": {
+                                "key": "missionstatus-pack",
+                                "frame": "item1"
+                            },
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "271476c6-26ec-4944-865f-8fa9c8a56506",
+                            "label": "item",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(2056)",
+                            "texture": {
+                                "key": "missionstatus-pack",
+                                "frame": "item2"
+                            },
+                            "x": 167,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "bed8379d-f22f-4348-998a-0a8d9fed37cc",
+                            "label": "item_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(6114)",
+                            "texture": {
+                                "key": "missionstatus-pack",
+                                "frame": "item4"
+                            },
+                            "x": 167,
+                            "y": 167,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e27ec539-1e52-4d81-b20c-da5f6e23e9ff",
+                            "label": "item_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(4562)",
+                            "texture": {
+                                "key": "missionstatus-pack",
+                                "frame": "item3"
+                            },
+                            "y": 167,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5db00791-082b-4e8b-a668-4f3df8213eda",
+                            "label": "item_3",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(3132)",
+                            "texture": {
+                                "key": "missionstatus-pack",
+                                "frame": "item6"
+                            },
+                            "x": 167,
+                            "y": 330,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "95e0e008-6e65-428a-ba1b-ee1069a4bb07",
+                            "label": "item_4",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(14574)",
+                            "texture": {
+                                "key": "missionstatus-pack",
+                                "frame": "item5"
+                            },
+                            "y": 330,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "c901b889-9b7f-4529-872c-92e82c0ed0e2",
+                    "label": "_replay",
+                    "scope": "CLASS",
+                    "x": -590,
+                    "y": 119,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "64bbcd27-ef85-4ba6-a1bf-1d6966372dd4",
+                            "label": "replayButton",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => replayButton.setFillStyle(0x133306)",
+                            "SimpleButton.hoverOutCallback": "() => replayButton.setFillStyle(0x091D02)",
+                            "SimpleButton.callback": "() => this.onReplay()",
+                            "x": 151,
+                            "y": 24,
+                            "isFilled": true,
+                            "fillColor": "#091D02",
+                            "strokeColor": "#73F440",
+                            "lineWidth": 5,
+                            "isStroked": true,
+                            "width": 330,
+                            "height": 80
+                        },
+                        {
+                            "type": "Text",
+                            "id": "856b0b1e-cae3-45d7-a824-03b3cdc7c79e",
+                            "label": "replayText",
+                            "scope": "CLASS",
+                            "text": "REPLAY MISSION",
+                            "fixedWidth": 300,
+                            "fixedHeight": 80,
+                            "paddingLeft": 10,
+                            "paddingRight": 10,
+                            "align": "center",
+                            "fontFamily": "cplcd",
+                            "fontSize": "45px",
+                            "color": "#E0FFCC"
+                        }
+                    ]
+                },
+                {
+                    "type": "Sprite",
+                    "id": "5ac45f6d-5e96-472d-a529-d498e3a60a93",
+                    "label": "grey_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 703,
+                    "y": -428
+                },
+                {
+                    "type": "Image",
+                    "id": "a88659be-c898-4191-b645-7b40ac9be5af",
+                    "label": "grey_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 703,
+                    "y": -430
+                },
+                {
+                    "type": "Sprite",
+                    "id": "3d17cf5c-1f1e-4378-b176-1dc67d5cc08a",
+                    "label": "statusimage",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "missionstatus-pack",
+                        "frame": "statusthree"
+                    },
+                    "x": 449,
+                    "y": -109
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "2b065b8e-987c-417c-b4ff-89de9e646ddf",
+            "label": "pages",
+            "objectIds": [
+                "57f96572-3c3a-478e-be7d-ca001b153b2b",
+                "4e06bfca-43da-4c6f-96da-ef8666720e4f"
+            ]
+        },
+        {
+            "id": "24e8da47-d76e-4df7-806f-627c3e19ddd1",
+            "label": "paginationIcons",
+            "objectIds": [
+                "10139ea0-2937-45b4-805b-7dd2b18281ea",
+                "059ecf22-e748-4f73-af93-b46f210f2b24"
+            ]
+        }
+    ]
+}

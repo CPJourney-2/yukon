@@ -1,0 +1,1012 @@
+{
+    "id": "3c0c3425-704a-49c6-ae6e-6b872511a620",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 159,
+        "snapHeight": 31,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c2df2194-bb4a-4b41-8d90-aa5a6f01b553",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "d158c3ee-85e0-4239-a8ee-9059e72a1bda",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 761,
+                    "y": 483,
+                    "scaleX": 12.33917829927416,
+                    "scaleY": 8.201288318894823,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Container",
+                    "id": "ba9f8ea1-82ee-4b0a-b638-5bc751cfcf71",
+                    "label": "page13",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "de4843be-d340-4d50-98d0-ee914bba44d5",
+                            "label": "page_13",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-pg13"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "51dc9e9a-80e3-4013-b183-1b72af0311d7",
+                            "label": "closeRightFronty",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 284,
+                            "y": -357,
+                            "visible": false
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "3b2f03d5-b11f-4a6b-955d-1d0a55c67d47",
+                            "label": "rectangle",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.prevPage()",
+                            "x": -69,
+                            "y": -10,
+                            "scaleX": 5.129450930845441,
+                            "scaleY": 6.697870833083441,
+                            "width": 128,
+                            "height": 128
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b14e9442-43c5-4f2f-8d2d-b2ca270ceef9",
+                    "label": "page12",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "dfad2e3c-a610-4ced-882a-60b3e685e617",
+                            "label": "page_12",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-pg12"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "536578d5-b16e-4269-a94f-61c088d47a3e",
+                    "label": "page11",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b340cc93-313f-4f09-b427-719baa919978",
+                            "label": "page_11",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-pg11"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "e298a6f6-2ab4-43b4-ad0d-2a11645a84b8",
+                    "label": "page10",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "13c6f42e-eeca-4924-a008-bf52b61c83d3",
+                            "label": "page_10",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-pg10"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6e25fb54-1007-481b-9556-93caed492bde",
+                    "label": "page9",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f96dcbcd-c0b4-4580-a124-cc23164dc40c",
+                            "label": "page_9",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-pg9"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "cf35a102-589a-4e9d-8fce-1068e39c9998",
+                    "label": "page8",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ab87d698-94dd-4c99-89fe-909ff6489d0e",
+                            "label": "page_8",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-pg8"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b210e326-5f74-4384-86d8-e14ace4a0b7b",
+                    "label": "page7",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "e0d179a4-91f2-4f53-ad05-bb017253b433",
+                            "label": "page_7",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-pg7"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "cb43815e-69af-4ddd-98fd-a269bbc62c49",
+                    "label": "page6",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "dd919398-705e-40e3-9b2a-a43f6b7aa151",
+                            "label": "page_6",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-pg6"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ca89829d-44f0-4176-80a3-6623f4751209",
+                    "label": "page5",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "eafef7df-41ca-4e79-bbc9-a2b772bd447c",
+                            "label": "page_5",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-pg5"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b74f93d3-dacf-4990-9150-fdac443c00d4",
+                    "label": "page4",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "d63e5f66-6f4e-44a0-ae63-e72ee19a19d6",
+                            "label": "page_4",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-pg4"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "897b60e9-5edf-41f7-97d8-ff2d0ff282eb",
+                    "label": "page3",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "d0f143c1-60d4-4970-a725-cb325e2e6afe",
+                            "label": "page_3",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-pg3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "e52e31f4-a47c-47eb-9340-df93100b5319",
+                    "label": "page2",
+                    "x": 760,
+                    "y": 480,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b05e99a5-5721-471a-a99d-a985bde22ae3",
+                            "label": "page_2",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-pg2"
+                            }
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "bc90a864-bac0-4520-b051-768671eccf63",
+                            "label": "rectangle_3",
+                            "x": 362,
+                            "y": 238,
+                            "scaleX": 1.7954272268696712,
+                            "scaleY": 0.7076192278735185,
+                            "isFilled": true,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "529efba0-03e2-4be2-9f90-249995726918",
+                            "label": "rectangle_4",
+                            "x": 362,
+                            "y": -114,
+                            "scaleX": 1.6123217238688916,
+                            "scaleY": 3.8289177517700512,
+                            "isFilled": true,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Text",
+                            "id": "42c8fa0f-7dd5-4543-bddb-84d0e2f2d57d",
+                            "label": "toc_feb_1",
+                            "scope": "CLASS",
+                            "x": 363,
+                            "y": -336,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "February",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#66666600",
+                            "stroke": "#fefb86ff",
+                            "strokeThickness": 10
+                        },
+                        {
+                            "type": "Text",
+                            "id": "0d915427-6c7a-4769-8d86-65a55536b5a3",
+                            "label": "toc_photos_1",
+                            "scope": "CLASS",
+                            "x": 359,
+                            "y": 259,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "Photo Gallery",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#66666600",
+                            "stroke": "#fefb86ff",
+                            "strokeThickness": 10
+                        },
+                        {
+                            "type": "Text",
+                            "id": "418a3c30-2e50-4ecf-af8b-e3a127644bb1",
+                            "label": "toc_jan_1",
+                            "scope": "CLASS",
+                            "x": 359,
+                            "y": 216,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "January",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#66666600",
+                            "stroke": "#fefb86ff",
+                            "strokeThickness": 10
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f9067a51-1eac-459d-8876-8fd5221a06a8",
+                            "label": "toc_dec_1",
+                            "scope": "CLASS",
+                            "x": 363,
+                            "y": 110,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "December",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#66666600",
+                            "stroke": "#fefb86ff",
+                            "strokeThickness": 10
+                        },
+                        {
+                            "type": "Text",
+                            "id": "dc92e325-8b12-4b93-99a8-6a436c20837b",
+                            "label": "toc_nov_1",
+                            "scope": "CLASS",
+                            "x": 363,
+                            "y": 67,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "November",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#66666600",
+                            "stroke": "#fefb86ff",
+                            "strokeThickness": 10
+                        },
+                        {
+                            "type": "Text",
+                            "id": "d1d32e75-2b99-45f0-a568-dd3251cc0b97",
+                            "label": "toc_oct_1",
+                            "scope": "CLASS",
+                            "x": 363,
+                            "y": 23,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "October",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#66666600",
+                            "stroke": "#fefb86ff",
+                            "strokeThickness": 10
+                        },
+                        {
+                            "type": "Text",
+                            "id": "5ed5d182-341f-4e50-860d-66299712a037",
+                            "label": "toc_sep_1",
+                            "scope": "CLASS",
+                            "x": 363,
+                            "y": -23,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "September",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#66666600",
+                            "stroke": "#fefb86ff",
+                            "strokeThickness": 10
+                        },
+                        {
+                            "type": "Text",
+                            "id": "c4213949-e9d8-4f71-853a-b0df12712f88",
+                            "label": "toc_aug_1",
+                            "scope": "CLASS",
+                            "x": 363,
+                            "y": -67,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "August",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#66666600",
+                            "stroke": "#fefb86ff",
+                            "strokeThickness": 10
+                        },
+                        {
+                            "type": "Text",
+                            "id": "3f9e0aea-97a8-4deb-8e4f-6793c5fd0434",
+                            "label": "toc_jul_1",
+                            "scope": "CLASS",
+                            "x": 363,
+                            "y": -111,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "July",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#66666600",
+                            "stroke": "#fefb86ff",
+                            "strokeThickness": 10
+                        },
+                        {
+                            "type": "Text",
+                            "id": "3b05200c-3884-4ece-b5b3-82de3f64ff16",
+                            "label": "toc_jun_1",
+                            "scope": "CLASS",
+                            "x": 363,
+                            "y": -157,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "June",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#66666600",
+                            "stroke": "#fefb86ff",
+                            "strokeThickness": 10
+                        },
+                        {
+                            "type": "Text",
+                            "id": "361e2734-d195-4e16-8462-a9aea3759267",
+                            "label": "toc_may_1",
+                            "scope": "CLASS",
+                            "x": 363,
+                            "y": -202,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "May",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#66666600",
+                            "stroke": "#fefb86ff",
+                            "strokeThickness": 10
+                        },
+                        {
+                            "type": "Text",
+                            "id": "9d41f4ca-f17c-4884-bb8b-e6737ff4a8f2",
+                            "label": "toc_apr_1",
+                            "scope": "CLASS",
+                            "x": 363,
+                            "y": -246,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "April",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#66666600",
+                            "stroke": "#fefb86ff",
+                            "strokeThickness": 10
+                        },
+                        {
+                            "type": "Text",
+                            "id": "1ba7d8f1-0672-4778-a48f-046af395d287",
+                            "label": "toc_mar_1",
+                            "scope": "CLASS",
+                            "x": 363,
+                            "y": -291,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "March",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#66666600",
+                            "stroke": "#fefb86ff",
+                            "strokeThickness": 10
+                        },
+                        {
+                            "type": "Text",
+                            "id": "346b4fe7-b8d7-47ce-9134-4ac5dd321664",
+                            "label": "toc_feb",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onContentsHover('feb')",
+                            "SimpleButton.hoverOutCallback": "() => this.onContentsHoverOut('feb')",
+                            "SimpleButton.callback": "() => this.showPage(2)",
+                            "x": 363,
+                            "y": -335.5924987792969,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "February",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#666"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f412e54c-9aff-417c-85c7-1be9f3d4db8b",
+                            "label": "toc_mar",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onContentsHover('mar')",
+                            "SimpleButton.hoverOutCallback": "() => this.onContentsHoverOut('mar')",
+                            "SimpleButton.callback": "() => this.showPage(3)",
+                            "x": 363,
+                            "y": -290.5924987792969,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "March",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#666"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "7ab6f293-886e-4607-99a8-031a5cec6d33",
+                            "label": "toc_apr",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onContentsHover('apr')",
+                            "SimpleButton.hoverOutCallback": "() => this.onContentsHoverOut('apr')",
+                            "SimpleButton.callback": "() => this.showPage(3)",
+                            "x": 363,
+                            "y": -245.59249877929688,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "April",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#666"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f2a4cb09-69b1-41e9-983a-4e438ac43ef7",
+                            "label": "toc_may",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onContentsHover('may')",
+                            "SimpleButton.hoverOutCallback": "() => this.onContentsHoverOut('may')",
+                            "SimpleButton.callback": "() => this.showPage(4)",
+                            "x": 363,
+                            "y": -201.59249877929688,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "May",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#666"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "01463ae2-3390-4b60-adb2-fa15f86adc48",
+                            "label": "toc_jun",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onContentsHover('jun')",
+                            "SimpleButton.hoverOutCallback": "() => this.onContentsHoverOut('jun')",
+                            "SimpleButton.callback": "() => this.showPage(5)",
+                            "x": 363,
+                            "y": -156.59249877929688,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "June",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#666"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "bbdc7c0c-974e-4a11-b963-d9bf8147cda8",
+                            "label": "toc_jul",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onContentsHover('jul')",
+                            "SimpleButton.hoverOutCallback": "() => this.onContentsHoverOut('jul')",
+                            "SimpleButton.callback": "() => this.showPage(5)",
+                            "x": 363,
+                            "y": -110.59249877929688,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "July",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#666"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "4c60ab45-4f4d-4f9c-acea-07353af8073c",
+                            "label": "toc_aug",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onContentsHover('aug')",
+                            "SimpleButton.hoverOutCallback": "() => this.onContentsHoverOut('aug')",
+                            "SimpleButton.callback": "() => this.showPage(6)",
+                            "x": 363,
+                            "y": -66.59249877929688,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "August",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#666"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f63ab8ad-44b8-4998-a97d-9da26dedccf2",
+                            "label": "toc_sep",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onContentsHover('sep')",
+                            "SimpleButton.hoverOutCallback": "() => this.onContentsHoverOut('sep')",
+                            "SimpleButton.callback": "() => this.showPage(6)",
+                            "x": 363,
+                            "y": -22.592498779296875,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "September",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#666"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b3ad4588-5a75-492a-8769-a94841ad1476",
+                            "label": "toc_oct",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onContentsHover('oct')",
+                            "SimpleButton.hoverOutCallback": "() => this.onContentsHoverOut('oct')",
+                            "SimpleButton.callback": "() => this.showPage(7)",
+                            "x": 363,
+                            "y": 23.407501220703125,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "October",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#666"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "8b703171-5099-4474-9aed-46170829bedf",
+                            "label": "toc_nov",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onContentsHover('nov')",
+                            "SimpleButton.hoverOutCallback": "() => this.onContentsHoverOut('nov')",
+                            "SimpleButton.callback": "() => this.showPage(7)",
+                            "x": 363,
+                            "y": 67.40750122070312,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "November",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#666"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "e6a2f721-0f87-4f25-a51c-9756e920d5a2",
+                            "label": "toc_dec",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onContentsHover('dec')",
+                            "SimpleButton.hoverOutCallback": "() => this.onContentsHoverOut('dec')",
+                            "SimpleButton.callback": "() => this.showPage(8)",
+                            "x": 363,
+                            "y": 110.40750122070312,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "December",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#666"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f306658c-4e9d-4a5e-882c-8a8e2d6e8111",
+                            "label": "toc_jan",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onContentsHover('jan')",
+                            "SimpleButton.hoverOutCallback": "() => this.onContentsHoverOut('jan')",
+                            "SimpleButton.callback": "() => this.showPage(9)",
+                            "x": 359,
+                            "y": 216.40750122070312,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "January",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#666"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "5df44a9b-2cdc-4580-9cda-2769aa66f615",
+                            "label": "toc_photos",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onContentsHover('photos')",
+                            "SimpleButton.hoverOutCallback": "() => this.onContentsHoverOut('photos')",
+                            "SimpleButton.callback": "() => this.showPage(9)",
+                            "x": 359,
+                            "y": 259.4075012207031,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Photo Gallery",
+                            "fixedWidth": 250,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "35px",
+                            "color": "#666"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "776b1ada-1bd8-4f57-a1e4-1724c793bf0d",
+                    "label": "page1",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "1ef12729-2dac-41be-a6bb-8dcd963a6753",
+                            "label": "page",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-pg1"
+                            }
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "4fe1c69e-d2e7-47bd-99a4-e0c696f8ad70",
+                            "label": "rectangle_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.nextPage()",
+                            "x": 11,
+                            "y": -10,
+                            "scaleX": 5.129450930845441,
+                            "scaleY": 6.697870833083441,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "cd18b420-84af-448c-abed-de1e7d538318",
+                            "label": "closeRightFront",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 284,
+                            "y": -357
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2d92e31f-a3ff-458f-8d06-f8126d88ceb8",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 780.0900074968481,
+                    "y": 592.0151470567336,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "3eaa2193-0392-4af1-ac48-0f3aa6754633",
+                            "label": "closeRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 610,
+                            "y": -466
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "758520eb-f101-4ebb-9645-3c6e5ea06528",
+                            "label": "pageRight",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => pageRight.play('pageturn')",
+                            "SimpleButton.hoverOutCallback": "() => pageRight.play('pageturn-rev')",
+                            "SimpleButton.callback": "() => this.nextPage()",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-turnbtn0001"
+                            },
+                            "x": 604,
+                            "y": 199
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "7c466229-423b-45df-bce7-1802b6437331",
+                            "label": "pageLeft",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => pageLeft.play('pageturn')",
+                            "SimpleButton.hoverOutCallback": "() => pageLeft.play('pageturn-rev')",
+                            "SimpleButton.callback": "() => this.prevPage()",
+                            "texture": {
+                                "key": "yearbook2324",
+                                "frame": "yearbook-turnbtn0001"
+                            },
+                            "x": -647,
+                            "y": 197,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Text",
+                            "id": "67cc1886-94b0-43a7-b75f-23a352f78c7c",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": -744,
+                            "y": -680,
+                            "visible": false,
+                            "text": "New text"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1029921f-26d0-4b4f-8a57-2e9fcf458660",
+            "label": "pages",
+            "objectIds": [
+                "776b1ada-1bd8-4f57-a1e4-1724c793bf0d",
+                "e52e31f4-a47c-47eb-9340-df93100b5319",
+                "897b60e9-5edf-41f7-97d8-ff2d0ff282eb",
+                "b74f93d3-dacf-4990-9150-fdac443c00d4",
+                "ca89829d-44f0-4176-80a3-6623f4751209",
+                "cb43815e-69af-4ddd-98fd-a269bbc62c49",
+                "b210e326-5f74-4384-86d8-e14ace4a0b7b",
+                "cf35a102-589a-4e9d-8fce-1068e39c9998",
+                "6e25fb54-1007-481b-9556-93caed492bde",
+                "e298a6f6-2ab4-43b4-ad0d-2a11645a84b8",
+                "536578d5-b16e-4269-a94f-61c088d47a3e",
+                "b14e9442-43c5-4f2f-8d2d-b2ca270ceef9",
+                "ba9f8ea1-82ee-4b0a-b638-5bc751cfcf71"
+            ]
+        }
+    ]
+}

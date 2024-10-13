@@ -1,0 +1,261 @@
+{
+    "id": "f01846d2-239d-4c96-b6f1-4458ce6861d8",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapEnabled": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c78a9501-c3e6-456b-b088-10901aee86b1",
+            "label": "container_1",
+            "components": [
+                "DraggableContainer"
+            ],
+            "DraggableContainer.handle": "window",
+            "x": 758,
+            "y": 447,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "df669162-25bf-4664-8e4a-9f330a52666d",
+                    "label": "window",
+                    "texture": {
+                        "key": "treasurehunt",
+                        "frame": "windowbg"
+                    },
+                    "x": 1
+                },
+                {
+                    "type": "RoundedRectangleImage",
+                    "id": "4e8d7db1-0b2a-4a35-95a1-2a52f8a329cb",
+                    "label": "bluerectangle",
+                    "y": 17,
+                    "width": 600,
+                    "height": 730,
+                    "fillColor": "#11529B",
+                    "isStroked": false,
+                    "radiusTopLeft": 25,
+                    "radiusTopRight": 25,
+                    "radiusBottomLeft": 25,
+                    "radiusBottomRight": 25
+                },
+                {
+                    "type": "Image",
+                    "id": "9371e8bf-b0bc-402c-b240-929eeab4297d",
+                    "label": "boxbg",
+                    "texture": {
+                        "key": "treasurehunt",
+                        "frame": "boxbg"
+                    },
+                    "x": 3,
+                    "y": 76
+                },
+                {
+                    "prefabId": "aa157151-c6e0-4443-8649-1a137743c2ee",
+                    "id": "4c94f5dd-97ab-4e54-a793-c921f4897848",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "player2",
+                    "scope": "CLASS",
+                    "x": -248,
+                    "y": -248
+                },
+                {
+                    "prefabId": "aa157151-c6e0-4443-8649-1a137743c2ee",
+                    "id": "8c072a10-f47a-465a-a370-fd50374bae01",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "player1",
+                    "scope": "CLASS",
+                    "x": -248,
+                    "y": -311
+                },
+                {
+                    "type": "Image",
+                    "id": "f50ccb80-d678-4490-b085-fd8643cea37c",
+                    "label": "icons_coin",
+                    "texture": {
+                        "key": "treasurehunt",
+                        "frame": "icons/coin"
+                    },
+                    "x": -65,
+                    "y": 350
+                },
+                {
+                    "type": "Text",
+                    "id": "c4e796af-1b28-4d2e-89ea-3c7bfb7d1071",
+                    "label": "gemCount",
+                    "scope": "CLASS",
+                    "x": -227,
+                    "y": 336,
+                    "text": "Gems: 0",
+                    "fixedWidth": 100,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px"
+                },
+                {
+                    "type": "Image",
+                    "id": "bd9a8229-5ab7-455d-82f1-70cdab796865",
+                    "label": "icons_gem",
+                    "texture": {
+                        "key": "treasurehunt",
+                        "frame": "icons/gem"
+                    },
+                    "x": -254,
+                    "y": 350
+                },
+                {
+                    "type": "Text",
+                    "id": "dcc95ecd-be1a-4ec0-b149-ee9d0c5e7dbb",
+                    "label": "coinCount",
+                    "scope": "CLASS",
+                    "x": -41,
+                    "y": 336,
+                    "text": "Coins: 0",
+                    "fixedWidth": 120,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px"
+                },
+                {
+                    "type": "Image",
+                    "id": "18fd13c8-a443-41f2-89af-496fa5d52c3d",
+                    "label": "icons_chest",
+                    "texture": {
+                        "key": "treasurehunt",
+                        "frame": "icons/chest"
+                    },
+                    "x": 121,
+                    "y": 350
+                },
+                {
+                    "type": "Text",
+                    "id": "41a57a9e-d3ae-4584-90e4-660975a169aa",
+                    "label": "totalCount",
+                    "scope": "CLASS",
+                    "x": 148,
+                    "y": 336,
+                    "text": "Total: 0",
+                    "fixedWidth": 140,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px"
+                },
+                {
+                    "prefabId": "d05d1c36-ac03-4965-80fa-79e8df704965",
+                    "id": "8f912786-524f-447d-aa16-f62f8fd23f66",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "board",
+                    "scope": "CLASS",
+                    "x": -184,
+                    "y": -104
+                },
+                {
+                    "type": "Container",
+                    "id": "41f71f59-6167-4d1a-85d2-f006276a2410",
+                    "label": "emeraldDiscovered",
+                    "scope": "CLASS",
+                    "x": 21.315185546875,
+                    "y": -50.427581787109375,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "RoundedRectangleImage",
+                            "id": "9ade6513-d0f1-4f0d-bf7d-297d55311add",
+                            "label": "emeraldBlock",
+                            "components": [
+                                "Interactive"
+                            ],
+                            "x": -21,
+                            "y": 68,
+                            "width": 600,
+                            "height": 730,
+                            "fillColor": "#000",
+                            "fillAlpha": 0.2,
+                            "isStroked": false,
+                            "radiusTopLeft": 25,
+                            "radiusTopRight": 25,
+                            "radiusBottomLeft": 25,
+                            "radiusBottomRight": 25
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "aaaa6306-f24a-4d4c-a461-18f74a97cf85",
+                            "label": "emeraldBonus",
+                            "scope": "CLASS",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "emeraldBonus",
+                            "Animation.end": 42,
+                            "Animation.repeat": 0,
+                            "Animation.autoPlay": false,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "emeraldBonus0001"
+                            },
+                            "x": -21,
+                            "y": 65
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "9eee329c-ab1e-4e40-9949-fd7a1f1a0508",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 273,
+                    "y": -322
+                },
+                {
+                    "type": "Image",
+                    "id": "7583ca44-3abe-403e-9adb-f44e6d03c299",
+                    "label": "blue_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 273,
+                    "y": -324
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "fed2c198-258f-4f6a-b7e3-21b688fed227",
+            "label": "placers"
+        }
+    ]
+}

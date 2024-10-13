@@ -1,0 +1,745 @@
+{
+    "id": "2be78fd2-4639-4da9-8bff-f35ecbc28a90",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 36,
+        "snapHeight": 5,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "bfaa02be-42e7-4151-a022-1a38f8f54b3a",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "43dbb293-36da-4727-8b01-a9969fda2bec",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "b3c08568-1de6-4dea-8f03-d6188bdeead3",
+                    "label": "mapref",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "mapref"
+                    },
+                    "y": -1,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "73f0ef50-9dab-4b31-8ecf-94b274494790",
+                    "label": "nightsky",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "sky"
+                    },
+                    "x": 764,
+                    "y": 233,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "ffeb6a78-ba45-41e7-b2cd-89762d6e9540",
+                    "label": "nightsky_1",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "sky"
+                    },
+                    "x": 4,
+                    "y": -248
+                },
+                {
+                    "type": "Image",
+                    "id": "717a5195-5543-4e75-81cb-7f34d4ec6fc8",
+                    "label": "sky_no_clouds",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "sky_no_clouds"
+                    },
+                    "x": 4,
+                    "y": -248,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "a8006f20-b984-44b2-ab85-83353bf93403",
+                    "label": "meteors0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "meteors0001"
+                    },
+                    "x": -16,
+                    "y": -193
+                },
+                {
+                    "type": "Image",
+                    "id": "b75c1236-df6c-4aa0-8c77-2dec7abae1da",
+                    "label": "above_sky",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "above_sky"
+                    },
+                    "x": 3,
+                    "y": 42
+                },
+                {
+                    "type": "Sprite",
+                    "id": "20a455bb-0c74-4304-a685-74d06a64db34",
+                    "label": "FIRE0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "FIRE0001"
+                    },
+                    "x": 602,
+                    "y": 220
+                },
+                {
+                    "type": "Image",
+                    "id": "a1e2ffdf-d21e-45d5-be40-1a3cd3430b2e",
+                    "label": "above_fire",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "above_fire"
+                    },
+                    "x": 65,
+                    "y": 112
+                },
+                {
+                    "type": "Image",
+                    "id": "6c8b7c14-aca7-4c7d-9db4-5c998557a7b1",
+                    "label": "night_mountain",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "night_mountain",
+                    "Button.callback": "() => this.onRoomClick(230)",
+                    "ShowHint.text": "Ski Hill",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_mountain"
+                    },
+                    "x": -409,
+                    "y": -137
+                },
+                {
+                    "type": "Image",
+                    "id": "49821968-b222-4435-8fb2-0d370bb75e37",
+                    "label": "night_dojo",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "night_dojo",
+                    "Button.callback": "() => this.onRoomClick(319)",
+                    "ShowHint.text": "dojoext_hint",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_dojo"
+                    },
+                    "x": 152,
+                    "y": -184
+                },
+                {
+                    "type": "Image",
+                    "id": "53a85eac-062b-4ea8-b762-515a1449b0cb",
+                    "label": "between_rooms",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "between_rooms"
+                    },
+                    "x": -473,
+                    "y": 14
+                },
+                {
+                    "type": "Image",
+                    "id": "7673c383-d126-4219-b3d0-98bf7bb1d935",
+                    "label": "night_lighthouse",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "night_lighthouse",
+                    "Button.hoverCallback": "() => this.onBeachOver()",
+                    "Button.hoverOutCallback": "() => this.onBeachOut()",
+                    "Button.callback": "() => this.onRoomClick(400)",
+                    "ShowHint.text": "beach_hint",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_lighthouse"
+                    },
+                    "x": -662,
+                    "y": 153
+                },
+                {
+                    "type": "Sprite",
+                    "id": "bedb6bb6-5aab-4357-9779-0e60bfca0b59",
+                    "label": "lighthouse_light_base0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "lighthouse_light_base",
+                    "Animation.end": 96,
+                    "Animation.stopOnOut": false,
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "lighthouse_light_base0001"
+                    },
+                    "x": -647,
+                    "y": 106
+                },
+                {
+                    "type": "Sprite",
+                    "id": "af1deef5-bf21-46e6-905d-024af0f4e230",
+                    "label": "lighthouse_light_hover0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "lighthouse_light_hover",
+                    "Animation.end": 96,
+                    "Animation.stopOnOut": false,
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "lighthouse_light_hover0001"
+                    },
+                    "x": -647,
+                    "y": 102,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "4c9e83d4-171a-49c9-b106-71904b5672b2",
+                    "label": "night_dock_base0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_dock_base0001"
+                    },
+                    "x": -417,
+                    "y": 293,
+                    "scaleX": 0.666666,
+                    "scaleY": 0.6666666666
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d68a2607-bc3f-4689-8023-117f545815f8",
+                    "label": "night_dock_hover0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_dock_hover0001"
+                    },
+                    "x": -417,
+                    "y": 293,
+                    "scaleX": 0.6666666666666666,
+                    "scaleY": 0.6666666666666666,
+                    "visible": false
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "25d5178e-5cbc-48ed-b24d-f9af318724f7",
+                    "label": "dock_button",
+                    "components": [
+                        "SimpleButton",
+                        "ShowHint"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onDockOver()",
+                    "SimpleButton.hoverOutCallback": "() => this.onDockOut()",
+                    "SimpleButton.callback": "() => this.onRoomClick(800)",
+                    "ShowHint.text": "dock_hint",
+                    "x": -413,
+                    "y": 297,
+                    "isFilled": true,
+                    "fillAlpha": 1e-12,
+                    "width": 138,
+                    "height": 117
+                },
+                {
+                    "type": "Image",
+                    "id": "66c7e498-020c-4cce-b665-73bb09e4d70a",
+                    "label": "night_village",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "night_village",
+                    "Button.callback": "() => this.onRoomClick(200)",
+                    "ShowHint.text": "village_hint",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_village"
+                    },
+                    "x": -372,
+                    "y": -15
+                },
+                {
+                    "type": "Sprite",
+                    "id": "6c1ab969-47ee-4bbf-a61c-5e6a399c56ac",
+                    "label": "night_town_base0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_town_base0001"
+                    },
+                    "x": -196,
+                    "y": 105
+                },
+                {
+                    "type": "Sprite",
+                    "id": "5b82ffb4-b0c1-46ce-850e-0af84a41038a",
+                    "label": "night_town_hover0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_town_hover0001"
+                    },
+                    "x": -196,
+                    "y": 105,
+                    "visible": false
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "f68fe57d-dae9-43fa-9998-7f436752c567",
+                    "label": "town_button",
+                    "components": [
+                        "SimpleButton",
+                        "ShowHint"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onTownOver()",
+                    "SimpleButton.hoverOutCallback": "() => this.onTownOut()",
+                    "SimpleButton.callback": "() => this.onRoomClick(100)",
+                    "ShowHint.text": "town_hint",
+                    "x": -204,
+                    "y": 100,
+                    "isFilled": true,
+                    "fillAlpha": 1e-12,
+                    "width": 242,
+                    "height": 117
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ee63d3d1-431c-4cab-b578-cb0e47e884ae",
+                    "label": "night_club_lights0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_club_lights0001"
+                    },
+                    "x": -195,
+                    "y": 64
+                },
+                {
+                    "type": "Image",
+                    "id": "b6b5af35-1e50-44e3-9392-8dff3aaa6623",
+                    "label": "night_rink",
+                    "components": [
+                        "ShowHint",
+                        "Button"
+                    ],
+                    "ShowHint.text": "rink_hint",
+                    "Button.spriteName": "night_rink",
+                    "Button.callback": "() => this.onRoomClick(802)",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_rink"
+                    },
+                    "x": -130,
+                    "y": -42
+                },
+                {
+                    "type": "Image",
+                    "id": "ae46a2ba-ac99-46f0-9536-5c4dd6139f13",
+                    "label": "night_stadium",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "night_stadium",
+                    "Button.callback": "() => this.onRoomClick(802)",
+                    "ShowHint.text": "rink_hint",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_stadium"
+                    },
+                    "x": -130,
+                    "y": -41,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "21f37e22-1453-42b5-aca1-386af7dfe1ad",
+                    "label": "night_forts_base0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_forts_base0001"
+                    },
+                    "x": 15,
+                    "y": 38,
+                    "scaleX": 0.6,
+                    "scaleY": 0.6
+                },
+                {
+                    "type": "Sprite",
+                    "id": "71d2fd55-57b1-41fa-b9d1-24186c0eb962",
+                    "label": "night_forts_hover0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_forts_hover0001"
+                    },
+                    "x": 15,
+                    "y": 37,
+                    "scaleX": 0.6,
+                    "scaleY": 0.6,
+                    "visible": false
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "80cc3e29-0de1-4ca0-8469-d2e89d2c8a31",
+                    "label": "forts_button",
+                    "components": [
+                        "SimpleButton",
+                        "ShowHint"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onFortsOver()",
+                    "SimpleButton.hoverOutCallback": "() => this.onFortsOut()",
+                    "SimpleButton.callback": "() => this.onRoomClick(801)",
+                    "ShowHint.text": "forts_hint",
+                    "x": 26,
+                    "y": 43,
+                    "isFilled": true,
+                    "fillAlpha": 1e-12,
+                    "width": 138,
+                    "height": 117
+                },
+                {
+                    "type": "Image",
+                    "id": "7f6b0efd-5438-4dd2-b37a-1c6eec5c9fdf",
+                    "label": "night_plaza",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "night_plaza",
+                    "Button.callback": "() => this.onRoomClick(300)",
+                    "ShowHint.text": "plaza_hint",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_plaza"
+                    },
+                    "x": 238,
+                    "y": 86,
+                    "scaleX": 0.9,
+                    "scaleY": 0.9,
+                    "angle": 4
+                },
+                {
+                    "type": "Image",
+                    "id": "12f78bd4-2c38-4cde-a502-1188290f4dcc",
+                    "label": "night_forest",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "night_forest",
+                    "Button.callback": "() => this.onRoomClick(809)",
+                    "ShowHint.text": "forest_hint",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_forest"
+                    },
+                    "x": 393,
+                    "y": 125
+                },
+                {
+                    "type": "Image",
+                    "id": "db42dd9c-29a4-454c-b38e-1ae038e40ee8",
+                    "label": "night_shack",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "night_shack",
+                    "Button.callback": "() => this.onRoomClick(807)",
+                    "ShowHint.text": "Mine Shack",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_shack"
+                    },
+                    "x": 441,
+                    "y": -3
+                },
+                {
+                    "type": "Image",
+                    "id": "264c7d29-070a-4684-a320-51fa3caa1098",
+                    "label": "night_cove",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "night_cove",
+                    "Button.callback": "() => this.onRoomClick(810)",
+                    "ShowHint.text": "The Cove",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_cove"
+                    },
+                    "x": 636,
+                    "y": 183
+                },
+                {
+                    "type": "Image",
+                    "id": "75219ba8-7b2c-4dc5-92c2-47ca47485caf",
+                    "label": "night_berg",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onRoomClick(805)",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_berg"
+                    },
+                    "x": 655,
+                    "y": -38
+                },
+                {
+                    "type": "Image",
+                    "id": "c6f2a953-894a-470b-9cb5-88468679dd2a",
+                    "label": "trees",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "trees"
+                    },
+                    "x": 29,
+                    "y": 137
+                },
+                {
+                    "type": "Image",
+                    "id": "1ca5b811-3ad1-4961-96dd-1dfd0fd14767",
+                    "label": "night_igloos",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "night_igloos",
+                    "Button.callback": "() => this.iglooMap.show()",
+                    "ShowHint.text": "igloos_hint",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_igloos"
+                    },
+                    "x": -135,
+                    "y": 262
+                },
+                {
+                    "type": "Image",
+                    "id": "b37f7300-f213-4763-8944-ca8655e7f605",
+                    "label": "randomtree",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "randomtree"
+                    },
+                    "x": -69,
+                    "y": 280
+                },
+                {
+                    "type": "Image",
+                    "id": "e96307c6-ecaf-46a1-aa1d-ac4648c76daa",
+                    "label": "night_wr",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "night_wr",
+                    "Button.callback": "() => this.onRoomClick(1)",
+                    "ShowHint.text": "Welcome Room",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "night_wr"
+                    },
+                    "x": 65,
+                    "y": 172
+                },
+                {
+                    "type": "Image",
+                    "id": "2d206c16-84ec-49a8-8bc8-f83e67617cd5",
+                    "label": "fisherman0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "fisherman0001"
+                    },
+                    "x": 244,
+                    "y": 227
+                },
+                {
+                    "type": "Image",
+                    "id": "aa2c9e9a-9f66-454f-8bea-3410503df1a7",
+                    "label": "randomigloo",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "randomigloo"
+                    },
+                    "x": 284,
+                    "y": 288
+                },
+                {
+                    "type": "Sprite",
+                    "id": "2f0c9db5-ea2b-405b-93d1-f32e501334ae",
+                    "label": "water_one0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "water_one0001"
+                    },
+                    "x": -661,
+                    "y": -16
+                },
+                {
+                    "type": "Sprite",
+                    "id": "7e170d27-d520-4ac8-b2b1-d32ffcb2c935",
+                    "label": "water_two0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "water_two0001"
+                    },
+                    "x": -585,
+                    "y": -93
+                },
+                {
+                    "type": "Sprite",
+                    "id": "53d03b1b-a628-4234-802e-6421235ec164",
+                    "label": "water_three0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "water_three0001"
+                    },
+                    "x": -651,
+                    "y": -74
+                },
+                {
+                    "type": "Image",
+                    "id": "86bfc247-00d4-4136-a27f-42f5cbb04203",
+                    "label": "square",
+                    "texture": {
+                        "key": "mapnight",
+                        "frame": "square"
+                    },
+                    "x": 3,
+                    "y": -2
+                },
+                {
+                    "type": "Image",
+                    "id": "6466fda5-512e-4d12-9c12-084e900d2f3e",
+                    "label": "grey_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => { this.closeMap() }",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 695,
+                    "y": -402
+                },
+                {
+                    "type": "Image",
+                    "id": "45830b5d-99cb-41f8-8903-65046e08ebfe",
+                    "label": "grey_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 695,
+                    "y": -404
+                },
+                {
+                    "prefabId": "9f793ade-93a8-4ab2-bd68-ccd899fb9179",
+                    "id": "10280413-fe4e-43c5-87a0-4ff109f3c31a",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "iglooMap",
+                    "scope": "CLASS",
+                    "x": 0,
+                    "y": 0,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

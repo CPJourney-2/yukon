@@ -1,0 +1,116 @@
+{
+    "id": "241e4ec8-a598-4044-ac3d-16018d98a455",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "f595451b-6b08-4f07-b130-1acc2d80bb3b",
+            "label": "item",
+            "components": [],
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "8c198d65-f740-4450-bd50-167eecfa2a1f",
+                    "label": "clickArea",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onHover()",
+                    "SimpleButton.hoverOutCallback": "() => this.onHoverOut()",
+                    "SimpleButton.callback": "() => this.onClick()",
+                    "y": 8,
+                    "originX": 0,
+                    "originY": 0,
+                    "alpha": 0.91,
+                    "fillColor": "#98CAEA",
+                    "width": 128,
+                    "height": 57,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "682ad60b-15f6-4d7b-bfc7-4e3b2ee00b2b",
+                    "label": "icon",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "testCategory"
+                    },
+                    "x": 37,
+                    "y": 36,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "d054d1ed-fae0-4374-b724-2098c13756c3",
+                    "label": "text",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 69,
+                    "y": 23,
+                    "text": "All Stamps",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "list": []
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "8fdaef3c-38fd-41c9-a5af-6eed3d538676",
+                    "label": "divider",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "stampbook-editor",
+                        "frame": "selectionMenuHorizontalDivider"
+                    },
+                    "x": 10,
+                    "y": 8,
+                    "originX": 0,
+                    "width": 230,
+                    "height": 20,
+                    "leftWidth": 4,
+                    "rightWidth": 9,
+                    "topHeight": 2,
+                    "bottomHeight": 1,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "33ec75f6-7f1f-4943-a716-0031ae29f19b",
+                    "label": "arrow",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "stampbook-editor",
+                        "frame": "arrow"
+                    },
+                    "x": 215,
+                    "y": 39,
+                    "originX": 1,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

@@ -1,0 +1,273 @@
+{
+    "id": "d47a8743-5c64-4d23-9f38-08e9d74eff0b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapHeight": 52,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "2e3cb4cb-5882-4e08-bbc6-e88eee8ac431",
+            "label": "container_1",
+            "components": [
+                "DraggableContainer"
+            ],
+            "DraggableContainer.handle": "card_bg",
+            "x": 309,
+            "y": 431,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "77f50a68-2163-41aa-adfc-2484fe79a620",
+                    "label": "wheel",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "main",
+                        "frame": "phone/spy_wheel0001"
+                    },
+                    "x": -100,
+                    "y": -20
+                },
+                {
+                    "type": "Sprite",
+                    "id": "16d391d0-1a9a-4786-87c2-2d614341bfa4",
+                    "label": "comb",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "main",
+                        "frame": "phone/comb0001"
+                    },
+                    "x": 105,
+                    "y": -45
+                },
+                {
+                    "type": "Sprite",
+                    "id": "c8cc1ae9-cefc-46bf-abb9-0e7107a2c98b",
+                    "label": "combtwo",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "main",
+                        "frame": "phone/wrench0001"
+                    },
+                    "x": 88,
+                    "y": -49
+                },
+                {
+                    "type": "Sprite",
+                    "id": "4c0fc620-d37f-4331-b51e-ed9221ab0929",
+                    "label": "combthree",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "main",
+                        "frame": "phone/scissors0001"
+                    },
+                    "x": 124,
+                    "y": -42,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "a95e00f1-6c2c-4342-99c2-a511260db9fe",
+                    "label": "card_bg",
+                    "texture": {
+                        "key": "main",
+                        "frame": "phone/spyphone"
+                    },
+                    "x": -133,
+                    "y": -262,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "2ac6e99f-200e-4c66-bf80-a3495a593265",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "phone/phone_x",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "phone/phone_x"
+                    },
+                    "x": 94,
+                    "y": -121
+                },
+                {
+                    "type": "Sprite",
+                    "id": "9d4baa01-c0e3-4b73-b474-8278a9f108e7",
+                    "label": "phonelight",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "phone/phonelight",
+                    "Animation.end": 648,
+                    "texture": {
+                        "key": "main",
+                        "frame": "phone/phonelight0001"
+                    },
+                    "x": 37,
+                    "y": -157,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "ebb32032-a1b1-416f-8049-e93758ed47cb",
+                    "label": "phonebutton",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "phone/phonebutton",
+                    "Button.callback": "() => this.teleport()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "phone/phonebutton"
+                    },
+                    "x": -1,
+                    "y": 39
+                },
+                {
+                    "type": "Image",
+                    "id": "e39b756e-05d6-4169-bc5f-fbf1a9b2a7bd",
+                    "label": "phonebutton_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "phone/phonebutton",
+                    "Button.callback": "() => this.HQTeleport(803)",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "phone/phonebutton"
+                    },
+                    "x": -1,
+                    "y": 122
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "43816989-f964-4251-9ead-ff4a48979748",
+                    "label": "tools",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.toolClick()",
+                    "x": 45,
+                    "y": -143,
+                    "alpha": 1e-8,
+                    "isFilled": true,
+                    "width": 34,
+                    "height": 40
+                },
+                {
+                    "type": "Text",
+                    "id": "27618a10-1aea-4bea-820e-40099f812951",
+                    "label": "text_1",
+                    "x": -1,
+                    "y": 125,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Visit HQ",
+                    "fixedWidth": 200,
+                    "fixedHeight": 40,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Text",
+                    "id": "f3099783-42a0-4edc-b088-13810105fa0b",
+                    "label": "text",
+                    "x": -1,
+                    "y": 41,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Teleport",
+                    "fixedWidth": 200,
+                    "fixedHeight": 40,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Text",
+                    "id": "9017e0cf-c2df-47be-aacb-208e607c0f26",
+                    "label": "roomtext",
+                    "scope": "CLASS",
+                    "x": -1,
+                    "y": -52,
+                    "scaleY": 1.4,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "ROOOOM",
+                    "fixedWidth": 220,
+                    "fixedHeight": 42,
+                    "align": "center",
+                    "fontFamily": "CPLCD",
+                    "fontSize": "38px",
+                    "color": "#000000ff",
+                    "stroke": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "05b03532-5924-43fe-aac6-c6b6bcf55da0",
+                    "label": "wheeldowner",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "phone/wheeldowner",
+                    "Button.callback": "() => this.wheelDown()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "phone/wheeldowner"
+                    },
+                    "x": -159,
+                    "y": 30
+                },
+                {
+                    "type": "Image",
+                    "id": "41becf18-7929-4efe-b899-1c23640f9110",
+                    "label": "wheeluper",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "phone/wheeluper",
+                    "Button.callback": "() => this.wheelUp()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "phone/wheeluper"
+                    },
+                    "x": -159,
+                    "y": -72
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "3a2022e0-a154-4abb-8444-0210e4c14fe6",
+            "label": "items"
+        }
+    ]
+}

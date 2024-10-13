@@ -1,0 +1,509 @@
+{
+    "id": "092e5111-82e2-4289-8f29-b8d9568e9497",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 132,
+        "snapHeight": 132,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "756cf99e-60b7-437d-b065-1538e6f59923",
+            "label": "container_1",
+            "x": 760,
+            "y": 460,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "eae4d995-d616-4c16-8c52-98e843ce92a3",
+                    "label": "container",
+                    "scope": "CLASS",
+                    "x": -56,
+                    "y": -272,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f20da11a-78aa-4baf-ac70-37e03e3cd66c",
+                            "label": "inventory_bg",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "main",
+                                "frame": "inventory/bg"
+                            },
+                            "x": 56,
+                            "y": 270
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d4dec657-fcbd-4344-a016-ccc04f1a99d9",
+                            "label": "inventory_scroll",
+                            "texture": {
+                                "key": "main",
+                                "frame": "inventory/scroll"
+                            },
+                            "x": 368,
+                            "y": 245
+                        },
+                        {
+                            "type": "Image",
+                            "id": "815e0fe9-d8dd-46d0-9684-8cc3e4356375",
+                            "label": "down_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "grey-button",
+                            "Button.callback": "() => { this.nextPage() }",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-button"
+                            },
+                            "x": 368,
+                            "y": 472
+                        },
+                        {
+                            "type": "Image",
+                            "id": "bf4588bb-b113-44cd-9dc1-06f94cb2d3bc",
+                            "label": "grey_arrow_1",
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-arrow"
+                            },
+                            "x": 368,
+                            "y": 470,
+                            "flipY": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0b5533b7-c680-4a0f-81c6-e21150533bd6",
+                            "label": "up_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "grey-button",
+                            "Button.callback": "() => { this.prevPage() }",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-button"
+                            },
+                            "x": 368,
+                            "y": 2
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d6e0be58-df01-418e-a4ca-3f1654bbdfd8",
+                            "label": "grey_arrow",
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-arrow"
+                            },
+                            "x": 368
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d6a6ceec-2733-4ce8-b3db-fc8512d511db",
+                            "label": "slot_12",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "large-box",
+                            "Button.hoverCallback": "() => { this.onHover(11, slot_12) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_12) }",
+                            "Button.callback": "() => { this.onSlotClick(11) }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "large-box"
+                            },
+                            "x": 264,
+                            "y": 450
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5885b455-3d59-4919-bf64-e62dec45af64",
+                            "label": "slot_11",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "large-box",
+                            "Button.hoverCallback": "() => { this.onHover(10, slot_11) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_11) }",
+                            "Button.callback": "() => { this.onSlotClick(10) }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "large-box"
+                            },
+                            "x": 132,
+                            "y": 450
+                        },
+                        {
+                            "type": "Image",
+                            "id": "85944064-4368-4806-88aa-b2a320d17fff",
+                            "label": "slot_10",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "large-box",
+                            "Button.hoverCallback": "() => { this.onHover(9, slot_10) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_10) }",
+                            "Button.callback": "() => { this.onSlotClick(9) }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "large-box"
+                            },
+                            "y": 450
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4323d409-9184-4bcd-8c61-b38c941db82a",
+                            "label": "slot_9",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "large-box",
+                            "Button.hoverCallback": "() => { this.onHover(8, slot_9) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_9) }",
+                            "Button.callback": "() => { this.onSlotClick(8) }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "large-box"
+                            },
+                            "x": 264,
+                            "y": 318
+                        },
+                        {
+                            "type": "Image",
+                            "id": "64c4bf79-5c82-472a-8bb7-cabaa01e0b3e",
+                            "label": "slot_8",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "large-box",
+                            "Button.hoverCallback": "() => { this.onHover(7, slot_8) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_8) }",
+                            "Button.callback": "() => { this.onSlotClick(7) }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "large-box"
+                            },
+                            "x": 132,
+                            "y": 318
+                        },
+                        {
+                            "type": "Image",
+                            "id": "152034c5-0c63-47ed-ae32-19f02652cad2",
+                            "label": "slot_7",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "large-box",
+                            "Button.hoverCallback": "() => { this.onHover(6, slot_7) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_7) }",
+                            "Button.callback": "() => { this.onSlotClick(6) }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "large-box"
+                            },
+                            "y": 318
+                        },
+                        {
+                            "type": "Image",
+                            "id": "472324e9-cdfe-489e-8b1b-a14b99e13fa2",
+                            "label": "slot_6",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "large-box",
+                            "Button.hoverCallback": "() => { this.onHover(5, slot_6) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_6) }",
+                            "Button.callback": "() => { this.onSlotClick(5) }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "large-box"
+                            },
+                            "x": 264,
+                            "y": 186
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3c18b24c-1337-4d99-b860-5d1af3d4fd73",
+                            "label": "slot_5",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "large-box",
+                            "Button.hoverCallback": "() => { this.onHover(4, slot_5) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_5) }",
+                            "Button.callback": "() => { this.onSlotClick(4) }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "large-box"
+                            },
+                            "x": 132,
+                            "y": 186
+                        },
+                        {
+                            "type": "Image",
+                            "id": "6229f89d-065c-41b8-8f5b-8964235e8415",
+                            "label": "slot_4",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "large-box",
+                            "Button.hoverCallback": "() => { this.onHover(3, slot_4) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_4) }",
+                            "Button.callback": "() => { this.onSlotClick(3) }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "large-box"
+                            },
+                            "y": 186
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b6b3a7a4-dfd5-439b-98b4-e712b5f7dec3",
+                            "label": "slot_3",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "large-box",
+                            "Button.hoverCallback": "() => { this.onHover(2, slot_3) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_3) }",
+                            "Button.callback": "() => { this.onSlotClick(2) }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "large-box"
+                            },
+                            "x": 264,
+                            "y": 54
+                        },
+                        {
+                            "type": "Image",
+                            "id": "87abf07a-43fc-4a55-8133-8a6bf2c0fed6",
+                            "label": "slot_2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "large-box",
+                            "Button.hoverCallback": "() => { this.onHover(1, slot_2) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_2) }",
+                            "Button.callback": "() => { this.onSlotClick(1) }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "large-box"
+                            },
+                            "x": 132,
+                            "y": 54
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c7acf20a-882e-4e6f-8b47-8eb584288565",
+                            "label": "slot_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "large-box",
+                            "Button.hoverCallback": "() => { this.onHover(0, slot_1) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_1) }",
+                            "Button.callback": "() => { this.onSlotClick(0) }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "large-box"
+                            },
+                            "y": 54
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1bad3a32-320a-4ad1-a924-2575a398eb7d",
+                            "label": "inventory_sort_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "inventory/sort-button",
+                            "Button.callback": "() => this.parentContainer.inventorySort.showMenu()",
+                            "texture": {
+                                "key": "main",
+                                "frame": "inventory/sort-button"
+                            },
+                            "x": 131,
+                            "y": 553
+                        },
+                        {
+                            "type": "Text",
+                            "id": "4b101eea-f513-4768-87a2-2fc527df43e5",
+                            "label": "active_text",
+                            "scope": "CLASS",
+                            "x": 130,
+                            "y": 539,
+                            "originX": 0.5,
+                            "text": "All Items",
+                            "fixedWidth": 268,
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "24px",
+                            "color": "#000000ff"
+                        },
+                        {
+                            "type": "Container",
+                            "id": "f6909679-a2c3-40f3-a303-621270485600",
+                            "label": "text_container",
+                            "scope": "CLASS",
+                            "x": 195,
+                            "y": -17,
+                            "list": [
+                                {
+                                    "type": "Rectangle",
+                                    "id": "3bd700e6-f470-45ac-a719-74603bd36ef3",
+                                    "label": "put_input_here",
+                                    "scope": "CLASS",
+                                    "x": -54,
+                                    "y": -36,
+                                    "width": 230,
+                                    "height": 44
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "92721d45-4ae4-4104-befe-e5f096007994",
+                                    "label": "inventory_corner",
+                                    "texture": {
+                                        "key": "main",
+                                        "frame": "search-bg"
+                                    },
+                                    "x": -66,
+                                    "y": -38
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "57045662-3152-4147-896a-0edbe4decd44",
+                                    "label": "inventory_sort_button_1",
+                                    "texture": {
+                                        "key": "main",
+                                        "frame": "inventory/sort-button"
+                                    },
+                                    "x": -65,
+                                    "y": -33
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "c5b7aa9d-1a77-4d41-97c8-3d86773262b0",
+                                    "label": "dummyinput",
+                                    "scope": "CLASS",
+                                    "x": -65,
+                                    "y": -35,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "visible": false,
+                                    "text": "New text",
+                                    "fontFamily": "Arial",
+                                    "fontSize": "24px",
+                                    "color": "#000"
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "6906e7b1-eac6-4892-b3dd-8307a80fe7ce",
+                                    "label": "ellipse_1",
+                                    "x": -186,
+                                    "y": -37,
+                                    "fillColor": "#989898",
+                                    "strokeColor": "#989898",
+                                    "lineWidth": 3,
+                                    "isStroked": true,
+                                    "width": 20,
+                                    "height": 20
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "b868759b-06b3-42ab-bd8d-5b551b49c048",
+                                    "label": "rectangle_1",
+                                    "x": -196,
+                                    "y": -26,
+                                    "angle": -45.00000000000006,
+                                    "isFilled": true,
+                                    "fillColor": "#989898",
+                                    "strokeColor": "#989898",
+                                    "lineWidth": 2,
+                                    "width": 10,
+                                    "height": 4
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "e8832f40-f7c5-4dcc-a31d-a8c8c5488162",
+                    "label": "tab",
+                    "scope": "CLASS",
+                    "x": 369,
+                    "y": -156,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "640c38ba-bfaf-49da-a89a-7f82f3210d62",
+                            "label": "tab_handle",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => { this.onTabClick() }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "tab"
+                            },
+                            "x": 8,
+                            "y": 2,
+                            "angle": -90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "52c457ab-fc2c-4c34-8c62-d5a976701bdd",
+                            "label": "arrow",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "main",
+                                "frame": "tab-arrow"
+                            },
+                            "angle": -90
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "ddcd8e73-a8fd-4e47-8f9f-d3cd0bd0d027",
+            "label": "slots",
+            "objectIds": [
+                "c7acf20a-882e-4e6f-8b47-8eb584288565",
+                "87abf07a-43fc-4a55-8133-8a6bf2c0fed6",
+                "b6b3a7a4-dfd5-439b-98b4-e712b5f7dec3",
+                "6229f89d-065c-41b8-8f5b-8964235e8415",
+                "3c18b24c-1337-4d99-b860-5d1af3d4fd73",
+                "472324e9-cdfe-489e-8b1b-a14b99e13fa2",
+                "152034c5-0c63-47ed-ae32-19f02652cad2",
+                "64c4bf79-5c82-472a-8bb7-cabaa01e0b3e",
+                "4323d409-9184-4bcd-8c61-b38c941db82a",
+                "85944064-4368-4806-88aa-b2a320d17fff",
+                "5885b455-3d59-4919-bf64-e62dec45af64",
+                "d6a6ceec-2733-4ce8-b3db-fc8512d511db"
+            ]
+        }
+    ]
+}

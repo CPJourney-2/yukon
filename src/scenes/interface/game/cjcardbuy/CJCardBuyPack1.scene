@@ -1,0 +1,193 @@
+{
+    "id": "17f9255a-18f2-456b-9542-85099dd057f0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "98fc7b95-35c4-4672-8901-9712fd01b877",
+            "label": "pack1anim",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "prefabId": "ab336a96-ecdc-4b6c-ae1c-7870e60b7fe3",
+                    "id": "fe77ccb8-0088-4696-8a34-e2327813351c",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY",
+                        "visible"
+                    ],
+                    "label": "pack1cjcard",
+                    "scope": "CLASS",
+                    "x": 0,
+                    "y": 532,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "21537797-2b6e-49ba-b1e4-dd0bc4d6913e",
+                    "label": "pack1light",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "cjcardbuy",
+                        "frame": "1kanim/light"
+                    },
+                    "x": 17,
+                    "y": -58,
+                    "alpha": 0,
+                    "alphaTopLeft": 0,
+                    "alphaTopRight": 0,
+                    "alphaBottomLeft": 0,
+                    "alphaBottomRight": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "99ecc5a3-9e7e-4370-ab53-2623c28168ca",
+                    "label": "pack1pack",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.buyPack1Step2()",
+                    "texture": {
+                        "key": "cjcardbuy",
+                        "frame": "1kanim/cardbeginning"
+                    },
+                    "y": 874.5,
+                    "scaleX": 0.7385,
+                    "scaleY": 0.7385
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f8c53f70-fa8a-42d3-9847-26855f79cca6",
+                    "label": "pack1slicetopoff",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "cjcardbuy",
+                        "frame": "1kanim/slicetopoff0001"
+                    },
+                    "x": 371,
+                    "y": -96,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "ba2f8f6d-f74a-4026-b949-b49728b8374e",
+                    "label": "pack1pack_1",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.buyPack1Step2()",
+                    "texture": {
+                        "key": "cjcardbuy",
+                        "frame": "1kanim/cardbeginning"
+                    },
+                    "y": 817,
+                    "visible": false
+                },
+                {
+                    "type": "Container",
+                    "id": "178938f9-7438-4297-aa6e-c1dbfff63305",
+                    "label": "pack1reveal",
+                    "scope": "CLASS",
+                    "y": 328,
+                    "alpha": 0,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "714d722a-ae5f-482d-8083-e3ec2a478e38",
+                            "label": "pack1revealbtn",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => this.buyPack1Step3()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "cjcardbuy",
+                                "frame": "buybtn"
+                            },
+                            "visible": false
+                        },
+                        {
+                            "type": "Text",
+                            "id": "16fbe3d0-c14f-4b49-9de7-a3757d2bae6f",
+                            "label": "text_2",
+                            "y": 9,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Reveal",
+                            "fontFamily": "Candombe",
+                            "fontSize": "82px",
+                            "color": "#412D2D"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "aec85451-0239-4b86-8899-42c778e1ae60",
+                    "label": "pack1claim",
+                    "scope": "CLASS",
+                    "y": 328,
+                    "alpha": 0,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "c03e517b-4a09-47d2-afee-c517769f9eb3",
+                            "label": "pack1claimbtn",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => this.buyPack1Step4()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "cjcardbuy",
+                                "frame": "buybtn"
+                            }
+                        },
+                        {
+                            "type": "Text",
+                            "id": "0f3382d6-a32f-4ec6-a731-a0410b495e6a",
+                            "label": "text_3",
+                            "y": 9,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Claim",
+                            "fontFamily": "Candombe",
+                            "fontSize": "82px",
+                            "color": "#412D2D"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

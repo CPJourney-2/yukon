@@ -1,0 +1,213 @@
+{
+    "id": "2c22b98d-ae8b-4897-9442-62adcd3de940",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/beacon/beacon-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Beacon",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "7dc5806d-9766-4fd2-8289-7c7e41a9728f",
+            "label": "bg",
+            "texture": {
+                "key": "lttop",
+                "frame": "bg"
+            },
+            "x": 758,
+            "y": 476
+        },
+        {
+            "type": "Image",
+            "id": "2e90d493-426e-46ab-9897-24970a92d37d",
+            "label": "inner0001",
+            "scope": "CLASS",
+            "texture": {
+                "key": "beacon_inner_two",
+                "frame": "inner0001"
+            },
+            "x": 684,
+            "y": 641
+        },
+        {
+            "type": "Image",
+            "id": "bfe1bc96-6e99-4d9a-af60-45aa795b7229",
+            "label": "outer",
+            "texture": {
+                "key": "lttop",
+                "frame": "outer"
+            },
+            "x": 767,
+            "y": 624
+        },
+        {
+            "type": "Sprite",
+            "id": "a3765406-24b6-492f-8a16-874402683463",
+            "label": "jetpack",
+            "scope": "CLASS",
+            "components": [
+                "ShowHint",
+                "MoveTo",
+                "SimpleButton"
+            ],
+            "ShowHint.text": "Jetpack Adventure",
+            "SimpleButton.hoverCallback": "() => this.onJetpackOver()",
+            "SimpleButton.hoverOutCallback": "() => this.onJetpackOverOut()",
+            "texture": {
+                "key": "lttop",
+                "frame": "jetpack"
+            },
+            "x": 1323,
+            "y": 570
+        },
+        {
+            "type": "Image",
+            "id": "2df431a4-1778-4334-9bbb-69c401f9a275",
+            "label": "front",
+            "texture": {
+                "key": "lttop",
+                "frame": "front"
+            },
+            "x": 679,
+            "y": 929,
+            "originY": 1
+        },
+        {
+            "type": "Image",
+            "id": "e16aaeaf-6844-4fa0-a257-1cb7b9a78fcf",
+            "label": "box",
+            "texture": {
+                "key": "lttop",
+                "frame": "box"
+            },
+            "x": 398.80255126953125,
+            "y": 407.4191535910128,
+            "originX": 0.9986095164179902,
+            "originY": 0.19594844245758283
+        },
+        {
+            "type": "Image",
+            "id": "b39db1ce-2e4f-4c59-a29e-a1189f9665c9",
+            "label": "light0001",
+            "scope": "CLASS",
+            "texture": {
+                "key": "lttop",
+                "frame": "light0001"
+            },
+            "x": 337,
+            "y": 519,
+            "originX": 0,
+            "originY": 0.7786503750831101
+        },
+        {
+            "type": "Sprite",
+            "id": "bfa72967-97fc-4530-ba40-3c1d741e6c8d",
+            "label": "handle0001",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "handle",
+            "HoverAnimation.checkpoints": "19",
+            "HoverAnimation.start": 4,
+            "HoverAnimation.end": 29,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "HoverAnimation.clickable": true,
+            "texture": {
+                "key": "lttop",
+                "frame": "handle0001"
+            },
+            "x": 480,
+            "y": 572,
+            "scaleX": 0.886147659042706,
+            "scaleY": 0.886147659042706,
+            "originX": 0.44998297772973683,
+            "originY": 1.0514148842405089
+        },
+        {
+            "type": "Image",
+            "id": "e1c56ff5-bb5f-4a91-bd46-f414ee3fc4c2",
+            "label": "scope",
+            "components": [
+                "MoveTo",
+                "SimpleButton"
+            ],
+            "MoveTo.x": "334",
+            "MoveTo.y": "390",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "lttop",
+                "frame": "scope"
+            },
+            "x": 249,
+            "y": 295
+        },
+        {
+            "type": "Image",
+            "id": "92ab8c01-be89-41d9-97fb-c591112dd153",
+            "label": "yep",
+            "texture": {
+                "key": "lttop",
+                "frame": "Yep"
+            },
+            "x": 191,
+            "y": 531,
+            "originX": 0.5889807985193379,
+            "originY": 0.1729083732016776
+        },
+        {
+            "type": "Rectangle",
+            "id": "d509ba37-beeb-4ab9-b316-e1ff4961e07d",
+            "label": "rectangle_invalid",
+            "scope": "CLASS",
+            "x": -241,
+            "y": 15,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "1a82c644-a138-4a71-a102-13c20c4b17e9",
+            "label": "zone_light",
+            "components": [
+                "Zone"
+            ],
+            "Zone.callback": "() => {this.toggleLight()}",
+            "x": 462,
+            "y": 508,
+            "width": 90,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1bc796af-8118-4a54-b624-39e93ad42d65",
+            "label": "sort",
+            "objectIds": [
+                "e16aaeaf-6844-4fa0-a257-1cb7b9a78fcf",
+                "b39db1ce-2e4f-4c59-a29e-a1189f9665c9",
+                "2df431a4-1778-4334-9bbb-69c401f9a275",
+                "92ab8c01-be89-41d9-97fb-c591112dd153",
+                "bfa72967-97fc-4530-ba40-3c1d741e6c8d"
+            ]
+        }
+    ]
+}

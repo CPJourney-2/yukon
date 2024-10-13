@@ -1,0 +1,100 @@
+{
+    "id": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0b0c3681-e958-4d1a-a481-654413435233",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "7abab8cc-d58a-4c99-90e0-64759dc9ae25",
+                    "label": "horizontal",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "sandRightAnim",
+                    "Animation.end": 20,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "Animation.showOnStart": true,
+                    "Animation.hideOnComplete": true,
+                    "texture": {
+                        "key": "treasurehunt",
+                        "frame": "sandRightAnim0001"
+                    },
+                    "x": 195,
+                    "y": -24,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "92c5da1d-9f4a-4497-9295-0cc3bb3a053c",
+                    "label": "vertical",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "sandDownAnim",
+                    "Animation.end": 20,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "Animation.showOnStart": true,
+                    "Animation.hideOnComplete": true,
+                    "texture": {
+                        "key": "treasurehunt",
+                        "frame": "sandDownAnim0001"
+                    },
+                    "x": 3,
+                    "y": 162,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "prefabProperties": [
+        {
+            "name": "direction",
+            "label": "Direction",
+            "tooltip": "",
+            "defValue": "row",
+            "customDefinition": false,
+            "type": {
+                "id": "option",
+                "options": [
+                    "row",
+                    "column"
+                ]
+            }
+        },
+        {
+            "name": "index",
+            "label": "Index",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

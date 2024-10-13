@@ -1,0 +1,317 @@
+{
+    "id": "9f19dae8-7b30-467a-bb35-8468bad0df1f",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 159,
+        "snapHeight": 31,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c2df2194-bb4a-4b41-8d90-aa5a6f01b553",
+            "label": "container_1",
+            "x": 0.34900255869139585,
+            "y": 0.14197775311840743,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "d158c3ee-85e0-4239-a8ee-9059e72a1bda",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 687,
+                    "y": 474,
+                    "scaleX": 19.186366570118256,
+                    "scaleY": 8.807316563934844,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Container",
+                    "id": "396bfb5c-171a-4b6d-9a60-6b6f4ad1a637",
+                    "label": "page_1",
+                    "x": 791.7715418636799,
+                    "y": 498.8033347427845,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "8b0ddf3c-0651-4401-bea7-11354e786054",
+                            "label": "page12",
+                            "texture": {
+                                "key": "award_q3_gift",
+                                "frame": "dancethree"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "a9b4b660-3615-4667-92f2-34cf21411c92",
+                            "label": "backPageLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "backPageLeft",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "award_q3_gift",
+                                "frame": "backPageLeft"
+                            },
+                            "x": -254,
+                            "y": 227
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2bca0e7e-5992-4a6d-8e0e-ad1bbe7fd00a",
+                            "label": "buttons_close_2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "grey-button",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-button"
+                            },
+                            "x": 218,
+                            "y": -387
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c1c04ca2-fe31-4fc1-8c00-0ebe37f63471",
+                            "label": "grey_x_2",
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-x"
+                            },
+                            "x": 218,
+                            "y": -389
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "297a4696-b6f0-41bf-b85e-50f430678b66",
+                    "label": "page2",
+                    "x": 793.8185267235533,
+                    "y": 499.22924628614487,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ef41bdf8-7217-438a-9690-cd0174bcfb6f",
+                            "label": "page22",
+                            "texture": {
+                                "key": "award_q3_gift",
+                                "frame": "dancetwo"
+                            },
+                            "x": -31.81854248046875,
+                            "y": -19.229248046875
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "776b1ada-1bd8-4f57-a1e4-1724c793bf0d",
+                    "label": "page1",
+                    "x": 795,
+                    "y": 499,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "1ef12729-2dac-41be-a6bb-8dcd963a6753",
+                            "label": "page",
+                            "texture": {
+                                "key": "award_q3_gift",
+                                "frame": "danceone"
+                            },
+                            "x": -33,
+                            "y": -19
+                        },
+                        {
+                            "type": "Image",
+                            "id": "abeb6f5e-f888-431d-ad2d-00a17923ae4b",
+                            "label": "frontPageRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "frontPageRight",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "award_q3_gift",
+                                "frame": "frontPageRight"
+                            },
+                            "x": -34,
+                            "y": -52
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cc80b497-5b5d-4ce4-b90c-ba11d8567fee",
+                            "label": "buttons_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "grey-button",
+                            "Button.callback": "() => this.interface.destroyWidget(this)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-button"
+                            },
+                            "x": 211,
+                            "y": -389
+                        },
+                        {
+                            "type": "Image",
+                            "id": "937221bb-7a70-4bc4-8512-9813fbcca4ed",
+                            "label": "grey_x",
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-x"
+                            },
+                            "x": 211,
+                            "y": -391
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2d92e31f-a3ff-458f-8d06-f8126d88ceb8",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 780.0900074968481,
+                    "y": 592.0151470567336,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "7e02fac5-dccc-4d88-b0e8-a6a164bb678d",
+                            "label": "pageLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "pageLeft",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "award_q3_gift",
+                                "frame": "pageLeft"
+                            },
+                            "x": -537,
+                            "y": 112
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "758520eb-f101-4ebb-9645-3c6e5ea06528",
+                            "label": "pageRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "pageRight",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "award_q3_gift",
+                                "frame": "pageRight"
+                            },
+                            "x": 496,
+                            "y": 112
+                        },
+                        {
+                            "type": "Text",
+                            "id": "67cc1886-94b0-43a7-b75f-23a352f78c7c",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": -1276.7242431640625,
+                            "y": -438.8574676513672,
+                            "visible": false,
+                            "text": "New text"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4a80f24e-d67f-4eb6-9cc9-12a23ccaebdd",
+                            "label": "buttons_close_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "grey-button",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-button"
+                            },
+                            "x": 524,
+                            "y": -488
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f40bb8f7-4120-4e5c-b698-45b67def7e82",
+                            "label": "grey_x_1",
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-x"
+                            },
+                            "x": 524,
+                            "y": -490
+                        }
+                    ]
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "f67aca7e-1be9-4ff1-bf72-c02bf0529c96",
+                    "label": "rectangle_2",
+                    "x": 1435,
+                    "y": 311,
+                    "visible": false,
+                    "isFilled": true,
+                    "fillColor": "#f50000",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "4b83e69b-9def-4818-8681-d769a5cc2326",
+                    "label": "rectangle_3",
+                    "x": 1208,
+                    "y": -3,
+                    "visible": false,
+                    "isFilled": true,
+                    "fillColor": "#ff0808",
+                    "width": 50,
+                    "height": 128
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1029921f-26d0-4b4f-8a57-2e9fcf458660",
+            "label": "pages",
+            "objectIds": [
+                "776b1ada-1bd8-4f57-a1e4-1724c793bf0d",
+                "297a4696-b6f0-41bf-b85e-50f430678b66",
+                "396bfb5c-171a-4b6d-9a60-6b6f4ad1a637"
+            ]
+        }
+    ]
+}

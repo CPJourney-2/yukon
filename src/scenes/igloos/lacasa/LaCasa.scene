@@ -1,0 +1,107 @@
+{
+    "id": "8d1e4a1f-631e-4d83-ae7f-45c44e94763d",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/igloos/buildings/sprites/lacasa/lacasa-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "LaCasa",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "169d2306-4446-437a-a207-ac45e1254b0d",
+            "label": "floor",
+            "scope": "CLASS",
+            "texture": {
+                "key": "lacasa",
+                "frame": "floor"
+            },
+            "x": 757.5,
+            "y": 655
+        },
+        {
+            "type": "Image",
+            "id": "060657c4-76f4-4ed4-8e3f-c1a7c3d44ade",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "Button.pixelPerfect": true,
+            "texture": {
+                "key": "lacasa",
+                "frame": "door"
+            },
+            "x": 267,
+            "y": 555.4592934004506,
+            "originY": 0.7800706717965225
+        },
+        {
+            "type": "Image",
+            "id": "ebfdb5be-3ec3-4505-a627-85c0e49df86e",
+            "label": "wall",
+            "texture": {
+                "key": "lacasa",
+                "frame": "wall"
+            },
+            "x": 755,
+            "y": 371
+        },
+        {
+            "type": "Image",
+            "id": "f224d571-c179-42b3-9a54-ece8db1e1435",
+            "label": "window_L",
+            "texture": {
+                "key": "lacasa",
+                "frame": "window_L"
+            },
+            "x": 546.5,
+            "y": 497.5
+        },
+        {
+            "type": "Image",
+            "id": "565b4310-df57-4ffa-b679-a6f07a9581d7",
+            "label": "window_R",
+            "texture": {
+                "key": "lacasa",
+                "frame": "window_R"
+            },
+            "x": 965.5,
+            "y": 497
+        },
+        {
+            "type": "Rectangle",
+            "id": "c2d05aca-4751-4896-930b-0e6eb4f69f1e",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 255.0401210253555,
+            "y": 558.8611582005128,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.4968654761000747,
+            "originY": 0.7659669377457123,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

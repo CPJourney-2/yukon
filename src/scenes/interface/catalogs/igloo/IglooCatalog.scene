@@ -1,0 +1,1267 @@
+{
+    "id": "c5dba91d-6b42-41dc-9b53-83baffa193a9",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "4bf538de-1ae3-473a-bfe5-5ba9412f3bd3",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "49b3945f-ded0-4d34-9807-3b82c0824b02",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "f3cbaafa-9be2-4e75-b7f4-e64cdb941f07",
+                    "label": "page11",
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "7d11d8e8-824c-4589-84f4-d577689700b7",
+                            "label": "page_11",
+                            "texture": {
+                                "key": "nov-dec-igloocatalog",
+                                "frame": "novdecrear"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e150e4a7-8902-4d62-a3db-c53551b56c35",
+                            "label": "close_left_111111",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 493,
+                            "y": 39,
+                            "originX": 0,
+                            "originY": 0,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0de3f891-07c8-449a-99a1-11b2498504a5",
+                            "label": "page_left_1_11111",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "x": 493,
+                            "y": 589,
+                            "originX": 0,
+                            "originY": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ca7fd567-510e-451c-820f-666642419bf2",
+                    "label": "page10",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4af631e8-2134-47af-bd0f-d695f7d01e6c",
+                            "label": "page_10",
+                            "texture": {
+                                "key": "igloocatalog",
+                                "frame": "10"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "210c7363-4417-44ee-8528-9926de9a255c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton_10L",
+                            "igloo": 9,
+                            "x": 297,
+                            "y": 540
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "63f03d90-dde8-40b7-a103-0761100d25d7",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton_10R",
+                            "igloo": 6,
+                            "x": 867,
+                            "y": 542
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "f09afac4-0a84-4afd-b0e3-97afd50771c3",
+                            "label": "rectangle_10",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showLocation(1)",
+                            "x": 967,
+                            "y": 454,
+                            "scaleY": 0.5564219459795425,
+                            "alpha": 0.00005,
+                            "isFilled": true,
+                            "width": 42,
+                            "height": 138
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b0198a06-286c-4107-8503-c3d2bd70cdcd",
+                            "label": "rectangle_4",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.secret_4.visible = true",
+                            "x": 310,
+                            "y": 455,
+                            "scaleY": 0.5564219459795425,
+                            "alpha": 0.00005,
+                            "isFilled": true,
+                            "width": 46,
+                            "height": 116
+                        },
+                        {
+                            "type": "Container",
+                            "id": "65922979-f373-4541-8db4-63efc0a02d79",
+                            "label": "secret_4",
+                            "scope": "CLASS",
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "8106e023-8da3-4638-af00-4959de856326",
+                                    "label": "secret_2_img",
+                                    "texture": {
+                                        "key": "igloocatalog",
+                                        "frame": "secret2"
+                                    },
+                                    "x": 804,
+                                    "y": 430
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "f44e6ff8-d168-4d16-81fd-cf3bc321efbc",
+                                    "label": "sbtn_5",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "sbtn",
+                                    "Button.callback": "() => this.secret_4.visible = false",
+                                    "texture": {
+                                        "key": "igloocatalog",
+                                        "frame": "sbtn"
+                                    },
+                                    "x": 1020,
+                                    "y": 251
+                                },
+                                {
+                                    "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                                    "id": "cc882373-6806-4bf7-95e6-4896f4e38d0c",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "igloo"
+                                    ],
+                                    "label": "upgradeButton_26",
+                                    "igloo": 8,
+                                    "x": 531,
+                                    "y": 491
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "0644dd30-fade-479e-bae7-7b5b9cd4d960",
+                    "label": "page9",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "7fcc915f-4118-4118-8f9f-44e91c79c246",
+                            "label": "page_9",
+                            "texture": {
+                                "key": "igloocatalog",
+                                "frame": "9"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "1e55b988-4da9-4a00-b49f-63c7de559794",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton_9L",
+                            "igloo": 14,
+                            "x": 297,
+                            "y": 573
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "4d938f37-a788-4ab8-89b7-467c4efba031",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton_9R",
+                            "igloo": 2,
+                            "x": 867,
+                            "y": 532
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "7e249567-d7f9-4f10-a3c5-5eefa575a035",
+                    "label": "page8",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "926bb21e-8c7e-45a2-9344-53111f9e95f4",
+                            "label": "page_8",
+                            "texture": {
+                                "key": "igloocatalog",
+                                "frame": "8"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "f86633d6-ee29-40eb-92cf-fde60db3f302",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton_8L",
+                            "igloo": 13,
+                            "x": 297,
+                            "y": 575
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "e5829260-ace3-484a-9e08-34a00caf5844",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton_8R",
+                            "igloo": 1,
+                            "x": 867,
+                            "y": 532
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "251dd133-2e53-4668-be21-11b8c51bedb8",
+                    "label": "page7",
+                    "y": -3,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9c896524-1176-4078-8b4e-c57c79977523",
+                            "label": "page_7",
+                            "texture": {
+                                "key": "sept-oct-igloocatalog",
+                                "frame": "page_5_sept_oct"
+                            },
+                            "x": 760,
+                            "y": 484
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "98859d73-b998-44eb-8017-2d41cb1a3616",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton_5L",
+                            "igloo": 28,
+                            "x": 298,
+                            "y": 553
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "c0bf485e-8928-49b0-bee7-56a20d510f0b",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton_5R",
+                            "igloo": 19,
+                            "x": 874,
+                            "y": 556
+                        },
+                        {
+                            "type": "Container",
+                            "id": "96bb0d2f-acaf-4f96-a050-ccad948d8fe0",
+                            "label": "secret_bamboo",
+                            "scope": "CLASS",
+                            "y": 3,
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "1acbad88-15cd-4e1c-a10a-94042bc23f21",
+                                    "label": "secret_bamboo_",
+                                    "texture": {
+                                        "key": "igloocatalog",
+                                        "frame": "secret3"
+                                    },
+                                    "x": 782,
+                                    "y": 366
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "47752180-4ab5-4296-a221-9f77682baf2a",
+                                    "label": "sbtn_bamboo_1",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "sbtn",
+                                    "Button.callback": "() => this.secret_bamboo.visible = false",
+                                    "texture": {
+                                        "key": "igloocatalog",
+                                        "frame": "sbtn"
+                                    },
+                                    "x": 982,
+                                    "y": 182,
+                                    "scaleX": 0.9,
+                                    "scaleY": 0.9
+                                },
+                                {
+                                    "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                                    "id": "75f824aa-d23f-4948-a0d8-52092cef0077",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "igloo"
+                                    ],
+                                    "label": "upgradeButton_bamboo",
+                                    "igloo": 10,
+                                    "x": 518,
+                                    "y": 437
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "4b755cd0-7a9f-4880-a991-1d47ebd89f93",
+                            "label": "secret_camping",
+                            "scope": "CLASS",
+                            "y": 3,
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "2aee3a88-1f4c-4793-89e9-9d3c5a0c692e",
+                                    "label": "secret_camping_",
+                                    "texture": {
+                                        "key": "sept-oct-igloocatalog",
+                                        "frame": "secret_camping"
+                                    },
+                                    "x": 685,
+                                    "y": 414
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "526945a4-ccbf-4683-88cd-bd39abd281e0",
+                                    "label": "sbtn_camping_1",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "sbtn",
+                                    "Button.callback": "() => this.secret_camping.visible = false",
+                                    "texture": {
+                                        "key": "igloocatalog",
+                                        "frame": "sbtn"
+                                    },
+                                    "x": 935,
+                                    "y": 215
+                                },
+                                {
+                                    "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                                    "id": "60e1bf43-0e55-42d0-b366-b2d18bd048d3",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "igloo"
+                                    ],
+                                    "label": "upgradeButton_camping",
+                                    "igloo": 101,
+                                    "x": 439,
+                                    "y": 511
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "97531f95-fa02-459e-b98b-ab151e35908b",
+                            "label": "rectangle_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.secret_bamboo.visible = true",
+                            "x": 455,
+                            "y": 334,
+                            "width": 30,
+                            "height": 30
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a3a7403f-6cdb-464d-b983-c3991578e9a5",
+                            "label": "rectangle_5",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.secret_camping.visible = true",
+                            "x": 882,
+                            "y": 449,
+                            "width": 20,
+                            "height": 40
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "281bd57b-789c-485b-8ce2-1e28f03c098d",
+                    "label": "page6",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "3e450c0d-073d-4b4b-b41c-df9348c16d1a",
+                            "label": "page_6",
+                            "texture": {
+                                "key": "sept-oct-igloocatalog",
+                                "frame": "page_4_sept_oct"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "9fb60224-4807-4ea8-8d5a-114a4aa54abc",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton_4L",
+                            "igloo": 42,
+                            "x": 293,
+                            "y": 577
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "a08d0d8b-0c95-4852-b268-d0b38dac54ac",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton_4R",
+                            "igloo": 20,
+                            "x": 874,
+                            "y": 575
+                        },
+                        {
+                            "type": "Container",
+                            "id": "e5201042-0d4c-4f12-9d18-fc135b8c0a49",
+                            "label": "secret_circus",
+                            "scope": "CLASS",
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "13be6289-902b-4877-be84-37bd050ef588",
+                                    "label": "secret_circus_",
+                                    "texture": {
+                                        "key": "sept-oct-igloocatalog",
+                                        "frame": "secret_circus"
+                                    },
+                                    "x": 752,
+                                    "y": 438
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "58a84b92-2018-421d-8b4e-bbee81e8ff45",
+                                    "label": "sbtn_circus_1",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "sbtn",
+                                    "Button.callback": "() => this.secret_circus.visible = false",
+                                    "texture": {
+                                        "key": "igloocatalog",
+                                        "frame": "sbtn"
+                                    },
+                                    "x": 1009,
+                                    "y": 239
+                                },
+                                {
+                                    "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                                    "id": "b35818fd-5f93-4e7a-9565-2ae42402d45a",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "igloo"
+                                    ],
+                                    "label": "upgradeButton_circus",
+                                    "igloo": 29,
+                                    "x": 514,
+                                    "y": 527
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "c110d7fc-de63-4e3e-b04b-9b164014deb5",
+                            "label": "rectangle_3",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.secret_circus.visible = true",
+                            "x": 969,
+                            "y": 380,
+                            "width": 25,
+                            "height": 25
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "eb54e266-686d-4e0a-8dfa-eeae5be2199a",
+                    "label": "page5",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "5b14a309-1dca-49a3-968c-e2a6fb47154c",
+                            "label": "page_5",
+                            "texture": {
+                                "key": "nov-dec-igloocatalog",
+                                "frame": "novdecpage2"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "512d0006-c280-4247-8316-eca6995950c0",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton_2",
+                            "igloo": 27,
+                            "x": 293,
+                            "y": 568
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "6f71561b-59ed-4ad0-a30c-6edf6330664f",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton_3",
+                            "igloo": 30,
+                            "x": 855,
+                            "y": 572
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "f34cad64-8608-4da1-9656-3cdf57ebe4ad",
+                            "label": "rectangle_12",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showLocation(4)",
+                            "x": 540,
+                            "y": 399,
+                            "width": 20,
+                            "height": 40
+                        },
+                        {
+                            "type": "Container",
+                            "id": "64d9d76f-0b47-4476-87de-225a67199f13",
+                            "label": "secret_cave",
+                            "scope": "CLASS",
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "0fe16e12-8458-47c4-8b2a-102b77f26090",
+                                    "label": "caveigloo_secret",
+                                    "texture": {
+                                        "key": "nov-dec-igloocatalog",
+                                        "frame": "secret_cave"
+                                    },
+                                    "x": 772,
+                                    "y": 423
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "a5c90f2e-a628-468a-b3e9-11f49a618f00",
+                                    "label": "sbtn_cave",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "sbtn",
+                                    "Button.callback": "() => this.secret_cave.visible = false",
+                                    "texture": {
+                                        "key": "igloocatalog",
+                                        "frame": "sbtn"
+                                    },
+                                    "x": 1005,
+                                    "y": 244
+                                },
+                                {
+                                    "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                                    "id": "5a234cc0-4bbd-411a-bc79-37bb618cffba",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "igloo"
+                                    ],
+                                    "label": "upgradeButton_CAVE",
+                                    "igloo": 31,
+                                    "x": 513,
+                                    "y": 505
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "253305fe-a0bd-48a5-9eb1-8ef04e7c28ba",
+                            "label": "rectangle",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.secret_cave.visible = true",
+                            "x": 1030,
+                            "y": 372,
+                            "width": 25,
+                            "height": 25
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2373a5f4-6e0c-40a4-98b7-c88e64448041",
+                    "label": "page4",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ac95a9f0-3784-4877-a3fb-e3a7c3a45f33",
+                            "label": "page_4",
+                            "texture": {
+                                "key": "nov-dec-igloocatalog",
+                                "frame": "novdecpage1"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "539546a3-f8ec-484d-a86e-b13b234cb90b",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton",
+                            "igloo": 15,
+                            "x": 290,
+                            "y": 577
+                        },
+                        {
+                            "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                            "id": "ef536ac0-72e8-446e-b81d-7de34eb4b20a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "igloo"
+                            ],
+                            "label": "upgradeButton_1",
+                            "igloo": 11,
+                            "x": 864,
+                            "y": 569
+                        },
+                        {
+                            "type": "Container",
+                            "id": "9e5d7517-fef3-464d-8ff5-8cc9a841a451",
+                            "label": "secret_bigcandy",
+                            "scope": "CLASS",
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "24437473-ee56-491b-b838-59a03a7aaf61",
+                                    "label": "bigcandy_secret",
+                                    "texture": {
+                                        "key": "nov-dec-igloocatalog",
+                                        "frame": "secret_bigcandy"
+                                    },
+                                    "x": 772,
+                                    "y": 423
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "111ad2b9-ee82-41d6-b5ff-4ff090389b3d",
+                                    "label": "sbtn_bigcandy",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "sbtn",
+                                    "Button.callback": "() => this.secret_bigcandy.visible = false",
+                                    "texture": {
+                                        "key": "igloocatalog",
+                                        "frame": "sbtn"
+                                    },
+                                    "x": 990,
+                                    "y": 244
+                                },
+                                {
+                                    "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                                    "id": "cc620324-a14f-426b-bc16-8ee7ec0f44c3",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "igloo"
+                                    ],
+                                    "label": "upgradeButton_CANDY",
+                                    "igloo": 4,
+                                    "x": 513,
+                                    "y": 505
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "c612d150-fb2a-456b-92c4-8c0cc6f2d8b1",
+                            "label": "rectangle_6",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.secret_bigcandy.visible = true",
+                            "x": 471,
+                            "y": 306,
+                            "width": 25,
+                            "height": 25
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "8357c3e1-e0a7-4ac3-b73d-c07ea8b4be90",
+                    "label": "page3",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "5ed21e49-fea5-4652-9cda-96415766cebe",
+                            "label": "page_3",
+                            "texture": {
+                                "key": "nov-dec-igloocatalog",
+                                "frame": "novdecfloor2"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "39270cff-293d-4fb1-95f4-83d6cd33eac5",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "floor",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "floorButton_5",
+                            "item": 4,
+                            "itemType": "Flooring",
+                            "x": 521,
+                            "y": 184
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "a5ba30a3-5f25-4a59-b499-2b3b31e7e89c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "floor",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "floorButton_6",
+                            "item": 2,
+                            "itemType": "Flooring",
+                            "x": 521,
+                            "y": 353
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "eb5ad4ff-6060-48d0-9787-9bfd6f3a2978",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "floor",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "floorButton_7",
+                            "item": 7,
+                            "itemType": "Flooring",
+                            "x": 531,
+                            "y": 529
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "e807487b-7fb0-45c1-ae1f-ce6d9c9f3170",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "floor",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "floorButton_8",
+                            "item": 15,
+                            "itemType": "Flooring",
+                            "x": 532,
+                            "y": 696
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "e45dac58-e61c-4cc7-bcec-283f720c9f45",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "scaleX",
+                                "scaleY",
+                                "itemType"
+                            ],
+                            "label": "floorButton_9",
+                            "itemType": "Flooring",
+                            "x": 848,
+                            "y": 661,
+                            "scaleX": 1.1,
+                            "scaleY": 1.1,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Container",
+                            "id": "30972e32-b0b9-4eea-99b6-5c9fcbba3bfc",
+                            "label": "secret",
+                            "scope": "CLASS",
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "b07ce858-ddbd-4280-ad12-61a8cb547f77",
+                                    "label": "secret_1_img",
+                                    "texture": {
+                                        "key": "igloocatalog",
+                                        "frame": "secret1"
+                                    },
+                                    "x": 780,
+                                    "y": 426
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "e9665d73-f1c5-4e2a-84f1-64c454ad9158",
+                                    "label": "sbtn_1",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "sbtn",
+                                    "Button.callback": "() => this.secret.visible = false",
+                                    "texture": {
+                                        "key": "igloocatalog",
+                                        "frame": "sbtn"
+                                    },
+                                    "x": 995,
+                                    "y": 248
+                                },
+                                {
+                                    "prefabId": "dd2cf1b5-b2d6-447c-8482-206fa3c10657",
+                                    "id": "1ed5bce4-a747-46ac-941b-c109f517976e",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "igloo"
+                                    ],
+                                    "label": "upgradeButton_22",
+                                    "igloo": 5,
+                                    "x": 587,
+                                    "y": 491
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "f4ffc41b-7d7e-4cb0-a012-f01c6ff3c9f8",
+                            "label": "rectangle_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.secret.visible = true",
+                            "x": 1178,
+                            "y": 111,
+                            "scaleY": 0.5564219459795425,
+                            "alpha": 0.00005,
+                            "isFilled": true,
+                            "width": 128,
+                            "height": 128
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "fb6234ca-b245-4eeb-947c-46550ad48492",
+                    "label": "page2",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ac9e7e0d-fca4-4508-b007-f9ba01c554d3",
+                            "label": "page_2",
+                            "texture": {
+                                "key": "nov-dec-igloocatalog",
+                                "frame": "novdecfloor1"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "0b79d3a9-5451-4e66-8e53-9089c6d84ec6",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "floor",
+                                "itemType",
+                                "item"
+                            ],
+                            "label": "floorButton",
+                            "item": 23,
+                            "itemType": "Flooring",
+                            "x": 559,
+                            "y": 455
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "c219be9d-4696-4f54-9cde-c4934e00fe70",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "floor",
+                                "itemType",
+                                "item"
+                            ],
+                            "label": "floorButton_1",
+                            "item": 1,
+                            "itemType": "Flooring",
+                            "x": 563,
+                            "y": 665
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "a6792e64-a81e-4d1e-b8a7-9ea257969709",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "floor",
+                                "itemType",
+                                "item"
+                            ],
+                            "label": "floorButton_2",
+                            "item": 11,
+                            "itemType": "Flooring",
+                            "x": 1125,
+                            "y": 513
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "433feeb4-06be-4b38-b2a2-15f0791316f0",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "floor",
+                                "itemType",
+                                "item"
+                            ],
+                            "label": "floorButton_3",
+                            "item": 19,
+                            "itemType": "Flooring",
+                            "x": 1111,
+                            "y": 691
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "af644410-4e01-4913-88c0-1b06f03f4a20",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "floor",
+                                "Button.callback",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "floorButton_4",
+                            "item": 607,
+                            "itemType": "Furniture",
+                            "Button.callback": "() => this.buy(607)",
+                            "x": 1120,
+                            "y": 354
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "53e67399-7ea8-47ee-b007-384dd80a22eb",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "floor",
+                                "itemType",
+                                "item"
+                            ],
+                            "label": "floorButton_10",
+                            "item": 16,
+                            "itemType": "Flooring",
+                            "x": 1116,
+                            "y": 164
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "c4955c90-9157-4091-b96e-55da8acf5245",
+                    "label": "page1",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "58ae4295-e69b-4211-9c82-7d40dea07883",
+                            "label": "page",
+                            "texture": {
+                                "key": "nov-dec-igloocatalog",
+                                "frame": "novdeccover"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3ce258fe-d4ac-4527-a1a8-2dd134620c55",
+                            "label": "next_page0001_png",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-front",
+                            "Button.callback": "() => this.nextPage()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-front"
+                            },
+                            "x": 762,
+                            "y": 428
+                        },
+                        {
+                            "type": "Image",
+                            "id": "43dbb6ae-cfa6-43d2-9d0c-2fbf39536417",
+                            "label": "close_right_4_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 924,
+                            "y": 39,
+                            "originX": 0,
+                            "originY": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "bfd2733c-42ee-4cce-9cb8-5db2ac391375",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 190,
+                    "y": 41,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "3131d043-a6a1-4857-be02-a9df367b4712",
+                            "label": "closeRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 1015,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b03a7b5c-9d7f-4ec8-b396-8b496e82977b",
+                            "label": "pageRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-right",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-right"
+                            },
+                            "x": 1014,
+                            "y": 547,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c90b9976-acc3-46bf-a53f-d6e9f851c6ba",
+                            "label": "pageLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "y": 547,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Text",
+                            "id": "8ab34f3c-5744-4ad5-8733-57ff2cc8e2a0",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1130,
+                            "y": 790,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "0fa54e0c-ec39-48e0-8c0c-15babb3214a3",
+            "label": "pages",
+            "objectIds": [
+                "c4955c90-9157-4091-b96e-55da8acf5245",
+                "fb6234ca-b245-4eeb-947c-46550ad48492",
+                "8357c3e1-e0a7-4ac3-b73d-c07ea8b4be90",
+                "2373a5f4-6e0c-40a4-98b7-c88e64448041",
+                "eb54e266-686d-4e0a-8dfa-eeae5be2199a",
+                "281bd57b-789c-485b-8ce2-1e28f03c098d",
+                "251dd133-2e53-4668-be21-11b8c51bedb8",
+                "7e249567-d7f9-4f10-a3c5-5eefa575a035",
+                "0644dd30-fade-479e-bae7-7b5b9cd4d960",
+                "ca7fd567-510e-451c-820f-666642419bf2",
+                "f3cbaafa-9be2-4e75-b7f4-e64cdb941f07"
+            ]
+        }
+    ]
+}

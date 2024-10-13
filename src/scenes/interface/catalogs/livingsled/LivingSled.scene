@@ -1,0 +1,436 @@
+{
+    "id": "c32d62bd-f54a-4d01-900e-ae8b1949ea85",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 159,
+        "snapHeight": 31,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c2df2194-bb4a-4b41-8d90-aa5a6f01b553",
+            "label": "container_1",
+            "x": -4,
+            "y": 67,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "d158c3ee-85e0-4239-a8ee-9059e72a1bda",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 687,
+                    "y": 474,
+                    "scaleX": 19.186366570118256,
+                    "scaleY": 8.807316563934844,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Container",
+                    "id": "396bfb5c-171a-4b6d-9a60-6b6f4ad1a637",
+                    "label": "page_1",
+                    "x": 791.7715418636799,
+                    "y": 498.8033347427845,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "8b0ddf3c-0651-4401-bea7-11354e786054",
+                            "label": "page12",
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "sled_pg4"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "a9b4b660-3615-4667-92f2-34cf21411c92",
+                            "label": "page_left_back",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "page_left_back",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "page_left_back"
+                            },
+                            "x": -237,
+                            "y": 202
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "a2ce437c-e53c-4989-82e5-7dbd71104514",
+                            "label": "close_back",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "close_back",
+                            "Button.callback": "() => this.close()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "close_back"
+                            },
+                            "x": -237,
+                            "y": -350
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "3e8bd2fd-e0bd-4e75-93c4-cfb3185648c2",
+                    "label": "page3",
+                    "x": 792.1205408871174,
+                    "y": 498.945302516222,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "04940089-c616-488b-b8d2-058e15f0f0db",
+                            "label": "page33",
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "sled_pg3"
+                            },
+                            "x": -30.81854248046875,
+                            "y": -19.229248046875
+                        },
+                        {
+                            "type": "Image",
+                            "id": "69c7bfdb-903c-4a65-b8ba-8464b267c420",
+                            "label": "buy_neutral",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy_neutral",
+                            "Button.callback": "() => this.interface.prompt.showItem(489)",
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "buy_neutral"
+                            },
+                            "x": -462,
+                            "y": -213
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "5839ce3e-7d8e-410a-8147-b601833a578a",
+                            "label": "megaphone",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(5580)",
+                            "x": 110,
+                            "y": -350,
+                            "isFilled": true,
+                            "fillColor": "#f50000",
+                            "fillAlpha": 1e-20,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "8c4a52d9-d2ca-4354-a083-08e851ce91f7",
+                            "label": "nightime_bg",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(903)",
+                            "x": -311,
+                            "y": 151,
+                            "isFilled": true,
+                            "fillColor": "#f50000",
+                            "fillAlpha": 1e-20,
+                            "width": 250,
+                            "height": 258
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "297a4696-b6f0-41bf-b85e-50f430678b66",
+                    "label": "page2",
+                    "x": 792.8185267235533,
+                    "y": 499.22924628614487,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ef41bdf8-7217-438a-9690-cd0174bcfb6f",
+                            "label": "page22",
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "sled_pg2"
+                            },
+                            "x": -31.81854248046875,
+                            "y": -19.229248046875
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ef863421-ba61-4c91-923c-d61b85f61e85",
+                            "label": "buy_left",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy_left",
+                            "Button.callback": "() => this.interface.prompt.showItem(4018)",
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "buy_left"
+                            },
+                            "x": 63,
+                            "y": 44
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2b911167-4adc-43ef-9762-326e25cf421a",
+                            "label": "buy_left_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy_left",
+                            "Button.callback": "() => this.interface.prompt.showItem(4426)",
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "buy_left"
+                            },
+                            "x": -439,
+                            "y": -63,
+                            "angle": 38
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9dcd7db4-8ed4-4cbd-b76a-98d38253ea01",
+                            "label": "buy_right",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy_right",
+                            "Button.callback": "() => this.interface.prompt.showItem(1015)",
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "buy_right"
+                            },
+                            "x": 429,
+                            "y": -224
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "1ae27b44-66d2-4a1e-9a1d-286ca6d05d13",
+                            "label": "Ghost_Costume",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(244)",
+                            "x": 140,
+                            "y": -402,
+                            "isFilled": true,
+                            "fillColor": "#f50000",
+                            "fillAlpha": 1e-20,
+                            "width": 71,
+                            "height": 72
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "2472cba8-48ac-42a4-80b4-75aec863e0e4",
+                            "label": "Flashlight",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(347)",
+                            "x": 227,
+                            "y": -308,
+                            "isFilled": true,
+                            "fillColor": "#f50000",
+                            "fillAlpha": 1e-20,
+                            "width": 71,
+                            "height": 72
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "f337547f-12f4-49c9-ab68-34ef4ea3cc55",
+                            "label": "Living_Sled_Costume",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(380122)",
+                            "x": -546,
+                            "y": -177,
+                            "isFilled": true,
+                            "fillColor": "#f50000",
+                            "fillAlpha": 1e-20,
+                            "width": 71,
+                            "height": 72
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "776b1ada-1bd8-4f57-a1e4-1724c793bf0d",
+                    "label": "page1",
+                    "x": 792.4695399105549,
+                    "y": 499.0872702896595,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "1ef12729-2dac-41be-a6bb-8dcd963a6753",
+                            "label": "page",
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "sled_pg1"
+                            },
+                            "x": -33,
+                            "y": -19
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "cd18b420-84af-448c-abed-de1e7d538318",
+                            "label": "closeRightFront",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "close_front",
+                            "Button.callback": "() => this.close()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "close_front"
+                            },
+                            "x": 195,
+                            "y": -349
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "808ae834-0a36-4bf8-8298-b1cf0912c326",
+                            "label": "makeshift move page",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.nextPage();",
+                            "x": -26,
+                            "y": -9,
+                            "alpha": 1e-11,
+                            "isFilled": true,
+                            "width": 600,
+                            "height": 633
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2d92e31f-a3ff-458f-8d06-f8126d88ceb8",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 780.0900074968481,
+                    "y": 593.0151470567336,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "3eaa2193-0392-4af1-ac48-0f3aa6754633",
+                            "label": "close_mid",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "close_mid",
+                            "Button.callback": "() => this.close()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "close_mid"
+                            },
+                            "x": 488,
+                            "y": -440
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "7e02fac5-dccc-4d88-b0e8-a6a164bb678d",
+                            "label": "page_left",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "page_left",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "page_left"
+                            },
+                            "x": -525,
+                            "y": 109
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "758520eb-f101-4ebb-9645-3c6e5ea06528",
+                            "label": "page_right",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "page_right",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "livingsled",
+                                "frame": "page_right"
+                            },
+                            "x": 488,
+                            "y": 109
+                        },
+                        {
+                            "type": "Text",
+                            "id": "d536e207-a34f-4253-8d4c-460b22cf4fd0",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 550,
+                            "y": 248,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1029921f-26d0-4b4f-8a57-2e9fcf458660",
+            "label": "pages",
+            "objectIds": [
+                "776b1ada-1bd8-4f57-a1e4-1724c793bf0d",
+                "297a4696-b6f0-41bf-b85e-50f430678b66",
+                "3e8bd2fd-e0bd-4e75-93c4-cfb3185648c2",
+                "396bfb5c-171a-4b6d-9a60-6b6f4ad1a637"
+            ]
+        }
+    ]
+}

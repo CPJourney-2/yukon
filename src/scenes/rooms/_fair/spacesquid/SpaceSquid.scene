@@ -1,0 +1,574 @@
+{
+    "id": "37cec5c7-4719-4e9e-bdf0-3ef9d5971c5b",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/spacesquid/fair-spacesquid-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "SpaceSquid",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "dfaf2973-1887-44ea-840c-131c53272be3",
+            "label": "bg",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "bg"
+            },
+            "x": 794,
+            "y": 464
+        },
+        {
+            "type": "Image",
+            "id": "a5e16985-ffee-4957-9fe3-dd62dd40e9c2",
+            "label": "arch2",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "arch2"
+            },
+            "x": 1528,
+            "y": 562,
+            "originX": 0.36738968676217765,
+            "originY": 0.7102320684350932
+        },
+        {
+            "type": "Image",
+            "id": "6dc31923-fbb1-4aef-a364-d77cbf564a81",
+            "label": "arch1",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "arch1"
+            },
+            "x": 1412.8675706280933,
+            "y": 610.1846408140717,
+            "originX": 0.3784034317416045,
+            "originY": 0.7281120037003259
+        },
+        {
+            "type": "Image",
+            "id": "c19199bd-6cf0-4275-b08e-e6594f9a7588",
+            "label": "divider",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "divider"
+            },
+            "x": 1317,
+            "y": 504.76227252522517,
+            "originY": 0.5895779172672659
+        },
+        {
+            "type": "Image",
+            "id": "06f26237-22df-4beb-94cd-ccf3fea6d541",
+            "label": "divider_1",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "divider"
+            },
+            "x": 1313,
+            "y": 433,
+            "originY": 0.5895779172672659
+        },
+        {
+            "type": "Sprite",
+            "id": "98822741-4755-466d-bdd8-da88bf67b093",
+            "label": "fountains",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fountains",
+            "Animation.end": 29,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "fountains0001"
+            },
+            "x": 92.75831637756727,
+            "y": 624.1869287538577,
+            "originX": 0.4255893361473146,
+            "originY": 0.7754244508193162
+        },
+        {
+            "type": "Image",
+            "id": "7246eaea-dfac-4894-8957-5f965be321ce",
+            "label": "rock1",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "rock1"
+            },
+            "x": -8,
+            "y": 646,
+            "originY": 0.6421061983868905
+        },
+        {
+            "type": "Image",
+            "id": "fdad1ecb-7346-4f06-b496-37a3910f27cf",
+            "label": "rock3",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "rock3"
+            },
+            "x": 178,
+            "y": 762.823602489548,
+            "originY": 0.555364754697019
+        },
+        {
+            "type": "Image",
+            "id": "df3ac11c-cebe-4aeb-9fad-fa63bc475a70",
+            "label": "rock2",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "rock2"
+            },
+            "x": 103,
+            "y": 776.494878552491,
+            "originY": 0.699313116909267
+        },
+        {
+            "type": "Image",
+            "id": "c4176507-87b1-429d-b6b1-4a6e69e9a33e",
+            "label": "rock4",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "rock4"
+            },
+            "x": 172,
+            "y": 546,
+            "originY": 0.7659414538828752
+        },
+        {
+            "type": "Image",
+            "id": "183ba600-56e0-4080-a391-144908c86e2d",
+            "label": "rockarch",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "rockarch"
+            },
+            "x": 643.312085263662,
+            "y": 350.7505455234017,
+            "originX": 0.5663092896896829,
+            "originY": 0.765791373701138
+        },
+        {
+            "type": "Image",
+            "id": "e9bb300c-acfd-4c88-b268-f68c69e820ad",
+            "label": "slide3",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "slide3"
+            },
+            "x": 1030.0731201171875,
+            "y": 355.27438125303553,
+            "originX": 0.39091081425311613,
+            "originY": 0.9446281102452808
+        },
+        {
+            "type": "Image",
+            "id": "f3edcb7f-0132-4fe3-b0c8-58a184c165d2",
+            "label": "slide1",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "slide1"
+            },
+            "x": 1037.6916361766366,
+            "y": 364.80139806178863,
+            "originX": 0.3102372058829027,
+            "originY": 0.9852312444937177
+        },
+        {
+            "type": "Sprite",
+            "id": "f4254a25-6bb1-48dd-801c-d2e830899a10",
+            "label": "tentacle10001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "tentacle1",
+            "Animation.end": 33,
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "tentacle10001"
+            },
+            "x": 538.3056694117731,
+            "y": 527.0506982694633,
+            "originX": 0.3318939349302683,
+            "originY": 0.64223436801115
+        },
+        {
+            "type": "Sprite",
+            "id": "e63161dd-a3e8-45db-b49e-6073817364e9",
+            "label": "tentacle20001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "tentacle2",
+            "Animation.end": 40,
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "tentacle20001"
+            },
+            "x": 441,
+            "y": 677,
+            "originX": 0.5542299334080498,
+            "originY": 0.5982917543020896
+        },
+        {
+            "type": "Sprite",
+            "id": "02ad0193-f030-4fff-b0e3-154eaae40853",
+            "label": "tentacle3",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "tentacle3",
+            "Animation.end": 49,
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "tentacle30001"
+            },
+            "x": 467.3174318429693,
+            "y": 779.1656589811358,
+            "originX": 0.4488056922790028,
+            "originY": 0.6950826277607429
+        },
+        {
+            "type": "Image",
+            "id": "f12cf1de-4e73-484f-b581-5404af2afd67",
+            "label": "track1",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "track1"
+            },
+            "x": 912,
+            "y": 429,
+            "originX": 0.49131390550868387,
+            "originY": 0.05529070901115129
+        },
+        {
+            "type": "Image",
+            "id": "2da64996-28d7-4c9c-b87c-509da3b97500",
+            "label": "tentacle4",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "tentacle4"
+            },
+            "x": 546,
+            "y": 837,
+            "originY": 0.6285482355829087
+        },
+        {
+            "type": "Container",
+            "id": "0068c846-b487-4694-a0d0-9633cd20af95",
+            "label": "container_1",
+            "x": 773,
+            "y": 620,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "30a4fa6a-ef37-4b02-8980-a524d7d37987",
+                    "label": "behindeyes",
+                    "texture": {
+                        "key": "fair-spacesquid",
+                        "frame": "behindeyes"
+                    },
+                    "x": -91,
+                    "y": -20
+                },
+                {
+                    "type": "Sprite",
+                    "id": "297a062c-bfb6-48b3-8615-df4fd0c7c554",
+                    "label": "squideyes0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "squideyes",
+                    "Animation.end": 69,
+                    "texture": {
+                        "key": "fair-spacesquid",
+                        "frame": "squideyes0001"
+                    },
+                    "x": -111,
+                    "y": -5
+                },
+                {
+                    "type": "Image",
+                    "id": "d2e0b512-c0c9-492a-b53a-59e2f44ef1d2",
+                    "label": "track2",
+                    "texture": {
+                        "key": "fair-spacesquid",
+                        "frame": "track2"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "14a9f172-f00d-4b1d-93a8-3df9baa97c2b",
+            "label": "tentacle5",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "tentacle5"
+            },
+            "x": 1022,
+            "y": 809.1381659813648,
+            "originY": 0.761788432576999
+        },
+        {
+            "type": "Image",
+            "id": "e7b764fe-94cb-4b27-af33-243dd450722d",
+            "label": "comet",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "comet"
+            },
+            "x": 741,
+            "y": 262.8069563712631,
+            "originY": 0.7204009363548688
+        },
+        {
+            "type": "Image",
+            "id": "5b78385e-ad83-4536-a95d-71561ce6c06c",
+            "label": "slide4",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "slide4"
+            },
+            "x": 950,
+            "y": 295.58692117829855,
+            "originY": 0.14071943623297123
+        },
+        {
+            "type": "Image",
+            "id": "9cdaf64f-9c7e-4f59-b305-c9788a594ec6",
+            "label": "purplething",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "purplething"
+            },
+            "x": 931.9787055214197,
+            "y": 384.8296441713571,
+            "originX": 0.5741520075317805,
+            "originY": 0.8780114958086974
+        },
+        {
+            "type": "Image",
+            "id": "8275049d-4da1-4fa0-95e5-8c4b2098912a",
+            "label": "bigrock",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "bigrock"
+            },
+            "x": 403.7048708981748,
+            "y": 249.29800431315965,
+            "originX": 0.49629963113764236,
+            "originY": 0.7212066234522304
+        },
+        {
+            "type": "Image",
+            "id": "0024c9a0-a5f1-4bee-97ae-13fcdd8c7e8a",
+            "label": "entry",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "entry"
+            },
+            "x": 339,
+            "y": 473.27871565170375,
+            "originY": 0.70039162015773
+        },
+        {
+            "type": "Image",
+            "id": "aad283e5-53ef-4e0b-9b24-7b7830d9e5e9",
+            "label": "exitlight",
+            "scope": "CLASS",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "exitlight"
+            },
+            "x": 1553,
+            "y": 605,
+            "scaleX": 0.6,
+            "scaleY": 0.6,
+            "visible": false
+        },
+        {
+            "type": "Polygon",
+            "id": "bf818458-5ba4-4d80-ab7c-5d8cbb371185",
+            "label": "polygon_1",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "SimpleButton.hoverCallback": "() => this.exitlight.visible = true",
+            "SimpleButton.hoverOutCallback": "() => this.exitlight.visible = false",
+            "x": 1480.4468760233126,
+            "y": 612.5083342429446,
+            "originX": -0.1389404294550085,
+            "originY": -0.06674155950868994,
+            "fillColor": "#00ffff",
+            "fillAlpha": 0.5,
+            "points": "35 100 -98.5329396163645 1.5585785199870088 1.6666430327072703 -147.0973989588628 30.527058352768336 -85.25365184444638"
+        },
+        {
+            "type": "Image",
+            "id": "51bd0c2d-99ff-411f-9619-22eb4645bae0",
+            "label": "rock5",
+            "texture": {
+                "key": "fair-spacesquid",
+                "frame": "rock5"
+            },
+            "x": 693,
+            "y": 844.8180695662793,
+            "originY": 0.7984839130523275
+        },
+        {
+            "type": "Container",
+            "id": "adc6de8d-9ae8-4862-8cea-3d60fe4a6f67",
+            "label": "_gun2",
+            "x": 1405.0206026030337,
+            "y": 850.4323515914298,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "b051145a-da9c-4b79-9171-1de37a2b09f6",
+                    "label": "gunbase1",
+                    "texture": {
+                        "key": "fair-spacesquid",
+                        "frame": "gunbase1"
+                    },
+                    "x": 37.979397396966306,
+                    "y": -9.432351591429779
+                },
+                {
+                    "type": "Image",
+                    "id": "412a202c-2e37-4040-9cb7-4450a8f6ffe7",
+                    "label": "gunbase2",
+                    "texture": {
+                        "key": "fair-spacesquid",
+                        "frame": "gunbase2"
+                    },
+                    "x": -12.020602603033694,
+                    "y": -21.43235159142978
+                },
+                {
+                    "type": "Sprite",
+                    "id": "de10e483-c21c-415d-b00e-f93a9273ba59",
+                    "label": "gun2",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "gun",
+                    "Animation.end": 16,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "fair-spacesquid",
+                        "frame": "gun0001"
+                    },
+                    "x": -512.0206026030337,
+                    "y": -350.4323515914298
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "9f68d9cf-10ac-4c31-b728-1ef2b2842674",
+            "label": "_gun",
+            "x": 1036,
+            "y": 411.2017535891041,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "e19195d7-d7bc-4db1-abcd-24dfc02188f6",
+                    "label": "gunbase12",
+                    "texture": {
+                        "key": "fair-spacesquid",
+                        "frame": "gunbase1"
+                    },
+                    "x": 37.979397396966306,
+                    "y": 39.36589481946612
+                },
+                {
+                    "type": "Image",
+                    "id": "1a3ca4fa-5f78-4360-b0d8-d6adc57f9aa2",
+                    "label": "gunbase22",
+                    "texture": {
+                        "key": "fair-spacesquid",
+                        "frame": "gunbase2"
+                    },
+                    "x": -12.020602603033694,
+                    "y": 27.36589481946612
+                },
+                {
+                    "type": "Sprite",
+                    "id": "99a6719f-8fa7-47af-bedc-1b8f52962c01",
+                    "label": "gun1",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "gun",
+                    "Animation.end": 16,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "fair-spacesquid",
+                        "frame": "gun0001"
+                    },
+                    "x": -512.0206026030337,
+                    "y": -301.6341051805339
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "528d71e2-a474-4325-aa76-2ccaa2e1016f",
+            "label": "sort",
+            "objectIds": [
+                "6dc31923-fbb1-4aef-a364-d77cbf564a81",
+                "a5e16985-ffee-4957-9fe3-dd62dd40e9c2",
+                "c19199bd-6cf0-4275-b08e-e6594f9a7588",
+                "06f26237-22df-4beb-94cd-ccf3fea6d541",
+                "98822741-4755-466d-bdd8-da88bf67b093",
+                "7246eaea-dfac-4894-8957-5f965be321ce",
+                "df3ac11c-cebe-4aeb-9fad-fa63bc475a70",
+                "fdad1ecb-7346-4f06-b496-37a3910f27cf",
+                "c4176507-87b1-429d-b6b1-4a6e69e9a33e",
+                "183ba600-56e0-4080-a391-144908c86e2d",
+                "f3edcb7f-0132-4fe3-b0c8-58a184c165d2",
+                "f4254a25-6bb1-48dd-801c-d2e830899a10",
+                "e63161dd-a3e8-45db-b49e-6073817364e9",
+                "02ad0193-f030-4fff-b0e3-154eaae40853",
+                "2da64996-28d7-4c9c-b87c-509da3b97500",
+                "14a9f172-f00d-4b1d-93a8-3df9baa97c2b",
+                "f12cf1de-4e73-484f-b581-5404af2afd67",
+                "0068c846-b487-4694-a0d0-9633cd20af95",
+                "9cdaf64f-9c7e-4f59-b305-c9788a594ec6",
+                "e7b764fe-94cb-4b27-af33-243dd450722d",
+                "8275049d-4da1-4fa0-95e5-8c4b2098912a",
+                "0024c9a0-a5f1-4bee-97ae-13fcdd8c7e8a",
+                "5b78385e-ad83-4536-a95d-71561ce6c06c",
+                "e9bb300c-acfd-4c88-b268-f68c69e820ad",
+                "51bd0c2d-99ff-411f-9619-22eb4645bae0",
+                "adc6de8d-9ae8-4862-8cea-3d60fe4a6f67",
+                "9f68d9cf-10ac-4c31-b728-1ef2b2842674"
+            ]
+        }
+    ]
+}

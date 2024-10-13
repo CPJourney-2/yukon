@@ -1,0 +1,198 @@
+{
+    "id": "38337c28-8051-4757-8737-399308971edb",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "483aaba7-9e9b-43c8-8c69-fedaaa1e5bb1",
+            "label": "container_6",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "69ae4869-66f3-402a-85b9-95fbda9c7627",
+                    "label": "balloonstand",
+                    "texture": {
+                        "key": "circusprizes",
+                        "frame": "balloonstand"
+                    },
+                    "x": 168,
+                    "y": 345
+                },
+                {
+                    "type": "Image",
+                    "id": "4700ad5c-1e4e-4652-85ea-4e67cd0a36d5",
+                    "label": "balloon_orange0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "balloon-orange",
+                    "Button.callback": "() => this.interface.prompt.showItem(5042)",
+                    "Button.pixelPerfect": true,
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "circusprizes",
+                        "frame": "balloon-orange0001"
+                    },
+                    "x": 174
+                },
+                {
+                    "type": "Image",
+                    "id": "bcbc4b9f-fa9c-409c-9e4e-b2a6df802739",
+                    "label": "balloon_red0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "balloon-red",
+                    "Button.callback": "() => this.interface.prompt.showItem(5116)",
+                    "Button.pixelPerfect": true,
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "circusprizes",
+                        "frame": "balloon-red0001"
+                    },
+                    "x": 66,
+                    "y": 44
+                },
+                {
+                    "type": "Image",
+                    "id": "0133678f-7e0d-4ab9-b3ad-9aac817c5905",
+                    "label": "helium0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "helium",
+                    "Button.callback": "() => this.interface.prompt.showItem(5112)",
+                    "Button.pixelPerfect": true,
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "circusprizes",
+                        "frame": "helium0001"
+                    },
+                    "y": 279
+                },
+                {
+                    "type": "Image",
+                    "id": "0fc455ae-deb8-4cf4-865c-47d5e6e24e53",
+                    "label": "balloon_purp0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "balloon-purp",
+                    "Button.callback": "() => this.interface.prompt.showItem(5111)",
+                    "Button.pixelPerfect": true,
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "circusprizes",
+                        "frame": "balloon-purp0001"
+                    },
+                    "x": 69,
+                    "y": 167
+                },
+                {
+                    "type": "Image",
+                    "id": "980afd2e-725b-4859-9289-3308e3ed0541",
+                    "label": "balloon_yellow0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "balloon-yellow",
+                    "Button.callback": "() => this.interface.prompt.showItem(5117)",
+                    "Button.pixelPerfect": true,
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "circusprizes",
+                        "frame": "balloon-yellow0001"
+                    },
+                    "x": 290,
+                    "y": 79
+                },
+                {
+                    "type": "Image",
+                    "id": "ca30a609-4a2f-4db1-a9b1-8a4e7a45e383",
+                    "label": "balloon_green0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "balloon-green",
+                    "Button.callback": "() => this.interface.prompt.showItem(5076)",
+                    "Button.pixelPerfect": true,
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "circusprizes",
+                        "frame": "balloon-green0001"
+                    },
+                    "x": 177,
+                    "y": 159
+                },
+                {
+                    "type": "Image",
+                    "id": "91167f0a-a412-48a9-a248-e679751edb77",
+                    "label": "ticketsign_3",
+                    "texture": {
+                        "key": "circusprizes",
+                        "frame": "ticketsign1"
+                    },
+                    "x": 194,
+                    "y": 317,
+                    "angle": -10
+                },
+                {
+                    "type": "Text",
+                    "id": "22b8b982-03b1-4c6e-939e-3814a4000388",
+                    "label": "text_5",
+                    "x": 181,
+                    "y": 319,
+                    "angle": -10,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "100   \nEACH!",
+                    "fixedWidth": 150,
+                    "paddingLeft": 10,
+                    "lineSpacing": -10,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "40px",
+                    "fontStyle": "bold italic",
+                    "shadow.offsetX": 3,
+                    "shadow.offsetY": 3,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#00000097"
+                },
+                {
+                    "type": "Image",
+                    "id": "ac444a82-9885-4888-82dd-e82c4d121946",
+                    "label": "ticketicon_5",
+                    "texture": {
+                        "key": "circusprizes",
+                        "frame": "ticketicon"
+                    },
+                    "x": 226,
+                    "y": 292,
+                    "scaleX": 0.6,
+                    "scaleY": 0.6,
+                    "angle": -10
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

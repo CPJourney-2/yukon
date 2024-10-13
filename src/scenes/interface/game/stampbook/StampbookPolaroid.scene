@@ -1,0 +1,135 @@
+{
+    "id": "70f6cc73-f178-450e-8eab-5996d11ad254",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "53b1b3de-10a3-4da3-8fce-7d6a7436fe07",
+            "label": "polaroid",
+            "components": [],
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "441a8f26-6f0e-4b00-9019-381f5938260a",
+                    "label": "backgroundGrey",
+                    "scope": "CLASS",
+                    "components": [],
+                    "originX": 0,
+                    "originY": 0,
+                    "isFilled": true,
+                    "fillColor": "#CFCFCF",
+                    "width": 300,
+                    "height": 270,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "7179a8c6-d49a-4421-8e93-446c5db2db23",
+                    "label": "bodyColor",
+                    "scope": "CLASS",
+                    "components": [],
+                    "originX": 0,
+                    "originY": 0,
+                    "visible": false,
+                    "isFilled": true,
+                    "fillColor": "#e41515",
+                    "width": 300,
+                    "height": 270,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "618b5ea1-6a4d-4d31-94ad-ebc2dd0265fa",
+                    "label": "image",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "testPolaroid"
+                    },
+                    "originX": 0,
+                    "originY": 0,
+                    "visible": false,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "1c66f4d8-d361-4b80-9a43-9ebec575a551",
+                    "label": "unlockContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 130,
+                    "y": 125,
+                    "alpha": 0.5,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "52296884-f202-4282-9a7a-8690a86f6e09",
+                            "label": "rectangleHover",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onHover()",
+                            "SimpleButton.hoverOutCallback": "() => this.onHoverOut()",
+                            "x": 30,
+                            "y": 34,
+                            "width": 350,
+                            "height": 350,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "659565f8-8204-489a-9ef7-5b9aa6068824",
+                            "label": "polaroidStampIcon",
+                            "components": [],
+                            "texture": {
+                                "key": "stampbook-editor",
+                                "frame": "polaroidStampIcon"
+                            },
+                            "x": 56,
+                            "y": 33,
+                            "scaleX": 0.75,
+                            "scaleY": 0.75,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "3eccd649-795d-4ec4-b73f-de07f6f55a3d",
+                            "label": "stampCondition",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 28,
+                            "y": 14,
+                            "scaleX": 0.75,
+                            "scaleY": 0.75,
+                            "originX": 1,
+                            "text": "60",
+                            "align": "right",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "44px",
+                            "fontStyle": "bold",
+                            "color": "#666666",
+                            "list": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

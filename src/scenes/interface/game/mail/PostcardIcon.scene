@@ -1,0 +1,81 @@
+{
+    "id": "d0f88fd5-413f-4405-90d1-55390a4a1bc3",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "d172b67f-2104-4439-85b1-935329581856",
+            "label": "container_2",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "14f6e997-7903-41c5-97e7-ccdef3776900",
+                    "label": "mail_book_cardicon",
+                    "components": [],
+                    "texture": {
+                        "key": "mail-book-cardicon"
+                    },
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "b2f86d88-6033-449a-bf54-88b964833c27",
+                    "label": "image",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "mail-book-testIcon"
+                    },
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "87a55a80-cb2c-4746-b3be-c5cf7d926f82",
+                    "label": "textField",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": 128,
+                    "originX": 0.5,
+                    "text": "line1\nline2",
+                    "fixedWidth": 350,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "22px",
+                    "color": "#000",
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "101bfc72-242b-4aec-a3b8-f663bf4cefea",
+                    "label": "rectangle_1",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onClick()",
+                    "width": 320,
+                    "height": 230,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

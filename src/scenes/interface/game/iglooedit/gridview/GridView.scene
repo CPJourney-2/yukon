@@ -1,0 +1,123 @@
+{
+    "id": "956df868-6697-404e-bc47-3ade95fd1023",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "7c1c9ca3-0998-4409-b76a-ead91db93dce",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "003cecd1-fab3-4a5c-985b-53d99bd1eba3",
+                    "label": "block",
+                    "scope": "CLASS",
+                    "x": 903,
+                    "y": 392,
+                    "visible": false,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Container",
+                    "id": "f252d1e9-d775-4ff8-a24a-4bf688bd7767",
+                    "label": "container",
+                    "scope": "CLASS"
+                },
+                {
+                    "type": "Container",
+                    "id": "b4417fac-c8de-4926-bff3-4a4f3b1fd6ed",
+                    "label": "pageButtons",
+                    "scope": "CLASS",
+                    "x": 1107,
+                    "y": 174,
+                    "angle": 90,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ecaed311-3099-4fd8-8c54-c82e5e1d38ab",
+                            "label": "down_button",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "igloo_x",
+                            "Button.callback": "() => this.prevPage()",
+                            "texture": {
+                                "key": "new-iglooedit",
+                                "frame": "igloo_x"
+                            },
+                            "y": 998,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1100a04f-1ac4-4c35-b46c-ba649092312a",
+                            "label": "grey_arrow_1",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "y": 996,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9,
+                            "flipY": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ddcad954-f487-4f86-9644-034b45159062",
+                            "label": "up_button",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "igloo_x",
+                            "Button.callback": "() => this.nextPage()",
+                            "texture": {
+                                "key": "new-iglooedit",
+                                "frame": "igloo_x"
+                            },
+                            "y": -208,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4773964e-d84d-40ff-8658-16620b15e061",
+                            "label": "grey_arrow",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "y": -210,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

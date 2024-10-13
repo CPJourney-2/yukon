@@ -1,0 +1,291 @@
+{
+    "id": "26c14a93-d51d-4afd-b73b-e784156565bd",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "be701bfe-8830-4a69-a834-95e812d06ffa",
+            "label": "shuffle",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "dd61a82d-4d06-4a04-94f8-d35862ac38aa",
+                    "label": "reset",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "shuffle/resetbtn",
+                    "Button.callback": "() => this.resetGame()",
+                    "texture": {
+                        "key": "news-common",
+                        "frame": "shuffle/resetbtn"
+                    },
+                    "x": 314,
+                    "y": 266
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "fab389f4-bf37-4c97-8707-c4fc29c2c0de",
+                    "label": "bg",
+                    "x": 62,
+                    "y": -58,
+                    "isFilled": true,
+                    "fillColor": "#4E5973",
+                    "strokeColor": "#000",
+                    "lineWidth": 6,
+                    "isStroked": true,
+                    "width": 610,
+                    "height": 610
+                },
+                {
+                    "type": "Image",
+                    "id": "4be10ffe-afbf-4eaa-8cfa-765a4723259a",
+                    "label": "submityourown",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "submit-btn",
+                    "texture": {
+                        "key": "news-common",
+                        "frame": "submit-btn"
+                    },
+                    "x": 59,
+                    "y": 299,
+                    "scaleX": 0.8425158960590011,
+                    "scaleY": 0.743450521873878,
+                    "visible": false
+                },
+                {
+                    "type": "Container",
+                    "id": "b2db20fb-9a3b-43a9-b18d-110f663f2be7",
+                    "label": "_tiles",
+                    "x": -238,
+                    "y": -359,
+                    "list": [
+                        {
+                            "prefabId": "93508471-f016-4c41-9a7f-a10d4805d453",
+                            "id": "6683cf11-305a-4420-a52e-373e9fdf2840",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "tile1",
+                            "scope": "CLASS",
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "93508471-f016-4c41-9a7f-a10d4805d453",
+                            "id": "e896256a-48c6-4b2e-93ae-c4aedd2367f0",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "tile2",
+                            "scope": "CLASS",
+                            "x": 200,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "93508471-f016-4c41-9a7f-a10d4805d453",
+                            "id": "8fc9792e-08f7-440d-9678-42373023e15a",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "tile3",
+                            "scope": "CLASS",
+                            "x": 400,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "93508471-f016-4c41-9a7f-a10d4805d453",
+                            "id": "d925d0a8-bd02-4b14-8bdb-4639ad2d6c48",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "tile4",
+                            "scope": "CLASS",
+                            "x": 0,
+                            "y": 200
+                        },
+                        {
+                            "prefabId": "93508471-f016-4c41-9a7f-a10d4805d453",
+                            "id": "456463ff-73c7-4fba-965a-b721863a770d",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "tile5",
+                            "scope": "CLASS",
+                            "x": 200,
+                            "y": 200
+                        },
+                        {
+                            "prefabId": "93508471-f016-4c41-9a7f-a10d4805d453",
+                            "id": "b31ea1ca-e882-467e-8877-a27f1b0b2fd5",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "tile6",
+                            "scope": "CLASS",
+                            "x": 400,
+                            "y": 200
+                        },
+                        {
+                            "prefabId": "93508471-f016-4c41-9a7f-a10d4805d453",
+                            "id": "d5da5f17-4750-421e-a3a1-167ca1911623",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "tile7",
+                            "scope": "CLASS",
+                            "x": 0,
+                            "y": 400
+                        },
+                        {
+                            "prefabId": "93508471-f016-4c41-9a7f-a10d4805d453",
+                            "id": "6402fd62-fe3a-4b42-8dab-f1165e52a379",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "tile8",
+                            "scope": "CLASS",
+                            "x": 200,
+                            "y": 400
+                        },
+                        {
+                            "prefabId": "93508471-f016-4c41-9a7f-a10d4805d453",
+                            "id": "45dc846f-1e6f-4121-9449-70a6fd521309",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "tile9",
+                            "scope": "CLASS",
+                            "x": 400,
+                            "y": 400
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "4251bc79-be25-4e39-99e5-f3e9226f5972",
+                    "label": "movesTxt",
+                    "scope": "CLASS",
+                    "x": -153,
+                    "y": 264,
+                    "text": "9999",
+                    "fixedWidth": 90,
+                    "fixedHeight": 30,
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "20px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Text",
+                    "id": "cd12a284-3506-49e0-aa07-215ff7e2af6d",
+                    "label": "movesTitle",
+                    "x": -250,
+                    "y": 262,
+                    "text": "MOVES:",
+                    "fixedWidth": 90,
+                    "fixedHeight": 30,
+                    "paddingLeft": 5,
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "20px",
+                    "fontStyle": "bold italic",
+                    "color": "#000"
+                },
+                {
+                    "type": "Text",
+                    "id": "c33e9fd1-42af-4a3e-8fed-866e82a4163d",
+                    "label": "resetTxt",
+                    "x": 275,
+                    "y": 257,
+                    "text": "RESET",
+                    "fixedWidth": 90,
+                    "fixedHeight": 30,
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "20px",
+                    "fontStyle": "bold italic",
+                    "color": "#000"
+                },
+                {
+                    "type": "Container",
+                    "id": "b6cc09db-bc88-4fda-92b4-e2d8711dd1eb",
+                    "label": "howToPlay",
+                    "scope": "CLASS",
+                    "x": 63,
+                    "y": -9,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "97279774-d76b-4ac8-819e-26259e8a7c98",
+                            "label": "howtoplaybtn",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.howToPlay.visible = false",
+                            "y": -10,
+                            "isFilled": true,
+                            "fillColor": "#eee",
+                            "fillAlpha": 0.5,
+                            "width": 650,
+                            "height": 720
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c4bf10fb-39c1-4097-b93c-6ec78eef12b4",
+                            "label": "shuffle_howtoplay",
+                            "texture": {
+                                "key": "news-common",
+                                "frame": "shuffle/howtoplay"
+                            },
+                            "x": -6,
+                            "y": -27
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "dac4ae06-9eb7-4316-8577-8284fa7ad456",
+            "label": "tiles",
+            "objectIds": [
+                "6683cf11-305a-4420-a52e-373e9fdf2840",
+                "45dc846f-1e6f-4121-9449-70a6fd521309",
+                "6402fd62-fe3a-4b42-8dab-f1165e52a379",
+                "d5da5f17-4750-421e-a3a1-167ca1911623",
+                "b31ea1ca-e882-467e-8877-a27f1b0b2fd5",
+                "456463ff-73c7-4fba-965a-b721863a770d",
+                "d925d0a8-bd02-4b14-8bdb-4639ad2d6c48",
+                "8fc9792e-08f7-440d-9678-42373023e15a",
+                "e896256a-48c6-4b2e-93ae-c4aedd2367f0"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "id": "20955940-3bab-4493-9d10-a09261cc2ae1",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "PaperDoll",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "888c3eff-ab87-4b5c-872c-da44596ea684",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "1c574be6-b9d9-4b9f-9af4-3a0487fabd06",
+                    "label": "pengiquin_shadow",
+                    "texture": {
+                        "key": "pengiquin-pack",
+                        "frame": "pengiquin_shadow"
+                    },
+                    "x": 1,
+                    "y": 160
+                },
+                {
+                    "type": "Image",
+                    "id": "775e1df3-c960-42df-9779-cae3c067133c",
+                    "label": "pengiquin_shadow_1",
+                    "texture": {
+                        "key": "pengiquin-pack",
+                        "frame": "pengiquin_shadow"
+                    },
+                    "x": 1,
+                    "y": 160
+                },
+                {
+                    "type": "Image",
+                    "id": "9076e575-18a5-438d-874c-aa40806652c9",
+                    "label": "glow",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "pengiquin-pack",
+                        "frame": "glow"
+                    },
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "visible": false,
+                    "tintTopLeft": "#f6f3d4",
+                    "tintTopRight": "#fff",
+                    "tintBottomLeft": "#fff",
+                    "tintBottomRight": "#fff",
+                    "tintFill": true
+                },
+                {
+                    "type": "Image",
+                    "id": "5b45a76d-5ff4-4a25-9b76-049e11d7a1a4",
+                    "label": "sunburst",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "pengiquin-pack",
+                        "frame": "sunburst"
+                    },
+                    "scaleX": 0.6,
+                    "scaleY": 0.6,
+                    "visible": false,
+                    "tintTopLeft": "#fff",
+                    "tintFill": true
+                },
+                {
+                    "type": "Image",
+                    "id": "4479ece3-21a7-42ed-8484-51f16ae4f195",
+                    "label": "pengiquinDoll",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "pengiquin-pack",
+                        "frame": "pengiquin"
+                    },
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "originY": 0.43
+                },
+                {
+                    "type": "Container",
+                    "id": "a1cb588a-3271-41b8-864d-5eac27749207",
+                    "label": "iconContainer",
+                    "scope": "CLASS"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

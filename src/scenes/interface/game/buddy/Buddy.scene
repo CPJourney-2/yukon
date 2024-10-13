@@ -1,0 +1,1019 @@
+{
+    "id": "27889184-8ae4-4103-ab57-1cbad21b7401",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapHeight": 52,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "2e3cb4cb-5882-4e08-bbc6-e88eee8ac431",
+            "label": "container_1",
+            "components": [
+                "DraggableContainer"
+            ],
+            "DraggableContainer.handle": "card_bg",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "NineSlice",
+                    "id": "a95e00f1-6c2c-4342-99c2-a511260db9fe",
+                    "label": "card_bg",
+                    "texture": {
+                        "key": "main",
+                        "frame": "card-bg"
+                    },
+                    "width": 464,
+                    "height": 700,
+                    "leftWidth": 56,
+                    "rightWidth": 71,
+                    "topHeight": 98,
+                    "bottomHeight": 60
+                },
+                {
+                    "type": "Text",
+                    "id": "841ebb39-649d-42b9-9511-ea1f3e822dc7",
+                    "label": "text",
+                    "scope": "CLASS",
+                    "y": -257,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Your Friends",
+                    "fixedWidth": 420,
+                    "fixedHeight": 38,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000000"
+                },
+                {
+                    "type": "Image",
+                    "id": "2ac6e99f-200e-4c66-bf80-a3495a593265",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.hide()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 177,
+                    "y": -258
+                },
+                {
+                    "type": "Image",
+                    "id": "5a1c1fba-b044-4f40-9206-0ec74445befe",
+                    "label": "blue_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 177,
+                    "y": -260
+                },
+                {
+                    "type": "Container",
+                    "id": "3914881a-9ba2-4041-aabe-81b1a0bcb93e",
+                    "label": "scrollBar",
+                    "scope": "CLASS",
+                    "x": 177,
+                    "y": -196,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "7c656c7f-7656-4d79-a77d-6596ac339266",
+                            "label": "buddy_scroll",
+                            "texture": {
+                                "key": "main",
+                                "frame": "buddy/scroll"
+                            },
+                            "y": 189
+                        },
+                        {
+                            "type": "Image",
+                            "id": "da2bfe74-79fd-4772-9752-0d82acb1fb35",
+                            "label": "down_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "y": 370
+                        },
+                        {
+                            "type": "Image",
+                            "id": "877e60ba-ac93-4acc-8476-c139a829aa83",
+                            "label": "up_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "y": 2
+                        },
+                        {
+                            "type": "Image",
+                            "id": "76d94d02-bbfe-418f-ac6a-e5a7f397303c",
+                            "label": "blue_arrow_1",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "y": 368,
+                            "flipY": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8ef106be-0a79-4b5b-bae3-c290e66ce84d",
+                            "label": "blue_arrow",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "prefabId": "4bb6ff30-8325-40f6-a7ec-ab36bcde7e44",
+                    "id": "f2a26b6e-7543-43ed-9451-bd62201d532b",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "buddy_item_7",
+                    "x": -26,
+                    "y": 173,
+                    "visible": false
+                },
+                {
+                    "prefabId": "4bb6ff30-8325-40f6-a7ec-ab36bcde7e44",
+                    "id": "fa0b2b61-62ae-45d2-83ca-7c8fa9d5c283",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "buddy_item_6",
+                    "x": -26,
+                    "y": 121,
+                    "visible": false
+                },
+                {
+                    "prefabId": "4bb6ff30-8325-40f6-a7ec-ab36bcde7e44",
+                    "id": "6eeaebcc-ba63-4f4e-9b87-8fce28d4514e",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "buddy_item_5",
+                    "x": -26,
+                    "y": 69,
+                    "visible": false
+                },
+                {
+                    "prefabId": "4bb6ff30-8325-40f6-a7ec-ab36bcde7e44",
+                    "id": "8832d9b7-0a60-4918-afa5-d8c8a8e7a2f9",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "buddy_item_4",
+                    "x": -26,
+                    "y": 17,
+                    "visible": false
+                },
+                {
+                    "prefabId": "4bb6ff30-8325-40f6-a7ec-ab36bcde7e44",
+                    "id": "39722cd4-e0f0-4a56-9956-1810785d54ea",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "buddy_item_3",
+                    "x": -26,
+                    "y": -35,
+                    "visible": false
+                },
+                {
+                    "prefabId": "4bb6ff30-8325-40f6-a7ec-ab36bcde7e44",
+                    "id": "ae597d89-b8e4-47d4-9a9f-f263f2a9130d",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "buddy_item_2",
+                    "x": -26,
+                    "y": -87,
+                    "visible": false
+                },
+                {
+                    "prefabId": "4bb6ff30-8325-40f6-a7ec-ab36bcde7e44",
+                    "id": "22fa7563-5315-46f4-8966-e40b241e26a2",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "buddy_item_1",
+                    "x": -26,
+                    "y": -139,
+                    "visible": false
+                },
+                {
+                    "prefabId": "4bb6ff30-8325-40f6-a7ec-ab36bcde7e44",
+                    "id": "68c9019a-a0e7-42f8-8b77-1072aa33724e",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "buddy_item",
+                    "x": -26,
+                    "y": -191,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "5f8516e6-2e1f-47ce-8caa-1a64b80c125d",
+                    "label": "buddy_button",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.hoverCallback": "() => this.hideSearch()",
+                    "Button.hoverOutCallback": "() => this.showSearch()",
+                    "Button.callback": "() => this.switchList('buddies', 'Your Friends')",
+                    "Button.activeFrame": true,
+                    "ShowHint.text": "buddy_hint",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": -90,
+                    "y": 294
+                },
+                {
+                    "type": "Image",
+                    "id": "45edc42e-79e1-4aac-b6a7-bf2edac79c7b",
+                    "label": "profile_button",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.hoverCallback": "() => this.hideSearch()",
+                    "Button.hoverOutCallback": "() => this.showSearch()",
+                    "Button.callback": "() => this.switchList('room', 'Users in Room')",
+                    "Button.activeFrame": true,
+                    "ShowHint.text": "online_hint",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": -30,
+                    "y": 294
+                },
+                {
+                    "type": "Image",
+                    "id": "a8827f5d-475d-4f6b-a576-f1aafa6c5644",
+                    "label": "requests_button",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.hoverCallback": "() => this.hideSearch()",
+                    "Button.hoverOutCallback": "() => this.showSearch()",
+                    "Button.callback": "() => this.switchList('buddyRequests', 'Friend Requests')",
+                    "Button.activeFrame": true,
+                    "ShowHint.text": "requests_hint",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 31,
+                    "y": 294
+                },
+                {
+                    "type": "Image",
+                    "id": "33936fde-f58d-43d6-a23b-36cd73927b5c",
+                    "label": "igloo_button",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.hoverCallback": "() => this.hideSearch()",
+                    "Button.hoverOutCallback": "() => this.showSearch()",
+                    "Button.callback": "() => this.switchList('ignores', 'Ignore List')",
+                    "Button.activeFrame": true,
+                    "ShowHint.text": "ignore_hint",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 92,
+                    "y": 294
+                },
+                {
+                    "type": "Image",
+                    "id": "323acf4c-cbf1-4065-85d7-5c5079dea9c4",
+                    "label": "buddies_icon_disabled",
+                    "texture": {
+                        "key": "main",
+                        "frame": "buddies-icon"
+                    },
+                    "x": -90,
+                    "y": 292
+                },
+                {
+                    "type": "Image",
+                    "id": "495a1656-7219-4392-ac81-83c8f251d36d",
+                    "label": "help_icon_disabled",
+                    "texture": {
+                        "key": "main",
+                        "frame": "online-icon"
+                    },
+                    "x": -30,
+                    "y": 292
+                },
+                {
+                    "type": "Image",
+                    "id": "c0446eaf-999d-4fbe-b224-641aea606e12",
+                    "label": "mail_icon",
+                    "texture": {
+                        "key": "main",
+                        "frame": "mail-icon"
+                    },
+                    "x": 31,
+                    "y": 292
+                },
+                {
+                    "type": "Image",
+                    "id": "3eec9a6b-c31e-47fb-865b-12626a034f33",
+                    "label": "igloo_icon_disabled",
+                    "texture": {
+                        "key": "main",
+                        "frame": "ignore-icon"
+                    },
+                    "x": 92,
+                    "y": 292
+                },
+                {
+                    "type": "Text",
+                    "id": "21bfa9d2-cd3d-4f86-af80-f86f84ae37e8",
+                    "label": "total",
+                    "scope": "CLASS",
+                    "x": -178,
+                    "y": 310,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "999",
+                    "fixedWidth": 100,
+                    "fixedHeight": 64,
+                    "align": "right",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "24px",
+                    "color": "#003366"
+                },
+                {
+                    "type": "ThreeSlice",
+                    "id": "f922c3bd-2ca4-43bb-aae0-19499b157318",
+                    "label": "chat_box",
+                    "texture": {
+                        "key": "main",
+                        "frame": "chat-box"
+                    },
+                    "x": -6,
+                    "y": 233,
+                    "width": 380,
+                    "height": 54,
+                    "leftWidth": 115,
+                    "rightWidth": 67
+                },
+                {
+                    "type": "Image",
+                    "id": "00369810-120c-4c20-bc62-c0b0fa75ef6a",
+                    "label": "search_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.onSearch()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 177,
+                    "y": 233
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "7db39e09-6b20-47e9-9702-c462cd042ec9",
+                    "label": "ellipse_1",
+                    "x": 179,
+                    "y": 228,
+                    "fillColor": "#2980CD",
+                    "lineWidth": 3,
+                    "isStroked": true,
+                    "width": 20,
+                    "height": 20
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "18c7f2d9-f7bb-4815-9761-5783f8770d32",
+                    "label": "rectangle_1",
+                    "x": 169,
+                    "y": 239,
+                    "angle": -45,
+                    "isFilled": true,
+                    "width": 10,
+                    "height": 4
+                },
+                {
+                    "type": "Container",
+                    "id": "12743f95-fb3b-4f68-a0ef-a9b9766968bb",
+                    "label": "notificationDot",
+                    "scope": "CLASS",
+                    "x": 46,
+                    "y": 276,
+                    "list": [
+                        {
+                            "type": "Ellipse",
+                            "id": "e5b453b0-48df-4889-b715-d50717ae8580",
+                            "label": "requestRing",
+                            "y": 1,
+                            "isFilled": true,
+                            "fillColor": "#FF6600",
+                            "strokeColor": "#CC3333",
+                            "lineWidth": 2,
+                            "isStroked": true,
+                            "width": 25,
+                            "height": 25
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b864818f-20cf-4e40-a0b2-b509e9554f9b",
+                            "label": "requestCount",
+                            "scope": "CLASS",
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "99",
+                            "align": "right",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "15px",
+                            "fontStyle": "bold"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "3b1fca67-1dcb-41c0-9727-43c523002537",
+                    "label": "text_container",
+                    "scope": "CLASS",
+                    "x": -20,
+                    "y": 234,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "0d237a9f-2b85-4604-a673-72823b7e0227",
+                            "label": "put_input_here",
+                            "scope": "CLASS",
+                            "width": 310,
+                            "height": 40
+                        },
+                        {
+                            "type": "Text",
+                            "id": "c6a0031d-bbbf-4da1-885e-af3fbcb1cf03",
+                            "label": "dummyinput",
+                            "scope": "CLASS",
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "Search for a friend",
+                            "fixedWidth": 310,
+                            "fontFamily": "Arial",
+                            "fontSize": "24px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "f5ae7ba6-f90b-4a84-a85a-a1cc748798a4",
+                    "label": "noRequests",
+                    "scope": "CLASS",
+                    "x": -15,
+                    "y": -144,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "384f1c1d-59f5-4c19-9496-fdc60b286eb1",
+                            "label": "text_1r",
+                            "x": 18,
+                            "y": 70,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "You have no friend requests.",
+                            "fixedWidth": 420,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "37c9913c-df8e-40c0-8215-b65e3c2ba441",
+                            "label": "text_2r",
+                            "x": 18,
+                            "y": 175,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "When someone sends you a friend request, it will appear here, where you can either accept or deny it.",
+                            "fixedWidth": 420,
+                            "lineSpacing": 8,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "26px",
+                            "wordWrapWidth": 400
+                        },
+                        {
+                            "type": "Image",
+                            "id": "75807629-0336-41b4-8796-0a8058d2add8",
+                            "label": "buddy_button_2e",
+                            "texture": {
+                                "key": "main",
+                                "frame": "buddy-button"
+                            },
+                            "x": 16,
+                            "y": -13
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "887ee7bc-8457-4641-b3fa-d217db04d916",
+                    "label": "noFriends",
+                    "scope": "CLASS",
+                    "x": -15,
+                    "y": -144,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "0238b1a8-b2f3-41c0-ba5a-346db8c359b2",
+                            "label": "text_1",
+                            "x": 18,
+                            "y": -13,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "You have no friends.",
+                            "fixedWidth": 420,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "c6f83026-57d5-4507-bb80-ffbef9cd0d4f",
+                            "label": "text_2",
+                            "x": 18,
+                            "y": 122,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Click the         button on someone's player card to send them a friend request, or search for someone's username in the searchbar below!",
+                            "fixedWidth": 420,
+                            "lineSpacing": 8,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "26px",
+                            "wordWrapWidth": 400
+                        },
+                        {
+                            "type": "Image",
+                            "id": "359d8a9c-ba66-410d-97c6-62b09e014f25",
+                            "label": "buddy_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 9,
+                            "y": 46,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ede079a7-bdc2-4e90-b497-10dfc2e2b5a9",
+                            "label": "buddy_icon",
+                            "texture": {
+                                "key": "main",
+                                "frame": "buddies-icon"
+                            },
+                            "x": 9,
+                            "y": 44,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "89f5aecb-6c04-428e-a497-07e6fd68bde7",
+                    "label": "noIgnores",
+                    "scope": "CLASS",
+                    "x": -15,
+                    "y": -144,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "792f493d-6eeb-46af-8434-a6ccfc951133",
+                            "label": "text_1221",
+                            "x": 18,
+                            "y": -1,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "You have no one ignored.",
+                            "fixedWidth": 420,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "7fb272fd-1c1b-4c0e-a246-7ca669a4b46c",
+                            "label": "text_34",
+                            "x": 17,
+                            "y": 122,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "If someone is bothering you, you can click the         button on their player card to hide their messages.",
+                            "fixedWidth": 420,
+                            "lineSpacing": 8,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "26px",
+                            "wordWrapWidth": 400
+                        },
+                        {
+                            "type": "Image",
+                            "id": "67daf8eb-637b-4fa2-96b9-8aee89445c09",
+                            "label": "buddy_button_",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 31,
+                            "y": 104,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "80bcf5ca-35ee-4c50-9e0f-5fab7c5ef8aa",
+                            "label": "ign_icon",
+                            "texture": {
+                                "key": "main",
+                                "frame": "ignore-icon"
+                            },
+                            "x": 31,
+                            "y": 102,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "7b265c4a-8275-48ba-96ee-639c9d821631",
+                    "label": "cantSearchYourself",
+                    "scope": "CLASS",
+                    "x": -21,
+                    "y": -152,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "e008ef92-b0e2-4367-a4e6-24aed60d9fca",
+                            "label": "text_2ree",
+                            "x": 22,
+                            "y": 86,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Oops! You can't add yourself to your own friends list.",
+                            "fixedWidth": 420,
+                            "lineSpacing": 8,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "26px",
+                            "wordWrapWidth": 400
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "f08a2db2-9fa8-420d-a8db-aa74fc3b01d4",
+                    "label": "searchResultNull",
+                    "scope": "CLASS",
+                    "x": -14,
+                    "y": -144,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "ff6d575f-7fe4-474f-b4a1-eb235838bed8",
+                            "label": "text_2re",
+                            "x": 18,
+                            "y": 87,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "There were no penguins found matching your search. Check if your search was spelled correctly.",
+                            "fixedWidth": 420,
+                            "lineSpacing": 8,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "26px",
+                            "wordWrapWidth": 400
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2d4a870a-1cb3-4844-8bbe-0ab1716522a2",
+                    "label": "searchResult",
+                    "scope": "CLASS",
+                    "x": -2,
+                    "y": -20,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "NineSlice",
+                            "id": "ec9abbb7-3246-4a00-ae1b-27cdc2cf4a4d",
+                            "label": "window",
+                            "texture": {
+                                "key": "prompt",
+                                "frame": "window"
+                            },
+                            "x": 4,
+                            "y": 5,
+                            "tintFill": true,
+                            "tint": "#175796",
+                            "width": 400,
+                            "height": 410,
+                            "leftWidth": 50,
+                            "rightWidth": 45,
+                            "topHeight": 41,
+                            "bottomHeight": 44
+                        },
+                        {
+                            "prefabId": "7b4017c1-c8f3-4f6b-9aae-61bbce16ce08",
+                            "id": "69eb2899-f1cc-41be-81f9-329d5468ef65",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "searchResultDoll",
+                            "scope": "CLASS",
+                            "x": 1,
+                            "y": -78,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Text",
+                            "id": "3b6375a5-7717-4418-bf51-80280f314b64",
+                            "label": "searchResultName",
+                            "scope": "CLASS",
+                            "x": -1,
+                            "y": 93,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Penguin Name",
+                            "fixedWidth": 420,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "25px",
+                            "fontStyle": "bold"
+                        },
+                        {
+                            "type": "NineSlice",
+                            "id": "2ab087d2-3618-4b9f-91e1-4611e8268cf6",
+                            "label": "searchBtn",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "window-button",
+                            "Button.callback": "() => this.searchRequestSend()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "prompt",
+                                "frame": "window-button"
+                            },
+                            "x": 1,
+                            "y": 152,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6,
+                            "originY": 0.5047619047619047,
+                            "width": 500,
+                            "height": 100,
+                            "leftWidth": 36,
+                            "rightWidth": 31,
+                            "topHeight": 32,
+                            "bottomHeight": 32
+                        },
+                        {
+                            "type": "Text",
+                            "id": "eaa42c31-196d-4ac7-9b72-fe5687903ca5",
+                            "label": "searchBtnText",
+                            "scope": "CLASS",
+                            "x": 3,
+                            "y": 151,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Send Friend Request",
+                            "fixedWidth": 400,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "26px",
+                            "fontStyle": "bold",
+                            "wordWrapWidth": 350
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "477eecf4-95dc-457b-bd4d-4aaa6b6d67a8",
+                    "label": "mascotResult",
+                    "scope": "CLASS",
+                    "x": -3,
+                    "y": -108,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "NineSlice",
+                            "id": "becd48a6-1278-4d92-856b-496ef912940c",
+                            "label": "window_1",
+                            "texture": {
+                                "key": "prompt",
+                                "frame": "window"
+                            },
+                            "x": 5,
+                            "y": 92,
+                            "tintFill": true,
+                            "tint": "#175796",
+                            "width": 400,
+                            "height": 410,
+                            "leftWidth": 50,
+                            "rightWidth": 45,
+                            "topHeight": 41,
+                            "bottomHeight": 44
+                        },
+                        {
+                            "type": "Text",
+                            "id": "fc8dcacb-f4ae-47d3-9dc5-be6c1970e4e6",
+                            "label": "mascotText",
+                            "scope": "CLASS",
+                            "x": 5,
+                            "y": 113.94100093841553,
+                            "originX": 0.5,
+                            "text": "Rockhopper is sailing the seven seas. To add him as a friend, you must meet him on the island.",
+                            "fixedWidth": 360,
+                            "lineSpacing": 8,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "26px",
+                            "wordWrapWidth": 360
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d4ea47b9-ad10-4a67-9f5f-c8468f300be2",
+                            "label": "mascotPreview",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "mascot-headshots",
+                                "frame": "rockhopper"
+                            },
+                            "x": 2,
+                            "y": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "66eaf770-eb63-4ae5-ab8f-b73b50b5f914",
+                    "label": "purgeblock",
+                    "scope": "CLASS",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -1,
+                    "y": -13,
+                    "scaleX": 3.2875303892088206,
+                    "scaleY": 3.3475102613972547,
+                    "visible": false,
+                    "isFilled": true,
+                    "fillColor": "#2980CD",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "prefabId": "1de1eb22-93eb-4755-aeba-c735ea72b677",
+                    "id": "9ee5d86c-0131-4732-b654-2021c2435743",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "spinner",
+                    "scope": "CLASS",
+                    "x": 0,
+                    "y": -40,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "3a2022e0-a154-4abb-8444-0210e4c14fe6",
+            "label": "items",
+            "objectIds": [
+                "68c9019a-a0e7-42f8-8b77-1072aa33724e",
+                "22fa7563-5315-46f4-8966-e40b241e26a2",
+                "ae597d89-b8e4-47d4-9a9f-f263f2a9130d",
+                "39722cd4-e0f0-4a56-9956-1810785d54ea",
+                "8832d9b7-0a60-4918-afa5-d8c8a8e7a2f9",
+                "6eeaebcc-ba63-4f4e-9b87-8fce28d4514e",
+                "fa0b2b61-62ae-45d2-83ca-7c8fa9d5c283",
+                "f2a26b6e-7543-43ed-9451-bd62201d532b"
+            ]
+        },
+        {
+            "id": "149514a3-0811-49a6-8024-96e4171b91b4",
+            "label": "infos",
+            "objectIds": [
+                "477eecf4-95dc-457b-bd4d-4aaa6b6d67a8",
+                "2d4a870a-1cb3-4844-8bbe-0ab1716522a2",
+                "f08a2db2-9fa8-420d-a8db-aa74fc3b01d4",
+                "89f5aecb-6c04-428e-a497-07e6fd68bde7",
+                "887ee7bc-8457-4641-b3fa-d217db04d916",
+                "f5ae7ba6-f90b-4a84-a85a-a1cc748798a4",
+                "7b265c4a-8275-48ba-96ee-639c9d821631"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,820 @@
+{
+    "id": "45ecfdbe-5e92-41d6-9fa8-e823150518a9",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eefc5a3-1b9a-4b15-a92a-1a543086f96d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "637cca7d-b294-4dcd-aa38-991230ee66f5",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -12,
+                    "y": 10,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Image",
+                    "id": "700e52a5-cffc-4282-8044-e836bff6dd02",
+                    "label": "boxlid",
+                    "texture": {
+                        "key": "giftnine",
+                        "frame": "boxlid"
+                    },
+                    "x": 144,
+                    "y": -156
+                },
+                {
+                    "type": "Image",
+                    "id": "c6e05d87-3d70-475d-88b4-b6a7b53187b4",
+                    "label": "boxback",
+                    "texture": {
+                        "key": "giftnine",
+                        "frame": "boxback"
+                    },
+                    "x": -40,
+                    "y": 215
+                },
+                {
+                    "type": "Container",
+                    "id": "1f98d144-dd76-490a-a1d0-28948f1c6134",
+                    "label": "rowFourChocolates",
+                    "x": -760,
+                    "y": -480,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "5a85878a-0147-4b4a-b880-41d2ea134457",
+                            "label": "rowFourCrumbsFour",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowFour/crumbs/rowFourCrumbs0002"
+                            },
+                            "x": 1049.4783935546875,
+                            "y": 576.4992065429688,
+                            "scaleX": 0.65,
+                            "scaleY": 0.5,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "15cdaf19-2cae-47db-941c-ca66ff20ed0b",
+                            "label": "rowFourChocolateFour",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowFour/chocolate/rowFourChocolate0001"
+                            },
+                            "x": 1053,
+                            "y": 537
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "ac5066d4-4b4f-4c08-9651-8142aaa05139",
+                            "label": "rowFourCrumbsThree",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowFour/crumbs/rowFourCrumbs0002"
+                            },
+                            "x": 900,
+                            "y": 572,
+                            "scaleX": 0.65,
+                            "scaleY": 0.5,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "63dec075-1546-4992-8da2-38e042aad81f",
+                            "label": "rowFourChocolateThree",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowFour/chocolate/rowFourChocolate0001"
+                            },
+                            "x": 904,
+                            "y": 533
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "86b1db9e-70a8-4387-aabf-c85bced2dd5c",
+                            "label": "rowFourCrumbsTwo",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowFour/crumbs/rowFourCrumbs0002"
+                            },
+                            "x": 772,
+                            "y": 566,
+                            "scaleX": 0.65,
+                            "scaleY": 0.5,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "dd707af9-5ad3-488a-a558-fdbbfd1eb7ef",
+                            "label": "rowFourChocolateTwo",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowFour/chocolate/rowFourChocolate0001"
+                            },
+                            "x": 773,
+                            "y": 528
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "d3549ab3-5d07-4eea-8bf7-dc2746735811",
+                            "label": "rowFourCrumbsOne",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowFour/crumbs/rowFourCrumbs0002"
+                            },
+                            "x": 654,
+                            "y": 562,
+                            "scaleX": 0.65,
+                            "scaleY": 0.5,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "1a3990f6-1af6-4fbf-bd39-568ef76a8fc9",
+                            "label": "rowFourChocolateOne",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowFour/chocolate/rowFourChocolate0001"
+                            },
+                            "x": 661,
+                            "y": 526
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b9d10839-517c-49d7-95de-8fe39c60239c",
+                    "label": "rowThreeChocolates",
+                    "x": -760,
+                    "y": -480,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "73517485-869d-4d40-bdc3-9e894d4f9427",
+                            "label": "rowThreeCrumbsFour",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowThree/crumbs/rowThreeCrumbs0002"
+                            },
+                            "x": 1037.1622314453125,
+                            "y": 622.350830078125,
+                            "scaleX": 0.65,
+                            "scaleY": 0.5,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "86f8039e-3894-4050-8e65-9e10add432c6",
+                            "label": "rowThreeChocolateFour",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowThree/chocolate/rowThreeChocolate0001"
+                            },
+                            "x": 1038,
+                            "y": 578
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "8bd95400-4b09-4d8e-93f9-13ab7094e3e4",
+                            "label": "rowThreeCrumbsThree",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowThree/crumbs/rowThreeCrumbs0002"
+                            },
+                            "x": 879.5298461914062,
+                            "y": 615.5775756835938,
+                            "scaleX": 0.65,
+                            "scaleY": 0.5,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "37696a4f-7988-4d8c-9125-6b92bd4bdf89",
+                            "label": "rowThreeChocolateThree",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowThree/chocolate/rowThreeChocolate0001"
+                            },
+                            "x": 881,
+                            "y": 571
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "f79867bd-6cb6-448b-b303-ae12871dc77d",
+                            "label": "rowThreeCrumbsTwo",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowThree/crumbs/rowThreeCrumbs0002"
+                            },
+                            "x": 739.138427734375,
+                            "y": 608.8043212890625,
+                            "scaleX": 0.65,
+                            "scaleY": 0.5,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "6b3671d3-680f-457b-bc05-397a95f7ef34",
+                            "label": "rowThreeChocolateTwo",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowThree/chocolate/rowThreeChocolate0001"
+                            },
+                            "x": 741,
+                            "y": 564
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "1d80506e-7cab-40e7-9fc0-d8ca3ca05399",
+                            "label": "rowThreeCrumbsOne",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowThree/crumbs/rowThreeCrumbs0002"
+                            },
+                            "x": 619,
+                            "y": 603,
+                            "scaleX": 0.65,
+                            "scaleY": 0.5,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "17ef273c-2cb3-4f78-b0ea-bc0a5ab2ca29",
+                            "label": "rowThreeChocolateOne",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowThree/chocolate/rowThreeChocolate0001"
+                            },
+                            "x": 622,
+                            "y": 559
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d46ff8ad-55b4-4d77-91c4-572878531b04",
+                    "label": "rowTwoChocolates",
+                    "x": -760,
+                    "y": -480,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "ba0c5467-2d60-498f-933a-0005db5e5245",
+                            "label": "rowTwoCrumbsFour",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowTwo/crumbs/rowTwoCrumbs0002"
+                            },
+                            "x": 1013.6121215820312,
+                            "y": 674.9100341796875,
+                            "scaleX": 0.8,
+                            "scaleY": 0.7,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "cf50466a-b01c-4c38-8154-2a3eabd60e23",
+                            "label": "rowTwoChocolateFour",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowTwo/chocolate/rowTwoChocolate0001"
+                            },
+                            "x": 1015,
+                            "y": 618
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "45d403cd-ee09-4d0a-ad0c-c743d30e7c41",
+                            "label": "rowTwoCrumbsThree",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowTwo/crumbs/rowTwoCrumbs0002"
+                            },
+                            "x": 851.6622924804688,
+                            "y": 664.461669921875,
+                            "scaleX": 0.8,
+                            "scaleY": 0.7,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "080cd055-85e1-4b0c-9163-5335407ff581",
+                            "label": "rowTwoChocolateThree",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowTwo/chocolate/rowTwoChocolate0001"
+                            },
+                            "x": 853,
+                            "y": 609
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "617613c6-8104-4031-962c-1fc83a22040d",
+                            "label": "rowTwoCrumbsTwo",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowTwo/crumbs/rowTwoCrumbs0002"
+                            },
+                            "x": 701.3521728515625,
+                            "y": 656.9171142578125,
+                            "scaleX": 0.8,
+                            "scaleY": 0.7,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e1384015-638a-42d8-b6f1-323b65f284a7",
+                            "label": "rowTwoChocolateTwo",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowTwo/chocolate/rowTwoChocolate0001"
+                            },
+                            "x": 704,
+                            "y": 601
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "dd19e25b-1a88-49a6-adb7-ef6b5bea6e93",
+                            "label": "rowTwoCrumbsOne",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowTwo/crumbs/rowTwoCrumbs0002"
+                            },
+                            "x": 560,
+                            "y": 651,
+                            "scaleX": 0.8,
+                            "scaleY": 0.7,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "b523c5ea-998f-4853-bb5f-ff0fcee595ee",
+                            "label": "rowTwoChocolateOne",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowTwo/chocolate/rowTwoChocolate0001"
+                            },
+                            "x": 565,
+                            "y": 595
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "94e9492e-8953-4098-8917-0702f6641c4f",
+                    "label": "rowOneChocolates",
+                    "x": -760,
+                    "y": -480,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "1e67a718-1698-4639-bc50-c7d0d3a71e7b",
+                            "label": "rowOneCrumbsFour",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowOne/crumbs/rowOneCrumbs0002"
+                            },
+                            "x": 968,
+                            "y": 752,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "8e8c53a1-30c6-4789-820b-b250359385ab",
+                            "label": "rowOneChocolateFour",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowOne/chocolate/rowOneChocolate0001"
+                            },
+                            "x": 970,
+                            "y": 660
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "68a23bc8-a7d9-463e-acfe-9cb6bc58f57f",
+                            "label": "rowOneCrumbsThree",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowOne/crumbs/rowOneCrumbs0002"
+                            },
+                            "x": 801,
+                            "y": 740,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "7fefc654-6d4b-4a21-8409-974522a29a80",
+                            "label": "rowOneChocolateThree",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowOne/chocolate/rowOneChocolate0001"
+                            },
+                            "x": 804,
+                            "y": 650
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "dc6d1ee4-2683-489e-9437-f68647df6a91",
+                            "label": "rowOneCrumbsTwo",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowOne/crumbs/rowOneCrumbs0002"
+                            },
+                            "x": 637,
+                            "y": 733,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "45ae4490-ec68-480e-86e5-79a76f130792",
+                            "label": "rowOneChocolateTwo",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowOne/chocolate/rowOneChocolate0001"
+                            },
+                            "x": 641,
+                            "y": 641
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "b9cd5e49-c7ad-4a6f-9114-1e2aba90a80f",
+                            "label": "rowOneCrumbsOne",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowOne/crumbs/rowOneCrumbs0002"
+                            },
+                            "x": 476,
+                            "y": 719,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "0b9651a3-5bec-4268-bddb-eee1a6ed040e",
+                            "label": "rowOneChocolateOne",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "giftnine",
+                                "frame": "rowOne/chocolate/rowOneChocolate0001"
+                            },
+                            "x": 475,
+                            "y": 629
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a58cfc88-18eb-45a0-a564-edcc0f739225",
+                    "label": "rowFourButtons",
+                    "x": -760,
+                    "y": -480,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "e2995410-4347-4ed4-84d5-4b9beb04d235",
+                            "label": "rowFourButtonFour",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowFourChocolateFourClick()",
+                            "x": 1053.870361328125,
+                            "y": 575.9882202148438,
+                            "width": 65,
+                            "height": 25
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b01a4ed1-22cc-428b-89ec-7bb8d7188c00",
+                            "label": "rowFourButtonThree",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowFourChocolateThreeClick()",
+                            "x": 902.7662353515625,
+                            "y": 572.04638671875,
+                            "width": 65,
+                            "height": 25
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "cc434a14-c590-44c7-b9b0-d71fdc7dc904",
+                            "label": "rowFourButtonTwo",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowFourChocolateTwoClick()",
+                            "x": 770.71435546875,
+                            "y": 566.7905883789062,
+                            "width": 65,
+                            "height": 25
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "9f7a2e0a-764e-473a-b57d-dc2535b0876b",
+                            "label": "rowFourButtonOne",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowFourChocolateOneClick()",
+                            "x": 660.3426513671875,
+                            "y": 563.5056762695312,
+                            "width": 65,
+                            "height": 25
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "be35a6a6-5bfd-44d7-b846-fbef81fc862d",
+                    "label": "rowThreeButtons",
+                    "x": -760,
+                    "y": -480,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "cef312f3-05da-4dd1-9b95-2c9bfbd75802",
+                            "label": "rowThreeButtonFour",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowThreeChocolateFourClick()",
+                            "x": 1036.7890625,
+                            "y": 621.3194580078125,
+                            "width": 75,
+                            "height": 30
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "df2b810e-510c-4b37-bb97-a14f4bed144a",
+                            "label": "rowThreeButtonThree",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowThreeChocolateThreeClick()",
+                            "x": 879.1151733398438,
+                            "y": 614.0927124023438,
+                            "width": 75,
+                            "height": 30
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "9dece4e3-fb44-4096-b54a-e34733c6df63",
+                            "label": "rowThreeButtonTwo",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowThreeChocolateTwoClick()",
+                            "x": 739.8365478515625,
+                            "y": 609.493896484375,
+                            "width": 75,
+                            "height": 30
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "88adef1d-14fc-4f9c-a240-6df5ba6872c5",
+                            "label": "rowThreeButtonOne",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowThreeChocolateOneClick()",
+                            "x": 622,
+                            "y": 604,
+                            "width": 75,
+                            "height": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "c96473e1-f160-4b86-b88f-5418f7e44647",
+                    "label": "rowTwoButtons",
+                    "x": -760,
+                    "y": -480,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "d920eaef-aad5-47b8-bdc7-0cb1030fea3e",
+                            "label": "rowTwoButtonFour",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowTwoChocolateFourClick()",
+                            "x": 1014.451904296875,
+                            "y": 673.87744140625,
+                            "width": 80,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "17c99314-87d2-4489-b5a5-43f9f39afe3d",
+                            "label": "rowTwoButtonThree",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowTwoChocolateThreeClick()",
+                            "x": 849.62255859375,
+                            "y": 664.0401000976562,
+                            "width": 80,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "f5e9f766-be69-43a1-aaec-184cdeebc6e1",
+                            "label": "rowTwoButtonTwo",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowTwoChocolateTwoClick()",
+                            "x": 702.1611328125,
+                            "y": 657.1278076171875,
+                            "width": 80,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b37fc44a-5a2d-46b7-aa8f-d5eea3f04c92",
+                            "label": "rowTwoButtonOne",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowTwoChocolateOneClick()",
+                            "x": 562.7639770507812,
+                            "y": 650.215576171875,
+                            "width": 80,
+                            "height": 40
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "14eaa319-7348-4476-a13e-14f3501fe99f",
+                    "label": "rowOneButtons",
+                    "x": -760,
+                    "y": -480,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "d21f29d6-3b57-456c-9ef3-bbb536fa28aa",
+                            "label": "rowOneButtonFour",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowOneChocolateFourClick()",
+                            "x": 967.130859375,
+                            "y": 751.5952758789062,
+                            "width": 100,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "be0b2b5e-b403-4575-8f10-eced6ef4c168",
+                            "label": "rowOneButtonThree",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowOneChocolateThreeClick()",
+                            "x": 800.084716796875,
+                            "y": 740.0748901367188,
+                            "width": 100,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "96e4bb07-54c3-40d1-b451-e67ef9ab5bfe",
+                            "label": "rowOneButtonTwo",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowOneChocolateTwoClick()",
+                            "x": 641.1029052734375,
+                            "y": 733.4666748046875,
+                            "width": 100,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "caa15d93-6a12-461f-845c-09bce1629cb7",
+                            "label": "rowOneButtonOne",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.rowOneChocolateOneClick()",
+                            "x": 476,
+                            "y": 719,
+                            "width": 100,
+                            "height": 60
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "478979f3-f68f-4c69-a202-560284b66d2b",
+                    "label": "boxlabel",
+                    "texture": {
+                        "key": "giftnine",
+                        "frame": "boxlabel"
+                    },
+                    "x": -36,
+                    "y": 251
+                },
+                {
+                    "type": "Sprite",
+                    "id": "b6ecd937-bc9e-4ddd-bfa1-6006ab0e5245",
+                    "label": "closebutton",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "closebutton",
+                    "Button.callback": "() => this.interface.destroyWidget(this);",
+                    "texture": {
+                        "key": "giftnine",
+                        "frame": "closebutton"
+                    },
+                    "x": 376,
+                    "y": -382
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

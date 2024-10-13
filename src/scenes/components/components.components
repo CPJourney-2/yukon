@@ -1,0 +1,853 @@
+{
+    "components": [
+        {
+            "name": "Animation",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "key",
+                    "label": "Animation key",
+                    "tooltip": "Animation key",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "start",
+                    "label": "Frame Start",
+                    "tooltip": "Frame Start",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "end",
+                    "label": "Frame End",
+                    "tooltip": "Frame End",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "frameRate",
+                    "label": "Frame Rate",
+                    "tooltip": "Frame Rate",
+                    "defValue": 24,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "repeat",
+                    "label": "Repeat",
+                    "tooltip": "Repeat",
+                    "defValue": -1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "repeatDelay",
+                    "label": "Repeat Delay",
+                    "tooltip": "Delay before repeating",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "autoPlay",
+                    "label": "Auto Play",
+                    "tooltip": "Auto Play",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "onHover",
+                    "label": "On Hover",
+                    "tooltip": "Only show on hover?",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "stopOnOut",
+                    "label": "Stop on Out",
+                    "tooltip": "Stop animation on hover out?",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "showOnStart",
+                    "label": "Show on Start",
+                    "tooltip": "Show on Start",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "hideOnComplete",
+                    "label": "Hide on Complete",
+                    "tooltip": "Hide on Complete",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "onCompleteCallback",
+                    "label": "On Complete",
+                    "tooltip": "Callback for when anim is done",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Button",
+            "baseClass": "SimpleButton",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "spriteName",
+                    "label": "Sprite Name",
+                    "tooltip": "Sprite Name",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "hoverCallback",
+                    "label": "Hover Callback",
+                    "tooltip": "Hover Callback",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "hoverOutCallback",
+                    "label": "Hover Out Callback",
+                    "tooltip": "Hover Out Callback",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "callback",
+                    "label": "Callback",
+                    "tooltip": "Callback",
+                    "defValue": "() => {}",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "activeFrame",
+                    "label": "Active Frame",
+                    "tooltip": "Active Frame",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "pixelPerfect",
+                    "label": "Pixel Perfect",
+                    "tooltip": "Pixel Perfect",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "lazyName",
+                    "label": "Lazy Naming",
+                    "tooltip": "Lazy Naming",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "alias",
+                    "label": "Alias",
+                    "tooltip": "Use this game object instead of the actual one for changing frames",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "object-var",
+                        "expressionType": "Phaser.GameObjects.GameObject"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SimpleButton",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "hoverCallback",
+                    "label": "Hover Callback",
+                    "tooltip": "Hover Callback",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "hoverOutCallback",
+                    "label": "Hover Out Callback",
+                    "tooltip": "Hover Out Callback",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "callback",
+                    "label": "Callback",
+                    "tooltip": "Callback",
+                    "defValue": "() => {}",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "pixelPerfect",
+                    "label": "Pixel Perfect",
+                    "tooltip": "Pixel Perfect",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "showOutline",
+                    "label": "Show Outline",
+                    "tooltip": "Show Outline",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "downCallback",
+                    "label": "Down Callback",
+                    "tooltip": "Down Callback",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "useHandCursor",
+                    "label": "Hand cursor",
+                    "tooltip": "Whether or not to use the hand cursor on hover",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interactive",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "Draggable",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.GameObject",
+            "properties": []
+        },
+        {
+            "name": "DraggableContainer",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Container",
+            "properties": [
+                {
+                    "name": "handle",
+                    "label": "Handle",
+                    "tooltip": "Draggable handle",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "Phaser.GameObjects.GameObject"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ShowHint",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.GameObject",
+            "properties": [
+                {
+                    "name": "text",
+                    "label": "Hint Text",
+                    "tooltip": "Hint Text",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "MoveTo",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.GameObject",
+            "properties": [
+                {
+                    "name": "x",
+                    "label": "x",
+                    "tooltip": "x",
+                    "defValue": "0",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "y",
+                    "label": "y",
+                    "tooltip": "y",
+                    "defValue": "0",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Zone",
+            "baseClass": "SimpleButton",
+            "gameObjectType": "Phaser.GameObjects.Rectangle",
+            "properties": [
+                {
+                    "name": "hoverCallback",
+                    "label": "Hover Callback",
+                    "tooltip": "Hover Callback",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "hoverOutCallback",
+                    "label": "Hover Out Callback",
+                    "tooltip": "Hover Out Callback",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "callback",
+                    "label": "Callback",
+                    "tooltip": "Callback",
+                    "defValue": "() => {}",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "useHandCursor",
+                    "label": "Use Hand Cursor",
+                    "tooltip": "",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "clickThrough",
+                    "label": "Click through",
+                    "tooltip": "When enabled, isButton is not applied, so penguins can still walk through it when clicked etc",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "HoverAnimation",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "key",
+                    "label": "Animation key",
+                    "tooltip": "Animation key",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "checkpoints",
+                    "label": "Checkpoints",
+                    "tooltip": "Checkpoints",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "start",
+                    "label": "Frame Start",
+                    "tooltip": "Frame Start",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "end",
+                    "label": "Frame End",
+                    "tooltip": "Frame End",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "hideOnComplete",
+                    "label": "Hide on Complete",
+                    "tooltip": "Hide on Complete",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "frameRate",
+                    "label": "Frame Rate",
+                    "tooltip": "Frame Rate",
+                    "defValue": 24,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "hoverZone",
+                    "label": "Hover Zone",
+                    "tooltip": "Hover Zone",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "object-var",
+                        "expressionType": "Phaser.GameObjects.GameObject"
+                    }
+                },
+                {
+                    "name": "createZone",
+                    "label": "Create Zone",
+                    "tooltip": "Create Zone",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "pixelPerfect",
+                    "label": "Pixel Perfect",
+                    "tooltip": "Pixel Perfect",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "hoverCallback",
+                    "label": "Hover Callback",
+                    "tooltip": "Hover Callback",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "replayBeforeFinish",
+                    "label": "Replay Before Finish",
+                    "tooltip": "Replay Before Finish",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "loop",
+                    "label": "Loop",
+                    "tooltip": "Loop",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "completeCallback",
+                    "label": "On Complete",
+                    "tooltip": "On Complete",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "clickable",
+                    "label": "Play on Click",
+                    "tooltip": "Play on Click",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "exclusive",
+                    "label": "Exclusive",
+                    "tooltip": "When toggled, checkpoints are not included as the start of each animation.",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ZoneTrigger",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Rectangle",
+            "properties": [
+                {
+                    "name": "callback",
+                    "label": "Callback",
+                    "tooltip": "Callback",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SnackStampArea",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "ItemBuy",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.GameObject",
+            "properties": [
+                {
+                    "name": "id",
+                    "label": "Item ID",
+                    "tooltip": "Item ID",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ScavengerItem",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "huntItemId",
+                    "label": "Item ID",
+                    "tooltip": "Which item is it collecting? (0 indexed)",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "onItemAlreadyCollected",
+                    "label": "Already collected callback",
+                    "tooltip": "An optional callback for when the item is already collected (by default, gameobject is hidden)",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "onCollect",
+                    "label": "On item collected",
+                    "tooltip": "Optional callback to be run when the item is clicked",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "GlobalTrigger",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Rectangle",
+            "properties": [
+                {
+                    "name": "checkOccupants",
+                    "label": "On update",
+                    "tooltip": "When a penguin steps on or off it",
+                    "defValue": "(l) => {}",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "InputText",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Text",
+            "properties": [
+                {
+                    "name": "id",
+                    "label": "ID",
+                    "tooltip": "The DOM ID",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "inputType",
+                    "label": "Type",
+                    "tooltip": "The type of input",
+                    "defValue": "text",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "option",
+                        "options": [
+                            "text",
+                            "number",
+                            "textarea"
+                        ]
+                    }
+                },
+                {
+                    "name": "maxLength",
+                    "label": "Max Length",
+                    "tooltip": "Max length of the input",
+                    "defValue": 30,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "callback",
+                    "label": "Callback",
+                    "tooltip": "When Enter is pressed, this callback is executed",
+                    "defValue": "() => {}",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "rank",
+                    "label": "Rank",
+                    "tooltip": "When applicable, the input is not created unless the client user is this rank or higher.",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "hideOnCreation",
+                    "label": "Hide on creation",
+                    "tooltip": "Is the input hidden by default?",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "makeOutline",
+                    "label": "Outline + Border",
+                    "tooltip": "(TEXT AREA ONLY) Make a black outline and white border",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "MapAnimation",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "key",
+                    "label": "Key",
+                    "tooltip": "",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "end",
+                    "label": "End frame",
+                    "tooltip": "",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "MoveToFrame",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.GameObject",
+            "properties": [
+                {
+                    "name": "afterFrame",
+                    "label": "After Frame",
+                    "tooltip": "Frame that will be played after the move.",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "x",
+                    "label": "x",
+                    "tooltip": "x",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "y",
+                    "label": "y",
+                    "tooltip": "y",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - User Components Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.UserComponents"
+    },
+    "javaScriptInitFieldsInConstructor": true,
+    "insertSpaces": true,
+    "exportClass": true
+}

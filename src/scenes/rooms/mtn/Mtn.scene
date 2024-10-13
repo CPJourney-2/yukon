@@ -1,0 +1,227 @@
+{
+    "id": "0cc7b6d5-05a8-4cc7-a326-fd12c1c2b447",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/mtn/mtn-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Mtn",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "9276e7ab-0fd9-44c4-a644-321d4c8c2888",
+            "label": "bg",
+            "texture": {
+                "key": "mtn",
+                "frame": "bg"
+            },
+            "x": -21,
+            "y": -19,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "eaf9e9be-ca78-4327-be22-3bddc6fb28a7",
+            "label": "chair",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "chair/chair",
+            "Animation.end": 87,
+            "texture": {
+                "key": "mtn",
+                "frame": "chair/chair0001"
+            },
+            "x": 846,
+            "y": 75,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "1abbdc89-c43a-40a3-9750-3d0d7a800f8e",
+            "label": "mountain",
+            "texture": {
+                "key": "mtn",
+                "frame": "mountain"
+            },
+            "x": -21,
+            "y": 214,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "9aa8b583-902d-4dfe-a8cf-cc853faf2676",
+            "label": "pole",
+            "texture": {
+                "key": "mtn",
+                "frame": "pole"
+            },
+            "x": 727,
+            "y": 359,
+            "originX": 0.6204081632653061,
+            "originY": 0.9194630872483222
+        },
+        {
+            "type": "Image",
+            "id": "124720c1-f214-45b6-88d4-0325da8e2114",
+            "label": "sled",
+            "texture": {
+                "key": "mtn",
+                "frame": "sled"
+            },
+            "x": 497.28407128500464,
+            "y": 208.3370784416768,
+            "originX": 0.3721588326974295,
+            "originY": 0.12888301211493106
+        },
+        {
+            "type": "Sprite",
+            "id": "cd1933ae-fcd6-41e3-96e7-4b9b0636560b",
+            "label": "catalogSmall",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.hoverCallback": "() => catalogSmall.play('sledCatalog')",
+            "SimpleButton.hoverOutCallback": "() => { catalogSmall.anims.stop(); catalogSmall.setFrame('catalog_small0001') }",
+            "SimpleButton.callback": "() => this.interface.loadWidget('MtnCatalog')",
+            "texture": {
+                "key": "mtn",
+                "frame": "catalog_small0001"
+            },
+            "x": 532,
+            "y": 259,
+            "scaleX": 0.9,
+            "scaleY": 0.9,
+            "originX": 0.6744813674847574,
+            "originY": 0.8775708363738939
+        },
+        {
+            "type": "Image",
+            "id": "85cf3723-7671-4140-a0c0-d0f430f57910",
+            "label": "express",
+            "texture": {
+                "key": "mtn",
+                "frame": "express"
+            },
+            "x": 1065,
+            "y": 809,
+            "originX": 0.4647887323943662,
+            "originY": 0.875
+        },
+        {
+            "type": "Image",
+            "id": "7bbb8294-2b6c-499d-a669-848e6a4508ca",
+            "label": "penguinRun",
+            "texture": {
+                "key": "mtn",
+                "frame": "penguin_run"
+            },
+            "x": 524,
+            "y": 606,
+            "originX": 0.6390977443609023,
+            "originY": 0.943089430894309
+        },
+        {
+            "type": "Image",
+            "id": "259cb33e-eb62-4a70-8f6b-f9060835c840",
+            "label": "catalog",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "catalog",
+            "Button.callback": "() => this.interface.loadWidget('MtnCatalog')",
+            "texture": {
+                "key": "mtn",
+                "frame": "catalog"
+            },
+            "x": 1423,
+            "y": 941,
+            "originX": 0.5133483459728905,
+            "originY": 1.1411531919849045
+        },
+        {
+            "prefabId": "b7f33e59-6236-4986-aae0-0d469632a6a1",
+            "id": "c828bf43-e164-44aa-b2bd-652209faf577",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waddle100",
+            "scope": "CLASS",
+            "x": 261,
+            "y": 499
+        },
+        {
+            "prefabId": "d651e1f5-3899-435a-9870-b101644a61e9",
+            "id": "59dd3768-c04f-4c02-9d21-41eaafbb69ee",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waddle101",
+            "scope": "CLASS",
+            "x": 581,
+            "y": 668
+        },
+        {
+            "prefabId": "aa8a8b2b-1a21-4d2f-a9c1-81c06cdda079",
+            "id": "d6c8c688-4c79-4fbc-ace1-64a0cb774e61",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waddle102",
+            "scope": "CLASS",
+            "x": 856,
+            "y": 717
+        },
+        {
+            "prefabId": "5c81ff31-f520-4dde-b56b-b1885901a262",
+            "id": "f0e16785-ae9d-4ffd-8e25-3664dfdbcc12",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waddle103",
+            "scope": "CLASS",
+            "x": 1047,
+            "y": 639
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "5ae19c1d-cf39-4d6e-a5fa-935dde376775",
+            "label": "sort",
+            "objectIds": [
+                "7bbb8294-2b6c-499d-a669-848e6a4508ca",
+                "85cf3723-7671-4140-a0c0-d0f430f57910",
+                "9aa8b583-902d-4dfe-a8cf-cc853faf2676",
+                "d0aaf43c-c7b5-4804-ad63-de3b273f6afe",
+                "6471c65c-90ac-401f-ad4b-f0cfc6744920",
+                "18e304e8-8cc2-42b4-b8b5-49056864e58b",
+                "88d14316-b60a-45bc-8831-3f80be700cfc",
+                "259cb33e-eb62-4a70-8f6b-f9060835c840"
+            ]
+        }
+    ]
+}

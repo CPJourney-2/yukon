@@ -1,0 +1,361 @@
+{
+    "id": "a31bdfcd-9fee-4e6e-b421-7edb8b8c7009",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "1ea9b4a8-891e-41b1-9e51-dc480b7d635c",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "bfdc4e7c-985f-4a4e-b487-207db3d81f91",
+                    "label": "tree",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "tree"
+                    },
+                    "x": -346,
+                    "y": 64,
+                    "tintTopLeft": "#cadbea",
+                    "tintTopRight": "#cadbea",
+                    "tintBottomLeft": "#cadbea",
+                    "tintBottomRight": "#cadbea"
+                },
+                {
+                    "type": "Image",
+                    "id": "77b893d5-9ae4-458d-b5e0-a8e482faf551",
+                    "label": "tree_1",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "tree"
+                    },
+                    "x": 329,
+                    "y": 64,
+                    "flipX": true,
+                    "tintTopLeft": "#cadbea",
+                    "tintTopRight": "#cadbea",
+                    "tintBottomLeft": "#cadbea",
+                    "tintBottomRight": "#cadbea"
+                },
+                {
+                    "type": "Image",
+                    "id": "d473205c-2769-4618-9690-107646d667a9",
+                    "label": "treeLights",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "treelights0001"
+                    },
+                    "x": -381,
+                    "y": 70
+                },
+                {
+                    "type": "Image",
+                    "id": "2526e7c0-61d9-4622-b49b-aa8894f6d453",
+                    "label": "treeLights2",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "treelights0001"
+                    },
+                    "x": 364,
+                    "y": 52,
+                    "flipX": true
+                },
+                {
+                    "type": "Image",
+                    "id": "e5054004-924b-41d3-9731-b44ce4402280",
+                    "label": "house",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "house"
+                    },
+                    "tintTopLeft": "#cadbea",
+                    "tintTopRight": "#cadbea",
+                    "tintBottomLeft": "#cadbea",
+                    "tintBottomRight": "#cadbea"
+                },
+                {
+                    "prefabId": "26e3b032-f7e8-4d78-80f2-7cd88e928b99",
+                    "id": "ca231f63-dadd-41ed-9b0f-048aaf29b685",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "doorNum",
+                        "item",
+                        "timeStamp",
+                        "texture"
+                    ],
+                    "label": "door15",
+                    "doorNum": 15,
+                    "item": 5191,
+                    "timeStamp": "1702627200",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "door15/rattle0001"
+                    },
+                    "x": 29,
+                    "y": -73
+                },
+                {
+                    "prefabId": "26e3b032-f7e8-4d78-80f2-7cd88e928b99",
+                    "id": "337fed6b-a388-445e-ad2c-1728e4edd668",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "doorNum",
+                        "item",
+                        "timeStamp",
+                        "texture"
+                    ],
+                    "label": "door16",
+                    "doorNum": 16,
+                    "item": 1962,
+                    "timeStamp": "1702713600",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "door16/rattle0001"
+                    },
+                    "x": 124,
+                    "y": -60
+                },
+                {
+                    "prefabId": "26e3b032-f7e8-4d78-80f2-7cd88e928b99",
+                    "id": "558e60bb-f111-4f72-b04e-da114616c4e4",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "doorNum",
+                        "item",
+                        "timeStamp"
+                    ],
+                    "label": "door14",
+                    "doorNum": 14,
+                    "item": 24333,
+                    "timeStamp": "1702540800",
+                    "x": -69,
+                    "y": -59
+                },
+                {
+                    "prefabId": "26e3b032-f7e8-4d78-80f2-7cd88e928b99",
+                    "id": "f3385c00-25f9-457b-8cf0-b7e73bff1bfe",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "doorNum",
+                        "item",
+                        "timeStamp",
+                        "texture"
+                    ],
+                    "label": "door17",
+                    "doorNum": 17,
+                    "item": 4763,
+                    "timeStamp": "1702800000",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "door17/rattle0001"
+                    },
+                    "x": -164,
+                    "y": 19
+                },
+                {
+                    "prefabId": "26e3b032-f7e8-4d78-80f2-7cd88e928b99",
+                    "id": "c4a9a4b9-9db5-40a3-bb42-f8ac05a5a1a2",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "doorNum",
+                        "item",
+                        "timeStamp",
+                        "texture"
+                    ],
+                    "label": "door18",
+                    "doorNum": 18,
+                    "item": 3252,
+                    "timeStamp": "1702886400",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "door18/rattle0001"
+                    },
+                    "x": -68,
+                    "y": 35
+                },
+                {
+                    "prefabId": "26e3b032-f7e8-4d78-80f2-7cd88e928b99",
+                    "id": "b6affea7-98e3-48bd-98ea-615032a134ae",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "doorNum",
+                        "item",
+                        "timeStamp",
+                        "texture"
+                    ],
+                    "label": "door19",
+                    "doorNum": 19,
+                    "item": 24240,
+                    "timeStamp": "1702972800",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "door19/rattle0001"
+                    },
+                    "x": 32,
+                    "y": 23
+                },
+                {
+                    "prefabId": "26e3b032-f7e8-4d78-80f2-7cd88e928b99",
+                    "id": "1e8e26dc-61e4-4ca0-a784-5cbb0e6cc42e",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "doorNum",
+                        "item",
+                        "timeStamp",
+                        "texture"
+                    ],
+                    "label": "door20",
+                    "doorNum": 20,
+                    "item": 24331,
+                    "timeStamp": "1703059200",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "door20/rattle0001"
+                    },
+                    "x": 133,
+                    "y": 37
+                },
+                {
+                    "prefabId": "26e3b032-f7e8-4d78-80f2-7cd88e928b99",
+                    "id": "2ecc9147-fd1a-4046-be74-5ecc0d4bdcbf",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "doorNum",
+                        "item",
+                        "timeStamp",
+                        "texture"
+                    ],
+                    "label": "door21",
+                    "doorNum": 21,
+                    "item": 173,
+                    "timeStamp": "1703145600",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "door21/rattle0001"
+                    },
+                    "x": 230,
+                    "y": 26
+                },
+                {
+                    "prefabId": "26e3b032-f7e8-4d78-80f2-7cd88e928b99",
+                    "id": "6a656f34-8312-4979-a20c-22d5cb0d7d67",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "doorNum",
+                        "item",
+                        "timeStamp",
+                        "texture"
+                    ],
+                    "label": "door22",
+                    "doorNum": 22,
+                    "item": 1904,
+                    "timeStamp": "1703232000",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "door22/rattle0001"
+                    },
+                    "x": -145,
+                    "y": 148
+                },
+                {
+                    "prefabId": "26e3b032-f7e8-4d78-80f2-7cd88e928b99",
+                    "id": "61be96a5-63d6-4c9b-851f-03eae4e6b58c",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "doorNum",
+                        "item",
+                        "timeStamp",
+                        "texture"
+                    ],
+                    "label": "door23",
+                    "doorNum": 23,
+                    "item": 3254,
+                    "timeStamp": "1703318400",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "door23/rattle0001"
+                    },
+                    "x": -50,
+                    "y": 150
+                },
+                {
+                    "prefabId": "26e3b032-f7e8-4d78-80f2-7cd88e928b99",
+                    "id": "f9fd5311-1bea-4a37-9cbe-28e6f7b38bb8",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "doorNum",
+                        "item",
+                        "timeStamp",
+                        "texture",
+                        "isIgloo"
+                    ],
+                    "label": "door24",
+                    "doorNum": 24,
+                    "item": 24006,
+                    "timeStamp": "1703404800",
+                    "isIgloo": false,
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "door24/rattle0001"
+                    },
+                    "x": 55,
+                    "y": 155
+                },
+                {
+                    "prefabId": "26e3b032-f7e8-4d78-80f2-7cd88e928b99",
+                    "id": "898d6958-7a4f-4b77-8a5c-fd96c1bcb47a",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "doorNum",
+                        "item",
+                        "timeStamp",
+                        "texture"
+                    ],
+                    "label": "door25",
+                    "doorNum": 25,
+                    "item": 25,
+                    "timeStamp": "1703491200",
+                    "texture": {
+                        "key": "adventcalendar",
+                        "frame": "door25/rattle0001"
+                    },
+                    "x": 179,
+                    "y": 148
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

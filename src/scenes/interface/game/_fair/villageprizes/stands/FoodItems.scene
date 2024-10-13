@@ -1,0 +1,356 @@
+{
+    "id": "f6088db1-47e1-4a09-81ce-5549dec5cfd2",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "b106ec6f-1659-4b7b-ba55-20e6ef1727e8",
+            "label": "fooditems1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "a224a730-485c-455d-8eef-f4eb3ec24029",
+                    "label": "nuggetmann",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "nuggetmann"
+                    },
+                    "x": 9,
+                    "y": 721,
+                    "scaleX": 0.89,
+                    "scaleY": 0.89
+                },
+                {
+                    "type": "Image",
+                    "id": "c4761548-cc34-4b82-9b9d-864edf2ad922",
+                    "label": "fishfeet0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "fishfeet",
+                    "Button.callback": "() => this.interface.prompt.showItem(380610)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "fishfeet0001"
+                    },
+                    "x": 5,
+                    "y": 920
+                },
+                {
+                    "type": "Image",
+                    "id": "d39b7371-216a-485f-b5cf-be5585e8c236",
+                    "label": "cheeseskirt0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "cheeseskirt",
+                    "Button.callback": "() => this.interface.prompt.showItem(380607)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "cheeseskirt0001"
+                    },
+                    "y": 802
+                },
+                {
+                    "type": "Image",
+                    "id": "077af73e-6ea9-430a-856f-4cbef9b52e1d",
+                    "label": "saucehands0001",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.interface.prompt.showItem(380608)",
+                    "SimpleButton.pixelPerfect": true,
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "saucehands0001"
+                    },
+                    "x": 3,
+                    "y": 700
+                },
+                {
+                    "type": "Image",
+                    "id": "bce8807c-fdaf-4f23-b8ba-d929625de116",
+                    "label": "shrimplei0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "shrimplei",
+                    "Button.callback": "() => this.interface.prompt.showItem(380606)",
+                    "Button.pixelPerfect": true,
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "shrimplei0001"
+                    },
+                    "x": 2,
+                    "y": 618
+                },
+                {
+                    "type": "Image",
+                    "id": "060b4718-7591-4bdf-9ca2-b2fe2c73e80f",
+                    "label": "seaweed0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "seaweed",
+                    "Button.callback": "() => this.interface.prompt.showItem(380605)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "seaweed0001"
+                    },
+                    "x": 1,
+                    "y": 542
+                },
+                {
+                    "type": "Image",
+                    "id": "142fb529-5a5b-44d1-a1a3-8a2fc152ef58",
+                    "label": "squid0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "squid",
+                    "Button.callback": "() => this.interface.prompt.showItem(380604)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "squid0001"
+                    },
+                    "x": 3,
+                    "y": 372
+                },
+                {
+                    "type": "Image",
+                    "id": "d6158057-ed63-4bf5-8796-0e38b70d3599",
+                    "label": "ticketsign_4",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketsign2"
+                    },
+                    "x": 290,
+                    "y": 438
+                },
+                {
+                    "type": "Image",
+                    "id": "48797939-83c0-468b-92ee-53287c3d7fa7",
+                    "label": "ticketsign2",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketsign2"
+                    },
+                    "x": 257,
+                    "y": 292
+                },
+                {
+                    "type": "Image",
+                    "id": "65bb1fa0-c831-4107-a8b0-2e0bff20f9f2",
+                    "label": "ticketsign_2",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketsign2"
+                    },
+                    "x": 212,
+                    "y": 168
+                },
+                {
+                    "type": "Image",
+                    "id": "f99ec6f4-36b6-4e51-8d47-b62f2eda5958",
+                    "label": "ticketsign_3",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketsign2"
+                    },
+                    "x": 188
+                },
+                {
+                    "type": "Image",
+                    "id": "bd30d3b3-2bf7-4d15-8b70-fbcd88ff67e6",
+                    "label": "signstand_1",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "signstand"
+                    },
+                    "x": 296,
+                    "y": 990
+                },
+                {
+                    "type": "Text",
+                    "id": "eea4f0f8-caba-4cdc-88e0-caac9a264579",
+                    "label": "text_1",
+                    "x": 113,
+                    "y": 320,
+                    "text": "250",
+                    "fixedWidth": 150,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "50px",
+                    "fontStyle": "bold italic",
+                    "shadow.offsetX": 3,
+                    "shadow.offsetY": 3,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#00000097"
+                },
+                {
+                    "type": "Image",
+                    "id": "8f8aacf0-6504-438f-8bd1-4abd4c7b60be",
+                    "label": "ticketicon",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketicon"
+                    },
+                    "x": 257,
+                    "y": 351
+                },
+                {
+                    "type": "Text",
+                    "id": "c2ac04f4-e8dc-48db-aff8-6728294abd6c",
+                    "label": "text",
+                    "x": 135,
+                    "y": 486,
+                    "text": "200",
+                    "fixedWidth": 150,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "50px",
+                    "fontStyle": "bold italic",
+                    "shadow.offsetX": 3,
+                    "shadow.offsetY": 3,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#00000097"
+                },
+                {
+                    "type": "Image",
+                    "id": "af53b648-94bf-49a9-b991-2fe483069dfa",
+                    "label": "ticketicon_1",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketicon"
+                    },
+                    "x": 279,
+                    "y": 517
+                },
+                {
+                    "type": "Text",
+                    "id": "f59d254d-05f3-4223-baa5-176e5fb88c9d",
+                    "label": "text_2",
+                    "x": 185,
+                    "y": 611,
+                    "text": "500",
+                    "fixedWidth": 150,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "50px",
+                    "fontStyle": "bold italic",
+                    "shadow.offsetX": 3,
+                    "shadow.offsetY": 3,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#00000097"
+                },
+                {
+                    "type": "Image",
+                    "id": "7fe104b9-e95a-4a7d-a109-b4a3dc945c5d",
+                    "label": "ticketicon_2",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketicon"
+                    },
+                    "x": 329,
+                    "y": 642
+                },
+                {
+                    "type": "Text",
+                    "id": "8fbe4d0c-d0ce-4a86-93d2-679226e6d7ab",
+                    "label": "text_3",
+                    "x": 215,
+                    "y": 758,
+                    "text": "450",
+                    "fixedWidth": 150,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "50px",
+                    "fontStyle": "bold italic",
+                    "shadow.offsetX": 3,
+                    "shadow.offsetY": 3,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#00000097"
+                },
+                {
+                    "type": "Image",
+                    "id": "1f6606d4-ae13-4642-a8bd-e6918aa5ded3",
+                    "label": "ticketicon_3",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketicon"
+                    },
+                    "x": 359,
+                    "y": 789
+                },
+                {
+                    "type": "Image",
+                    "id": "7ca771d8-e1ad-4e46-9429-3fefdb6a250f",
+                    "label": "ticketsign3",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketsign3"
+                    },
+                    "x": 278,
+                    "y": 915
+                },
+                {
+                    "type": "Text",
+                    "id": "b077980c-64bf-4f04-a637-f7a005810aae",
+                    "label": "text_4",
+                    "x": 206,
+                    "y": 886,
+                    "text": "450",
+                    "fixedWidth": 150,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "50px",
+                    "fontStyle": "bold italic",
+                    "shadow.offsetX": 3,
+                    "shadow.offsetY": 3,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#00000097"
+                },
+                {
+                    "type": "Image",
+                    "id": "34b6882b-4920-48f3-88d4-f3270d2923f9",
+                    "label": "ticketicon_4",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketicon"
+                    },
+                    "x": 350,
+                    "y": 917
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

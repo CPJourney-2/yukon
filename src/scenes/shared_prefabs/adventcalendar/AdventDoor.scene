@@ -1,0 +1,79 @@
+{
+    "id": "26e3b032-f7e8-4d78-80f2-7cd88e928b99",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseSprite",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "ebb21dfd-8306-4b3d-b147-bbeeab084d32",
+            "label": "door14_rattle0001",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.onDoorClick()",
+            "texture": {
+                "key": "adventcalendar",
+                "frame": "door14/rattle0001"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "prefabProperties": [
+        {
+            "name": "doorNum",
+            "label": "door number",
+            "tooltip": "door nunber",
+            "defValue": 14,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "item",
+            "label": "item",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "timeStamp",
+            "label": "time",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "isIgloo",
+            "label": "igloo",
+            "tooltip": "igloo",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

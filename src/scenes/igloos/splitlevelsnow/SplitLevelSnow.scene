@@ -1,0 +1,115 @@
+{
+    "id": "b7b94250-9c66-4139-82ee-a2fccae0035d",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/splitlevelsnow/splitlevelsnow-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "SplitLevelSnow",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Layer",
+            "id": "98be1edb-be78-4b16-af00-63c387ae9080",
+            "label": "floor",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "746c3c7a-a19d-4796-a1ae-65809d0ab585",
+                    "label": "floor_1",
+                    "texture": {
+                        "key": "splitlevelsnow",
+                        "frame": "floor"
+                    },
+                    "x": 760,
+                    "y": 630,
+                    "originX": 0.5003861003861004
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "3331b290-70cf-49b2-aadd-fe156d47370b",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "texture": {
+                "key": "splitlevelsnow",
+                "frame": "door"
+            },
+            "x": 235,
+            "y": 556
+        },
+        {
+            "type": "Image",
+            "id": "c403d38e-23ba-487e-9af1-cdf39917103b",
+            "label": "wall_1",
+            "texture": {
+                "key": "splitlevelsnow",
+                "frame": "wall_1"
+            },
+            "x": 757,
+            "y": 380,
+            "originX": 0.5003615328994938
+        },
+        {
+            "type": "Image",
+            "id": "a2faaa3e-b19e-4730-9b8c-3967696fff44",
+            "label": "stairs",
+            "texture": {
+                "key": "splitlevelsnow",
+                "frame": "step"
+            },
+            "x": 777,
+            "y": 667
+        },
+        {
+            "type": "Image",
+            "id": "277514b6-704e-4e32-9ec3-c24b85c78f16",
+            "label": "wall_2",
+            "texture": {
+                "key": "splitlevelsnow",
+                "frame": "wall_2"
+            },
+            "x": 925,
+            "y": 811,
+            "originY": 0.5015197568389058
+        },
+        {
+            "type": "Rectangle",
+            "id": "bea415e6-d4f9-4226-af0e-d6fd6ec707ce",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 251.00000000000006,
+            "y": 642.0000000000001,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.5702633285828139,
+            "originY": 0.8059646113285686,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

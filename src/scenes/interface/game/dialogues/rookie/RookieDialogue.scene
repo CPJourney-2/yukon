@@ -1,0 +1,108 @@
+{
+    "id": "58609b40-21e9-4a25-a92d-bc875c81af0d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 1520,
+        "snapHeight": 960,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "DialogueWidget",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "f2688f7c-7830-4f3f-bb54-450a29277ffd",
+            "label": "container_1",
+            "x": -448.81666998318946,
+            "y": 354.27837245991276,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "85fb08e8-3b6e-48a4-ba1a-f2c251a51476",
+                    "label": "softblock",
+                    "scope": "CLASS",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 1205,
+                    "y": 126,
+                    "scaleX": 1.0916079383084136,
+                    "scaleY": 1.1123063932293908,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "74c88a59-fef0-4e32-af98-62341d9b1ba2",
+                    "label": "rookie",
+                    "texture": {
+                        "key": "rookiefairdialogue",
+                        "frame": "rookie"
+                    },
+                    "x": 786,
+                    "y": 337
+                },
+                {
+                    "type": "Sprite",
+                    "id": "665163b4-21b0-4088-864c-8878696a3b0e",
+                    "label": "mouth0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "mouth",
+                    "Animation.end": 18,
+                    "texture": {
+                        "key": "rookiefairdialogue",
+                        "frame": "mouth0001"
+                    },
+                    "x": 786,
+                    "y": 166
+                },
+                {
+                    "prefabId": "a2de820b-22ff-4224-a2e1-61367908713d",
+                    "id": "89b71f2c-ea22-4d65-99bb-74292329b653",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "bubble",
+                    "scope": "CLASS",
+                    "x": 894,
+                    "y": 428,
+                    "visible": true
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "350e395d-e96e-4ed8-b58a-045802d2b57b",
+            "label": "pages"
+        },
+        {
+            "id": "7c65c2e8-024e-4f51-a09d-56a766c1240d",
+            "label": "arrows"
+        },
+        {
+            "id": "473df44a-da28-47be-b2e0-d0741867d509",
+            "label": "everything"
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "id": "fcef5032-a109-425b-950f-2ebd7b2a59d6",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "3497a9af-65a0-4a36-a265-6ab0063ecd7e",
+            "label": "iconCategory",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "ca2e7ebe-fa9f-4287-9d25-1a7a1d10afd3",
+                    "label": "button",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "iconTabButton",
+                    "Button.hoverCallback": "() => this.onHover()",
+                    "Button.hoverOutCallback": "() => this.onHoverOut()",
+                    "Button.callback": "() => this.onClick()",
+                    "texture": {
+                        "key": "stampbook-inside",
+                        "frame": "iconTabButton"
+                    },
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "ee2983bd-45c0-4a99-b3bc-fb6280fb4335",
+                    "label": "buttonSelected",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "stampbook-inside",
+                        "frame": "iconTabButton-selected"
+                    },
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "43268d30-ec04-4f93-af34-d7c668cb406e",
+                    "label": "icon",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "testCategoryHeader"
+                    },
+                    "x": -3,
+                    "scaleX": 0.45,
+                    "scaleY": 0.45,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

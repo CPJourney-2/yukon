@@ -1,0 +1,300 @@
+{
+    "id": "9a268490-8c75-4769-910f-56ce686bcccf",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eefc5a3-1b9a-4b15-a92a-1a543086f96d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "637cca7d-b294-4dcd-aa38-991230ee66f5",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -12,
+                    "y": 10,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Image",
+                    "id": "7116cbb3-3af9-4ffe-8348-154aea54351b",
+                    "label": "bg",
+                    "texture": {
+                        "key": "mail",
+                        "frame": "bg"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "1cbe97d6-9d98-4479-a8b3-b7bf3fc68d23",
+                    "label": "badcard",
+                    "texture": {
+                        "key": "mail",
+                        "frame": "badcard"
+                    },
+                    "visible": false
+                },
+                {
+                    "prefabId": "d755a6c6-b827-4dde-9370-7d901b5db69c",
+                    "id": "daec77b2-a17b-4397-89e8-70a440b8de70",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "angle"
+                    ],
+                    "label": "cardHolder",
+                    "scope": "CLASS",
+                    "x": -504,
+                    "y": -311,
+                    "angle": -4
+                },
+                {
+                    "type": "Sprite",
+                    "id": "1b9ccaf6-9bd9-4dd2-83e8-1064de0dbb13",
+                    "label": "newbtn",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation",
+                        "SimpleButton"
+                    ],
+                    "Animation.start": 2,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "SimpleButton.hoverCallback": "() => this.onNewOver()",
+                    "SimpleButton.hoverOutCallback": "() => this.onNewOverOut()",
+                    "SimpleButton.callback": "() => this.onNew()",
+                    "SimpleButton.pixelPerfect": true,
+                    "texture": {
+                        "key": "mail",
+                        "frame": "newmessagebtn0001"
+                    },
+                    "x": -21,
+                    "y": -19,
+                    "angle": 19.5
+                },
+                {
+                    "type": "Sprite",
+                    "id": "e4cd73be-b9a7-474d-99a2-764c2960f544",
+                    "label": "removebtn",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation",
+                        "SimpleButton"
+                    ],
+                    "Animation.start": 2,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "SimpleButton.hoverCallback": "() => this.onRemoveOver()",
+                    "SimpleButton.hoverOutCallback": "() => this.onRemoveOverOut()",
+                    "SimpleButton.callback": "() => this.onRemove()",
+                    "SimpleButton.pixelPerfect": true,
+                    "texture": {
+                        "key": "mail",
+                        "frame": "removebtn0001"
+                    },
+                    "x": -52
+                },
+                {
+                    "type": "Image",
+                    "id": "fa627f93-41e3-4479-9272-6a660b7efae5",
+                    "label": "arrowleft",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.onPrev()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "mail",
+                        "frame": "arrowleft"
+                    },
+                    "x": -553,
+                    "y": 21
+                },
+                {
+                    "type": "Image",
+                    "id": "ab5e62f6-8ce3-43df-a298-eef30c5888d9",
+                    "label": "arrowright",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.onNext()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "mail",
+                        "frame": "arrowright"
+                    },
+                    "x": 560,
+                    "y": -32
+                },
+                {
+                    "type": "Sprite",
+                    "id": "50e63fd8-6ad0-49e6-bc2d-3537f27f48da",
+                    "label": "trashbtn",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation",
+                        "SimpleButton"
+                    ],
+                    "Animation.start": 2,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "SimpleButton.hoverCallback": "() => this.onTrashOver()",
+                    "SimpleButton.hoverOutCallback": "() => this.onTrashOverOut()",
+                    "SimpleButton.callback": "() => this.onTrash()",
+                    "SimpleButton.pixelPerfect": true,
+                    "texture": {
+                        "key": "mail",
+                        "frame": "trashbtn0001"
+                    }
+                },
+                {
+                    "type": "Container",
+                    "id": "ad7671ee-d3fa-499a-8298-40de9d4538a9",
+                    "label": "_reply",
+                    "x": 698,
+                    "y": -595,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "21d29d02-2e7a-4b20-ae0d-df0eb601e9fb",
+                            "label": "replyToBuddy",
+                            "scope": "CLASS",
+                            "components": [
+                                "HoverAnimation"
+                            ],
+                            "HoverAnimation.key": "replybtn",
+                            "HoverAnimation.checkpoints": "9",
+                            "HoverAnimation.end": 17,
+                            "HoverAnimation.createZone": false,
+                            "texture": {
+                                "key": "mail",
+                                "frame": "replybtn0010"
+                            },
+                            "x": 12,
+                            "visible": false
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "94f3c0c1-ba8b-40e7-989a-2ad4b19c4c66",
+                            "label": "replyBtn",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.onReplyClick()",
+                            "x": -246,
+                            "y": 84,
+                            "originX": 0,
+                            "originY": 0,
+                            "visible": false,
+                            "points": "42.265487648319095 303.91811872156154 -93.12351548515653 11.035785412410196 337.9108618377454 8.272744532135182 344.8184640384329 182.34431998946098"
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "5a671432-5a47-4e22-b7e6-9ba31f159df4",
+                    "label": "counter",
+                    "scope": "CLASS",
+                    "x": 585,
+                    "y": -220,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "angle": -4,
+                    "originX": 0.5,
+                    "text": "MESSAGE\n1 of 1",
+                    "fixedWidth": 400,
+                    "align": "center",
+                    "fontFamily": "CCComicCrazy",
+                    "fontSize": "52px",
+                    "fontStyle": "bold italic",
+                    "stroke": "#000",
+                    "strokeThickness": 20
+                },
+                {
+                    "type": "Image",
+                    "id": "df9c084c-e6eb-468a-a87e-c04646e29e64",
+                    "label": "closebtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "mail",
+                        "frame": "closebtn"
+                    },
+                    "x": 719,
+                    "y": -428
+                },
+                {
+                    "type": "Image",
+                    "id": "fb33857f-5295-49fd-9ebe-3409a46b026e",
+                    "label": "nomessagesbtn",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mail",
+                        "frame": "nomessagesbtn"
+                    },
+                    "visible": false
+                },
+                {
+                    "prefabId": "d755a6c6-b827-4dde-9370-7d901b5db69c",
+                    "id": "1e2c4fcb-c190-409e-a7f2-5a29e718a949",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "preloadHolder",
+                    "scope": "CLASS",
+                    "x": -1789,
+                    "y": 10
+                },
+                {
+                    "type": "Text",
+                    "id": "243dee88-ea76-40b6-b140-bf2dccfbf9b0",
+                    "label": "idText",
+                    "scope": "CLASS",
+                    "x": 504,
+                    "y": -337,
+                    "visible": false,
+                    "text": "id: 0",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "32px"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

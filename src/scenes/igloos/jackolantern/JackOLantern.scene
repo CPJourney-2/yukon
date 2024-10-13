@@ -1,0 +1,59 @@
+{
+    "id": "8649949e-aa18-4bd7-b94f-07adcd804a8f",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/igloos/buildings/sprites/jackolantern/jackolantern-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "JackOLantern",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "81a6400d-2f18-48f8-a301-8a41d3bf7cb0",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "jackolantern",
+                "frame": "pumkin"
+            },
+            "x": 754,
+            "y": 456,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "527810a4-a925-4977-83f5-569b35eae051",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 736,
+            "y": 524,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.4552908833040208,
+            "originY": 0.7568204277109729,
+            "width": 128,
+            "height": 128,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

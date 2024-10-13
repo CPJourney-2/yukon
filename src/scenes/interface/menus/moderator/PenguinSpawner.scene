@@ -1,0 +1,205 @@
+{
+    "id": "8fc367d8-5f57-4525-b9c9-53f36de0d24b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "5106372a-43f3-4f5f-bc85-6756e009ab82",
+            "label": "container_2",
+            "components": [
+                "DraggableContainer"
+            ],
+            "DraggableContainer.handle": "bg",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "NineSlice",
+                    "id": "2d323f78-3289-49cf-905e-ac32e288df87",
+                    "label": "bg",
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "x": 184,
+                    "y": -40,
+                    "width": 500,
+                    "height": 550,
+                    "leftWidth": 44,
+                    "rightWidth": 39,
+                    "topHeight": 40,
+                    "bottomHeight": 41
+                },
+                {
+                    "type": "Text",
+                    "id": "89605449-95e5-4a4c-910d-5cff065355fc",
+                    "label": "text_1",
+                    "x": 24,
+                    "y": -270,
+                    "text": "Penguin Spawner",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "38px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Text",
+                    "id": "02c585ae-ceff-47f0-81be-5b28219e3090",
+                    "label": "text",
+                    "x": 9,
+                    "y": -201,
+                    "text": "FOR DEBUG PURPOSES ONLY. Penguins you spawn with this tool will only be seen by you.",
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "wordWrapWidth": 400
+                },
+                {
+                    "type": "Image",
+                    "id": "a8348841-52ea-4c3c-8bb5-13ca38706839",
+                    "label": "verify_btn_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "help-button",
+                    "Button.callback": "() => this.spawnNewPenguin()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "help-button"
+                    },
+                    "x": 188,
+                    "y": -76,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Text",
+                    "id": "f9b3a3df-f44a-4771-857d-e56f5270d213",
+                    "label": "text_6",
+                    "x": 73,
+                    "y": -94,
+                    "text": "Spawn New Penguin",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Text",
+                    "id": "61c1529f-d498-4d4c-a99d-b9ac8516b3bd",
+                    "label": "text_8",
+                    "x": 24,
+                    "y": -33,
+                    "text": "MANIPULATE PENGUIN",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "30px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Image",
+                    "id": "cccdcb9a-0a6b-42ea-8898-aaa415a86847",
+                    "label": "verify_btn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "help-button",
+                    "Button.callback": "() => this.processCommand()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "help-button"
+                    },
+                    "x": 198,
+                    "y": 177,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Text",
+                    "id": "cfaf85ca-9c12-4004-b407-ce323b1d555c",
+                    "label": "text_9",
+                    "x": 158,
+                    "y": 161,
+                    "text": "Invoke",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Text",
+                    "id": "6c851b27-cd1e-4442-914b-e937a25e2a2a",
+                    "label": "text_11",
+                    "x": -9,
+                    "y": 6,
+                    "text": "Enter a command prompt. You'll need to\nconsult the comments in the code\nbecause chris was lazy.",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "21px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Image",
+                    "id": "5e439bcf-85eb-4bef-a3ca-e9ae7d64e795",
+                    "label": "x_button_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 380,
+                    "y": -264
+                },
+                {
+                    "type": "Image",
+                    "id": "39d8fce4-d27d-426d-b15d-5aad85661c63",
+                    "label": "x_button_3",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 379,
+                    "y": -267
+                },
+                {
+                    "type": "Container",
+                    "id": "8f685c81-1700-4fd8-81d1-b9e15c14d6aa",
+                    "label": "container_3",
+                    "scope": "CLASS",
+                    "x": 168,
+                    "y": 111,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "3b581d66-7c52-4761-a539-7c3b14a5f988",
+                            "label": "put_cmd_here",
+                            "scope": "CLASS",
+                            "isFilled": true,
+                            "width": 350,
+                            "height": 40
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

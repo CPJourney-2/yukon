@@ -1,0 +1,79 @@
+{
+    "id": "54d75014-1100-4d40-8bab-518750eaa878",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "1eb5f9a4-d38d-4edd-87ae-16f0115d5eaf",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "8b11421c-3ba4-43f7-b777-d4b87dc97051",
+                    "label": "dollBody",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "create",
+                        "frame": "doll/body"
+                    },
+                    "x": 1,
+                    "y": -40,
+                    "tintTopLeft": "#e2e2e2",
+                    "tintTopRight": "#e2e2e2",
+                    "tintBottomLeft": "#e2e2e2",
+                    "tintBottomRight": "#e2e2e2",
+                    "tintFill": true
+                },
+                {
+                    "type": "Image",
+                    "id": "3ed4bad7-437c-440f-825f-aa02e4500c04",
+                    "label": "dollBodyAlt",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "create",
+                        "frame": "doll/body"
+                    },
+                    "x": 1,
+                    "y": -40,
+                    "alpha": 0,
+                    "alphaTopLeft": 0,
+                    "alphaTopRight": 0,
+                    "alphaBottomLeft": 0,
+                    "alphaBottomRight": 0,
+                    "tintTopLeft": "#e5d4d4",
+                    "tintTopRight": "#e5d4d4",
+                    "tintBottomLeft": "#e5d4d4",
+                    "tintBottomRight": "#e5d4d4",
+                    "tintFill": true
+                },
+                {
+                    "type": "Image",
+                    "id": "1bad9de4-72ab-42c1-8447-e50c950b8402",
+                    "label": "dollOutline",
+                    "texture": {
+                        "key": "create",
+                        "frame": "doll/outline"
+                    }
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

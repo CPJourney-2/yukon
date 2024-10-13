@@ -1,0 +1,335 @@
+{
+    "id": "f4de90d7-6921-46e9-933e-fbf15d1e3667",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "a51b8a35-a2e2-484a-af5d-6f30abb05f4e",
+            "label": "switchbox",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "bf013a72-37ec-46d8-917b-a3f75d5863f3",
+                    "label": "backswitch",
+                    "texture": {
+                        "key": "stage-basic",
+                        "frame": "switchbox/backswitch"
+                    },
+                    "x": -1.9727217727420339,
+                    "y": -20.393286744760985,
+                    "originX": 0.4462381588950688,
+                    "originY": 0.25765748097396024
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ffc696f8-dc7a-4334-8cda-6ce87a5ffabb",
+                    "label": "switchone",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton",
+                        "Animation"
+                    ],
+                    "SimpleButton.callback": "() => {this.switchboxOne()}",
+                    "Animation.key": "switchbox/switchone",
+                    "Animation.end": 18,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "Animation.onCompleteCallback": "() => this.switchone.setFrame('switchbox/switchone0001')",
+                    "texture": {
+                        "key": "stage-basic",
+                        "frame": "switchbox/switchone0001"
+                    },
+                    "x": -85.15387439032054,
+                    "y": -42.82238465586329,
+                    "originX": 0.43728588048968503,
+                    "originY": 0.5701605033347966
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ed801936-7c02-4e09-b755-2c7e3b82b890",
+                    "label": "switchtwo",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton",
+                        "Animation"
+                    ],
+                    "SimpleButton.callback": "() => {this.switchboxTwo()}",
+                    "Animation.key": "switchbox/switchtwo",
+                    "Animation.end": 13,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "Animation.onCompleteCallback": "() => this.switchtwo.setFrame('switchbox/switchtwo0001')",
+                    "texture": {
+                        "key": "stage-basic",
+                        "frame": "switchbox/switchtwo0001"
+                    },
+                    "x": -57.703988068299054,
+                    "y": -46.08164547853494,
+                    "originX": 0.4937922323513488,
+                    "originY": 0.5074036823082193
+                },
+                {
+                    "type": "Sprite",
+                    "id": "49482788-a9e1-40b3-a9c1-5aaad4137296",
+                    "label": "switchthree",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton",
+                        "Animation"
+                    ],
+                    "SimpleButton.callback": "() => {this.switchboxThree()}",
+                    "Animation.key": "switchbox/switchthree",
+                    "Animation.end": 15,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "stage-basic",
+                        "frame": "switchbox/switchthree0001"
+                    },
+                    "x": -31.36977314694127,
+                    "y": -59.731902076056144,
+                    "originX": 0.5074553248700521,
+                    "originY": 0.5293479323863343
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8455d053-0d30-4c11-ba8c-a54e1edaee58",
+                    "label": "switchfour",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton",
+                        "Animation"
+                    ],
+                    "SimpleButton.callback": "() => {this.switchboxFive()}",
+                    "Animation.key": "switchbox/switchfour",
+                    "Animation.end": 12,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "stage-basic",
+                        "frame": "switchbox/switchfour0001"
+                    },
+                    "x": -10.382478411505076,
+                    "y": -35.76522616373438,
+                    "originX": 0.44011665445016207,
+                    "originY": 0.6628628355283219
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ea15f442-c6d2-4091-a8e9-d4566316967f",
+                    "label": "switchfive",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton",
+                        "Animation"
+                    ],
+                    "SimpleButton.callback": "() => {this.switchboxFour()}",
+                    "Animation.key": "switchbox/switchfive",
+                    "Animation.end": 15,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "stage-basic",
+                        "frame": "switchbox/switchfive0001"
+                    },
+                    "x": 21.06263566781888,
+                    "y": -56.82728423323044,
+                    "originX": 0.5223659746101561,
+                    "originY": 0.6200432932011414
+                },
+                {
+                    "type": "Polygon",
+                    "id": "494c29f7-e6d6-4308-a4a7-729af2c558f1",
+                    "label": "polygon_1",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.switchboxEight()",
+                    "x": 91.4808890697238,
+                    "y": -54.12719948399327,
+                    "originX": 2.0796491465006435,
+                    "originY": 0.6068016510658173,
+                    "points": "85.5786026203852 57.845043827157255 73.79825336371407 29.56375738151884 76.04074669440516 27.204658058191562 75.13062686066422 16.01018410317816 62.225904782589936 14.860575683690001 63.10657936598133 4.8795970719208555 94.07696888191207 2.237573321746666 97.89322540994145 13.539563808602907 86.91576014974287 16.63787861651676 103.32941938915694 57.927948442468015"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "49f0ffd9-fd14-47fa-9646-66654b4f9039",
+                    "label": "switchsix",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton",
+                        "Animation"
+                    ],
+                    "SimpleButton.callback": "() => {this.switchboxSix()}",
+                    "Animation.key": "switchbox/switchsix",
+                    "Animation.end": 13,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "Animation.onCompleteCallback": "() => this.switchsix.setFrame('switchbox/switchsix0001')",
+                    "texture": {
+                        "key": "stage-basic",
+                        "frame": "switchbox/switchsix0001"
+                    },
+                    "x": 50.071300554957816,
+                    "y": -42.468759952573464,
+                    "originX": 0.48509913175996644,
+                    "originY": 0.584689216316827
+                },
+                {
+                    "type": "Sprite",
+                    "id": "021cff85-b166-4087-99a3-2eb210660be7",
+                    "label": "switchseven",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton",
+                        "Animation"
+                    ],
+                    "SimpleButton.callback": "() => {this.switchboxSeven()}",
+                    "Animation.key": "switchbox/switchseven",
+                    "Animation.end": 14,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "Animation.onCompleteCallback": "() => this.switchseven.setFrame('switchbox/switchseven0001')",
+                    "texture": {
+                        "key": "stage-basic",
+                        "frame": "switchbox/switchseven0001"
+                    },
+                    "x": 73.08202075262523,
+                    "y": -47.76743075819934,
+                    "originX": 0.44672168731563033,
+                    "originY": 0.45699187848526546
+                },
+                {
+                    "type": "Sprite",
+                    "id": "52f7b73e-f22b-466c-93b4-fe82fd2cedcc",
+                    "label": "switcheight",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "switchbox/switcheight",
+                    "Animation.end": 13,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "Animation.onCompleteCallback": "() => this.switcheight.setFrame('switchbox/switcheight0001')",
+                    "texture": {
+                        "key": "stage-basic",
+                        "frame": "switchbox/switcheight0001"
+                    },
+                    "x": 95.79531349869978,
+                    "y": -46.60038040352333,
+                    "originX": 0.47302199484922575,
+                    "originY": 0.7061022490743857
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "switch1Callback",
+            "label": "First slider callback",
+            "tooltip": "",
+            "defValue": "() => {}",
+            "customDefinition": false,
+            "type": {
+                "id": "expression",
+                "expressionType": "any"
+            }
+        },
+        {
+            "name": "switch2Callback",
+            "label": "Second slider callback",
+            "tooltip": "",
+            "defValue": "() => {}",
+            "customDefinition": false,
+            "type": {
+                "id": "expression",
+                "expressionType": "any"
+            }
+        },
+        {
+            "name": "switch3Callback",
+            "label": "Cyan button callback",
+            "tooltip": "",
+            "defValue": "() => {}",
+            "customDefinition": false,
+            "type": {
+                "id": "expression",
+                "expressionType": "any"
+            }
+        },
+        {
+            "name": "switch4Callback",
+            "label": "Blue button callback",
+            "tooltip": "",
+            "defValue": "() => {}",
+            "customDefinition": false,
+            "type": {
+                "id": "expression",
+                "expressionType": "any"
+            }
+        },
+        {
+            "name": "switch5Callback",
+            "label": "Red button callback",
+            "tooltip": "",
+            "defValue": "() => {}",
+            "customDefinition": false,
+            "type": {
+                "id": "expression",
+                "expressionType": "any"
+            }
+        },
+        {
+            "name": "switch6Callback",
+            "label": "Third slider callback",
+            "tooltip": "",
+            "defValue": "() => {}",
+            "customDefinition": false,
+            "type": {
+                "id": "expression",
+                "expressionType": "any"
+            }
+        },
+        {
+            "name": "switch7Callback",
+            "label": "Fourth slider callback",
+            "tooltip": "",
+            "defValue": "() => {}",
+            "customDefinition": false,
+            "type": {
+                "id": "expression",
+                "expressionType": "any"
+            }
+        },
+        {
+            "name": "switch8Callback",
+            "label": "Yellow lever callback",
+            "tooltip": "",
+            "defValue": "() => {}",
+            "customDefinition": false,
+            "type": {
+                "id": "expression",
+                "expressionType": "any"
+            }
+        }
+    ]
+}

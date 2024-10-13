@@ -1,0 +1,646 @@
+{
+    "id": "271ecc5c-88a3-4ac8-82fb-72e2fdeac287",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c0b9ebfb-2fa2-451a-8e51-a073826c2b7e",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "83b42118-97d3-4c8d-b01e-470e86dc8df3",
+                    "label": "gemshop_bg",
+                    "texture": {
+                        "key": "voyager",
+                        "frame": "gemshop_bg"
+                    },
+                    "x": 786.1834868441113,
+                    "y": 480.1172419590179
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "71b33064-abad-4933-9860-6579bc165b91",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "b3e167e3-b64d-496e-8f4d-2b5ae454a7f9",
+                    "label": "pengiquins",
+                    "scope": "CLASS",
+                    "x": 760.1834868441113,
+                    "y": 378.1172419590179,
+                    "list": [
+                        {
+                            "prefabId": "7f5c9b2f-cd13-43e7-884e-cad15bd526ba",
+                            "id": "49a90572-b3d0-4afd-8219-5295f82e01c3",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "positions"
+                            ],
+                            "label": "carousel",
+                            "scope": "CLASS",
+                            "positions": "carouselNodes",
+                            "x": 0,
+                            "y": 102
+                        },
+                        {
+                            "type": "Container",
+                            "id": "dea4ce45-00af-445a-aa41-d9ab68e04f07",
+                            "label": "pengiquinPositions",
+                            "list": [
+                                {
+                                    "type": "Ellipse",
+                                    "id": "1aa44b2a-d268-49ab-a904-e2839cbb3071",
+                                    "label": "pos5",
+                                    "x": 369,
+                                    "y": -28,
+                                    "isFilled": true,
+                                    "fillColor": "#f7ff3f",
+                                    "width": 128,
+                                    "height": 128
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "da8c5e02-52b8-4013-b43e-26926b202727",
+                                    "label": "pos4",
+                                    "x": 214,
+                                    "y": -21,
+                                    "isFilled": true,
+                                    "fillColor": "#f7ff3f",
+                                    "width": 128,
+                                    "height": 128
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "17e3764b-d256-4959-9290-b0ed27e5bd6f",
+                                    "label": "pos3",
+                                    "y": 61,
+                                    "isFilled": true,
+                                    "fillColor": "#f7ff3f",
+                                    "width": 128,
+                                    "height": 128
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "3349dd20-6c23-404d-abb4-a2b29a98b2f5",
+                                    "label": "pos2",
+                                    "x": -214,
+                                    "y": -21,
+                                    "isFilled": true,
+                                    "fillColor": "#f7ff3f",
+                                    "width": 128,
+                                    "height": 128
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "df4b02bb-bc6c-4670-a0a7-9a79e3e769b1",
+                                    "label": "pos1",
+                                    "x": -369,
+                                    "y": -28,
+                                    "isFilled": true,
+                                    "fillColor": "#f7ff3f",
+                                    "width": 128,
+                                    "height": 128
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "5971c449-afb8-4a42-b95f-59667f6e382f",
+                    "label": "gemshop_fg_right",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "voyager",
+                        "frame": "gemshop_fg_right"
+                    },
+                    "x": 1127,
+                    "y": 329
+                },
+                {
+                    "type": "Image",
+                    "id": "e9d094f2-a296-470e-9cf4-0f2d588d42b3",
+                    "label": "gemshop_fg_left",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "voyager",
+                        "frame": "gemshop_fg_left"
+                    },
+                    "x": 355,
+                    "y": 313
+                },
+                {
+                    "type": "Container",
+                    "id": "a97ceeeb-cd5e-463a-a16d-2d3426044ed2",
+                    "label": "shopUI",
+                    "scope": "CLASS",
+                    "x": 92.18348684411129,
+                    "y": 57.1172419590179,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "b49bf675-6baf-45a2-9acc-83b065e96061",
+                            "label": "shop_vignette",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "voyager2",
+                                "frame": "item_show_vignette"
+                            },
+                            "x": -92.18348693847656,
+                            "y": -57.11724090576172,
+                            "originX": 0,
+                            "originY": 0,
+                            "alpha": 0.7,
+                            "alphaTopLeft": 0.7,
+                            "alphaTopRight": 0.7,
+                            "alphaBottomLeft": 0.7,
+                            "alphaBottomRight": 0.7
+                        },
+                        {
+                            "type": "Container",
+                            "id": "61b6e463-c729-40f0-90e5-1ba60586b461",
+                            "label": "gems",
+                            "y": 25
+                        },
+                        {
+                            "type": "Text",
+                            "id": "d22b3a7d-7465-435a-b1e4-77517a3c7ec2",
+                            "label": "pageNum",
+                            "scope": "CLASS",
+                            "x": 669,
+                            "y": 646,
+                            "originX": 0.5,
+                            "visible": false,
+                            "text": "0/0",
+                            "fixedWidth": 186,
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "32px"
+                        },
+                        {
+                            "type": "Container",
+                            "id": "0c300cb2-62b0-4bd7-ae40-dc132d398fc2",
+                            "label": "price",
+                            "scope": "CLASS",
+                            "x": 741,
+                            "y": 111,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "6156fddf-8f31-4122-ba17-ac8d6dac4193",
+                                    "label": "banner",
+                                    "texture": {
+                                        "key": "voyager2",
+                                        "frame": "banner"
+                                    },
+                                    "x": -857,
+                                    "y": -297,
+                                    "scaleX": 1.01,
+                                    "angle": -2,
+                                    "originX": 0,
+                                    "originY": 0
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "a0b92998-82cb-49e8-aca9-4ccd4e3234d6",
+                                    "label": "itemRarityOLD",
+                                    "scope": "CLASS",
+                                    "x": -149,
+                                    "y": -3,
+                                    "originX": 0.5,
+                                    "visible": false,
+                                    "text": "LEGENDARY",
+                                    "fixedWidth": 457,
+                                    "align": "right",
+                                    "fontFamily": "Arial",
+                                    "fontSize": "46px",
+                                    "fontStyle": "bold"
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "b0490a19-78de-40b8-908e-3703d8b55190",
+                                    "label": "container_2",
+                                    "x": -112,
+                                    "y": -185,
+                                    "scaleY": 0.9,
+                                    "list": [
+                                        {
+                                            "type": "Sprite",
+                                            "id": "09729e9a-c3bf-449b-b506-0855ccd84d66",
+                                            "label": "itemRarity",
+                                            "scope": "CLASS",
+                                            "texture": {
+                                                "key": "voyager2",
+                                                "frame": "lang_legendary_en"
+                                            },
+                                            "x": 42,
+                                            "y": 84,
+                                            "scaleX": 0.7,
+                                            "scaleY": 0.7
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Image",
+                            "id": "10d693a4-771d-4e8a-8977-95447cc6ca1c",
+                            "label": "close_btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "close_btn",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "voyager",
+                                "frame": "close_btn"
+                            },
+                            "x": 1358.999984741211,
+                            "y": 24
+                        },
+                        {
+                            "type": "Container",
+                            "id": "d1b71081-e39d-4445-9302-9ed7bcfe27c2",
+                            "label": "shops_details",
+                            "scope": "CLASS",
+                            "x": 459,
+                            "y": 615,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "6ac10e66-7674-4f31-beca-4d0812ab3ac2",
+                                    "label": "arrow",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.callback": "() => this.next()",
+                                    "Button.activeFrame": true,
+                                    "texture": {
+                                        "key": "voyager",
+                                        "frame": "arrow"
+                                    },
+                                    "x": 412,
+                                    "y": 82,
+                                    "angle": 90
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "bf687851-bf44-4e14-b934-05dc86c93b59",
+                                    "label": "arrow_1",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.callback": "() => this.prev()",
+                                    "Button.activeFrame": true,
+                                    "texture": {
+                                        "key": "voyager",
+                                        "frame": "arrow"
+                                    },
+                                    "y": 82,
+                                    "angle": 90,
+                                    "flipY": true
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "516406ce-7d4e-4b9e-8aff-1166dd02eb2e",
+                                    "label": "item_banner",
+                                    "texture": {
+                                        "key": "voyager2",
+                                        "frame": "item_banner"
+                                    },
+                                    "x": 206,
+                                    "y": -4
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "d47dfe6b-bd00-4b26-a864-6005c7f7b91a",
+                                    "label": "item_banner_1",
+                                    "texture": {
+                                        "key": "voyager2",
+                                        "frame": "item_banner"
+                                    },
+                                    "x": 206,
+                                    "y": -4
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "5ea307cf-a052-4623-855f-ef130105bd3c",
+                                    "label": "exchange_button",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "exchange_button",
+                                    "Button.callback": "() => this.buyItem()",
+                                    "Button.activeFrame": true,
+                                    "texture": {
+                                        "key": "voyager2",
+                                        "frame": "exchange_button"
+                                    },
+                                    "x": 207,
+                                    "y": 82
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "ec15dc76-6695-40c4-a7bd-6e3a8106888a",
+                                    "label": "itemName",
+                                    "scope": "CLASS",
+                                    "x": 211,
+                                    "y": -7,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "Really Long Item Name",
+                                    "fixedWidth": 723,
+                                    "align": "center",
+                                    "fontFamily": "Burbank Small",
+                                    "fontSize": "36px",
+                                    "fontStyle": "bold",
+                                    "shadow.offsetX": 3,
+                                    "shadow.offsetY": 3,
+                                    "shadow.fill": true
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "58a54bbd-7432-440c-84ea-3dc7ef46d7ec",
+                                    "label": "itemName_1",
+                                    "scope": "CLASS",
+                                    "x": 209,
+                                    "y": 79,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "visible": false,
+                                    "text": "Exchange",
+                                    "paddingLeft": 5,
+                                    "paddingTop": 5,
+                                    "paddingRight": 5,
+                                    "paddingBottom": 5,
+                                    "align": "center",
+                                    "fontFamily": "Burbank Small",
+                                    "fontSize": "36px",
+                                    "fontStyle": "bold",
+                                    "color": "#966308",
+                                    "shadow.offsetX": 1,
+                                    "shadow.offsetY": 1,
+                                    "shadow.fill": true,
+                                    "shadow.color": "#FBE9C8"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "ca66fe1c-7df4-4034-9b8c-32a7553d3fad",
+                                    "label": "itemCost",
+                                    "scope": "CLASS",
+                                    "x": 184,
+                                    "y": 79,
+                                    "originY": 0.5,
+                                    "text": "999",
+                                    "paddingLeft": 5,
+                                    "paddingRight": 5,
+                                    "fontFamily": "Burbank Small",
+                                    "fontSize": "48px",
+                                    "fontStyle": "bold",
+                                    "color": "#FFF",
+                                    "stroke": "#330000",
+                                    "shadow.offsetX": 4,
+                                    "shadow.offsetY": 3,
+                                    "shadow.stroke": true,
+                                    "shadow.fill": true,
+                                    "shadow.color": "#400404ff"
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "f2ceab31-ed17-4295-8eda-bbe521cbf1c6",
+                                    "label": "gem_icon_1",
+                                    "texture": {
+                                        "key": "voyager",
+                                        "frame": "gem_icon"
+                                    },
+                                    "x": 148,
+                                    "y": 80,
+                                    "scaleX": 0.9,
+                                    "scaleY": 0.9
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "23065d02-1f65-4a99-b6ec-479614e0a8b6",
+                            "label": "reroll_container",
+                            "scope": "CLASS",
+                            "x": 97,
+                            "y": 842.8827590942383,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "d34c9a45-6760-4e75-890c-3f1c4c950488",
+                                    "label": "reroll_button",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "reroll_button",
+                                    "Button.callback": "() => this.getRerolledItem()",
+                                    "Button.activeFrame": true,
+                                    "texture": {
+                                        "key": "voyager2",
+                                        "frame": "reroll_button"
+                                    },
+                                    "x": 79.81651306152344,
+                                    "flipX": true
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "31a55afe-6b53-4bc1-8275-25ae13ba093d",
+                                    "label": "itemCost_1",
+                                    "scope": "CLASS",
+                                    "x": 32,
+                                    "y": 18.11724853515625,
+                                    "originY": 0.5,
+                                    "text": "Reroll",
+                                    "paddingLeft": 5,
+                                    "paddingRight": 5,
+                                    "fontFamily": "Burbank Small",
+                                    "fontSize": "48px",
+                                    "fontStyle": "bold",
+                                    "color": "#FFF",
+                                    "stroke": "#5E2C1D",
+                                    "shadow.offsetX": 4,
+                                    "shadow.offsetY": 3,
+                                    "shadow.stroke": true,
+                                    "shadow.fill": true,
+                                    "shadow.color": "#5E2C1D"
+                                },
+                                {
+                                    "type": "Sprite",
+                                    "id": "9c420858-ed1b-4473-8ecb-a17555bb0f81",
+                                    "label": "rerollBtnIcon",
+                                    "scope": "CLASS",
+                                    "texture": {
+                                        "key": "voyager",
+                                        "frame": "spinner"
+                                    },
+                                    "y": 16.11724853515625,
+                                    "scaleX": 0.65,
+                                    "scaleY": 0.65
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "17befb7f-360a-442d-9760-c6f732b38197",
+                            "label": "shop_gems",
+                            "scope": "CLASS",
+                            "x": 1101.999984741211,
+                            "y": 833,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "f78a755f-988c-4935-9ae8-102de0c394c9",
+                                    "label": "gem_bg_1",
+                                    "texture": {
+                                        "key": "voyager2",
+                                        "frame": "gem_bg"
+                                    },
+                                    "x": 79,
+                                    "y": 25,
+                                    "alpha": 0.5,
+                                    "alphaTopLeft": 0.5,
+                                    "alphaTopRight": 0.5,
+                                    "alphaBottomLeft": 0.5,
+                                    "alphaBottomRight": 0.5
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "ebfe9dcb-ad66-4782-999f-c8862bb36c67",
+                                    "label": "gem_bg",
+                                    "texture": {
+                                        "key": "voyager2",
+                                        "frame": "gem_bg"
+                                    },
+                                    "x": 79,
+                                    "y": 25
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "a39ca002-31ec-459e-8a6d-74827d05ff20",
+                                    "label": "gem_icon",
+                                    "texture": {
+                                        "key": "voyager",
+                                        "frame": "gem_icon"
+                                    },
+                                    "y": 29,
+                                    "angle": -10
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "6c539a37-dcae-449d-bdb7-66a282ac2af1",
+                                    "label": "gemsAvailable",
+                                    "scope": "CLASS",
+                                    "x": 47,
+                                    "y": 19,
+                                    "text": "999,999",
+                                    "paddingRight": 5,
+                                    "fontFamily": "Burbank Small",
+                                    "fontSize": "28px",
+                                    "fontStyle": "bold",
+                                    "stroke": "#000000ff",
+                                    "strokeThickness": 7,
+                                    "shadow.offsetX": 3,
+                                    "shadow.offsetY": 3,
+                                    "shadow.stroke": true,
+                                    "shadow.fill": true,
+                                    "shadow.color": "#000000ff"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "aaa7d2cb-615f-4568-af06-d3c3f5aa87b3",
+                                    "label": "gemsAvailable_1",
+                                    "scope": "CLASS",
+                                    "x": 50,
+                                    "text": "Your Gems:",
+                                    "fontFamily": "Burbank Small",
+                                    "fontSize": "22px"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "31ba2fa2-1bc2-4e43-8186-548f9157b2a9",
+                    "label": "spinner",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "voyager",
+                        "frame": "spinner"
+                    },
+                    "x": 760.1834716796875,
+                    "y": 480.11724853515625
+                },
+                {
+                    "type": "Sprite",
+                    "id": "983add29-5b7c-4c80-a241-233c71f9bfea",
+                    "label": "carousel_vignette",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "voyager2",
+                        "frame": "carousel_vignette"
+                    },
+                    "y": -13,
+                    "scaleY": 1.1,
+                    "originX": 0,
+                    "originY": 0,
+                    "visible": false,
+                    "alpha": 0.6,
+                    "alphaTopLeft": 0.6,
+                    "alphaTopRight": 0.6,
+                    "alphaBottomLeft": 0.6,
+                    "alphaBottomRight": 0.6
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "a847b623-304f-4e66-9dcd-acf368d20a42",
+            "label": "carouselNodes",
+            "objectIds": [
+                "df4b02bb-bc6c-4670-a0a7-9a79e3e769b1",
+                "3349dd20-6c23-404d-abb4-a2b29a98b2f5",
+                "17e3764b-d256-4959-9290-b0ed27e5bd6f",
+                "da8c5e02-52b8-4013-b43e-26926b202727",
+                "1aa44b2a-d268-49ab-a904-e2839cbb3071"
+            ]
+        }
+    ]
+}

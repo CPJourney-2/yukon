@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   id="svg2"
+   sodipodi:docname="claudita-home-icon.svg"
+   inkscape:export-filename="/home/claus/trabajo/nico/home.png"
+   viewBox="0 0 50 50"
+   sodipodi:version="0.32"
+   inkscape:export-xdpi="72"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-ydpi="72"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs188" />
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:window-y="23"
+     pagecolor="#ffffff"
+     inkscape:window-height="456"
+     inkscape:zoom="5.993429"
+     inkscape:window-x="0"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="layer1"
+     inkscape:cx="9.1767166"
+     inkscape:cy="20.188777"
+     inkscape:window-width="1280"
+     inkscape:pageopacity="0.99607843"
+     inkscape:document-units="px"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:window-maximized="0" />
+  <g
+     id="layer1"
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer">
+    <path
+       id="rect2879"
+       style="fill:#ffffff;fill-opacity:1"
+       d="m25 9.0937l-17.719 16.281h5.563v15.531h24.312v-15.531h5.563l-17.719-16.281z" />
+  </g>
+  <metadata
+     id="metadata185">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>home icon</dc:title>
+        <dc:date>2008-05-26T21:12:21</dc:date>
+        <dc:description>icon go home</dc:description>
+        <dc:source>https://openclipart.org/detail/17103/home-icon-by-claudita</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>claudita</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>home</rdf:li>
+            <rdf:li>home button</rdf:li>
+            <rdf:li>home icon</rdf:li>
+            <rdf:li>index icon</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

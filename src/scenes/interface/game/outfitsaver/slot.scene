@@ -1,0 +1,79 @@
+{
+    "id": "3d298f83-83b4-4cea-97e5-02b0b1349017",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8c02661b-0e13-47ad-bea6-23c181a5bbf8",
+            "label": "slot1",
+            "list": [
+                {
+                    "type": "NineSlice",
+                    "id": "3d1771a7-3c08-4beb-af62-198da1bc94eb",
+                    "label": "slotBackground",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onSlotClick()}",
+                    "texture": {
+                        "key": "main",
+                        "frame": "large-box"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "width": 177,
+                    "height": 177,
+                    "leftWidth": 13,
+                    "rightWidth": 17,
+                    "topHeight": 14,
+                    "bottomHeight": 13
+                },
+                {
+                    "prefabId": "7b4017c1-c8f3-4f6b-9aae-61bbce16ce08",
+                    "id": "2962e9f9-8b04-44ea-b8c3-984a8b7c1fdf",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "paperDoll",
+                    "scope": "CLASS",
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "prefabProperties": [
+        {
+            "name": "slotID",
+            "label": "slotID",
+            "tooltip": "Property 1",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

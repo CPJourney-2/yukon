@@ -1,0 +1,1352 @@
+{
+    "id": "04e1f519-0150-4276-9b6a-6133adc10daf",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 159,
+        "snapHeight": 31,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c2df2194-bb4a-4b41-8d90-aa5a6f01b553",
+            "label": "container_1",
+            "components": [],
+            "x": 0.34900255869139585,
+            "y": 0.14197775311840743,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "4c1bb4a7-e776-4a76-9a74-a786f9bcae21",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 751.650992220377,
+                    "y": 500.8580265916743,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Container",
+                    "id": "453cbe60-4554-4836-86ff-b59b29e10b6b",
+                    "label": "page42",
+                    "components": [],
+                    "x": 781.5160486996174,
+                    "y": 501.28960183262825,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f5fdce9a-4ec6-4894-9960-a6ed73bcf66a",
+                            "label": "page_6",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/42"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        },
+                        {
+                            "type": "Image",
+                            "id": "523e87b2-d569-40e7-86b8-195764ba4095",
+                            "label": "buttons_key",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buttons/key",
+                            "Button.callback": "() =>this.interface.prompt.showItem(609)",
+                            "texture": {
+                                "key": "journal",
+                                "frame": "buttons/key"
+                            },
+                            "x": 265,
+                            "y": -47
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ffda36b2-7e2a-4052-ab17-d3990b124793",
+                            "label": "buttons_left_button_active_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buttons/left_button",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "journal",
+                                "frame": "buttons/left_button"
+                            },
+                            "x": -407,
+                            "y": 118
+                        },
+                        {
+                            "type": "Image",
+                            "id": "bb9a737f-07d1-4f6c-a4f6-aebd8689ebf0",
+                            "label": "buttons_close_btn_2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buttons/close-btn",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "journal",
+                                "frame": "buttons/close-btn"
+                            },
+                            "x": 513,
+                            "y": -401
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "e293257a-c2ab-4e0a-9ea5-4c6337adac89",
+                    "label": "page41",
+                    "components": [],
+                    "x": 781.5160486996174,
+                    "y": 507.28960183262825,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b4ba5e42-6afa-47f2-afb8-b5185525b883",
+                            "label": "page_50",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/41"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d631c5e9-b357-4cb4-98df-dc4a6d5753ae",
+                    "label": "page40",
+                    "components": [],
+                    "x": 781.5160486996174,
+                    "y": 507.28960183262825,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "e9e34ea6-5b85-47b3-8374-48ce17d5d47d",
+                            "label": "page_47",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/40"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ec1dd316-70f7-4f2c-8d45-0ca137f038ea",
+                    "label": "page39",
+                    "components": [],
+                    "x": 781.5160486996174,
+                    "y": 506.28960183262825,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b3e82f47-996d-4578-8a67-52f58dd98bda",
+                            "label": "page_43",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/39"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "cb03e9cc-fff7-4dec-8bfa-567e8e6d1a99",
+                    "label": "page38",
+                    "components": [],
+                    "x": 781.5160486996174,
+                    "y": 505.28960183262825,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "608a8584-5fcb-48b8-aff4-d294787734b9",
+                            "label": "page_39",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/38"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5127e8a7-5e7b-4152-8257-78009cb71be1",
+                    "label": "page37",
+                    "components": [],
+                    "x": 781.5160486996174,
+                    "y": 504.28960183262825,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "617895fb-11ac-4df4-bc71-aebc235790f8",
+                            "label": "page_35",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/37"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d36aaf59-dd2f-4546-b546-ca2d6a8c2921",
+                    "label": "page36",
+                    "components": [],
+                    "x": 781.5160486996174,
+                    "y": 503.28960183262825,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "207c4690-9a0a-4ac4-9d70-e0b5a0206894",
+                            "label": "page_31",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/36"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "17eadebd-647b-4c07-9c60-038a50f0a22f",
+                    "label": "page35",
+                    "components": [],
+                    "x": 781.5160486996174,
+                    "y": 501.28960183262825,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "86c2d462-2b19-458d-87c9-ae23333d172c",
+                            "label": "page_27",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/35"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "7428516c-f80e-4ef8-9bed-18d6ae470fc2",
+                    "label": "page34",
+                    "components": [],
+                    "x": 781.5160486996174,
+                    "y": 501.28960183262825,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "d4b95861-e31f-49c9-99a2-fa373a1fc395",
+                            "label": "page_22",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/34"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "503e4247-4287-466a-9f96-c98617565186",
+                    "label": "page33",
+                    "components": [],
+                    "x": 781.5160486996174,
+                    "y": 501.28960183262825,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "602cf00e-7038-445a-8554-d05644f46d6e",
+                            "label": "page_14",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/33"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "849f4388-7107-46a7-8f50-84af80b50240",
+                    "label": "page32",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "83d90633-bcf8-4e24-84a0-c150ab9885fb",
+                            "label": "page_48",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/32"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "694f0121-be0a-48ac-8718-9e45805b9eeb",
+                    "label": "page31",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9f0c5701-2869-4cf2-8f40-a63656a98d58",
+                            "label": "page_46",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/31"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "55d1affa-47cc-4b09-b828-f46729fe61ad",
+                    "label": "page30",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ecde481e-d062-4a47-967a-5f63e7d709da",
+                            "label": "page_44",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/30"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "93004182-a420-4dce-8460-e88314205813",
+                    "label": "page29",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ed36933e-6086-46b3-9324-9d8e34cdd332",
+                            "label": "page_42",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/29"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a5b6db3f-c4e6-4381-ab17-848e020ee4e4",
+                    "label": "page28",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "cfa86b79-ba87-4907-9708-a4e1c047e4ff",
+                            "label": "page_40",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/28"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "8a8242e2-f2b6-4fa3-b119-3e98247be733",
+                    "label": "page27",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "46e50b97-f734-4151-9a58-8c65ba526e1d",
+                            "label": "page_38",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/27"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "46ee3e78-6b32-45af-a2ac-03ff8f5ad561",
+                    "label": "page26",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "42527833-bb01-491c-b634-1dd5e08a2c1f",
+                            "label": "page_36",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/26"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ee6e60d7-9c74-4840-961e-d70f13e9f1ac",
+                    "label": "page25",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "204742df-6486-4fa2-8329-faf7f20f975a",
+                            "label": "page_34",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/25"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b2ab8ba0-466d-42aa-bb04-bbc6227ae8ae",
+                    "label": "page24",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "3c43c7c5-9387-4027-bb02-b8600c577d4a",
+                            "label": "page_32",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/24"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "f54ba30a-df84-47b6-8914-0fd8ef19b334",
+                    "label": "page23",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "86a9bacb-a198-442a-8f97-aa201c53c96e",
+                            "label": "page_30",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/23"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "72106732-7a2e-4aae-8aa6-112f7f454974",
+                    "label": "page22",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "93ad4289-b886-4bc2-ad86-da0809adf731",
+                            "label": "page_4",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/22"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "30d260f5-d2f5-41c1-88c2-f55c64c12318",
+                    "label": "page21",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "45cfa5bc-6295-421b-b58c-5391bff9cc0f",
+                            "label": "page_28",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/21"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ba7e8081-e7a1-4b23-8920-58e55d2bb383",
+                    "label": "page20",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "0c321211-3e0b-4d48-8297-964781889824",
+                            "label": "page_26",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/20"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "f2cc0516-f48c-45ce-8379-fbd82de540a2",
+                    "label": "page19",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "68212476-c560-4a52-8d8f-50ea3ebbd5fb",
+                            "label": "page_24",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/19"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2292d328-c99f-473e-9186-ac2d02f0441c",
+                    "label": "page18",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4acd3851-8441-4f0a-8835-633d11e97b9e",
+                            "label": "page_20",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/18"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "269b241b-830d-4670-a784-bb3503e7083c",
+                    "label": "page17",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "c49b54a4-2f4c-4eb1-9904-f0736dfaac4a",
+                            "label": "page_16",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/17"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "360500cb-997c-4c4a-a99a-46c9931bba50",
+                    "label": "page16",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9341ac92-4781-469c-afef-1692d1ccac6f",
+                            "label": "page_12",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/16"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "70509f2d-ae66-4515-95b9-22a81f1262a7",
+                    "label": "page15",
+                    "components": [],
+                    "x": 781.8650477230549,
+                    "y": 501.43156960606575,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "af9d80d7-642f-4f41-836c-6645b334b1ee",
+                            "label": "page_8",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/15"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "505633e9-0895-4816-8dfe-a4ca5f26a693",
+                    "label": "page14",
+                    "components": [],
+                    "x": 782.2140467166901,
+                    "y": 501.57353737950325,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "5f1d5b26-3c12-4b7c-9676-14d9c2c81ceb",
+                            "label": "page_23",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/14"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6579188f-a803-4a34-b0c5-1d8288eada23",
+                    "label": "page13",
+                    "components": [],
+                    "x": 782.2140467166901,
+                    "y": 501.57353737950325,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "67377824-26d7-41c8-bf14-5233d041166b",
+                            "label": "page_21",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/13"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5d5e5cc8-30f5-4f28-bee3-21f2de5a2ac1",
+                    "label": "page12",
+                    "components": [],
+                    "x": 782.2140467166901,
+                    "y": 501.57353737950325,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "35f6fd3e-bfe7-422f-852c-0142ca36a6bb",
+                            "label": "page_19",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/12"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "eb22e33a-a726-4df9-9b99-977988d39bee",
+                    "label": "page11",
+                    "components": [],
+                    "x": 782.2140467166901,
+                    "y": 501.57353737950325,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "bea3ac02-50e8-413a-a521-83b8a4d67c35",
+                            "label": "page_17",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/11"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "3608adb8-0d6a-46e4-bcfe-ecb8fedcf388",
+                    "label": "page10",
+                    "components": [],
+                    "x": 782.2140467166901,
+                    "y": 501.57353737950325,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "a4e21c42-aef9-4a0d-bb3e-e945cfff0911",
+                            "label": "page_15",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/10"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "e0693b36-c512-464e-9e9a-c7f495196f59",
+                    "label": "page9",
+                    "components": [],
+                    "x": 782.2140467166901,
+                    "y": 501.57353737950325,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "2d17c908-b3db-4efc-990e-915238a23039",
+                            "label": "page_13",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/9"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "58957b73-41c4-4e02-ab72-d85f6a252791",
+                    "label": "page8",
+                    "components": [],
+                    "x": 782.2140467166901,
+                    "y": 501.57353737950325,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "a8b8addb-0361-4817-aab1-5298553b2969",
+                            "label": "page_11",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/8"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2741339d-c902-443e-8dbc-397c33a0a2dc",
+                    "label": "page7",
+                    "components": [],
+                    "x": 782.2140467166901,
+                    "y": 501.57353737950325,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "17d5aaa4-f721-4fb2-907b-d75e8bf1da8d",
+                            "label": "page_9",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/7"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "4602b03e-53b3-41d4-8fb6-a1de99dd39b1",
+                    "label": "page6",
+                    "components": [],
+                    "x": 782.2140467166901,
+                    "y": 501.57353737950325,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "1037b738-ca9b-4d41-b27d-4cdb1978b695",
+                            "label": "page_7",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/6"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "fce6fe02-62bd-4119-ad21-d1ecef6320ea",
+                    "label": "page5",
+                    "components": [],
+                    "x": 782.2140467166901,
+                    "y": 501.57353737950325,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "788f9dcf-d9fe-42f3-b18f-03cec16a4f85",
+                            "label": "page_5",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/5"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a73f9418-7f76-4427-85af-611e964d7e2e",
+                    "label": "page4",
+                    "components": [],
+                    "x": 782.2140467166901,
+                    "y": 501.57353737950325,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "c2dcd707-da5f-443f-b41b-e3b1cb25a47e",
+                            "label": "page_1",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/4"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a6587c42-1227-40ed-a8ad-655fdd0853fe",
+                    "label": "page3",
+                    "components": [],
+                    "x": 783.5630697869658,
+                    "y": 501.7155275136746,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "685076fc-f244-4fcc-9dff-1c067a54f21f",
+                            "label": "page_3",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/3"
+                            },
+                            "x": -24.912077566588778,
+                            "y": -21.857500922000384
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "4ea22717-221e-4e01-9828-9a77d81f5aeb",
+                    "label": "page2",
+                    "components": [],
+                    "x": 785.2996009320245,
+                    "y": 496.50593407849817,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "a8fe79d3-3b59-4e9e-a4c1-a78ccdedd321",
+                            "label": "page_2",
+                            "components": [],
+                            "texture": {
+                                "key": "journal",
+                                "frame": "page/2"
+                            },
+                            "x": -26.648608711647626,
+                            "y": -16.647907486823897
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "dabe8591-765b-43ad-beed-5c07b24f54f3",
+                            "label": "zone",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.showPage(2)",
+                            "x": 272,
+                            "y": -79,
+                            "alpha": 0.0001,
+                            "isFilled": true,
+                            "fillColor": "#00ff00",
+                            "width": 189,
+                            "height": 31
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "621304f2-3aa2-4c5d-a6e6-4a70af4fc60b",
+                            "label": "rectangle",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.showPage(8)",
+                            "x": 270,
+                            "y": -30,
+                            "alpha": 0.0001,
+                            "isFilled": true,
+                            "fillColor": "#00ff00",
+                            "width": 234,
+                            "height": 31
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "967e3201-f625-4d33-8e59-3bf5337fb141",
+                            "label": "rectangle_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.showPage(11)",
+                            "x": 271,
+                            "y": 17,
+                            "alpha": 0.0001,
+                            "isFilled": true,
+                            "fillColor": "#00ff00",
+                            "width": 293,
+                            "height": 31
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "76394d11-53a3-49e9-870f-aeea0d4a73d3",
+                            "label": "rectangle_3",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.showPage(14)",
+                            "x": 273,
+                            "y": 63,
+                            "alpha": 0.00001,
+                            "isFilled": true,
+                            "fillColor": "#00ff00",
+                            "width": 162,
+                            "height": 31
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b606465f-a51e-4bd5-aa5b-9155062306b6",
+                            "label": "rectangle_4",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.showPage(20)",
+                            "x": 273,
+                            "y": 111,
+                            "alpha": 0.0001,
+                            "isFilled": true,
+                            "fillColor": "#00ff00",
+                            "width": 162,
+                            "height": 31
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "19569c14-0284-4ae5-8f22-b4f1213efd27",
+                            "label": "rectangle_5",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.showPage(25)",
+                            "x": 274,
+                            "y": 159,
+                            "alpha": 0.0001,
+                            "isFilled": true,
+                            "fillColor": "#00ff00",
+                            "width": 232,
+                            "height": 31
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "de8f49cb-dbff-4094-ad62-872bc2d08603",
+                            "label": "rectangle_6",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.showPage(31)",
+                            "x": 273,
+                            "y": 205,
+                            "alpha": 0.0001,
+                            "isFilled": true,
+                            "fillColor": "#00ff00",
+                            "width": 159,
+                            "height": 31
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "c452c083-a40a-4fd5-bd09-a40046860038",
+                            "label": "rectangle_7",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.showPage(37)",
+                            "x": 272,
+                            "y": 253,
+                            "alpha": 0.0001,
+                            "isFilled": true,
+                            "fillColor": "#00ff00",
+                            "width": 186,
+                            "height": 31
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "f9134536-9abd-4cd5-ae29-d3bb07bcf74c",
+                            "label": "rectangle_8",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.showPage(39)",
+                            "x": 273,
+                            "y": 301,
+                            "alpha": 0.0001,
+                            "isFilled": true,
+                            "fillColor": "#00ff00",
+                            "width": 208,
+                            "height": 31
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "297a4696-b6f0-41bf-b85e-50f430678b66",
+                    "label": "page1",
+                    "components": [],
+                    "x": 792.8185267235533,
+                    "y": 499.22924628614487,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "a2cafe11-bb86-4abe-aef3-bcbfb71ce8cc",
+                            "label": "buttons_page1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buttons/page1",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "journal",
+                                "frame": "buttons/page1"
+                            },
+                            "x": -16.72708002119691,
+                            "y": -5.868781542433567
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c40dbac2-b31c-4036-b8d0-9dde4578b982",
+                            "label": "buttons_close_btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buttons/close-btn",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "journal",
+                                "frame": "buttons/close-btn"
+                            },
+                            "x": 219.2729199788031,
+                            "y": -366.86877391303904
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2d92e31f-a3ff-458f-8d06-f8126d88ceb8",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 780.0900074968481,
+                    "y": 592.0151470567336,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "580771b6-a2df-4f59-8d05-7ae52f9048fd",
+                            "label": "buttons_right_button_active",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buttons/right_button",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "journal",
+                                "frame": "buttons/right_button"
+                            },
+                            "x": 488,
+                            "y": 133
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fe78737c-8616-4534-9ca3-c2880e0f8b18",
+                            "label": "buttons_left_button_active",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buttons/left_button",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "journal",
+                                "frame": "buttons/left_button"
+                            },
+                            "x": -399,
+                            "y": 31
+                        },
+                        {
+                            "type": "Text",
+                            "id": "9e8f54ab-389f-4723-a73e-d1d52b8474e9",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -87,
+                            "y": -146,
+                            "visible": false,
+                            "text": "New text"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "209804cc-2ce7-40af-aca1-b57609f57697",
+                            "label": "buttons_close_btn_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buttons/close-btn",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "journal",
+                                "frame": "buttons/close-btn"
+                            },
+                            "x": 514,
+                            "y": -492
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "1029921f-26d0-4b4f-8a57-2e9fcf458660",
+            "label": "pages",
+            "objectIds": [
+                "297a4696-b6f0-41bf-b85e-50f430678b66",
+                "4ea22717-221e-4e01-9828-9a77d81f5aeb",
+                "a6587c42-1227-40ed-a8ad-655fdd0853fe",
+                "a73f9418-7f76-4427-85af-611e964d7e2e",
+                "fce6fe02-62bd-4119-ad21-d1ecef6320ea",
+                "4602b03e-53b3-41d4-8fb6-a1de99dd39b1",
+                "2741339d-c902-443e-8dbc-397c33a0a2dc",
+                "58957b73-41c4-4e02-ab72-d85f6a252791",
+                "e0693b36-c512-464e-9e9a-c7f495196f59",
+                "3608adb8-0d6a-46e4-bcfe-ecb8fedcf388",
+                "eb22e33a-a726-4df9-9b99-977988d39bee",
+                "5d5e5cc8-30f5-4f28-bee3-21f2de5a2ac1",
+                "6579188f-a803-4a34-b0c5-1d8288eada23",
+                "505633e9-0895-4816-8dfe-a4ca5f26a693",
+                "70509f2d-ae66-4515-95b9-22a81f1262a7",
+                "360500cb-997c-4c4a-a99a-46c9931bba50",
+                "269b241b-830d-4670-a784-bb3503e7083c",
+                "2292d328-c99f-473e-9186-ac2d02f0441c",
+                "f2cc0516-f48c-45ce-8379-fbd82de540a2",
+                "ba7e8081-e7a1-4b23-8920-58e55d2bb383",
+                "30d260f5-d2f5-41c1-88c2-f55c64c12318",
+                "72106732-7a2e-4aae-8aa6-112f7f454974",
+                "f54ba30a-df84-47b6-8914-0fd8ef19b334",
+                "b2ab8ba0-466d-42aa-bb04-bbc6227ae8ae",
+                "ee6e60d7-9c74-4840-961e-d70f13e9f1ac",
+                "46ee3e78-6b32-45af-a2ac-03ff8f5ad561",
+                "8a8242e2-f2b6-4fa3-b119-3e98247be733",
+                "a5b6db3f-c4e6-4381-ab17-848e020ee4e4",
+                "93004182-a420-4dce-8460-e88314205813",
+                "55d1affa-47cc-4b09-b828-f46729fe61ad",
+                "694f0121-be0a-48ac-8718-9e45805b9eeb",
+                "849f4388-7107-46a7-8f50-84af80b50240",
+                "503e4247-4287-466a-9f96-c98617565186",
+                "7428516c-f80e-4ef8-9bed-18d6ae470fc2",
+                "17eadebd-647b-4c07-9c60-038a50f0a22f",
+                "d36aaf59-dd2f-4546-b546-ca2d6a8c2921",
+                "5127e8a7-5e7b-4152-8257-78009cb71be1",
+                "cb03e9cc-fff7-4dec-8bfa-567e8e6d1a99",
+                "ec1dd316-70f7-4f2c-8d45-0ca137f038ea",
+                "d631c5e9-b357-4cb4-98df-dc4a6d5753ae",
+                "e293257a-c2ab-4e0a-9ea5-4c6337adac89",
+                "453cbe60-4554-4836-86ff-b59b29e10b6b"
+            ]
+        }
+    ]
+}

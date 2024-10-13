@@ -1,0 +1,63 @@
+{
+    "id": "da72892a-ae40-44dc-b022-d6d84eb9a45b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "eca19039-bd8a-4065-9373-3c75da973366",
+            "label": "container_1",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "91f9399c-5d12-494e-9850-0a3afa6d1afa",
+                    "label": "carddesc",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "cjcard",
+                        "frame": "bigcarddesc0001"
+                    }
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8971e3ef-3a74-44ae-b1ec-4c87a84f103a",
+                    "label": "explosion0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "explosion",
+                    "Animation.end": 14,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "explosion_1",
+                        "frame": "explosion0001"
+                    },
+                    "x": -15,
+                    "y": -24,
+                    "scaleX": 0.2859646974131611,
+                    "scaleY": 0.2859646974131611,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

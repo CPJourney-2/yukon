@@ -1,0 +1,100 @@
+{
+    "id": "45ae136a-c925-4c96-999a-4487c63d6e88",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "37549f01-e125-4863-89fd-8732d638ee15",
+            "label": "container_1",
+            "components": [],
+            "x": -1,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "2816a662-cbc3-4b77-b79c-804e78762b40",
+                    "label": "rectangle",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => { rectangle.fillColor = 3107863 }",
+                    "SimpleButton.hoverOutCallback": "() => { rectangle.fillColor = 13056 }",
+                    "SimpleButton.callback": "() => this.selectCallback()",
+                    "x": -6,
+                    "y": 45,
+                    "originX": 0,
+                    "visible": false,
+                    "isFilled": true,
+                    "fillColor": "#003300",
+                    "width": 525,
+                    "height": 98,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "4deaeb6d-74e9-4776-8baa-f896ccc408a5",
+                    "label": "dottedline",
+                    "components": [],
+                    "texture": {
+                        "key": "missionmenu",
+                        "frame": "dottedline"
+                    },
+                    "y": -5,
+                    "originX": 0,
+                    "originY": 0,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "c5a6ba8d-6831-4ffd-9088-de0cbb6261d0",
+                    "label": "missionTitle",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": 44.65576171875,
+                    "originY": 0.5,
+                    "text": "OPERATION MISSION NAME\nSECOND LINE",
+                    "fixedWidth": 500,
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                    "fontFamily": "CPLCD",
+                    "fontSize": "37px",
+                    "color": "#E0FFCC",
+                    "wordWrapWidth": 500,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "cc137d69-7516-40a3-9210-b0bd1cde860a",
+                    "label": "lockIcon",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "missionmenu",
+                        "frame": "lockicon"
+                    },
+                    "x": 476,
+                    "y": 44,
+                    "visible": false,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

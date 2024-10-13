@@ -1,0 +1,450 @@
+{
+    "id": "49c459d0-7c8d-4cdc-b159-60c01a9e15ca",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "899f9aa1-28e8-47a4-b8d0-1237996b7e17",
+            "label": "container_2",
+            "components": [],
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "7038ed74-7edc-4ea4-9ce0-fd095f6bd6ab",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "03a0d1e2-16e2-49b3-9d63-a84babba2473",
+                    "label": "page7",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "a798be5f-59f2-468f-aa82-07e1aed814b6",
+                            "label": "p7",
+                            "components": [],
+                            "texture": {
+                                "key": "martial",
+                                "frame": "p7"
+                            },
+                            "x": 760,
+                            "y": 480,
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "bb2e2b07-f8d0-499f-8c05-f8197b1292ab",
+                            "label": "rectangle_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.close()",
+                            "x": 1087,
+                            "y": 62,
+                            "scaleX": 0.33591127706387724,
+                            "scaleY": 0.3762965831701147,
+                            "width": 128,
+                            "height": 128,
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a5092665-726d-4851-abc7-0375b0c8e747",
+                            "label": "rectangle_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.prevPage()",
+                            "x": 709,
+                            "y": 474,
+                            "alpha": 1e-22,
+                            "isFilled": true,
+                            "width": 600,
+                            "height": 900,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ecd98c3f-cd52-4c95-8bed-c5f8fe4921c2",
+                    "label": "page6",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f4465bc5-3adf-4de8-b20e-7b61355bbf3a",
+                            "label": "p6",
+                            "components": [],
+                            "texture": {
+                                "key": "martial",
+                                "frame": "p6"
+                            },
+                            "x": 760,
+                            "y": 460,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a97d87bc-79e9-4cf1-9b47-9e4934a61aaa",
+                            "label": "buy_4",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy",
+                            "Button.callback": "() => {this.interface.prompt.showItem(5012)}",
+                            "texture": {
+                                "key": "martial",
+                                "frame": "buy"
+                            },
+                            "x": 454,
+                            "y": 703,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "01473457-f9dc-4554-9195-a06631db950d",
+                    "label": "page5",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ba36c98c-0bb7-4085-a1b9-524cba27513b",
+                            "label": "p5",
+                            "components": [],
+                            "texture": {
+                                "key": "martial",
+                                "frame": "p5"
+                            },
+                            "x": 760,
+                            "y": 460,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4622379b-cb45-4d2a-9338-ca6d2e1bd458",
+                            "label": "buy_3",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy",
+                            "Button.callback": "() => {this.interface.prompt.showFurniture(460)}",
+                            "texture": {
+                                "key": "martial",
+                                "frame": "buy"
+                            },
+                            "x": 454,
+                            "y": 703,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "e7140f63-2630-419a-bf15-e367dd5850d9",
+                    "label": "page4",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f04628b2-2eb3-42b6-a7f2-9ed80025ed31",
+                            "label": "p4",
+                            "components": [],
+                            "texture": {
+                                "key": "martial",
+                                "frame": "p4"
+                            },
+                            "x": 760,
+                            "y": 460,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "46f43324-8240-4378-8958-a225a55d1e4b",
+                            "label": "buy_2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy",
+                            "Button.callback": "() => {this.interface.prompt.showFurniture(461)}",
+                            "texture": {
+                                "key": "martial",
+                                "frame": "buy"
+                            },
+                            "x": 454,
+                            "y": 703,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b67df9b5-6c82-412e-a990-c04ff051880d",
+                    "label": "page3",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "14ad88f2-b233-4b62-b435-d0291f525fcd",
+                            "label": "p3",
+                            "components": [],
+                            "texture": {
+                                "key": "martial",
+                                "frame": "p3"
+                            },
+                            "x": 760,
+                            "y": 460,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "808d5dd2-0098-4e25-9dec-d571e1469ae3",
+                            "label": "buy_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy",
+                            "Button.callback": "() => {this.interface.prompt.showIgloo(24)}",
+                            "texture": {
+                                "key": "martial",
+                                "frame": "buy"
+                            },
+                            "x": 454,
+                            "y": 703,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "60032e7e-dd4a-496f-a2b9-7cc922decc5d",
+                    "label": "page2",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "024d4c40-04d2-42cb-9ec5-aad629db3462",
+                            "label": "p2",
+                            "components": [],
+                            "texture": {
+                                "key": "martial",
+                                "frame": "p2"
+                            },
+                            "x": 760,
+                            "y": 460,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "74d76fe7-dc91-4d24-8436-b57b9fbeaea3",
+                            "label": "buy",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy",
+                            "Button.callback": "() => {this.interface.prompt.showItem(4034)}",
+                            "texture": {
+                                "key": "martial",
+                                "frame": "buy"
+                            },
+                            "x": 454,
+                            "y": 703,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b547603f-0333-461d-9356-54076fc76da8",
+                    "label": "page1",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "272dfb24-cdfa-4a59-bbd7-4ab49c3f9169",
+                            "label": "p1",
+                            "components": [],
+                            "texture": {
+                                "key": "martial",
+                                "frame": "p1"
+                            },
+                            "x": 760,
+                            "y": 480,
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b590da7e-1cfa-4e27-8eed-0e588dd70f75",
+                            "label": "rectangle_next",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.nextPage()",
+                            "x": 753,
+                            "y": 469,
+                            "scaleX": 5.4384234578396535,
+                            "scaleY": 6.798280187976334,
+                            "width": 128,
+                            "height": 128,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "0d729a4b-e3b4-43db-a251-eeb8cd264ff6",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 182,
+                    "y": 87,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "3f0caa5c-95c1-48ad-8113-9301cc0025b4",
+                            "label": "closeRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "close_right",
+                            "Button.callback": "() => this.close()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "martial",
+                                "frame": "close_right"
+                            },
+                            "x": 1011,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b91e718c-2323-4ec8-ab9a-5c9c7a87c020",
+                            "label": "pageRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "page_right",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "martial",
+                                "frame": "page_right"
+                            },
+                            "x": 1001,
+                            "y": 549,
+                            "originX": 0,
+                            "originY": 0,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8f1a4e83-234c-4f4b-a1c5-8f4c23898fad",
+                            "label": "pageLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "page_left",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "martial",
+                                "frame": "page_left"
+                            },
+                            "x": -24,
+                            "y": 548,
+                            "originX": 0,
+                            "originY": 0,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "87dbdc0f-375b-47c2-886e-da9625428b3b",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 1130,
+                            "y": 791,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9,
+                            "list": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "70610076-d2ae-4d07-aa00-285404d9c25c",
+            "label": "pages",
+            "objectIds": [
+                "b547603f-0333-461d-9356-54076fc76da8",
+                "60032e7e-dd4a-496f-a2b9-7cc922decc5d",
+                "b67df9b5-6c82-412e-a990-c04ff051880d",
+                "e7140f63-2630-419a-bf15-e367dd5850d9",
+                "01473457-f9dc-4554-9195-a06631db950d",
+                "ecd98c3f-cd52-4c95-8bed-c5f8fe4921c2",
+                "03a0d1e2-16e2-49b3-9d63-a84babba2473"
+            ]
+        }
+    ]
+}

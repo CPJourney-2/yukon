@@ -1,0 +1,502 @@
+{
+    "id": "59ea2114-b868-4f8a-b005-3199c4dfb157",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/village/fair-village-pack.json",
+            "yukon/assets/media/rooms/village/village-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Village",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "27c020c1-7adc-4cd9-bbe4-d2f823d91b58",
+            "label": "bgVillage",
+            "texture": {
+                "key": "newVillage"
+            },
+            "x": -30,
+            "y": -7,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "b3824338-e0fb-4e7d-a02a-5106f990b9ed",
+            "label": "lift",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "lift",
+            "Animation.end": 210,
+            "texture": {
+                "key": "fair-village",
+                "frame": "lift0001"
+            },
+            "x": 296,
+            "y": 143
+        },
+        {
+            "type": "Image",
+            "id": "d91ad192-3111-49e1-95ce-fac1845f8a7d",
+            "label": "lodge",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "lodge",
+            "Button.pixelPerfect": true,
+            "texture": {
+                "key": "fair-village",
+                "frame": "lodge"
+            },
+            "x": 1019.0159088938191,
+            "y": 412.5327106864709,
+            "originX": 0.3617866196287013,
+            "originY": 0.9755923669609567
+        },
+        {
+            "type": "Image",
+            "id": "fcc0ee11-b9ad-4910-8eda-d4ba2e434f23",
+            "label": "lodgeStairs",
+            "texture": {
+                "key": "fair-village",
+                "frame": "lodgeStairs"
+            },
+            "x": 1039,
+            "y": 429
+        },
+        {
+            "type": "Image",
+            "id": "cc1cb07b-27fb-4974-a39a-5ee38f7234c7",
+            "label": "lodgeDeck",
+            "texture": {
+                "key": "fair-village",
+                "frame": "lodgeDeck"
+            },
+            "x": 1128,
+            "y": 378
+        },
+        {
+            "type": "Image",
+            "id": "aa5959c2-b3d9-4d1b-afde-411240439344",
+            "label": "lodgeFront",
+            "texture": {
+                "key": "fair-village",
+                "frame": "lodgeFront"
+            },
+            "x": 1150,
+            "y": 424
+        },
+        {
+            "type": "Image",
+            "id": "73186256-b4fb-4de7-bebf-7bbaba9a837f",
+            "label": "sport",
+            "texture": {
+                "key": "fair-village",
+                "frame": "sport"
+            },
+            "x": 1357,
+            "y": 376
+        },
+        {
+            "type": "Image",
+            "id": "157dd439-0f08-4046-940d-5b9c378f3508",
+            "label": "lobby",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "lobby",
+            "Button.pixelPerfect": true,
+            "texture": {
+                "key": "fair-village",
+                "frame": "lobby"
+            },
+            "x": 1352.2399576303085,
+            "y": 446.28479860983157,
+            "originX": 0.18164926613561072,
+            "originY": 0.8751328191214945
+        },
+        {
+            "type": "Image",
+            "id": "589059bc-c9f2-4200-8120-b232c16b8b06",
+            "label": "sportSled",
+            "texture": {
+                "key": "fair-village",
+                "frame": "sportSled"
+            },
+            "x": 1427,
+            "y": 407
+        },
+        {
+            "type": "Image",
+            "id": "d2a5fa23-ead1-4d9b-aa9c-04d9537a7a4e",
+            "label": "sportRedThing",
+            "texture": {
+                "key": "fair-village",
+                "frame": "sportRedThing"
+            },
+            "x": 1472,
+            "y": 524
+        },
+        {
+            "type": "Sprite",
+            "id": "9fc0d0a8-5dcc-49df-addf-78452ebf418f",
+            "label": "tubes",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "tubes",
+            "Animation.end": 34,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "fair-village",
+                "frame": "tubes0001"
+            },
+            "x": 1360,
+            "y": 576.1312077740401,
+            "originY": 0.7706358167510181
+        },
+        {
+            "type": "Sprite",
+            "id": "0ac19528-5468-47b0-a5b6-3b5aae9b16aa",
+            "label": "smoke",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "smoke",
+            "Animation.end": 5,
+            "texture": {
+                "key": "fair-village",
+                "frame": "smoke0001"
+            },
+            "x": 1132,
+            "y": 42
+        },
+        {
+            "type": "Image",
+            "id": "0e68e0c5-4914-4cec-8349-dcfada313095",
+            "label": "photoBG1",
+            "texture": {
+                "key": "fair-village",
+                "frame": "photoBG1"
+            },
+            "x": 682,
+            "y": 730.3316982877232,
+            "originY": 0.7181312437048646
+        },
+        {
+            "type": "Image",
+            "id": "5a948349-16ce-4216-b092-d51400afc85e",
+            "label": "photoBG2",
+            "texture": {
+                "key": "fair-village",
+                "frame": "photoBG2"
+            },
+            "x": 958,
+            "y": 720.2314530308817,
+            "originY": 0.8233718153122354
+        },
+        {
+            "type": "Image",
+            "id": "1ed5fb06-1f95-406d-ad35-1f97a39446f2",
+            "label": "photoBG3",
+            "texture": {
+                "key": "fair-village",
+                "frame": "photoBG3"
+            },
+            "x": 1216,
+            "y": 759.1980379452679,
+            "originY": 0.791795237480606
+        },
+        {
+            "type": "Image",
+            "id": "79d3f354-f543-4f7c-8d7b-504efa10c1bf",
+            "label": "snacksBG",
+            "texture": {
+                "key": "fair-village",
+                "frame": "snacksBG"
+            },
+            "x": 387,
+            "y": 756
+        },
+        {
+            "type": "Image",
+            "id": "34943c1a-aa60-4372-a2ce-5bb8861c8053",
+            "label": "snacks",
+            "texture": {
+                "key": "fair-village",
+                "frame": "snacks"
+            },
+            "x": 375,
+            "y": 822.8304720035155,
+            "originY": 0.8859868847714332
+        },
+        {
+            "type": "Image",
+            "id": "574f468f-e6b7-43bd-ab30-b5f662454705",
+            "label": "stand",
+            "texture": {
+                "key": "fair-village",
+                "frame": "stand"
+            },
+            "x": 1160.916015625,
+            "y": 764.6016249780504,
+            "originX": 0.5071568466529488,
+            "originY": 0.17729127819431378
+        },
+        {
+            "type": "Image",
+            "id": "bdded49f-55bb-4d75-84ee-a307c7ce8d32",
+            "label": "signRight",
+            "texture": {
+                "key": "fair-village",
+                "frame": "signRight"
+            },
+            "x": 1484,
+            "y": 652
+        },
+        {
+            "type": "Image",
+            "id": "535cb5ff-d052-400b-a88f-d693a196823f",
+            "label": "bale1",
+            "texture": {
+                "key": "fair-village",
+                "frame": "bale1"
+            },
+            "x": 1046,
+            "y": 498
+        },
+        {
+            "type": "Image",
+            "id": "d9434c0b-1932-41d4-8581-a70e65c310d6",
+            "label": "bale2",
+            "texture": {
+                "key": "fair-village",
+                "frame": "bale2"
+            },
+            "x": 1088.3397746476712,
+            "y": 507.770217019952,
+            "originX": 0.49184834940212946,
+            "originY": 0.7353486449840446
+        },
+        {
+            "type": "Sprite",
+            "id": "f6179bce-6cb4-4b9f-980a-e668dc4716a0",
+            "label": "flash",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "flash",
+            "Animation.end": 13,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "fair-village",
+                "frame": "flash0001"
+            },
+            "x": 936,
+            "y": 880,
+            "originX": 0.5454545454545454,
+            "originY": 1.4506172839506173
+        },
+        {
+            "type": "Image",
+            "id": "819f2ab8-2d20-450e-84a2-a984214cb6f9",
+            "label": "camera",
+            "texture": {
+                "key": "fair-village",
+                "frame": "camera"
+            },
+            "x": 966,
+            "y": 905.59299185953,
+            "originY": 0.7026025950962251
+        },
+        {
+            "type": "Rectangle",
+            "id": "dba7027d-bdba-4f2c-af2b-e4139341df74",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.onCamera()",
+            "x": 1162,
+            "y": 815,
+            "scaleY": 0.6982373154023555,
+            "originY": 0.7650333255170416,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "97024a82-bf1c-4296-a3da-88b5987c53c9",
+            "label": "rectangle",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "SimpleButton.callback": "() => { this.cameraClicked = true }",
+            "x": 1155,
+            "y": 779,
+            "scaleY": 1.2302276782269805,
+            "originX": 1.9921875,
+            "originY": 0.015680182685590793,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "b2692b2e-50a4-43f2-89fc-78be267edd3b",
+            "label": "rectangle_2",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('PrizeBooth1')",
+            "x": 834,
+            "y": 517,
+            "originY": 0.7650333255170416,
+            "width": 250,
+            "height": 70
+        },
+        {
+            "type": "Rectangle",
+            "id": "44429cd2-f6b8-4c5c-8bb2-fb6632f59400",
+            "label": "tubesHit",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.hoverCallback": "() => { this.tubes.__Animation.play() }",
+            "x": 1546,
+            "y": 474,
+            "scaleY": 1.2302276782269805,
+            "originX": 1.9921875,
+            "originY": 0.015680182685590793,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "25609117-b4cb-4c55-bd61-05307414e2a5",
+            "label": "rectangle_3",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.world.client.questComplete(63)",
+            "x": 905,
+            "y": 649,
+            "fillColor": "#00ff00",
+            "fillAlpha": 0.5,
+            "width": 80,
+            "height": 60
+        },
+        {
+            "type": "Rectangle",
+            "id": "42abd5ae-6d7b-4411-aa89-142632362910",
+            "label": "snackStampZone",
+            "components": [
+                "SnackStampArea"
+            ],
+            "x": 385,
+            "y": 790,
+            "visible": false,
+            "width": 150,
+            "height": 150
+        },
+        {
+            "type": "Container",
+            "id": "76f2bf84-6197-46a8-a649-63c7b7fca8f8",
+            "label": "_tent",
+            "x": 819.5521850585938,
+            "y": 464.774169921875,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "daa9dcc5-abf0-4668-848d-2da8e6f1fafc",
+                    "label": "tent1",
+                    "components": [
+                        "Button",
+                        "MoveTo"
+                    ],
+                    "Button.spriteName": "tent1",
+                    "Button.pixelPerfect": true,
+                    "MoveTo.x": "830",
+                    "MoveTo.y": "525",
+                    "texture": {
+                        "key": "fair-village",
+                        "frame": "tent1"
+                    },
+                    "x": 22.44780729753586,
+                    "y": -81.7741551553093
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f2579f08-d395-44ac-9de5-6e720d75ff07",
+                    "label": "lights0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "lights",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-village",
+                        "frame": "lights0001"
+                    },
+                    "x": 13,
+                    "y": -135
+                }
+            ]
+        },
+        {
+            "prefabId": "03c1e2c5-a3a8-4d2d-a4b8-4cdd167a2b9a",
+            "id": "0bbaeb91-1ebd-4e03-a84d-c58306d86e9b",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sharedCoaster",
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "528d71e2-a474-4325-aa76-2ccaa2e1016f",
+            "label": "sort",
+            "objectIds": [
+                "34943c1a-aa60-4372-a2ce-5bb8861c8053",
+                "0e68e0c5-4914-4cec-8349-dcfada313095",
+                "1ed5fb06-1f95-406d-ad35-1f97a39446f2",
+                "5a948349-16ce-4216-b092-d51400afc85e",
+                "9fc0d0a8-5dcc-49df-addf-78452ebf418f",
+                "d2a5fa23-ead1-4d9b-aa9c-04d9537a7a4e",
+                "589059bc-c9f2-4200-8120-b232c16b8b06",
+                "574f468f-e6b7-43bd-ab30-b5f662454705",
+                "d9434c0b-1932-41d4-8581-a70e65c310d6",
+                "535cb5ff-d052-400b-a88f-d693a196823f",
+                "819f2ab8-2d20-450e-84a2-a984214cb6f9",
+                "f6179bce-6cb4-4b9f-980a-e668dc4716a0",
+                "76f2bf84-6197-46a8-a649-63c7b7fca8f8"
+            ]
+        }
+    ]
+}

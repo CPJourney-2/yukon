@@ -1,0 +1,97 @@
+{
+    "id": "a16e02f6-c6b2-4534-8dda-82af952d9d10",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8fdfc41d-a67e-4107-855c-e70ded3a11b1",
+            "label": "line",
+            "components": [],
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "197a9206-69a7-4f4a-bcea-3be231183b6f",
+                    "label": "rectangle",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onHover()",
+                    "SimpleButton.hoverOutCallback": "() => this.onHoverOut()",
+                    "SimpleButton.callback": "() => this.onMessage()",
+                    "x": -15,
+                    "y": -40,
+                    "originX": 0,
+                    "originY": 0,
+                    "fillColor": "#FCFCFA",
+                    "width": 370,
+                    "height": 110,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "9589f8f7-286b-4cc1-9115-6dadfd058215",
+                    "label": "actor",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 4,
+                    "y": -32,
+                    "text": "Actor says:",
+                    "fontFamily": "Arial",
+                    "fontSize": "24px",
+                    "fontStyle": "bold",
+                    "color": "#006699",
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "4bbde334-3e0d-443d-b2d7-c6b84280f8a3",
+                    "label": "message",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 4,
+                    "text": "Once upon a time a prince was dressed all in red...",
+                    "fixedWidth": 340,
+                    "fontFamily": "Arial",
+                    "fontSize": "24px",
+                    "color": "#006699",
+                    "wordWrapWidth": 340,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "b691397a-5f51-4fe5-a110-797110196b4c",
+                    "label": "note",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 4,
+                    "text": "Fairy Fables",
+                    "fixedWidth": 332,
+                    "align": "center",
+                    "fontFamily": "Arial",
+                    "fontSize": "24px",
+                    "fontStyle": "italic",
+                    "color": "#006699",
+                    "wordWrapWidth": 330,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

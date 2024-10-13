@@ -1,0 +1,146 @@
+{
+    "id": "2f488b81-8977-4b7f-85e5-291bd2fc4a8f",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/sand/sandybeach-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "SandyBeach",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "2d3be0f2-23a4-444d-9dfd-5153e88e5846",
+            "label": "floor",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "97d32ad1-5621-4595-8ce6-87d63e5c6db1",
+                    "label": "grass_floor",
+                    "texture": {
+                        "key": "sandybeach",
+                        "frame": "grass_floor"
+                    },
+                    "x": 471,
+                    "y": 609
+                },
+                {
+                    "type": "Image",
+                    "id": "d1be938d-ec8b-4c6a-a90b-45d7c92ecdc1",
+                    "label": "floor_1",
+                    "texture": {
+                        "key": "sandybeach",
+                        "frame": "floor_1"
+                    },
+                    "x": 945,
+                    "y": 624
+                },
+                {
+                    "type": "Image",
+                    "id": "18295f44-2216-4838-8422-29b5975c35b9",
+                    "label": "stairs_top",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "sandybeach",
+                        "frame": "stairs_top"
+                    },
+                    "x": 787,
+                    "y": 678
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "94c5c99e-53e3-42c1-b4f8-38fd1f0048c2",
+            "label": "walls",
+            "texture": {
+                "key": "sandybeach",
+                "frame": "walls"
+            },
+            "x": 948,
+            "y": 484
+        },
+        {
+            "type": "Image",
+            "id": "09f92b0a-7aa2-42c2-8f27-6bbe842635ad",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "texture": {
+                "key": "sandybeach",
+                "frame": "door"
+            },
+            "x": 719,
+            "y": 245
+        },
+        {
+            "type": "Image",
+            "id": "9050cf08-f3c0-48f6-8f2d-462f4b7cab45",
+            "label": "stairs",
+            "texture": {
+                "key": "sandybeach",
+                "frame": "stairs"
+            },
+            "x": 808,
+            "y": 675
+        },
+        {
+            "type": "Image",
+            "id": "3aef90c6-1977-420a-8da9-a949ae738584",
+            "label": "bottomwall",
+            "texture": {
+                "key": "sandybeach",
+                "frame": "bottomwall"
+            },
+            "x": 964,
+            "y": 817
+        },
+        {
+            "type": "Image",
+            "id": "2bdc7d7a-05a3-4fd0-ac96-9cc8c9d51905",
+            "label": "grass_floor_1",
+            "texture": {
+                "key": "sandybeach",
+                "frame": "decor"
+            },
+            "x": 991,
+            "y": 330
+        },
+        {
+            "type": "Rectangle",
+            "id": "6d162a09-6c49-4592-ade6-ce6b1a94bc57",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 704,
+            "y": 342.00000000000006,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.4460930876817173,
+            "originY": 0.7027618257316176,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

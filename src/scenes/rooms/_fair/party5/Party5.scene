@@ -1,0 +1,143 @@
+{
+    "id": "37a0797d-41f5-4af4-9937-ec375d61ad90",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/party5/fair-party5-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Party5",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "721a0078-fe10-4784-bb0f-f96525938744",
+            "label": "_bg",
+            "scope": "CLASS",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "28dd720b-4dd9-4bed-95d0-743c7e11caa7",
+                    "label": "bg",
+                    "texture": {
+                        "key": "fair-party5",
+                        "frame": "bg"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "919ec180-3a3b-417c-a5b6-13713cb00b50",
+            "label": "_fg",
+            "scope": "CLASS",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "db5d80f6-3953-4449-b99e-79b5e53df57c",
+                    "label": "barrel1",
+                    "texture": {
+                        "key": "fair-party5",
+                        "frame": "barrel1"
+                    },
+                    "x": 14,
+                    "y": 391
+                },
+                {
+                    "type": "Image",
+                    "id": "b9a3fe5c-9b42-48c3-9081-da13f849aad8",
+                    "label": "exitLight",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "fair-party5",
+                        "frame": "exit"
+                    },
+                    "x": 201,
+                    "y": 342,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "a0164b8f-102c-4b49-928c-18c10810311a",
+                    "label": "wheel",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "fair-party5-wheel"
+                    },
+                    "x": -0.14440147115738,
+                    "y": 327.2518172674954,
+                    "originX": 0.5015750012442118,
+                    "originY": 0.9501238700248339
+                },
+                {
+                    "type": "Image",
+                    "id": "237458c1-7e6b-4dc4-9974-d85cb83f332b",
+                    "label": "spoke",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "fair-party5",
+                        "frame": "spoke"
+                    },
+                    "x": -0.7292824983596802,
+                    "y": 359.1967525551154,
+                    "originX": 0.5166873293585833,
+                    "originY": 0.9544431420181538
+                },
+                {
+                    "type": "Image",
+                    "id": "b0c8e880-6cd7-477c-bc92-0246537efa5c",
+                    "label": "legs",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "fair-party5-legs"
+                    },
+                    "x": 15.247991561889648,
+                    "y": -2510.2056968323814,
+                    "originX": 0.5076492069900019,
+                    "originY": -0.5635775798119055
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "f70a2c50-2f1d-40ec-893f-a6b48630a488",
+                    "label": "exitBtn",
+                    "components": [
+                        "SimpleButton",
+                        "MoveTo"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.exitLight.visible = true",
+                    "SimpleButton.hoverOutCallback": "() => this.exitLight.visible = false",
+                    "x": 191.39890231717743,
+                    "y": 311.83073511903194,
+                    "originX": 0.5109041014417156,
+                    "originY": 0.23132294047612778,
+                    "width": 220,
+                    "height": 250
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "528d71e2-a474-4325-aa76-2ccaa2e1016f",
+            "label": "sort"
+        }
+    ]
+}

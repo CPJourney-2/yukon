@@ -1,0 +1,178 @@
+{
+    "id": "45691c0f-b3a8-494e-bc10-9bead84e7945",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/patty/patty-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Patty",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "10cc4116-4336-43fe-8ca3-1100c2469f0b",
+            "label": "floor",
+            "scope": "CLASS",
+            "texture": {
+                "key": "patty",
+                "frame": "floor"
+            },
+            "x": 759.9999992070846,
+            "y": 679,
+            "originX": 0.5006337135614702
+        },
+        {
+            "type": "Image",
+            "id": "4c1e0db3-53a8-4518-b713-1d2beab61cf4",
+            "label": "wall",
+            "texture": {
+                "key": "patty",
+                "frame": "wall"
+            },
+            "x": 760,
+            "y": 480
+        },
+        {
+            "type": "Image",
+            "id": "a327b916-f46a-4e2e-aa0a-3bebd54e8408",
+            "label": "right",
+            "texture": {
+                "key": "patty",
+                "frame": "right"
+            },
+            "x": 1082,
+            "y": 494
+        },
+        {
+            "type": "Image",
+            "id": "352e37ae-12fb-48b3-8bde-6f411ba96431",
+            "label": "rightholder",
+            "texture": {
+                "key": "patty",
+                "frame": "rightholder"
+            },
+            "x": 1228,
+            "y": 509
+        },
+        {
+            "type": "Image",
+            "id": "ffa97504-5a17-452b-a703-fefa28556ce8",
+            "label": "fireback",
+            "texture": {
+                "key": "patty",
+                "frame": "fireback"
+            },
+            "x": 768,
+            "y": 532,
+            "scaleX": 0.75,
+            "scaleY": 0.75
+        },
+        {
+            "type": "Image",
+            "id": "90be09c5-bf7c-4057-96ec-5df4f04caefe",
+            "label": "firepit",
+            "texture": {
+                "key": "patty",
+                "frame": "firepit"
+            },
+            "x": 769,
+            "y": 575,
+            "scaleX": 0.75,
+            "scaleY": 0.75
+        },
+        {
+            "type": "Sprite",
+            "id": "565dfd2e-28bf-4f19-a3b9-307b0d1b2b17",
+            "label": "fire_0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fire_",
+            "Animation.end": 16,
+            "texture": {
+                "key": "patty",
+                "frame": "fire_0001"
+            },
+            "x": 767,
+            "y": 544
+        },
+        {
+            "type": "Image",
+            "id": "467cf652-c129-4922-a971-72833256a503",
+            "label": "fireholder",
+            "texture": {
+                "key": "patty",
+                "frame": "fireholder"
+            },
+            "x": 770,
+            "y": 480,
+            "scaleX": 0.75,
+            "scaleY": 0.75
+        },
+        {
+            "type": "Image",
+            "id": "471ba0d0-c190-4e19-99ea-a9ba57bd226c",
+            "label": "stairs",
+            "texture": {
+                "key": "patty",
+                "frame": "stairs"
+            },
+            "x": 486,
+            "y": 498
+        },
+        {
+            "type": "Image",
+            "id": "00bfb808-e66d-4c19-b39f-fea77810418a",
+            "label": "platform",
+            "texture": {
+                "key": "patty",
+                "frame": "platform"
+            },
+            "x": 891,
+            "y": 410
+        },
+        {
+            "type": "Image",
+            "id": "b9624c25-82fe-4807-a7d3-3b65be90734d",
+            "label": "door",
+            "texture": {
+                "key": "patty",
+                "frame": "door"
+            },
+            "x": 301,
+            "y": 387
+        },
+        {
+            "type": "Rectangle",
+            "id": "22a02c78-6844-471d-8986-e695ecc83969",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 288,
+            "y": 452,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.4934015560906795,
+            "originY": 0.7143424794011963,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

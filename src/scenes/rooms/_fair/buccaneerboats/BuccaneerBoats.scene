@@ -1,0 +1,476 @@
+{
+    "id": "474ag295-9h75-8635-64dd-9d9c621cf2e1",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 219,
+        "snapHeight": 70,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/_fair/buccaneerboats/buccaneerboats-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "BuccaneerBoats",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "51c32b2e-adf3-4194-8a80-464d67654832",
+            "label": "bg",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "bg"
+            },
+            "x": 732,
+            "y": 463
+        },
+        {
+            "type": "Sprite",
+            "id": "a7c3b521-1bae-4d4b-99d0-6fd42490a528",
+            "label": "boatsail",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "boatsail",
+            "Animation.end": 119,
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "boatsail0001"
+            },
+            "x": 603.3035278320312,
+            "y": 439.3767352505719,
+            "originX": 0.48558033046473076,
+            "originY": 1.2095995271303512
+        },
+        {
+            "type": "Image",
+            "id": "8a5cec85-b19f-43b8-ae42-11bb4be8a522",
+            "label": "rock",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "rock"
+            },
+            "x": 402,
+            "y": 426.87861756664535,
+            "originY": 0.5297476731040877
+        },
+        {
+            "type": "Sprite",
+            "id": "f5b98c04-0936-41d8-b816-cec7bec7601f",
+            "label": "boat",
+            "scope": "CLASS",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "boat0001"
+            },
+            "x": 523,
+            "y": 447.30065744698504,
+            "originY": 0.7732026297879402
+        },
+        {
+            "type": "Sprite",
+            "id": "6d7b4b39-db25-4e7e-8e0b-3a71ba275f52",
+            "label": "cannon_left",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "cannon_left",
+            "HoverAnimation.end": 20,
+            "HoverAnimation.pixelPerfect": true,
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "cannon_left0001"
+            },
+            "x": 990.5,
+            "y": 323.5,
+            "originX": 1,
+            "originY": 1
+        },
+        {
+            "type": "Sprite",
+            "id": "1ef15d1f-59ae-4136-99ec-9084319e0d43",
+            "label": "cannon_mid",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "cannon_mid",
+            "HoverAnimation.end": 20,
+            "HoverAnimation.pixelPerfect": true,
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "cannon_mid0001"
+            },
+            "x": 1079.5,
+            "y": 425.5,
+            "originX": 1,
+            "originY": 1
+        },
+        {
+            "type": "Sprite",
+            "id": "fbc53cd9-9161-4408-a7f9-2778a03fa8bf",
+            "label": "cannon_right",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "cannon_right",
+            "HoverAnimation.end": 20,
+            "HoverAnimation.pixelPerfect": true,
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "cannon_right0001"
+            },
+            "x": 1175,
+            "y": 553,
+            "originX": 1,
+            "originY": 1
+        },
+        {
+            "type": "Sprite",
+            "id": "0da760e3-d8b9-4f5e-81c7-0326ec461b10",
+            "label": "cave",
+            "scope": "CLASS",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "cave0001"
+            },
+            "x": 297,
+            "y": 223
+        },
+        {
+            "type": "Image",
+            "id": "1032f117-5a83-4ddc-bb54-07c7d4f1cefe",
+            "label": "chestrock",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "chestrock"
+            },
+            "x": 849.1536159845468,
+            "y": 422.54512747254796,
+            "originX": 0.49714059454238796,
+            "originY": 0.6180054636929964
+        },
+        {
+            "type": "Image",
+            "id": "c6acdfb7-5150-4e0a-9ca6-a4d9543192ab",
+            "label": "smolrock",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "smolrock"
+            },
+            "x": 911,
+            "y": 465
+        },
+        {
+            "type": "Sprite",
+            "id": "696c990a-c84f-4d18-82dc-63642803ebeb",
+            "label": "chest",
+            "scope": "CLASS",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "chest0001"
+            },
+            "x": 833,
+            "y": 441.2227396447249,
+            "originY": 0.7123995894198974
+        },
+        {
+            "type": "Sprite",
+            "id": "9c7442ee-05ea-48a2-ae0d-6e4c5c83b38b",
+            "label": "mermaid",
+            "scope": "CLASS",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "mermaid0001"
+            },
+            "x": 565,
+            "y": 606.2227396447249,
+            "originY": 0.6660784023655582
+        },
+        {
+            "type": "Image",
+            "id": "e4822d6c-fb6f-4f72-be33-c74b1dcc149e",
+            "label": "skull_back",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "skull_back"
+            },
+            "x": 304,
+            "y": 116
+        },
+        {
+            "type": "Sprite",
+            "id": "ec769972-5b5c-4f15-8c8c-7f9716c10681",
+            "label": "skullfire10001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "skullfire1",
+            "Animation.end": 20,
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "skullfire10001"
+            },
+            "x": 268,
+            "y": 85
+        },
+        {
+            "type": "Sprite",
+            "id": "23b57ccd-eff0-4fcd-a151-e0b38d6314b7",
+            "label": "skullfire20001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "skullfire2",
+            "Animation.end": 20,
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "skullfire20001"
+            },
+            "x": 360,
+            "y": 94
+        },
+        {
+            "type": "Image",
+            "id": "72b8478c-3a94-4101-96d0-c478cac744dd",
+            "label": "skull",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "skull"
+            },
+            "x": 286,
+            "y": 89
+        },
+        {
+            "type": "Image",
+            "id": "02133eb7-293b-41ed-acf2-e0167a1c2167",
+            "label": "plantcluster",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "plantcluster"
+            },
+            "x": 820,
+            "y": 757
+        },
+        {
+            "type": "Image",
+            "id": "112510a5-9ed5-4f16-a030-ad1ae00a1ef6",
+            "label": "fg",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "fg"
+            },
+            "x": 758.4691700338411,
+            "y": 963.6223597872844,
+            "originX": 0.47975009425379217,
+            "originY": 0.8266320907358241
+        },
+        {
+            "type": "Image",
+            "id": "1d7410cd-3f65-45e6-a5e7-6952c9865176",
+            "label": "smallplant",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "smallplant"
+            },
+            "x": 1344,
+            "y": 554
+        },
+        {
+            "type": "Image",
+            "id": "9aa57ee8-2079-473c-b118-2ccca8c6bfa1",
+            "label": "leftsign",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "leftsign"
+            },
+            "x": 69.42677941129554,
+            "y": 622.4059190930162,
+            "originX": 0.5082263708857476,
+            "originY": 0.8217321189217581
+        },
+        {
+            "type": "Image",
+            "id": "c441e079-261a-4216-a439-e32edd93e0d0",
+            "label": "torchrocks",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "torchrocks"
+            },
+            "x": 204.05892944335938,
+            "y": 309.63048264139746,
+            "originX": 0.6511160481329621,
+            "originY": 0.7618432408524054
+        },
+        {
+            "type": "Image",
+            "id": "ac419fa4-298c-4213-a873-f690a32dbc47",
+            "label": "torchglow",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "torchglow"
+            },
+            "x": 108,
+            "y": 217,
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "type": "Image",
+            "id": "2525beee-b459-491b-bd14-3a929e083543",
+            "label": "torchglow_1",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "torchglow"
+            },
+            "x": 574,
+            "y": 159,
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "type": "Image",
+            "id": "479c05c4-25be-4fed-9dc6-a05621d650fc",
+            "label": "torchglow_2",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "torchglow"
+            },
+            "x": 772,
+            "y": 159,
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "type": "Sprite",
+            "id": "8707c0a5-7c92-4f91-9f96-e52755c6c6c8",
+            "label": "torch_left",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "torch",
+            "Animation.end": 11,
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "torch0001"
+            },
+            "x": 104.29676625962955,
+            "y": 289.987310990002,
+            "originX": 0.4539666556656635,
+            "originY": 0.8193563263194584
+        },
+        {
+            "type": "Sprite",
+            "id": "28b9a50f-8e9a-40f6-8c5b-44f7caa033cb",
+            "label": "torch_left_1",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "torch",
+            "Animation.end": 11,
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "torch0001"
+            },
+            "x": 574,
+            "y": 188
+        },
+        {
+            "type": "Sprite",
+            "id": "483d2e3d-aa48-469f-9bea-e0521614657a",
+            "label": "torch_left_2",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "torch",
+            "Animation.end": 11,
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "torch0001"
+            },
+            "x": 776,
+            "y": 191,
+            "angle": -10,
+            "flipX": true
+        },
+        {
+            "type": "Polygon",
+            "id": "c0e2b964-bf26-41b5-9cf4-231e7b9469fe",
+            "label": "polygon_1",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "x": 183.96691861256733,
+            "y": 819.7218023123878,
+            "originX": 0.04858299416781708,
+            "originY": -0.14184396642376848,
+            "fillColor": "#00ffff",
+            "fillAlpha": 0.5,
+            "points": "-171.8206543304659 115.74255048454313 -169.906744375821 -152.20484316574277 -9.138308185649464 -94.78754452639578 157.3718578684568 -35.45633593240393 260.72299541928135 29.61660252552258 300.91510446682423 117.65646043918798"
+        },
+        {
+            "type": "Image",
+            "id": "30383c81-7d1e-4752-82e1-39b08edae078",
+            "label": "skullglow",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "skullglow"
+            },
+            "x": 277,
+            "y": 95,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "049bfb97-4b42-41b1-b4d9-241a7d62cf87",
+            "label": "skullglow_1",
+            "texture": {
+                "key": "buccaneerboats",
+                "frame": "skullglow"
+            },
+            "x": 364,
+            "y": 95,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "300cde37-df47-4230-b0b8-c529b59983d0",
+            "label": "sort",
+            "objectIds": [
+                "112510a5-9ed5-4f16-a030-ad1ae00a1ef6",
+                "9aa57ee8-2079-473c-b118-2ccca8c6bfa1",
+                "02133eb7-293b-41ed-acf2-e0167a1c2167",
+                "9c7442ee-05ea-48a2-ae0d-6e4c5c83b38b",
+                "696c990a-c84f-4d18-82dc-63642803ebeb",
+                "c6acdfb7-5150-4e0a-9ca6-a4d9543192ab",
+                "1032f117-5a83-4ddc-bb54-07c7d4f1cefe",
+                "f5b98c04-0936-41d8-b816-cec7bec7601f",
+                "8a5cec85-b19f-43b8-ae42-11bb4be8a522",
+                "c441e079-261a-4216-a439-e32edd93e0d0",
+                "8707c0a5-7c92-4f91-9f96-e52755c6c6c8",
+                "a7c3b521-1bae-4d4b-99d0-6fd42490a528",
+                "6d7b4b39-db25-4e7e-8e0b-3a71ba275f52",
+                "fbc53cd9-9161-4408-a7f9-2778a03fa8bf",
+                "1ef15d1f-59ae-4136-99ec-9084319e0d43"
+            ]
+        }
+    ]
+}

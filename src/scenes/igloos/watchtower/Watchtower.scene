@@ -1,0 +1,208 @@
+{
+    "id": "3cd1ed56-e1bc-4a61-a0c5-5ca64d45beb2",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/watchtower/watchtower-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Watchtower",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "f69e3b0c-49cd-44f4-a37b-9edf62e49201",
+            "label": "floor",
+            "scope": "CLASS",
+            "texture": {
+                "key": "watchtower",
+                "frame": "watchtower"
+            },
+            "x": 774,
+            "y": 459,
+            "scaleX": 1.1,
+            "scaleY": 1.1
+        },
+        {
+            "type": "Image",
+            "id": "78d38456-82a9-485f-aa20-6f98f1be6361",
+            "label": "steps_png",
+            "texture": {
+                "key": "watchtower",
+                "frame": "steps"
+            },
+            "x": 742,
+            "y": 771.5175842920186,
+            "scaleX": 0.9807693708650917,
+            "scaleY": 1.2570343105151782,
+            "originY": 0.004588792661150276
+        },
+        {
+            "type": "Rectangle",
+            "id": "c75a6a82-eac5-44dd-b1f5-6d50ffb6104c",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 742.9999999999999,
+            "y": 821.3862706044072,
+            "scaleX": 4,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.4999999999999991,
+            "originY": 0.2512629821750778,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "5f44dce6-3275-4e6e-8217-e295ef45dbe4",
+            "label": "rectangle_2",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 816.8373756059584,
+            "y": 821,
+            "scaleX": 4,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.6422604992303866,
+            "originY": 0.2512629821750778,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "3774ab48-fa2e-4fbc-bf23-d8cc5bec1409",
+            "label": "rectangle_3",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 669.1626243940414,
+            "y": 822,
+            "scaleX": 4,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.35773950076961114,
+            "originY": 0.2512629821750778,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "a3509bdf-6a06-4c3b-a97a-289874b58f5c",
+            "label": "rectangle_4",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 596.8603049720399,
+            "y": 822,
+            "scaleX": 4,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.22074790891812657,
+            "originY": 0.2512629821750778,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "7abd1c2e-3b53-47a2-be47-53004bec96e1",
+            "label": "rectangle_5",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 886.1396607305953,
+            "y": 822,
+            "scaleX": 4,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.779252091081871,
+            "originY": 0.2512629821750778,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "537d4595-7a27-49fb-b285-0ec7217ce857",
+            "label": "rectangle_6",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 942.9536115599692,
+            "y": 822,
+            "scaleX": 4,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.8846302386599358,
+            "originY": 0.2512629821750778,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "13cb90f4-9529-41e5-9664-8834145d845c",
+            "label": "rectangle_7",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 994,
+            "y": 822,
+            "scaleX": 4,
+            "scaleY": 1.5897100335089185,
+            "originX": 1.0005462009958073,
+            "originY": 0.2512629821750778,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "22c8199c-9600-4eed-ab95-0ffe503dd562",
+            "label": "rectangle",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 549,
+            "y": 822,
+            "scaleX": 4,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.12063866871896484,
+            "originY": 0.2512629821750778,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "f5a21116-785d-402b-89c7-d956fe617045",
+            "label": "rectangle_8",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 489,
+            "y": 822,
+            "scaleX": 4,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.004722706383093189,
+            "originY": 0.2512629821750778,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

@@ -1,0 +1,414 @@
+{
+    "id": "f5eefb49-3b1a-4f83-81fb-56bbbbf8fa3b",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/lighthouse/lighthouse-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Lighthouse",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "0af723ee-0033-4e8b-a937-c67e4d2311bf",
+            "label": "rectangle_1",
+            "x": 453,
+            "y": 424,
+            "scaleX": 2.01822369519442,
+            "scaleY": 2.01822369519442,
+            "isFilled": true,
+            "fillColor": "#000",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "04463312-ff2d-4f21-a98b-0d83be617dd4",
+            "label": "bg",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "bg"
+            },
+            "x": 754,
+            "y": 486
+        },
+        {
+            "type": "Image",
+            "id": "e2233a5e-d7d0-4d3d-a6ad-272e1fa9bb84",
+            "label": "railing",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "railing"
+            },
+            "x": 645.870239843217,
+            "y": 800.1325795432979,
+            "originX": 0.4828981760766746,
+            "originY": 1.2064019485074828
+        },
+        {
+            "type": "Image",
+            "id": "5e026a84-8fc2-49a2-a31d-f70260eba70d",
+            "label": "wirelol",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "wirelol"
+            },
+            "x": 339,
+            "y": 667
+        },
+        {
+            "type": "Image",
+            "id": "b5c357bd-ffe3-4e78-a05c-1791366e90ff",
+            "label": "piano",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "piano"
+            },
+            "x": 397.8038926188229,
+            "y": 727.0705115914689,
+            "originX": 0.4577520925160905,
+            "originY": 0.6696854044183268
+        },
+        {
+            "type": "Image",
+            "id": "84472ea8-19f5-4cf2-8683-0e5cfb71ae8c",
+            "label": "chair",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "chair"
+            },
+            "x": 365.4742110513567,
+            "y": 783.6805226405032,
+            "originX": 0.5196561473514225,
+            "originY": 0.33355681678231014
+        },
+        {
+            "type": "Image",
+            "id": "5267d162-b0a8-496a-85f8-a275b4a8e7bc",
+            "label": "drum0001",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "drum0001"
+            },
+            "x": 167.34384879155448,
+            "y": 543.3552028095227,
+            "originX": 0.47921361067658247,
+            "originY": 0.873903051587293
+        },
+        {
+            "type": "Image",
+            "id": "830f3726-f8a8-4afb-8811-cd9f487927e8",
+            "label": "mic",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "mic"
+            },
+            "x": 319.29869600047743,
+            "y": 635.4415240031034,
+            "originX": 0.5659739200095487,
+            "originY": 0.730554021538746
+        },
+        {
+            "type": "Sprite",
+            "id": "37ee0202-d7ec-41aa-8739-92a070323485",
+            "label": "blspeaker0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "blspeaker",
+            "Animation.end": 10,
+            "texture": {
+                "key": "lighthouse",
+                "frame": "blspeaker0001"
+            },
+            "x": 111,
+            "y": 296
+        },
+        {
+            "type": "Sprite",
+            "id": "6864a683-0622-4d38-95d0-2ea0751ba649",
+            "label": "bottomspeaker0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bottomspeaker",
+            "Animation.end": 10,
+            "texture": {
+                "key": "lighthouse",
+                "frame": "bottomspeaker0001"
+            },
+            "x": 8,
+            "y": 875
+        },
+        {
+            "type": "Sprite",
+            "id": "9c05ec0e-080b-4725-8b4b-1a8a41921b0f",
+            "label": "instruments",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "instruments",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "instruments"
+            },
+            "x": 1189.8134786366043,
+            "y": 607.1020400947572,
+            "scaleX": 0.7,
+            "scaleY": 0.7,
+            "originX": 0.5031055954871473,
+            "originY": 0.6991055549754968,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "5c20417e-d7be-48e0-98b4-0b1e550106a5",
+            "label": "pole",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "pole"
+            },
+            "x": 624,
+            "y": 383
+        },
+        {
+            "type": "Sprite",
+            "id": "47c6c6f6-2495-490e-a242-eb2703d47e59",
+            "label": "speaker0003",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "speaker",
+            "Animation.end": 10,
+            "texture": {
+                "key": "lighthouse",
+                "frame": "speaker0001"
+            },
+            "x": 621,
+            "y": 315
+        },
+        {
+            "type": "Image",
+            "id": "d71e4ccd-d206-48c2-9c36-392d26464612",
+            "label": "s1seat",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "s1seat"
+            },
+            "x": 617.8312224785659,
+            "y": 821.9510463413874,
+            "originX": 0.46856844171834644,
+            "originY": 0.05419573170520506
+        },
+        {
+            "type": "Image",
+            "id": "1eb0083b-3c94-4540-b6b0-a8829a021e3d",
+            "label": "s1back",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "s1back"
+            },
+            "x": 609.0383928005637,
+            "y": 851.4589604990405,
+            "originX": 0.3450328886650794,
+            "originY": 0.6051281607881505
+        },
+        {
+            "type": "Image",
+            "id": "4ab1c897-2c4a-4bfb-bbde-f75f18e5c0d9",
+            "label": "s2seat",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "s2seat"
+            },
+            "x": 696.1924252924085,
+            "y": 753.7223508517634,
+            "originX": 0.3720065725055266,
+            "originY": 0.1475736527669511
+        },
+        {
+            "type": "Image",
+            "id": "faaddf86-b456-4859-8716-686a20830120",
+            "label": "s2back",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "s2back"
+            },
+            "x": 731.8181017646428,
+            "y": 761.5279561498824,
+            "originX": 0.6757562866555544,
+            "originY": 0.4855685234960104
+        },
+        {
+            "type": "Image",
+            "id": "a3c46538-77bd-4c2e-acc1-3ce12eb83939",
+            "label": "s3",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "s3"
+            },
+            "x": 742.4205989424391,
+            "y": 653.4021477456533,
+            "originX": 0.4927574159236755,
+            "originY": 0.39906804914594646
+        },
+        {
+            "type": "Image",
+            "id": "6abc73d3-347d-4757-8a31-4a977f3d2d89",
+            "label": "s",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "s3"
+            },
+            "x": 947.9579128428666,
+            "y": 660.2007652801464,
+            "originX": 0.49947410606284137,
+            "originY": 0.368578749824728
+        },
+        {
+            "type": "Image",
+            "id": "0713ffed-c8c8-4ba9-a55e-ce67f37331fc",
+            "label": "s_1",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "s3"
+            },
+            "x": 970.1327906956822,
+            "y": 738.5455468127228,
+            "originX": 0.48915952660640727,
+            "originY": 0.3623383548332327
+        },
+        {
+            "type": "Image",
+            "id": "ad5875e6-9166-4933-843c-fe9689264c3e",
+            "label": "s6seat",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "s6seat"
+            },
+            "x": 909.3297101006357,
+            "y": 854.0130436377116,
+            "originX": 0.5545854114858308,
+            "originY": 0.12540761367848674
+        },
+        {
+            "type": "Image",
+            "id": "1833526c-d622-46a7-85a4-57a81fc3ed8d",
+            "label": "s6back",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "s6back"
+            },
+            "x": 918.6818383166291,
+            "y": 874.966028447006,
+            "originX": 0.47272721537929235,
+            "originY": 0.6542890816917697
+        },
+        {
+            "type": "Sprite",
+            "id": "2f55df25-d93d-46ba-aa01-5ca87d084034",
+            "label": "top0001",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "top",
+            "Animation.end": 26,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
+            "Animation.stopOnOut": false,
+            "SimpleButton.callback": "() => {this.triggerRoom(411, 272, 680)}",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "top0001"
+            },
+            "x": 334,
+            "y": 63
+        },
+        {
+            "type": "Sprite",
+            "id": "aff61801-62b2-49f5-a452-392abaf35e51",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "door"
+            },
+            "x": 466,
+            "y": 401,
+            "angle": 1
+        },
+        {
+            "type": "Rectangle",
+            "id": "e6823f80-45c0-4be2-b2ed-794a0d60f0a6",
+            "label": "drumBounds",
+            "scope": "CLASS",
+            "x": 165,
+            "y": 486,
+            "visible": false,
+            "width": 200,
+            "height": 140
+        },
+        {
+            "type": "Image",
+            "id": "7dcdbcc9-0d03-4593-a9bf-b30ff828af19",
+            "label": "interfaceIcons",
+            "scope": "CLASS",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "shop",
+            "Button.callback": "() => this.interface.loadWidget('MusicCatalog')",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "shop"
+            },
+            "x": 1434.0000206299962,
+            "y": 889.0000147169374
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1bc796af-8118-4a54-b624-39e93ad42d65",
+            "label": "sort",
+            "objectIds": [
+                "5267d162-b0a8-496a-85f8-a275b4a8e7bc",
+                "830f3726-f8a8-4afb-8811-cd9f487927e8",
+                "b5c357bd-ffe3-4e78-a05c-1791366e90ff",
+                "84472ea8-19f5-4cf2-8683-0e5cfb71ae8c",
+                "1eb0083b-3c94-4540-b6b0-a8829a021e3d",
+                "d71e4ccd-d206-48c2-9c36-392d26464612",
+                "faaddf86-b456-4859-8716-686a20830120",
+                "4ab1c897-2c4a-4bfb-bbde-f75f18e5c0d9",
+                "a3c46538-77bd-4c2e-acc1-3ce12eb83939",
+                "6abc73d3-347d-4757-8a31-4a977f3d2d89",
+                "0713ffed-c8c8-4ba9-a55e-ce67f37331fc",
+                "1833526c-d622-46a7-85a4-57a81fc3ed8d",
+                "ad5875e6-9166-4933-843c-fe9689264c3e",
+                "e2233a5e-d7d0-4d3d-a6ad-272e1fa9bb84",
+                "9c05ec0e-080b-4725-8b4b-1a8a41921b0f"
+            ]
+        }
+    ]
+}

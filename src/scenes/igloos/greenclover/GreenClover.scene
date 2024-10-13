@@ -1,0 +1,145 @@
+{
+    "id": "a2e05762-ccb5-47f4-af13-fd0f1724a9b9",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/greenclover/greenclover-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "GreenClover",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "2d3be0f2-23a4-444d-9dfd-5153e88e5846",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "97d32ad1-5621-4595-8ce6-87d63e5c6db1",
+                    "label": "grass_floor",
+                    "components": [],
+                    "texture": {
+                        "key": "greenclover",
+                        "frame": "grass_floor"
+                    },
+                    "x": 495,
+                    "y": 645,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "d1be938d-ec8b-4c6a-a90b-45d7c92ecdc1",
+                    "label": "floor_1",
+                    "components": [],
+                    "texture": {
+                        "key": "greenclover",
+                        "frame": "main_floor"
+                    },
+                    "x": 936,
+                    "y": 622,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "18295f44-2216-4838-8422-29b5975c35b9",
+                    "label": "stairs_top",
+                    "components": [],
+                    "texture": {
+                        "key": "greenclover",
+                        "frame": "stairs_top"
+                    },
+                    "x": 793,
+                    "y": 677,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "94c5c99e-53e3-42c1-b4f8-38fd1f0048c2",
+            "label": "walls",
+            "components": [],
+            "texture": {
+                "key": "greenclover",
+                "frame": "walls"
+            },
+            "x": 760,
+            "y": 480,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "09f92b0a-7aa2-42c2-8f27-6bbe842635ad",
+            "label": "door",
+            "components": [],
+            "texture": {
+                "key": "greenclover",
+                "frame": "door0001"
+            },
+            "x": 719,
+            "y": 245,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "9050cf08-f3c0-48f6-8f2d-462f4b7cab45",
+            "label": "stairs",
+            "components": [],
+            "texture": {
+                "key": "greenclover",
+                "frame": "stairs"
+            },
+            "x": 811,
+            "y": 674,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "3aef90c6-1977-420a-8da9-a949ae738584",
+            "label": "bottomwall",
+            "components": [],
+            "texture": {
+                "key": "greenclover",
+                "frame": "bottomwall"
+            },
+            "x": 957,
+            "y": 817,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "a94da5d1-3510-4632-865a-630bb3724563",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 711.8059425569436,
+            "y": 340.38553216582847,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.47739292200966954,
+            "originY": 0.7390574206187307,
+            "width": 128,
+            "height": 128,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

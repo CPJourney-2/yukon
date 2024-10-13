@@ -1,0 +1,423 @@
+{
+    "id": "5c60d9da-3a00-4c35-b80e-2d8f6804dffc",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 219,
+        "snapHeight": 70,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/hideout/hideout-pack.json",
+            "yukon/assets/media/rooms/dojo/dojo-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Hideout",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "f8bfa825-c22d-48c2-acb5-4caa8168a120",
+            "label": "bg",
+            "texture": {
+                "key": "hideout",
+                "frame": "bg"
+            },
+            "x": 760,
+            "y": 480
+        },
+        {
+            "type": "Image",
+            "id": "b3fd043a-bab2-4ac0-920c-641b46342b7b",
+            "label": "panel",
+            "texture": {
+                "key": "hideout",
+                "frame": "panel"
+            },
+            "x": 977,
+            "y": 349
+        },
+        {
+            "type": "Image",
+            "id": "5274ac0d-cc21-469c-842d-b98646a21a5f",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "MoveTo.x": "this.x",
+            "MoveTo.y": "this.y",
+            "texture": {
+                "key": "hideout",
+                "frame": "door"
+            },
+            "x": 397.68505558780316,
+            "y": 383.25977764878735,
+            "originX": 0.41579444463413623,
+            "originY": 0.8817318509919156
+        },
+        {
+            "type": "Image",
+            "id": "b816d181-c3c0-4685-88ec-f4000e09d9bc",
+            "label": "lamp",
+            "texture": {
+                "key": "hideout",
+                "frame": "lamp"
+            },
+            "x": 615,
+            "y": 358
+        },
+        {
+            "type": "Image",
+            "id": "5e6534a6-f4cf-49ff-b08b-f639413d59d4",
+            "label": "store_mc",
+            "texture": {
+                "key": "hideout",
+                "frame": "store_mc"
+            },
+            "x": 774.1603365653054,
+            "y": 442.1721132694897,
+            "originX": 0.4824605054759291,
+            "originY": 0.9693192946822937
+        },
+        {
+            "type": "Image",
+            "id": "4601d76a-7bc2-44cf-9702-43f848a8f5f7",
+            "label": "fronttable",
+            "texture": {
+                "key": "hideout",
+                "frame": "fronttable"
+            },
+            "x": 778,
+            "y": 325
+        },
+        {
+            "type": "Image",
+            "id": "3bd74038-50b5-4395-92d0-70623dd65a09",
+            "label": "tablesone",
+            "texture": {
+                "key": "hideout",
+                "frame": "tablesone"
+            },
+            "x": 180.65662719628565,
+            "y": 457.51205118390453,
+            "originX": 0.5410444619587523,
+            "originY": 0.6554216959504755
+        },
+        {
+            "type": "Image",
+            "id": "9520c2ff-89e8-45a1-a5cc-ef9a7d965b8f",
+            "label": "tablestwo",
+            "texture": {
+                "key": "hideout",
+                "frame": "tablestwo"
+            },
+            "x": 1384.6310480375125,
+            "y": 478.44636684264833,
+            "originX": 0.5198276339349033,
+            "originY": 0.708950839127825
+        },
+        {
+            "type": "Image",
+            "id": "482f95a1-2038-4a14-a813-fba68f6760e4",
+            "label": "trees2",
+            "texture": {
+                "key": "hideout",
+                "frame": "trees2"
+            },
+            "x": 1158,
+            "y": 465
+        },
+        {
+            "type": "Image",
+            "id": "5ff78f88-f612-46db-9832-68809b597968",
+            "label": "trees1",
+            "texture": {
+                "key": "hideout",
+                "frame": "trees1"
+            },
+            "x": 386.2262426703543,
+            "y": 480.90243515998293,
+            "originX": 0.4271360078539832,
+            "originY": 0.7494579731110163
+        },
+        {
+            "type": "Image",
+            "id": "151fd81b-36af-4424-a545-6fdb1a6ff848",
+            "label": "stairs",
+            "texture": {
+                "key": "hideout",
+                "frame": "stairs"
+            },
+            "x": 222.75623942567782,
+            "y": 495.07487310813383,
+            "originX": 0.48481391913140004,
+            "originY": 0.39147924233225195
+        },
+        {
+            "type": "Image",
+            "id": "126d2860-6091-4c0b-af8c-4853495f94f9",
+            "label": "overlay",
+            "texture": {
+                "key": "hideout",
+                "frame": "overlay"
+            },
+            "x": 771.8564049044276,
+            "y": 857.1590921025945,
+            "originX": 0.4979900287112708,
+            "originY": 0.7649773643777568
+        },
+        {
+            "type": "Image",
+            "id": "ad3d701f-c607-4f1c-a7e0-dd9a5dd3098f",
+            "label": "sign",
+            "texture": {
+                "key": "hideout",
+                "frame": "sign"
+            },
+            "x": 573.8091909619568,
+            "y": 1853.868584681816,
+            "originX": -0.15359876668152428,
+            "originY": 15.18532698882895
+        },
+        {
+            "type": "Sprite",
+            "id": "4633bc7b-7db4-4934-bf7d-436c9e8a503f",
+            "label": "gong01",
+            "scope": "CLASS",
+            "texture": {
+                "key": "hideout",
+                "frame": "gong010001"
+            },
+            "x": 141,
+            "y": 228
+        },
+        {
+            "type": "Sprite",
+            "id": "efe39328-0a32-421f-9e1d-8b4705fba98d",
+            "label": "gong02",
+            "scope": "CLASS",
+            "texture": {
+                "key": "hideout",
+                "frame": "gong020001"
+            },
+            "x": 401,
+            "y": 165
+        },
+        {
+            "type": "Sprite",
+            "id": "d2700ca6-5e6c-4eba-a120-bfee103c389d",
+            "label": "gong03",
+            "scope": "CLASS",
+            "texture": {
+                "key": "hideout",
+                "frame": "gong030001"
+            },
+            "x": 1149,
+            "y": 154
+        },
+        {
+            "type": "Sprite",
+            "id": "a6e4fd6c-9513-4b25-ad01-a841008c8a56",
+            "label": "gong04",
+            "scope": "CLASS",
+            "texture": {
+                "key": "hideout",
+                "frame": "gong040001"
+            },
+            "x": 1438,
+            "y": 142
+        },
+        {
+            "type": "Ellipse",
+            "id": "1809e32c-47c5-4701-8a82-354e57be9c47",
+            "label": "gong_hitbox_1",
+            "scope": "CLASS",
+            "x": 154,
+            "y": 243,
+            "scaleX": 0.6792581307511806,
+            "scaleY": 0.774301658718831,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Ellipse",
+            "id": "6cc0cbe0-5212-42f0-8437-7e2755dd21f9",
+            "label": "gong_hitbox_2",
+            "scope": "CLASS",
+            "x": 399,
+            "y": 174,
+            "scaleX": 0.9032542947979699,
+            "scaleY": 0.8601156961257679,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Ellipse",
+            "id": "ddba9660-d5ab-44a8-b841-45b2f870bc32",
+            "label": "gong_hitbox_3",
+            "scope": "CLASS",
+            "x": 1156,
+            "y": 165,
+            "scaleX": 1.1443758382478955,
+            "scaleY": 1.155643105014473,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Ellipse",
+            "id": "66ecc95b-f284-4578-bd2b-3f62b43610b0",
+            "label": "gong_hitbox_4",
+            "scope": "CLASS",
+            "x": 1411,
+            "y": 180,
+            "scaleX": 1.375925484283166,
+            "scaleY": 1.794112210988597,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "0e5434c0-12ad-4710-8bd3-0d3078446c9b",
+            "label": "book",
+            "components": [
+                "Button"
+            ],
+            "Button.callback": "() => this.interface.loadWidget('Martial')",
+            "texture": {
+                "key": "hideout-martial",
+                "frame": "catalogbtn"
+            },
+            "x": 1413,
+            "y": 969.903109266284,
+            "originY": 2.278431778858054
+        },
+        {
+            "prefabId": "c67c0d84-a20e-44f3-a3e4-70e0123372ab",
+            "id": "bf27b46c-344d-48d1-9700-ed0b96edcf94",
+            "unlock": [
+                "x",
+                "y",
+                "texture",
+                "waddleid"
+            ],
+            "label": "mat2",
+            "waddleid": "204",
+            "texture": {
+                "key": "hideout",
+                "frame": "waddle1"
+            },
+            "x": 461,
+            "y": 629
+        },
+        {
+            "prefabId": "c67c0d84-a20e-44f3-a3e4-70e0123372ab",
+            "id": "2a38fafc-2bbd-4cbf-83fb-e0ab38a05917",
+            "unlock": [
+                "x",
+                "y",
+                "texture",
+                "waddleid"
+            ],
+            "label": "mat_1",
+            "waddleid": "205",
+            "texture": {
+                "key": "hideout",
+                "frame": "waddle2"
+            },
+            "x": 343,
+            "y": 827
+        },
+        {
+            "prefabId": "c67c0d84-a20e-44f3-a3e4-70e0123372ab",
+            "id": "d7e95207-33a4-4132-9d8e-bf5555ce9885",
+            "unlock": [
+                "texture",
+                "waddleid",
+                "flipX",
+                "flipY",
+                "x",
+                "y"
+            ],
+            "label": "mat99",
+            "waddleid": "206",
+            "texture": {
+                "key": "hideout",
+                "frame": "waddle2"
+            },
+            "x": 1191,
+            "y": 829,
+            "flipX": true,
+            "flipY": false
+        },
+        {
+            "prefabId": "c67c0d84-a20e-44f3-a3e4-70e0123372ab",
+            "id": "1866a7b5-4e6f-40e8-adb3-d7c535c84634",
+            "unlock": [
+                "x",
+                "y",
+                "texture",
+                "waddleid",
+                "flipX",
+                "flipY"
+            ],
+            "label": "mat_2",
+            "waddleid": "207",
+            "texture": {
+                "key": "hideout",
+                "frame": "waddle1"
+            },
+            "x": 1084,
+            "y": 628,
+            "flipX": true,
+            "flipY": false
+        },
+        {
+            "type": "Image",
+            "id": "a6b080fc-3bba-4eec-b091-c645ae935283",
+            "label": "cards_button",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "cards_button",
+            "Button.callback": "() => this.onNinjaProgress()",
+            "texture": {
+                "key": "dojo",
+                "frame": "cards_button"
+            },
+            "x": 1427,
+            "y": 965,
+            "originY": 1.245409073326819
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "f735182f-50d5-45da-a9f6-033cbb6e0578",
+            "label": "sort",
+            "objectIds": [
+                "5e6534a6-f4cf-49ff-b08b-f639413d59d4",
+                "5ff78f88-f612-46db-9832-68809b597968",
+                "482f95a1-2038-4a14-a813-fba68f6760e4",
+                "9520c2ff-89e8-45a1-a5cc-ef9a7d965b8f",
+                "3bd74038-50b5-4395-92d0-70623dd65a09",
+                "ad3d701f-c607-4f1c-a7e0-dd9a5dd3098f",
+                "151fd81b-36af-4424-a545-6fdb1a6ff848",
+                "126d2860-6091-4c0b-af8c-4853495f94f9",
+                "0e5434c0-12ad-4710-8bd3-0d3078446c9b",
+                "a6b080fc-3bba-4eec-b091-c645ae935283"
+            ]
+        }
+    ]
+}

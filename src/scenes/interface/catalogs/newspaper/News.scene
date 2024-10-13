@@ -1,0 +1,1281 @@
+{
+    "id": "3368eeda-1402-48ca-91f2-d3de87c90e10",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "26b0a523-5dc6-4f92-8a6f-1d2e28d08257",
+            "label": "container_1",
+            "components": [],
+            "x": 358.19686866835116,
+            "y": 264.98131888962683,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "efabb3c4-eeee-426e-b2e5-6a1788ff0edf",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.3,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "fed728f3-1f29-426d-8b3e-3dd7facccd7a",
+                    "label": "page9",
+                    "components": [],
+                    "x": 17,
+                    "y": -34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b0c767a1-a145-49c2-838f-1644abad0994",
+                            "label": "conent_news_7",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "conent_news"
+                            },
+                            "x": 751,
+                            "y": 490,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2c39c181-f52c-4c07-9565-56106b5d6f4e",
+                            "label": "notices",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "notices"
+                            },
+                            "x": 718,
+                            "y": 122,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9ed6dfd6-97d4-4461-a5b8-1583548382f4",
+                            "label": "submitPage",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "submitPage"
+                            },
+                            "x": 736,
+                            "y": 493,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "659233e7-c17e-4292-84bd-143a63580285",
+                            "label": "shadow3",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "shadow3"
+                            },
+                            "x": 729,
+                            "y": 495
+                        },
+                        {
+                            "type": "Image",
+                            "id": "283e0229-7345-45cc-8165-ae5716db5905",
+                            "label": "qbutton0002",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.inFanart();",
+                            "SimpleButton.hoverOutCallback": "() => this.outFanart();",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "qbutton0002"
+                            },
+                            "x": 1248,
+                            "y": 513,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "24880091-0d0d-4ed5-be58-587bc2737fb2",
+                            "label": "qbutton",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.inRiddle();",
+                            "SimpleButton.hoverOutCallback": "() => this.outRiddle();",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "qbutton0002"
+                            },
+                            "x": 1248,
+                            "y": 453,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "972d7e08-e354-4c99-94f1-02e29f8e32f6",
+                            "label": "qbutton_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.inJoke();",
+                            "SimpleButton.hoverOutCallback": "() => this.outJoke();",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "qbutton0002"
+                            },
+                            "x": 1249,
+                            "y": 392,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0e9e2238-f561-4735-9753-0c63eab43e20",
+                            "label": "qbutton_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.inPoem();",
+                            "SimpleButton.hoverOutCallback": "() => this.outPoem();",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "qbutton0002"
+                            },
+                            "x": 1247,
+                            "y": 328,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e50d95bf-0a0d-441a-be4f-2575553fec73",
+                            "label": "qbutton_3",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.inQuestion();",
+                            "SimpleButton.hoverOutCallback": "() => this.outQuestion();",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "qbutton0002"
+                            },
+                            "x": 1245,
+                            "y": 258,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "82aff7a7-62ff-4afa-95a9-4558b9c9ce36",
+                            "label": "hover_list",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "hover_list"
+                            },
+                            "x": 1248,
+                            "y": 392,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "97e8f91b-765b-4b45-a42e-937d4a8fb4f8",
+                            "label": "aunt",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "aunt"
+                            },
+                            "x": 384,
+                            "y": 509
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0e6f4c3b-0d56-4317-b8ba-edb01dd59e0a",
+                            "label": "tip",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "tip"
+                            },
+                            "x": 927,
+                            "y": 396,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "db783887-ceb6-4e62-aba3-e241b061004b",
+                            "label": "aunt_question",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "aunt-question"
+                            },
+                            "x": 708,
+                            "y": 488,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "868f6a86-17f8-4c12-b1e5-69fdaf0636af",
+                            "label": "aunt_poem",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "aunt-poem"
+                            },
+                            "x": 708,
+                            "y": 488,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "418d018f-4aa3-4323-a475-0c91b2b9bed5",
+                            "label": "aunt_joke",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "aunt-joke"
+                            },
+                            "x": 708,
+                            "y": 475,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "94961191-b4e5-4e28-8a94-f8517cc3be63",
+                            "label": "aunt_riddle",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "aunt-riddle"
+                            },
+                            "x": 708,
+                            "y": 488,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8328f63d-3603-4608-a8ed-0020651625b4",
+                            "label": "aunt_comic",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "aunt-comic"
+                            },
+                            "x": 708,
+                            "y": 466,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b43486c6-d11f-473d-9c77-934388d27013",
+                            "label": "table",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "table"
+                            },
+                            "x": 773,
+                            "y": 702,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "45a9f748-62db-4ddf-ad50-857586332fd3",
+                            "label": "tip2",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "tip2"
+                            },
+                            "x": 1104,
+                            "y": 780,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1dd05220-049d-4e78-b05a-3b5772ae5ee9",
+                            "label": "topLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "topLeft",
+                            "Button.callback": "() => this.showPage(1)",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "topLeft"
+                            },
+                            "x": 88,
+                            "y": 228
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5cdab76f-3b6f-413e-b8fb-244be222abc8",
+                            "label": "bottomLeft_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "bottomLeft",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": false,
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "bottomLeft"
+                            },
+                            "x": 87,
+                            "y": 804
+                        },
+                        {
+                            "type": "Image",
+                            "id": "98157bd1-df68-48ec-b7d8-1aab2a45024d",
+                            "label": "topRight_2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "topRight",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": false,
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "topRight"
+                            },
+                            "x": 1376,
+                            "y": 184
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "bedae1c1-9ac4-43b7-ac56-f26bba9f5f7b",
+                    "label": "page8",
+                    "components": [],
+                    "x": 17,
+                    "y": -35,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "901ef88e-3e26-449e-87e4-8d09514539b0",
+                            "label": "conent_news_6",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "conent_news"
+                            },
+                            "x": 751,
+                            "y": 491,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a1df308c-fbfc-4ca4-b9f3-7f0abc65921a",
+                            "label": "extras_upcoming_events",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "extras_upcoming_events"
+                            },
+                            "x": 720,
+                            "y": 145,
+                            "angle": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "c9a2ce5c-6916-4228-a574-876a4bde6a8c",
+                    "label": "page7",
+                    "components": [],
+                    "x": 17,
+                    "y": -35,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4435735e-add5-45e6-9e04-a9b170f8d275",
+                            "label": "conent_news_5",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "conent_news"
+                            },
+                            "x": 751,
+                            "y": 491,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a26fbcc6-42a2-4e93-b082-ea2e235ce5c7",
+                            "label": "extras_art_comics",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "extras_art_comics"
+                            },
+                            "x": 721,
+                            "y": 145,
+                            "angle": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ec0a4f35-e88f-427e-961e-1662181b69a2",
+                    "label": "page6",
+                    "components": [],
+                    "x": 17,
+                    "y": -34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "8237c11d-f749-4bea-b667-f160e3428061",
+                            "label": "conent_news_4",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "conent_news"
+                            },
+                            "x": 751,
+                            "y": 490,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "784524cf-1f8f-419a-9b9a-9da0aa43e059",
+                            "label": "extras_jokes_riddles",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "extras_jokes_riddles"
+                            },
+                            "x": 723,
+                            "y": 144,
+                            "angle": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "dd877c2f-c375-4ff9-902a-f77bccccb13f",
+                    "label": "page5",
+                    "components": [],
+                    "x": 17,
+                    "y": -34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "32b457c2-692c-4033-a27a-bcb45da5b8cd",
+                            "label": "conent_news_3",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "conent_news"
+                            },
+                            "x": 751,
+                            "y": 490,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f4274ab1-40a2-4db8-ba01-a9f4f8dfce78",
+                            "label": "regular_feature_secrets",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "regular_feature_secrets"
+                            },
+                            "x": 720,
+                            "y": 144,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d0296ae9-e475-4c79-af98-4a37d0b43a6d",
+                            "label": "secret",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "secret"
+                            },
+                            "x": 1082,
+                            "y": 512,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b481921b-1c68-4f8e-b647-7c69bbcac937",
+                            "label": "secret_hidden",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "secret_hidden"
+                            },
+                            "x": 1086,
+                            "y": 771
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e6cf6f59-47ad-4412-940a-2f6daf3159b4",
+                            "label": "secret_shown",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "secret_shown"
+                            },
+                            "x": 1106,
+                            "y": 490,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7eb5bf9d-b975-4b53-8c01-51e2bd243fde",
+                            "label": "folder",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.showSecret();",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "folder"
+                            },
+                            "x": 1088,
+                            "y": 779,
+                            "scaleX": 1.005,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a818dbc8-2098-4db4-b290-546052e4ce31",
+                            "label": "close_button",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.hideSecret();",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "close_button"
+                            },
+                            "x": 805,
+                            "y": 193,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ec719c35-d3de-417c-a51f-94f9614bb61a",
+                            "label": "askAunt",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "askAunt"
+                            },
+                            "x": 501,
+                            "y": 672,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b1167d69-bc4a-4ef9-8b12-a94439a636dc",
+                            "label": "qbutton0001",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "qbutton0001"
+                            },
+                            "x": 498,
+                            "y": 752,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "df303c58-1219-49e6-bfc3-0b34fed8c66a",
+                            "label": "sendaquestion",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "sendaquestion"
+                            },
+                            "x": 498,
+                            "y": 753,
+                            "angle": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "391ccaed-6330-4178-a8d3-72db51c02abb",
+                    "label": "page4",
+                    "components": [],
+                    "x": 18,
+                    "y": -34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "915c2c49-c403-4301-bb94-a6ed64096968",
+                            "label": "conent_news_2",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "conent_news"
+                            },
+                            "x": 750,
+                            "y": 490,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b6bc1225-ea1d-4cec-8643-c28617607dea",
+                            "label": "askAuntHeader",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "askAuntHeader"
+                            },
+                            "x": 198,
+                            "y": 281,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "04c91aaa-e0a6-4790-92f6-1e6228fa6682",
+                            "label": "frame",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "frame"
+                            },
+                            "x": 130,
+                            "y": 272,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "758946ea-3ecb-4a06-a442-c0e627c2a956",
+                            "label": "auntGlasses",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "auntGlasses"
+                            },
+                            "x": 131,
+                            "y": 276,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8b517bbb-5248-4bfb-a7de-39b6a85c760d",
+                            "label": "auntGlasses_hover",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "auntGlasses-hover"
+                            },
+                            "x": 131,
+                            "y": 276,
+                            "angle": -1,
+                            "visible": false
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a651bda9-72a9-4773-9375-9952859093fb",
+                            "label": "rectangle_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.showGlasses();",
+                            "SimpleButton.hoverOutCallback": "() => this.hideGlasses();",
+                            "x": 128,
+                            "y": 271,
+                            "scaleX": 1.0329503104240945,
+                            "scaleY": 0.9182307927724198,
+                            "angle": -1,
+                            "alpha": 0.1,
+                            "isFilled": true,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2ca48950-dac8-4611-9fa7-2152f11aa6f1",
+                            "label": "regular_feature_advice",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "regular_feature_advice"
+                            },
+                            "x": 721,
+                            "y": 144,
+                            "angle": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "49db8ace-ed74-4e90-829b-c5bf3986cd7c",
+                    "label": "page3",
+                    "components": [],
+                    "x": 17,
+                    "y": -34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "caf444bc-59ff-4b6b-a5a6-dac4e096e4bd",
+                            "label": "conent_news_1",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "conent_news"
+                            },
+                            "x": 751,
+                            "y": 490,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4f5ac9a0-2705-4e54-a5d4-b234690fdae8",
+                            "label": "featured_story_2",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "featured_story_2"
+                            },
+                            "x": 721,
+                            "y": 144,
+                            "angle": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "166c2071-f238-4dc1-9b7f-890ac355241e",
+                    "label": "page2",
+                    "components": [],
+                    "x": 18,
+                    "y": -34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "5caedc64-e8f1-4e41-be1c-344e6f64d86f",
+                            "label": "conent_news",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "conent_news"
+                            },
+                            "x": 750,
+                            "y": 490,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0209e6eb-a913-4c32-93de-994ff2b2328c",
+                            "label": "featured_story",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "featured_story"
+                            },
+                            "x": 721,
+                            "y": 144,
+                            "angle": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5fb5a3c7-21a0-424d-89c6-5f84f56e59af",
+                    "label": "page1",
+                    "components": [],
+                    "x": -1,
+                    "y": -13,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "a147e49a-fb00-4768-b613-f7ed2bd812c2",
+                            "label": "cover",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "cover"
+                            },
+                            "x": 771,
+                            "y": 481,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1bcc5568-1732-4056-a9cc-d54d4bc53fae",
+                            "label": "shadow2",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "shadow2"
+                            },
+                            "x": 770,
+                            "y": 841,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "789424f9-c6cc-4b06-8e2e-8b023ead50b0",
+                            "label": "shadow1",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "shadow1"
+                            },
+                            "x": 765,
+                            "y": 494
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2ab1d15f-ba26-4741-87b6-fd864e891bf9",
+                            "label": "title",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "title"
+                            },
+                            "x": 789,
+                            "y": 160,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "88fca4ff-3fc4-4474-8ae4-1f285be23b23",
+                            "label": "weneedyou",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "weneedyou",
+                            "Button.callback": "() => this.showPage(8)",
+                            "Button.activeFrame": false,
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "weneedyou"
+                            },
+                            "x": 268,
+                            "y": 165,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "52388809-946c-4c88-bf11-0907499d1f7a",
+                            "label": "subtitle",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "subtitle"
+                            },
+                            "x": 760,
+                            "y": 242,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "010cfef4-ce6b-4b6f-b83e-54c2075b9b1e",
+                            "label": "header_buttons",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "header-buttons"
+                            },
+                            "x": 729,
+                            "y": 374,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "00738ab7-8b5e-4533-ad4b-f217e2bd167c",
+                            "label": "inside",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "inside"
+                            },
+                            "x": 311,
+                            "y": 659,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b5eaee8a-a2cc-4476-8e1c-4ca2fbde7b26",
+                            "label": "indexAunt",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "indexAunt",
+                            "Button.callback": "() => this.showPage(3)",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "indexAunt"
+                            },
+                            "x": 311,
+                            "y": 569,
+                            "scaleX": 0.77,
+                            "scaleY": 0.8,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fb1197b3-0277-47fe-a029-00e665f92542",
+                            "label": "indexSecret",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "indexSecret",
+                            "Button.callback": "() => this.showPage(4)",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "indexSecret"
+                            },
+                            "x": 312,
+                            "y": 605,
+                            "scaleX": 0.77,
+                            "scaleY": 0.8,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b71ba2f2-b3e1-4983-8fd9-850f0b136659",
+                            "label": "indexJokes",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "indexJokes",
+                            "Button.callback": "() => this.showPage(5)",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "indexJokes"
+                            },
+                            "x": 312,
+                            "y": 642,
+                            "scaleX": 0.77,
+                            "scaleY": 0.8,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "28b964f0-c00a-4c8a-a058-0ad9549279fd",
+                            "label": "indexArt",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "indexArt",
+                            "Button.callback": "() => this.showPage(6)",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "indexArt"
+                            },
+                            "x": 314,
+                            "y": 712,
+                            "scaleX": 0.78,
+                            "scaleY": 0.8,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "aa67a2eb-7efb-4577-b62f-7509796e9f82",
+                            "label": "indexEvents",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "indexEvents",
+                            "Button.callback": "() => this.showPage(7)",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "indexEvents"
+                            },
+                            "x": 317,
+                            "y": 785,
+                            "scaleX": 0.78,
+                            "scaleY": 0.8,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f5a68b1c-ce36-4b9a-be14-bd580e5c1cd0",
+                            "label": "indexPuzzle",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "indexPuzzle",
+                            "Button.callback": "() => this.showPage(6)",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "indexPuzzle"
+                            },
+                            "x": 315,
+                            "y": 749,
+                            "scaleX": 0.78,
+                            "scaleY": 0.8,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a127494b-ee79-4848-a1d4-cf1ddf80168b",
+                            "label": "indexPoetry",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "indexPoetry",
+                            "Button.callback": "() => this.showPage(5)",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "indexPoetry"
+                            },
+                            "x": 314,
+                            "y": 677,
+                            "scaleX": 0.78,
+                            "scaleY": 0.8,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "85bda171-fb65-420f-82ad-03f2ce41e45f",
+                            "label": "main_hero",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "main-hero"
+                            },
+                            "x": 871,
+                            "y": 659,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "066a1888-a096-4d10-b833-3ab546237543",
+                            "label": "topRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "topRight",
+                            "Button.callback": "() => this.close()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "topRight"
+                            },
+                            "x": 1280,
+                            "y": 178
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c02d540e-184c-472b-bd40-fd7dc24984b6",
+                            "label": "seemore",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "seemore"
+                            },
+                            "x": 1203,
+                            "y": 845,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cafd8402-5753-481e-8fb2-66fb26de16d1",
+                            "label": "seemore_hover",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "seemore-hover"
+                            },
+                            "x": 1207,
+                            "y": 846,
+                            "angle": -1,
+                            "originX": 0.516867528118305,
+                            "originY": 0.5029258363410065,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "1d48cdca-0bae-429c-9c24-621879d2e6aa",
+                            "label": "arrow0001",
+                            "scope": "CLASS",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "arrow",
+                            "Animation.end": 9,
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "arrow0001"
+                            },
+                            "x": 1287,
+                            "y": 845,
+                            "visible": false
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "abf4618c-5216-4ee2-b835-8a3a6ad983a7",
+                            "label": "rectangle_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.seeMore();",
+                            "SimpleButton.hoverOutCallback": "() => this.seeLess();",
+                            "SimpleButton.callback": "() => this.nextPage();",
+                            "x": 1202,
+                            "y": 845,
+                            "scaleX": 1.7195943572602626,
+                            "scaleY": 0.2553464950419123,
+                            "angle": -1,
+                            "alpha": 0.01,
+                            "isFilled": true,
+                            "width": 128,
+                            "height": 128
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "1d5e84ab-1f85-4e82-8182-9942ee10d38b",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 17,
+                    "y": -34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "950ab68c-ab53-4487-9ea3-d492b0735d2c",
+                            "label": "bottomRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "bottomRight",
+                            "Button.callback": "() => this.nextPage();",
+                            "Button.activeFrame": false,
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "bottomRight"
+                            },
+                            "x": 1387,
+                            "y": 780
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f6e699e0-c1db-4dab-aa44-161a7bcf4932",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 1439,
+                            "y": 1216,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCComiccrazy",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d723bcbe-716f-4403-bf33-5bc8e22cefd6",
+                            "label": "bottomLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "bottomLeft",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "bottomLeft"
+                            },
+                            "x": 87,
+                            "y": 805
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f24cd5b2-1ae7-4b61-9d6e-fe62676d7665",
+                            "label": "topRight_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "topRight",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "newspaper",
+                                "frame": "topRight"
+                            },
+                            "x": 1376,
+                            "y": 184
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "9ae4612c-cb42-4b2f-a2e5-4c598bd8e490",
+            "label": "pages",
+            "objectIds": [
+                "5fb5a3c7-21a0-424d-89c6-5f84f56e59af",
+                "166c2071-f238-4dc1-9b7f-890ac355241e",
+                "49db8ace-ed74-4e90-829b-c5bf3986cd7c",
+                "391ccaed-6330-4178-a8d3-72db51c02abb",
+                "dd877c2f-c375-4ff9-902a-f77bccccb13f",
+                "ec0a4f35-e88f-427e-961e-1662181b69a2",
+                "c9a2ce5c-6916-4228-a574-876a4bde6a8c",
+                "bedae1c1-9ac4-43b7-ac56-f26bba9f5f7b",
+                "fed728f3-1f29-426d-8b3e-3dd7facccd7a"
+            ]
+        }
+    ]
+}

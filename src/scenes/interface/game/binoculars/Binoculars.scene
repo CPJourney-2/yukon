@@ -1,0 +1,224 @@
+{
+    "id": "30aaaeb4-981d-477e-8c2d-5e70354fbb71",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "be8a0767-07ca-4e60-90e1-7dc459a718be",
+            "label": "container_1",
+            "x": 441,
+            "y": 406,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "0e11d5cc-49ae-49a1-bd35-1940bb746a29",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 322,
+                    "y": 63,
+                    "scaleX": 12.858944958430353,
+                    "scaleY": 8.469006608790183,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "c2ccc9e6-f374-4136-98ea-7e5efbe680b6",
+                    "label": "bg",
+                    "texture": {
+                        "key": "binoculars-cove",
+                        "frame": "excellentart"
+                    },
+                    "x": 292,
+                    "y": 51
+                },
+                {
+                    "type": "Sprite",
+                    "id": "72c9fd09-4932-4046-8172-0280e238815d",
+                    "label": "binocularwaves",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "binocularwaves",
+                    "Animation.end": 72,
+                    "texture": {
+                        "key": "binoculars-cove",
+                        "frame": "binocularwaves0001"
+                    },
+                    "x": 396,
+                    "y": 30
+                },
+                {
+                    "type": "Container",
+                    "id": "cced4ad4-27f9-419a-8955-dd1d80c0573c",
+                    "label": "voyager",
+                    "scope": "CLASS",
+                    "x": 278,
+                    "y": 80,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "5905018d-75f6-4c86-92b6-a45c7894d297",
+                            "label": "voyager_come_close",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "binoculars_voyager",
+                                "frame": "voyager-come-close"
+                            },
+                            "x": 38,
+                            "y": -165,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "372cb7d7-fb2b-4917-89bf-2f1ae2974a9a",
+                            "label": "voyager_come_far",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "binoculars_voyager",
+                                "frame": "voyager-come-far"
+                            },
+                            "x": 38,
+                            "y": -136,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ef0984e4-8559-48bf-823a-febc957bbf82",
+                            "label": "voyager_leave_close",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "binoculars_voyager",
+                                "frame": "voyager-leave-close"
+                            },
+                            "x": 38,
+                            "y": -169,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "646982cd-d6ca-4a60-86b1-642eb9ab9d4e",
+                            "label": "voyager_leave_far",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "binoculars_voyager",
+                                "frame": "voyager-leave-far"
+                            },
+                            "x": 38,
+                            "y": -155,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5,
+                            "visible": false
+                        }
+                    ]
+                },
+                {
+                    "type": "Sprite",
+                    "id": "22dca37b-815c-469c-b815-85408a44a825",
+                    "label": "anim_bino",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "binoculars-cove",
+                        "frame": "anim_bino0001"
+                    },
+                    "x": 558,
+                    "y": 193
+                },
+                {
+                    "type": "Sprite",
+                    "id": "4e7c6bdf-afc1-4a43-8520-a68f0378046b",
+                    "label": "anim_fish_gold",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation",
+                        "SimpleButton"
+                    ],
+                    "Animation.key": "fish",
+                    "Animation.start": 176,
+                    "Animation.end": 129,
+                    "Animation.repeat": 0,
+                    "SimpleButton.callback": "() => {this.onClick()}",
+                    "texture": {
+                        "key": "binoculars-cove",
+                        "frame": "anim_bino0176"
+                    },
+                    "x": 558,
+                    "y": 193
+                },
+                {
+                    "type": "Image",
+                    "id": "6ede9bd7-84a9-4b4c-977b-07373f04ea32",
+                    "label": "voyager_leave_close_1",
+                    "texture": {
+                        "key": "binoculars_voyager",
+                        "frame": "voyager-leave-close"
+                    },
+                    "x": 320,
+                    "y": -4
+                },
+                {
+                    "type": "Image",
+                    "id": "99ca4cc9-227b-49d7-abff-38f34aab5f3f",
+                    "label": "fg",
+                    "texture": {
+                        "key": "binoculars-cove",
+                        "frame": "blackspace"
+                    },
+                    "x": 320,
+                    "y": 74
+                },
+                {
+                    "type": "Sprite",
+                    "id": "a97ad8a3-017f-445f-b59a-ba010bae95e1",
+                    "label": "close",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.hide()",
+                    "Button.activeFrame": true,
+                    "Button.pixelPerfect": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 956,
+                    "y": -308
+                },
+                {
+                    "type": "Image",
+                    "id": "80f32dc3-5ef2-484b-9692-07f4d8901300",
+                    "label": "grey_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 956,
+                    "y": -310
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

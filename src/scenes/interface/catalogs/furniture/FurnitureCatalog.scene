@@ -1,0 +1,2001 @@
+{
+    "id": "d2233b35-086a-49a1-97c5-3746ca071ad5",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "5f412ea8-5b94-4496-99e0-8a0a36950046",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "29fbb81c-4818-434d-b91b-fecff811bb92",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "9ab35fc8-d06b-40f5-9d4a-04b7d1c43914",
+                    "label": "page11",
+                    "x": 1,
+                    "y": 6,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "e9b23d95-dae9-43ce-8362-cae315797e91",
+                            "label": "p13",
+                            "texture": {
+                                "key": "decemberfurniture",
+                                "frame": "decpg1111"
+                            },
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a415f38d-c981-4d4b-8afe-1a384db212a5",
+                            "label": "pageLeft_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "x": 492,
+                            "y": 590,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a5db0374-63e4-438e-a0c5-c50550e5a697",
+                            "label": "closeLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 491,
+                            "y": 39,
+                            "originX": 0,
+                            "originY": 0,
+                            "flipX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b9177a2c-f429-4916-b500-85dc3b7b8495",
+                    "label": "page10",
+                    "x": 1,
+                    "y": 5,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9b41974f-5c1a-4f8f-8981-6368f524698c",
+                            "label": "pg4nov",
+                            "texture": {
+                                "key": "novemberfurniture",
+                                "frame": "page4"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "d0254681-9ff2-4e8a-9aff-d8b38a534e7e",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_38",
+                            "item": 43,
+                            "itemType": "Furniture",
+                            "x": 591,
+                            "y": 122
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "e21ebf96-9d85-4139-89e9-6cddb860fedf",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_39",
+                            "item": 378,
+                            "itemType": "Furniture",
+                            "x": 291,
+                            "y": 645
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "f5936050-6cfa-4f72-8e94-7c39a7ef3487",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_40",
+                            "item": 377,
+                            "itemType": "Furniture",
+                            "x": 548,
+                            "y": 644
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "f91063ea-01d4-4347-95d9-58d544f83730",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_41",
+                            "item": 154,
+                            "itemType": "Furniture",
+                            "x": 852,
+                            "y": 268
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "99566619-9106-474d-b358-d6ff9ab23ca4",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_42",
+                            "item": 654,
+                            "itemType": "Furniture",
+                            "x": 1127,
+                            "y": 246
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "68d10422-14e5-421d-8b11-abf87bbc2682",
+                            "label": "rectangle",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(143);",
+                            "x": 419,
+                            "y": 210,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "2a5e7841-f114-4364-960b-bbc0192a12a2",
+                            "label": "rectangle_10",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(184);",
+                            "x": 907.2708740234375,
+                            "y": 570.980224609375,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "5bc38eab-aa32-4434-8571-1d6de45a85c7",
+                            "label": "rectangle_11",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(629);",
+                            "x": 1177.494140625,
+                            "y": 392.3580627441406,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "0ae43b48-f3bb-46e0-8994-39dd2197d02f",
+                            "label": "rectangle_12",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(758);",
+                            "x": 346.97747802734375,
+                            "y": 410.67828369140625,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f61ce18d-2067-42f7-be86-f96c3a51e8b7",
+                            "label": "clearancetwo_10",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-clearance"
+                            },
+                            "x": 454,
+                            "y": 128
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4ec0c041-5d84-4e22-a3dd-6f71ef4a0544",
+                            "label": "clearancetwo_11",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-clearance"
+                            },
+                            "x": 1044,
+                            "y": 769
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "aefde340-a9fc-4015-9f0e-04909317f900",
+                    "label": "page9",
+                    "x": 1,
+                    "y": 5,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b7a25a0b-91c0-468b-bf0b-683a86c8db41",
+                            "label": "pg3nov",
+                            "texture": {
+                                "key": "novemberfurniture",
+                                "frame": "page3"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "f6a42bc8-e7dc-4ec1-a80a-de2c0c12f304",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_34",
+                            "item": 653,
+                            "itemType": "Furniture",
+                            "x": 562,
+                            "y": 297
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "6060c73e-945d-4603-8276-e2e59494ff05",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_35",
+                            "item": 651,
+                            "itemType": "Furniture",
+                            "x": 1094,
+                            "y": 277
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "5cfa43e6-7568-4a20-a7b2-00254382b832",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_36",
+                            "item": 652,
+                            "itemType": "Furniture",
+                            "x": 1091,
+                            "y": 654
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "3547338b-8a13-470a-9a78-ac0784e6e98d",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_37",
+                            "item": 650,
+                            "itemType": "Furniture",
+                            "x": 297,
+                            "y": 658
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "333b7ba8-919a-4096-9d04-0553d51d75d2",
+                            "label": "rectangle_7",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(435);",
+                            "x": 406.5181884765625,
+                            "y": 114.50138092041016,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "de9fcca8-6e85-4e31-84cc-88c1dfaf6742",
+                            "label": "rectangle_8",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(47);",
+                            "x": 911.8509521484375,
+                            "y": 207.62918090820312,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "690e88da-5d5d-41ae-9062-a2738e1e240d",
+                            "label": "rectangle_9",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(46);",
+                            "x": 546.9732055664062,
+                            "y": 662.5813598632812,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "d93f1934-c679-464f-8c98-044e0d586f29",
+                            "label": "rectangle_13",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(628);",
+                            "x": 939,
+                            "y": 634,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7b6f67fe-0313-47d5-a1db-72c4512f3978",
+                            "label": "clearancetwo_12",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-clearance"
+                            },
+                            "x": 454,
+                            "y": 128
+                        },
+                        {
+                            "type": "Image",
+                            "id": "404e54e3-bc4f-42f2-9072-cf28d128aa57",
+                            "label": "clearancetwo_13",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-clearance"
+                            },
+                            "x": 1044,
+                            "y": 769
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "368c999f-c836-4daa-a5d0-85d71359e826",
+                    "label": "page8",
+                    "x": 1,
+                    "y": 5,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "5bc5f248-e4e4-4ae4-83eb-6c8c1d6be303",
+                            "label": "pg2nov",
+                            "texture": {
+                                "key": "novemberfurniture",
+                                "frame": "page2"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "d82edcee-88ce-493f-9603-4cbe99e99166",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_27",
+                            "item": 280,
+                            "itemType": "Furniture",
+                            "x": 515,
+                            "y": 191
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "b7f29844-c9a1-4ab5-b5f0-47207476ef8b",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_28",
+                            "item": 282,
+                            "itemType": "Furniture",
+                            "x": 328,
+                            "y": 426
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "f7d703f9-437c-4bae-a5c3-50540dcceb4c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_29",
+                            "item": 52,
+                            "itemType": "Furniture",
+                            "x": 522,
+                            "y": 663
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "9d0570c9-3079-400f-a5de-f9f408be7ef8",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_30",
+                            "item": 56,
+                            "itemType": "Furniture",
+                            "x": 1123,
+                            "y": 113
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "f0279a5d-b1ad-45ee-a4d2-2341df665a6f",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "scaleX",
+                                "scaleY",
+                                "itemType"
+                            ],
+                            "label": "buyButton_31",
+                            "item": 55,
+                            "itemType": "Furniture",
+                            "x": 976,
+                            "y": 277,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "94591748-475d-43e6-8077-96d20b7d7c01",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_32",
+                            "item": 51,
+                            "itemType": "Furniture",
+                            "x": 1116,
+                            "y": 667
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "c912be9d-cc85-4612-9c3d-39c26a72c3f5",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_33",
+                            "item": 486,
+                            "itemType": "Furniture",
+                            "x": 852,
+                            "y": 668
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "8df8e6b1-e108-4eb5-b1d5-4896e85bc12b",
+                            "label": "rectangle_4",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(627);",
+                            "x": 918,
+                            "y": 452,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a421f432-af00-4db3-9d77-17167582cfb7",
+                            "label": "rectangle_5",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(105);",
+                            "x": 646,
+                            "y": 368,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "f4a48bcf-07cd-43d4-814b-19c1f2028577",
+                            "label": "rectangle_6",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(561);",
+                            "x": 407,
+                            "y": 159,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b61af050-ceec-4d4d-bfa8-d3b0bb2546bf",
+                            "label": "rectangle_32",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(57);",
+                            "x": 1166.807373046875,
+                            "y": 256.48309326171875,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Image",
+                            "id": "eb211c8b-340e-4cfc-ad7f-9723d009b156",
+                            "label": "clearancetwo_14",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-clearance"
+                            },
+                            "x": 454,
+                            "y": 769
+                        },
+                        {
+                            "type": "Image",
+                            "id": "69c46952-6b71-4bb7-8fb4-31d3f8c767c4",
+                            "label": "clearancetwo_15",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-clearance"
+                            },
+                            "x": 1044,
+                            "y": 769
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "0967eea6-c0f0-4f16-8ac9-814a2b3bf737",
+                    "label": "page7",
+                    "x": 1,
+                    "y": 5,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "2333c30b-b268-4973-9f98-88353621fc7b",
+                            "label": "pg11nov",
+                            "texture": {
+                                "key": "novemberfurniture",
+                                "frame": "page1"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "304bd78c-7994-4d97-9d56-08d02a20431d",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_223",
+                            "item": 480,
+                            "itemType": "Furniture",
+                            "x": 284,
+                            "y": 526
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "dec8b47e-0092-473e-b4db-8fa7f9084c1e",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_213",
+                            "item": 481,
+                            "itemType": "Furniture",
+                            "x": 560,
+                            "y": 529
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "330b6fdd-9f87-4554-8f7a-43ed6911f251",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_233",
+                            "item": 53,
+                            "itemType": "Furniture",
+                            "x": 596,
+                            "y": 670
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "3bc6bbae-55fc-4c74-a4e9-df4c8ffb0a3a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_243",
+                            "item": 484,
+                            "itemType": "Furniture",
+                            "x": 1041,
+                            "y": 648
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "479907dc-967c-4df6-be2e-8958f98e85fe",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_253",
+                            "item": 483,
+                            "itemType": "Furniture",
+                            "x": 859,
+                            "y": 436
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "f6435a88-1513-4c78-a4cd-435f0f0ea52a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_2633",
+                            "item": 482,
+                            "itemType": "Furniture",
+                            "x": 1127,
+                            "y": 431
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "7005b037-752e-4782-aa87-498dea55808e",
+                            "label": "rectangle_133",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(434);",
+                            "x": 1188,
+                            "y": 222,
+                            "width": 120,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "60bb8000-6faf-41b7-88e0-24217dea0a13",
+                            "label": "rectangle_233",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(626);",
+                            "x": 869,
+                            "y": 605,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "04d4ea7e-c9d5-4fe7-bd91-eea55275ef05",
+                            "label": "rectangle_333",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(132);",
+                            "x": 476,
+                            "y": 194,
+                            "width": 300,
+                            "height": 80
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "c8386c45-0635-4ff8-8202-cddc7b2425bb",
+                            "label": "rectangle_3333",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(365);",
+                            "x": 350.84893798828125,
+                            "y": 664.8892211914062,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f410a714-c53a-41cf-ada5-688f1c8bf212",
+                            "label": "clearancetwo_1733",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-clearance"
+                            },
+                            "x": 1044,
+                            "y": 769
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "1ea4117f-9dcf-4b04-be01-02c74bf23de8",
+                    "label": "page6",
+                    "x": 1,
+                    "y": 5,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "1283c35e-ace3-4941-9280-f83f8bb45f20",
+                            "label": "pg6dec",
+                            "texture": {
+                                "key": "decemberfurniture",
+                                "frame": "decpgindoor"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "404e56ba-dbc7-4866-a018-f9411125579f",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_6_1",
+                            "item": 658,
+                            "itemType": "Furniture",
+                            "x": 276,
+                            "y": 642
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "33c1e871-27d2-4d53-9918-92e679487bda",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_6_2",
+                            "item": 475,
+                            "itemType": "Furniture",
+                            "x": 557,
+                            "y": 642
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "0d8ff4ae-df32-4274-9fb7-361369626185",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_6_3",
+                            "item": 136,
+                            "itemType": "Furniture",
+                            "x": 1068,
+                            "y": 642
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "deff7dd9-0a7d-48e2-afc8-2256765d8a1a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_6_4",
+                            "item": 659,
+                            "itemType": "Furniture",
+                            "x": 852,
+                            "y": 350
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "08cd0b1a-31d8-4fb9-8e4c-43ecfedb930b",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_6_5",
+                            "item": 657,
+                            "itemType": "Furniture",
+                            "x": 1128,
+                            "y": 350
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "ac27d069-c827-43ac-b41d-7d2e4b539fb5",
+                            "label": "dec_6_secret_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(161);",
+                            "x": 475,
+                            "y": 617,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "e75e05c1-216a-4b8c-aab1-5efdf1f2ec21",
+                            "label": "dec_6_secret_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(565);",
+                            "x": 628,
+                            "y": 105,
+                            "width": 70,
+                            "height": 69
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "524e4258-7438-4874-8048-f031027ff51c",
+                            "label": "dec_6_secret",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(596);",
+                            "x": 371,
+                            "y": 217,
+                            "width": 70,
+                            "height": 69
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b494e176-a6b4-46e1-968b-b04ed1679ced",
+                            "label": "dec_6_secret_3",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(472);",
+                            "x": 1187,
+                            "y": 223,
+                            "width": 41,
+                            "height": 57
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "4fb9fd4a-e9a8-4eab-aaa4-78b0759b0138",
+                            "label": "dec_6_secret_4",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(927);",
+                            "x": 1233,
+                            "y": 98,
+                            "width": 19,
+                            "height": 38
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "eedb754a-b572-49de-a170-da9ef118d3d2",
+                            "label": "dec_6_secret_5",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(928);",
+                            "x": 1200,
+                            "y": 71,
+                            "width": 19,
+                            "height": 38
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "1b29d8c7-8141-44e7-b56d-3016c8627dfa",
+                            "label": "dec_6_secret_6",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(474);",
+                            "x": 907,
+                            "y": 289,
+                            "width": 105,
+                            "height": 38
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "95e0adfb-8871-4cf6-92fd-c704f8ebc101",
+                            "label": "dec_6_secret_7",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(804);",
+                            "x": 917,
+                            "y": 678,
+                            "width": 105,
+                            "height": 38
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b2ed12b8-3848-42c2-924f-8c575a412753",
+                    "label": "page5",
+                    "x": 1,
+                    "y": 5,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "a56d86cc-200d-44db-a96a-00d3a3f6a86b",
+                            "label": "pg5dec",
+                            "texture": {
+                                "key": "decemberfurniture",
+                                "frame": "decpgoutdoor"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "c0c44307-56a6-4d3c-a6c1-1a09c23a37fc",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_5_1",
+                            "item": 471,
+                            "itemType": "Furniture",
+                            "x": 300,
+                            "y": 654
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "7bc0923e-3c3e-4c8d-b815-bfbc90ecb570",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_5_2",
+                            "item": 660,
+                            "itemType": "Furniture",
+                            "x": 524,
+                            "y": 328
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "a7be1f2d-22cb-44d2-a65b-f909cd688e39",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_5_3",
+                            "item": 655,
+                            "itemType": "Furniture",
+                            "x": 1144,
+                            "y": 285
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "91cbaf70-d05c-43ba-ad61-401d12904f2c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_5_4",
+                            "item": 656,
+                            "itemType": "Furniture",
+                            "x": 847,
+                            "y": 615
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "8905006d-9ccd-4f66-bd15-73d0ef55a89a",
+                            "label": "dec_5_secret_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(138);",
+                            "x": 1122,
+                            "y": 628,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "aab32d93-c58e-43aa-8513-3fdf713dc2a5",
+                            "label": "dec_5_secret",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(803);",
+                            "x": 536,
+                            "y": 722,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "ff219d34-0f77-4b4a-b8e9-a9a4ff8c2cfb",
+                            "label": "dec_5_secret_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(908);",
+                            "x": 1230,
+                            "y": 96,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "88c7c4a3-2139-4fe3-a999-ece722c1ff30",
+                            "label": "dec_5_secret_3",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(805);",
+                            "x": 328,
+                            "y": 401,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "3492f4a9-de28-4df3-a70d-0de6615beae7",
+                            "label": "dec_5_secret_4",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(806);",
+                            "x": 438,
+                            "y": 187,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "e8c6b40e-c3dd-4682-b364-d5ae50c8e0ab",
+                            "label": "dec_5_secret_5",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(140);",
+                            "x": 912,
+                            "y": 541,
+                            "width": 110,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "76534c3b-b076-465b-9ceb-c9ba3bfb2ed6",
+                            "label": "dec_5_secret_6",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(331);",
+                            "x": 965,
+                            "y": 263,
+                            "width": 110,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "5b62ea78-8f4c-420b-97e8-98f86d27d60e",
+                            "label": "dec_5_secret_7",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(332);",
+                            "x": 954.0693359375,
+                            "y": 361.835693359375,
+                            "width": 110,
+                            "height": 40
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "3fa50350-96e0-43ce-83cf-b39abe70131b",
+                    "label": "page4",
+                    "x": 1,
+                    "y": 5,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "67d24a9d-8b71-4cd7-899a-7f1978f7fd17",
+                            "label": "pg4dec",
+                            "texture": {
+                                "key": "decemberfurniture",
+                                "frame": "dcpgcandy"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "84ef7e58-49d9-413f-8ca5-eafdd74ba45e",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_4_1",
+                            "item": 794,
+                            "itemType": "Furniture",
+                            "x": 518,
+                            "y": 700
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "b85c2502-c71e-4f37-bb58-82e32fb38975",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_4_2",
+                            "item": 795,
+                            "itemType": "Furniture",
+                            "x": 285,
+                            "y": 362
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "58b5f374-0b4d-4d3b-b39f-024368fb7f51",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_4_3",
+                            "item": 798,
+                            "itemType": "Furniture",
+                            "x": 542,
+                            "y": 362
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "e9291e2e-addc-4274-aeaf-004ff97d2c6f",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_4_4",
+                            "item": 800,
+                            "itemType": "Furniture",
+                            "x": 873,
+                            "y": 330
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "17c1610e-c201-48df-b293-b530b5370e47",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_4_5",
+                            "item": 797,
+                            "itemType": "Furniture",
+                            "x": 1111,
+                            "y": 330
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "06e0dda4-ad9f-44f3-81d5-4f5784829907",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_4_6",
+                            "item": 796,
+                            "itemType": "Furniture",
+                            "x": 844,
+                            "y": 694
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "38a34745-9a81-4f5a-90ed-aeb585591761",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_4_7",
+                            "item": 799,
+                            "itemType": "Furniture",
+                            "x": 1118,
+                            "y": 694
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "2b51fb73-1ac8-4aea-b137-671949cef32c",
+                            "label": "dec_4_secret_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(139);",
+                            "x": 1167,
+                            "y": 150,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "2a855214-0a5b-432e-9a40-e89f2d3db59b",
+                            "label": "dec_4_secret",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(260);",
+                            "x": 604,
+                            "y": 219,
+                            "width": 40,
+                            "height": 77
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "6cba6225-5e95-4dfa-8a57-ecf14d00c7fd",
+                            "label": "dec_4_secret_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(661);",
+                            "x": 577,
+                            "y": 641,
+                            "width": 40,
+                            "height": 77
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "256fb145-de0b-4c4f-b06a-3bc2eac5f399",
+                            "label": "dec_4_secret_3",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(2135);",
+                            "x": 358.6777648925781,
+                            "y": 638.6266479492188,
+                            "width": 40,
+                            "height": 77
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "9f6b9fec-ab91-45a1-a0bf-877187d4a223",
+                            "label": "dec_4_secret_4",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(470);",
+                            "x": 1040,
+                            "y": 590,
+                            "width": 40,
+                            "height": 77
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a9ebdc00-bbdc-46b3-a335-64ca9659c12c",
+                            "label": "dec_4_secret_5",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(330);",
+                            "x": 338.36834716796875,
+                            "y": 165.51527404785156,
+                            "width": 110,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "797c5e8e-3b65-4082-8aca-ae226b07fcc9",
+                            "label": "dec_4_secret_6",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(333);",
+                            "x": 920.5567016601562,
+                            "y": 134.81393432617188,
+                            "width": 47,
+                            "height": 43
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "51728f62-9788-462a-96fc-ccd16e8895a2",
+                            "label": "dec_4_secret_7",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(94);",
+                            "x": 909,
+                            "y": 300,
+                            "width": 47,
+                            "height": 43
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d0dca9a8-bcb6-43c9-9cb9-89ced50bc752",
+                    "label": "page3",
+                    "x": 1,
+                    "y": 5,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "66c98a02-ceed-4959-8bd2-190cfefe13f2",
+                            "label": "pg3dec",
+                            "texture": {
+                                "key": "decemberfurniture",
+                                "frame": "decpgsnowman"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "3b3a6545-1081-4a22-9c01-264f61050839",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_3_1",
+                            "item": 588,
+                            "itemType": "Furniture",
+                            "x": 511,
+                            "y": 653
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "8a278b67-16ab-4523-a5be-1bf7058fc724",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_3_2",
+                            "item": 587,
+                            "itemType": "Furniture",
+                            "x": 290,
+                            "y": 292
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "33751c7f-aa07-43ec-9f7d-1c0a2b181097",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_3_3",
+                            "item": 586,
+                            "itemType": "Furniture",
+                            "x": 868,
+                            "y": 247
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "f95063ea-57a4-4c59-8a1a-08d20f2fb884",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_3_4",
+                            "item": 589,
+                            "itemType": "Furniture",
+                            "x": 832,
+                            "y": 464
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "772f96f0-df5a-4413-92fc-bc0085ee8cc4",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_3_5",
+                            "item": 590,
+                            "itemType": "Furniture",
+                            "x": 1074,
+                            "y": 684
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "aecd9fe9-79bc-4227-814d-5ab730db4a9d",
+                            "label": "dec_3_secret_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(134);",
+                            "x": 1057,
+                            "y": 469,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "e3601726-36e3-42eb-a127-18dbcfe3f023",
+                            "label": "dec_3_secret_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(802);",
+                            "x": 530,
+                            "y": 161,
+                            "width": 65,
+                            "height": 61
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "76e2199d-97b3-419c-9f65-42dea216aa4b",
+                            "label": "dec_3_secret",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(473);",
+                            "x": 348,
+                            "y": 525,
+                            "width": 65,
+                            "height": 61
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "635c8d98-1c94-47a8-b566-0155e5f62689",
+                            "label": "dec_3_secret_3",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(137);",
+                            "x": 598,
+                            "y": 471,
+                            "width": 65,
+                            "height": 61
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b498a4a9-852a-442e-91bd-9e78e8d63931",
+                            "label": "dec_3_secret_4",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(96);",
+                            "x": 1133.4619140625,
+                            "y": 96.82996368408203,
+                            "width": 65,
+                            "height": 61
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a17f5a83-c99e-463d-b819-d2fbe910c781",
+                            "label": "dec_3_secret_5",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(93);",
+                            "x": 1178,
+                            "y": 260,
+                            "width": 65,
+                            "height": 61
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "8547b812-491f-489b-a7e3-f544f9263b65",
+                            "label": "dec_3_secret_6",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(97);",
+                            "x": 923,
+                            "y": 631,
+                            "width": 65,
+                            "height": 61
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "8596a5c6-e3b6-42da-b9fb-f0c3e5d680be",
+                    "label": "page2",
+                    "x": 1,
+                    "y": 5,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f77715ac-98a9-4ffa-8174-aacd61a47c7c",
+                            "label": "pg2dec_back",
+                            "texture": {
+                                "key": "decemberfurniture",
+                                "frame": "decpgitemtwo"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3ebb84fa-7442-4d0a-ade6-891ce72aae54",
+                            "label": "pg2dec",
+                            "texture": {
+                                "key": "decemberfurniture",
+                                "frame": "decpgitem"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0,
+                            "visible": false
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "e1a7850b-ef50-4119-8f68-43ade875fdd1",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType",
+                                "visible"
+                            ],
+                            "label": "dec_2_1",
+                            "useGameObjectName": true,
+                            "item": 591,
+                            "itemType": "Furniture",
+                            "x": 532,
+                            "y": 645,
+                            "visible": true
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "0512fdbb-6fd7-4d2f-91ea-49c3a622b56c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_2_2",
+                            "item": 130,
+                            "itemType": "Furniture",
+                            "x": 866,
+                            "y": 679
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "1b470965-282b-4218-8394-d87df30e92f4",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_2_3",
+                            "item": 135,
+                            "itemType": "Furniture",
+                            "x": 1040,
+                            "y": 423
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "7cc9313b-face-4b85-8a0f-248f94ec7c4b",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "dec_2_4",
+                            "item": 131,
+                            "itemType": "Furniture",
+                            "x": 881,
+                            "y": 189
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "0c2d75e9-f14d-4f78-a28e-20e60ec06daa",
+                            "label": "dec_2_secret_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(133);",
+                            "x": 1198,
+                            "y": 724,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "6cb01b43-ecfa-4e37-a0d0-7a8f78c83645",
+                            "label": "dec_2_secret",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(801);",
+                            "x": 1199,
+                            "y": 470,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "04672adb-180d-459d-8642-880a5fe4ea24",
+                            "label": "dec_2_secret_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(485);",
+                            "x": 849,
+                            "y": 588,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "c13e55e2-f06e-4083-b658-0296ee5fc03a",
+                            "label": "dec_2_secret_3",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(575);",
+                            "x": 1172,
+                            "y": 235,
+                            "width": 40,
+                            "height": 40
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "41322b90-f655-41d7-99ba-749114b2d107",
+                            "label": "dec_2_secret_4",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(566);",
+                            "x": 659,
+                            "y": 567,
+                            "width": 81,
+                            "height": 92
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "fcaed640-f197-4c8b-b640-4d28d2fa9a85",
+                            "label": "dec_2_secret_5",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(91);",
+                            "x": 889,
+                            "y": 348,
+                            "width": 46,
+                            "height": 67
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "fa3ed899-eed5-45c1-8c59-872e8b9e8668",
+                            "label": "dec_2_secret_6",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(92);",
+                            "x": 1179,
+                            "y": 235,
+                            "width": 94,
+                            "height": 67
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "ef9e752c-253a-4ec0-9409-3dd571ee3374",
+                            "label": "dec_2_secret_7",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecretFurniture(95);",
+                            "x": 316,
+                            "y": 123,
+                            "width": 94,
+                            "height": 67
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d5340b9e-a792-44ac-9ebd-660308775819",
+                    "label": "page1",
+                    "x": 1,
+                    "y": 5,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ea835e58-6cb0-4fa3-8390-a4a0d21cac8d",
+                            "label": "pgcover",
+                            "texture": {
+                                "key": "decemberfurniture",
+                                "frame": "pg0"
+                            },
+                            "x": 760,
+                            "y": 480,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2111765d-5b00-42b5-90e7-970cfecacc3c",
+                            "label": "pgcoversticky",
+                            "texture": {
+                                "key": "decemberfurniture",
+                                "frame": "pg0sticky"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2aab9158-123c-4a35-a4f8-b6124fed8c7b",
+                            "label": "pageFront",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-front",
+                            "Button.callback": "() => this.nextPage()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-front"
+                            },
+                            "x": 468,
+                            "y": 44,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "db53d1b8-ca48-4319-9173-84abbcb33486",
+                            "label": "closeRight_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 924,
+                            "y": 39,
+                            "originX": 0,
+                            "originY": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "0d5feff1-712f-4fa8-9bce-d23be326aedf",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 190,
+                    "y": 47,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ca76f8f7-4775-485b-982b-b0eb45118a66",
+                            "label": "closeRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 1012,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fc75a34f-4b43-4c25-9b1a-3ef46b68a105",
+                            "label": "pageRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-right",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-right"
+                            },
+                            "x": 1012,
+                            "y": 547,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d4adb90d-6c80-491c-84de-1ed0497602bb",
+                            "label": "pageLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "y": 549,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Text",
+                            "id": "26549d5d-6716-4bf8-b6bf-87419dbd7839",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 527,
+                            "y": 791,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "574d04ef-a7d5-4c55-963e-d98537ab9f61",
+            "label": "pages",
+            "objectIds": [
+                "d5340b9e-a792-44ac-9ebd-660308775819",
+                "8596a5c6-e3b6-42da-b9fb-f0c3e5d680be",
+                "d0dca9a8-bcb6-43c9-9cb9-89ced50bc752",
+                "3fa50350-96e0-43ce-83cf-b39abe70131b",
+                "b2ed12b8-3848-42c2-924f-8c575a412753",
+                "1ea4117f-9dcf-4b04-be01-02c74bf23de8",
+                "0967eea6-c0f0-4f16-8ac9-814a2b3bf737",
+                "368c999f-c836-4daa-a5d0-85d71359e826",
+                "aefde340-a9fc-4015-9f0e-04909317f900",
+                "b9177a2c-f429-4916-b500-85dc3b7b8495",
+                "9ab35fc8-d06b-40f5-9d4a-04b7d1c43914"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,303 @@
+{
+    "id": "d217471d-766b-4d58-8c3d-dbf2b81730fc",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/shopoffice/shopoffice-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "ShopOffice",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "bfa03b2f-3afa-4aff-bc6f-0f26893e67f7",
+            "label": "rooftopdoor",
+            "texture": {
+                "key": "shopoffice",
+                "frame": "rooftopdoor"
+            },
+            "x": 62,
+            "y": 567
+        },
+        {
+            "type": "Image",
+            "id": "c00200dc-8984-451c-b9fc-5b9cb17b326e",
+            "label": "bg",
+            "texture": {
+                "key": "shopoffice",
+                "frame": "bg"
+            },
+            "x": 772,
+            "y": 486
+        },
+        {
+            "type": "Image",
+            "id": "95780f2b-5b26-4b06-8ce9-e3b1253047e3",
+            "label": "coatrack",
+            "texture": {
+                "key": "shopoffice",
+                "frame": "coatrack"
+            },
+            "x": 475.6184924017001,
+            "y": 419.6283699559723,
+            "originX": 0.5754447558551955,
+            "originY": 0.8434037163064072
+        },
+        {
+            "type": "Image",
+            "id": "34a517a7-b8f4-4790-9be9-b532a467b572",
+            "label": "ommie",
+            "texture": {
+                "key": "shopoffice",
+                "frame": "ommie"
+            },
+            "x": 573.1701076855928,
+            "y": 422.7266617466217,
+            "originX": 0.49107642672680457,
+            "originY": 0.7827105686441944
+        },
+        {
+            "type": "Sprite",
+            "id": "7a7a113f-b725-452f-b5c1-cda694f033dc",
+            "label": "recycle",
+            "scope": "CLASS",
+            "texture": {
+                "key": "shopoffice",
+                "frame": "recycle0004"
+            },
+            "x": 641.36083984375,
+            "y": 441.6550895228872,
+            "originX": 0.41903489615540035,
+            "originY": 0.8293687158724804
+        },
+        {
+            "type": "Image",
+            "id": "2c851d58-13d9-4ed7-b762-102a347f539a",
+            "label": "desk",
+            "texture": {
+                "key": "shopoffice",
+                "frame": "desk"
+            },
+            "x": 791.8505249023438,
+            "y": 455.3551123936032,
+            "originX": 0.48501999432478066,
+            "originY": 0.8743165974156544
+        },
+        {
+            "type": "Sprite",
+            "id": "5a9b2431-d4a5-4106-98ba-7626095c3a97",
+            "label": "computerscreen",
+            "scope": "CLASS",
+            "texture": {
+                "key": "shopoffice",
+                "frame": "computerscreen0001"
+            },
+            "x": 798.5,
+            "y": 469.6960816326898,
+            "scaleX": 0.995,
+            "scaleY": 0.995,
+            "originY": 2.382062143136927
+        },
+        {
+            "type": "Image",
+            "id": "868437d5-a3c5-4414-b647-27e749606922",
+            "label": "nightstand",
+            "texture": {
+                "key": "shopoffice",
+                "frame": "nightstand"
+            },
+            "x": 1309.4686936275505,
+            "y": 551.6930445501202,
+            "originX": 0.3053623063429041,
+            "originY": 0.5670403395587159
+        },
+        {
+            "type": "Sprite",
+            "id": "ae7f8f05-6ecb-4df4-a276-b46ff6ec30af",
+            "label": "jesterhat",
+            "scope": "CLASS",
+            "texture": {
+                "key": "shopoffice",
+                "frame": "jesterhat0001"
+            },
+            "x": 1405,
+            "y": 585.7116049479986,
+            "originY": 1.8840717447924393
+        },
+        {
+            "type": "Image",
+            "id": "7965fe8a-f787-41f3-9823-47397d2d4270",
+            "label": "couch",
+            "texture": {
+                "key": "shopoffice",
+                "frame": "couch"
+            },
+            "x": 1410.5232322505356,
+            "y": 603.744107501785,
+            "originX": 0.4522218886156289,
+            "originY": 0.37905791353830837
+        },
+        {
+            "type": "Image",
+            "id": "6baa2bf3-20e6-434b-8f84-43281295fb96",
+            "label": "coucharm",
+            "texture": {
+                "key": "shopoffice",
+                "frame": "coucharm"
+            },
+            "x": 1451.658898578363,
+            "y": 772.484223280655,
+            "originX": 0.2454877039874767,
+            "originY": 0.9268919243375473
+        },
+        {
+            "type": "Image",
+            "id": "24eb7352-e7b6-477b-919a-8a118bf40b8f",
+            "label": "cornerbox",
+            "texture": {
+                "key": "shopoffice",
+                "frame": "cornerbox"
+            },
+            "x": 1498.016520905462,
+            "y": 882.8382618223292,
+            "originX": 0.3647554260985615,
+            "originY": 0.5723817649869716
+        },
+        {
+            "type": "Container",
+            "id": "f88af25d-9c5d-4549-8040-9177f2425d29",
+            "label": "deskchair",
+            "x": 570.7859819929258,
+            "y": 544.5465649320217,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "85d3c255-a0ff-4080-b376-64613035468c",
+                    "label": "chair",
+                    "texture": {
+                        "key": "shopoffice",
+                        "frame": "chair"
+                    },
+                    "x": 8.329496522699174,
+                    "y": 27.304082040634512,
+                    "originX": 0.43934981042164406,
+                    "originY": 0.36385580567621356
+                },
+                {
+                    "type": "Image",
+                    "id": "765b96ee-ea15-48cf-8d1a-8294a3a7a052",
+                    "label": "chair_back",
+                    "texture": {
+                        "key": "shopoffice",
+                        "frame": "chair_back"
+                    },
+                    "x": -3.7859819929258265,
+                    "y": -38.54656493202174
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "6df5174e-e196-44f8-bc91-c5f6c36dad55",
+            "label": "chair_arm",
+            "texture": {
+                "key": "shopoffice",
+                "frame": "chair_arm"
+            },
+            "x": 544.1365231671886,
+            "y": 563.5039055742214,
+            "originX": 0.5591791095604686,
+            "originY": 0.7234873994370731
+        },
+        {
+            "type": "Rectangle",
+            "id": "2f3ad216-76ac-451f-b521-6f93d5e18fc0",
+            "label": "goToShop",
+            "components": [
+                "MoveTo",
+                "SimpleButton"
+            ],
+            "x": 278,
+            "y": 545,
+            "angle": -8,
+            "originX": 0.29764213428248776,
+            "originY": 1.0923024246226747,
+            "width": 128,
+            "height": 250
+        },
+        {
+            "type": "Rectangle",
+            "id": "20d5791b-212c-4dff-bb81-f11b39d96672",
+            "label": "funnyHat",
+            "components": [
+                "Zone"
+            ],
+            "Zone.hoverCallback": "() => this.jesterAnim()",
+            "x": 1412,
+            "y": 444,
+            "width": 128,
+            "height": 80
+        },
+        {
+            "type": "Rectangle",
+            "id": "24bb5f87-6bf5-48c0-8981-47fe4f9874e2",
+            "label": "recycleBinButton",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.changeRecycle()",
+            "x": 643,
+            "y": 413,
+            "width": 70,
+            "height": 90
+        },
+        {
+            "type": "Rectangle",
+            "id": "ade88557-87d6-4725-9cab-c40ec2492bd4",
+            "label": "changeScreenBtn",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.changeScreen()",
+            "x": 799,
+            "y": 323,
+            "width": 95,
+            "height": 80
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "74808b14-d54a-4e8f-8e73-510aada4154f",
+            "label": "sort",
+            "objectIds": [
+                "95780f2b-5b26-4b06-8ce9-e3b1253047e3",
+                "34a517a7-b8f4-4790-9be9-b532a467b572",
+                "7a7a113f-b725-452f-b5c1-cda694f033dc",
+                "2c851d58-13d9-4ed7-b762-102a347f539a",
+                "6baa2bf3-20e6-434b-8f84-43281295fb96",
+                "868437d5-a3c5-4414-b647-27e749606922",
+                "24eb7352-e7b6-477b-919a-8a118bf40b8f",
+                "f88af25d-9c5d-4549-8040-9177f2425d29",
+                "7965fe8a-f787-41f3-9823-47397d2d4270",
+                "ae7f8f05-6ecb-4df4-a276-b46ff6ec30af",
+                "5a9b2431-d4a5-4106-98ba-7626095c3a97",
+                "6df5174e-e196-44f8-bc91-c5f6c36dad55"
+            ]
+        }
+    ]
+}

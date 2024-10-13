@@ -1,0 +1,298 @@
+{
+    "id": "ab336a96-ecdc-4b6c-ae1c-7870e60b7fe3",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "94c5d949-beac-4651-a570-be84361dbba2",
+            "label": "container_1",
+            "components": [],
+            "x": 117.5,
+            "y": 132.5,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "b4215629-6677-498a-bd58-d4f14c624e0e",
+                    "label": "container_2",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -121.08533477783203,
+                    "y": -353.5924987792969,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "2df35c1d-ddbe-4009-a011-8c59ea59a3bd",
+                            "label": "shadow_1",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "cjcard",
+                                "frame": "shadow"
+                            },
+                            "alpha": 0.4,
+                            "alphaTopLeft": 0.4,
+                            "alphaTopRight": 0.4,
+                            "alphaBottomLeft": 0.4,
+                            "alphaBottomRight": 0.4,
+                            "tintTopLeft": "#000000",
+                            "tintTopRight": "#000000",
+                            "tintBottomLeft": "#000000",
+                            "tintBottomRight": "#000000",
+                            "tintFill": true,
+                            "x": 5,
+                            "y": 242.00001525878906,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c4229c8b-9be6-4dd0-8087-ea50bde5604f",
+                            "label": "cjback",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "cjback"
+                            },
+                            "x": 119,
+                            "y": 371,
+                            "scaleY": 1.01,
+                            "visible": false
+                        },
+                        {
+                            "type": "Container",
+                            "id": "19d293d7-6de0-491b-bf51-4c785cce6243",
+                            "label": "power",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 109,
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Sprite",
+                                    "id": "93b6ed73-d8f3-4b94-926a-371a618aadff",
+                                    "label": "bubble0001",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "Animation"
+                                    ],
+                                    "Animation.end": 10,
+                                    "texture": {
+                                        "key": "cjcard",
+                                        "frame": "bubble0001"
+                                    },
+                                    "alpha": 0.7,
+                                    "alphaTopLeft": 0.7,
+                                    "alphaTopRight": 0.7,
+                                    "alphaBottomLeft": 0.7,
+                                    "alphaBottomRight": 0.7,
+                                    "x": 8,
+                                    "y": 367
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "1d0dd487-cdb5-4dba-b300-26a1333354bf",
+                                    "label": "text",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "cjcard",
+                                        "frame": "text"
+                                    },
+                                    "y": 102,
+                                    "visible": false
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "17884b5a-8005-4dd2-b46c-02b71cfe34c5",
+                                    "label": "powerdesc0001",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "cjcard",
+                                        "frame": "carddesc0001"
+                                    },
+                                    "x": 18,
+                                    "y": -4,
+                                    "visible": false
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "e057ebe1-3aad-4954-a6a3-32c61de44472",
+                                    "label": "powertext",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "y": 106,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "visible": false,
+                                    "tintTopLeft": "#000000",
+                                    "tintTopRight": "#000000",
+                                    "tintBottomLeft": "#000000",
+                                    "tintBottomRight": "#000000",
+                                    "fixedWidth": 350,
+                                    "fixedHeight": 160,
+                                    "align": "center",
+                                    "fontFamily": "CCFaceFront",
+                                    "fontSize": "30px",
+                                    "wordWrapWidth": 340,
+                                    "wordWrapUseAdvanced": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "bf02777d-6734-4a73-ac3d-4bb0b0e946c3",
+                            "label": "card",
+                            "scope": "CLASS",
+                            "components": [],
+                            "y": 236.00001525878906,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "c9da059d-d75f-4f19-bdda-e115dbca5b22",
+                                    "label": "art",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "703"
+                                    },
+                                    "x": 113,
+                                    "y": 127,
+                                    "scaleX": 1.02,
+                                    "scaleY": 1.02
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "f55e6018-7d82-4f3d-a7d2-6700d0f09c76",
+                                    "label": "border",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => {this.onCardHover()}",
+                                    "SimpleButton.hoverOutCallback": "() => {this.onCardHoverOut()}",
+                                    "SimpleButton.callback": "() => {this.onCardClick()}",
+                                    "texture": {
+                                        "key": "cjcard",
+                                        "frame": "border"
+                                    },
+                                    "originX": 0,
+                                    "originY": 0
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "05dcc436-b518-4cbf-bbd6-71c1a3c3272d",
+                                    "label": "type0001",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "cjcard",
+                                        "frame": "type0001"
+                                    },
+                                    "x": 34,
+                                    "y": 37
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "c011cddb-d05b-4e4e-b8ca-f9404bdbbb76",
+                                    "label": "back_1",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "cjcard",
+                                        "frame": "back"
+                                    },
+                                    "alpha": 0.3,
+                                    "alphaTopLeft": 0.3,
+                                    "alphaTopRight": 0.3,
+                                    "alphaBottomLeft": 0.3,
+                                    "alphaBottomRight": 0.3,
+                                    "tintTopLeft": "000",
+                                    "tintTopRight": "000",
+                                    "tintBottomLeft": "000",
+                                    "tintBottomRight": "000",
+                                    "tintFill": true,
+                                    "originX": 0,
+                                    "originY": 0,
+                                    "visible": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ec054b6c-84c4-43e4-88b7-fc324ae6c81a",
+                            "label": "text_1",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 33,
+                            "y": 331.00001525878906,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "tintTopLeft": "#000000",
+                            "tintTopRight": "#000000",
+                            "tintBottomLeft": "#000000",
+                            "tintBottomRight": "#000000",
+                            "text": "12",
+                            "align": "center",
+                            "fontFamily": "Burbank Big Regular",
+                            "fontSize": "48px",
+                            "fontStyle": "bold"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5cf78532-8c51-4993-843b-5bb4be18e213",
+                            "label": "back",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "cjcard",
+                                "frame": "back"
+                            },
+                            "y": 236.00001525878906,
+                            "originX": 0,
+                            "originY": 0,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "8c91a63f-1b88-47af-8266-ecf5184c18db",
+                            "label": "explosion_10",
+                            "scope": "CLASS",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "explosion",
+                            "Animation.end": 14,
+                            "Animation.repeat": 0,
+                            "Animation.autoPlay": false,
+                            "texture": {
+                                "key": "explosion_1",
+                                "frame": "explosion0001"
+                            },
+                            "x": 166.00000762939453,
+                            "y": 297.00001525878906,
+                            "visible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

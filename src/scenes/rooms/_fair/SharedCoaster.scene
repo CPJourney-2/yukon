@@ -1,0 +1,49 @@
+{
+    "id": "03c1e2c5-a3a8-4d2d-a4b8-4cdd167a2b9a",
+    "settings": {
+        "createMethodName": "",
+        "preloadMethodName": "",
+        "compilerOutputLanguage": "JAVA_SCRIPT",
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "autoImport": false,
+        "generateAwakeHandler": false,
+        "compilerInsertSpaces": true,
+        "compilerTabSize": 4,
+        "borderWidth": 1520,
+        "borderHeight": 960,
+        "borderX": 0,
+        "borderY": 0
+    },
+    "sceneType": "PREFAB",
+    "displayList": [
+        {
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "type": "Container",
+            "id": "f938d77b-68ce-4a34-9c8e-bd127f24af56",
+            "label": "coaster",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "56878a4e-16d1-4408-b054-145517ffb151",
+                    "label": "town_tracks",
+                    "texture": {
+                        "key": "town_tracks"
+                    },
+                    "originX": 0,
+                    "originY": 0
+                }
+            ],
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

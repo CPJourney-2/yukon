@@ -1,0 +1,50 @@
+{
+    "id": "4f50ab37-57a7-46db-b2d0-63c8135a9263",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "superClassName": "BaseImage",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "09ba6296-f43a-40f4-b82a-3675bbfbbb7e",
+            "label": "adopt",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "adopt",
+            "Button.callback": "() => this.buyPuffle(this.puffle_id)",
+            "texture": {
+                "key": "adopt",
+                "frame": "adopt"
+            },
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "puffle_id",
+            "label": "Puffle ID",
+            "tooltip": "Puffle ID",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

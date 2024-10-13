@@ -1,0 +1,483 @@
+{
+    "id": "90f95c6a-180c-466d-ad28-4cc82e8596ec",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "2c529465-d587-4faf-91dd-fb51fe023b47",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "d8e71176-e351-4858-a3f5-628bb6ff5b2f",
+                    "label": "main",
+                    "scope": "CLASS",
+                    "components": [
+                        "DraggableContainer"
+                    ],
+                    "DraggableContainer.handle": "bg",
+                    "x": -64,
+                    "y": -345,
+                    "list": [
+                        {
+                            "type": "NineSlice",
+                            "id": "90ca7151-cfea-487e-9a3f-173024262611",
+                            "label": "bg_2",
+                            "scope": "CLASS",
+                            "components": [
+                                "Interactive"
+                            ],
+                            "texture": {
+                                "key": "prompt",
+                                "frame": "window"
+                            },
+                            "x": 203,
+                            "y": 347,
+                            "tint": "",
+                            "width": 400,
+                            "height": 200,
+                            "leftWidth": 44,
+                            "rightWidth": 39,
+                            "topHeight": 40,
+                            "bottomHeight": 41
+                        },
+                        {
+                            "type": "NineSlice",
+                            "id": "c7d42085-d50f-46cf-b447-46dbf69b3901",
+                            "label": "bg_1",
+                            "scope": "CLASS",
+                            "components": [
+                                "Interactive"
+                            ],
+                            "texture": {
+                                "key": "prompt",
+                                "frame": "window"
+                            },
+                            "x": -121,
+                            "y": 148,
+                            "tint": "",
+                            "width": 300,
+                            "height": 410,
+                            "leftWidth": 44,
+                            "rightWidth": 39,
+                            "topHeight": 40,
+                            "bottomHeight": 41
+                        },
+                        {
+                            "type": "NineSlice",
+                            "id": "622b5587-0f38-439c-9c29-0e3fb6167761",
+                            "label": "bg",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "prompt",
+                                "frame": "window"
+                            },
+                            "x": 227,
+                            "y": 150,
+                            "tint": "#7d7d7d",
+                            "width": 500,
+                            "height": 410,
+                            "leftWidth": 44,
+                            "rightWidth": 39,
+                            "topHeight": 40,
+                            "bottomHeight": 41
+                        },
+                        {
+                            "type": "Text",
+                            "id": "d0ed5bc5-39b4-43e2-865e-2d3afc4ab7ed",
+                            "label": "scriptsForTitle",
+                            "scope": "CLASS",
+                            "x": -2,
+                            "y": -20,
+                            "text": "SCRIPTS FOR ROCKHOPPERRRR",
+                            "fontFamily": "Arial",
+                            "fontSize": "23px",
+                            "fontStyle": "bold",
+                            "color": "#e2e2e2ff"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fe5c8106-0e81-4f17-9f1e-b625e7accc19",
+                            "label": "x_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.scriptsListController.scrollUp()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 435,
+                            "y": 36,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "16e6feb2-d38f-4625-9032-e37e650820ce",
+                            "label": "x_button_3",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => { this.visible = false }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-x"
+                            },
+                            "x": 433,
+                            "y": -6
+                        },
+                        {
+                            "type": "Container",
+                            "id": "f8479505-89b8-4faf-a7a8-4b283ae49fb0",
+                            "label": "dialogueItems",
+                            "scope": "CLASS",
+                            "x": 2,
+                            "y": 29,
+                            "list": [
+                                {
+                                    "prefabId": "7c13c387-f046-4128-b8f9-306b0d309581",
+                                    "id": "2922548d-b054-43e1-9e79-75ec4f3440a5",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "dialogueItem1",
+                                    "scope": "CLASS",
+                                    "x": 0,
+                                    "y": 1
+                                },
+                                {
+                                    "prefabId": "7c13c387-f046-4128-b8f9-306b0d309581",
+                                    "id": "2f64f8be-8d7e-41f3-be5d-af026d3ffb3d",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "dialogueItem2",
+                                    "scope": "CLASS",
+                                    "x": 0,
+                                    "y": 64
+                                },
+                                {
+                                    "prefabId": "7c13c387-f046-4128-b8f9-306b0d309581",
+                                    "id": "5e946e74-b3af-429b-a797-044da9d1accf",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "dialogueItem3",
+                                    "scope": "CLASS",
+                                    "x": 0,
+                                    "y": 126
+                                },
+                                {
+                                    "prefabId": "7c13c387-f046-4128-b8f9-306b0d309581",
+                                    "id": "cd1357bc-5f71-4c67-bac1-a6ca9c93076b",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "dialogueItem4",
+                                    "scope": "CLASS",
+                                    "x": 0,
+                                    "y": 192
+                                },
+                                {
+                                    "prefabId": "7c13c387-f046-4128-b8f9-306b0d309581",
+                                    "id": "05c6e943-5eca-4f6b-ae79-8f07c517ad29",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "dialogueItem5",
+                                    "scope": "CLASS",
+                                    "x": 0,
+                                    "y": 257
+                                },
+                                {
+                                    "prefabId": "7c13c387-f046-4128-b8f9-306b0d309582",
+                                    "id": "8fb33a8c-9ea8-4fe9-bfc4-259afa7dd671",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "catItem1",
+                                    "scope": "CLASS",
+                                    "x": -248,
+                                    "y": -9
+                                },
+                                {
+                                    "prefabId": "7c13c387-f046-4128-b8f9-306b0d309582",
+                                    "id": "1d532ae4-185d-48a5-a60e-1a1a0c35194f",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "catItem2",
+                                    "scope": "CLASS",
+                                    "x": -248,
+                                    "y": 52
+                                },
+                                {
+                                    "prefabId": "7c13c387-f046-4128-b8f9-306b0d309582",
+                                    "id": "0ffc4503-f759-45fb-8b5c-b05fb6f44c66",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "catItem3",
+                                    "scope": "CLASS",
+                                    "x": -248,
+                                    "y": 113
+                                },
+                                {
+                                    "prefabId": "7c13c387-f046-4128-b8f9-306b0d309582",
+                                    "id": "a3efcb4e-33f5-494b-a2b5-eb8e55b2c25c",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "catItem4",
+                                    "scope": "CLASS",
+                                    "x": -248,
+                                    "y": 177
+                                },
+                                {
+                                    "prefabId": "7c13c387-f046-4128-b8f9-306b0d309582",
+                                    "id": "6891d729-0e80-4995-835e-08c0e8177af1",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "catItem5",
+                                    "scope": "CLASS",
+                                    "x": -248,
+                                    "y": 246
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Text",
+                            "id": "412e76a4-1469-4e1d-bbbe-20270da212b8",
+                            "label": "text",
+                            "x": -228,
+                            "y": -32,
+                            "text": "CATEGORIES",
+                            "fontFamily": "Arial",
+                            "fontSize": "23px",
+                            "fontStyle": "bold"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7498b590-e632-4524-8c34-bc99da2b8714",
+                            "label": "x_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.scriptsListController.scrollDown()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 436,
+                            "y": 307,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Text",
+                            "id": "3a2a288c-0bc0-461c-9aa0-ad9c51db15fe",
+                            "label": "noDialogueAvailable",
+                            "scope": "CLASS",
+                            "x": 73,
+                            "y": 111,
+                            "visible": false,
+                            "text": "No scripts exist\nfor this mascot.",
+                            "fontFamily": "Arial",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#e2e2e2ff"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f093b4df-3719-4ad0-bf38-c8eb0022d2f1",
+                            "label": "blue_arrow",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 435,
+                            "y": 35,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e53ef8dc-9dd6-4763-bdc9-42a8dc788557",
+                            "label": "blue_arrow_1",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 436,
+                            "y": 305,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "flipY": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fe9f1fe2-d802-4b9c-8936-cfd885466053",
+                            "label": "x_button_2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.categoriesListController.scrollDown()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": -41,
+                            "y": 308,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f5990cd7-4af9-4496-a84a-9f9461d3635e",
+                            "label": "x_button_4",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.categoriesListController.scrollUp()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": -44,
+                            "y": -4,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d25d7fc2-8051-479d-9ef7-3f7ce57b6542",
+                            "label": "blue_arrow_2",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": -41,
+                            "y": 306,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "flipY": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "86ac7dd0-8267-4680-a48e-18e6d567230b",
+                            "label": "blue_arrow_3",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": -44,
+                            "y": -5,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9f95e485-ff8c-4093-a9be-024e308d70ab",
+                            "label": "verify_btn_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => {this.visible = false; this.interface.loadWidget('ModPanel')}",
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "x": 202,
+                            "y": 389,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Text",
+                            "id": "3dad1148-379f-4e8e-b79d-4354dec3ff5e",
+                            "label": "text_2",
+                            "x": 124,
+                            "y": 371,
+                            "text": "Mod Menu",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "9b9cfbef-5210-4568-b086-a6d180b094c9",
+            "label": "items",
+            "objectIds": [
+                "987a9a16-c04e-47e9-b3c1-a89b9cba3639",
+                "c5b136b5-aae5-4451-bbb1-c6d1822742d8",
+                "89bc2d2e-d02e-4b3c-acbd-2e1fbb3c2984",
+                "e699e9e4-f044-4808-be5c-aa3b46c4d088",
+                "cb227607-991f-4899-9974-9e75f077d44e",
+                "2de07fde-492e-4205-a2a2-09b84626f1e9",
+                "0a95d9db-2855-48f1-9ec2-207a94ad7bb5",
+                "2922548d-b054-43e1-9e79-75ec4f3440a5",
+                "2f64f8be-8d7e-41f3-be5d-af026d3ffb3d",
+                "5e946e74-b3af-429b-a797-044da9d1accf",
+                "cd1357bc-5f71-4c67-bac1-a6ca9c93076b",
+                "05c6e943-5eca-4f6b-ae79-8f07c517ad29"
+            ]
+        },
+        {
+            "id": "4bf863f5-f12f-4cf9-b91e-b30479776f24",
+            "label": "catitems",
+            "objectIds": [
+                "8fb33a8c-9ea8-4fe9-bfc4-259afa7dd671",
+                "1d532ae4-185d-48a5-a60e-1a1a0c35194f",
+                "0ffc4503-f759-45fb-8b5c-b05fb6f44c66",
+                "a3efcb4e-33f5-494b-a2b5-eb8e55b2c25c",
+                "6891d729-0e80-4995-835e-08c0e8177af1"
+            ]
+        }
+    ]
+}

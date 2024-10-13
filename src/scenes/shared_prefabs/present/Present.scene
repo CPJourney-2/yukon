@@ -1,0 +1,84 @@
+{
+    "id": "ce9187a5-27b6-4046-b4c2-264055229188",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "85f88508-620a-4897-ae28-f327c5f0657a",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "96a61709-ed84-492d-aa52-ef4db3ed8fab",
+                    "label": "present",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation",
+                        "SimpleButton"
+                    ],
+                    "Animation.end": 37,
+                    "Animation.repeat": 0,
+                    "SimpleButton.callback": "() => this.onPresentClick()",
+                    "SimpleButton.pixelPerfect": true,
+                    "texture": {
+                        "key": "presentdelivery",
+                        "frame": "presentanimation0001"
+                    },
+                    "x": 804.9093389975656,
+                    "y": 1417.878927994347,
+                    "originX": 9.49893339997136,
+                    "originY": 2.515843523470489
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "47cedceb-88d4-488f-903d-925be954b86a",
+            "label": "sort",
+            "objectIds": [
+                "96a61709-ed84-492d-aa52-ef4db3ed8fab"
+            ]
+        }
+    ],
+    "prefabProperties": [
+        {
+            "name": "sitFrame",
+            "label": "sitFrame",
+            "tooltip": "sitFrame",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "donePoint",
+            "label": "donePoint",
+            "tooltip": "Property 1",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Phaser.GameObjects.GameObject"
+            }
+        }
+    ]
+}

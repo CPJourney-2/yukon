@@ -1,0 +1,1261 @@
+{
+    "id": "c9b3dd12-46e2-4db7-aa3e-3c30d6716fbf",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "72aeb5c7-5f94-48ef-a8fc-b547d45bae0f",
+            "label": "page3",
+            "scope": "CLASS",
+            "x": 268,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "e9662447-e6d4-426d-a7c8-193cca44a23c",
+                    "label": "block",
+                    "scope": "CLASS",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -268,
+                    "originX": 0,
+                    "originY": 0,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Sprite",
+                    "id": "fdbc221b-09a9-4308-bf7d-68d7ebed29be",
+                    "label": "appear_left",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "appear_",
+                    "Animation.end": 10,
+                    "Animation.frameRate": 20,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "gametutorials",
+                        "frame": "appear_0001"
+                    },
+                    "x": 108,
+                    "y": 695,
+                    "flipX": true,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "93f6415e-e339-482b-8d1a-c1e5ad6e7cc6",
+                    "label": "appear_right",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "appear_",
+                    "Animation.end": 10,
+                    "Animation.frameRate": 20,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "gametutorials",
+                        "frame": "appear_0001"
+                    },
+                    "x": 825,
+                    "y": 695,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "985e2ded-e817-4e0b-977c-46b5f1954c53",
+                    "label": "appear_base",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "gametutorials",
+                        "frame": "appear_base"
+                    },
+                    "x": 916,
+                    "y": 706,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "fcbadc01-0355-4ec5-9ff8-4b99d03df918",
+                    "label": "beak1",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "beak1_",
+                    "Animation.end": 28,
+                    "texture": {
+                        "key": "gametutorials",
+                        "frame": "beak1_0001"
+                    },
+                    "x": 805,
+                    "y": 560,
+                    "visible": false
+                },
+                {
+                    "type": "Container",
+                    "id": "7d5e15af-86d4-4416-b812-078cf40db13a",
+                    "label": "peng_right",
+                    "scope": "CLASS",
+                    "x": -305,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "fbe77ccb-b42d-494c-84f8-539a6929f701",
+                            "label": "base_2",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "base_2"
+                            },
+                            "x": 1150,
+                            "y": 724
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "d7449f34-e194-4cdb-8b5d-22e8a689f173",
+                            "label": "eyes1_0002",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "eyes1_",
+                            "Animation.end": 78,
+                            "Animation.repeatDelay": 2500,
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "eyes1_0002"
+                            },
+                            "x": 1129,
+                            "y": 507,
+                            "angle": -27
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e6770b6a-5ba8-4c22-be02-919f90ad36e1",
+                            "label": "beak1_0001",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "beak1_",
+                            "Animation.end": 28,
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "beak1_0001"
+                            },
+                            "x": 1121,
+                            "y": 601,
+                            "angle": -36.99999999999994
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "019d9b89-392f-4d40-9deb-801076af04ea",
+                    "label": "peng_left",
+                    "scope": "CLASS",
+                    "x": -1075,
+                    "y": 2,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "68c1408a-927e-4589-a7fe-131a0059c456",
+                            "label": "base",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "base_2"
+                            },
+                            "x": 1150,
+                            "y": 724,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "808d671c-0776-40ca-bc9a-f56bbd8e9aad",
+                            "label": "eyes",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "eyes1_",
+                            "Animation.end": 78,
+                            "Animation.repeatDelay": 2500,
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "eyes1_0002"
+                            },
+                            "x": 1192,
+                            "y": 514,
+                            "angle": 38,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "66c3a94e-784c-4441-929b-8e9fbb5ba488",
+                            "label": "beak",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "beak1_",
+                            "Animation.end": 28,
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "beak1_0001"
+                            },
+                            "x": 1179,
+                            "y": 605,
+                            "angle": 37,
+                            "flipX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "7c0fd881-bc81-4b54-a193-fb0f3501a46b",
+                    "label": "peng_right_point_low",
+                    "scope": "CLASS",
+                    "x": 793,
+                    "y": 502,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "2c71d03c-fae5-41d8-8fad-40bac96a3e0a",
+                            "label": "base_1",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "base_1"
+                            },
+                            "y": 221
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "4f2d26cb-d8e0-468d-b9ff-40f4999c6307",
+                            "label": "eyes_1",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "eyes1_",
+                            "Animation.end": 78,
+                            "Animation.repeatDelay": 2500,
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "eyes1_0002"
+                            },
+                            "x": 82,
+                            "angle": 3
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "4a99ed58-e3b4-4717-a04a-db5d182ea450",
+                            "label": "beak_1",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "beak1_",
+                            "Animation.end": 28,
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "beak1_0001"
+                            },
+                            "x": 25,
+                            "y": 70,
+                            "angle": -7
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "cc6dad0c-5207-403d-b2b8-917340fb9033",
+                    "label": "peng_left_point_low",
+                    "scope": "CLASS",
+                    "x": 129,
+                    "y": 506,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ebe268d6-df17-4131-a71d-f0a78766c834",
+                            "label": "base_3",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "base_1"
+                            },
+                            "y": 221,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e8c188aa-ceb2-47d6-8d00-cd178d5242fe",
+                            "label": "eyes_2",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "eyes1_",
+                            "Animation.end": 78,
+                            "Animation.repeatDelay": 2500,
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "eyes1_0002"
+                            },
+                            "x": -75,
+                            "y": -4,
+                            "angle": 3,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "42babec7-2e9f-429f-84da-8412c954f6eb",
+                            "label": "beak_2",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "beak1_",
+                            "Animation.end": 28,
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "beak1_0001"
+                            },
+                            "x": -7,
+                            "y": 68,
+                            "angle": -7,
+                            "flipX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5f2d188f-76fb-4c0e-9769-3846224185cc",
+                    "label": "peng_right_point_high",
+                    "scope": "CLASS",
+                    "x": 837,
+                    "y": 502,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "a3f75b54-1a2b-4d8e-baa4-9b633e82190e",
+                            "label": "base_4",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "base_3"
+                            },
+                            "x": -3,
+                            "y": 221
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "b4fb0262-6779-4ef1-a1d3-4649b1cc2ba4",
+                            "label": "eyes_3",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "eyes1_",
+                            "Animation.end": 78,
+                            "Animation.repeatDelay": 2500,
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "eyes1_0002"
+                            },
+                            "x": 38,
+                            "y": 1,
+                            "angle": 3
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "565964d2-bcf0-4f8b-b541-c5ff31b455d0",
+                            "label": "beak_3",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "beak1_",
+                            "Animation.end": 28,
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "beak1_0001"
+                            },
+                            "x": -19,
+                            "y": 71,
+                            "angle": -7
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d00ac99e-3c69-46b9-8032-7186e4c961a2",
+                    "label": "peng_left_point_high",
+                    "scope": "CLASS",
+                    "x": 90,
+                    "y": 506,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "23f34dad-f235-4604-a874-512e1a2a6f1c",
+                            "label": "base_5",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "base_3"
+                            },
+                            "x": -3,
+                            "y": 221,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "7d1f436b-41ba-4fbf-a599-28e51ebef771",
+                            "label": "eyes_4",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "eyes1_",
+                            "Animation.end": 78,
+                            "Animation.repeatDelay": 2500,
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "eyes1_0002"
+                            },
+                            "x": -36,
+                            "y": -4,
+                            "angle": 3,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "f1431cad-b9df-469d-94e3-2d76e19214bf",
+                            "label": "beak_4",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "beak1_",
+                            "Animation.end": 28,
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "beak1_0001"
+                            },
+                            "x": 32,
+                            "y": 68,
+                            "angle": -7,
+                            "flipX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "84d18821-bc90-45b1-a4d7-ba56bcff5fda",
+                    "label": "page1",
+                    "scope": "CLASS",
+                    "x": -186,
+                    "y": 49,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f1dd3813-cfaa-43ba-969b-ceda082e2c8d",
+                            "label": "bubble1",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "bubble1"
+                            },
+                            "x": 621,
+                            "y": 346,
+                            "scaleX": 0.85,
+                            "scaleY": 0.85
+                        },
+                        {
+                            "type": "Image",
+                            "id": "dc68af8b-c976-40e1-89ab-11c4c93eab87",
+                            "label": "button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "continue",
+                            "Button.callback": "() => { this.onPage2Click() }",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "continue"
+                            },
+                            "x": 944,
+                            "y": 374
+                        },
+                        {
+                            "type": "Text",
+                            "id": "114a6360-9159-4fa7-b502-10ed03ad4444",
+                            "label": "text_1",
+                            "scope": "CLASS",
+                            "x": 225,
+                            "y": 206,
+                            "text": "Welcome to the Pizza Parlor!\n\nI'll be showing you how to order a slice\nof Pizza or become a chef yourself!\n",
+                            "paddingLeft": 5,
+                            "paddingRight": 5,
+                            "lineSpacing": 15,
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#3a3a3aff",
+                            "wordWrapWidth": 800
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "8033f42b-a0a1-4d3f-802c-5169c506fc28",
+                    "label": "page2",
+                    "scope": "CLASS",
+                    "x": -186,
+                    "y": 49,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9c3f5ea1-2dc0-4c19-bf95-a1823976761a",
+                            "label": "bubble_7",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "bubble1"
+                            },
+                            "x": 621,
+                            "y": 346,
+                            "scaleX": 0.85,
+                            "scaleY": 0.85
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c8d0d178-7c58-4211-a61a-091955130362",
+                            "label": "button_8",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "continue",
+                            "Button.callback": "() => { this.onPage3New() }",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "continue"
+                            },
+                            "x": 944,
+                            "y": 374
+                        },
+                        {
+                            "type": "Text",
+                            "id": "80e94c85-185f-4d85-a661-0ca4890ee8c9",
+                            "label": "text_8",
+                            "scope": "CLASS",
+                            "x": 225,
+                            "y": 207,
+                            "text": "To order a slice of pizza, you need to send\nthe         emote and any Penguin wearing\na Pizza Apron and Chef Hat can serve \nyou.",
+                            "paddingLeft": 5,
+                            "paddingRight": 5,
+                            "lineSpacing": 20,
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#3a3a3aff",
+                            "wordWrapWidth": 800
+                        },
+                        {
+                            "type": "Container",
+                            "id": "f077f3f0-a7a6-46d3-a78f-944a667b02f1",
+                            "label": "container",
+                            "x": 338,
+                            "y": 273,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "858d3b09-3b22-411d-959f-da01d5e5ed08",
+                                    "label": "balloon_emote_2",
+                                    "texture": {
+                                        "key": "main",
+                                        "frame": "balloon-emote"
+                                    },
+                                    "y": 48
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "05886e52-cf83-4bbb-87a2-8ff5f5fd5eb3",
+                                    "label": "balloon_2",
+                                    "texture": {
+                                        "key": "main",
+                                        "frame": "balloon"
+                                    },
+                                    "y": -5
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "80c24d24-fe67-4a3e-b3f5-5f647569790f",
+                                    "label": "emotes_1",
+                                    "texture": {
+                                        "key": "main",
+                                        "frame": "emotes/24"
+                                    },
+                                    "x": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d2b4240c-5b8f-471b-8d0b-c300a4e277d3",
+                    "label": "pagen_3",
+                    "scope": "CLASS",
+                    "x": -186,
+                    "y": 49,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "c91a0e9a-19fd-4241-adb3-fc0dc5daad8f",
+                            "label": "bubble_5",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "bubble1"
+                            },
+                            "x": 621,
+                            "y": 346,
+                            "scaleX": 0.85,
+                            "scaleY": 0.85
+                        },
+                        {
+                            "type": "Image",
+                            "id": "6d102c58-c0f9-4045-8fbd-25a57d06ba41",
+                            "label": "button_6",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "continue",
+                            "Button.callback": "() => { this.onPage4New() }",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "continue"
+                            },
+                            "x": 944,
+                            "y": 374
+                        },
+                        {
+                            "type": "Text",
+                            "id": "0bf34b0f-329d-4a56-864d-bd7a44a0a75c",
+                            "label": "text_6",
+                            "scope": "CLASS",
+                            "x": 225,
+                            "y": 206,
+                            "text": "You can also get a job at the Pizza Parlor and earn     Coins and      Stamps.\n\nPut your Pizza Apron and Chef Hat on!",
+                            "paddingLeft": 5,
+                            "paddingRight": 5,
+                            "lineSpacing": 15,
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#3a3a3aff",
+                            "wordWrapWidth": 800
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ecd37009-dee7-4d7d-89a9-e2fd5d1ba5fa",
+                            "label": "coins_1",
+                            "texture": {
+                                "key": "main-stampcoins",
+                                "frame": "coins"
+                            },
+                            "x": 329,
+                            "y": 273,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2281d929-b5c8-42a0-96fb-a91ffc8d4670",
+                            "label": "stamp_icon_1",
+                            "texture": {
+                                "key": "main",
+                                "frame": "stamp-icon"
+                            },
+                            "x": 552,
+                            "y": 273,
+                            "scaleX": 1.2,
+                            "scaleY": 1.2
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "4b31cd12-e298-48a0-8fdd-5b2dbddbcbcb",
+                    "label": "pagen_4",
+                    "scope": "CLASS",
+                    "x": -186,
+                    "y": 49,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "866fad3f-9f68-4a54-a8cb-4ef2c11df6c9",
+                            "label": "bubble_8",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "bubble1"
+                            },
+                            "x": 621,
+                            "y": 346,
+                            "scaleX": 0.85,
+                            "scaleY": 0.85
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7c824425-d679-4dff-b054-003b9ab395c0",
+                            "label": "button_9",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "continue",
+                            "Button.callback": "() => { this.onEndStage1() }",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "continue"
+                            },
+                            "x": 944,
+                            "y": 374
+                        },
+                        {
+                            "type": "Text",
+                            "id": "51525db4-6ea9-4954-ad4f-c8e48a70e5e6",
+                            "label": "text_9",
+                            "scope": "CLASS",
+                            "x": 225,
+                            "y": 206,
+                            "text": "If you don't already have a Pizza Apron\nand Chef Hat you can purchase one by \nreading the Newspaper!",
+                            "paddingLeft": 5,
+                            "paddingRight": 5,
+                            "lineSpacing": 15,
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#3a3a3aff",
+                            "wordWrapWidth": 800
+                        },
+                        {
+                            "type": "Image",
+                            "id": "24c10e7f-c4cf-44f2-a8d2-c1a15d050c66",
+                            "label": "news_button",
+                            "texture": {
+                                "key": "main",
+                                "frame": "news-button"
+                            },
+                            "x": 635,
+                            "y": 321,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "225a459d-6fb7-4730-8892-f874240388ea",
+                            "label": "news_new",
+                            "texture": {
+                                "key": "main",
+                                "frame": "news-new"
+                            },
+                            "x": 665,
+                            "y": 332,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "93076aff-fd5f-4143-82cf-c148ce79d56a",
+                            "label": "arrow_1",
+                            "scope": "CLASS",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "arrow_",
+                            "Animation.end": 15,
+                            "Animation.stopOnOut": false,
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "arrow_0001"
+                            },
+                            "x": -2,
+                            "y": 152,
+                            "angle": 127
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "4eb0b933-d11f-49e6-ad62-60afaa34ee0f",
+                    "label": "page3",
+                    "scope": "CLASS",
+                    "x": -186,
+                    "y": 49,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "526f7a64-ad6f-4a84-a1d2-4c2cd1811d32",
+                            "label": "bubble",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "bubble1"
+                            },
+                            "x": 621,
+                            "y": 346,
+                            "scaleX": 0.85,
+                            "scaleY": 0.85
+                        },
+                        {
+                            "type": "Image",
+                            "id": "59056603-0aa3-46a5-8f82-665a7cd02313",
+                            "label": "button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "continue",
+                            "Button.callback": "() => { this.onEndStage2() }",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "continue"
+                            },
+                            "x": 944,
+                            "y": 374
+                        },
+                        {
+                            "type": "Text",
+                            "id": "99ea0be7-73d1-429c-ab2b-b3a1fe64de11",
+                            "label": "text",
+                            "x": 225,
+                            "y": 206,
+                            "text": "First, we're gonna wait for an order to\ncome in from one of our customers. Be on\nthe look out for the         emote!",
+                            "paddingLeft": 5,
+                            "paddingRight": 5,
+                            "lineSpacing": 12,
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#3a3a3aff"
+                        },
+                        {
+                            "type": "Container",
+                            "id": "eeb1203f-df6d-48d9-912a-c7c7de8e4bbc",
+                            "label": "emote",
+                            "x": 591,
+                            "y": 310,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "f3dc373e-2411-4c46-8006-3248444df97c",
+                                    "label": "balloon_emote",
+                                    "texture": {
+                                        "key": "main",
+                                        "frame": "balloon-emote"
+                                    },
+                                    "y": 53
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "483ecb18-b812-4abc-9c27-07c088a9a397",
+                                    "label": "balloon",
+                                    "texture": {
+                                        "key": "main",
+                                        "frame": "balloon"
+                                    }
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "1aa41042-6782-497a-9ebc-910318a90a40",
+                                    "label": "emotes_13",
+                                    "texture": {
+                                        "key": "main",
+                                        "frame": "emotes/24"
+                                    },
+                                    "x": 1,
+                                    "y": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "54e885dd-9071-477d-914e-c1dc2827b39e",
+                    "label": "page4",
+                    "scope": "CLASS",
+                    "x": -107,
+                    "y": 50,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "fd0c9f6b-cc1d-45e5-b5ab-2d954b9dc2b9",
+                            "label": "bubble_1",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "bubble1"
+                            },
+                            "x": 621,
+                            "y": 346,
+                            "scaleX": 0.85,
+                            "scaleY": 0.85,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "591c4e7f-04c7-4221-a8cd-2fdb884993fe",
+                            "label": "button_2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "continue",
+                            "Button.callback": "() => { this.onEndStage3() }",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "continue"
+                            },
+                            "x": 944,
+                            "y": 374
+                        },
+                        {
+                            "type": "Text",
+                            "id": "81a5db26-3ab7-4222-aa64-f5147355398d",
+                            "label": "text_2",
+                            "x": 536,
+                            "y": 301,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Great! You got your first order, and it \nlooks like it's ready!\n\nHead to the counter, or the       sign\nto collect the pizza for the customer.",
+                            "paddingLeft": 5,
+                            "paddingRight": 5,
+                            "lineSpacing": 7,
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#3a3a3aff"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fd143157-b8a9-4fb3-a387-2f7743d91463",
+                            "label": "arrow_0001",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "arrow_0001"
+                            },
+                            "x": 706,
+                            "y": 317,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "angle": -52.99999999999994
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "71fcfb92-535b-47da-8aa9-dcfbd2787149",
+                    "label": "page5",
+                    "scope": "CLASS",
+                    "x": -229,
+                    "y": 48,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "68937d28-39fd-41bd-80b3-e8888aacce08",
+                            "label": "bubble_2",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "bubble1"
+                            },
+                            "x": 621,
+                            "y": 346,
+                            "scaleX": 0.85,
+                            "scaleY": 0.85
+                        },
+                        {
+                            "type": "Image",
+                            "id": "22a8f9f5-84d3-4eaa-9e60-998227a85fd8",
+                            "label": "button_3",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "continue",
+                            "Button.callback": "() => { this.onEndStage3() }",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "continue"
+                            },
+                            "x": 944,
+                            "y": 374
+                        },
+                        {
+                            "type": "Text",
+                            "id": "0d50f341-4580-4d85-9ead-819da7ac935e",
+                            "label": "text_3",
+                            "x": 225,
+                            "y": 206,
+                            "text": "You'll have to deliver the pizza you've\ncollected to the customer.\n\nHead over the       sign to complete \nyour first order!",
+                            "paddingLeft": 5,
+                            "paddingRight": 5,
+                            "lineSpacing": 7,
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#3a3a3aff"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a9b8cc1f-e8ea-4935-91dc-7b2285cb0045",
+                            "label": "arrow",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "arrow_0001"
+                            },
+                            "x": 491,
+                            "y": 324,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "angle": -52.99999999999994
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "85d7f87d-1f3a-40b7-ae02-52ddc106f5bc",
+                    "label": "page6",
+                    "scope": "CLASS",
+                    "x": -205,
+                    "y": 25,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "d4b49f67-e535-4a25-820d-66bdc5987257",
+                            "label": "bubble_6",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "bubble1"
+                            },
+                            "x": 621,
+                            "y": 346,
+                            "scaleX": 0.85,
+                            "scaleY": 0.85
+                        },
+                        {
+                            "type": "Image",
+                            "id": "00b1f1db-e22d-49e2-8aaf-90107aab4139",
+                            "label": "button_7",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "continue",
+                            "Button.callback": "() => { this.onPage7Click() }",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "continue"
+                            },
+                            "x": 944,
+                            "y": 374
+                        },
+                        {
+                            "type": "Text",
+                            "id": "2870223b-87a3-4aba-b594-eef83fdf4568",
+                            "label": "text_7",
+                            "x": 225,
+                            "y": 206,
+                            "text": "The      icon floating on top of your head is \na cooldown.\n\nYou have to wait a few seconds before\nyou can serve another customer.",
+                            "paddingLeft": 5,
+                            "paddingRight": 5,
+                            "lineSpacing": 7,
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#3a3a3aff"
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "554a4ce1-dc8c-4ecf-b636-0b3c80639cc0",
+                            "label": "cooldown_timer",
+                            "scope": "CLASS",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "cooldown_timer_",
+                            "Animation.end": 121,
+                            "Animation.autoPlay": false,
+                            "Animation.stopOnOut": false,
+                            "texture": {
+                                "key": "pizza_solo-job",
+                                "frame": "cooldown_timer_0001"
+                            },
+                            "x": 321,
+                            "y": 222,
+                            "scaleX": 1.3,
+                            "scaleY": 1.3,
+                            "angle": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "52b89e13-3411-4965-8543-cfb5cb39cea5",
+                    "label": "page7",
+                    "scope": "CLASS",
+                    "x": -205,
+                    "y": 25,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "aa36eaca-14f8-49f3-bfeb-c603f8e548a3",
+                            "label": "bubble_4",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "bubble1"
+                            },
+                            "x": 621,
+                            "y": 346,
+                            "scaleX": 0.85,
+                            "scaleY": 0.85
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9abd45fd-7613-41fd-bc7d-d35a0a637a4a",
+                            "label": "button_5",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "continue",
+                            "Button.callback": "() => { this.onPage8Click() }",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "continue"
+                            },
+                            "x": 944,
+                            "y": 374
+                        },
+                        {
+                            "type": "Text",
+                            "id": "8ce25ea3-ff51-4c52-8c11-5589ba6b5085",
+                            "label": "text_5",
+                            "x": 225,
+                            "y": 206,
+                            "text": "Did you know that for every order you complete \nyou'll collect     Coins and     Stamps?\n\nPretty neat!",
+                            "paddingLeft": 5,
+                            "paddingRight": 5,
+                            "lineSpacing": 7,
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#3a3a3aff"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "961bbdee-8fb6-4e30-9b7c-e81f18704db1",
+                            "label": "coins",
+                            "texture": {
+                                "key": "main-stampcoins",
+                                "frame": "coins"
+                            },
+                            "x": 450,
+                            "y": 264,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6
+                        },
+                        {
+                            "type": "Image",
+                            "id": "df00a36e-b125-45b6-a62f-7adee4b62747",
+                            "label": "stamp_icon",
+                            "texture": {
+                                "key": "main",
+                                "frame": "stamp-icon"
+                            },
+                            "x": 667,
+                            "y": 264,
+                            "scaleX": 1.2,
+                            "scaleY": 1.2
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "e7307f34-7d4c-4c85-8e18-c32611c0f3d8",
+                    "label": "page8",
+                    "scope": "CLASS",
+                    "x": -205,
+                    "y": 25,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "081d913a-d1ba-480a-9933-2c580023369f",
+                            "label": "bubble_3",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "bubble1"
+                            },
+                            "x": 621,
+                            "y": 346,
+                            "scaleX": 0.85,
+                            "scaleY": 0.85
+                        },
+                        {
+                            "type": "Image",
+                            "id": "94872d5e-5b5d-4d43-9ee4-4273a37972c7",
+                            "label": "button_4",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "finish",
+                            "Button.callback": "() => { this.completeTutorial() }",
+                            "texture": {
+                                "key": "gametutorials",
+                                "frame": "finish"
+                            },
+                            "x": 944,
+                            "y": 374
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6d7bab6a-2da7-4996-bbbe-688d38e9aef3",
+                            "label": "text_4",
+                            "x": 225,
+                            "y": 206,
+                            "text": "Looks like you're getting the hang of it!\n\nI'll leave it to you now, the Pizza Parlor\nis all yours. Keep up the great work!",
+                            "paddingLeft": 5,
+                            "paddingRight": 5,
+                            "lineSpacing": 7,
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#3a3a3aff"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

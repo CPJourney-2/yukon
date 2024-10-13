@@ -1,0 +1,67 @@
+{
+    "id": "749eb8a8-9a75-4c1f-8b9a-d6e0e152a8cd",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "64c8eb85-fe90-4df1-88a4-774813373aba",
+            "label": "container_1",
+            "components": [],
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "13fd6c69-6da4-4aa3-b666-875ad02c51c5",
+                    "label": "button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "window-button",
+                    "Button.callback": "() => this.onClick()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window-button"
+                    },
+                    "originY": 0.5047619047619047,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "7cebd0b7-9243-4401-8fde-0d271502364a",
+                    "label": "text",
+                    "scope": "CLASS",
+                    "components": [],
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Ok",
+                    "fixedWidth": 280,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

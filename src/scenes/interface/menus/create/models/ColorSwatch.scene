@@ -1,0 +1,101 @@
+{
+    "id": "ad0818ac-6a13-4d45-915a-d4efa1284276",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "67968e97-c035-4ee4-92e4-1d9a729d7b5e",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "RoundedRectangleImage",
+                    "id": "512edf24-6927-4d89-9cb6-9629c2aaf23a",
+                    "label": "swatch",
+                    "scope": "CLASS",
+                    "width": 60,
+                    "height": 60,
+                    "fillColor": "#dcdcdc",
+                    "isStroked": false,
+                    "lineWidth": 3,
+                    "radiusTopLeft": 10,
+                    "radiusTopRight": 10,
+                    "radiusBottomLeft": 10,
+                    "radiusBottomRight": 10
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "079aab81-9f4c-4e36-baac-b0848ccbde0c",
+                    "label": "btn",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onClick()",
+                    "width": 60,
+                    "height": 60
+                },
+                {
+                    "type": "RoundedRectangleImage",
+                    "id": "4618500a-d0bd-4330-b5c9-6e96a7016bc2",
+                    "label": "outlineIdle",
+                    "scope": "CLASS",
+                    "width": 60,
+                    "height": 60,
+                    "isFilled": false,
+                    "fillColor": "#dcdcdc",
+                    "lineWidth": 3,
+                    "radiusTopLeft": 10,
+                    "radiusTopRight": 10,
+                    "radiusBottomLeft": 10,
+                    "radiusBottomRight": 10
+                },
+                {
+                    "type": "RoundedRectangleImage",
+                    "id": "f07197ac-fa35-4b1a-95b5-d7bbf3a0fc7f",
+                    "label": "outlineSelected",
+                    "scope": "CLASS",
+                    "visible": false,
+                    "width": 60,
+                    "height": 60,
+                    "isFilled": false,
+                    "fillColor": "#f1f013",
+                    "strokeColor": "#edec05",
+                    "lineWidth": 3,
+                    "radiusTopLeft": 10,
+                    "radiusTopRight": 10,
+                    "radiusBottomLeft": 10,
+                    "radiusBottomRight": 10
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "prefabProperties": [
+        {
+            "name": "swatchColor",
+            "label": "Color",
+            "tooltip": "gets a number from crumbs",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

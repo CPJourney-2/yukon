@@ -1,0 +1,288 @@
+{
+    "id": "6328e772-f11e-4454-8f5a-2bc11385d659",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0fe490e0-31f4-414a-ac2d-9d483d02d676",
+            "label": "container_1",
+            "components": [],
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "be5817b6-9cfd-4101-bcb8-51bb9d7a6b66",
+                    "label": "item1",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "NineSlice",
+                            "id": "d59cf852-0af0-46f7-9e9c-bb1bf41ba6fa",
+                            "label": "button_1",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "texture": {
+                                "key": "main",
+                                "frame": "chat-prediction"
+                            },
+                            "x": -7,
+                            "y": 14,
+                            "scaleX": 0.402546388110462,
+                            "scaleY": 0.402546388110462,
+                            "originX": 0,
+                            "width": 303,
+                            "height": 87,
+                            "topHeight": 16,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "0b48f439-b513-4f3d-be4f-0d45be0bc01c",
+                            "label": "text_1",
+                            "scope": "CLASS",
+                            "components": [],
+                            "text": "New text",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "24px",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5b12135c-136f-4431-bab9-36beeaff8eae",
+                    "label": "item2",
+                    "components": [],
+                    "y": 35,
+                    "list": [
+                        {
+                            "type": "NineSlice",
+                            "id": "7fba472f-a167-42c7-a3dc-cf241de29629",
+                            "label": "button_2",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "texture": {
+                                "key": "main",
+                                "frame": "chat-prediction"
+                            },
+                            "x": -7,
+                            "y": 14,
+                            "scaleX": 0.402546388110462,
+                            "scaleY": 0.402546388110462,
+                            "originX": 0,
+                            "width": 303,
+                            "height": 87,
+                            "topHeight": 16,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "bfd84660-1f61-4428-ba6a-977862b5a9ec",
+                            "label": "text_2",
+                            "scope": "CLASS",
+                            "components": [],
+                            "text": "New text",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "24px",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "54417513-0e58-42c9-819a-70ee295ebe1a",
+                    "label": "item3",
+                    "components": [],
+                    "y": 70,
+                    "list": [
+                        {
+                            "type": "NineSlice",
+                            "id": "6f92902c-6d72-4f9a-9d2d-0d8f20cbdf5c",
+                            "label": "button_3",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "texture": {
+                                "key": "main",
+                                "frame": "chat-prediction"
+                            },
+                            "x": -7,
+                            "y": 14,
+                            "scaleX": 0.402546388110462,
+                            "scaleY": 0.402546388110462,
+                            "originX": 0,
+                            "width": 303,
+                            "height": 87,
+                            "topHeight": 16,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "fc05b50f-14cb-4c7c-868e-0a47e8c40270",
+                            "label": "text_3",
+                            "scope": "CLASS",
+                            "components": [],
+                            "text": "New text",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "24px",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "3ed062e5-49b3-4751-a796-03af4703d61a",
+                    "label": "item4",
+                    "components": [],
+                    "y": 105,
+                    "list": [
+                        {
+                            "type": "NineSlice",
+                            "id": "4fc10d95-88df-400b-b944-6ed6f1d02d6a",
+                            "label": "button_4",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "texture": {
+                                "key": "main",
+                                "frame": "chat-prediction"
+                            },
+                            "x": -7,
+                            "y": 14,
+                            "scaleX": 0.402546388110462,
+                            "scaleY": 0.402546388110462,
+                            "originX": 0,
+                            "width": 303,
+                            "height": 87,
+                            "topHeight": 16,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ae2bf9e1-e8cc-400b-b8bf-ee178ffab261",
+                            "label": "text_4",
+                            "scope": "CLASS",
+                            "components": [],
+                            "text": "New text",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "24px",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "647f332d-0932-4313-84cc-5441028d9155",
+                    "label": "item5",
+                    "components": [],
+                    "y": 140,
+                    "list": [
+                        {
+                            "type": "NineSlice",
+                            "id": "c1efa45b-3c0c-4a34-9a6d-901aff0a4dee",
+                            "label": "button_5",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "texture": {
+                                "key": "main",
+                                "frame": "chat-prediction"
+                            },
+                            "x": -7,
+                            "y": 14,
+                            "scaleX": 0.402546388110462,
+                            "scaleY": 0.402546388110462,
+                            "originX": 0,
+                            "width": 303,
+                            "height": 87,
+                            "topHeight": 16,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "970e5752-2f7c-4a06-bc4b-86e1dba680f6",
+                            "label": "text_5",
+                            "scope": "CLASS",
+                            "components": [],
+                            "text": "New text",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "24px",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b2eff1d4-efe0-43fd-838f-dfbbfedc0e53",
+                    "label": "item",
+                    "components": [],
+                    "y": 175,
+                    "list": [
+                        {
+                            "type": "NineSlice",
+                            "id": "1f268630-5dd9-47ad-ab8e-660b8d25fc66",
+                            "label": "button_6",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "texture": {
+                                "key": "main",
+                                "frame": "chat-prediction"
+                            },
+                            "x": -7,
+                            "y": 14,
+                            "scaleX": 0.402546388110462,
+                            "scaleY": 0.402546388110462,
+                            "originX": 0,
+                            "width": 303,
+                            "height": 87,
+                            "topHeight": 16,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f49a196a-7522-44a3-85fc-f10e52f5f5ae",
+                            "label": "text_6",
+                            "scope": "CLASS",
+                            "components": [],
+                            "text": "New text",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "24px",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "id": "0244a8e2-ed2e-451d-9077-7cc864c2645f",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "56ccc757-3333-45b8-b0fd-b793ad8b56ed",
+            "label": "container_1",
+            "components": [],
+            "x": 760,
+            "y": 480,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "63c63b7b-a827-4c5f-96e5-7065e54441ca",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960,
+                    "list": []
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "cd83139b-a494-47fc-812f-819289ad4bab",
+                    "label": "bg",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "y": -40,
+                    "width": 708,
+                    "height": 584,
+                    "leftWidth": 44,
+                    "rightWidth": 39,
+                    "topHeight": 40,
+                    "bottomHeight": 41,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "90f9fa6e-b4dd-49c2-aab0-7f61847a17d4",
+                    "label": "text",
+                    "scope": "CLASS",
+                    "components": [],
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "You have found a party hat.\nWould you like to pick it up?",
+                    "fixedWidth": 628,
+                    "fixedHeight": 136,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000000",
+                    "list": []
+                },
+                {
+                    "prefabId": "88bfda40-6205-4acf-a1c5-ce803655487b",
+                    "id": "74c604c9-66ff-4ef2-9a0a-5f8dd1e503a9",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "dual",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 0,
+                    "y": 130,
+                    "nestedPrefabs": [],
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

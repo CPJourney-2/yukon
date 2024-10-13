@@ -1,0 +1,154 @@
+{
+    "id": "d33b899d-7c40-4a39-bdb9-0a5ef0818297",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "be8a0767-07ca-4e60-90e1-7dc459a718be",
+            "label": "container_1",
+            "x": 441,
+            "y": 406,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "0e11d5cc-49ae-49a1-bd35-1940bb746a29",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 322,
+                    "y": 63,
+                    "scaleX": 12.858944958430353,
+                    "scaleY": 8.469006608790183,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "c2ccc9e6-f374-4136-98ea-7e5efbe680b6",
+                    "label": "bg",
+                    "texture": {
+                        "key": "telescope",
+                        "frame": "bg"
+                    },
+                    "x": 321,
+                    "y": 51
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ac31b0b8-82ec-40db-ae8e-842307d52670",
+                    "label": "red0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "red",
+                    "Animation.end": 500,
+                    "texture": {
+                        "key": "telescope",
+                        "frame": "red0001"
+                    },
+                    "x": 456,
+                    "y": -72
+                },
+                {
+                    "type": "Sprite",
+                    "id": "09784ee1-8f47-4580-83f7-9d5b0a314a11",
+                    "label": "wave0027",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "wave",
+                    "Animation.end": 70,
+                    "texture": {
+                        "key": "rockhopper",
+                        "frame": "wave0027"
+                    },
+                    "x": 12,
+                    "y": -142,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "7ece9cd5-6b85-492b-8e6f-a0130edeff5e",
+                    "label": "migrator0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "faraway",
+                    "Animation.end": 70,
+                    "texture": {
+                        "key": "comingfar",
+                        "frame": "faraway0001"
+                    },
+                    "x": 321,
+                    "y": -79,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "81bd0e54-b213-498f-9e47-c89a51bebf95",
+                    "label": "boat0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "boat",
+                    "Animation.end": 70,
+                    "texture": {
+                        "key": "rockhopper",
+                        "frame": "boat0001"
+                    },
+                    "x": 321,
+                    "y": -114,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "99ca4cc9-227b-49d7-abff-38f34aab5f3f",
+                    "label": "fg",
+                    "texture": {
+                        "key": "telescope",
+                        "frame": "fg"
+                    },
+                    "x": 320,
+                    "y": 74
+                },
+                {
+                    "type": "Sprite",
+                    "id": "a97ad8a3-017f-445f-b59a-ba010bae95e1",
+                    "label": "close",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "close",
+                    "Button.callback": "() => {this.interface.destroyWidget(this)}",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "telescope",
+                        "frame": "close"
+                    },
+                    "x": 697,
+                    "y": -306
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

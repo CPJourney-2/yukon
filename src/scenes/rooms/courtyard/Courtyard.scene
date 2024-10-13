@@ -1,0 +1,290 @@
+{
+    "id": "a8a5a250-d1cc-44e3-85d2-7b9cb7e596fa",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/courtyard/courtyard-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Courtyard",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "7eecee26-4206-417b-b020-d41580180e87",
+            "label": "dojo_opening_ref",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "courtyard_ref"
+            },
+            "x": 750,
+            "y": 480
+        },
+        {
+            "type": "Image",
+            "id": "f2cf217d-fe39-4930-8dad-65141e6e3d47",
+            "label": "j",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "j"
+            },
+            "x": 751,
+            "y": 311
+        },
+        {
+            "type": "Sprite",
+            "id": "5f777938-bdd0-47bb-b282-bdb929d8c191",
+            "label": "watefall_side0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "watefall_side0001"
+            },
+            "x": 262,
+            "y": 353
+        },
+        {
+            "type": "Image",
+            "id": "734c5d29-a552-449f-ab91-735238e14bcf",
+            "label": "waterfall_back",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "waterfall_back"
+            },
+            "x": 298,
+            "y": 353
+        },
+        {
+            "type": "Sprite",
+            "id": "9454fc21-4ac0-45bb-b558-a9fea7c9b24f",
+            "label": "waterfall_sparkles0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "waterfall_sparkles0001"
+            },
+            "x": 290,
+            "y": 356
+        },
+        {
+            "type": "Sprite",
+            "id": "f2f720b5-6cd8-446f-bd6d-8cf0209f8128",
+            "label": "waterfall_bottom0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "waterfall_bottom0001"
+            },
+            "x": 294,
+            "y": 339
+        },
+        {
+            "type": "Sprite",
+            "id": "2523f7f3-00f0-44ad-a3ab-56030dafd621",
+            "label": "waterfall_top0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "waterfall_top0001"
+            },
+            "x": 292,
+            "y": 260
+        },
+        {
+            "type": "Image",
+            "id": "c1efd023-9dcf-43ab-acf3-2f1bac4156a6",
+            "label": "waterfall_gas0001",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "waterfall_gas0001"
+            },
+            "x": 293,
+            "y": 416
+        },
+        {
+            "type": "Image",
+            "id": "0a159651-9fe5-4e1f-9281-0209c0442402",
+            "label": "i",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "i"
+            },
+            "x": 750,
+            "y": 404
+        },
+        {
+            "type": "Image",
+            "id": "8a400205-5403-4d07-b986-9bef16e4dc11",
+            "label": "h",
+            "scope": "CLASS",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "h",
+            "MoveTo.x": "260",
+            "MoveTo.y": "670",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "h"
+            },
+            "x": 276,
+            "y": 614,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "ad05c21c-4a9c-46fd-9913-bdd573ea0af4",
+            "label": "fraud",
+            "scope": "CLASS",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "h"
+            },
+            "x": 276,
+            "y": 615
+        },
+        {
+            "type": "Sprite",
+            "id": "0e324558-2004-4019-a1bb-3d87a461a626",
+            "label": "ninjahide",
+            "scope": "CLASS",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "ninjahide0001"
+            },
+            "x": 270,
+            "y": 618
+        },
+        {
+            "type": "Image",
+            "id": "a49ad57e-5a9f-4a71-b3ce-384551e94541",
+            "label": "f",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "f"
+            },
+            "x": 750,
+            "y": 622
+        },
+        {
+            "type": "Image",
+            "id": "1494996b-d6df-47f4-8190-60a27de40444",
+            "label": "e",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "e",
+            "MoveTo.x": "760",
+            "MoveTo.y": "580",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "e"
+            },
+            "x": 770,
+            "y": 497
+        },
+        {
+            "type": "Image",
+            "id": "7232e2d3-a95d-4e7c-beca-9ceb5d4cb8f6",
+            "label": "d",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "d"
+            },
+            "x": 954,
+            "y": 377
+        },
+        {
+            "type": "Image",
+            "id": "ec984a0d-4e7c-4625-a02d-f74e18da07f1",
+            "label": "c",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "c"
+            },
+            "x": 1245.1216054553904,
+            "y": 790.3386797943771,
+            "originX": 0.19020753818204353,
+            "originY": 0.5927326741381298
+        },
+        {
+            "type": "Image",
+            "id": "7bac6b0e-509e-4c68-9a3d-938ee63254d1",
+            "label": "b",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "b"
+            },
+            "x": 157.0008349447062,
+            "y": 895.4838414087985,
+            "originX": 0.4131534390377134,
+            "originY": 0.7079152496527487
+        },
+        {
+            "type": "Image",
+            "id": "3ec9a5d2-cd84-4a99-a1fd-937b067f04e6",
+            "label": "a",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "a"
+            },
+            "x": 764.0679321289062,
+            "y": 807.881163292704,
+            "originX": 0.4723328854233956,
+            "originY": 0.44713690655307137
+        },
+        {
+            "type": "Rectangle",
+            "id": "1a5ed1dd-fe34-489b-a3eb-fdd7d26267ce",
+            "label": "hideout",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onHideoutHover()",
+            "SimpleButton.hoverOutCallback": "() => this.onHideoutOut()",
+            "x": 270,
+            "y": 609,
+            "visible": false,
+            "alpha": 0.000001,
+            "isFilled": true,
+            "width": 130,
+            "height": 150
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "44f9f703-a2c1-4b93-a265-25a270e227f0",
+            "label": "sort",
+            "objectIds": [
+                "3ec9a5d2-cd84-4a99-a1fd-937b067f04e6",
+                "7bac6b0e-509e-4c68-9a3d-938ee63254d1",
+                "ec984a0d-4e7c-4625-a02d-f74e18da07f1"
+            ]
+        }
+    ]
+}

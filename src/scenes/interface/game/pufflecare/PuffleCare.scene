@@ -1,0 +1,340 @@
+{
+    "id": "ab9a9a3d-8f46-40a8-b105-0ab0c6c56ecf",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c5507101-6e2e-4a9a-b36e-c7aff59fd9cb",
+            "label": "container_1",
+            "components": [
+                "DraggableContainer"
+            ],
+            "DraggableContainer.handle": "frame",
+            "x": 760,
+            "y": 233,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "f0ccb696-45ef-47bd-8425-2feef9257f86",
+                    "label": "frame",
+                    "texture": {
+                        "key": "main",
+                        "frame": "card-bg"
+                    },
+                    "y": 247
+                },
+                {
+                    "prefabId": "3fed19b7-0515-4302-816f-944cdf3bed65",
+                    "id": "9b60ef77-75b7-471d-8763-1654535aaa9a",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "puffleInventory",
+                    "scope": "CLASS",
+                    "x": -161,
+                    "y": 263
+                },
+                {
+                    "type": "Image",
+                    "id": "8e466e1f-71f9-41fc-a680-c9f232d20901",
+                    "label": "closebtn0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 179,
+                    "y": 11
+                },
+                {
+                    "type": "Image",
+                    "id": "9fabc1a2-57e4-4677-88a9-cb977e16e726",
+                    "label": "blue_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 179,
+                    "y": 9
+                },
+                {
+                    "type": "Image",
+                    "id": "37787489-aa94-4feb-863f-23e615a88a58",
+                    "label": "bg",
+                    "texture": {
+                        "key": "pufflecare",
+                        "frame": "bg"
+                    },
+                    "y": 249
+                },
+                {
+                    "type": "Text",
+                    "id": "7442cfe6-2559-4c86-9408-c7fd893b7c60",
+                    "label": "puffle_name",
+                    "scope": "CLASS",
+                    "y": 21,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "visible": false,
+                    "text": "real life piffle",
+                    "fixedWidth": 300,
+                    "fixedHeight": 60,
+                    "align": "center",
+                    "fontFamily": "Arial",
+                    "fontSize": "30px",
+                    "fontStyle": "bold",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "07531ab9-3021-4395-a293-b896b9ba7630",
+                    "label": "puffle_info_text",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "pufflecare",
+                        "frame": "puffle_info_text"
+                    },
+                    "x": -106,
+                    "y": 362,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "0fea6d79-c5d8-4ce8-9829-da57cd96bc7a",
+                    "label": "puffle_bar_rest",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "pufflecare",
+                        "frame": "puffle_bar_10"
+                    },
+                    "x": 73,
+                    "y": 406,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "047ca7e5-6e8b-4be0-a9e1-12bc8e84ccfc",
+                    "label": "puffle_bar_health",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "pufflecare",
+                        "frame": "puffle_bar_10"
+                    },
+                    "x": 70,
+                    "y": 362,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "3ca008c6-1a41-4b8b-8efb-20a31b96dd3b",
+                    "label": "puffle_bar_energy",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "pufflecare",
+                        "frame": "puffle_bar_10"
+                    },
+                    "x": 72,
+                    "y": 319,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "0d0f2345-676a-4ca2-b8ab-f4180372effa",
+                    "label": "puffle_icon",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "pufflecare",
+                        "frame": "puffle/0"
+                    },
+                    "y": 177,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "d8f3ddd2-e676-4c5f-91cd-f39ce3bbc1fb",
+                    "label": "btn0001",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => {this.pufflePlay()}",
+                    "Button.activeFrame": true,
+                    "ShowHint.text": "Play with Pet",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": -122,
+                    "y": 505
+                },
+                {
+                    "type": "Image",
+                    "id": "c4383530-f480-4099-a33f-4f54bbcdba28",
+                    "label": "btn",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => {this.puffleSleep()}",
+                    "Button.activeFrame": true,
+                    "ShowHint.text": "Sleep",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": -62,
+                    "y": 505
+                },
+                {
+                    "type": "Image",
+                    "id": "1a17c75b-32dd-42a5-b624-e0cacee9a4fe",
+                    "label": "btn_1",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => {this.openInventory()}",
+                    "Button.activeFrame": true,
+                    "ShowHint.text": "Feed your Pet",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": -4,
+                    "y": 505
+                },
+                {
+                    "type": "Image",
+                    "id": "0dbf3000-778d-4237-bffe-a324a683858b",
+                    "label": "btn_2",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => {this.puffleWalk()}",
+                    "Button.activeFrame": true,
+                    "ShowHint.text": "Walk your Pet",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 57,
+                    "y": 505
+                },
+                {
+                    "type": "Image",
+                    "id": "5ee212e1-af54-4be7-87bc-2660af6fdc52",
+                    "label": "btn_3",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => {this.puffleDiscard()}",
+                    "Button.activeFrame": true,
+                    "ShowHint.text": "Return to Wild",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 120,
+                    "y": 505
+                },
+                {
+                    "type": "Image",
+                    "id": "baed26dd-a1cd-4b7a-b117-f461f9e592a6",
+                    "label": "btn_beach",
+                    "texture": {
+                        "key": "pufflecare",
+                        "frame": "btn-beach"
+                    },
+                    "x": -122,
+                    "y": 502
+                },
+                {
+                    "type": "Image",
+                    "id": "e19926b7-7b75-4edf-a930-48a1c9aca330",
+                    "label": "btn_sleep",
+                    "texture": {
+                        "key": "pufflecare",
+                        "frame": "btn-sleep"
+                    },
+                    "x": -62,
+                    "y": 504
+                },
+                {
+                    "type": "Image",
+                    "id": "ce1a13ae-4caa-4f34-8d5c-d891a3a70c73",
+                    "label": "btn_cookie",
+                    "texture": {
+                        "key": "pufflecare",
+                        "frame": "btn-cookie"
+                    },
+                    "x": -4,
+                    "y": 504
+                },
+                {
+                    "type": "Image",
+                    "id": "096b35f7-a2d3-49b3-adbf-57956da618a4",
+                    "label": "btn_walk",
+                    "texture": {
+                        "key": "pufflecare",
+                        "frame": "btn-walk"
+                    },
+                    "x": 58,
+                    "y": 504
+                },
+                {
+                    "type": "Image",
+                    "id": "01166b12-fda3-45bb-b7ba-94f8e3d48d37",
+                    "label": "pufflecare_returntowild",
+                    "texture": {
+                        "key": "pufflecare",
+                        "frame": "btn-returntowild"
+                    },
+                    "x": 121,
+                    "y": 504
+                },
+                {
+                    "type": "Image",
+                    "id": "f0fdf4b6-ae89-47d5-beb4-25909f3beef5",
+                    "label": "spinner",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "load",
+                        "frame": "spinner"
+                    },
+                    "x": 4,
+                    "y": 250
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

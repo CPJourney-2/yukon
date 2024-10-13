@@ -1,0 +1,283 @@
+{
+    "id": "9c9afb34-1749-4422-bcf2-1afff531162f",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapEnabled": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "37549f01-e125-4863-89fd-8732d638ee15",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "3842698b-7fa3-4266-9885-38ac770ab481",
+                    "label": "name_btn",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onNameOver()",
+                    "SimpleButton.hoverOutCallback": "() => this.onNameOut()",
+                    "SimpleButton.callback": "() => this.onNameDown()",
+                    "texture": {
+                        "key": "login",
+                        "frame": "larger-button0001"
+                    },
+                    "x": 48,
+                    "y": 16
+                },
+                {
+                    "type": "Container",
+                    "id": "87a27e85-b97d-4079-b95f-df72973d977a",
+                    "label": "usernameControls1",
+                    "scope": "CLASS",
+                    "x": 235,
+                    "y": 16,
+                    "list": [
+                        {
+                            "type": "Container",
+                            "id": "7feb3e35-bf19-434d-9efe-ab6ec21868fb",
+                            "label": "cross_hover",
+                            "x": 80,
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Rectangle",
+                                    "id": "9fce16f6-b7a7-481a-b4b1-e9e0a2dd8062",
+                                    "label": "cross_hover1",
+                                    "angle": 45,
+                                    "isFilled": true,
+                                    "fillColor": "#ffffff",
+                                    "width": 16,
+                                    "height": 55
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "94af86df-c677-472b-911c-c80f00e5e186",
+                                    "label": "cross_hover2",
+                                    "angle": -45.00000000000006,
+                                    "isFilled": true,
+                                    "fillColor": "#ffffff",
+                                    "width": 16,
+                                    "height": 55
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "6e9f2a23-01cc-4ae2-b939-77dbb4b1b611",
+                            "label": "cross_left",
+                            "x": 80.5,
+                            "angle": -45.00000000000006,
+                            "isFilled": true,
+                            "fillColor": "#b31313",
+                            "width": 8,
+                            "height": 50
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "3dc89266-18f2-4f13-8039-fb38c181b150",
+                            "label": "cross_right",
+                            "x": 80.5,
+                            "angle": 45,
+                            "isFilled": true,
+                            "fillColor": "#b31313",
+                            "width": 8,
+                            "height": 50
+                        },
+                        {
+                            "type": "Container",
+                            "id": "8a4d76cc-f89f-4658-b584-6b24a5f1f9fc",
+                            "label": "tick_hover",
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Rectangle",
+                                    "id": "812ceb11-ece3-4c56-a06e-6acb0f5309a7",
+                                    "label": "tick_hover2",
+                                    "x": 21,
+                                    "angle": 45,
+                                    "isFilled": true,
+                                    "fillColor": "#ffffff",
+                                    "width": 16,
+                                    "height": 50
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "5816d787-fab4-48ec-8d9d-bb9edb8c25e3",
+                                    "label": "tick_hover1",
+                                    "y": 7,
+                                    "angle": -45.00000000000006,
+                                    "isFilled": true,
+                                    "fillColor": "#ffffff",
+                                    "width": 16,
+                                    "height": 35
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "8b561825-9f23-4a85-a3e3-f4526fea9d75",
+                            "label": "tick_left",
+                            "y": 7.5,
+                            "angle": -45.00000000000006,
+                            "isFilled": true,
+                            "fillColor": "#119a2c",
+                            "width": 8,
+                            "height": 25
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "706a9332-5b36-4b1b-8fd8-1838b37b024a",
+                            "label": "tick_right",
+                            "x": 19.5,
+                            "angle": 45,
+                            "isFilled": true,
+                            "fillColor": "#119a2c",
+                            "width": 8,
+                            "height": 45
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "5caeaff6-01f9-4622-a90a-bcf14c2a8b12",
+                            "label": "reject_btn",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.hoverCallback": "() => {cross_hover.visible = true}",
+                            "SimpleButton.hoverOutCallback": "() => {cross_hover.visible = false}",
+                            "SimpleButton.callback": "() => this.rejectUsername()",
+                            "ShowHint.text": "Reject Username",
+                            "x": 80,
+                            "fillColor": "#ffffff",
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "d02a38df-168e-46d1-b791-b8d7ee226880",
+                            "label": "accept_btn",
+                            "components": [
+                                "SimpleButton",
+                                "ShowHint"
+                            ],
+                            "SimpleButton.hoverCallback": "() => {tick_hover.visible = true}",
+                            "SimpleButton.hoverOutCallback": "() => {tick_hover.visible = false}",
+                            "SimpleButton.callback": "() => this.acceptUsername()",
+                            "ShowHint.text": "Approve Username",
+                            "x": 13,
+                            "fillColor": "#ffffff",
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "4d746c7e-5bce-4151-8fb7-048cc00a1817",
+                            "label": "ud_icon",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button",
+                                "ShowHint"
+                            ],
+                            "Button.spriteName": "udicon",
+                            "Button.callback": "() => this.urbanDictionary()",
+                            "ShowHint.text": "Search Urban Dictionary",
+                            "texture": {
+                                "key": "msicons",
+                                "frame": "udicon"
+                            },
+                            "x": -123,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "4cb1135c-2ded-4684-adb8-bc4d45d9af3b",
+                            "label": "google_icon",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button",
+                                "ShowHint"
+                            ],
+                            "Button.spriteName": "googleicon",
+                            "Button.callback": "() => this.searchUsername()",
+                            "ShowHint.text": "Search Google",
+                            "texture": {
+                                "key": "msicons",
+                                "frame": "googleicon"
+                            },
+                            "x": -59,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "7be0ed26-3681-4400-b0a9-d58558efae94",
+                    "label": "name_txt",
+                    "scope": "CLASS",
+                    "x": 48,
+                    "y": 16,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Username01",
+                    "fixedWidth": 600,
+                    "paddingLeft": 20,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "40px"
+                },
+                {
+                    "prefabId": "1de1eb22-93eb-4755-aeba-c735ea72b677",
+                    "id": "de8fb403-cc6a-47d7-ae1a-75c1b0eeba7f",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY",
+                        "visible"
+                    ],
+                    "label": "spinner",
+                    "scope": "CLASS",
+                    "x": 304,
+                    "y": 16,
+                    "scaleX": 0.75,
+                    "scaleY": 0.75,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "_parent",
+            "label": "parent",
+            "tooltip": "parent",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "expression",
+                "expressionType": "any"
+            }
+        }
+    ]
+}

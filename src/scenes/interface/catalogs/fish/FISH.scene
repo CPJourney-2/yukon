@@ -1,0 +1,917 @@
+{
+    "id": "eabe42dd-4b33-4493-b0ce-7518018c3981",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "5f412ea8-5b94-4496-99e0-8a0a36950046",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "29fbb81c-4818-434d-b91b-fecff811bb92",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "9ab35fc8-d06b-40f5-9d4a-04b7d1c43914",
+                    "label": "page11",
+                    "x": 422,
+                    "y": 32,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "e9b23d95-dae9-43ce-8362-cae315797e91",
+                            "label": "p13",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg11"
+                            },
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "45d3bcf8-3206-455a-965d-e014248cf8eb",
+                            "label": "pageRight_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "pg-turn",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg-turn"
+                            },
+                            "x": 1,
+                            "y": 658,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1fce7dce-6adc-47fa-b984-9fb1622c646f",
+                            "label": "grey_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "grey-button",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-button"
+                            },
+                            "x": 514,
+                            "y": 43
+                        },
+                        {
+                            "type": "Image",
+                            "id": "871d4443-246d-4e4f-9b65-ed134c27597b",
+                            "label": "grey_x_1",
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-x"
+                            },
+                            "x": 514,
+                            "y": 42
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "62d670b8-5891-4060-a1b2-2b35eb49eddf",
+                    "label": "page10",
+                    "x": 104,
+                    "y": 36,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "bdd5e6b8-d95d-45b5-9cf8-5583456db8fe",
+                            "label": "p_herbert",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg10"
+                            },
+                            "x": -1,
+                            "y": -4,
+                            "originX": 0,
+                            "originY": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "4ed2ff30-9f84-4788-9466-9f57c7fbbda5",
+                    "label": "page9",
+                    "x": 104,
+                    "y": 34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "d4547d02-1f63-435c-8bc8-792c614e2a47",
+                            "label": "p5_aug",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg9"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5e468626-2701-4b2f-9bea-f71ad2dec9a1",
+                    "label": "page8",
+                    "x": 104,
+                    "y": 34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "5f4512d2-e1dc-420f-8458-cafeb45566c7",
+                            "label": "p4_aug",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg8"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "cc3c806c-e865-4af4-ba21-488f98dee707",
+                    "label": "page7",
+                    "x": 104,
+                    "y": 34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4ab83873-9c10-4a60-aa6f-6fb0fcf34cfd",
+                            "label": "p3_aug",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg7"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "52f4220f-d05e-4201-8e50-687c73b18099",
+                            "label": "secret_director",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.secret_director_3.visible = true",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "specialdance2-0001"
+                            },
+                            "x": 1161,
+                            "y": 624,
+                            "scaleX": 0.35,
+                            "scaleY": 0.35,
+                            "alpha": 0.000001,
+                            "alphaTopLeft": 0.000001,
+                            "alphaTopRight": 0.000001,
+                            "alphaBottomLeft": 0.000001,
+                            "alphaBottomRight": 0.000001
+                        },
+                        {
+                            "type": "Container",
+                            "id": "e24190dc-6213-4aac-a708-a154ee834988",
+                            "label": "secret_director_3",
+                            "scope": "CLASS",
+                            "x": 4,
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "fb93f416-2211-4b35-99f8-adbab6e96bac",
+                                    "label": "secret_director_1",
+                                    "texture": {
+                                        "key": "fish-catalog",
+                                        "frame": "secret-director"
+                                    },
+                                    "x": 450,
+                                    "y": 300
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "c5a67e7f-153a-47d4-8b2b-d1041abef1fb",
+                                    "label": "close_buttonery_3",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.callback": "() => this.hideSecrets()",
+                                    "texture": {
+                                        "key": "fish-catalog",
+                                        "frame": "secret-viking"
+                                    },
+                                    "x": 951,
+                                    "y": 599,
+                                    "scaleX": 0.03,
+                                    "scaleY": 0.05,
+                                    "alpha": 0.0001,
+                                    "alphaTopLeft": 0.0001,
+                                    "alphaTopRight": 0.0001,
+                                    "alphaBottomLeft": 0.0001,
+                                    "alphaBottomRight": 0.0001
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Text",
+                            "id": "deb131d8-a341-47f1-87af-1517ae2b162e",
+                            "label": "text_1",
+                            "x": 1131,
+                            "y": 519,
+                            "text": "x",
+                            "fontFamily": "CCComicrazy Regular",
+                            "fontSize": "48px",
+                            "color": "#000000ff",
+                            "stroke": "#000000ff"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "5ba4861e-d846-4285-8a2a-b3f5f645b70f",
+                            "label": "text",
+                            "x": 1075,
+                            "y": 623,
+                            "text": "Z",
+                            "fontFamily": "CCComicrazy Regular",
+                            "fontSize": "32px",
+                            "color": "#000000ff",
+                            "stroke": "#000000ff"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "4de37aa2-ee15-42f6-b6c3-8d4fa59fc051",
+                    "label": "page6",
+                    "x": -95,
+                    "y": -11,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b78c0459-0362-436e-8665-afacef8e4be0",
+                            "label": "p2_aug",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg6"
+                            },
+                            "x": -4,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "736ea8f4-fb14-428f-afd8-cec3135c3c28",
+                            "label": "specialdance",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() =>this.phone_container.visible = true",
+                            "SimpleButton.pixelPerfect": true,
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "specialdance1-0001"
+                            },
+                            "x": 1012,
+                            "y": 289,
+                            "scaleX": 0.3,
+                            "scaleY": 0.7,
+                            "alpha": 1e-11,
+                            "alphaTopLeft": 1e-11,
+                            "alphaTopRight": 1e-11,
+                            "alphaBottomLeft": 1e-11,
+                            "alphaBottomRight": 1e-11
+                        },
+                        {
+                            "type": "Container",
+                            "id": "7b9abe8d-4154-4ea3-9abb-b1823fc48560",
+                            "label": "phone_container",
+                            "scope": "CLASS",
+                            "y": 2,
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "f7184228-5e44-4e4f-886e-29202998912d",
+                                    "label": "secret_phonemsg",
+                                    "texture": {
+                                        "key": "fish-catalog",
+                                        "frame": "secret-phonemsg"
+                                    },
+                                    "x": 615,
+                                    "y": 342
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "406875c0-c909-4107-8718-d13f5a069a68",
+                                    "label": "close_buttonery_2",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.callback": "() => this.hideSecrets()",
+                                    "texture": {
+                                        "key": "fish-catalog",
+                                        "frame": "secret-viking"
+                                    },
+                                    "x": 1118,
+                                    "y": 641,
+                                    "scaleX": 0.03,
+                                    "scaleY": 0.05,
+                                    "alpha": 0.0001,
+                                    "alphaTopLeft": 0.0001,
+                                    "alphaTopRight": 0.0001,
+                                    "alphaBottomLeft": 0.0001,
+                                    "alphaBottomRight": 0.0001
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "f31435a5-7a90-4330-ab35-727bc7c37a2c",
+                    "label": "page5",
+                    "x": 110,
+                    "y": 34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "108ec400-e437-4a20-839b-da0ff12dbc36",
+                            "label": "pageFour",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg5"
+                            },
+                            "x": -5,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "prefabId": "5c1114f8-3d29-408d-a84f-caa6f2c69496",
+                            "id": "558104a6-674a-4de5-9c8d-78c73cc8df59",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_38",
+                            "item": 214,
+                            "x": 53,
+                            "y": 320
+                        },
+                        {
+                            "prefabId": "5c1114f8-3d29-408d-a84f-caa6f2c69496",
+                            "id": "c3b8896b-0ac0-44e1-a20e-dbbbd5301ea1",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton",
+                            "item": 101,
+                            "x": 356,
+                            "y": 148
+                        },
+                        {
+                            "prefabId": "5c1114f8-3d29-408d-a84f-caa6f2c69496",
+                            "id": "96ef83ed-9cff-4788-8a50-a9f5c3ece3b0",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_1",
+                            "item": 261,
+                            "x": 43,
+                            "y": 592
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9df551af-d7df-401d-b9c7-553ad2b50012",
+                            "label": "specialdance1_0001",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() =>this.setOne()",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "specialdance1-0001"
+                            },
+                            "x": 860,
+                            "y": 310
+                        },
+                        {
+                            "type": "Image",
+                            "id": "66a69672-ba2f-4c51-a17d-0e933c42a3a9",
+                            "label": "specialdance2_0001",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() =>this.setTwo()",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "specialdance2-0001"
+                            },
+                            "x": 1107,
+                            "y": 287
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5929fcdc-db3d-4fc3-98e4-9738d73d1f8d",
+                            "label": "specialdance3_0001",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() =>this.setThree()",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "specialdance3-0001"
+                            },
+                            "x": 845,
+                            "y": 544
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9257cb59-b6bc-413a-8fc5-66419391ca79",
+                            "label": "specialdance4_0001",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() =>this.setFour()",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "specialdance4-0001"
+                            },
+                            "x": 1112,
+                            "y": 525
+                        },
+                        {
+                            "type": "Image",
+                            "id": "345788a6-3ece-48af-89c6-f494259f4e43",
+                            "label": "sunglasses_secret",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.goggle_container.visible = true",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "specialdance4-0001"
+                            },
+                            "x": 367,
+                            "y": 324,
+                            "scaleY": 0.2,
+                            "alpha": 1e-10,
+                            "alphaTopLeft": 1e-10,
+                            "alphaTopRight": 1e-10,
+                            "alphaBottomLeft": 1e-10,
+                            "alphaBottomRight": 1e-10
+                        },
+                        {
+                            "type": "Container",
+                            "id": "81ea915c-126f-4819-a830-6892a4f7a44a",
+                            "label": "goggle_container",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "a5c5c751-96a4-4b4d-9870-a77897129bfe",
+                                    "label": "secret_goggles",
+                                    "texture": {
+                                        "key": "fish-catalog",
+                                        "frame": "secret-goggles"
+                                    },
+                                    "x": 651,
+                                    "y": 380
+                                },
+                                {
+                                    "prefabId": "dd77dec9-5b4e-4467-bec6-4b227fd1d6ac",
+                                    "id": "11588dca-e289-4afb-9ce6-db59902a5358",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "item"
+                                    ],
+                                    "label": "buyButton_2",
+                                    "item": 102,
+                                    "x": 488,
+                                    "y": 396
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "69419626-4a8c-4eef-802b-78004ed4bf3b",
+                                    "label": "close_buttonery_1",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.callback": "() => this.hideSecrets()",
+                                    "texture": {
+                                        "key": "fish-catalog",
+                                        "frame": "secret-viking"
+                                    },
+                                    "x": 859,
+                                    "y": 488,
+                                    "scaleX": 0.03,
+                                    "scaleY": 0.05,
+                                    "alpha": 0.0001,
+                                    "alphaTopLeft": 0.0001,
+                                    "alphaTopRight": 0.0001,
+                                    "alphaBottomLeft": 0.0001,
+                                    "alphaBottomRight": 0.0001
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "f269f070-80cc-4f49-93c9-695281fb72b6",
+                    "label": "page4",
+                    "x": 106,
+                    "y": 34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "e41ec61e-2515-4b19-ada5-f778915fffdd",
+                            "label": "pageThree",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg4"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a2e43053-e7bb-431c-8355-5ba57768b7fb",
+                            "label": "rectangle_13",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(176)",
+                            "x": 1143,
+                            "y": 441,
+                            "scaleX": 0.9653787681029078,
+                            "scaleY": 0.5416412568394531,
+                            "alpha": 0.00001,
+                            "isFilled": true,
+                            "width": 128,
+                            "height": 201
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "4783ced4-352d-44b5-889b-58a2620514e8",
+                    "label": "page3",
+                    "x": 106,
+                    "y": 34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "57c617fd-461c-4b4b-8dfb-a168da755b2f",
+                            "label": "pageTwo",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg3"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2d1ad09b-c283-422f-8960-8eb3faffd126",
+                            "label": "secret_one",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() =>  this.viking_container.visible = true",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "specialdance1-0001"
+                            },
+                            "x": 379,
+                            "y": 753,
+                            "scaleY": 0.1,
+                            "alpha": 1e-7,
+                            "alphaTopLeft": 1e-7,
+                            "alphaTopRight": 1e-7,
+                            "alphaBottomLeft": 1e-7,
+                            "alphaBottomRight": 1e-7
+                        },
+                        {
+                            "type": "Container",
+                            "id": "c8fb3d80-521f-4d55-b608-bff2821c51e4",
+                            "label": "viking_container",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "86cbfc8e-fbb4-4a1d-b65f-7697353ec20d",
+                                    "label": "secret_viking",
+                                    "texture": {
+                                        "key": "fish-catalog",
+                                        "frame": "secret-viking"
+                                    },
+                                    "x": 427,
+                                    "y": 300
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "008e1568-c123-4af0-8a1c-fe03c592aa3a",
+                                    "label": "close_buttonery",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.callback": "() => this.hideSecrets()",
+                                    "texture": {
+                                        "key": "fish-catalog",
+                                        "frame": "secret-viking"
+                                    },
+                                    "x": 926,
+                                    "y": 595,
+                                    "scaleX": 0.03,
+                                    "scaleY": 0.05,
+                                    "alpha": 0.0001,
+                                    "alphaTopLeft": 0.0001,
+                                    "alphaTopRight": 0.0001,
+                                    "alphaBottomLeft": 0.0001,
+                                    "alphaBottomRight": 0.0001
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "670ddb78-8754-4e22-bdfa-d0197d4452ae",
+                    "label": "page2",
+                    "x": 106,
+                    "y": 34,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f7700cbb-1c60-4a11-b9ed-cadd95da9e4b",
+                            "label": "pageOne",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg2"
+                            },
+                            "x": -1,
+                            "y": -2,
+                            "originX": 0,
+                            "originY": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d5340b9e-a792-44ac-9ebd-660308775819",
+                    "label": "page1",
+                    "x": 1,
+                    "y": -31,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ea835e58-6cb0-4fa3-8390-a4a0d21cac8d",
+                            "label": "p1",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg1"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cf40aaed-bd33-4f60-ab50-80fa3555a394",
+                            "label": "grey_button_2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "grey-button",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-button"
+                            },
+                            "x": 1048,
+                            "y": 107
+                        },
+                        {
+                            "type": "Image",
+                            "id": "26425f37-7e71-465d-9bbe-32a797f160af",
+                            "label": "grey_x_2",
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-x"
+                            },
+                            "x": 1048,
+                            "y": 106
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a3f4a883-0a67-4603-bbce-bc13e59a2970",
+                            "label": "pageRight_2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "front-turn",
+                            "Button.callback": "() => this.nextPage()",
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "front-turn"
+                            },
+                            "x": 937,
+                            "y": 635,
+                            "originX": 0,
+                            "originY": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "0d5feff1-712f-4fa8-9bce-d23be326aedf",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 186,
+                    "y": 47,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "fc75a34f-4b43-4c25-9b1a-3ef46b68a105",
+                            "label": "pageRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "pg-turn",
+                            "Button.callback": "() =>  {this.valuesFlush(), this.nextPage()}",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg-turn"
+                            },
+                            "x": 1081,
+                            "y": 643,
+                            "originX": 0,
+                            "originY": 0,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d4adb90d-6c80-491c-84de-1ed0497602bb",
+                            "label": "pageLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "pg-turn",
+                            "Button.callback": "() =>  {this.valuesFlush(), this.prevPage()}",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "fish-catalog",
+                                "frame": "pg-turn"
+                            },
+                            "x": -81,
+                            "y": 642,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Text",
+                            "id": "26549d5d-6716-4bf8-b6bf-87419dbd7839",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1130,
+                            "y": 819,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        },
+                        {
+                            "type": "Image",
+                            "id": "db416ce8-602a-4510-a224-92e40cbb28fb",
+                            "label": "grey_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "grey-button",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-button"
+                            },
+                            "x": 1146,
+                            "y": 28
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a70b32fe-eb9a-406a-a5f8-ccdecac94012",
+                            "label": "grey_x",
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-x"
+                            },
+                            "x": 1146,
+                            "y": 27
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "574d04ef-a7d5-4c55-963e-d98537ab9f61",
+            "label": "pages",
+            "objectIds": [
+                "d5340b9e-a792-44ac-9ebd-660308775819",
+                "670ddb78-8754-4e22-bdfa-d0197d4452ae",
+                "4783ced4-352d-44b5-889b-58a2620514e8",
+                "f269f070-80cc-4f49-93c9-695281fb72b6",
+                "f31435a5-7a90-4330-ab35-727bc7c37a2c",
+                "4de37aa2-ee15-42f6-b6c3-8d4fa59fc051",
+                "cc3c806c-e865-4af4-ba21-488f98dee707",
+                "5e468626-2701-4b2f-9bea-f71ad2dec9a1",
+                "4ed2ff30-9f84-4788-9466-9f57c7fbbda5",
+                "9ab35fc8-d06b-40f5-9d4a-04b7d1c43914"
+            ]
+        }
+    ]
+}

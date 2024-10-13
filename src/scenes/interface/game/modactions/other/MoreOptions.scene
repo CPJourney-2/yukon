@@ -1,0 +1,783 @@
+{
+    "id": "c6dad09a-4d6b-42de-8f6b-558d0c2e7d6a",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0305222c-a40d-490f-aac1-d71b3c226b5f",
+            "label": "moreOptions",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "NineSlice",
+                    "id": "2d18ecd3-08b6-4421-9dc9-02e0fefafeb0",
+                    "label": "bg_1",
+                    "scope": "CLASS",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "x": -22.468603934740713,
+                    "y": -28.57432293665994,
+                    "originX": 0,
+                    "originY": 0,
+                    "alpha": 0.9,
+                    "width": 470,
+                    "height": 435,
+                    "leftWidth": 44,
+                    "rightWidth": 39,
+                    "topHeight": 40,
+                    "bottomHeight": 41
+                },
+                {
+                    "type": "RoundedRectangleImage",
+                    "id": "076a152b-dcfa-4d2f-a4ed-e0de806948da",
+                    "label": "roundedrectangleimage_6",
+                    "x": 318.5313960652593,
+                    "y": 250.42567706334006,
+                    "width": 200,
+                    "height": 30,
+                    "fillColor": "#115594",
+                    "isStroked": false,
+                    "radiusTopLeft": 15,
+                    "radiusTopRight": 0,
+                    "radiusBottomLeft": 15,
+                    "radiusBottomRight": 0
+                },
+                {
+                    "type": "RoundedRectangleImage",
+                    "id": "7f540383-8395-4b7a-8cb1-3058b0a930d7",
+                    "label": "roundedrectangleimage_4",
+                    "x": 295.5313960652593,
+                    "y": 45.42567706334006,
+                    "width": 200,
+                    "height": 30,
+                    "fillColor": "#115594",
+                    "isStroked": false,
+                    "radiusTopLeft": 15,
+                    "radiusTopRight": 0,
+                    "radiusBottomLeft": 15,
+                    "radiusBottomRight": 0
+                },
+                {
+                    "type": "RoundedRectangleImage",
+                    "id": "765bd005-9d30-4fda-a031-1ba8efb88533",
+                    "label": "roundedrectangleimage",
+                    "x": 96,
+                    "y": 212,
+                    "width": 200,
+                    "height": 30,
+                    "fillColor": "#115594",
+                    "isStroked": false,
+                    "radiusTopLeft": 15,
+                    "radiusTopRight": 0,
+                    "radiusBottomLeft": 15,
+                    "radiusBottomRight": 0
+                },
+                {
+                    "type": "RoundedRectangleImage",
+                    "id": "56556f73-38b2-4b4b-8586-a03f4a1d9518",
+                    "label": "roundedrectangleimage_3",
+                    "x": 316,
+                    "y": 332,
+                    "width": 200,
+                    "height": 30,
+                    "fillColor": "#115594",
+                    "isStroked": false,
+                    "radiusTopLeft": 15,
+                    "radiusTopRight": 0,
+                    "radiusBottomLeft": 15,
+                    "radiusBottomRight": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "a6c6420b-6e9a-4ab0-873d-374d7d7343ea",
+                    "label": "text_2",
+                    "x": 48,
+                    "y": 4,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "unban:",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Image",
+                    "id": "c25b7f86-9738-4de9-a0ff-c9c7012405b8",
+                    "label": "ban_btn_7",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.unban()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 121.53139606525929,
+                    "y": 5.425677063340061,
+                    "angle": 90,
+                    "originY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "486fb9ca-fa07-4ea7-8f70-a3586f28b2f1",
+                    "label": "text_3",
+                    "x": 58,
+                    "y": 65,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "IP unban:",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Image",
+                    "id": "c38d4447-b215-4c4b-983c-1526626abb49",
+                    "label": "ban_btn_9",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.unbanIP()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 149,
+                    "y": 68,
+                    "angle": 90,
+                    "originY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "f9edd842-4f54-48dd-81ef-af4be12db224",
+                    "label": "text",
+                    "x": 71,
+                    "y": 101,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "make potw:",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#000"
+                },
+                {
+                    "type": "RoundedRectangleImage",
+                    "id": "cddae46b-f42b-4b8c-9ea7-5f5b11a4162c",
+                    "label": "roundedrectangleimage_5",
+                    "x": 304.5313960652593,
+                    "y": 131.42567706334006,
+                    "width": 200,
+                    "height": 30,
+                    "fillColor": "#115594",
+                    "isStroked": false,
+                    "radiusTopLeft": 15,
+                    "radiusTopRight": 0,
+                    "radiusBottomLeft": 15,
+                    "radiusBottomRight": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "2a52f9da-b621-4a88-b1ee-5d6a95e6a306",
+                    "label": "ban_btn_12",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.makePotw()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 172.5313960652593,
+                    "y": 101.42567706334006,
+                    "angle": 90,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "dcd0cf83-4fb8-43f9-bfd2-73087aae8129",
+                    "label": "card_coin_1",
+                    "texture": {
+                        "key": "main",
+                        "frame": "card-coin"
+                    },
+                    "x": 22,
+                    "y": 175,
+                    "angle": 90
+                },
+                {
+                    "type": "Text",
+                    "id": "798b26b7-4b65-4db6-9a97-f22b321eb824",
+                    "label": "item_txt_1",
+                    "x": 126,
+                    "y": 175,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "add coins:",
+                    "fixedWidth": 150,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "2fc1eb0a-85e9-4fad-b76b-b5c94254e3b0",
+                    "label": "items_btn_2",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.addCoins()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 206,
+                    "y": 211,
+                    "angle": 90,
+                    "originY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "64837421-475d-45e6-b8ee-34cb6c539c1b",
+                    "label": "item_txt_3",
+                    "x": 130,
+                    "y": 259,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "add item by id",
+                    "fixedWidth": 180,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "7dfff7c0-3d6d-43f9-ad2f-70e50866ae12",
+                    "label": "item_icon_1",
+                    "texture": {
+                        "key": "main",
+                        "frame": "buddy/icon-mascot"
+                    },
+                    "x": 17,
+                    "y": 238,
+                    "originY": 0
+                },
+                {
+                    "type": "RoundedRectangleImage",
+                    "id": "bf0f614b-8236-4439-8e2a-800161448fb6",
+                    "label": "roundedrectangleimage_2",
+                    "x": 97,
+                    "y": 296,
+                    "width": 200,
+                    "height": 30,
+                    "fillColor": "#115594",
+                    "isStroked": false,
+                    "radiusTopLeft": 15,
+                    "radiusTopRight": 0,
+                    "radiusBottomLeft": 15,
+                    "radiusBottomRight": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "32a5a317-ccb1-4f65-a066-94ec46e9f507",
+                    "label": "text_5",
+                    "x": 297,
+                    "y": 365,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "List of mail IDs:",
+                    "lineSpacing": 6,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "22px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Image",
+                    "id": "1d720838-0f44-400e-b7ff-ab234423b9b6",
+                    "label": "items_btn_1",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.addItem()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 206,
+                    "y": 296,
+                    "angle": 90,
+                    "originY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "60482087-baf0-4e18-8304-95b479ae1f5f",
+                    "label": "text_4",
+                    "x": 334,
+                    "y": 294,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Send sys mail:",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Image",
+                    "id": "2d46305d-67fc-4036-abcb-36e35cd06150",
+                    "label": "ban_btn_11",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.sysMailList()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 413,
+                    "y": 367,
+                    "angle": 90,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "ce263345-2dd6-48e9-865c-43b384b28e97",
+                    "label": "mail_icon",
+                    "texture": {
+                        "key": "main",
+                        "frame": "mail-icon"
+                    },
+                    "x": 234,
+                    "y": 295
+                },
+                {
+                    "type": "Image",
+                    "id": "c0b127c2-59bd-42db-8a03-cc5280e2ef77",
+                    "label": "help_icon",
+                    "texture": {
+                        "key": "main",
+                        "frame": "help-icon"
+                    },
+                    "x": 215.5313960652593,
+                    "y": -9.57432293665994,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "066cf816-e94f-488b-a23f-fb82fcfc2e2d",
+                    "label": "ban_btn_14",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.unmute()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 138,
+                    "y": 35,
+                    "angle": 90,
+                    "originY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "b653c054-10a8-4985-a298-45365edd988b",
+                    "label": "unmute_text",
+                    "x": 52,
+                    "y": 34,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "unmute:",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Image",
+                    "id": "86d82011-9ec5-4a46-a2a2-c5295f45bce9",
+                    "label": "items_btn",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.sendSysMail()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 425,
+                    "y": 331,
+                    "angle": 90,
+                    "originY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "fb0c1c06-e295-41a1-a801-fda0e3b5418d",
+                    "label": "stamps_txt",
+                    "x": 361,
+                    "y": 4,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "change name:",
+                    "fixedWidth": 250,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "abf10487-ee60-4202-a9d7-ccaf2d55cb08",
+                    "label": "username_btn",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.changeUsernames()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 405.5313960652593,
+                    "y": 45.42567706334006,
+                    "angle": 90,
+                    "originY": 0
+                },
+                {
+                    "type": "RoundedRectangleImage",
+                    "id": "29641b6c-508d-4e76-a0bf-b09305a7d818",
+                    "label": "roundedrectangleimage_7",
+                    "x": 373.5313960652593,
+                    "y": 165.42567706334006,
+                    "width": 70,
+                    "height": 30,
+                    "fillColor": "#115594",
+                    "isStroked": false,
+                    "radiusTopLeft": 15,
+                    "radiusTopRight": 15,
+                    "radiusBottomLeft": 15,
+                    "radiusBottomRight": 15
+                },
+                {
+                    "type": "Image",
+                    "id": "539feff2-7fff-486b-9f64-dd9cf360ca3d",
+                    "label": "items_btn_3",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.addFurniture()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 419.5313960652593,
+                    "y": 130.42567706334006,
+                    "angle": 90,
+                    "originY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "586284e5-8cde-45d8-92a8-40fc9f439c09",
+                    "label": "item_txt",
+                    "x": 334,
+                    "y": 95,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "add furniture by id",
+                    "fixedWidth": 180,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "21px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "c491f382-b7a9-43a3-b856-709984d0afea",
+                    "label": "igloo_icon",
+                    "texture": {
+                        "key": "main",
+                        "frame": "igloo-icon"
+                    },
+                    "x": 220.5313960652593,
+                    "y": 93.42567706334006
+                },
+                {
+                    "type": "Text",
+                    "id": "b7830076-7753-484d-9e85-9abbe04186d5",
+                    "label": "item_txt_4",
+                    "x": 283,
+                    "y": 165,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "# of units:",
+                    "fixedWidth": 100,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "20px"
+                },
+                {
+                    "type": "Image",
+                    "id": "2844425f-e8af-4994-b899-4e1a21b9fdbd",
+                    "label": "item_icon",
+                    "texture": {
+                        "key": "main",
+                        "frame": "buddy/icon-mascot"
+                    },
+                    "x": 241.5313960652593,
+                    "y": 192.42567706334006,
+                    "originY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "f3a1fcb5-bf9d-4e3f-b59f-287b93f3a971",
+                    "label": "item_txt_5",
+                    "x": 358,
+                    "y": 209,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "remove item",
+                    "fixedWidth": 180,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Polygon",
+                    "id": "97776522-a77b-4722-9145-89318ca8b9a2",
+                    "label": "polygon_1",
+                    "x": 240.8743672270294,
+                    "y": 208.8650765341171,
+                    "originX": 1.273942534258352,
+                    "originY": 0.9917617707835024,
+                    "isFilled": true,
+                    "fillColor": "#a51c13ff",
+                    "points": "42.47503088578321 72.12756496302148 37.799920914845416 68.23163998723999 57.27954579375293 47.9728301131762 39.808375725252546 30.201056145098505 44.25198270447771 26.474159968974163 61.73972630013802 43.38853492215384 80.06015076487893 25.163531103982535 84.96115632060503 29.341003181377516 66.67296414442293 48.156139034652796 86.36911894625479 69.01082498239629 82.47319397047329 73.42620662161534 61.95465576469073 52.38821175239522"
+                },
+                {
+                    "type": "Image",
+                    "id": "95033198-970d-476a-9ffe-5c2d21bf1217",
+                    "label": "items_btn_4",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.removeItem()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 430.5313960652593,
+                    "y": 250.42567706334006,
+                    "angle": 90,
+                    "originY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "f91a596b-ba29-47d3-89a8-1689a5a0c098",
+                    "label": "removeItemInput",
+                    "scope": "CLASS",
+                    "components": [
+                        "InputText"
+                    ],
+                    "InputText.id": "removeitems",
+                    "InputText.inputType": "number",
+                    "InputText.maxLength": 10,
+                    "InputText.callback": "() => this.handleRemoveItems()",
+                    "InputText.rank": 3,
+                    "x": 230,
+                    "y": 240.1899995803833,
+                    "text": "Item input",
+                    "fixedWidth": 160,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "20px",
+                    "color": "#ffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "ec5b963a-4b77-4413-9677-cdb4978b961c",
+                    "label": "mailInput",
+                    "scope": "CLASS",
+                    "components": [
+                        "InputText"
+                    ],
+                    "InputText.id": "sendsysmail",
+                    "InputText.inputType": "number",
+                    "InputText.maxLength": 5,
+                    "InputText.callback": "() => this.sendSysMail()",
+                    "InputText.rank": 3,
+                    "x": 226,
+                    "y": 319,
+                    "text": "Item input",
+                    "fixedWidth": 160,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "20px",
+                    "color": "#ffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "4befc9a9-42e3-4d17-bda5-c90388bd2bde",
+                    "label": "itemInput",
+                    "scope": "CLASS",
+                    "components": [
+                        "InputText"
+                    ],
+                    "InputText.id": "additems",
+                    "InputText.inputType": "number",
+                    "InputText.maxLength": 10,
+                    "InputText.callback": "() => this.handleAddItems()",
+                    "x": 7,
+                    "y": 286,
+                    "text": "Item input",
+                    "fixedWidth": 160,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "20px",
+                    "color": "#ffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "26c47b83-ecb1-48e7-b398-0f878fb6346b",
+                    "label": "coinsInput",
+                    "scope": "CLASS",
+                    "components": [
+                        "InputText"
+                    ],
+                    "InputText.id": "coincount",
+                    "InputText.inputType": "number",
+                    "InputText.maxLength": 12,
+                    "InputText.callback": "() => this.handleCoinCount()",
+                    "InputText.rank": 3,
+                    "x": 5,
+                    "y": 201,
+                    "text": "Item input",
+                    "fixedWidth": 160,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "20px",
+                    "color": "#ffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "bc9baff3-3ea1-43fd-8027-d328bfea37bd",
+                    "label": "furnitureUnitInput",
+                    "scope": "CLASS",
+                    "components": [
+                        "InputText"
+                    ],
+                    "InputText.id": "addfurniture-units",
+                    "InputText.inputType": "number",
+                    "InputText.maxLength": 2,
+                    "InputText.callback": "() => this.addFurniture()",
+                    "InputText.rank": 3,
+                    "x": 349,
+                    "y": 153.00899982452393,
+                    "text": "99",
+                    "fixedWidth": 50,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "22px",
+                    "color": "#ffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "f1fad636-1a41-4f0b-b3b0-b2fe210def82",
+                    "label": "furnitureInput",
+                    "scope": "CLASS",
+                    "components": [
+                        "InputText"
+                    ],
+                    "InputText.id": "addfurniture",
+                    "InputText.inputType": "number",
+                    "InputText.maxLength": 10,
+                    "InputText.callback": "() => this.addFurniture()",
+                    "InputText.rank": 3,
+                    "x": 218,
+                    "y": 120.1899995803833,
+                    "text": "Item input",
+                    "fixedWidth": 160,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "20px",
+                    "color": "#ffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "9b6b4c36-4a16-484c-af1f-5f946fbf4313",
+                    "label": "nameInput",
+                    "scope": "CLASS",
+                    "components": [
+                        "InputText"
+                    ],
+                    "InputText.id": "changeusername",
+                    "InputText.maxLength": 16,
+                    "InputText.callback": "() => this.handleChangeUsername()",
+                    "InputText.rank": 3,
+                    "x": 207,
+                    "y": 33.1899995803833,
+                    "text": "Item input",
+                    "fixedWidth": 160,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "20px",
+                    "color": "#ffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "2605d668-f1e1-43fc-af5a-9c278a3431bd",
+                    "label": "text_1",
+                    "x": 66,
+                    "y": 137,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "slowmode:",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Image",
+                    "id": "d00e659f-9ad7-4ee2-a8f9-07c1448d41db",
+                    "label": "ban_btn",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.showSlowmode()",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 166,
+                    "y": 140,
+                    "angle": 90,
+                    "originY": 0
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "efbd0d14-677d-4811-a868-f88f7e684440",
+            "label": "inputs",
+            "objectIds": [
+                "f91a596b-ba29-47d3-89a8-1689a5a0c098",
+                "9b6b4c36-4a16-484c-af1f-5f946fbf4313",
+                "f1fad636-1a41-4f0b-b3b0-b2fe210def82",
+                "bc9baff3-3ea1-43fd-8027-d328bfea37bd",
+                "26c47b83-ecb1-48e7-b398-0f878fb6346b",
+                "4befc9a9-42e3-4d17-bda5-c90388bd2bde",
+                "ec5b963a-4b77-4413-9677-cdb4978b961c"
+            ]
+        }
+    ]
+}

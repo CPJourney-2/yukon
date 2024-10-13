@@ -1,0 +1,435 @@
+{
+    "id": "36a01e03-735b-4e8f-b129-971884febf75",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8bb89fb5-8fd3-4d6d-a8b9-f11a53a7735f",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9d274e25-df95-406f-883b-f4102166d431",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "0e4693a2-646d-4405-93bf-629c06bfba71",
+                    "label": "bg",
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "width": 708,
+                    "height": 600,
+                    "leftWidth": 43,
+                    "rightWidth": 39,
+                    "topHeight": 41,
+                    "bottomHeight": 39
+                },
+                {
+                    "type": "Text",
+                    "id": "8d1cc4d7-9fc2-476a-9a7f-1f4a77c03434",
+                    "label": "buddies",
+                    "x": 103,
+                    "y": 236,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "88 Buddies",
+                    "fixedWidth": 300,
+                    "fixedHeight": 36,
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "03a270a0-f16e-4e4d-914b-61bfd7ab3bf2",
+                    "label": "icon",
+                    "texture": {
+                        "key": "main",
+                        "frame": "buddy/icon-online"
+                    },
+                    "x": -97,
+                    "y": 234
+                },
+                {
+                    "type": "Image",
+                    "id": "ecae60f1-e84f-47b3-ab6a-1f2d7eb75c8c",
+                    "label": "earnbtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "window-button",
+                    "Button.callback": "() => {this.onManage()}",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window-button"
+                    },
+                    "x": 166,
+                    "y": 131
+                },
+                {
+                    "type": "Image",
+                    "id": "2ce8fd31-4368-4570-bbee-9f2f45901ae5",
+                    "label": "earnbtn_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "window-button",
+                    "Button.callback": "() => { this.interface.loadWidget('UnlockCodes') }",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window-button"
+                    },
+                    "x": -156,
+                    "y": 131
+                },
+                {
+                    "type": "Text",
+                    "id": "d8459f02-8216-49b8-9a56-e9a7ff51b303",
+                    "label": "account",
+                    "x": 167,
+                    "y": 132,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Manage Account",
+                    "fixedWidth": 300,
+                    "fixedHeight": 50,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "8bb0b24c-3cd7-434d-8d31-c69ac4ae9981",
+                    "label": "music",
+                    "x": -41,
+                    "y": -55,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Mute Music",
+                    "fixedWidth": 348,
+                    "fixedHeight": 36,
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Text",
+                    "id": "0a157de1-3931-40c1-89c2-df8717cc7928",
+                    "label": "age",
+                    "y": -120,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Your penguin is 0 days old",
+                    "fixedWidth": 600,
+                    "fixedHeight": 38,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Text",
+                    "id": "502ffa53-fbc7-4cf2-bc81-43262b4d1979",
+                    "label": "server",
+                    "scope": "CLASS",
+                    "y": -162,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "You're on Server Name",
+                    "fixedWidth": 600,
+                    "fixedHeight": 34,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "30px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Text",
+                    "id": "049efdf7-a9e9-4774-81b7-5a3c6b0e7c7e",
+                    "label": "settings",
+                    "y": -227,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "SETTINGS",
+                    "fixedWidth": 600,
+                    "align": "center",
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "40px",
+                    "fontStyle": "bold italic",
+                    "stroke": "#003366",
+                    "strokeThickness": 10
+                },
+                {
+                    "type": "Image",
+                    "id": "3723c077-1983-4f49-8883-847b483312d2",
+                    "label": "checkbox",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onMuteClick()",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": -248,
+                    "y": -58,
+                    "originX": 0.41509,
+                    "originY": 0.5849
+                },
+                {
+                    "type": "Image",
+                    "id": "e656c20c-78a6-4d94-917f-6cf411b1f4d4",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 300,
+                    "y": -242
+                },
+                {
+                    "type": "Image",
+                    "id": "56d93af1-ac83-4be9-a548-efd7ba743bf2",
+                    "label": "blue_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 300,
+                    "y": -244
+                },
+                {
+                    "type": "Text",
+                    "id": "50aea010-fe32-447f-aa2c-486c37deda72",
+                    "label": "music_1",
+                    "x": -41,
+                    "y": -6,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Mute SFX",
+                    "fixedWidth": 348,
+                    "fixedHeight": 36,
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Image",
+                    "id": "0a9b1479-0d7b-4172-975e-2e10b6366cf2",
+                    "label": "checkbox_1",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onSFXClick()",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": -248,
+                    "y": -8,
+                    "originX": 0.41509,
+                    "originY": 0.5849
+                },
+                {
+                    "type": "Image",
+                    "id": "6ef87c70-5df4-49e6-8e74-8bfc4cf2c602",
+                    "label": "x_button_2",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => { this.onFullscreen() }",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": -295,
+                    "y": -242
+                },
+                {
+                    "type": "Image",
+                    "id": "0baef68c-8cf8-4789-84c1-993c08e2453a",
+                    "label": "icon_2",
+                    "texture": {
+                        "key": "main",
+                        "frame": "fullscreen"
+                    },
+                    "x": -295,
+                    "y": -244,
+                    "scaleX": 0.7,
+                    "scaleY": 0.7
+                },
+                {
+                    "type": "Image",
+                    "id": "3b371277-7997-47f1-8fd6-db5e0402a311",
+                    "label": "x_button_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => { this.onScreenshot() }",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 239,
+                    "y": -242
+                },
+                {
+                    "type": "Image",
+                    "id": "e3e68646-fbfe-4db4-8610-8f4bf6a0a03f",
+                    "label": "icon_1",
+                    "texture": {
+                        "key": "main",
+                        "frame": "camera"
+                    },
+                    "x": 222,
+                    "y": -257,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "d48ef560-5cb4-4654-9356-0c5450a92c09",
+                    "label": "checkbox_3",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onLowQualityClick()",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": -4,
+                    "y": -58,
+                    "originX": 0.41509,
+                    "originY": 0.5849
+                },
+                {
+                    "type": "Text",
+                    "id": "0986be70-4f96-4a29-a896-19531e0f05b1",
+                    "label": "music_3",
+                    "x": 204,
+                    "y": -55,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Low Quality",
+                    "fixedWidth": 348,
+                    "fixedHeight": 36,
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Image",
+                    "id": "a30bd67c-2d75-4f3e-a5d0-da11c45b13b3",
+                    "label": "unlock_badge",
+                    "texture": {
+                        "key": "main",
+                        "frame": "unlock-icon"
+                    },
+                    "x": -266,
+                    "y": 129,
+                    "scaleX": 0.6,
+                    "scaleY": 0.6
+                },
+                {
+                    "type": "Text",
+                    "id": "7e2def2b-7f07-47b4-92f7-1766af295be6",
+                    "label": "account_1",
+                    "x": -124,
+                    "y": 132,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Unlock Items",
+                    "fixedWidth": 240,
+                    "fixedHeight": 50,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Image",
+                    "id": "d9ddaf49-4495-47c9-a08b-b1195e5909ca",
+                    "label": "checkbox_4",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onUnlimitedSFXClick()",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": -4,
+                    "y": -8,
+                    "originX": 0.41509,
+                    "originY": 0.5849
+                },
+                {
+                    "type": "Text",
+                    "id": "3b935bbc-f9c8-4e25-8499-9f5ed3701e31",
+                    "label": "music_4",
+                    "x": 203,
+                    "y": -7,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Unlimited SFX",
+                    "fixedWidth": 348,
+                    "fixedHeight": 36,
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

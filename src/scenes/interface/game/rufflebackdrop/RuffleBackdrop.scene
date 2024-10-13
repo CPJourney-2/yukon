@@ -1,0 +1,61 @@
+{
+    "id": "8018becf-0cb6-4eff-acb6-7a2bb1ba22c7",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "d876aba8-9a70-481e-aeb6-21a2beb8178a",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "a2487374-f8b1-4c2b-835a-ff70624e2d59",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 757,
+                    "y": 472,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "fillAlpha": 0.8,
+                    "width": 1550,
+                    "height": 1000
+                },
+                {
+                    "type": "Image",
+                    "id": "49057531-d666-46cf-91fb-0b7b85f8e328",
+                    "label": "closebtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.close()",
+                    "texture": {
+                        "key": "mail",
+                        "frame": "closebtn"
+                    },
+                    "x": 1456,
+                    "y": 69
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

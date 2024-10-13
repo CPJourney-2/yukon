@@ -1,0 +1,65 @@
+{
+    "id": "71f0743e-92cd-424b-8fac-76279ccb4eb5",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/fishbowl/fishbowl-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "FishBowl",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "a96afafc-ce45-48a7-83f4-053941ae9ce0",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "fishbowl",
+                "frame": "bg"
+            },
+            "x": 760,
+            "y": 530,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "54c4bd26-7974-408c-a528-f3bb55b2160f",
+            "label": "fg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "fishbowl",
+                "frame": "fg"
+            },
+            "x": 760,
+            "y": 922.1773064411411,
+            "originY": 0.9699015080728073,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "ec91ceaa-c6f9-40fb-90a4-4bb31e949fbe",
+            "label": "sort",
+            "objectIds": [
+                "54c4bd26-7974-408c-a528-f3bb55b2160f"
+            ]
+        }
+    ]
+}

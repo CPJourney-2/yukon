@@ -1,0 +1,147 @@
+{
+    "id": "e585632b-6ea3-4340-8b72-2a547c83c6ef",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eefc5a3-1b9a-4b15-a92a-1a543086f96d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "637cca7d-b294-4dcd-aa38-991230ee66f5",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -12,
+                    "y": 10,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Image",
+                    "id": "7bed0963-9321-49ac-a1a9-18544bba4f45",
+                    "label": "boxL",
+                    "texture": {
+                        "key": "giftfive",
+                        "frame": "boxL"
+                    },
+                    "x": -286
+                },
+                {
+                    "type": "Image",
+                    "id": "5c645a04-cc5b-478b-bb91-51fbb0e07c68",
+                    "label": "boxR",
+                    "texture": {
+                        "key": "giftfive",
+                        "frame": "boxR"
+                    },
+                    "x": 285
+                },
+                {
+                    "type": "Image",
+                    "id": "a9e104ab-adaa-4a8e-ad68-ac5e47e8a686",
+                    "label": "note_paper",
+                    "texture": {
+                        "key": "giftfive",
+                        "frame": "note_paper"
+                    },
+                    "x": -6,
+                    "y": -38
+                },
+                {
+                    "type": "Sprite",
+                    "id": "7ccc24f4-32d9-4690-ae2e-c6f46c4f68cd",
+                    "label": "pizzaslices",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "giftfive",
+                        "frame": "pizzaslices0001"
+                    },
+                    "x": 3,
+                    "y": 203
+                },
+                {
+                    "type": "Image",
+                    "id": "19dcab3b-a5fd-4958-b7a3-d18bb17c8db1",
+                    "label": "note_text",
+                    "texture": {
+                        "key": "giftfive",
+                        "frame": "note_text"
+                    },
+                    "x": -3,
+                    "y": -157
+                },
+                {
+                    "type": "Text",
+                    "id": "22eed590-dafc-442d-800f-1b4af88853e0",
+                    "label": "username",
+                    "scope": "CLASS",
+                    "x": -182,
+                    "y": -312,
+                    "text": "Username",
+                    "fontFamily": "CCComicrazy",
+                    "fontSize": "25px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "95036080-e895-449f-83fa-ae861bb3dcfc",
+                    "label": "closebutton",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "closebutton",
+                    "Button.callback": "() => this.interface.destroyWidget(this);",
+                    "texture": {
+                        "key": "giftfive",
+                        "frame": "closebutton"
+                    },
+                    "x": 315,
+                    "y": -335
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "d71db01e-6515-4f10-92be-f936dedf9ac6",
+                    "label": "changePizzaSlice",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.changePizzaFrame()",
+                    "x": 3,
+                    "y": 205,
+                    "width": 800,
+                    "height": 180
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

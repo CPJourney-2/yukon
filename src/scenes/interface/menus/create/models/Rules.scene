@@ -1,0 +1,229 @@
+{
+    "id": "03dfda1d-0343-4676-a9e8-de3a0b0b48c8",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "67e7c80d-b717-4897-965e-b68b420f0554",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "368e355b-094e-45a3-853d-7906fb459901",
+                    "label": "whitebg_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillAlpha": 0.5,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "RoundedRectangleGraphics",
+                    "id": "c9749946-8dfc-4595-b3e8-49c224a328b1",
+                    "label": "nameInputBg",
+                    "width": 1100,
+                    "height": 700,
+                    "strokeColor": "#4DC0F0",
+                    "lineWidth": 6
+                },
+                {
+                    "type": "Image",
+                    "id": "00c31c50-78e4-4488-8418-2ff5df7362cf",
+                    "label": "closebtn",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onClose()",
+                    "texture": {
+                        "key": "closebtn"
+                    },
+                    "x": 513,
+                    "y": -311
+                },
+                {
+                    "type": "Text",
+                    "id": "e8434633-1e95-49ac-9f6f-cdb3154001c3",
+                    "label": "colorTitle",
+                    "y": -277,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Club Penguin Journey Rules",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "50px",
+                    "fontStyle": "bold",
+                    "color": "#297EC7"
+                },
+                {
+                    "type": "Text",
+                    "id": "5a15bf9e-a0bf-4580-9b46-f5f58bc737f2",
+                    "label": "colorTitle_1",
+                    "x": -512,
+                    "y": -193,
+                    "text": "Respect Other Penguins",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "35px",
+                    "fontStyle": "bold",
+                    "color": "#297EC7"
+                },
+                {
+                    "type": "Image",
+                    "id": "c2e86957-7c2a-467b-9c95-b11d9f8eb468",
+                    "label": "emotes_30",
+                    "texture": {
+                        "key": "main",
+                        "frame": "emotes/30"
+                    },
+                    "x": -76,
+                    "y": -172
+                },
+                {
+                    "type": "Text",
+                    "id": "fe05e802-b97f-4e2b-b0fc-f172687bff17",
+                    "label": "colorTitle_2",
+                    "x": -512,
+                    "y": -142,
+                    "text": "Club Penguin Journey does not tolerate any swearing, bullying or mean behavior toward other penguins. Disciplinary action will be taken should any one of these occur while playing.",
+                    "fixedWidth": 500,
+                    "fixedHeight": 200,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "27px",
+                    "color": "#666",
+                    "wordWrapWidth": 500
+                },
+                {
+                    "type": "Text",
+                    "id": "5ae2144e-f43f-49aa-ae49-f456404302a5",
+                    "label": "colorTitle_3",
+                    "x": 18,
+                    "y": -142,
+                    "text": "References to drugs and alcohol related activities, potentially unsafe websites, religious, political, sexual, and racial or otherwise inappropriate talk are not permitted.\n",
+                    "fixedWidth": 500,
+                    "fixedHeight": 200,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "27px",
+                    "color": "#666",
+                    "wordWrapWidth": 500
+                },
+                {
+                    "type": "Text",
+                    "id": "dea0def4-8942-41fa-8083-9bf6920888f1",
+                    "label": "colorTitle_4",
+                    "x": 18,
+                    "y": -193,
+                    "text": "No Inappropriate Talk",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "35px",
+                    "fontStyle": "bold",
+                    "color": "#297EC7"
+                },
+                {
+                    "type": "Image",
+                    "id": "298701a7-1ada-4c54-b34c-c1f1751e5bd9",
+                    "label": "emotes_5",
+                    "texture": {
+                        "key": "main",
+                        "frame": "emotes/5"
+                    },
+                    "x": 411,
+                    "y": -174
+                },
+                {
+                    "type": "Text",
+                    "id": "f13fabcb-5353-4811-9b52-0c50da55b4d3",
+                    "label": "colorTitle_5",
+                    "x": -512,
+                    "y": 156,
+                    "text": "The best way to stay safe online is to NEVER share your real name, phone number, address, email or passwords.",
+                    "fixedWidth": 500,
+                    "fixedHeight": 200,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "27px",
+                    "color": "#666",
+                    "wordWrapWidth": 500
+                },
+                {
+                    "type": "Text",
+                    "id": "f2bc47ef-94f3-497f-b895-6cf0cf418a72",
+                    "label": "colorTitle_6",
+                    "x": -512,
+                    "y": 63,
+                    "text": "Never Reveal\nPersonal Information",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "35px",
+                    "fontStyle": "bold",
+                    "color": "#297EC7"
+                },
+                {
+                    "type": "Image",
+                    "id": "a76482f9-5d4e-438f-b92f-808e89f9a71d",
+                    "label": "button_igloo_catalog",
+                    "texture": {
+                        "key": "iglooedit",
+                        "frame": "button/igloo_catalog"
+                    },
+                    "x": -109,
+                    "y": 106,
+                    "scaleX": 0.7,
+                    "scaleY": 0.7
+                },
+                {
+                    "type": "Text",
+                    "id": "b01b4186-0b3b-4691-b8b6-0950ea1ac8a3",
+                    "label": "colorTitle_7",
+                    "x": 18,
+                    "y": 123,
+                    "text": "Use of third party programs to cheat is prohibited. Players who use any third party programs while playing risk being permanently banned.",
+                    "fixedWidth": 500,
+                    "fixedHeight": 200,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "27px",
+                    "color": "#666",
+                    "wordWrapWidth": 500
+                },
+                {
+                    "type": "Text",
+                    "id": "ed9be705-0532-42c1-8845-042b4eefb182",
+                    "label": "colorTitle_8",
+                    "x": 18,
+                    "y": 63,
+                    "text": "No Cheating",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "35px",
+                    "fontStyle": "bold",
+                    "color": "#297EC7"
+                },
+                {
+                    "type": "Image",
+                    "id": "81244fa1-0c7f-4971-9c6b-e4d1e6e35b47",
+                    "label": "emotes_18",
+                    "texture": {
+                        "key": "main",
+                        "frame": "emotes/18"
+                    },
+                    "x": 262,
+                    "y": 85
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

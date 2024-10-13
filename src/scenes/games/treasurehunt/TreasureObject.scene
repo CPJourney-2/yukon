@@ -1,0 +1,121 @@
+{
+    "id": "a7168228-1303-4c5d-a279-562232786c66",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "f1f9bd3b-5ebb-41f3-8478-ccdade955c46",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "21719b74-a7cb-4c1a-a6f6-6ec2d12a3e58",
+                    "label": "emerald",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "objects/emerald",
+                    "Animation.end": 90,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "treasurehunt",
+                        "frame": "objects/emerald0001"
+                    },
+                    "x": -17.18622326743714,
+                    "y": -18.13187922462463,
+                    "scaleX": 0.94,
+                    "scaleY": 0.94,
+                    "originX": 0,
+                    "originY": 0,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "91a3bbab-8813-4fbd-aa47-1cb98f437bed",
+                    "label": "gem",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "objects/gem",
+                    "Animation.end": 100,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "treasurehunt",
+                        "frame": "objects/gem0001"
+                    },
+                    "x": -17.18622326743714,
+                    "y": -18.13187922462463,
+                    "scaleX": 0.94,
+                    "scaleY": 0.94,
+                    "originX": 0,
+                    "originY": 0,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "dc2fd543-b202-45ef-aae5-b205ab0ec952",
+                    "label": "coin",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "objects/coin",
+                    "Animation.end": 100,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "treasurehunt",
+                        "frame": "objects/coin0001"
+                    },
+                    "x": -16.18622326743714,
+                    "y": -18.13187922462463,
+                    "scaleX": 0.95,
+                    "scaleY": 0.95,
+                    "originX": 0,
+                    "originY": 0,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "e4cb843c-46bc-4364-858e-ff331592eecf",
+                    "label": "shine",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "sparkle",
+                    "Animation.end": 70,
+                    "Animation.autoPlay": false,
+                    "Animation.showOnStart": true,
+                    "texture": {
+                        "key": "treasurehunt",
+                        "frame": "sparkle0064"
+                    },
+                    "x": -21,
+                    "y": -22,
+                    "originX": 0,
+                    "originY": 0,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

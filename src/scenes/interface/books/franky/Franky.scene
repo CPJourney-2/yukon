@@ -1,0 +1,405 @@
+{
+    "id": "561eafd4-9f5e-41af-8027-fee84e80b1da",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 159,
+        "snapHeight": 31,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c2df2194-bb4a-4b41-8d90-aa5a6f01b553",
+            "label": "container_1",
+            "components": [],
+            "x": 0.34900255869139585,
+            "y": 0.14197775311840743,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "d158c3ee-85e0-4239-a8ee-9059e72a1bda",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 687,
+                    "y": 474,
+                    "scaleX": 19.186366570118256,
+                    "scaleY": 8.807316563934844,
+                    "width": 128,
+                    "height": 128,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "396bfb5c-171a-4b6d-9a60-6b6f4ad1a637",
+                    "label": "page_1",
+                    "components": [],
+                    "x": 791.7715418636799,
+                    "y": 498.8033347427845,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "8b0ddf3c-0651-4401-bea7-11354e786054",
+                            "label": "page12",
+                            "components": [],
+                            "texture": {
+                                "key": "franky",
+                                "frame": "frankypg7"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875,
+                            "list": []
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "a9b4b660-3615-4667-92f2-34cf21411c92",
+                            "label": "backPageLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "backPageLeft",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "franky",
+                                "frame": "backPageLeft"
+                            },
+                            "x": -204,
+                            "y": 204,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "56a7db6b-a9bf-4952-ad17-eaafebc30aaf",
+                            "label": "text_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.close()",
+                            "x": 250,
+                            "y": -456,
+                            "text": "x",
+                            "fontFamily": "Helvetica",
+                            "fontSize": "48px",
+                            "fontStyle": "bold",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "e85f4918-71a0-4a20-8b3b-af752581a8ca",
+                    "label": "page_6",
+                    "components": [],
+                    "x": 791.7715418636799,
+                    "y": 499.8033347427845,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "c175caf6-4816-4983-84be-545c33bf4c18",
+                            "label": "page6",
+                            "components": [],
+                            "texture": {
+                                "key": "franky",
+                                "frame": "frankypg6"
+                            },
+                            "x": -31.81854248046875,
+                            "y": -19.229248046875,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "4cdac27b-746b-4964-a91c-b55400e96135",
+                    "label": "page_5",
+                    "components": [],
+                    "x": 792.1205408871174,
+                    "y": 499.945302516222,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ff4de4e4-eb64-4c96-89c1-dff51b97f9a8",
+                            "label": "page5",
+                            "components": [],
+                            "texture": {
+                                "key": "franky",
+                                "frame": "frankypg5"
+                            },
+                            "x": -31.81854248046875,
+                            "y": -19.229248046875,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "15b6faa6-59ba-4b3e-bb62-d6c6bc1d91cc",
+                    "label": "page4",
+                    "components": [],
+                    "x": 792.4695399105549,
+                    "y": 500.0872702896595,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "8e128ee6-f7ce-4c2f-b3ad-7cfe45de6c36",
+                            "label": "page44",
+                            "components": [],
+                            "texture": {
+                                "key": "franky",
+                                "frame": "frankypg4"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "3e8bd2fd-e0bd-4e75-93c4-cfb3185648c2",
+                    "label": "page3",
+                    "components": [],
+                    "x": 792.1205408871174,
+                    "y": 498.945302516222,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "04940089-c616-488b-b8d2-058e15f0f0db",
+                            "label": "page33",
+                            "components": [],
+                            "texture": {
+                                "key": "franky",
+                                "frame": "frankypg3"
+                            },
+                            "x": -31.81854248046875,
+                            "y": -18.229248046875,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "297a4696-b6f0-41bf-b85e-50f430678b66",
+                    "label": "page2",
+                    "components": [],
+                    "x": 792.8185267235533,
+                    "y": 500.22924628614487,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ef41bdf8-7217-438a-9690-cd0174bcfb6f",
+                            "label": "page22",
+                            "components": [],
+                            "texture": {
+                                "key": "franky",
+                                "frame": "frankypg2"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "776b1ada-1bd8-4f57-a1e4-1724c793bf0d",
+                    "label": "page1",
+                    "components": [],
+                    "x": 792.4695399105549,
+                    "y": 499.0872702896595,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "1ef12729-2dac-41be-a6bb-8dcd963a6753",
+                            "label": "page",
+                            "components": [],
+                            "texture": {
+                                "key": "franky",
+                                "frame": "frankypg1"
+                            },
+                            "x": -33,
+                            "y": -19,
+                            "list": []
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "cd18b420-84af-448c-abed-de1e7d538318",
+                            "label": "closeRightFront",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "closeRight",
+                            "Button.callback": "() => this.close()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "pagebuttons",
+                                "frame": "closeRight"
+                            },
+                            "x": 211,
+                            "y": -347,
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "f8ddf745-942b-44f9-89ba-9b845bd50796",
+                            "label": "makeshift move page",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.nextPage();",
+                            "x": -3,
+                            "y": 41,
+                            "alpha": 1e-11,
+                            "isFilled": true,
+                            "width": 600,
+                            "height": 700,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2d92e31f-a3ff-458f-8d06-f8126d88ceb8",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 780.0900074968481,
+                    "y": 592.0151470567336,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "3eaa2193-0392-4af1-ac48-0f3aa6754633",
+                            "label": "closeRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "closeRight",
+                            "Button.callback": "() => this.close()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "pagebuttons",
+                                "frame": "closeRight"
+                            },
+                            "x": 495,
+                            "y": -425,
+                            "list": []
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "7e02fac5-dccc-4d88-b0e8-a6a164bb678d",
+                            "label": "pageLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "pageLeft",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "pagebuttons",
+                                "frame": "pageLeft"
+                            },
+                            "x": -477,
+                            "y": 47,
+                            "list": []
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "758520eb-f101-4ebb-9645-3c6e5ea06528",
+                            "label": "pageRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "pageRight",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "pagebuttons",
+                                "frame": "pageRight"
+                            },
+                            "x": 454,
+                            "y": 49,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "67cc1886-94b0-43a7-b75f-23a352f78c7c",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -1276.7242431640625,
+                            "y": -438.8574676513672,
+                            "visible": false,
+                            "text": "New text",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "c8976e8f-4465-4cce-84f8-e07d793f4d29",
+                    "label": "rectangle_2",
+                    "components": [],
+                    "x": 1434,
+                    "y": 312,
+                    "visible": false,
+                    "isFilled": true,
+                    "fillColor": "#f50000",
+                    "width": 128,
+                    "height": 128,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "26bbf0d4-d978-451c-8b4f-8f99f2183e15",
+                    "label": "rectangle_3",
+                    "components": [],
+                    "x": 1209,
+                    "y": -2,
+                    "visible": false,
+                    "isFilled": true,
+                    "fillColor": "#ff0808",
+                    "width": 50,
+                    "height": 128,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "1029921f-26d0-4b4f-8a57-2e9fcf458660",
+            "label": "pages",
+            "objectIds": [
+                "776b1ada-1bd8-4f57-a1e4-1724c793bf0d",
+                "297a4696-b6f0-41bf-b85e-50f430678b66",
+                "3e8bd2fd-e0bd-4e75-93c4-cfb3185648c2",
+                "15b6faa6-59ba-4b3e-bb62-d6c6bc1d91cc",
+                "4cdac27b-746b-4964-a91c-b55400e96135",
+                "e85f4918-71a0-4a20-8b3b-af752581a8ca",
+                "396bfb5c-171a-4b6d-9a60-6b6f4ad1a637"
+            ]
+        }
+    ]
+}

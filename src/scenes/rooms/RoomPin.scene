@@ -1,0 +1,72 @@
+{
+    "id": "8147a4f8-6098-4a09-b0db-f725f761e412",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "d9a6962b-0612-4989-9d56-c6a29c18d4bc",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "669789a0-f5d6-43dc-a717-0ff104cfa87b",
+                    "label": "rectangle",
+                    "scope": "CLASS",
+                    "alpha": 0.7,
+                    "isFilled": true,
+                    "fillColor": "#67fffd",
+                    "strokeColor": "#ff1111",
+                    "lineWidth": 10,
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "8dbcae48-2c33-447c-8be7-aef0381377ae",
+                    "label": "button",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onPin()",
+                    "fillColor": "#67fffd",
+                    "strokeColor": "#ff1111",
+                    "lineWidth": 10,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "prefabProperties": [
+        {
+            "name": "itemId",
+            "label": "itemId",
+            "tooltip": "itemId",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

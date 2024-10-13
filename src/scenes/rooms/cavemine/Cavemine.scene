@@ -1,0 +1,657 @@
+{
+    "id": "cb25ccc7-87f5-4023-82ed-7f155ee7b53a",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/cavemine/newcavemine-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Cavemine",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "be4e73c9-62ca-4d1a-88b9-c49d81e29441",
+            "label": "bg",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "bg"
+            },
+            "x": 1167.3409811225308,
+            "y": -22.316819499095445,
+            "originX": 0.7679874671065505,
+            "originY": -0.02324668663895584,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "4fd95b88-b735-4e69-b82f-39b9bdfedb86",
+            "label": "waterfall0001",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "waterfall0001"
+            },
+            "x": 1245,
+            "y": 10,
+            "originX": 0.44369504475883625,
+            "originY": -0.10433985292181888,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "7c7f414b-10a1-47f8-b72a-3e3a37c51abe",
+            "label": "shinemid0001",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "shinemid0001"
+            },
+            "x": 1292,
+            "y": 231,
+            "scaleX": 0.7,
+            "scaleY": 1.4,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "39e9626e-2373-4a34-bcab-fde16eeafe86",
+            "label": "seaspray0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "seaspray",
+            "Animation.end": 12,
+            "texture": {
+                "key": "newcavemine",
+                "frame": "seaspray0001"
+            },
+            "x": 1260,
+            "y": 114,
+            "scaleX": 0.7,
+            "originX": 0.4175900200561156,
+            "originY": -1.5576333087576215,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "d43f3bff-a3c3-435a-986d-dff3c8ddcfbf",
+            "label": "shinemid",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "shinemid0001"
+            },
+            "x": 1236,
+            "y": 231,
+            "scaleX": 0.7,
+            "scaleY": 1.4,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "8a936961-3996-45ef-94cc-d0f935408bbc",
+            "label": "shinetop0001",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "shinetop0001"
+            },
+            "x": 1285,
+            "y": 97,
+            "scaleY": 2,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "bb11bbe6-ac2a-4064-9e1b-90dae08eb95f",
+            "label": "shinetop",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "shinetop0001"
+            },
+            "x": 1242,
+            "y": 96,
+            "scaleY": 2,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "8dcbed23-6446-4988-8dfb-5876c0035d49",
+            "label": "wirebehindmachine",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "wirebehindmachine"
+            },
+            "x": 1033,
+            "y": 181,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "a30377fc-9376-4212-989b-47a7ba27a839",
+            "label": "snowball_tube0001",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "snowball_tube0001"
+            },
+            "x": 942,
+            "y": 194,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "bd3ef9ed-50b8-42e8-9f1f-574eece66ffa",
+            "label": "wfrocksleft",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "wfrocksleft"
+            },
+            "x": 1186,
+            "y": 260,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "f23d3a12-dcbb-4844-af82-cc6dc5ef7c01",
+            "label": "slime",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "slime"
+            },
+            "x": 1322,
+            "y": 304,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "031b62fa-f11c-44e3-8b0a-4177c5596500",
+            "label": "microwave",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "microwave"
+            },
+            "x": 1092,
+            "y": 249,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "e62327dd-0d87-4b04-8fa6-d2faa575266c",
+            "label": "platform",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "platform"
+            },
+            "x": 581.7595690997865,
+            "y": 194.83172473475219,
+            "originX": 0.7143617319294456,
+            "originY": 0.3748415273324454,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "9b11d7a0-8994-4dd9-a44d-2447a2cff5fd",
+            "label": "rocks",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "rocks"
+            },
+            "x": 754.0817291871754,
+            "y": 333.60096011660335,
+            "originX": 0.5098646420908196,
+            "originY": 0.32939924221541134,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "64dee491-e928-4121-a0a3-2d88661ae8db",
+            "label": "mwtop0001",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "mwtop0030"
+            },
+            "x": 1086,
+            "y": 200,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "946ffeb9-ae57-4b31-a431-b7616b10f703",
+            "label": "smolbulb_2",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "smolbulb_0005"
+            },
+            "x": 1123,
+            "y": 177,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "d01ed72d-8907-48f5-b937-fcf01f51f7a6",
+            "label": "smolbulb_1",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "smolbulb_0005"
+            },
+            "x": 1051,
+            "y": 165,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "ca50479f-4623-4116-9c5e-cb0dad03ca65",
+            "label": "smolbulb_0001",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "smolbulb_0005"
+            },
+            "x": 1110,
+            "y": 189,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "3255e845-e765-4439-ab96-d894c43d793d",
+            "label": "bulb",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "bulb_0004"
+            },
+            "x": 1079,
+            "y": 153,
+            "originY": 0.6570331901292915,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "fa152de7-053a-46ab-ac3f-11cc93a7cf47",
+            "label": "smolbulb",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "smolbulb_0005"
+            },
+            "x": 1035,
+            "y": 180,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "e216ff64-05bd-4e55-9f78-72d854334cb3",
+            "label": "coffee_table",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "coffee_table"
+            },
+            "x": 313,
+            "y": 167,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "15823b06-4068-45f5-ae3a-a817b89e1802",
+            "label": "whistle0001",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.onWhistleClick()",
+            "texture": {
+                "key": "newcavemine",
+                "frame": "whistle0001"
+            },
+            "x": 387,
+            "y": 68,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "c32f2cff-04af-4d91-a33b-8a470731df9b",
+            "label": "frontrail",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "frontrail"
+            },
+            "x": 405,
+            "y": 211,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "a015ef30-b877-44ff-bc4c-188381790d4b",
+            "label": "leftrail",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "leftrail"
+            },
+            "x": 232,
+            "y": 205,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "1c51ec9f-e1c9-4613-9274-534ee2a01dd5",
+            "label": "computer_front_right",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "computer_front_right"
+            },
+            "x": 1347.222903523633,
+            "y": 800.8885482381835,
+            "originX": 0.48364893300274037,
+            "originY": 0.5098876871109084,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "60d3ee06-dcb6-44e3-b9de-148ef64931f5",
+            "label": "chairs",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "chairs"
+            },
+            "x": 497,
+            "y": 106,
+            "originX": 0.4823879003316682,
+            "originY": 0.3183752221703291,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "9a8d0689-bfed-4c41-887d-cf183f761336",
+            "label": "mine_notice",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "mine_notice",
+            "Button.callback": "() => this.interface.loadWidget('DigPoster')",
+            "Button.pixelPerfect": true,
+            "texture": {
+                "key": "newcavemine",
+                "frame": "mine_notice"
+            },
+            "x": 408,
+            "y": 584,
+            "originX": 0.5569546882072028,
+            "originY": 0.7266929043409935,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "fe9f996a-a4da-411d-9c69-be47b0a99ed3",
+            "label": "coffee",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.onCoffeeClick()",
+            "texture": {
+                "key": "newcavemine",
+                "frame": "coffee0001"
+            },
+            "x": 303,
+            "y": 167,
+            "originY": 0.7794227351225705,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "bada4867-f790-429c-aa7b-de4fa17da28d",
+            "label": "cavedoor",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "cavedoor"
+            },
+            "x": 199.74259530788595,
+            "y": 392.3234604105146,
+            "originX": 0.7364074151653884,
+            "originY": 0.7751208489040264,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ec868e17-367b-477b-b8a4-75de7c3435e6",
+            "label": "bulbswires",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "bulbswires"
+            },
+            "x": 767,
+            "y": -6,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "9ce64e9f-f2e1-4684-bead-7a2add75f783",
+            "label": "fg",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "fg"
+            },
+            "x": 62.26944640103122,
+            "y": 585.1558898338276,
+            "originX": 0.39446097537259445,
+            "originY": 0.7381117943247658,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "1e635b8f-349b-46b1-b149-6022024c0961",
+            "label": "fg_bottom",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "fg_bottom"
+            },
+            "x": 112.66336217468087,
+            "y": 904.8589431462233,
+            "originX": 0.4691737906499196,
+            "originY": 0.7538345676170682,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "c81d06e8-8356-4e5d-83bc-a598e238198d",
+            "label": "shovel",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "shovel"
+            },
+            "x": 912.6763693111991,
+            "y": 600.4877711298319,
+            "originX": 0.37430537086036886,
+            "originY": 0.7512069600499082,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "c47abcc5-2614-4a7d-a159-429e1bfb61a8",
+            "label": "rocks_1",
+            "components": [],
+            "texture": {
+                "key": "rocks"
+            },
+            "x": 1393,
+            "y": 329,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "18905a20-831a-4d2d-8092-9fdee853f13d",
+            "label": "lights",
+            "components": [],
+            "texture": {
+                "key": "lights"
+            },
+            "x": 1508,
+            "y": 177,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "36a19f7f-1ee8-485e-89e4-a36dbe65e83e",
+            "label": "bulbs0001",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "newcavemine",
+                "frame": "bulbs0001"
+            },
+            "x": 854,
+            "y": 60,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "3f561ba0-30f7-4e45-8a96-bfe0ef4b8d40",
+            "label": "hitbox",
+            "scope": "CLASS",
+            "components": [],
+            "x": 943,
+            "y": 88,
+            "visible": false,
+            "width": 186,
+            "height": 70,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "c30d0d39-6ac2-41ba-bc1d-b7b2a73d58ef",
+            "label": "overlay",
+            "scope": "CLASS",
+            "components": [],
+            "x": 766.6262664571226,
+            "y": 1015.6971867026314,
+            "originX": 0.5060657003510539,
+            "originY": 1.0342718481557835,
+            "alpha": 0,
+            "isFilled": true,
+            "fillColor": "#000",
+            "fillAlpha": 0.5,
+            "strokeColor": "#000",
+            "width": 1587,
+            "height": 1027,
+            "list": []
+        },
+        {
+            "type": "Container",
+            "id": "1cee7f8c-dc8d-4871-8ed3-e0b5cad093b6",
+            "label": "coin",
+            "scope": "CLASS",
+            "components": [],
+            "x": -108,
+            "y": 358,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "76ff9b79-9718-474e-97d9-bce2459b3692",
+                    "label": "coin_sprite",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "texture": {
+                        "key": "newcavemine",
+                        "frame": "coin0002"
+                    },
+                    "x": 31.03714265764836,
+                    "y": -50.12658541187517,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "fd6eb860-68b0-49f5-a9d7-20b3dc8a8c9f",
+                    "label": "coin_text",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": -29,
+                    "y": -33,
+                    "text": "10",
+                    "fixedWidth": 50,
+                    "fixedHeight": 50,
+                    "paddingTop": 15,
+                    "align": "center",
+                    "fontFamily": "CCComiccrazy",
+                    "fontStyle": "bold",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 2,
+                    "baselineX": 0,
+                    "baselineY": 0,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "811d25fb-0793-4398-b923-90101be1057c",
+            "label": "sort",
+            "objectIds": [
+                "b53f0431-747e-40f3-8a9a-d8d82a37073f",
+                "1c51ec9f-e1c9-4613-9274-534ee2a01dd5",
+                "bada4867-f790-429c-aa7b-de4fa17da28d",
+                "9ce64e9f-f2e1-4684-bead-7a2add75f783",
+                "1e635b8f-349b-46b1-b149-6022024c0961",
+                "c81d06e8-8356-4e5d-83bc-a598e238198d",
+                "fe9f996a-a4da-411d-9c69-be47b0a99ed3",
+                "e216ff64-05bd-4e55-9f78-72d854334cb3",
+                "60d3ee06-dcb6-44e3-b9de-148ef64931f5",
+                "9a8d0689-bfed-4c41-887d-cf183f761336",
+                "c30d0d39-6ac2-41ba-bc1d-b7b2a73d58ef"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "id": "a089b5fb-920f-4845-a28f-b2b63c9ff71c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "604d13b8-868d-46c8-a5a3-13d96bb18968",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "028ec836-255b-461d-bbb6-01fca27a428f",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "5f2ef7be-9650-4018-9f65-261a7a760d57",
+                    "label": "page1",
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "96b6d35b-70ae-4eb9-b879-a98db0c017f4",
+                            "label": "bg",
+                            "texture": {
+                                "key": "dockcatalog",
+                                "frame": "dock"
+                            },
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "bbb56c37-2b4b-4b4a-8ccf-52f7f035d159",
+                            "label": "closebtn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "closebtn",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "dockcatalog",
+                                "frame": "closebtn"
+                            },
+                            "x": 1041,
+                            "y": 93
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "36998e90-6769-4e99-a179-f65f50a30622",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag2",
+                            "item": 711,
+                            "x": 573,
+                            "y": 320,
+                            "angle": 22
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "a36dd737-da53-4d7c-8d9a-1d78b4b0d725",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag",
+                            "item": 712,
+                            "x": 708,
+                            "y": 413,
+                            "angle": 26
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6079dde9-029e-4b2f-94a8-f65c926132cf",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": -1035.7052001953125,
+                    "y": 364.5936584472656,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "e332f4d8-499e-49f4-84eb-b699b870b880",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1130,
+                            "y": 790,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCComiccrazy",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "3003f2ec-9394-4489-a981-17b8c2a9bffb",
+            "label": "pages",
+            "objectIds": [
+                "5f2ef7be-9650-4018-9f65-261a7a760d57"
+            ]
+        }
+    ]
+}

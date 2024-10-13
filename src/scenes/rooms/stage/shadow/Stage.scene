@@ -1,0 +1,993 @@
+{
+    "id": "f752bb54-d35e-4c04-a8b1-479ba6d154c5",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/stage/stage-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Stage",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "f9eafa4a-a881-4035-95a1-099e2316f57b",
+            "label": "reference",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "reference"
+            },
+            "x": 767,
+            "y": 481,
+            "visible": false,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "87b7ad9e-d6ad-44ed-be24-971b8cda2f2a",
+            "label": "background",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "background"
+            },
+            "x": 761,
+            "y": 466,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "da8ca17a-402b-4cde-b0e2-4e88eec021ef",
+            "label": "food",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "food"
+            },
+            "x": 242.9536152671675,
+            "y": 697.7958090528871,
+            "originX": 0.6867752667325164,
+            "originY": 0.6344109865541343,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "1b9d7c80-07ac-4c47-be6c-fe672ef111d5",
+            "label": "food_1",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "food"
+            },
+            "x": 1286.9779344090423,
+            "y": 797.1999118949137,
+            "originX": 0.3277802251412858,
+            "originY": 0.6068950326709263,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "fddb0c4e-e004-4016-b958-be963e4f9c4a",
+            "label": "flap_left",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "flap_left"
+            },
+            "x": 318.8941398233266,
+            "y": 449.55387257971756,
+            "originX": 0.534454045515793,
+            "originY": 0.9106549749314783,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "25e01000-9c3f-4b1a-87e3-8e4851bd0fe6",
+            "label": "flap_right",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "flap_right"
+            },
+            "x": 1206.211720353347,
+            "y": 443.76559293306434,
+            "originX": 0.43109190896841537,
+            "originY": 0.8910999761252174,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "81d6c6b6-3e26-4999-b9dc-83ed33d8e861",
+            "label": "rightie_walk",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "rightie_walk"
+            },
+            "x": 1263.0104457376772,
+            "y": 577.1362812216425,
+            "originX": 0.28899518151181,
+            "originY": 0.7565513791008002,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "5e760bae-3282-4107-a215-fa8db03ea5a9",
+            "label": "rightie_back",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "rightie_back"
+            },
+            "x": 1389,
+            "y": 189,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "8f1b69b5-da0c-41de-99c3-b30744a2918f",
+            "label": "costumebox",
+            "scope": "CLASS",
+            "components": [
+                "MoveTo",
+                "SimpleButton"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onCostumeBoxHover()",
+            "SimpleButton.hoverOutCallback": "() => this.onCostumeBoxHoverOut()",
+            "texture": {
+                "key": "shadows",
+                "frame": "costumebox0001"
+            },
+            "x": 1290.6203397419595,
+            "y": 603.7115661167794,
+            "originX": 0.13074612638374544,
+            "originY": 0.472979446887776,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "3d4b7842-13b7-4205-b377-4a83c65b2926",
+            "label": "leftie_walkback",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "leftie_walkback"
+            },
+            "x": 251.44179128778123,
+            "y": 577.0884082071412,
+            "originX": 0.6864992964515111,
+            "originY": 0.7564903551811156,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "b697351c-b46b-46b3-a05c-c8917624b95e",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "texture": {
+                "key": "shadows",
+                "frame": "door"
+            },
+            "x": 157.5542540217607,
+            "y": 655.6910348259888,
+            "originX": 0.7481706495016515,
+            "originY": 0.791753764946472,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ebc4b820-d6cc-40a9-9d87-d5e4062bda21",
+            "label": "leftie_walkfront",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "leftie_walkfront"
+            },
+            "x": 135.43851216927817,
+            "y": 729.2340272484264,
+            "originX": 0.6685414632364012,
+            "originY": 1.0428735760494772,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "561575f7-31b9-4b5a-b4f9-c68e1b984364",
+            "label": "leftie_back",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "leftie_back"
+            },
+            "x": 125.49289324197643,
+            "y": 224.0331633579573,
+            "originX": 0.46923316921287295,
+            "originY": 0.5854467430640862,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "0bea3f96-5083-4666-85dc-0e55c57fe969",
+            "label": "leftie_chair",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "leftie_chair"
+            },
+            "x": 104.65615779039804,
+            "y": 309.56157790398044,
+            "originX": 0.496526846367657,
+            "originY": 0.4761220687776419,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "d8de790b-4666-4a45-b3ee-46d0ad56c43e",
+            "label": "rightie_chairone",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "rightie_chairone"
+            },
+            "x": 1409.1943359375,
+            "y": 314.2822076561382,
+            "originX": 0.4211543113959335,
+            "originY": 0.4950153011966264,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "8f77fc11-095f-4f71-b16a-fa2f57f816ed",
+            "label": "rightie_front",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "rightie_front"
+            },
+            "x": 1417.524904599346,
+            "y": 1123.5785549315237,
+            "originX": 0.642616086006974,
+            "originY": 6.574832460402529,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "a4bd39d4-b04a-45ac-ae21-30d23a1d5372",
+            "label": "rightie_chairfrontone",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "rightie_chairfrontone"
+            },
+            "x": 1443,
+            "y": 314,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "17b74b47-1313-467f-bd37-df0280f2ee08",
+            "label": "leftie_chairfrontone",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "leftie_chairfrontone"
+            },
+            "x": 78,
+            "y": 313,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "5abf765d-3704-464e-8931-ba466e6c9828",
+            "label": "leftie_front",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "leftie_front"
+            },
+            "x": 105.47509540065403,
+            "y": 1030.6820019087309,
+            "originX": 0.35738391399302605,
+            "originY": 5.84907813991196,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "edf95b93-dd4e-466d-8919-92df3fb5b405",
+            "label": "switchboxbox",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "switchboxbox"
+            },
+            "x": 756.6245202906406,
+            "y": 846.3601290098567,
+            "originX": 0.4863715449526787,
+            "originY": 0.5487434150589748,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "363273cd-50f8-4584-93af-557f4878bf63",
+            "label": "pullone",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => {this.onTreeone()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "shadows",
+                "frame": "pullone0001"
+            },
+            "x": 701,
+            "y": 1412,
+            "originX": 1.5883271598910413,
+            "originY": 10.577103332324441,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "48952cd7-4fc8-43f6-a7bb-2a724deb15e7",
+            "label": "pulltwo",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => {this.onBirds()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "shadows",
+                "frame": "pulltwo0001"
+            },
+            "x": 678,
+            "y": 1285,
+            "originX": -0.09667059204552611,
+            "originY": 8.4357188742055,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "09680df9-21ed-4e3a-8451-51e63633d2ca",
+            "label": "buttonone",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => {this.onHouse()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "shadows",
+                "frame": "buttonone0001"
+            },
+            "x": 722,
+            "y": 1259,
+            "originX": 0.26566251530285345,
+            "originY": 18.83783808820536,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "486543e6-81cb-4a87-a0e2-57a4ea1c0219",
+            "label": "buttontwo",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => {this.onSun()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "shadows",
+                "frame": "buttontwo0001"
+            },
+            "x": 760,
+            "y": 1265,
+            "originX": 0.8775437253454054,
+            "originY": 17.18056822889696,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "ff8c3613-f7ae-4be0-ab57-451624e3851c",
+            "label": "buttonthree",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => {this.onKites()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "shadows",
+                "frame": "buttonthree0001"
+            },
+            "x": 789,
+            "y": 1262,
+            "originX": 1.2030124540914435,
+            "originY": 18.945707724018337,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "252904fd-6b52-4a2e-9e06-693dfded756b",
+            "label": "pullthree",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => {this.onMountain()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "shadows",
+                "frame": "pullthree0001"
+            },
+            "x": 812,
+            "y": 1720,
+            "originX": 0.7836585764095182,
+            "originY": 16.070241706827012,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "33158bda-e2d5-4698-9e8a-d5bff6793679",
+            "label": "pullfour",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => {this.onCloud()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "shadows",
+                "frame": "pullfour0001"
+            },
+            "x": 831,
+            "y": 1178,
+            "originX": 0.6628866468973229,
+            "originY": 6.731648233571828,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "4474e8f1-5d49-415e-8dd1-704289a12331",
+            "label": "pullfive",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => {this.onPuffle()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "shadows",
+                "frame": "pullfive0001"
+            },
+            "x": 868,
+            "y": 1166,
+            "originX": 0.7375430267252625,
+            "originY": 4.893652975519899,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "e2ae2c68-d15d-4704-b565-2c3da0b92cc3",
+            "label": "soup",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "soup"
+            },
+            "x": 498,
+            "y": 654.5218049725195,
+            "originY": 0.7076787763033987,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "614da193-3e67-4b87-ab15-673ea714f412",
+            "label": "table",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "table"
+            },
+            "x": 595.9725365803937,
+            "y": 672.6316586509446,
+            "originX": 0.49305767959725466,
+            "originY": 0.7411393739892305,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "08eb373a-8ae4-448e-981b-e2f31f16b01a",
+            "label": "chair",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "chair"
+            },
+            "x": 707,
+            "y": 654.3020976156691,
+            "originY": 0.6883682935944857,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "b42ce342-d2e4-4d0a-a4dd-d2f8aa3a5f4c",
+            "label": "chair_1",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "chair"
+            },
+            "x": 822,
+            "y": 679.2471707764566,
+            "originY": 0.6541195129409441,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ed3f4760-3588-49e8-acfa-c6e543d1fbb9",
+            "label": "chair_2",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "chair"
+            },
+            "x": 1032.9227310994208,
+            "y": 624.536386596525,
+            "originX": 0.5356061314707564,
+            "originY": 0.6922731099420825,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "475af186-83f3-48a9-8c58-c3a436794805",
+            "label": "rock_left",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "rock_left"
+            },
+            "x": 458.66165641434606,
+            "y": 502.30091401009645,
+            "originX": 0.4413367401396544,
+            "originY": 0.739336216865101,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "2a819303-8ab9-4c89-91b3-e4e422ff613d",
+            "label": "rock_right",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "rock_right"
+            },
+            "x": 1069,
+            "y": 497.5285173589969,
+            "originY": 0.6325116937815737,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "5d820029-45d8-4510-866d-4b15bcd7a9a2",
+            "label": "lamp_left",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "lamp_left"
+            },
+            "x": 444.5589353301254,
+            "y": 637.5247161347339,
+            "originX": 0.47998521291840823,
+            "originY": 0.834390696876983,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ab773aee-55ec-4cc5-8814-cd629f3f4e97",
+            "label": "lamp_right",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "lamp_right"
+            },
+            "x": 1085.9695820288716,
+            "y": 633.6425867949847,
+            "originX": 0.6801330837343281,
+            "originY": 0.8184673303590315,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "be87f444-c63e-4d84-8dba-54e9c5795562",
+            "label": "gong",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "gong"
+            },
+            "x": 937.6492544478891,
+            "y": 625.4719847605955,
+            "originX": 0.4608042238930306,
+            "originY": 0.7667067398377619,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "e1620ae3-23e7-4269-939d-1913a5ca133a",
+            "label": "instrument",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "instrument"
+            },
+            "x": 883.8352194823623,
+            "y": 674.6041952313383,
+            "originX": 0.4051572228055735,
+            "originY": 0.7539797217004301,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ccde33b3-9673-43e3-8cc5-34d2cee62aae",
+            "label": "stringthing",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "stringthing"
+            },
+            "x": 1011.9572890521083,
+            "y": 679.160981008371,
+            "originX": 0.5518025745239988,
+            "originY": 0.9024770226776967,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "99c1225b-543c-490e-b650-16c57dd76376",
+            "label": "foreground",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "foreground"
+            },
+            "x": 840.0513305664062,
+            "y": 972.4380726485658,
+            "originX": 0.5395758572445817,
+            "originY": 0.9447310542665026,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "b7c65cc6-0761-48ac-8f96-e54454443a94",
+            "label": "treeone",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "treeone0001"
+            },
+            "x": 525.1575317382812,
+            "y": 1108.9374850349207,
+            "originX": 0.6412044523290996,
+            "originY": 2.077212304285539,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "ea6129b0-cbed-477c-8df2-f5755530e6f5",
+            "label": "birds",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "birds0001"
+            },
+            "x": 545.2637329101562,
+            "y": 1085.918561791113,
+            "originX": 0.28289815454400935,
+            "originY": 3.321803708100129,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "24f1e2b7-1fa3-49bc-a9f0-56add135a838",
+            "label": "house",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "house0001"
+            },
+            "x": 618.5787353515625,
+            "y": 1099.3209399398743,
+            "originX": 0.5890674237768166,
+            "originY": 2.061654018714216,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "a16f3534-730b-47ae-b4be-f0076ecf459a",
+            "label": "cloud",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "cloud0001"
+            },
+            "x": 1000.1027221679688,
+            "y": 1022.483744515242,
+            "originX": 0.8508716694238232,
+            "originY": 2.6416483873012777,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "acee4951-2b00-4b60-be98-a8a0e7ba4937",
+            "label": "kites",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "kites0001"
+            },
+            "x": 685.0811349766482,
+            "y": 1080.686241052943,
+            "originX": 0.5146560543594061,
+            "originY": 2.344615755998555,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "af39b694-9cea-4cff-a12c-a46edf4863dc",
+            "label": "sun",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "sun0001"
+            },
+            "x": 756.8424682617188,
+            "y": 1072.7687590988862,
+            "originX": 0.30207239160707405,
+            "originY": 2.773039797725062,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "bf022865-9696-481e-842b-09d5041fe194",
+            "label": "puffle",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "puffle0001"
+            },
+            "x": 1007.003945411512,
+            "y": 1018.4490818592735,
+            "originX": 0.7765561926188722,
+            "originY": 1.9673397422733427,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "45687d9b-67aa-43cb-bd96-ad73525e39db",
+            "label": "mountain",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "mountain0001"
+            },
+            "x": 957.0446928405072,
+            "y": 1112.4579620155018,
+            "originX": 0.5729259792332262,
+            "originY": 2.2767568402862084,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "737f4c46-9abe-4754-abaf-b2e1738de0a8",
+            "label": "gate",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "gate0001"
+            },
+            "x": 951.7915649414062,
+            "y": 1037.3165799177948,
+            "originX": 0.6810525460433362,
+            "originY": 1.9953087534742748,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "8bd4fa7b-d132-4c15-99f4-6bb34db9164d",
+            "label": "costume_trunk",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "costume_trunk",
+            "Button.callback": "() => {this.interface.loadWidget(\"ShadowsCatalog\")}",
+            "texture": {
+                "key": "shadows",
+                "frame": "costume_trunk"
+            },
+            "x": 8582.352794753175,
+            "y": 50199.26663230521,
+            "originX": 47.247404513156106,
+            "originY": 429.3284039839182,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "3a829b7d-3f6c-4d5b-bfd8-48f4eed7ba0b",
+            "label": "script",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "script",
+            "Button.callback": "() => this.interface.loadWidget('StageScript',true)",
+            "texture": {
+                "key": "shadows",
+                "frame": "script"
+            },
+            "x": 1408.7057490280704,
+            "y": 15999.87849515734,
+            "originX": 0.18907456675719914,
+            "originY": 89.89110349594417,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "8b8b079c-dd5b-4ea9-8609-52cb2f86a541",
+            "label": "lantern",
+            "components": [],
+            "texture": {
+                "key": "shadows",
+                "frame": "lantern"
+            },
+            "x": 954.2883280833146,
+            "y": 1193.7438161761222,
+            "originX": 6.590087496052575,
+            "originY": 5.789970809572586,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "b69615e5-a1e0-49f0-8d95-d889588b772c",
+            "label": "realishref",
+            "components": [],
+            "texture": {
+                "key": "realishref"
+            },
+            "x": 766,
+            "y": 481,
+            "visible": false,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "b58d8210-6035-49ab-ae5f-9414174492f2",
+            "label": "walkBehind",
+            "components": [],
+            "x": 763,
+            "y": 283,
+            "visible": false,
+            "isFilled": true,
+            "fillColor": "#3dff4e",
+            "width": 650,
+            "height": 400,
+            "list": []
+        },
+        {
+            "type": "Container",
+            "id": "53aa860a-a399-496b-b90a-0b57abf78942",
+            "label": "shadowContainer",
+            "scope": "CLASS",
+            "components": [],
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "5cbd23ff-805b-431e-842d-a17dea541ca4",
+            "label": "shadowMask",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "stage-shadows-mask"
+            },
+            "x": 763,
+            "y": 318,
+            "visible": false,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "691754fc-0d6f-48e6-a50b-c9769a52f343",
+            "label": "stage_shadows_top",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "stage-shadows-top"
+            },
+            "x": 759,
+            "y": 159,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "c458aaf8-5e43-4a2e-9190-cc40c34eb344",
+            "label": "sort",
+            "objectIds": [
+                "8bd4fa7b-d132-4c15-99f4-6bb34db9164d",
+                "8f1b69b5-da0c-41de-99c3-b30744a2918f",
+                "b697351c-b46b-46b3-a05c-c8917624b95e",
+                "edf95b93-dd4e-466d-8919-92df3fb5b405",
+                "486543e6-81cb-4a87-a0e2-57a4ea1c0219",
+                "09680df9-21ed-4e3a-8451-51e63633d2ca",
+                "ff8c3613-f7ae-4be0-ab57-451624e3851c",
+                "252904fd-6b52-4a2e-9e06-693dfded756b",
+                "4474e8f1-5d49-415e-8dd1-704289a12331",
+                "33158bda-e2d5-4698-9e8a-d5bff6793679",
+                "48952cd7-4fc8-43f6-a7bb-2a724deb15e7",
+                "363273cd-50f8-4584-93af-557f4878bf63",
+                "3a829b7d-3f6c-4d5b-bfd8-48f4eed7ba0b",
+                "da8ca17a-402b-4cde-b0e2-4e88eec021ef",
+                "1b9d7c80-07ac-4c47-be6c-fe672ef111d5",
+                "737f4c46-9abe-4754-abaf-b2e1738de0a8",
+                "45687d9b-67aa-43cb-bd96-ad73525e39db",
+                "bf022865-9696-481e-842b-09d5041fe194",
+                "af39b694-9cea-4cff-a12c-a46edf4863dc",
+                "acee4951-2b00-4b60-be98-a8a0e7ba4937",
+                "a16f3534-730b-47ae-b4be-f0076ecf459a",
+                "24f1e2b7-1fa3-49bc-a9f0-56add135a838",
+                "ea6129b0-cbed-477c-8df2-f5755530e6f5",
+                "b7c65cc6-0761-48ac-8f96-e54454443a94",
+                "99c1225b-543c-490e-b650-16c57dd76376",
+                "ccde33b3-9673-43e3-8cc5-34d2cee62aae",
+                "e1620ae3-23e7-4269-939d-1913a5ca133a",
+                "be87f444-c63e-4d84-8dba-54e9c5795562",
+                "ab773aee-55ec-4cc5-8814-cd629f3f4e97",
+                "5d820029-45d8-4510-866d-4b15bcd7a9a2",
+                "2a819303-8ab9-4c89-91b3-e4e422ff613d",
+                "475af186-83f3-48a9-8c58-c3a436794805",
+                "ed3f4760-3588-49e8-acfa-c6e543d1fbb9",
+                "b42ce342-d2e4-4d0a-a4dd-d2f8aa3a5f4c",
+                "08eb373a-8ae4-448e-981b-e2f31f16b01a",
+                "614da193-3e67-4b87-ab15-673ea714f412",
+                "e2ae2c68-d15d-4704-b565-2c3da0b92cc3",
+                "5abf765d-3704-464e-8931-ba466e6c9828",
+                "8f77fc11-095f-4f71-b16a-fa2f57f816ed",
+                "d8de790b-4666-4a45-b3ee-46d0ad56c43e",
+                "0bea3f96-5083-4666-85dc-0e55c57fe969",
+                "ebc4b820-d6cc-40a9-9d87-d5e4062bda21",
+                "81d6c6b6-3e26-4999-b9dc-83ed33d8e861",
+                "3d4b7842-13b7-4205-b377-4a83c65b2926",
+                "25e01000-9c3f-4b1a-87e3-8e4851bd0fe6",
+                "8b8b079c-dd5b-4ea9-8609-52cb2f86a541"
+            ]
+        }
+    ]
+}

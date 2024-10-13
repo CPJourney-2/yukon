@@ -1,0 +1,468 @@
+{
+    "id": "7a65882c-5f6e-456d-8485-4ca0b02eb642",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/shipquarters/shipquarters-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "ShipQuarters",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "a11da02c-fb33-485e-9212-60a5c66d55de",
+            "label": "rectangle_1",
+            "x": 1166,
+            "y": 355,
+            "scaleX": 0.46469449785771977,
+            "scaleY": 0.1734507962857118,
+            "isFilled": true,
+            "fillColor": "#A3833B",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "3109cdc4-5c39-4c44-bbf5-30b3a4ede457",
+            "label": "bg",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "bg"
+            },
+            "x": 763,
+            "y": 465
+        },
+        {
+            "type": "Sprite",
+            "id": "4e0db1aa-b25a-4b91-b64d-2acab07794e7",
+            "label": "animations_flame10001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "animations/flame1",
+            "Animation.end": 14,
+            "texture": {
+                "key": "shipquarters",
+                "frame": "animations/flame10001"
+            },
+            "x": 1261,
+            "y": 103
+        },
+        {
+            "type": "Sprite",
+            "id": "b38d2af9-9d80-4f79-a0d4-4f59817fa751",
+            "label": "animations_flame20001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "animations/flame2",
+            "Animation.end": 14,
+            "texture": {
+                "key": "shipquarters",
+                "frame": "animations/flame20001"
+            },
+            "x": 1126,
+            "y": 110
+        },
+        {
+            "type": "Image",
+            "id": "55bc4d20-a8a9-4d05-a0d3-b5e7b9517bac",
+            "label": "buttons_door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "buttons/door",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "buttons/door"
+            },
+            "x": 156.81019326052683,
+            "y": 423.070073992026,
+            "originX": 0.5915013665240098,
+            "originY": 0.7995580451678896
+        },
+        {
+            "type": "Image",
+            "id": "20594333-a829-481f-a8a0-fa8203dbdf20",
+            "label": "light",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "light"
+            },
+            "x": 60,
+            "y": 267
+        },
+        {
+            "type": "Image",
+            "id": "d366bb69-dfbe-450f-8ba0-80566e4921c7",
+            "label": "buttons_how_to",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "buttons/how-to",
+            "Button.callback": "() => this.interface.loadWidget('TreasureInstructions')",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "buttons/how-to"
+            },
+            "x": 442,
+            "y": 167
+        },
+        {
+            "type": "Image",
+            "id": "e3a4394e-f8c6-4260-9f39-f1ccd42926f8",
+            "label": "buttons_notice_board",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "buttons/notice_board",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "buttons/notice_board"
+            },
+            "x": 764,
+            "y": 171
+        },
+        {
+            "type": "Image",
+            "id": "c018b707-55e8-4035-b665-b6ec256f9a34",
+            "label": "stuff",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "stuff"
+            },
+            "x": 708,
+            "y": 263
+        },
+        {
+            "type": "Sprite",
+            "id": "5d813748-84d7-4655-ba16-01cae52f1151",
+            "label": "animations_picture0001",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "animations/picture",
+            "HoverAnimation.checkpoints": "7,13,19,25,31,37,43,49,55",
+            "HoverAnimation.end": 61,
+            "texture": {
+                "key": "shipquarters",
+                "frame": "animations/picture0001"
+            },
+            "x": 557,
+            "y": 137
+        },
+        {
+            "type": "Image",
+            "id": "db5dfd6a-f9b3-454c-8ed2-63534622d36e",
+            "label": "desk",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "desk"
+            },
+            "x": 1300.3900624044027,
+            "y": 395.39741387906025,
+            "originX": 0.48305164863119937,
+            "originY": 0.7679676283413905
+        },
+        {
+            "type": "Image",
+            "id": "a20df5f5-b935-41c6-9dcd-77d6f11c689e",
+            "label": "seat1",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "seat1"
+            },
+            "x": 781,
+            "y": 423
+        },
+        {
+            "type": "Image",
+            "id": "43308dd0-baa3-493b-afc0-efe656e0221d",
+            "label": "seat2",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "seat2"
+            },
+            "x": 782,
+            "y": 453
+        },
+        {
+            "type": "Image",
+            "id": "6f4afe7c-56ba-4747-85f5-db37afee092f",
+            "label": "seat3",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "seat3"
+            },
+            "x": 785,
+            "y": 466
+        },
+        {
+            "type": "Image",
+            "id": "cea013c4-a952-4084-b64e-1f88f7224399",
+            "label": "center",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "center"
+            },
+            "x": 767.9219903144627,
+            "y": 500.7094672954513,
+            "originX": 0.5016376382139658,
+            "originY": 0.820945995540831
+        },
+        {
+            "type": "Image",
+            "id": "0e9dab57-d035-40bf-bd5e-cbabf08a4649",
+            "label": "palm1",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "palm1"
+            },
+            "x": 52,
+            "y": 303
+        },
+        {
+            "type": "Image",
+            "id": "77743f09-96b9-43ae-9a27-f358fef42e0c",
+            "label": "palm2",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "palm2"
+            },
+            "x": 296,
+            "y": 228
+        },
+        {
+            "type": "Image",
+            "id": "f449cffd-0855-49a5-ab57-2b608a004e1c",
+            "label": "left_stairs",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "left_stairs"
+            },
+            "x": 455.375922515702,
+            "y": 422.3826683020702,
+            "originX": 0.5174784893737014,
+            "originY": 0.22340290566117485
+        },
+        {
+            "type": "Image",
+            "id": "2d4135f1-5124-43d9-b950-acbfeeb6635a",
+            "label": "right_map",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "right_map"
+            },
+            "x": 156.4680581132235,
+            "y": 602.7942227673567,
+            "originX": 0.4841036152678836,
+            "originY": 0.4417423702399909
+        },
+        {
+            "type": "Image",
+            "id": "f55c8756-29b4-4410-84ed-610f0721c58f",
+            "label": "right_stairs",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "right_stairs"
+            },
+            "x": 1048.9219903144628,
+            "y": 436.14863924545847,
+            "originX": 0.5020534305444607,
+            "originY": 0.25060917723548554
+        },
+        {
+            "type": "Image",
+            "id": "dc9a4e78-092f-4697-8709-3f65790b8304",
+            "label": "chest2",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "chest2"
+            },
+            "x": 1467,
+            "y": 436.9799778576216,
+            "originY": 0.583229051341779
+        },
+        {
+            "type": "Image",
+            "id": "b4ccd2fe-07d5-4fe1-9134-444dbae99be2",
+            "label": "chest1",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "chest1"
+            },
+            "x": 1467,
+            "y": 531
+        },
+        {
+            "type": "Image",
+            "id": "1f8083a0-313f-4dcb-95de-d9a0e0451ea7",
+            "label": "right_side",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "right_side"
+            },
+            "x": 1341,
+            "y": 619
+        },
+        {
+            "type": "Image",
+            "id": "4d52dc73-e3c9-4c7e-9471-b242a45a670c",
+            "label": "basket",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "basket"
+            },
+            "x": 969,
+            "y": 322
+        },
+        {
+            "prefabId": "a24ca31d-27ee-4c23-9ca7-97fc1855b6f1",
+            "id": "044155f9-1c4e-4554-b78e-e4be19fb74c1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table307",
+            "scope": "CLASS",
+            "x": 1264,
+            "y": 691.9576553632543
+        },
+        {
+            "prefabId": "e7ba2c76-5f9a-4e70-8b06-c245def4322a",
+            "id": "84bc7b50-b04c-490a-b13c-3f50e4416de4",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table306",
+            "scope": "CLASS",
+            "x": 1040.831913250171,
+            "y": 754.6281457992923
+        },
+        {
+            "prefabId": "d804102d-7a08-4c62-b3d4-a9388bae9808",
+            "id": "641059f2-e560-4679-8264-991da20a97b9",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table305",
+            "x": 762,
+            "y": 784.8582466845809
+        },
+        {
+            "prefabId": "32e60b05-87b6-4d31-86b1-1713bed4f036",
+            "id": "4399f056-aa9e-4b1c-b0c6-a958fa9a6c5e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table304",
+            "scope": "CLASS",
+            "x": 486,
+            "y": 750
+        },
+        {
+            "prefabId": "33aa9d06-9080-45b7-b85c-c0cbac054939",
+            "id": "07c43a82-6fe5-47f6-9ee4-6f251e065db0",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table303",
+            "scope": "CLASS",
+            "x": 238,
+            "y": 712.9902550606622
+        },
+        {
+            "prefabId": "1db4b748-fea8-4807-8157-9f15c4fcec8d",
+            "id": "4a84c4ad-50d7-4944-af66-629eb385ab4a",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table302",
+            "scope": "CLASS",
+            "x": 987.252085160005,
+            "y": 617.7978681910099
+        },
+        {
+            "prefabId": "13dc3c8c-129c-47fa-be4f-421d00c1e84a",
+            "id": "f2fa52dc-401e-4526-a89c-0eb1cb14f9b1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table301",
+            "scope": "CLASS",
+            "x": 761,
+            "y": 634.0595705217426
+        },
+        {
+            "prefabId": "c54c9f5a-d8df-4008-9fa8-5b0f34e85e95",
+            "id": "23e94720-fadc-4f1d-9022-e7eec7c477d0",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table300",
+            "scope": "CLASS",
+            "x": 517,
+            "y": 608
+        },
+        {
+            "type": "Image",
+            "id": "84299f5e-b1d5-48f1-b384-62d0b9c80130",
+            "label": "spades",
+            "texture": {
+                "key": "shipquarters",
+                "frame": "spades"
+            },
+            "x": 1440,
+            "y": 706
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "d8014338-e465-4139-bd11-d2d330aded64",
+            "label": "sort",
+            "objectIds": [
+                "db5dfd6a-f9b3-454c-8ed2-63534622d36e",
+                "1f8083a0-313f-4dcb-95de-d9a0e0451ea7",
+                "f55c8756-29b4-4410-84ed-610f0721c58f",
+                "cea013c4-a952-4084-b64e-1f88f7224399",
+                "f449cffd-0855-49a5-ab57-2b608a004e1c",
+                "2d4135f1-5124-43d9-b950-acbfeeb6635a",
+                "84299f5e-b1d5-48f1-b384-62d0b9c80130",
+                "4d52dc73-e3c9-4c7e-9471-b242a45a670c",
+                "b4ccd2fe-07d5-4fe1-9134-444dbae99be2",
+                "dc9a4e78-092f-4697-8709-3f65790b8304",
+                "23e94720-fadc-4f1d-9022-e7eec7c477d0",
+                "f2fa52dc-401e-4526-a89c-0eb1cb14f9b1",
+                "07c43a82-6fe5-47f6-9ee4-6f251e065db0",
+                "4399f056-aa9e-4b1c-b0c6-a958fa9a6c5e",
+                "641059f2-e560-4679-8264-991da20a97b9",
+                "84bc7b50-b04c-490a-b13c-3f50e4416de4",
+                "044155f9-1c4e-4554-b78e-e4be19fb74c1",
+                "4a84c4ad-50d7-4944-af66-629eb385ab4a"
+            ]
+        }
+    ]
+}

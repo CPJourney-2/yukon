@@ -1,0 +1,519 @@
+{
+    "id": "55e75707-a4d0-4b02-8514-725b012a49b9",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/town/fair-town-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Town",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "7cb87879-cf52-4d4f-bc30-79fcc25fe012",
+            "label": "town_reference",
+            "texture": {
+                "key": "fair-town",
+                "frame": "town_reference"
+            },
+            "x": 705,
+            "y": 477
+        },
+        {
+            "type": "Image",
+            "id": "ad831c40-d383-42ca-b44e-c725feee5402",
+            "label": "bgrink",
+            "texture": {
+                "key": "bgrink"
+            },
+            "x": 730,
+            "y": 450,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "21bbb0a2-0327-46f9-8472-29a729848d75",
+            "label": "bg",
+            "texture": {
+                "key": "town",
+                "frame": "bg"
+            },
+            "x": -10,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "121fc63f-ea81-4bc3-bb99-a67a1255619e",
+            "label": "town_bg",
+            "texture": {
+                "key": "fair-town",
+                "frame": "town_bg"
+            },
+            "x": 652,
+            "y": 477
+        },
+        {
+            "type": "Image",
+            "id": "7cc2e32b-dd3e-48fa-b754-28a628eb6403",
+            "label": "symbol_236",
+            "texture": {
+                "key": "Symbol 236"
+            },
+            "x": -103,
+            "y": 1013,
+            "originX": 0,
+            "originY": 1
+        },
+        {
+            "type": "Image",
+            "id": "ee943a05-82e6-40f3-b909-728c73d766d2",
+            "label": "left_sign",
+            "texture": {
+                "key": "fair-town",
+                "frame": "arrowleft"
+            },
+            "x": 179,
+            "y": 449,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "51de414e-abf0-47b2-ba0b-07aa8057153f",
+            "label": "right_sign",
+            "texture": {
+                "key": "fair-town",
+                "frame": "arrowright"
+            },
+            "x": 1286,
+            "y": 464,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "b0692d84-8da0-4b15-bbb2-751704bee709",
+            "label": "coffee_door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "coffee_door",
+            "Button.pixelPerfect": true,
+            "MoveTo.x": 550,
+            "MoveTo.y": 450,
+            "texture": {
+                "key": "fair-town",
+                "frame": "coffee_door"
+            },
+            "x": 449,
+            "y": 304,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "5c2f7dd4-607f-4d1d-afcd-cb7b37bdbe0f",
+            "label": "gift_door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "gift_door",
+            "Button.pixelPerfect": true,
+            "MoveTo.x": 1010,
+            "MoveTo.y": 466,
+            "texture": {
+                "key": "fair-town",
+                "frame": "gift_door"
+            },
+            "x": 995,
+            "y": 293,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "bfabdf1f-c4c7-4ece-8599-ca93c8326447",
+            "label": "canopy",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onCanopyOver()",
+            "SimpleButton.hoverOutCallback": "() => this.onCanopyOut()",
+            "MoveTo.x": 684,
+            "MoveTo.y": 410,
+            "texture": {
+                "key": "fair-town",
+                "frame": "canopy_normal"
+            },
+            "x": 692,
+            "y": 463,
+            "originX": 0.49606299212598426,
+            "originY": 0.9403669724770642
+        },
+        {
+            "type": "Sprite",
+            "id": "45fa492b-a213-4d30-acbe-ebe11fa805c1",
+            "label": "canopy_hover",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "canopy_hover",
+            "Animation.end": 57,
+            "Animation.autoPlay": false,
+            "Animation.showOnStart": true,
+            "Animation.hideOnComplete": true,
+            "texture": {
+                "key": "fair-town",
+                "frame": "canopy_hover0001"
+            },
+            "x": 648,
+            "y": 547,
+            "originX": 0,
+            "originY": 7.142857142857143,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "cae986f7-795f-4d18-9618-d35f387c2e18",
+            "label": "canopy_stars",
+            "texture": {
+                "key": "fair-town",
+                "frame": "canopy_stars"
+            },
+            "x": 647,
+            "y": 548,
+            "originX": 0,
+            "originY": 7.142857142857143
+        },
+        {
+            "type": "Sprite",
+            "id": "b0d00512-60c5-428b-b7ad-5146af3ba382",
+            "label": "hoverlights",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "hoverlights",
+            "Animation.end": 57,
+            "Animation.autoPlay": false,
+            "Animation.showOnStart": true,
+            "Animation.hideOnComplete": true,
+            "texture": {
+                "key": "fair-town",
+                "frame": "hoverlights0007"
+            },
+            "x": 766,
+            "y": 331,
+            "originX": 0,
+            "originY": 0,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "9b2c16c1-ad0b-4ebf-9a65-82547fa17ece",
+            "label": "hoverlight_star",
+            "texture": {
+                "key": "fair-town",
+                "frame": "hoverlight_star"
+            },
+            "x": 824,
+            "y": 356
+        },
+        {
+            "type": "Image",
+            "id": "29fc30c2-640e-4277-9d7a-ca9e03069114",
+            "label": "disk",
+            "texture": {
+                "key": "fair-town",
+                "frame": "disk"
+            },
+            "x": 826,
+            "y": 300
+        },
+        {
+            "type": "Sprite",
+            "id": "922cb74b-3954-404f-848c-6348b5ec4955",
+            "label": "disklight",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "disklight",
+            "Animation.start": 2,
+            "Animation.end": 13,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "fair-town",
+                "frame": "disklight0001"
+            },
+            "x": 828,
+            "y": 299
+        },
+        {
+            "type": "Sprite",
+            "id": "c7026824-f8f6-4305-8fe6-dc81d73f5d02",
+            "label": "lights",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "nightlights",
+            "Animation.end": 69,
+            "Animation.repeatDelay": 1,
+            "texture": {
+                "key": "fair-town",
+                "frame": "nightlights0001"
+            },
+            "x": 518,
+            "y": -77,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "d2f7523e-4ee3-4112-afea-1031b0bde58e",
+            "label": "box_1",
+            "texture": {
+                "key": "fair-town",
+                "frame": "baskettwo"
+            },
+            "x": 973,
+            "y": 431,
+            "originX": 0.49382716049382713,
+            "originY": 0.6268656716417911
+        },
+        {
+            "type": "Image",
+            "id": "0c94c016-2a42-4413-bfc0-abe028143024",
+            "label": "box_2",
+            "texture": {
+                "key": "fair-town",
+                "frame": "basketone"
+            },
+            "x": 954,
+            "y": 482,
+            "originX": 0.49504950495049505,
+            "originY": 0.6736842105263158
+        },
+        {
+            "type": "Image",
+            "id": "40a013ea-83e9-4eff-8634-46134d60d75a",
+            "label": "box_3",
+            "texture": {
+                "key": "fair-town",
+                "frame": "basketthree"
+            },
+            "x": 1148,
+            "y": 580,
+            "originX": 0.4943820224719101,
+            "originY": 0.5569620253164557
+        },
+        {
+            "type": "Image",
+            "id": "97ca136f-d936-4bb2-8db1-381245bfaa5b",
+            "label": "chair_2",
+            "texture": {
+                "key": "fair-town",
+                "frame": "chairtwo"
+            },
+            "x": 436,
+            "y": 461,
+            "originX": 0.49382716049382713,
+            "originY": 0.27358490566037735
+        },
+        {
+            "type": "Image",
+            "id": "52130162-4cfc-4f67-b4b2-fa16fd824ee2",
+            "label": "table_2",
+            "texture": {
+                "key": "fair-town",
+                "frame": "tabletwo"
+            },
+            "x": 485,
+            "y": 522,
+            "originY": 0.7864077669902912
+        },
+        {
+            "type": "Image",
+            "id": "da800ad3-3d6f-4c6b-be77-696bbf7e30b5",
+            "label": "chair_1",
+            "texture": {
+                "key": "fair-town",
+                "frame": "chairone"
+            },
+            "x": 402,
+            "y": 510,
+            "originX": 0.49411764705882355,
+            "originY": 0.2857142857142857
+        },
+        {
+            "type": "Image",
+            "id": "dafb207c-e4d9-4941-83f8-9351f393e0a0",
+            "label": "table_1",
+            "texture": {
+                "key": "fair-town",
+                "frame": "tableone"
+            },
+            "x": 455,
+            "y": 574,
+            "originX": 0.49572649572649574,
+            "originY": 0.7830188679245284
+        },
+        {
+            "type": "Image",
+            "id": "e3430e96-9a7d-44d2-8d07-fa72e8eb39c3",
+            "label": "circus_sign",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "circus_sign",
+            "Button.callback": "() => this.interface.loadWidget('FairPoster')",
+            "texture": {
+                "key": "fair-town",
+                "frame": "circus_sign"
+            },
+            "x": 245.00000000000003,
+            "y": 1037.039075438053,
+            "angle": 11,
+            "originX": 0.2966774913994091,
+            "originY": 1.6083109816510845
+        },
+        {
+            "type": "Sprite",
+            "id": "4ff201b5-d881-4a18-baea-ca1cd3af1f67",
+            "label": "coffeesign",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "coffeesign",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fair-town",
+                "frame": "coffeesign0001"
+            },
+            "x": 224,
+            "y": 371
+        },
+        {
+            "type": "Image",
+            "id": "41eb1bda-6569-43f0-a3e7-3ddeed760216",
+            "label": "sign",
+            "texture": {
+                "key": "fair-town",
+                "frame": "sign"
+            },
+            "x": 356.5,
+            "y": 160.5
+        },
+        {
+            "type": "Sprite",
+            "id": "2f076ac1-407e-41bc-b3cc-cc10370042a6",
+            "label": "gift_arrow",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "gift_arrow",
+            "Animation.end": 25,
+            "texture": {
+                "key": "fair-town",
+                "frame": "gift_arrow0001"
+            },
+            "x": 973,
+            "y": 270
+        },
+        {
+            "type": "Sprite",
+            "id": "b14bf9c6-9f45-48cf-913c-5c0596c7a636",
+            "label": "gift_sign",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "gift_sign",
+            "Animation.end": 25,
+            "texture": {
+                "key": "fair-town",
+                "frame": "gift_sign0001"
+            },
+            "x": 1053,
+            "y": 163
+        },
+        {
+            "type": "Image",
+            "id": "b68e0826-8b99-4c21-8f5d-be6d6e2b92ee",
+            "label": "balloon",
+            "texture": {
+                "key": "fair-town",
+                "frame": "balloon"
+            },
+            "x": 1012.470417496413,
+            "y": 689.5872962302714,
+            "originX": 0.52470417496413,
+            "originY": 0.5550092964788315
+        },
+        {
+            "type": "Image",
+            "id": "7adb2cda-687a-4564-a971-f3ef8b082c77",
+            "label": "balloon_bottom",
+            "texture": {
+                "key": "fair-town",
+                "frame": "balloon_bottom"
+            },
+            "x": 960.0880126953125,
+            "y": 692.2536006163249,
+            "originX": 0.5136638135863547,
+            "originY": -0.017971188683951367
+        },
+        {
+            "prefabId": "03c1e2c5-a3a8-4d2d-a4b8-4cdd167a2b9a",
+            "id": "19026b9d-3171-47cd-8d3c-27d60108de42",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "coaster",
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "b1ee46a5-a8cc-4134-84ca-72009a3f91e3",
+            "label": "sort",
+            "objectIds": [
+                "0c94c016-2a42-4413-bfc0-abe028143024",
+                "d2f7523e-4ee3-4112-afea-1031b0bde58e",
+                "40a013ea-83e9-4eff-8634-46134d60d75a",
+                "97ca136f-d936-4bb2-8db1-381245bfaa5b",
+                "da800ad3-3d6f-4c6b-be77-696bbf7e30b5",
+                "dafb207c-e4d9-4941-83f8-9351f393e0a0",
+                "52130162-4cfc-4f67-b4b2-fa16fd824ee2",
+                "bfabdf1f-c4c7-4ece-8599-ca93c8326447",
+                "cae986f7-795f-4d18-9618-d35f387c2e18",
+                "45fa492b-a213-4d30-acbe-ebe11fa805c1",
+                "e3430e96-9a7d-44d2-8d07-fa72e8eb39c3",
+                "b68e0826-8b99-4c21-8f5d-be6d6e2b92ee",
+                "7adb2cda-687a-4564-a971-f3ef8b082c77",
+                "7cc2e32b-dd3e-48fa-b754-28a628eb6403"
+            ]
+        }
+    ]
+}

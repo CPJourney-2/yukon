@@ -1,0 +1,72 @@
+{
+    "id": "2e1d0aaf-0b58-492d-aa4f-efd130659966",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/estate/estate-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Estate",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "81a6400d-2f18-48f8-a301-8a41d3bf7cb0",
+            "label": "floor",
+            "scope": "CLASS",
+            "texture": {
+                "key": "estate",
+                "frame": "bg"
+            },
+            "x": 754,
+            "y": 374
+        },
+        {
+            "type": "Image",
+            "id": "0ff8dd4f-c1a9-49d0-8d58-6e1cdd234141",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "texture": {
+                "key": "estate",
+                "frame": "door"
+            },
+            "x": 305,
+            "y": 643
+        },
+        {
+            "type": "Rectangle",
+            "id": "337d7300-8c84-475d-830b-3cb3c7db6627",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 311,
+            "y": 753,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.42309859862595856,
+            "originY": 0.7912213562432897,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

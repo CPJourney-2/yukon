@@ -1,0 +1,71 @@
+{
+    "id": "f8f8851d-2ae8-447f-bebd-3364febcd751",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "70cbdcc3-fd6f-442b-92d0-b1ebcbcacd21",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "fce6f303-eafc-4fe3-933d-0298625d05de",
+                    "label": "party_item",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "quest_item",
+                    "Button.hoverCallback": "",
+                    "Button.hoverOutCallback": "",
+                    "Button.callback": "() => {this.select();}",
+                    "texture": {
+                        "key": "partyquests",
+                        "frame": "quest_item"
+                    }
+                },
+                {
+                    "type": "Text",
+                    "id": "f16eff7f-fc43-4db6-89e6-76c46d30d3ee",
+                    "label": "party_title",
+                    "scope": "CLASS",
+                    "x": -330,
+                    "y": -12,
+                    "text": "April Fools' Party 2024",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "2a8b6a64-ead0-4005-a6f7-403774edea81",
+                    "label": "party_logo",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "partyquests",
+                        "frame": "quest_community"
+                    },
+                    "x": 325,
+                    "scaleX": 0.4,
+                    "scaleY": 0.4
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

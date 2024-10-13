@@ -1,0 +1,161 @@
+{
+    "id": "a30aae6b-08f6-4ddc-bc11-25f3d840d1c9",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eefc5a3-1b9a-4b15-a92a-1a543086f96d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "637cca7d-b294-4dcd-aa38-991230ee66f5",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -12,
+                    "y": 10,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Image",
+                    "id": "9e437242-9013-4676-8120-bb48d273ab75",
+                    "label": "interfacetwo",
+                    "texture": {
+                        "key": "saveinterfacetwo",
+                        "frame": "interfacetwo"
+                    },
+                    "x": 11,
+                    "y": -2,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "d2370e71-ece9-4686-bb50-a1ab3b392017",
+                    "label": "bg",
+                    "texture": {
+                        "key": "saveinterfacethree",
+                        "frame": "interface_three"
+                    },
+                    "x": 11,
+                    "y": -2
+                },
+                {
+                    "type": "Image",
+                    "id": "10a1bd7a-f869-4176-aa23-b02b2485177b",
+                    "label": "interface_four",
+                    "texture": {
+                        "key": "saveinterfacefour",
+                        "frame": "interface_four"
+                    },
+                    "x": 11,
+                    "y": -2
+                },
+                {
+                    "type": "Image",
+                    "id": "a27f6626-903a-4bd8-bfa7-0a66741b7535",
+                    "label": "interface_five",
+                    "texture": {
+                        "key": "saveinterfacefive",
+                        "frame": "interface_five"
+                    },
+                    "x": 12,
+                    "y": -10
+                },
+                {
+                    "type": "Image",
+                    "id": "9a3ee899-eb4f-4e6d-9a54-57a72373f46e",
+                    "label": "buttons_close",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "saveclose",
+                    "Button.callback": "() => this.interface.destroyWidget(this)",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "saveinterfacebtn",
+                        "frame": "saveclose"
+                    },
+                    "x": 343,
+                    "y": -398
+                },
+                {
+                    "type": "Image",
+                    "id": "f208b7de-689f-4a2e-90a4-d2c70e54b011",
+                    "label": "save_buy",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "save_buy",
+                    "Button.callback": "() =>this.interface.prompt.showItem(344)",
+                    "texture": {
+                        "key": "saveinterfacebtn",
+                        "frame": "save_buy"
+                    },
+                    "x": 162,
+                    "y": -170
+                },
+                {
+                    "type": "Image",
+                    "id": "23572262-01cd-458e-9c0f-c4fec8da2b88",
+                    "label": "save_buy_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "save_buy",
+                    "Button.callback": "() =>this.interface.prompt.showItem(282)",
+                    "texture": {
+                        "key": "saveinterfacebtn",
+                        "frame": "save_buy"
+                    },
+                    "x": 162,
+                    "y": 32
+                },
+                {
+                    "type": "Image",
+                    "id": "80910c3a-d391-4db2-90ce-0f6c31cc9141",
+                    "label": "save_buy_2",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "save_buy",
+                    "Button.callback": "() =>this.interface.prompt.showItem(490)",
+                    "texture": {
+                        "key": "saveinterfacebtn",
+                        "frame": "save_buy"
+                    },
+                    "x": -195,
+                    "y": 158
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

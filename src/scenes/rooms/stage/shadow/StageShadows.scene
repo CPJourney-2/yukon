@@ -1,0 +1,95 @@
+{
+    "id": "f8bc3f0a-5a5b-4dbc-b73b-a03764a28588",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "60473cc2-9ddf-408f-80e7-377c387772b0",
+            "label": "shadows",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "4c00a215-cd2c-47b1-9f99-dc53798d0db0",
+                    "label": "shadowone",
+                    "components": [],
+                    "texture": {
+                        "key": "shadows",
+                        "frame": "shadowone"
+                    },
+                    "y": -22,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "ea91c509-815b-4de4-8002-9ffb98a50608",
+                    "label": "shadowtwo",
+                    "components": [],
+                    "texture": {
+                        "key": "shadows",
+                        "frame": "shadowtwo"
+                    },
+                    "y": -22,
+                    "visible": false,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "c22ec49d-fe49-41aa-afd8-f517031a5047",
+                    "label": "shadowthree",
+                    "components": [],
+                    "texture": {
+                        "key": "shadows",
+                        "frame": "shadowthree"
+                    },
+                    "y": -22,
+                    "visible": false,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "42b7a545-f255-4ee9-a9a1-6d031c2e142f",
+                    "label": "shadowfour",
+                    "components": [],
+                    "texture": {
+                        "key": "shadows",
+                        "frame": "shadowfour"
+                    },
+                    "y": -22,
+                    "visible": false,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "a4bb5b2a-ee6e-4c70-9262-4d7abaedf54d",
+            "label": "shadows",
+            "objectIds": [
+                "4c00a215-cd2c-47b1-9f99-dc53798d0db0",
+                "ea91c509-815b-4de4-8002-9ffb98a50608",
+                "c22ec49d-fe49-41aa-afd8-f517031a5047",
+                "42b7a545-f255-4ee9-a9a1-6d031c2e142f"
+            ]
+        }
+    ]
+}

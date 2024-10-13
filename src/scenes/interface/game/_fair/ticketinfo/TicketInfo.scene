@@ -1,0 +1,710 @@
+{
+    "id": "427662be-b070-4a53-ba0a-1b193bd4da13",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eefc5a3-1b9a-4b15-a92a-1a543086f96d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "637cca7d-b294-4dcd-aa38-991230ee66f5",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -12,
+                    "y": 10,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.2,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Image",
+                    "id": "b389a4ba-3cd9-4a9e-8fe7-b3931eadb79a",
+                    "label": "bg",
+                    "texture": {
+                        "key": "ticketinfo",
+                        "frame": "bg"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "0d6d999a-1871-4b65-8636-f80f1f7a3d05",
+                    "label": "bonus_prizes",
+                    "texture": {
+                        "key": "ticketinfo",
+                        "frame": "bonus_prizes"
+                    },
+                    "x": 333,
+                    "y": -313
+                },
+                {
+                    "type": "Image",
+                    "id": "3f2c9fc7-cfda-473c-a3a0-cab6c75a942c",
+                    "label": "ticket_info",
+                    "texture": {
+                        "key": "ticketinfo",
+                        "frame": "ticket_info"
+                    },
+                    "x": -246,
+                    "y": -285
+                },
+                {
+                    "type": "Image",
+                    "id": "b7305628-927f-411c-98b8-d2930c6608c4",
+                    "label": "ticketwarning",
+                    "texture": {
+                        "key": "ticketinfo",
+                        "frame": "ticketwarning"
+                    },
+                    "x": -361,
+                    "y": 299
+                },
+                {
+                    "type": "Image",
+                    "id": "548fc2b5-d355-4c50-8c0b-8cd4a2a18a30",
+                    "label": "logo",
+                    "texture": {
+                        "key": "ticketinfo",
+                        "frame": "logo"
+                    },
+                    "x": -506,
+                    "y": -290
+                },
+                {
+                    "type": "Text",
+                    "id": "74f0e7f7-e614-4ff1-bd34-b4255e2cc4d7",
+                    "label": "step1",
+                    "x": -639,
+                    "y": -196,
+                    "text": "Step 1",
+                    "fixedWidth": 110,
+                    "fixedHeight": 40,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "33px",
+                    "fontStyle": "bold",
+                    "color": "#412C18",
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#0000003f"
+                },
+                {
+                    "type": "Text",
+                    "id": "1bc2cc2b-c142-424f-9690-771c4c971bb0",
+                    "label": "step2",
+                    "x": -639,
+                    "y": -68,
+                    "text": "Step 2",
+                    "fixedWidth": 110,
+                    "fixedHeight": 40,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "33px",
+                    "fontStyle": "bold",
+                    "color": "#412C18",
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#0000003f"
+                },
+                {
+                    "type": "Text",
+                    "id": "d1400bf4-c674-4e06-b76f-014a9419f101",
+                    "label": "step3",
+                    "x": -639,
+                    "y": 94.680908203125,
+                    "text": "Step 3",
+                    "fixedWidth": 110,
+                    "fixedHeight": 40,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "33px",
+                    "fontStyle": "bold",
+                    "color": "#412C18",
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#0000003f"
+                },
+                {
+                    "type": "Text",
+                    "id": "5a6be770-1de6-4ddf-a7fc-9ebdb8eb8891",
+                    "label": "step1description",
+                    "x": -639,
+                    "y": -157,
+                    "text": "Play any of The Fair games to\nwin tickets.",
+                    "fixedWidth": 500,
+                    "fixedHeight": 80,
+                    "lineSpacing": -5,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "33px",
+                    "color": "#412C18",
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#0000003f"
+                },
+                {
+                    "type": "Text",
+                    "id": "e06ab565-1097-4b98-b2b9-2ecbd964a1ed",
+                    "label": "step2description",
+                    "x": -639,
+                    "y": -26,
+                    "text": "Go to a prize booth at the Forest,\nSki Village, or the entrance to the\nGreat Puffle Circus.",
+                    "fixedWidth": 550,
+                    "fixedHeight": 140,
+                    "lineSpacing": -5,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "33px",
+                    "color": "#412C18",
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#0000003f"
+                },
+                {
+                    "type": "Text",
+                    "id": "f5a0f00c-7c13-445f-9292-156d9b11461f",
+                    "label": "step3description",
+                    "x": -639,
+                    "y": 138,
+                    "text": "Walk to the booth and trade your\ntickets for prizes!",
+                    "fixedWidth": 500,
+                    "fixedHeight": 80,
+                    "lineSpacing": -5,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "33px",
+                    "color": "#412C18",
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#0000003f"
+                },
+                {
+                    "type": "Text",
+                    "id": "363c70e2-fecc-4dc6-9c4b-f46b83abb961",
+                    "label": "bonusprizesdescription",
+                    "x": 60,
+                    "y": -272,
+                    "text": "Collect these bonus prizes by\naccomplishing tasks in The Fair!",
+                    "fixedWidth": 550,
+                    "fixedHeight": 80,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "33px",
+                    "fontStyle": "bold",
+                    "color": "#183C41",
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#0000003f"
+                },
+                {
+                    "type": "Image",
+                    "id": "d238548b-5f1e-424e-8107-7af76f5b0822",
+                    "label": "bonus_prize_bg",
+                    "texture": {
+                        "key": "ticketinfo",
+                        "frame": "bonus_prize_bg"
+                    },
+                    "x": 337,
+                    "y": -89
+                },
+                {
+                    "type": "Image",
+                    "id": "5eff9044-e14e-4a13-aae8-e643ee4498bb",
+                    "label": "bonus_prize_bg_1",
+                    "texture": {
+                        "key": "ticketinfo",
+                        "frame": "bonus_prize_bg"
+                    },
+                    "x": 337,
+                    "y": 96,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "0780047e-a6fb-404d-b5f3-74fcb53dab17",
+                    "label": "bonus_prize_bg_2",
+                    "texture": {
+                        "key": "ticketinfo",
+                        "frame": "bonus_prize_bg"
+                    },
+                    "x": 337,
+                    "y": 283,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "00c2c741-59e5-4055-8048-4b09beaf0a81",
+                    "label": "prize1Doll",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "ticketinfo",
+                        "frame": "coveredintickets"
+                    },
+                    "x": 160,
+                    "y": -111
+                },
+                {
+                    "type": "Image",
+                    "id": "071ec95b-a98a-4187-a744-e7cf6632ac8b",
+                    "label": "prize2Doll",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "ticketinfo",
+                        "frame": "catastrophe"
+                    },
+                    "x": 160,
+                    "y": 74,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "dfc081d6-b2af-4e69-a30e-58b0fc7c2405",
+                    "label": "prize3Doll",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "ticketinfo",
+                        "frame": "catastrophe"
+                    },
+                    "x": 160,
+                    "y": 259,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "ac824783-c64f-4b14-9d8e-63aa6de1619e",
+                    "label": "grey_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 625,
+                    "y": -342
+                },
+                {
+                    "type": "Image",
+                    "id": "baaccc73-a7fd-47d9-be1e-c1cdedebe06d",
+                    "label": "grey_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 625,
+                    "y": -344
+                },
+                {
+                    "type": "Container",
+                    "id": "2135d9ba-8af7-40cf-b939-ae8104a0ff13",
+                    "label": "prize1Locked",
+                    "scope": "CLASS",
+                    "x": 258,
+                    "y": -154,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "ecefb069-ba5e-4757-b412-4565bd09bd33",
+                            "label": "prize1lockedtext",
+                            "text": "Unlock by having 2500 tickets at one time",
+                            "fixedWidth": 320,
+                            "fixedHeight": 150,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#183C41",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000003f",
+                            "wordWrapWidth": 300
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6f38b467-d913-47c6-983a-99e0b505d6bf",
+                    "label": "prize1Unlocked",
+                    "scope": "CLASS",
+                    "x": 258,
+                    "y": -167,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "0e6a7402-ac60-4645-8964-f13680b40d3a",
+                            "label": "prize1congrats",
+                            "text": "Congrats! You unlocked:",
+                            "fixedWidth": 320,
+                            "fixedHeight": 50,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "25px",
+                            "fontStyle": "bold",
+                            "color": "#183C41",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000003f",
+                            "wordWrapWidth": 300
+                        },
+                        {
+                            "type": "Text",
+                            "id": "3c0ca202-b8d3-4e0b-b3aa-19c204b2b6b8",
+                            "label": "prize1name",
+                            "y": 26,
+                            "text": "Covered in Tickets",
+                            "fixedWidth": 320,
+                            "fixedHeight": 50,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#183C41",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000003f",
+                            "wordWrapWidth": 300
+                        },
+                        {
+                            "type": "Image",
+                            "id": "bff90d89-19d8-412b-b0d5-c224d4fb929b",
+                            "label": "prize1claimbtn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "button",
+                            "Button.callback": "() => this.interface.prompt.showItem(380614)",
+                            "texture": {
+                                "key": "ticketinfo",
+                                "frame": "button"
+                            },
+                            "x": 164,
+                            "y": 107
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f2fa9447-c98e-489c-9581-7e2240cf5db4",
+                            "label": "prize1claimprize",
+                            "x": 61,
+                            "y": 85,
+                            "text": "Claim Prize",
+                            "fixedWidth": 200,
+                            "fixedHeight": 50,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#183C41",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000003f",
+                            "wordWrapWidth": 300
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "201fdd60-1634-490a-877e-39f94dbdd50e",
+                    "label": "prize2Unlocked",
+                    "scope": "CLASS",
+                    "x": 258,
+                    "y": 14,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "4f1eec5a-02c4-4018-82c1-2f9c3bec77b4",
+                            "label": "prize2congrats",
+                            "text": "Congrats! You unlocked:",
+                            "fixedWidth": 320,
+                            "fixedHeight": 50,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "25px",
+                            "fontStyle": "bold",
+                            "color": "#183C41",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000003f",
+                            "wordWrapWidth": 300
+                        },
+                        {
+                            "type": "Text",
+                            "id": "3fc537e7-9c4d-4b8e-abf8-a3ac40e6de62",
+                            "label": "prize2name",
+                            "y": 26,
+                            "text": "The Cat-Tastrophe",
+                            "fixedWidth": 320,
+                            "fixedHeight": 50,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#183C41",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000003f",
+                            "wordWrapWidth": 300
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e3b88b71-4bd2-4517-8280-bbea8984292f",
+                            "label": "prize2claimbtn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "button",
+                            "Button.callback": "() => this.interface.prompt.showItem(380590)",
+                            "texture": {
+                                "key": "ticketinfo",
+                                "frame": "button"
+                            },
+                            "x": 164,
+                            "y": 107
+                        },
+                        {
+                            "type": "Text",
+                            "id": "9d597aee-e32a-4705-b356-7aeb7e645b5d",
+                            "label": "prize2claimprize",
+                            "x": 61,
+                            "y": 85,
+                            "text": "Claim Prize",
+                            "fixedWidth": 200,
+                            "fixedHeight": 50,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#183C41",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000003f",
+                            "wordWrapWidth": 300
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "32745cfa-a98f-4be2-bbf2-6d38a4a725df",
+                    "label": "prize2Locked",
+                    "scope": "CLASS",
+                    "x": 258,
+                    "y": 21,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "3f5f135d-2404-474b-92ca-1d4ead67b268",
+                            "label": "prize2lockedtext",
+                            "text": "Unlock by collecting all cat stuffies from the Forest's prize booth",
+                            "fixedWidth": 320,
+                            "fixedHeight": 150,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#183C41",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000003f",
+                            "wordWrapWidth": 300
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "9db7c26a-14c1-43a5-9675-02fadca5e399",
+                    "label": "prize3Unlocked",
+                    "scope": "CLASS",
+                    "x": 258,
+                    "y": 202,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "740e7703-cb15-47ae-8117-961430b155c7",
+                            "label": "prize3congrats",
+                            "text": "Congrats! You unlocked:",
+                            "fixedWidth": 320,
+                            "fixedHeight": 50,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "25px",
+                            "fontStyle": "bold",
+                            "color": "#183C41",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000003f",
+                            "wordWrapWidth": 300
+                        },
+                        {
+                            "type": "Text",
+                            "id": "c770e8eb-919b-40ea-83b8-f9caf647ddf8",
+                            "label": "prize3name",
+                            "y": 26,
+                            "text": "The Cat-Tastrophe",
+                            "fixedWidth": 320,
+                            "fixedHeight": 50,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#183C41",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000003f",
+                            "wordWrapWidth": 300
+                        },
+                        {
+                            "type": "Image",
+                            "id": "55790865-9966-497f-b70a-1a7cf58c6ee6",
+                            "label": "prize3claimbtn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "button",
+                            "Button.callback": "() => this.interface.prompt.showItem(380627)",
+                            "texture": {
+                                "key": "ticketinfo",
+                                "frame": "button"
+                            },
+                            "x": 164,
+                            "y": 107
+                        },
+                        {
+                            "type": "Text",
+                            "id": "7a998d54-7100-4595-9913-6717191e2138",
+                            "label": "prize3claimprize",
+                            "x": 61,
+                            "y": 85,
+                            "text": "Claim Prize",
+                            "fixedWidth": 200,
+                            "fixedHeight": 50,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#183C41",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000003f",
+                            "wordWrapWidth": 300
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "26583a50-5c0f-47c1-b7d5-380779ff86c5",
+                    "label": "prize3Locked",
+                    "scope": "CLASS",
+                    "x": 258,
+                    "y": 209,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "b01c78d4-28e6-4920-93f6-5227a3e7ccf8",
+                            "label": "prize3lockedtext",
+                            "text": "Unlock by collecting all dog stuffies from the Forest's prize booth",
+                            "fixedWidth": 320,
+                            "fixedHeight": 150,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#183C41",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000003f",
+                            "wordWrapWidth": 300
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "07f62a33-f190-4230-aa46-0d7a276828da",
+                    "label": "bonusprizesdescription_1",
+                    "x": 63,
+                    "y": 63,
+                    "text": "More bonus prizes will be available next week!",
+                    "fixedWidth": 550,
+                    "fixedHeight": 200,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "50px",
+                    "fontStyle": "bold",
+                    "color": "#183C41",
+                    "shadow.offsetX": 4,
+                    "shadow.offsetY": 4,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#0000003f",
+                    "wordWrapWidth": 500
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

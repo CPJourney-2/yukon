@@ -1,0 +1,991 @@
+{
+    "id": "5a431bfb-c862-4a81-ae65-f056b3df13bb",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/medievalmonsters/medieval-monsters-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "MedievalMonsters",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "ac19e402-103a-4260-bbbd-30ad56c61e27",
+            "label": "castle",
+            "scope": "CLASS",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "castle"
+            },
+            "x": 712,
+            "y": 228
+        },
+        {
+            "type": "Image",
+            "id": "b03d22d4-0bbe-4e64-a387-155728892308",
+            "label": "cave_opening",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "cave_opening"
+            },
+            "x": 350,
+            "y": 350
+        },
+        {
+            "type": "Image",
+            "id": "f1866c31-3987-4c01-b048-d174b310648b",
+            "label": "ground",
+            "scope": "CLASS",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "ground"
+            },
+            "x": 750,
+            "y": 487
+        },
+        {
+            "type": "Image",
+            "id": "9f0d4a99-70b4-4d95-b703-7511eafd83bc",
+            "label": "tree_hole",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "tree_hole"
+            },
+            "x": 1195,
+            "y": 263
+        },
+        {
+            "type": "Image",
+            "id": "2e5fe45f-e445-4e5a-b70f-23da3b92e51a",
+            "label": "tree",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "tree"
+            },
+            "x": 1032,
+            "y": 248
+        },
+        {
+            "type": "Sprite",
+            "id": "344e3d68-b9aa-44e1-8965-1295b1614ff8",
+            "label": "ogre_tree",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ogre_bridge2",
+            "Animation.end": 120,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "ogre_bridge20013"
+            },
+            "x": 1433,
+            "y": 406,
+            "angle": -59.99999999999994,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "5f09e4df-8510-4bda-a61e-622d2c3bab5d",
+            "label": "small_rock",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "small_rock"
+            },
+            "x": 1214,
+            "y": 475
+        },
+        {
+            "type": "Image",
+            "id": "62fc52c5-208a-45c0-a23d-b7b9da9a04c2",
+            "label": "cave",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "cave"
+            },
+            "x": 350,
+            "y": 307
+        },
+        {
+            "type": "Sprite",
+            "id": "58713360-5569-43ed-bef3-a32e346924f4",
+            "label": "cave_ogre",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ogre_bridge1",
+            "Animation.end": 120,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "ogre_bridge10001"
+            },
+            "x": 242,
+            "y": 751
+        },
+        {
+            "type": "Sprite",
+            "id": "0727948a-1b96-462a-b868-3ecf289cb7bd",
+            "label": "front_rock",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "front_rock"
+            },
+            "x": 292,
+            "y": 453
+        },
+        {
+            "type": "Image",
+            "id": "c6d8c48f-aa1d-4c3a-801e-926e7c8440b0",
+            "label": "bridge_back",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "bridge_back"
+            },
+            "x": 780,
+            "y": 374
+        },
+        {
+            "type": "Sprite",
+            "id": "5c50ad35-2c35-48d5-92ab-c029432d9721",
+            "label": "ogre_bridge3",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ogre_bridge3",
+            "Animation.end": 120,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "ogre_bridge30001"
+            },
+            "x": 679,
+            "y": 688
+        },
+        {
+            "type": "Sprite",
+            "id": "66975743-f7f3-43a5-a1b6-f42f5e83e7e5",
+            "label": "ogre_bridge2",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ogre_bridge2",
+            "Animation.end": 120,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "ogre_bridge20001"
+            },
+            "x": 779,
+            "y": 660
+        },
+        {
+            "type": "Sprite",
+            "id": "de36b0df-24b9-4d2c-bed0-9e7e3ffed44f",
+            "label": "ogre_bridge1",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ogre_bridge1",
+            "Animation.end": 120,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "ogre_bridge10001"
+            },
+            "x": 851,
+            "y": 684
+        },
+        {
+            "type": "Image",
+            "id": "833dd84a-2174-4239-9d36-cb2c4f40780b",
+            "label": "bridge_front",
+            "scope": "CLASS",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "bridge_front"
+            },
+            "x": 783,
+            "y": 437
+        },
+        {
+            "type": "Sprite",
+            "id": "28f7c7e1-3f15-4fe3-8a3b-595aaec154f3",
+            "label": "fire_chain",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "chain",
+            "Animation.end": 7,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "chain0001"
+            },
+            "x": 519,
+            "y": 161,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "619b631f-d8bb-49d2-94bd-6fa36268413e",
+            "label": "dragon",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "dragon_open",
+            "Animation.end": 220,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "dragon_open0001"
+            },
+            "x": 527,
+            "y": -22,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "d5e44094-4831-4d9a-a8b6-8196693ba7b5",
+            "label": "fire_target3",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fire_target3",
+            "Animation.end": 18,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "fire_target30001"
+            },
+            "x": 604,
+            "y": 203,
+            "scaleX": 0.7,
+            "scaleY": 0.7,
+            "angle": 25,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "115354a1-8554-493a-bb86-d8d720cbf6aa",
+            "label": "fire_target2",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fire_target2",
+            "Animation.end": 18,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "fire_target20001"
+            },
+            "x": 486,
+            "y": 147,
+            "scaleX": 0.7,
+            "scaleY": 0.7,
+            "angle": 25,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "9fef7d7b-3df1-411d-8282-6fd5f0787761",
+            "label": "fire_target1",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fire_target1",
+            "Animation.end": 18,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "fire_target10001"
+            },
+            "x": 369,
+            "y": 91,
+            "scaleX": 0.7,
+            "scaleY": 0.7,
+            "angle": 25,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "31046b0d-abea-48b7-8c71-1624fae2147c",
+            "label": "bat3",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bat",
+            "Animation.end": 10,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "bat_moveup0001"
+            },
+            "x": 1365,
+            "y": 60
+        },
+        {
+            "type": "Sprite",
+            "id": "dff1722a-8887-458f-8759-6468871dd3f2",
+            "label": "bat2",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bat",
+            "Animation.end": 10,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "bat_moveup0001"
+            },
+            "x": 1365,
+            "y": 60
+        },
+        {
+            "type": "Sprite",
+            "id": "3388597a-c52d-4fc8-a0ed-0f92722fa305",
+            "label": "bat1",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bat",
+            "Animation.end": 10,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "bat_moveup0001"
+            },
+            "x": 1365,
+            "y": 60
+        },
+        {
+            "type": "Sprite",
+            "id": "8dcf6e2c-efd4-4a72-a196-7b572f05f112",
+            "label": "knight",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "knight",
+            "Animation.end": 239,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "knight0001"
+            },
+            "x": 1461,
+            "y": 450
+        },
+        {
+            "type": "Image",
+            "id": "b866e867-b6dd-4992-9aeb-05ac40c65958",
+            "label": "bg",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "bg"
+            },
+            "x": 718,
+            "y": 495
+        },
+        {
+            "type": "Image",
+            "id": "d2cf7289-dc52-4fbd-9b5d-788de3b1fcbd",
+            "label": "wave2",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "wave1"
+            },
+            "x": 775,
+            "y": 595
+        },
+        {
+            "type": "Sprite",
+            "id": "77dbe052-62e4-4974-adc9-6a16ba222279",
+            "label": "ogre_duck3",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ogre_duck",
+            "Animation.start": 2,
+            "Animation.end": 9,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "ogre_duck0001"
+            },
+            "x": 1342,
+            "y": 658
+        },
+        {
+            "type": "Sprite",
+            "id": "03726838-ad19-406d-ad0b-0f728a49d374",
+            "label": "ogre_duck2",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ogre_duck",
+            "Animation.start": 2,
+            "Animation.end": 9,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "ogre_duck0001"
+            },
+            "x": 1352,
+            "y": 651,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "962eda40-c276-42c8-b593-282c10e078ed",
+            "label": "ogre_duck1",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ogre_duck",
+            "Animation.start": 2,
+            "Animation.end": 9,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "ogre_duck0001"
+            },
+            "x": 1340,
+            "y": 648
+        },
+        {
+            "type": "Image",
+            "id": "86e132fe-9645-41fa-82b8-20d9897bac3c",
+            "label": "wave1",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "wave1"
+            },
+            "x": 743,
+            "y": 627
+        },
+        {
+            "type": "Sprite",
+            "id": "11e4d979-379e-48f4-877a-06ededff4fe6",
+            "label": "princess",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "princess_tower",
+            "Animation.end": 699,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "princess_tower0001"
+            },
+            "x": -63,
+            "y": 404
+        },
+        {
+            "type": "Sprite",
+            "id": "dfe4a0c0-1f13-41ee-9fe4-6a35a8551061",
+            "label": "light_chain",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "chain",
+            "Animation.end": 7,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "chain0001"
+            },
+            "x": 1184,
+            "y": 436,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "angle": 24,
+            "flipX": true,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "7da9eeb3-2eae-4809-a080-ea97e5c9d4c4",
+            "label": "lighting_target1",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "light_target",
+            "Animation.end": 18,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "light_target0001"
+            },
+            "x": 1384,
+            "y": 431,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "5c72cc0e-8737-4a84-9d32-a1f50bb01547",
+            "label": "lighting_target2",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "light_target",
+            "Animation.end": 18,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "light_target0001"
+            },
+            "x": 1386,
+            "y": 433,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "5c35546c-acef-4c82-81c1-4484e44267a3",
+            "label": "lighting_target3",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "light_target",
+            "Animation.end": 18,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "light_target0001"
+            },
+            "x": 1383,
+            "y": 433,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a2ad7449-4393-4d3f-b2e5-a72e7499b04d",
+            "label": "tower_hole",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "tower_hole"
+            },
+            "x": 1355,
+            "y": 315
+        },
+        {
+            "type": "Image",
+            "id": "1e626862-dcf9-4f49-833d-c31e1d8c247a",
+            "label": "tower2",
+            "scope": "CLASS",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "tower"
+            },
+            "x": 1364,
+            "y": 409
+        },
+        {
+            "type": "Sprite",
+            "id": "38c5b75c-e54e-446e-ab1c-61efaf4bd700",
+            "label": "wizard",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wizard_cast",
+            "Animation.end": 30,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "wizard_cast0001"
+            },
+            "x": 1304,
+            "y": 310,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "afeb4319-e18a-4bab-8f88-f52f4f210622",
+            "label": "towerco",
+            "scope": "CLASS",
+            "texture": {
+                "key": "towerco"
+            },
+            "x": 1364,
+            "y": 410
+        },
+        {
+            "type": "Image",
+            "id": "97342b63-12d6-4776-8fe8-2471ff245621",
+            "label": "tower1",
+            "scope": "CLASS",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "tower"
+            },
+            "x": 127,
+            "y": 410
+        },
+        {
+            "type": "Image",
+            "id": "55a56bb0-e72b-4f27-ac4a-7a12def9a6be",
+            "label": "rail",
+            "scope": "CLASS",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "rail"
+            },
+            "x": 749,
+            "y": 677
+        },
+        {
+            "type": "Image",
+            "id": "f8278598-3f3b-4f13-b580-b7a4162540a0",
+            "label": "balls",
+            "scope": "CLASS",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "balls"
+            },
+            "x": 758,
+            "y": 751
+        },
+        {
+            "type": "Image",
+            "id": "01f7ea03-5359-4f32-ada2-2f1980d36a8e",
+            "label": "sign",
+            "scope": "CLASS",
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "sign"
+            },
+            "x": 189,
+            "y": 729
+        },
+        {
+            "type": "Sprite",
+            "id": "3f158b00-fdfc-4986-b918-05086ec3fcb8",
+            "label": "ogre_tower",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ogre_tower",
+            "Animation.end": 44,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "ogre_tower0001"
+            },
+            "x": -98,
+            "y": 707
+        },
+        {
+            "type": "Sprite",
+            "id": "d15e60a0-cca9-4db6-ae0d-59a7bf085eb3",
+            "label": "princess_kidnapped",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "princess",
+            "Animation.end": 20,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "princess0001"
+            },
+            "x": 140,
+            "y": 332,
+            "angle": -90,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "52effb66-116c-4430-a0d1-bb3e5801ea05",
+            "label": "light_particle",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "particle",
+            "Animation.end": 10,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "particle0001"
+            },
+            "x": 272,
+            "y": 302,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "cad21df5-68ee-48b4-9c78-002013a502f7",
+            "label": "fire_particle",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "particle",
+            "Animation.end": 10,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "medieval-monsters",
+                "frame": "particle0001"
+            },
+            "x": 1160,
+            "y": 302,
+            "visible": false
+        },
+        {
+            "type": "Rectangle",
+            "id": "68f4a5a1-c9c7-41cd-9662-5fad624e6f65",
+            "label": "ogre_duck3_hitbox",
+            "scope": "CLASS",
+            "x": 456,
+            "y": 539,
+            "visible": false,
+            "width": 65,
+            "height": 85
+        },
+        {
+            "type": "Rectangle",
+            "id": "d44a6fff-0b6b-4282-9962-6495de78c345",
+            "label": "ogre_duck2_hitbox",
+            "scope": "CLASS",
+            "x": 781,
+            "y": 544,
+            "visible": false,
+            "width": 65,
+            "height": 85
+        },
+        {
+            "type": "Rectangle",
+            "id": "c1036e44-545e-4cf8-abd4-5cdb619b24df",
+            "label": "ogre_duck1_hitbox",
+            "scope": "CLASS",
+            "x": 1115,
+            "y": 537,
+            "visible": false,
+            "width": 65,
+            "height": 85
+        },
+        {
+            "type": "Rectangle",
+            "id": "4ca5176f-fef4-4270-8bdf-530a22808012",
+            "label": "ogre_bridge3_hitbox",
+            "scope": "CLASS",
+            "x": 569,
+            "y": 341,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "c3cf56c7-8304-4f9c-944a-a228994e2b54",
+            "label": "ogre_bridge2_hitbox",
+            "scope": "CLASS",
+            "x": 768,
+            "y": 300,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "d3bed9b5-931d-46b5-9481-e3b7b981f533",
+            "label": "ogre_bridge1_hitbox",
+            "scope": "CLASS",
+            "x": 973,
+            "y": 352,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "2c729d60-1b14-4470-9179-9d72a1aadd1b",
+            "label": "bat3_hitbox",
+            "scope": "CLASS",
+            "x": 1368,
+            "y": 191,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "80c96524-ab7a-4c92-8750-fc1e14ee5314",
+            "label": "bat2_hitbox",
+            "scope": "CLASS",
+            "x": 1368,
+            "y": 191,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "573af1ba-75a3-4559-bac4-b749776b8520",
+            "label": "bat1_hitbox",
+            "scope": "CLASS",
+            "x": 1368,
+            "y": 191,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "35ddced1-6ed8-4680-93ff-35a0d5ef0cfb",
+            "label": "ogre_cave_hitbox",
+            "scope": "CLASS",
+            "x": 361,
+            "y": 417,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "aae20f5b-c38f-401b-8aa5-b7489b6c5b43",
+            "label": "ogre_tree_hitbox",
+            "scope": "CLASS",
+            "x": 1103,
+            "y": 229,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "b653c0cd-f248-43c1-976b-6fedd5a1a507",
+            "label": "fire_target1_hitbox",
+            "scope": "CLASS",
+            "x": 387,
+            "y": 106,
+            "angle": 25,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "55d0bba7-adcb-4219-95d7-3702d3c7d057",
+            "label": "fire_target2_hitbox",
+            "scope": "CLASS",
+            "x": 502,
+            "y": 161,
+            "angle": 25,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "71a3463f-d02f-47bb-b73e-8786e77f577c",
+            "label": "fire_target3_hitbox",
+            "scope": "CLASS",
+            "x": 617,
+            "y": 216,
+            "angle": 25,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "b3ea3457-a334-428a-9d35-9f70eb94bf21",
+            "label": "light_target1_hitbox",
+            "scope": "CLASS",
+            "x": 1401,
+            "y": 447,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "01fbdd11-2c58-4149-8291-647b9147b94b",
+            "label": "light_target2_hitbox",
+            "scope": "CLASS",
+            "x": 1401,
+            "y": 447,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "df7710dc-e318-44ef-9bfc-cca75f39752c",
+            "label": "light_target3_hitbox",
+            "scope": "CLASS",
+            "x": 1401,
+            "y": 447,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "719497c3-d8a8-4cd7-99a9-0873a592ef8c",
+            "label": "ogre_tower_hitbox",
+            "scope": "CLASS",
+            "x": -109,
+            "y": 731,
+            "visible": false,
+            "width": 74,
+            "height": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "1a165e87-ab1d-494e-91b1-7bd04eeced54",
+            "label": "wizard_hitbox",
+            "scope": "CLASS",
+            "x": 1344,
+            "y": 366,
+            "visible": false,
+            "width": 85,
+            "height": 64
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

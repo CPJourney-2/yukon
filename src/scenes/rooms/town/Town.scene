@@ -1,0 +1,399 @@
+{
+    "id": "d2ab332c-90fa-4c3f-9e04-404b8def03fc",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/town/town-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Town",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "d5928731-a157-4927-b3ea-72939462172f",
+            "label": "rectangle_1",
+            "x": 219,
+            "y": 442,
+            "scaleX": 0.4350917778131066,
+            "scaleY": 0.3619050654191108,
+            "isFilled": true,
+            "fillColor": "#b5b5b5",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "eb7c87c5-cd46-4441-af62-71c845ebb655",
+            "label": "bg",
+            "texture": {
+                "key": "town",
+                "frame": "bg"
+            },
+            "x": 768,
+            "y": 495
+        },
+        {
+            "type": "Container",
+            "id": "c8ac8341-0315-4f60-a3ea-1600970d6bdf",
+            "label": "stadium_mode",
+            "x": 1392,
+            "y": 375,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "b3400406-c2e6-4975-8f71-6c4cf8fbc30e",
+                    "label": "baseball",
+                    "texture": {
+                        "key": "town",
+                        "frame": "baseball"
+                    },
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "04b9df40-f884-4864-8c78-f3c7a20f4b42",
+                    "label": "rink",
+                    "texture": {
+                        "key": "town",
+                        "frame": "rink"
+                    },
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "80d54bfa-6ee1-4695-b6b9-5a2b6ce6dcdd",
+                    "label": "stadium",
+                    "texture": {
+                        "key": "town",
+                        "frame": "stadium"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "f9126912-a183-41c4-ab13-23c902065b7b",
+            "label": "giftshop",
+            "texture": {
+                "key": "town",
+                "frame": "giftshop"
+            },
+            "x": 1172,
+            "y": 317.5
+        },
+        {
+            "type": "Image",
+            "id": "d51e669d-8433-484d-b935-a130a5898fb1",
+            "label": "docksign",
+            "texture": {
+                "key": "town",
+                "frame": "docksign"
+            },
+            "x": 215,
+            "y": 490
+        },
+        {
+            "type": "Image",
+            "id": "eee96033-b29d-4c2a-aa2e-0323720eb21c",
+            "label": "fortsign",
+            "texture": {
+                "key": "town",
+                "frame": "fortsign"
+            },
+            "x": 1328,
+            "y": 510
+        },
+        {
+            "type": "Image",
+            "id": "b0692d84-8da0-4b15-bbb2-751704bee709",
+            "label": "coffee_door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "coffee_door",
+            "Button.pixelPerfect": true,
+            "MoveTo.x": 550,
+            "MoveTo.y": 450,
+            "texture": {
+                "key": "town",
+                "frame": "coffee_door"
+            },
+            "x": 449,
+            "y": 305,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "5c2f7dd4-607f-4d1d-afcd-cb7b37bdbe0f",
+            "label": "gift_door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "gift_door",
+            "Button.pixelPerfect": true,
+            "MoveTo.x": 1010,
+            "MoveTo.y": 466,
+            "texture": {
+                "key": "town",
+                "frame": "gift_door"
+            },
+            "x": 995,
+            "y": 294,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "bfabdf1f-c4c7-4ece-8599-ca93c8326447",
+            "label": "canopy",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onCanopyOver()",
+            "SimpleButton.hoverOutCallback": "() => this.onCanopyOut()",
+            "MoveTo.x": 684,
+            "MoveTo.y": 410,
+            "texture": {
+                "key": "town",
+                "frame": "canopy"
+            },
+            "x": 692,
+            "y": 464,
+            "originX": 0.49606299212598426,
+            "originY": 0.9403669724770642
+        },
+        {
+            "type": "Sprite",
+            "id": "45fa492b-a213-4d30-acbe-ebe11fa805c1",
+            "label": "canopy_lights",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "canopy_lights",
+            "Animation.end": 57,
+            "Animation.autoPlay": false,
+            "Animation.showOnStart": true,
+            "Animation.hideOnComplete": true,
+            "texture": {
+                "key": "town",
+                "frame": "canopy_lights0001"
+            },
+            "x": 648,
+            "y": 548,
+            "originX": 0,
+            "originY": 7.142857142857143,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "cae986f7-795f-4d18-9618-d35f387c2e18",
+            "label": "canopy_stars",
+            "texture": {
+                "key": "town",
+                "frame": "canopy_stars"
+            },
+            "x": 647,
+            "y": 548,
+            "originX": 0,
+            "originY": 7.142857142857143
+        },
+        {
+            "type": "Sprite",
+            "id": "b0d00512-60c5-428b-b7ad-5146af3ba382",
+            "label": "disco_lights",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "disco_lights",
+            "Animation.end": 57,
+            "Animation.autoPlay": false,
+            "Animation.showOnStart": true,
+            "Animation.hideOnComplete": true,
+            "texture": {
+                "key": "town",
+                "frame": "disco_lights0007"
+            },
+            "x": 766,
+            "y": 332,
+            "originX": 0,
+            "originY": 0,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c71b8a27-c71e-4eab-81e9-86a8b3bf87c1",
+            "label": "disco",
+            "scope": "CLASS",
+            "texture": {
+                "key": "town",
+                "frame": "disco"
+            },
+            "x": 648,
+            "y": 229,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "c7026824-f8f6-4305-8fe6-dc81d73f5d02",
+            "label": "lights",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "lights",
+            "Animation.end": 69,
+            "Animation.repeatDelay": 1,
+            "texture": {
+                "key": "town",
+                "frame": "lights0001"
+            },
+            "x": 518,
+            "y": -75,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "d2f7523e-4ee3-4112-afea-1031b0bde58e",
+            "label": "box_1",
+            "texture": {
+                "key": "town",
+                "frame": "box_1"
+            },
+            "x": 973,
+            "y": 432,
+            "originX": 0.49382716049382713,
+            "originY": 0.6268656716417911
+        },
+        {
+            "type": "Image",
+            "id": "0c94c016-2a42-4413-bfc0-abe028143024",
+            "label": "box_2",
+            "texture": {
+                "key": "town",
+                "frame": "box_2"
+            },
+            "x": 956,
+            "y": 481,
+            "originX": 0.49504950495049505,
+            "originY": 0.6736842105263158
+        },
+        {
+            "type": "Image",
+            "id": "40a013ea-83e9-4eff-8634-46134d60d75a",
+            "label": "box_3",
+            "texture": {
+                "key": "town",
+                "frame": "box_3"
+            },
+            "x": 1148,
+            "y": 581,
+            "originX": 0.4943820224719101,
+            "originY": 0.5569620253164557
+        },
+        {
+            "type": "Image",
+            "id": "97ca136f-d936-4bb2-8db1-381245bfaa5b",
+            "label": "chair_2",
+            "texture": {
+                "key": "town",
+                "frame": "chair_2"
+            },
+            "x": 438,
+            "y": 464,
+            "originX": 0.49382716049382713,
+            "originY": 0.27358490566037735
+        },
+        {
+            "type": "Image",
+            "id": "52130162-4cfc-4f67-b4b2-fa16fd824ee2",
+            "label": "table_2",
+            "texture": {
+                "key": "town",
+                "frame": "table_2"
+            },
+            "x": 483,
+            "y": 518,
+            "originY": 0.7864077669902912
+        },
+        {
+            "type": "Image",
+            "id": "da800ad3-3d6f-4c6b-be77-696bbf7e30b5",
+            "label": "chair_1",
+            "texture": {
+                "key": "town",
+                "frame": "chair_1"
+            },
+            "x": 401.5,
+            "y": 510.5,
+            "originX": 0.49411764705882355,
+            "originY": 0.2857142857142857
+        },
+        {
+            "type": "Image",
+            "id": "dafb207c-e4d9-4941-83f8-9351f393e0a0",
+            "label": "table_1",
+            "texture": {
+                "key": "town",
+                "frame": "table_1"
+            },
+            "x": 454,
+            "y": 573,
+            "originX": 0.49572649572649574,
+            "originY": 0.7830188679245284
+        },
+        {
+            "type": "Image",
+            "id": "79ce3240-4965-41fc-a51b-a2b6ec9c624d",
+            "label": "fg",
+            "texture": {
+                "key": "town",
+                "frame": "fg"
+            },
+            "x": -62,
+            "y": 975,
+            "originX": 0,
+            "originY": 1
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "b1ee46a5-a8cc-4134-84ca-72009a3f91e3",
+            "label": "sort",
+            "objectIds": [
+                "79ce3240-4965-41fc-a51b-a2b6ec9c624d",
+                "0c94c016-2a42-4413-bfc0-abe028143024",
+                "d2f7523e-4ee3-4112-afea-1031b0bde58e",
+                "40a013ea-83e9-4eff-8634-46134d60d75a",
+                "97ca136f-d936-4bb2-8db1-381245bfaa5b",
+                "da800ad3-3d6f-4c6b-be77-696bbf7e30b5",
+                "dafb207c-e4d9-4941-83f8-9351f393e0a0",
+                "52130162-4cfc-4f67-b4b2-fa16fd824ee2",
+                "bfabdf1f-c4c7-4ece-8599-ca93c8326447",
+                "cae986f7-795f-4d18-9618-d35f387c2e18",
+                "45fa492b-a213-4d30-acbe-ebe11fa805c1"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,343 @@
+{
+    "id": "bdaa76be-ea9c-4d1f-b752-0803c789499c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "1dfd3efe-5054-486d-b2c5-d5b59ac248b2",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "5ac31835-1835-4dfe-9e96-667d0c0fe310",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -14,
+                    "y": 18,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Image",
+                    "id": "18255f19-5b76-438b-908d-76333ba19fa3",
+                    "label": "bg",
+                    "texture": {
+                        "key": "library",
+                        "frame": "bg"
+                    },
+                    "x": -3,
+                    "y": -2
+                },
+                {
+                    "type": "Image",
+                    "id": "b09aaa2b-9fa9-45c2-bac7-4b9fd01f5130",
+                    "label": "stowaway",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "stowaway",
+                    "Button.callback": "() => this.interface.loadWidget('Stowaway')",
+                    "texture": {
+                        "key": "librarybooks",
+                        "frame": "stowaway"
+                    },
+                    "x": -421,
+                    "y": -269
+                },
+                {
+                    "type": "Image",
+                    "id": "59920493-58b8-41bf-85f3-367240d683dd",
+                    "label": "franky",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "franky",
+                    "Button.callback": "() => this.interface.loadWidget('Franky')",
+                    "texture": {
+                        "key": "librarybooks",
+                        "frame": "franky"
+                    },
+                    "x": -334,
+                    "y": -274
+                },
+                {
+                    "type": "Image",
+                    "id": "032744d0-aff6-4ec5-936c-d408699368a1",
+                    "label": "spice",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "spice",
+                    "Button.callback": "() => this.interface.loadWidget('Spice')",
+                    "texture": {
+                        "key": "librarybooks",
+                        "frame": "spice"
+                    },
+                    "x": -254,
+                    "y": -273
+                },
+                {
+                    "type": "Image",
+                    "id": "6b060233-3b66-4047-bf05-e0e2221cfee4",
+                    "label": "dare",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "dare",
+                    "Button.callback": "() => this.interface.loadWidget('Dare')",
+                    "texture": {
+                        "key": "librarybooks",
+                        "frame": "dare"
+                    },
+                    "x": -169,
+                    "y": -271
+                },
+                {
+                    "type": "Image",
+                    "id": "840e9e95-045f-49b1-8f64-440cb807553c",
+                    "label": "pbl_puffle",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pbl_puffle",
+                    "Button.callback": "() => this.triggerGameThree(917)",
+                    "texture": {
+                        "key": "librarybooks",
+                        "frame": "pbl_puffle"
+                    },
+                    "x": -381,
+                    "y": 185
+                },
+                {
+                    "type": "Image",
+                    "id": "bf976935-88d4-4a00-b8be-70228fa59922",
+                    "label": "pbl_bulbs",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pbl_bulbs",
+                    "Button.callback": "() => this.triggerGameTwo(918)",
+                    "texture": {
+                        "key": "librarybooks",
+                        "frame": "pbl_bulbs"
+                    },
+                    "x": -284,
+                    "y": 191
+                },
+                {
+                    "type": "Image",
+                    "id": "e6e69542-853c-4337-9f9e-8b38f4045775",
+                    "label": "pbl_lime",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pbl_lime",
+                    "Button.callback": "() => this.triggerGameOne(919)",
+                    "texture": {
+                        "key": "librarybooks",
+                        "frame": "pbl_lime"
+                    },
+                    "x": -181,
+                    "y": 187
+                },
+                {
+                    "type": "Image",
+                    "id": "67753cfe-340e-4906-b44e-032bf91ae3a0",
+                    "label": "yearbook2324",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "yearbook2324",
+                    "Button.callback": "() => this.interface.loadWidget('Yearbook2324')",
+                    "texture": {
+                        "key": "librarybooks",
+                        "frame": "yearbook2324"
+                    },
+                    "x": 408,
+                    "y": -262
+                },
+                {
+                    "type": "Image",
+                    "id": "caa09c6b-9564-46b5-a56f-3b3380967539",
+                    "label": "talesone",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "talesone",
+                    "Button.callback": "() => this.interface.loadWidget('PenguinTalesOne')",
+                    "texture": {
+                        "key": "librarybooks",
+                        "frame": "talesone"
+                    },
+                    "x": -36,
+                    "y": -254,
+                    "angle": -10
+                },
+                {
+                    "type": "Image",
+                    "id": "92982a51-16ad-4643-a6ab-3bd219c40f6c",
+                    "label": "talestwo",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "talestwo",
+                    "Button.callback": "() => this.interface.loadWidget('PenguinTalesTwo')",
+                    "texture": {
+                        "key": "librarybooks",
+                        "frame": "talestwo"
+                    },
+                    "x": 55,
+                    "y": -256,
+                    "angle": -10
+                },
+                {
+                    "type": "Image",
+                    "id": "7d08e6a3-6ca2-4d84-b06c-d29ff8c8c35f",
+                    "label": "talesthree",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "talesthree",
+                    "Button.callback": "() => this.interface.loadWidget('PenguinTalesThree')",
+                    "texture": {
+                        "key": "librarybooks",
+                        "frame": "talesthree"
+                    },
+                    "x": 158,
+                    "y": -244,
+                    "angle": -14.999999999999998
+                },
+                {
+                    "type": "Image",
+                    "id": "592cd5d6-221a-47d7-a7f8-8738e4b0d13d",
+                    "label": "shelf",
+                    "texture": {
+                        "key": "library",
+                        "frame": "shelf"
+                    },
+                    "x": 146,
+                    "y": 138
+                },
+                {
+                    "type": "Image",
+                    "id": "de8c0c7b-5406-47fe-b2f0-88848471371e",
+                    "label": "buttons_rh_journal",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buttons/rh-journal",
+                    "Button.callback": "() => this.interface.loadWidget('Journal')",
+                    "texture": {
+                        "key": "library",
+                        "frame": "buttons/rh-journal"
+                    },
+                    "x": 303,
+                    "y": 196
+                },
+                {
+                    "type": "Image",
+                    "id": "02f57905-bf21-4a40-9400-9df4f2f72534",
+                    "label": "left_candle_holder",
+                    "texture": {
+                        "key": "library",
+                        "frame": "left_candle_holder"
+                    },
+                    "x": -574,
+                    "y": 326
+                },
+                {
+                    "type": "Image",
+                    "id": "c0f17726-d895-41d0-9f66-baa3fe5f6586",
+                    "label": "left_candle",
+                    "texture": {
+                        "key": "library",
+                        "frame": "left_candle"
+                    },
+                    "x": -644,
+                    "y": 228
+                },
+                {
+                    "type": "Image",
+                    "id": "bf75978d-a67c-4cd4-8831-e422a03e2ae8",
+                    "label": "right_candle_holder",
+                    "texture": {
+                        "key": "library",
+                        "frame": "right_candle_holder"
+                    },
+                    "x": 574,
+                    "y": 325
+                },
+                {
+                    "type": "Image",
+                    "id": "084affb4-3095-4f92-a5d5-e24078bdc1ad",
+                    "label": "right_candle",
+                    "texture": {
+                        "key": "library",
+                        "frame": "right_candle"
+                    },
+                    "x": 634,
+                    "y": 266
+                },
+                {
+                    "type": "Image",
+                    "id": "662afbf0-d175-44aa-8e7c-6e1f3710541e",
+                    "label": "buttons_close_btn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buttons/close_btn",
+                    "Button.callback": "() => this.interface.destroyWidget(this)",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "library",
+                        "frame": "buttons/close_btn"
+                    },
+                    "x": 708,
+                    "y": -430
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "d1dc66ef-f198-4012-becc-d3ca217182b1",
+                    "label": "read the comments",
+                    "x": -215,
+                    "y": 14,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

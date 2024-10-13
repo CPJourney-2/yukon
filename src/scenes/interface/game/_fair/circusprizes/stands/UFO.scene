@@ -1,0 +1,91 @@
+{
+    "id": "3218429e-3a5e-4636-8aaa-d046e0700b6f",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "358fc573-55ce-4691-88e8-917b5b620fa1",
+            "label": "container_2",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "d3f20fa9-0e6a-440b-a7f5-ee189a2ff74e",
+                    "label": "ticketsign2",
+                    "texture": {
+                        "key": "circusprizes",
+                        "frame": "ticketsign2"
+                    },
+                    "x": 24,
+                    "y": 14
+                },
+                {
+                    "type": "Text",
+                    "id": "78e25e5b-845b-4dbe-a9b4-3467ea5eaa96",
+                    "label": "text",
+                    "x": -3,
+                    "y": 17,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "300",
+                    "fixedWidth": 150,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "50px",
+                    "fontStyle": "bold italic",
+                    "shadow.offsetX": 3,
+                    "shadow.offsetY": 3,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#00000097"
+                },
+                {
+                    "type": "Image",
+                    "id": "2b0aeb83-8044-4fde-85b8-79fb0735df45",
+                    "label": "ticketicon_1",
+                    "texture": {
+                        "key": "circusprizes",
+                        "frame": "ticketicon"
+                    },
+                    "x": 64,
+                    "y": 19
+                },
+                {
+                    "type": "Image",
+                    "id": "e858a5b9-4b3e-464b-94a8-69d297de4bb0",
+                    "label": "ufo0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "ufo",
+                    "Button.callback": "() => this.interface.prompt.showFurniture(12196)",
+                    "Button.pixelPerfect": true,
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "circusprizes",
+                        "frame": "ufo0001"
+                    },
+                    "x": 224
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

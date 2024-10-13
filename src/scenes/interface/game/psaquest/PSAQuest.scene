@@ -1,0 +1,287 @@
+{
+    "id": "6fcdbd3e-6898-49cb-b2e4-18c46755902c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8bb89fb5-8fd3-4d6d-a8b9-f11a53a7735f",
+            "label": "container_1",
+            "components": [],
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9d274e25-df95-406f-883b-f4102166d431",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960,
+                    "list": []
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "72b107fe-d052-40b8-ab5c-8dc45d6f189a",
+                    "label": "nineslice_1",
+                    "components": [],
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "width": 776,
+                    "height": 612,
+                    "leftWidth": 43,
+                    "rightWidth": 38,
+                    "topHeight": 40,
+                    "bottomHeight": 40,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "8d1cc4d7-9fc2-476a-9a7f-1f4a77c03434",
+                    "label": "hinty",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 172,
+                    "y": 48,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Having trouble finding the\nphone parts on the island?\nClick \"Get Hint\" for a clue!",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000000ff",
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "049efdf7-a9e9-4774-81b7-5a3c6b0e7c7e",
+                    "label": "settings",
+                    "components": [],
+                    "x": 155,
+                    "y": -204,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "GARY'S \nPHONE QUEST",
+                    "fixedWidth": 600,
+                    "align": "center",
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "40px",
+                    "fontStyle": "bold italic",
+                    "stroke": "#003366",
+                    "strokeThickness": 10,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "e656c20c-78a6-4d94-917f-6cf411b1f4d4",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => { this.visible = false }",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 317,
+                    "y": -250,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "56d93af1-ac83-4be9-a548-efd7ba743bf2",
+                    "label": "blue_x",
+                    "components": [],
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 317,
+                    "y": -252,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "ddbaa8ff-dc3e-433b-92db-bc0db23b11b0",
+                    "label": "empty_phone",
+                    "components": [],
+                    "texture": {
+                        "key": "psaquest",
+                        "frame": "empty_phone"
+                    },
+                    "x": -185,
+                    "y": 4,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "2b48b796-ada8-4a55-8876-2b8d7e449ff2",
+                    "label": "item4",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "psaquest",
+                        "frame": "piece_five"
+                    },
+                    "x": -133,
+                    "y": 119,
+                    "visible": false,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "e5c6fe42-c80f-47d1-98b4-60a5e99aabad",
+                    "label": "item3",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "psaquest",
+                        "frame": "piece_four"
+                    },
+                    "x": -121,
+                    "y": -18,
+                    "visible": false,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "39290a24-4deb-4e29-8cb6-8da4ccad2b57",
+                    "label": "item2",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "psaquest",
+                        "frame": "piece_one"
+                    },
+                    "x": -237,
+                    "y": -104,
+                    "visible": false,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "e0e8edcb-2106-4e83-8557-62628904c37a",
+                    "label": "item1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "psaquest",
+                        "frame": "piece_three"
+                    },
+                    "x": -201,
+                    "y": 164,
+                    "visible": false,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "cc21ed3e-6326-489c-9c7a-abebaff4273e",
+                    "label": "earnbtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "earnbtn",
+                    "Button.callback": "() => { this.onClaim() }",
+                    "texture": {
+                        "key": "main-stampcoins",
+                        "frame": "earnbtn"
+                    },
+                    "x": 170,
+                    "y": 202,
+                    "scaleX": 0.6,
+                    "scaleY": 0.6,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "533f00ac-f0be-4b6f-b549-3a487f744d37",
+                    "label": "item0",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "psaquest",
+                        "frame": "piece_two"
+                    },
+                    "x": -226,
+                    "y": 76,
+                    "visible": false,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "cd750598-96a9-4fc9-b2e4-b4a73f5f7527",
+                    "label": "get_hint",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 172,
+                    "y": 201,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Get Hint",
+                    "fixedWidth": 500,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "stroke": "#003366",
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "afd46935-f394-4f7e-acc7-296648d67423",
+                    "label": "hinty_1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 166,
+                    "y": -101,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Try and find all of the phone parts\nhidden across the island.",
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "26px",
+                    "fontStyle": "italic",
+                    "color": "#000000ff",
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "3f1aa5d7-d7d5-47c9-b425-8e23731651ce",
+            "label": "items"
+        }
+    ]
+}

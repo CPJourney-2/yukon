@@ -1,0 +1,367 @@
+{
+    "id": "a8001345-488c-4993-8a5b-7512bcf0507b",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/sportshop/sportshop-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Sportshop",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "bb857899-3ac5-424a-87bf-6cc24480b219",
+            "label": "bg",
+            "texture": {
+                "key": "sportshop",
+                "frame": "bg"
+            },
+            "x": 761,
+            "y": 479,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729
+        },
+        {
+            "type": "Image",
+            "id": "184bb1fd-09f6-40c2-8135-d7d327654faf",
+            "label": "desk",
+            "texture": {
+                "key": "sportshop",
+                "frame": "desk"
+            },
+            "x": 1321.7705388556453,
+            "y": 655.9613896226555,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729,
+            "originX": 0.41006122795440964,
+            "originY": 0.7574136636698175
+        },
+        {
+            "type": "Sprite",
+            "id": "65110d07-a901-4327-bb5b-2c68d5f34807",
+            "label": "phone0001",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "phone",
+            "Animation.end": 55,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
+            "Animation.stopOnOut": false,
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "sportshop",
+                "frame": "phone0001"
+            },
+            "x": 1434.64271252848,
+            "y": 699.4777081179842,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729,
+            "originX": 0.6292149306624271,
+            "originY": 1.54564551260158
+        },
+        {
+            "type": "Sprite",
+            "id": "83ffc863-8096-41af-997f-3b53b595397d",
+            "label": "ball0001",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "ball",
+            "Animation.end": 37,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
+            "Animation.stopOnOut": false,
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "sportshop",
+                "frame": "ball0001"
+            },
+            "x": 1428.1506194542792,
+            "y": 739.6002416249459,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729,
+            "originX": 0.45284892142413236,
+            "originY": 1.1212402790030584
+        },
+        {
+            "type": "Image",
+            "id": "f5aaf1ef-e5ff-4f5b-8b1f-83ae14891170",
+            "label": "rowing",
+            "texture": {
+                "key": "sportshop",
+                "frame": "rowing"
+            },
+            "x": 1318.8802304239,
+            "y": 815.200083715275,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729,
+            "originX": 0.35376165440447105,
+            "originY": 0.6311240585416843
+        },
+        {
+            "type": "Sprite",
+            "id": "eebc0475-31c3-4c8a-9401-38801c1b7661",
+            "label": "register0001",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onRegOver()",
+            "SimpleButton.hoverOutCallback": "() => {}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "sportshop",
+                "frame": "register0001"
+            },
+            "x": 1239.1960852695063,
+            "y": 781.7556321083152,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729,
+            "originX": 0.17365155846415586,
+            "originY": 2.3225190457968012
+        },
+        {
+            "type": "Image",
+            "id": "bee7720c-4f92-4a5e-9c67-5f85d3ff1dff",
+            "label": "changing",
+            "texture": {
+                "key": "sportshop",
+                "frame": "changing"
+            },
+            "x": 230,
+            "y": 492,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729
+        },
+        {
+            "type": "Sprite",
+            "id": "33e1bafc-9aa7-488f-9c68-1d4b4de23f61",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "MoveTo.x": "1086",
+            "MoveTo.y": "486",
+            "texture": {
+                "key": "sportshop",
+                "frame": "door"
+            },
+            "x": 1095,
+            "y": 309,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729
+        },
+        {
+            "type": "Image",
+            "id": "60424e70-437e-4e28-bc02-080088b79e26",
+            "label": "sled",
+            "texture": {
+                "key": "sportshop",
+                "frame": "sled"
+            },
+            "x": 99,
+            "y": 654,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729
+        },
+        {
+            "type": "Image",
+            "id": "0ce11a20-f218-40a2-b0ba-0765b1298bf5",
+            "label": "box",
+            "texture": {
+                "key": "sportshop",
+                "frame": "box"
+            },
+            "x": 41,
+            "y": 768
+        },
+        {
+            "type": "Image",
+            "id": "16d717b8-fbae-49c4-b462-a128e34d3be1",
+            "label": "backring",
+            "texture": {
+                "key": "sportshop",
+                "frame": "backring"
+            },
+            "x": 133.3184593834646,
+            "y": 727.9330631912853,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729,
+            "originX": 0.30019693852818713,
+            "originY": 0.28717196711542364
+        },
+        {
+            "type": "Image",
+            "id": "4232a171-b483-4a88-a171-ea29afbdbbec",
+            "label": "frontring",
+            "texture": {
+                "key": "sportshop",
+                "frame": "frontring"
+            },
+            "x": 172.70022751403064,
+            "y": 792.8788928815964,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729,
+            "originX": 0.48033250436867153,
+            "originY": 0.4988091084700204
+        },
+        {
+            "type": "Image",
+            "id": "df922f43-28fd-4abd-8a13-0d2b8d55f9f3",
+            "label": "goggles",
+            "texture": {
+                "key": "sportshop",
+                "frame": "goggles"
+            },
+            "x": 166,
+            "y": 511,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729
+        },
+        {
+            "type": "Sprite",
+            "id": "af5df650-e20e-4e2e-96c3-7b28c6edca3c",
+            "label": "speaker0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "speaker",
+            "Animation.end": 30,
+            "texture": {
+                "key": "sportshop",
+                "frame": "speaker0001"
+            },
+            "x": 39,
+            "y": 317,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729
+        },
+        {
+            "type": "Image",
+            "id": "47de5938-9f18-4600-baa5-411a083cc9de",
+            "label": "rrr",
+            "texture": {
+                "key": "sportshop",
+                "frame": "rrr"
+            },
+            "x": 621,
+            "y": 320,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729
+        },
+        {
+            "type": "Image",
+            "id": "beff35c5-bad2-43a1-ac86-59983df4d0e6",
+            "label": "lll",
+            "texture": {
+                "key": "sportshop",
+                "frame": "lll"
+            },
+            "x": 511,
+            "y": 266,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729
+        },
+        {
+            "type": "Sprite",
+            "id": "443e409b-045e-458b-80d0-54ca2618c31d",
+            "label": "psa",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "psa",
+            "MoveTo.x": "401",
+            "MoveTo.y": "486",
+            "texture": {
+                "key": "sportshop",
+                "frame": "psa"
+            },
+            "x": 404,
+            "y": 420,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729
+        },
+        {
+            "type": "Image",
+            "id": "a9573415-2f59-403e-8d31-9db13e377c12",
+            "label": "light",
+            "texture": {
+                "key": "sportshop",
+                "frame": "light"
+            },
+            "x": 1416,
+            "y": 109,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729
+        },
+        {
+            "type": "Image",
+            "id": "86f2c3fd-7d7f-4b5e-98b3-217260025194",
+            "label": "t3lights",
+            "texture": {
+                "key": "sportshop",
+                "frame": "3lights"
+            },
+            "x": 239,
+            "y": 166,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729
+        },
+        {
+            "type": "Sprite",
+            "id": "e12f1b46-b1b5-49c9-bf60-d66a11a0336c",
+            "label": "interfaceIcons",
+            "scope": "CLASS",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "book",
+            "Button.callback": "() => this.onCatalog()",
+            "texture": {
+                "key": "sportshop",
+                "frame": "book"
+            },
+            "x": 1404.0000184003459,
+            "y": 864.9999661025114
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "e88af085-c2a2-468d-ae10-257af095cbb1",
+            "label": "sort",
+            "objectIds": [
+                "f5aaf1ef-e5ff-4f5b-8b1f-83ae14891170",
+                "83ffc863-8096-41af-997f-3b53b595397d",
+                "184bb1fd-09f6-40c2-8135-d7d327654faf",
+                "4232a171-b483-4a88-a171-ea29afbdbbec",
+                "16d717b8-fbae-49c4-b462-a128e34d3be1",
+                "0ce11a20-f218-40a2-b0ba-0765b1298bf5",
+                "eebc0475-31c3-4c8a-9401-38801c1b7661",
+                "65110d07-a901-4327-bb5b-2c68d5f34807"
+            ]
+        }
+    ]
+}

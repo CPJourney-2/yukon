@@ -1,0 +1,1052 @@
+{
+    "id": "8beb3511-4580-4a3a-8948-86fb36db7dcf",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/_fair/tourhq/fair-tourhq-pack.json",
+            "client/assets/media/rooms/tourhq/tourhq-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Tourhq",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "0a0f8b7f-8e75-4c62-8bc8-53a85ac7acb3",
+            "label": "background",
+            "texture": {
+                "key": "tourhq",
+                "frame": "background"
+            },
+            "x": 765,
+            "y": 472
+        },
+        {
+            "type": "Image",
+            "id": "8eac217f-61a7-40e4-ae79-010515555656",
+            "label": "floor",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "floor"
+            },
+            "x": 731,
+            "y": 564
+        },
+        {
+            "type": "Rectangle",
+            "id": "430e1a02-2587-4eb8-a394-cb6b25045ca6",
+            "label": "rectangle_1",
+            "x": 518,
+            "y": 210,
+            "isFilled": true,
+            "width": 128,
+            "height": 300
+        },
+        {
+            "type": "Image",
+            "id": "2d274e34-f95f-4635-aef8-66452c08c4de",
+            "label": "weirdKindOfDoor",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "weirdKindOfDoor",
+            "Button.alias": "door_rectangle",
+            "MoveTo.x": "772",
+            "MoveTo.y": "385",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "weirdKindOfDoor"
+            },
+            "x": 783,
+            "y": 167
+        },
+        {
+            "type": "Rectangle",
+            "id": "e3857623-f23c-4304-a3fc-241883610e4b",
+            "label": "door_rectangle",
+            "components": [
+                "MoveTo"
+            ],
+            "MoveTo.x": "772",
+            "MoveTo.y": "385",
+            "x": 767,
+            "y": 194,
+            "width": 550,
+            "height": 380
+        },
+        {
+            "type": "Image",
+            "id": "0f905ed7-6cf5-489f-847d-5d406d37d3f1",
+            "label": "wall",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "wall"
+            },
+            "x": 734,
+            "y": 254
+        },
+        {
+            "type": "Image",
+            "id": "d119602b-486e-48b6-bf68-32d2538ec993",
+            "label": "weirdAccessories",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "weirdAccessories"
+            },
+            "x": 768,
+            "y": 222
+        },
+        {
+            "type": "Image",
+            "id": "0046f0bb-9507-4700-a8e6-585bdeb3b26b",
+            "label": "puffleCannon",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "puffleCannon"
+            },
+            "x": 985,
+            "y": 336
+        },
+        {
+            "type": "Image",
+            "id": "a707c6af-5e60-490c-bafe-4d84048b1f00",
+            "label": "unicornPlush",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "unicornPlush"
+            },
+            "x": 1107,
+            "y": 337
+        },
+        {
+            "type": "Image",
+            "id": "261cca02-87bf-4787-afc1-2797245f5b33",
+            "label": "rightShadow",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "rightShadow"
+            },
+            "x": 1233,
+            "y": 535
+        },
+        {
+            "type": "Image",
+            "id": "b808c310-f6c9-4942-af69-bba8e6c9d68a",
+            "label": "rug",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "rug"
+            },
+            "x": 784,
+            "y": 692
+        },
+        {
+            "type": "Image",
+            "id": "0efefb6f-b084-45f4-b741-a27585253a2e",
+            "label": "couch",
+            "texture": {
+                "key": "tourhq",
+                "frame": "couch"
+            },
+            "x": 1304.5568424098517,
+            "y": 424.8006826004683,
+            "originX": 0.10311457781831974,
+            "originY": 0.5420473937513304,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "931f5aa5-4c4a-4257-ba81-0eb99690dbdd",
+            "label": "shelf_right",
+            "texture": {
+                "key": "tourhq",
+                "frame": "shelf-right"
+            },
+            "x": 1427.79003675224,
+            "y": 607.716014700896,
+            "originX": 0.022024280218247688,
+            "originY": 0.33033784102116903,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "95bdb4eb-2840-4104-b19f-87bd5f1e1344",
+            "label": "map",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "map"
+            },
+            "x": 196,
+            "y": 287
+        },
+        {
+            "type": "Image",
+            "id": "dc420329-6476-46c1-b6a7-8b09e33ab85d",
+            "label": "shelf_left",
+            "texture": {
+                "key": "tourhq",
+                "frame": "shelf-left"
+            },
+            "x": 353,
+            "y": 352,
+            "originX": 0.9215397185680756,
+            "originY": 0.4403172164873537,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "ad160c07-df2b-4229-a3a7-350267c198dc",
+            "label": "randomStuff",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "randomStuff"
+            },
+            "x": 349,
+            "y": 205
+        },
+        {
+            "type": "Image",
+            "id": "6244bb6a-9e47-4323-a59d-cbcabe2f551b",
+            "label": "weirdStuffOnTable",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "weirdStuffOnTable"
+            },
+            "x": 353.4381904763093,
+            "y": 351.57696046715756,
+            "originX": 0.922281145669038,
+            "originY": 0.32076046512416045
+        },
+        {
+            "type": "Image",
+            "id": "e5d3f6d3-a8f0-42e1-9cf0-defbbd9f3a2a",
+            "label": "coatrack",
+            "texture": {
+                "key": "tourhq",
+                "frame": "coatrack"
+            },
+            "x": 78.3703611844509,
+            "y": 555.0829093171932,
+            "originX": 0.6095931244627123,
+            "originY": 0.8213288449267209,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e2ad105a-eaca-4a9c-a50e-b59577c95234",
+            "label": "coatHanger",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "coatHanger"
+            },
+            "x": 71.79617895852853,
+            "y": 557.07008458997,
+            "originX": 0.5166439223721936,
+            "originY": 0.826701321615017
+        },
+        {
+            "type": "Image",
+            "id": "bb6e8ad5-db8d-418b-ad81-6908e300b086",
+            "label": "chair2",
+            "texture": {
+                "key": "tourhq",
+                "frame": "chair2"
+            },
+            "x": 287.6592286871613,
+            "y": 651.8603766341184,
+            "originX": 0.48698280278797396,
+            "originY": 0.467470738190623,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "3df9fc82-70d9-43f0-95bf-2bdade802e99",
+            "label": "chair1",
+            "texture": {
+                "key": "tourhq",
+                "frame": "chair1"
+            },
+            "x": 83.38774508631828,
+            "y": 648.9593138778623,
+            "originX": 0.5037645154011483,
+            "originY": 0.4680969232776096,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e5344af4-0de6-4290-9140-536362331adb",
+            "label": "topRightHay",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "topRightHay"
+            },
+            "x": 279,
+            "y": 644.9827885309103,
+            "originY": 0.16982791189107616
+        },
+        {
+            "type": "Container",
+            "id": "1758c675-0a3d-4ab5-878a-f4eb8f434fd0",
+            "label": "_table1",
+            "x": 184.74712371310568,
+            "y": 710.2758865820489,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "8d840bd1-db7f-4f3a-b9e1-644257f3e2e1",
+                    "label": "table1",
+                    "texture": {
+                        "key": "tourhq",
+                        "frame": "table1"
+                    },
+                    "x": 4.25287628689432,
+                    "y": -38.275886582048884,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "d7e056ce-1d93-4c42-8a92-28ef65378503",
+                    "label": "smallerTable",
+                    "texture": {
+                        "key": "fair-tourhq",
+                        "frame": "smallerTable"
+                    },
+                    "x": 5,
+                    "y": 8
+                },
+                {
+                    "type": "Sprite",
+                    "id": "52e156d0-7c77-4980-a3ad-708f77fa3df1",
+                    "label": "suggestions",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton",
+                        "ShowHint"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onSuggestionHover()",
+                    "SimpleButton.callback": "() => this.interface.loadWidget('SuggestionBox')",
+                    "SimpleButton.pixelPerfect": true,
+                    "ShowHint.text": "suggestion_hint",
+                    "texture": {
+                        "key": "tourhq",
+                        "frame": "suggestions0001"
+                    },
+                    "x": 36,
+                    "y": -72,
+                    "originX": 0.7413526617742342,
+                    "originY": 0.31804485538725946
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "ff9e641b-7db4-47cd-acaa-51170640ce9c",
+            "label": "topLeftHay",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "topLeftHay"
+            },
+            "x": 93.84140221711532,
+            "y": 710.8241678598421,
+            "originX": 0.4902638940215791,
+            "originY": 0.158241945776756
+        },
+        {
+            "type": "Image",
+            "id": "109f799c-8628-4142-b63b-4518a67e1556",
+            "label": "chair4",
+            "texture": {
+                "key": "tourhq",
+                "frame": "chair4"
+            },
+            "x": 439.5654058616299,
+            "y": 748.9578410314095,
+            "originX": 0.49578063943330025,
+            "originY": 0.48074582931271864,
+            "visible": false
+        },
+        {
+            "type": "Polygon",
+            "id": "e811636a-e03b-4212-86b3-bd5042d5eb7d",
+            "label": "stairs_hit",
+            "components": [
+                "MoveTo"
+            ],
+            "MoveTo.x": "1200",
+            "MoveTo.y": "420",
+            "x": 1109,
+            "y": 232,
+            "scaleX": 0.9,
+            "originX": 0,
+            "originY": 0,
+            "fillColor": "#00ffff",
+            "fillAlpha": 0.5,
+            "points": "38.34370186665137 198.43219609734803 30.28023717680162 75.79295456533703 -55.36769817442587 13.936112367228276 -44.661706255522404 -51.48939380384829 58.45313637754407 -131.1944569177159 37.54072567981689 -232.7690231638183 237.7095569096632 -233.3257113360979 215.29621661049623 -113.26953346252135 146.5840100322505 7.7236998600417905 196.1772232720907 76.31282917051169 198.4813622707104 186.91150110425025 138.57374830660206 230.69014207802178"
+        },
+        {
+            "type": "Image",
+            "id": "a5abdf36-48db-4d45-8324-49b436c38f2f",
+            "label": "coolLadder",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "coolLadder",
+            "Button.pixelPerfect": true,
+            "Button.alias": "stairs_hit",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "coolLadder0001"
+            },
+            "x": 1220.534587073977,
+            "y": 418.792395651431,
+            "originX": 0.5780238662100617,
+            "originY": 0.9299171160452244
+        },
+        {
+            "type": "Image",
+            "id": "d6bdd7c5-513e-4faf-9a9a-bbee9accd367",
+            "label": "cactus",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "cactus"
+            },
+            "x": 1298,
+            "y": 335
+        },
+        {
+            "type": "Image",
+            "id": "5eb8e197-1634-46fb-813a-ff35a86f1d1f",
+            "label": "couch_1",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "couch"
+            },
+            "x": 1306,
+            "y": 425,
+            "originX": 0.10391765861082385,
+            "originY": 0.33536564668342117
+        },
+        {
+            "type": "Image",
+            "id": "b9d057e7-6f78-43d5-9e23-2f82eda2234b",
+            "label": "stairs",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "stairs",
+            "Button.lazyName": true,
+            "Button.alias": "stairs_hit",
+            "texture": {
+                "key": "tourhq",
+                "frame": "stairs0001"
+            },
+            "x": 1217.7208362683018,
+            "y": 407.8107604980469,
+            "originX": 0.4619223029162555,
+            "originY": 0.8561440264325495,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d42a6b63-b9ef-470e-aa5b-f8eecf8f342d",
+            "label": "bottomRightHay",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "bottomRightHay"
+            },
+            "x": 476.682973698412,
+            "y": 745.6136673059613,
+            "originX": 0.5057391868715141,
+            "originY": 0.1661364465550264
+        },
+        {
+            "type": "Image",
+            "id": "fbd76e0f-bfa2-4b4b-9150-92310f249ec4",
+            "label": "bottomTable",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "bottomTable"
+            },
+            "x": 360,
+            "y": 787
+        },
+        {
+            "type": "Image",
+            "id": "0b48b941-f5c2-4aba-b4b7-95f111516345",
+            "label": "table2",
+            "texture": {
+                "key": "tourhq",
+                "frame": "table2"
+            },
+            "x": 361,
+            "y": 812.7549330800814,
+            "originY": 0.7010833956023411,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "9dc44aab-be70-442b-820c-2fca59f78f12",
+            "label": "bottomLeftHay",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "bottomLeftHay"
+            },
+            "x": 266.85735113981826,
+            "y": 810.9506812037195,
+            "originX": 0.4903979087379686,
+            "originY": 0.11950702425826876
+        },
+        {
+            "type": "Image",
+            "id": "439aab62-3495-4a42-96b4-c226ff44ae70",
+            "label": "chair3",
+            "texture": {
+                "key": "tourhq",
+                "frame": "chair3"
+            },
+            "x": 268.1019287109375,
+            "y": 813.3084564881332,
+            "originX": 0.4677992040867657,
+            "originY": 0.05898302763211202,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "06c2b931-ecfb-408f-b1a4-3a8dfdac3271",
+            "label": "chair3_back",
+            "texture": {
+                "key": "tourhq",
+                "frame": "chair3-back"
+            },
+            "x": 253.70478997432033,
+            "y": 839.3628859117006,
+            "originX": 0.5108428353736381,
+            "originY": 0.8167969830126034,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "15d6d009-d1e8-4410-9315-b961ef3c9336",
+            "label": "designedSign",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "designedSign"
+            },
+            "x": 1205.2039794921875,
+            "y": 511.3288269042969,
+            "originX": 0.5096664665954654,
+            "originY": 0.18762851253708598
+        },
+        {
+            "type": "Image",
+            "id": "61feeeeb-b2d9-452b-a975-a20b4baeb2c0",
+            "label": "newspaper",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "newspaper"
+            },
+            "x": 1226,
+            "y": 518
+        },
+        {
+            "type": "Image",
+            "id": "9cc9434e-9108-46b2-9140-c84b4936b847",
+            "label": "table3",
+            "texture": {
+                "key": "tourhq",
+                "frame": "table3"
+            },
+            "x": 1216.131171198027,
+            "y": 554.3768646553889,
+            "originX": 0.4814914270840452,
+            "originY": 0.6682471026720969,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "0ea7c996-3308-4f14-8e23-8bb0c8843d80",
+            "label": "bigTableChair",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "bigTableChair"
+            },
+            "x": 489,
+            "y": 327
+        },
+        {
+            "type": "Image",
+            "id": "278d4e8a-646f-4e72-b7dd-370dc89eeb60",
+            "label": "officechair2",
+            "texture": {
+                "key": "tourhq",
+                "frame": "officechair2"
+            },
+            "x": 492,
+            "y": 321.07510910461536,
+            "originY": 0.4707097694374281,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "7cd214ae-ba1e-48db-9800-8dbb18d2e8de",
+            "label": "frontdesk2",
+            "texture": {
+                "key": "tourhq",
+                "frame": "frontdesk2"
+            },
+            "x": 583.3531494140625,
+            "y": 387.11628763916696,
+            "originX": 0.8871777138518552,
+            "originY": 0.4788193728262569,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "8b87fc9b-07cc-4998-a415-2086ca738cbf",
+            "label": "frontDeskSide",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "frontDeskSide"
+            },
+            "x": 581.6329854194107,
+            "y": 389.62617795344755,
+            "originX": 0.8852724481994992,
+            "originY": 0.4773113167798386
+        },
+        {
+            "type": "Image",
+            "id": "69b6e71c-d4b0-4fd4-aad9-cc282edc65d8",
+            "label": "frontStars",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "frontStars"
+            },
+            "x": 574,
+            "y": 443
+        },
+        {
+            "type": "Image",
+            "id": "264a7a06-fdd4-4c0c-9556-76f541efca55",
+            "label": "clownPainting",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "clownPainting"
+            },
+            "x": 1468,
+            "y": 295
+        },
+        {
+            "type": "Image",
+            "id": "6f3c5fb6-c6c5-4c89-a418-f959f4b685c2",
+            "label": "rightTable",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "rightTable"
+            },
+            "x": 1428.8019333192296,
+            "y": 610.3833941601438,
+            "originX": 0.07376656944381821,
+            "originY": 0.31525517530093927
+        },
+        {
+            "type": "Image",
+            "id": "9606fd9b-f729-4468-99f5-903c55dca716",
+            "label": "brokenChair",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "brokenChair"
+            },
+            "x": 351.5826730045748,
+            "y": 406.481246699962,
+            "originX": 0.39148617713098766,
+            "originY": 0.6193030681412568
+        },
+        {
+            "type": "Image",
+            "id": "629d57ad-6bc4-4ab9-b923-fcc61a9d63e1",
+            "label": "officechair1",
+            "texture": {
+                "key": "tourhq",
+                "frame": "officechair1"
+            },
+            "x": 352.4502258300781,
+            "y": 406.5734837860824,
+            "originX": 0.39010642638467746,
+            "originY": 0.6378184892874839,
+            "visible": false
+        },
+        {
+            "type": "Container",
+            "id": "0e653a92-1c79-4253-af7f-295e0767f5d1",
+            "label": "_frontdesk1",
+            "x": 400.4341125488281,
+            "y": 504.93882829726556,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "aa38617e-217d-4db1-8dc2-5bc29cd9cdbc",
+                    "label": "frontdesk1",
+                    "texture": {
+                        "key": "tourhq",
+                        "frame": "frontdesk1"
+                    },
+                    "y": 0.2722287090385862,
+                    "originX": 0.41921884818238964,
+                    "originY": 0.7848192911728652,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "33911f9e-ee11-4bd5-9dea-85761f436319",
+                    "label": "frontDeskFront_1",
+                    "texture": {
+                        "key": "fair-tourhq",
+                        "frame": "frontDeskFront"
+                    },
+                    "x": 29,
+                    "y": -67
+                },
+                {
+                    "type": "Sprite",
+                    "id": "29256fca-2595-4693-aac5-f1b056a3e877",
+                    "label": "phone",
+                    "components": [
+                        "HoverAnimation"
+                    ],
+                    "HoverAnimation.key": "phone",
+                    "HoverAnimation.end": 48,
+                    "HoverAnimation.pixelPerfect": true,
+                    "texture": {
+                        "key": "tourhq",
+                        "frame": "phone0001"
+                    },
+                    "x": -79,
+                    "y": -67
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "d83d3890-68dc-41b1-a0be-3e6db0158f02",
+            "label": "_tourbot",
+            "x": 1415.699951171875,
+            "y": 748.2081909179688,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "ee94d9ed-d93e-4662-aded-bbad8e9cdd31",
+                    "label": "tourbot",
+                    "components": [
+                        "SimpleButton",
+                        "ShowHint"
+                    ],
+                    "SimpleButton.callback": "() => this.onTourBot()",
+                    "SimpleButton.pixelPerfect": true,
+                    "ShowHint.text": "tourbot_hint",
+                    "texture": {
+                        "key": "tourhq",
+                        "frame": "tourbot"
+                    },
+                    "y": -62.641531498591014,
+                    "originX": 0.4273440738105414,
+                    "originY": 0.2598410433846506,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "f960d73b-9352-4c10-b664-22c5e0f936a6",
+                    "label": "jesterChair",
+                    "components": [
+                        "SimpleButton",
+                        "ShowHint"
+                    ],
+                    "SimpleButton.callback": "() => this.onTourBot()",
+                    "SimpleButton.pixelPerfect": true,
+                    "ShowHint.text": "tourbot_hint",
+                    "texture": {
+                        "key": "fair-tourhq",
+                        "frame": "jesterChair"
+                    },
+                    "x": -3,
+                    "y": -6
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "d560e0fe-ded8-42ad-a656-8a1fc260a320",
+            "label": "_tourbotdesk",
+            "x": 1262.144902182851,
+            "y": 751.2754890857457,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "56885111-8533-451a-893e-b7a3c1e0753a",
+                    "label": "bowlingPins",
+                    "texture": {
+                        "key": "fair-tourhq",
+                        "frame": "bowlingPins"
+                    },
+                    "x": -4,
+                    "y": -52
+                },
+                {
+                    "type": "Image",
+                    "id": "07d79a78-a2ff-4a3c-9d9f-18c94b53af12",
+                    "label": "tourbot_desk",
+                    "texture": {
+                        "key": "tourhq",
+                        "frame": "tourbot-desk"
+                    },
+                    "x": 77.56959079396938,
+                    "y": 29.792756393026252
+                },
+                {
+                    "type": "Image",
+                    "id": "7a288f80-f354-4345-874e-ac0f9dc7d7df",
+                    "label": "newTableee",
+                    "texture": {
+                        "key": "fair-tourhq",
+                        "frame": "newTableee"
+                    },
+                    "x": 77,
+                    "y": 47
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ece88262-b624-4d89-a000-1043759c440a",
+                    "label": "fishbowl",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "fishbowl",
+                    "Animation.end": 240,
+                    "texture": {
+                        "key": "tourhq",
+                        "frame": "fishbowl0001"
+                    },
+                    "x": 40,
+                    "y": -66
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "c4448dff-402e-40ee-97b7-e745b1fd7f7c",
+            "label": "seatbtnslayer",
+            "list": [
+                {
+                    "type": "Polygon",
+                    "id": "1f0d575d-67a6-40e4-8418-eeccd6ebdb04",
+                    "label": "polygon_1",
+                    "components": [
+                        "SimpleButton",
+                        "MoveTo"
+                    ],
+                    "SimpleButton.useHandCursor": false,
+                    "x": 372.521314475786,
+                    "y": 417.7523414006489,
+                    "originX": 0.7086889412923437,
+                    "originY": 0.7092389216237243,
+                    "fillColor": "#00ffff",
+                    "fillAlpha": 0.5,
+                    "points": "67.56232638585482 70.17351876418559 22.062357950631565 38.57631846194721 70.09010241003386 18.35411026851466 118.74979087548098 39.840206474036734"
+                },
+                {
+                    "type": "Polygon",
+                    "id": "c3e68825-e440-46e2-9622-30002354b58f",
+                    "label": "polygon",
+                    "components": [
+                        "SimpleButton",
+                        "MoveTo"
+                    ],
+                    "SimpleButton.useHandCursor": false,
+                    "x": 491.1469346106748,
+                    "y": 332.3590175338291,
+                    "originX": 0.0204081630953664,
+                    "originY": 0.3548387067226611,
+                    "fillColor": "#00ffff",
+                    "fillAlpha": 0.5,
+                    "points": "-25.963699315345252 34.997799659929 -25.963699315345252 0.11422109086981891 24.492905400615427 -3.6233051843865383 35.08256318050837 31.260273384672644"
+                },
+                {
+                    "type": "Polygon",
+                    "id": "7ad584c7-af9a-4ae7-b1c6-109045ed05d9",
+                    "label": "polygon_2",
+                    "components": [
+                        "SimpleButton",
+                        "MoveTo"
+                    ],
+                    "SimpleButton.useHandCursor": false,
+                    "x": 282,
+                    "y": 655,
+                    "originX": 1.1387466472095515,
+                    "originY": 1.0005880478442848,
+                    "fillColor": "#00ffff",
+                    "fillAlpha": 0.5,
+                    "points": "91.05786202306575 76.05898278319296 52.60535903167872 51.74992916794827 84.87010292100348 29.2088067247214 131.27829618647058 52.19191196095278"
+                },
+                {
+                    "type": "Polygon",
+                    "id": "e8a8253c-5cdb-4c8b-beee-0c749a20ef25",
+                    "label": "polygon_3",
+                    "components": [
+                        "SimpleButton",
+                        "MoveTo"
+                    ],
+                    "SimpleButton.useHandCursor": false,
+                    "x": 97,
+                    "y": 722,
+                    "originX": 0.7848126408856168,
+                    "originY": 0.7446699150837965,
+                    "fillColor": "#00ffff",
+                    "fillAlpha": 0.5,
+                    "points": "67.56232638585482 70.17351876418559 22.062357950631565 38.57631846194721 70.09010241003386 18.35411026851466 104.91925890412544 46.77361041404197"
+                },
+                {
+                    "type": "Polygon",
+                    "id": "ec8e6aa1-fef4-41ef-8fea-25396dc0ccb1",
+                    "label": "polygon_4",
+                    "components": [
+                        "SimpleButton",
+                        "MoveTo"
+                    ],
+                    "SimpleButton.useHandCursor": false,
+                    "x": 481,
+                    "y": 753,
+                    "originX": 0.9148936012116713,
+                    "originY": 0.5833333232531774,
+                    "fillColor": "#00ffff",
+                    "fillAlpha": 0.5,
+                    "points": "70.81959493784211 58.62293189554521 26.977101010812873 29.26052770588342 67.19957250350024 10.355966104320373 102.59534741706511 31.673875995444632"
+                },
+                {
+                    "type": "Polygon",
+                    "id": "bded868f-3b5e-4904-8e85-4a52c3660f49",
+                    "label": "polygon_5",
+                    "components": [
+                        "SimpleButton",
+                        "MoveTo"
+                    ],
+                    "SimpleButton.useHandCursor": false,
+                    "x": 272,
+                    "y": 822,
+                    "originX": -0.4833333232724843,
+                    "originY": -1.055555533583586,
+                    "fillColor": "#00ffff",
+                    "fillAlpha": 0.5,
+                    "points": "-45.14578749532063 -19.273357593192145 -85.61065630283443 -50.668514426608 -38.16908597678378 -69.50560852665751 -1.8902380803920664 -47.877833819193256"
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "dcee74c4-76ff-4461-ba59-e7dbbdb2c123",
+            "label": "pufflePenguinForeground",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "pufflePenguinForeground"
+            },
+            "x": 759.8512195915883,
+            "y": 981.2508521498836,
+            "originX": 0.5072975539801182,
+            "originY": 0.5191157058516325
+        },
+        {
+            "type": "Image",
+            "id": "6299d6bc-c4a1-44d4-b9dc-1a53ad2ba7cd",
+            "label": "greenPuffleBed",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "greenPuffleBed"
+            },
+            "x": 1053,
+            "y": 398
+        },
+        {
+            "type": "Image",
+            "id": "b0d4aec6-d63d-495a-b009-b35a7794289f",
+            "label": "puffleBed",
+            "texture": {
+                "key": "fair-tourhq",
+                "frame": "puffleBed"
+            },
+            "x": 1051.6585348426847,
+            "y": 412.0365932079183,
+            "originX": 0.48951980345847446,
+            "originY": 0.5874868580857727
+        },
+        {
+            "type": "Image",
+            "id": "68212ef2-ed16-4be6-a131-541973fe369a",
+            "label": "tourcircusPreview",
+            "texture": {
+                "key": "tourcircusPreview"
+            },
+            "x": 760,
+            "y": 480,
+            "visible": false,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1a4e114c-cd2a-46ab-97e5-26d5876b512f",
+            "label": "sort",
+            "objectIds": [
+                "931f5aa5-4c4a-4257-ba81-0eb99690dbdd",
+                "0efefb6f-b084-45f4-b741-a27585253a2e",
+                "9cc9434e-9108-46b2-9140-c84b4936b847",
+                "109f799c-8628-4142-b63b-4518a67e1556",
+                "06c2b931-ecfb-408f-b1a4-3a8dfdac3271",
+                "439aab62-3495-4a42-96b4-c226ff44ae70",
+                "0b48b941-f5c2-4aba-b4b7-95f111516345",
+                "3df9fc82-70d9-43f0-95bf-2bdade802e99",
+                "bb6e8ad5-db8d-418b-ad81-6908e300b086",
+                "1758c675-0a3d-4ab5-878a-f4eb8f434fd0",
+                "e5d3f6d3-a8f0-42e1-9cf0-defbbd9f3a2a",
+                "0e653a92-1c79-4253-af7f-295e0767f5d1",
+                "7cd214ae-ba1e-48db-9800-8dbb18d2e8de",
+                "dc420329-6476-46c1-b6a7-8b09e33ab85d",
+                "629d57ad-6bc4-4ab9-b923-fcc61a9d63e1",
+                "d560e0fe-ded8-42ad-a656-8a1fc260a320",
+                "b9d057e7-6f78-43d5-9e23-2f82eda2234b",
+                "d83d3890-68dc-41b1-a0be-3e6db0158f02",
+                "ff9e641b-7db4-47cd-acaa-51170640ce9c",
+                "e5344af4-0de6-4290-9140-536362331adb",
+                "9dc44aab-be70-442b-820c-2fca59f78f12",
+                "d42a6b63-b9ef-470e-aa5b-f8eecf8f342d",
+                "fbd76e0f-bfa2-4b4b-9150-92310f249ec4",
+                "e2ad105a-eaca-4a9c-a50e-b59577c95234",
+                "8b87fc9b-07cc-4998-a415-2086ca738cbf",
+                "9606fd9b-f729-4468-99f5-903c55dca716",
+                "15d6d009-d1e8-4410-9315-b961ef3c9336",
+                "5eb8e197-1634-46fb-813a-ff35a86f1d1f",
+                "6244bb6a-9e47-4323-a59d-cbcabe2f551b",
+                "6f3c5fb6-c6c5-4c89-a418-f959f4b685c2",
+                "dcee74c4-76ff-4461-ba59-e7dbbdb2c123",
+                "a5abdf36-48db-4d45-8324-49b436c38f2f",
+                "b0d4aec6-d63d-495a-b009-b35a7794289f"
+            ]
+        }
+    ]
+}

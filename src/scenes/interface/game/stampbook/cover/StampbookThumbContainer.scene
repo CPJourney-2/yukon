@@ -1,0 +1,92 @@
+{
+    "id": "9577a0b7-ac2a-4c45-9c50-c1b8206df8f8",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "041d1df4-0f39-4c1c-ba90-0fc9b2cf706d",
+            "label": "claspThumb",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "4a3bc96a-e542-4d78-97b4-7e3e182ffe95",
+                    "label": "colorTool_3",
+                    "components": [],
+                    "texture": {
+                        "key": "stampbook-editor",
+                        "frame": "colorTool"
+                    },
+                    "x": -2,
+                    "y": 1,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "583e0ab4-8e8e-43ac-bd8e-0e6552b93ffc",
+                    "label": "claspThumbBg",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "testThumb"
+                    },
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "8bae24a5-4b53-4073-8221-47b5cd315dd6",
+                    "label": "claspThumb",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "testThumb"
+                    },
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "4b7c2a01-e6e9-4332-8aa2-6df17eb0607d",
+                    "label": "claspHighlightThumb",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "testThumb"
+                    },
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "1a1367c0-d19b-40f3-9b0e-4581262139e7",
+                    "label": "removePattern",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "stampbook-editor",
+                        "frame": "removePattern"
+                    },
+                    "y": -1,
+                    "visible": false,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

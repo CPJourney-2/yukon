@@ -1,0 +1,190 @@
+{
+    "id": "56113e7d-0c68-4305-9109-2fcc2ecb6c36",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/trickortreat/trickortreat-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "TrickOrTreat",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "6e010c65-2460-47eb-bd02-4017c6c220b0",
+            "label": "chimneys",
+            "texture": {
+                "key": "trickortreat",
+                "frame": "chimneys"
+            },
+            "x": 814,
+            "y": 182
+        },
+        {
+            "type": "Image",
+            "id": "e46dd87b-3cf8-47e2-90e7-aa377f0a80bf",
+            "label": "floor",
+            "scope": "CLASS",
+            "texture": {
+                "key": "trickortreat",
+                "frame": "floor"
+            },
+            "x": 740,
+            "y": 481
+        },
+        {
+            "type": "Image",
+            "id": "7bfe60f7-1d94-4004-9277-6100fc7f2ddd",
+            "label": "background",
+            "texture": {
+                "key": "trickortreat",
+                "frame": "background"
+            },
+            "x": 894,
+            "y": 455
+        },
+        {
+            "type": "Image",
+            "id": "b3772644-1af9-40ad-b410-55886288a795",
+            "label": "paths",
+            "texture": {
+                "key": "trickortreat",
+                "frame": "paths"
+            },
+            "x": 716,
+            "y": 625
+        },
+        {
+            "type": "Image",
+            "id": "1d2085a5-3219-4035-830d-7f0b0c8cacd2",
+            "label": "castle",
+            "texture": {
+                "key": "trickortreat",
+                "frame": "castle"
+            },
+            "x": 726,
+            "y": 301
+        },
+        {
+            "type": "Image",
+            "id": "e5484122-a43e-4a87-a01a-2536c82c95ec",
+            "label": "castlebush",
+            "texture": {
+                "key": "trickortreat",
+                "frame": "castlebush"
+            },
+            "x": 723,
+            "y": 449
+        },
+        {
+            "type": "Image",
+            "id": "f7267cd7-abd0-4b4d-84c0-c3877f58757d",
+            "label": "cabin",
+            "texture": {
+                "key": "trickortreat",
+                "frame": "cabin"
+            },
+            "x": 259,
+            "y": 403
+        },
+        {
+            "type": "Image",
+            "id": "f515da10-89e8-4d13-aa2d-9fd572e7ce2b",
+            "label": "sidewalk",
+            "texture": {
+                "key": "trickortreat",
+                "frame": "sidewalk"
+            },
+            "x": 640,
+            "y": 844
+        },
+        {
+            "type": "Image",
+            "id": "70ac71b6-ef01-4095-aca5-a7cd4db5bd52",
+            "label": "snowpile",
+            "texture": {
+                "key": "trickortreat",
+                "frame": "snowpile"
+            },
+            "x": 760,
+            "y": 751
+        },
+        {
+            "type": "Image",
+            "id": "f3e8962c-e681-4880-9bf8-27b76f9a9b40",
+            "label": "cabinbush",
+            "texture": {
+                "key": "trickortreat",
+                "frame": "cabinbush"
+            },
+            "x": 85,
+            "y": 613
+        },
+        {
+            "type": "Image",
+            "id": "6cd1ac74-46ce-4ee2-af8e-41706ac6f309",
+            "label": "igloo",
+            "texture": {
+                "key": "trickortreat",
+                "frame": "igloo"
+            },
+            "x": 1234,
+            "y": 411
+        },
+        {
+            "type": "Image",
+            "id": "e06f2cdb-dc16-4384-8e2a-f755b06100dd",
+            "label": "igloobush",
+            "texture": {
+                "key": "trickortreat",
+                "frame": "igloobush"
+            },
+            "x": 1398,
+            "y": 553
+        },
+        {
+            "type": "Image",
+            "id": "e4719d42-2447-40b9-8d6f-2d85bfd8ba3d",
+            "label": "exit",
+            "texture": {
+                "key": "trickortreat",
+                "frame": "exit"
+            },
+            "x": 146,
+            "y": 694
+        },
+        {
+            "type": "Rectangle",
+            "id": "ea1b2f27-4e1f-4d75-9eb3-4efae31f110c",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 160,
+            "y": 807,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "5894ff48-8e9b-451c-aa26-8fcce80acc03",
+            "label": "sort"
+        }
+    ]
+}

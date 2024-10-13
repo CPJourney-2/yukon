@@ -1,0 +1,492 @@
+{
+    "id": "b2ddedb7-3d97-44af-adf0-8b414527462c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "bfaa02be-42e7-4151-a022-1a38f8f54b3a",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "d69259d4-ce70-4dd1-afc7-5de280bdc236",
+                    "label": "bg",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "texture": {
+                        "key": "load",
+                        "frame": "bg"
+                    },
+                    "x": -759,
+                    "y": -479,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "139238bd-3a04-49b3-9bc8-4cd239a4cea6",
+                    "label": "radial",
+                    "texture": {
+                        "key": "unlock",
+                        "frame": "radial"
+                    }
+                },
+                {
+                    "type": "Container",
+                    "id": "4fc3e7ea-3c7b-4205-8e01-87410a3aa770",
+                    "label": "choose_view",
+                    "scope": "CLASS",
+                    "y": -138,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "09fe2e05-1964-45b2-bf6c-bc63b4dcb784",
+                            "label": "closed",
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "closed"
+                            },
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d86de17c-e7ae-4cef-8379-f6f5b5d52151",
+                            "label": "stuffbg",
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "stuffbg"
+                            },
+                            "y": 356
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ad6d5b43-bba9-4c80-a14b-c7db3df45fe2",
+                            "label": "codebtn",
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "btn-large"
+                            },
+                            "x": 149,
+                            "y": 192,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "acd99688-128c-4fd5-b1a3-97f699c934a8",
+                            "label": "lock",
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "lock"
+                            },
+                            "x": 45,
+                            "y": 193,
+                            "visible": false
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b53278ba-0268-4ce6-b204-06643976ea96",
+                            "label": "ivegotacode",
+                            "x": 173,
+                            "y": 193,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "I've got a code",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "25px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#00000089"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2caf5931-52e1-4ecc-9490-98a9c47af86e",
+                            "label": "bookbtn",
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "btn-large"
+                            },
+                            "x": -146,
+                            "y": 192,
+                            "visible": false
+                        },
+                        {
+                            "type": "Text",
+                            "id": "828844e7-8ba1-45c6-86b4-590524fbed10",
+                            "label": "ivegotabook",
+                            "x": -116,
+                            "y": 193,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "I've got a book",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "25px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#00000089"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "313df977-84c5-421b-97b5-c2fb85a91967",
+                            "label": "book",
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "book"
+                            },
+                            "x": -242,
+                            "y": 194,
+                            "visible": false
+                        },
+                        {
+                            "type": "Container",
+                            "id": "e933b4dd-3e70-4ef8-84d3-3060220392de",
+                            "label": "code_view",
+                            "scope": "CLASS",
+                            "y": 387,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "d5702168-e806-4dcd-9861-c1729149b1f7",
+                                    "label": "inputbg",
+                                    "texture": {
+                                        "key": "unlock",
+                                        "frame": "input"
+                                    },
+                                    "y": -25
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "944af01c-2a44-4610-9470-88c6728ef9ed",
+                                    "label": "enteryourcode",
+                                    "y": -101,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "Enter your code!\nMake sure you enter it exactly as it appears.",
+                                    "align": "center",
+                                    "fontFamily": "Burbank Small",
+                                    "fontSize": "20px",
+                                    "fontStyle": "bold",
+                                    "color": "#ffffffff",
+                                    "shadow.offsetX": 2,
+                                    "shadow.offsetY": 2,
+                                    "shadow.stroke": true,
+                                    "shadow.fill": true,
+                                    "shadow.color": "#00000089"
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "c9fc6c92-7a5b-43fb-a9b7-178aa6892326",
+                                    "label": "confirmBtn",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "btn-small",
+                                    "Button.callback": "() => this.onUnlock()",
+                                    "texture": {
+                                        "key": "unlock",
+                                        "frame": "btn-small"
+                                    },
+                                    "y": 47,
+                                    "scaleX": 0.8,
+                                    "scaleY": 0.8
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "ee27e881-c909-4aae-ba31-e6149440b7c6",
+                                    "label": "nexttxt",
+                                    "y": 46,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "Next",
+                                    "align": "center",
+                                    "fontFamily": "Burbank Small",
+                                    "fontSize": "25px",
+                                    "fontStyle": "bold",
+                                    "color": "#ffffffff",
+                                    "shadow.offsetX": 2,
+                                    "shadow.offsetY": 2,
+                                    "shadow.stroke": true,
+                                    "shadow.fill": true,
+                                    "shadow.color": "#00000089"
+                                }
+                            ]
+                        },
+                        {
+                            "prefabId": "1de1eb22-93eb-4755-aeba-c735ea72b677",
+                            "id": "4cb81045-b7b0-4c03-ac16-1f5bfa55d748",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "visible"
+                            ],
+                            "label": "spinner",
+                            "scope": "CLASS",
+                            "x": 0,
+                            "y": 351,
+                            "visible": false
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d7ff1797-3490-436a-8f1f-8d605ed58efb",
+                    "label": "congrats_view",
+                    "scope": "CLASS",
+                    "y": 194,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "8a585fe8-0afc-412a-8702-36954547ad2f",
+                            "label": "open_back",
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "open/back"
+                            },
+                            "x": 8,
+                            "y": -428
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "730bf162-21d5-46a3-837d-7e86e1394d70",
+                            "label": "particles",
+                            "scope": "CLASS",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "open/particles",
+                            "Animation.end": 30,
+                            "Animation.autoPlay": false,
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "open/particles0001"
+                            },
+                            "x": 3,
+                            "y": -306
+                        },
+                        {
+                            "type": "Image",
+                            "id": "85e8e5db-20d2-4d1e-b7b6-a0553665262f",
+                            "label": "open_shine",
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "open/shine"
+                            },
+                            "x": 44,
+                            "y": -497
+                        },
+                        {
+                            "type": "Container",
+                            "id": "21a4b77a-58c6-4908-9086-6bdb190e9a53",
+                            "label": "slots",
+                            "scope": "CLASS",
+                            "y": -112
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c39e84fc-00d3-4b36-ae2c-03ca6d9f80e1",
+                            "label": "open_front",
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "open/front"
+                            }
+                        },
+                        {
+                            "type": "NineSlice",
+                            "id": "e6cfd563-62fa-4442-bc7e-6ab7dbeb3d77",
+                            "label": "stuffbg_1",
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "stuffbg"
+                            },
+                            "x": 2,
+                            "y": -32,
+                            "width": 550,
+                            "height": 200,
+                            "leftWidth": 32,
+                            "rightWidth": 30,
+                            "topHeight": 29,
+                            "bottomHeight": 30
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0853bf05-0f66-4cdf-9d06-3827fa2aec4e",
+                            "label": "enteranothercode",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "btn-large",
+                            "Button.callback": "() => this.newCode()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "btn-large"
+                            },
+                            "x": -126,
+                            "y": 110,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "43a7198f-4575-4c34-aaab-a2eb278db028",
+                            "label": "playnoww",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "btn-large",
+                            "Button.callback": "() => this.hide()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "unlock",
+                                "frame": "btn-large"
+                            },
+                            "x": 128,
+                            "y": 110,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Text",
+                            "id": "4e6c52eb-0bf0-466a-b1b3-4b8319cc5c45",
+                            "label": "enteranothercodee",
+                            "x": -126,
+                            "y": 109,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Enter another code",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "20px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#00000089"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f8a3e238-a421-4ad6-9af9-6bae891b7358",
+                            "label": "playnow",
+                            "x": 128,
+                            "y": 109,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Done",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "20px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#00000089"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "4d7252e8-ca1a-4944-a018-4834b891c583",
+                            "label": "congratulationsss",
+                            "y": -53,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Congratulations!",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "shadow.offsetX": 2,
+                            "shadow.offsetY": 2,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.color": "#00000089"
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "56dbb293-6c67-49f3-9607-490c885e704f",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.hide()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 710,
+                    "y": -431
+                },
+                {
+                    "type": "Image",
+                    "id": "30b831b2-ebef-416b-870a-02d97084cf24",
+                    "label": "blue_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 711,
+                    "y": -433
+                },
+                {
+                    "type": "Image",
+                    "id": "904b7060-25e6-4e25-8c46-c156f3ac0348",
+                    "label": "unlockicon",
+                    "texture": {
+                        "key": "unlock",
+                        "frame": "unlockicon"
+                    },
+                    "x": -640,
+                    "y": -369
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "c0c9e056-cbfb-483d-899f-810f7790dab5",
+                    "label": "input_placement",
+                    "y": 224,
+                    "visible": false,
+                    "isFilled": true,
+                    "fillColor": "#00ff00",
+                    "fillAlpha": 0.5,
+                    "width": 300,
+                    "height": 50
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

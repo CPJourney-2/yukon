@@ -1,0 +1,305 @@
+{
+    "id": "3fed19b7-0515-4302-816f-944cdf3bed65",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "64486db7-fdbc-4ca0-8e16-ee8eb76418a6",
+            "label": "container_1",
+            "components": [],
+            "x": 717.6003717319566,
+            "y": 478.2076204096942,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "31c6ed25-b691-4258-818f-8d00c4cb3a85",
+                    "label": "container",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 43.98345075493245,
+                    "y": -268.20763833006777,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "86042ab3-598b-4d71-99e7-dc0216325c70",
+                            "label": "inventory_bg",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "popout"
+                            },
+                            "x": -18.333832431519227,
+                            "y": 270,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "444ddf78-a014-4263-b143-f63aef13fd3e",
+                            "label": "slot_8",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "inv_btn",
+                            "Button.hoverCallback": "() => { this.onHover(5, slot_6) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_6) }",
+                            "Button.callback": "() => { this.onSlotClick(8) }",
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "inv_btn"
+                            },
+                            "x": 258,
+                            "y": 467,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b048eb6e-fc71-4969-9885-235b18ca651a",
+                            "label": "slot_7",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "inv_btn",
+                            "Button.hoverCallback": "() => { this.onHover(2, slot_3) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_3) }",
+                            "Button.callback": "() => { this.onSlotClick(7) }",
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "inv_btn"
+                            },
+                            "x": 128,
+                            "y": 466,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "47a5e61f-88c5-405a-8eab-a0ca351a665d",
+                            "label": "slot_6",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "inv_btn",
+                            "Button.hoverCallback": "() => { this.onHover(5, slot_6) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_6) }",
+                            "Button.callback": "() => { this.onSlotClick(6) }",
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "inv_btn"
+                            },
+                            "x": 255,
+                            "y": 334,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "84b5d1f7-7a93-48d9-849f-33658dae074a",
+                            "label": "slot_5",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "inv_btn",
+                            "Button.hoverCallback": "() => { this.onHover(2, slot_3) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_3) }",
+                            "Button.callback": "() => { this.onSlotClick(5) }",
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "inv_btn"
+                            },
+                            "x": 126,
+                            "y": 333,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "894c99d3-99d4-442c-87bc-0dc525fd930b",
+                            "label": "slot_4",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "inv_btn",
+                            "Button.hoverCallback": "() => { this.onHover(4, slot_5) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_5) }",
+                            "Button.callback": "() => { this.onSlotClick(4) }",
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "inv_btn"
+                            },
+                            "x": 255,
+                            "y": 202,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e6eb7eaf-e09a-4c95-a404-8291e224a4e6",
+                            "label": "slot_3",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "inv_btn",
+                            "Button.hoverCallback": "() => { this.onHover(3, slot_4) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_4) }",
+                            "Button.callback": "() => { this.onSlotClick(3) }",
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "inv_btn"
+                            },
+                            "x": 123,
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e4ce0764-31e3-4d09-8448-bca8eabfd200",
+                            "label": "slot_2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "inv_btn",
+                            "Button.hoverCallback": "() => { this.onHover(1, slot_2) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_2) }",
+                            "Button.callback": "() => { this.onSlotClick(2) }",
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "inv_btn"
+                            },
+                            "x": 255,
+                            "y": 69,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4aa5cf79-5405-46e6-93b7-d72ae6e5fe88",
+                            "label": "slot_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "inv_btn",
+                            "Button.hoverCallback": "() => { this.onHover(0, slot_1) }",
+                            "Button.hoverOutCallback": "() => { this.onHoverOut(slot_1) }",
+                            "Button.callback": "() => { this.onSlotClick(1) }",
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "inv_btn"
+                            },
+                            "x": 123,
+                            "y": 69,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "85b9753f-071f-4aa5-8b8f-215e28dfeebd",
+                            "label": "inv_gum",
+                            "components": [],
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "inv_gum"
+                            },
+                            "x": 123,
+                            "y": 68,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e49a91de-cb7c-4311-af4c-80dcd1445e1c",
+                            "label": "inv_cookie",
+                            "components": [],
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "inv_cookie"
+                            },
+                            "x": 257,
+                            "y": 67,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e8c9490e-33de-4dd7-80af-e4bc9834da6a",
+                            "label": "inv_food",
+                            "components": [],
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "inv_food"
+                            },
+                            "x": 123,
+                            "y": 203,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cd75ea88-1430-4927-9316-e80e1fb10516",
+                            "label": "inv_bath",
+                            "components": [],
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "inv_bath"
+                            },
+                            "x": 255,
+                            "y": 203,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "8ac0623a-7699-4456-b562-907ae93bc850",
+                    "label": "tab",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 396.6496183234132,
+                    "y": -135.20763833006777,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b1781dbe-9d3e-4bd8-a5cf-a747bdc0428b",
+                            "label": "tab_handle",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => { this.onTabClick() }",
+                            "texture": {
+                                "key": "pufflecare",
+                                "frame": "tab"
+                            },
+                            "x": 8,
+                            "y": 2,
+                            "angle": -90,
+                            "flipY": true,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fa7f754a-371f-4048-a632-3cf2409a2718",
+                            "label": "arrow",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "main",
+                                "frame": "tab-arrow"
+                            },
+                            "angle": -90,
+                            "list": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

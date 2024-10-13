@@ -1,0 +1,658 @@
+{
+    "id": "bc6e9268-ff46-492b-90fe-3bbdad7f7995",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/rink/baseball/baseball-rink-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Rink",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "fa502f69-b174-4039-bddc-508cbcda973c",
+            "label": "bg",
+            "texture": {
+                "key": "rink",
+                "frame": "bg"
+            },
+            "x": 765,
+            "y": 503
+        },
+        {
+            "type": "Image",
+            "id": "fc7c75e4-1e77-425e-9eb2-9709362f47e2",
+            "label": "field",
+            "texture": {
+                "key": "rink",
+                "frame": "field"
+            },
+            "x": 767,
+            "y": 696
+        },
+        {
+            "type": "Image",
+            "id": "814d1a5f-5dc0-4dd4-a2b5-b3a9d124122b",
+            "label": "netting",
+            "texture": {
+                "key": "rink",
+                "frame": "netting"
+            },
+            "x": 778,
+            "y": 232
+        },
+        {
+            "type": "Image",
+            "id": "a9c6ed00-ce28-43ca-93bd-dcd720a4e86b",
+            "label": "bleacher_L",
+            "texture": {
+                "key": "rink",
+                "frame": "bleacher_L"
+            },
+            "x": 31.445714423733975,
+            "y": 281.89046186170344,
+            "originX": 0.24203763045403587,
+            "originY": 0.08860190235549126
+        },
+        {
+            "type": "Image",
+            "id": "a6a7da73-f763-4e4e-93c1-a7115c274824",
+            "label": "bleacher_R",
+            "texture": {
+                "key": "rink",
+                "frame": "bleacher_R"
+            },
+            "x": 1513.8996792391376,
+            "y": 297.1823341148919,
+            "originX": 0.8135645621912291,
+            "originY": 0.06321384011061242
+        },
+        {
+            "type": "Container",
+            "id": "0126f93e-129a-4462-9d97-420479badecf",
+            "label": "adSports",
+            "x": 1265.422704894516,
+            "y": 478.0358091884652,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "85925cd8-8eb6-4ea3-ad3a-51d3ce7fe098",
+                    "label": "board_right_three",
+                    "texture": {
+                        "key": "rink",
+                        "frame": "board_right_three"
+                    },
+                    "x": 70.5773445170737,
+                    "y": 53.96419129775546
+                },
+                {
+                    "type": "Image",
+                    "id": "d962d0ba-17d4-4e5e-9946-eb43256a309f",
+                    "label": "sports",
+                    "texture": {
+                        "key": "rink",
+                        "frame": "sports"
+                    },
+                    "x": 78.0773445170737,
+                    "y": 65.96419129775546
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "555766e1-b0b3-4066-92e2-384bac4831fe",
+            "label": "adGift",
+            "x": 1138.5623658199004,
+            "y": 392.3118290995019,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "116146c0-2309-46ba-a3a7-800966783f54",
+                    "label": "board_right_two",
+                    "texture": {
+                        "key": "rink",
+                        "frame": "board_right_two"
+                    },
+                    "x": 10.437634180099622,
+                    "y": -1.3118290995018924
+                },
+                {
+                    "type": "Image",
+                    "id": "22422e9d-5598-4653-ac34-8f86e4345b56",
+                    "label": "gift",
+                    "texture": {
+                        "key": "rink",
+                        "frame": "gift"
+                    },
+                    "x": -2.0623658199003785,
+                    "y": -10.311829099501892
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "b8ab78fb-d40e-45dd-a1d4-fd58b0f5d9b4",
+            "label": "green_patch",
+            "scope": "CLASS",
+            "texture": {
+                "key": "rink",
+                "frame": "green_patch"
+            },
+            "x": 762,
+            "y": 362,
+            "visible": false
+        },
+        {
+            "type": "Container",
+            "id": "0130b8d1-369f-4de5-a2e7-333581aed289",
+            "label": "adAdopt",
+            "x": 392.49226064494337,
+            "y": 374.9209652844395,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "36c334f3-6555-41a3-8254-4054283b8bb1",
+                    "label": "board_left_two_png",
+                    "texture": {
+                        "key": "rink",
+                        "frame": "board_left_two.png"
+                    },
+                    "x": -22.992252488129793,
+                    "y": 16.079020699036164
+                },
+                {
+                    "type": "Image",
+                    "id": "1f54bf4a-2b29-434a-ab48-d14b677e2a52",
+                    "label": "adopt",
+                    "texture": {
+                        "key": "rink",
+                        "frame": "adopt"
+                    },
+                    "x": -4.992252488129793,
+                    "y": 7.579020699036164
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "6d97284d-ba2d-4851-974c-3548919f6fcf",
+            "label": "adCoffee",
+            "x": 250.31628260986523,
+            "y": 482.8093662103365,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "eb080cb0-6105-45b5-a8d8-28dfdb1419da",
+                    "label": "board_left_three",
+                    "texture": {
+                        "key": "rink",
+                        "frame": "board_left_three"
+                    },
+                    "x": -60.31628673130851,
+                    "y": 49.19059746030217
+                },
+                {
+                    "type": "Image",
+                    "id": "9c28b61f-3209-4fc1-8c53-d8add71cc7f2",
+                    "label": "coffee",
+                    "texture": {
+                        "key": "rink",
+                        "frame": "coffee"
+                    },
+                    "x": -61.31628673130851,
+                    "y": 54.19059746030217
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "64025e44-9a25-448e-bbdc-217e579bf231",
+            "label": "gate_active",
+            "scope": "CLASS",
+            "texture": {
+                "key": "rink",
+                "frame": "gate-active"
+            },
+            "x": 762,
+            "y": 370.88846890015043,
+            "originY": 0.7918026681470007,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "ab02bd7d-43a8-4cc7-ac27-2e3f9d02ecb6",
+            "label": "field_back",
+            "texture": {
+                "key": "rink",
+                "frame": "field_back"
+            },
+            "x": 762.9258593715709,
+            "y": 993.8997485660183,
+            "originX": 0.49919421583867024,
+            "originY": 0.8082509462344084
+        },
+        {
+            "type": "Image",
+            "id": "da1ec744-e360-45b1-af0c-a7f41cebde6e",
+            "label": "fg",
+            "texture": {
+                "key": "rink",
+                "frame": "fg"
+            },
+            "x": 773.8565080261612,
+            "y": 1033.5897792211972,
+            "originX": 0.5116686312043077,
+            "originY": 1.0929487875414008
+        },
+        {
+            "type": "Image",
+            "id": "429159dc-83c6-42f0-ba43-bab4581a9e64",
+            "label": "fishdogs",
+            "texture": {
+                "key": "rink",
+                "frame": "fishdogs"
+            },
+            "x": 1335.1566461609718,
+            "y": 327.8661193847656,
+            "originX": 0.47504914920764113,
+            "originY": 0.7927506225214674
+        },
+        {
+            "type": "Image",
+            "id": "57de89b7-e77e-4e03-9ab8-b2e947ad8afd",
+            "label": "exitmat",
+            "texture": {
+                "key": "rink",
+                "frame": "exitmat"
+            },
+            "x": 779,
+            "y": 240
+        },
+        {
+            "type": "Image",
+            "id": "9515c316-ea29-4880-ad8c-c4ac16a41223",
+            "label": "table_one",
+            "texture": {
+                "key": "rink",
+                "frame": "table_one"
+            },
+            "x": 485.3300185038709,
+            "y": 235.09571164230417,
+            "originX": 0.5486924500297763,
+            "originY": 0.4874404394764468
+        },
+        {
+            "type": "Image",
+            "id": "2880dbaa-140e-4329-b533-a22f8bd46883",
+            "label": "gazebo_back",
+            "texture": {
+                "key": "rink",
+                "frame": "gazebo_back"
+            },
+            "x": 520,
+            "y": 161
+        },
+        {
+            "type": "Image",
+            "id": "d38251f0-c367-4b20-b148-d21cbab9370d",
+            "label": "table_two",
+            "texture": {
+                "key": "rink",
+                "frame": "table_two"
+            },
+            "x": 625,
+            "y": 237.5
+        },
+        {
+            "type": "Image",
+            "id": "a17d5d9f-a6ee-4968-8eb4-1ec5493ef4c7",
+            "label": "gazebo_front",
+            "texture": {
+                "key": "rink",
+                "frame": "gazebo_front"
+            },
+            "x": 577.3785381998981,
+            "y": 256.77802616432245,
+            "originX": 0.5696529662854232,
+            "originY": 0.8888899413742477
+        },
+        {
+            "type": "Image",
+            "id": "ee45a4f3-9f0f-4eb2-aa03-d9062555052f",
+            "label": "snack",
+            "texture": {
+                "key": "rink",
+                "frame": "snack"
+            },
+            "x": 263,
+            "y": 213
+        },
+        {
+            "type": "Image",
+            "id": "a3734423-eef2-4ff4-b711-cf64cc979a52",
+            "label": "snack_front",
+            "texture": {
+                "key": "rink",
+                "frame": "snack_front"
+            },
+            "x": 339.81960820149493,
+            "y": 300.67085072438516,
+            "originX": 0.569120515798216,
+            "originY": 0.6894582006797003
+        },
+        {
+            "type": "Image",
+            "id": "7345b16e-946a-4573-83f7-d9aac8c7a28a",
+            "label": "supplies",
+            "texture": {
+                "key": "rink",
+                "frame": "supplies"
+            },
+            "x": 1042,
+            "y": 239
+        },
+        {
+            "type": "Image",
+            "id": "b0c20525-ab50-4bc6-b248-514045a4c167",
+            "label": "booth_wall",
+            "texture": {
+                "key": "rink",
+                "frame": "booth_wall"
+            },
+            "x": 1064,
+            "y": 125
+        },
+        {
+            "type": "Image",
+            "id": "bcbfb363-2405-4d65-a4b0-b9683f324e74",
+            "label": "desk_chairs",
+            "texture": {
+                "key": "rink",
+                "frame": "desk_chairs"
+            },
+            "x": 1022,
+            "y": 128
+        },
+        {
+            "type": "Image",
+            "id": "d54b8ce1-033c-4fc5-9dac-e1ab8ca67fac",
+            "label": "desk_mics",
+            "texture": {
+                "key": "rink",
+                "frame": "desk_mics"
+            },
+            "x": 1014,
+            "y": 163
+        },
+        {
+            "type": "Image",
+            "id": "2a631150-a068-4f62-9ab8-82b5f78c492e",
+            "label": "booth_front",
+            "texture": {
+                "key": "rink",
+                "frame": "booth_front"
+            },
+            "x": 1160.1863756827104,
+            "y": 198.78203392063318,
+            "originX": 0.7598655806997012,
+            "originY": 0.6747749391641342
+        },
+        {
+            "type": "Image",
+            "id": "3412e330-7e10-4092-9645-9d458358b3a7",
+            "label": "ladder",
+            "texture": {
+                "key": "rink",
+                "frame": "ladder"
+            },
+            "x": 1206.8299560546875,
+            "y": 204.07503458520114,
+            "originX": 0.3569029841102538,
+            "originY": 0.285736457234107
+        },
+        {
+            "type": "Image",
+            "id": "1230cdfb-d65f-4e96-98b6-e22f5c2cafc7",
+            "label": "arrowsign",
+            "texture": {
+                "key": "rink",
+                "frame": "arrowsign"
+            },
+            "x": 846.5,
+            "y": 227.82693840154667,
+            "originY": 0.7022667571704763
+        },
+        {
+            "type": "Rectangle",
+            "id": "86375cd4-28b1-4df1-8e3e-e0d05884b4c3",
+            "label": "gateThing",
+            "components": [
+                "Zone",
+                "MoveTo"
+            ],
+            "Zone.hoverCallback": "() => this.onGateHover()",
+            "Zone.hoverOutCallback": "() => this.onGateOut()",
+            "x": 761.277620259244,
+            "y": 346.5892342174915,
+            "originX": 0.46868400471352784,
+            "originY": 0.17397812049975658,
+            "width": 55,
+            "height": 35
+        },
+        {
+            "type": "Rectangle",
+            "id": "64878a22-315c-4d89-8191-e4c419e0a833",
+            "label": "snackStamp",
+            "components": [
+                "SnackStampArea"
+            ],
+            "x": 1344,
+            "y": 290,
+            "width": 200,
+            "height": 200
+        },
+        {
+            "type": "Rectangle",
+            "id": "ebd72719-8669-48b1-822e-f6d4aab075d6",
+            "label": "snackStamp_1",
+            "components": [
+                "SnackStampArea"
+            ],
+            "x": 276,
+            "y": 221,
+            "width": 300,
+            "height": 300
+        },
+        {
+            "type": "Container",
+            "id": "bf4a2669-8d91-4bff-8d2c-7697c096b2a3",
+            "label": "_gate",
+            "x": 552,
+            "y": 354.539306640625,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "e2b13561-1442-4e40-bf97-a79cad51997e",
+                    "label": "gateposts",
+                    "texture": {
+                        "key": "rink",
+                        "frame": "gateposts"
+                    },
+                    "x": 209,
+                    "y": -42,
+                    "originX": 0.4969186285491942,
+                    "originY": 0.43205575950973013
+                },
+                {
+                    "type": "Image",
+                    "id": "e6e50e61-6d9c-48aa-9fa5-0ef6873894cf",
+                    "label": "gate",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "rink",
+                        "frame": "gate"
+                    },
+                    "x": 210,
+                    "originY": 0.6271558653271059
+                },
+                {
+                    "type": "Container",
+                    "id": "424eedef-ead6-497d-a582-3ca71d305431",
+                    "label": "adPizza",
+                    "x": 409,
+                    "y": 1.146728515625,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "970a6567-39b4-4511-8ed7-ed5e92732539",
+                            "label": "board_right_one",
+                            "texture": {
+                                "key": "rink",
+                                "frame": "board_right_one"
+                            },
+                            "x": 7,
+                            "y": -20.68602401890422
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d4564ab5-fd70-4d63-b9de-002b5f909dec",
+                            "label": "pizza",
+                            "texture": {
+                                "key": "rink",
+                                "frame": "pizza"
+                            },
+                            "y": -22.68602401890422
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "e03720f5-68ec-4585-9a35-efc7e13f71ba",
+                    "label": "adSurf",
+                    "y": 2.97735595703125,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "27f8c897-0aa6-4ad0-8b70-c25b9ee181b0",
+                            "label": "board_left_one",
+                            "texture": {
+                                "key": "rink",
+                                "frame": "board_left_one"
+                            },
+                            "y": -27.51665789795055
+                        },
+                        {
+                            "type": "Image",
+                            "id": "26f1d07e-dcf1-4f12-b593-6fb255718504",
+                            "label": "surf",
+                            "texture": {
+                                "key": "rink",
+                                "frame": "surf"
+                            },
+                            "x": 7,
+                            "y": -25.51665789795055
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Rectangle",
+            "id": "10e8e562-003a-4ee3-a36a-0a6b0afc1296",
+            "label": "plate3",
+            "scope": "CLASS",
+            "x": 769,
+            "y": 539,
+            "visible": false,
+            "width": 70,
+            "height": 70
+        },
+        {
+            "type": "Rectangle",
+            "id": "5423fa32-27ec-4f4f-b375-c5fa53c6dbf2",
+            "label": "plate1",
+            "scope": "CLASS",
+            "x": 771,
+            "y": 867,
+            "visible": false,
+            "width": 70,
+            "height": 70
+        },
+        {
+            "type": "Rectangle",
+            "id": "82b1d21d-721c-47da-b1dd-30024089820a",
+            "label": "plate2",
+            "scope": "CLASS",
+            "x": 1055,
+            "y": 672,
+            "visible": false,
+            "width": 70,
+            "height": 70
+        },
+        {
+            "type": "Rectangle",
+            "id": "7e4bd3fa-1ec5-4e57-b20b-51e8c7df26e0",
+            "label": "plate4",
+            "scope": "CLASS",
+            "x": 476,
+            "y": 670,
+            "visible": false,
+            "width": 70,
+            "height": 70
+        },
+        {
+            "type": "Rectangle",
+            "id": "befb01c0-a039-4aaa-a366-fb3accc8455a",
+            "label": "plate5",
+            "scope": "CLASS",
+            "x": 768,
+            "y": 701,
+            "visible": false,
+            "width": 70,
+            "height": 70
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "9e830a7e-9e8a-466e-aec7-18c94d7d6d64",
+            "label": "sort",
+            "objectIds": [
+                "53149846-5fcc-4d2d-8ae2-9e6ecaec9cfa",
+                "a9c6ed00-ce28-43ca-93bd-dcd720a4e86b",
+                "a6a7da73-f763-4e4e-93c1-a7115c274824",
+                "da1ec744-e360-45b1-af0c-a7f41cebde6e",
+                "ab02bd7d-43a8-4cc7-ac27-2e3f9d02ecb6",
+                "429159dc-83c6-42f0-ba43-bab4581a9e64",
+                "a17d5d9f-a6ee-4968-8eb4-1ec5493ef4c7",
+                "a3734423-eef2-4ff4-b711-cf64cc979a52",
+                "2a631150-a068-4f62-9ab8-82b5f78c492e",
+                "64025e44-9a25-448e-bbdc-217e579bf231",
+                "d54b8ce1-033c-4fc5-9dac-e1ab8ca67fac",
+                "3412e330-7e10-4092-9645-9d458358b3a7",
+                "d38251f0-c367-4b20-b148-d21cbab9370d",
+                "9515c316-ea29-4880-ad8c-c4ac16a41223",
+                "6d97284d-ba2d-4851-974c-3548919f6fcf",
+                "0130b8d1-369f-4de5-a2e7-333581aed289",
+                "555766e1-b0b3-4066-92e2-384bac4831fe",
+                "0126f93e-129a-4462-9d97-420479badecf",
+                "bf4a2669-8d91-4bff-8d2c-7697c096b2a3",
+                "1230cdfb-d65f-4e96-98b6-e22f5c2cafc7"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,576 @@
+{
+    "id": "ad47e18d-3833-44f4-afaf-480de8c20962",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "604d13b8-868d-46c8-a5a3-13d96bb18968",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "028ec836-255b-461d-bbb6-01fca27a428f",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "42fc311d-8d0d-4f99-a501-759645bdc75f",
+                    "label": "page6",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "52bf2096-23f5-4f6a-8f90-fbdd0ae0cb0d",
+                            "label": "page_3",
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "vikingpg6"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e0fba22d-5261-4325-a1ec-70e6abe2b03a",
+                            "label": "turns_left_1235235",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "leftbtn",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "leftbtn"
+                            },
+                            "x": -204,
+                            "y": 220
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3f506a93-6b95-4d82-b20e-36ac698a7104",
+                            "label": "turns_close_2324543",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "back_close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "back_close"
+                            },
+                            "x": -204,
+                            "y": -329
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "9671f277-8c6d-47ab-88f1-36cbb8cb684a",
+                    "label": "page5",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f653e609-9d6a-4d1d-9f11-87cd2c18b690",
+                            "label": "page_5",
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "vikingpg5"
+                            }
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e8c0cd86-ae7f-46a0-adcf-c6f341c274a8",
+                            "label": "background_back",
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "background_back"
+                            },
+                            "x": -275.1184893255539,
+                            "y": -12.587673782964089,
+                            "originX": 0.5923201925734225,
+                            "originY": 0.43845320495105156
+                        },
+                        {
+                            "type": "Image",
+                            "id": "891222f3-4407-4fa5-ab96-b8dc1086e219",
+                            "label": "misc_outline",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "background_back-active"
+                            },
+                            "x": -292,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f4c2df67-0e96-4fd2-b384-35ac5e10a3b6",
+                            "label": "misc_bg",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => {this.onBgHover(false)}",
+                            "SimpleButton.hoverOutCallback": "() => {this.onBgHover(true)}",
+                            "SimpleButton.callback": "() => {this.interface.prompt.showItem(9027)}",
+                            "SimpleButton.pixelPerfect": true,
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "background"
+                            },
+                            "x": -291,
+                            "y": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                    "label": "page4",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b5c3a3bb-0d03-4c45-906e-876df1322b87",
+                            "label": "page_2",
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "vikingpg4"
+                            }
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "d25bc252-7cd2-42de-8586-df927edde313",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "item",
+                                "scaleX",
+                                "scaleY",
+                                "angle"
+                            ],
+                            "label": "tag_5",
+                            "item": 4086,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy2"
+                            },
+                            "x": -163,
+                            "y": 135,
+                            "scaleX": 1,
+                            "scaleY": 1,
+                            "angle": 16
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "1c4617c8-b2fe-4ed0-b72b-836bc8cb054f",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "item",
+                                "scaleX",
+                                "scaleY",
+                                "angle"
+                            ],
+                            "label": "tag_2",
+                            "item": 1056,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy2"
+                            },
+                            "x": -285,
+                            "y": -206,
+                            "scaleX": 1,
+                            "scaleY": 1,
+                            "angle": 10
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "6570d050-bf44-4133-8240-7b24e38335dc",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "item",
+                                "scaleX",
+                                "scaleY",
+                                "angle"
+                            ],
+                            "label": "tag_4",
+                            "item": 4015,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy2"
+                            },
+                            "x": 459,
+                            "y": 105,
+                            "scaleX": 1,
+                            "scaleY": 1,
+                            "angle": 29.999999999999996
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "4d25a1dc-82ad-4026-801a-b117f449d7d9",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "texture",
+                                "angle"
+                            ],
+                            "label": "tag_8",
+                            "item": 244,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy1"
+                            },
+                            "x": -100,
+                            "y": -293,
+                            "angle": 29.999999999999996
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "2e10b508-8d81-4b45-89f2-9c26327f7eda",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "texture",
+                                "angle"
+                            ],
+                            "label": "tag_6",
+                            "item": 347,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy1"
+                            },
+                            "x": 80,
+                            "y": -402,
+                            "angle": 10
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                    "label": "page3",
+                    "x": 760,
+                    "y": 480,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "75d7cff1-5d67-4a7a-87cc-08e55eff604c",
+                            "label": "page_1",
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "vikingpg3"
+                            }
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "0b4fd15b-2ab5-4319-ae88-1fe3bbd52be1",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_1",
+                            "item": 1057,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy2"
+                            },
+                            "x": 446,
+                            "y": -177,
+                            "angle": -32.00000000000006
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "3ff03377-dc52-42ea-a1e3-169fcb35054a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "texture",
+                                "angle"
+                            ],
+                            "label": "tag_3",
+                            "item": 4085,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy1"
+                            },
+                            "x": 74,
+                            "y": 74,
+                            "angle": -29.999999999999996
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "03d4b6a7-ec06-419a-bd4f-5633c63d08b2",
+                            "label": "rectangle_36",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(455)",
+                            "x": -120,
+                            "y": -163,
+                            "alpha": 0.001,
+                            "isFilled": true,
+                            "width": 94,
+                            "height": 76
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                    "label": "page2",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ddf8dd92-d71d-4d6b-a335-cb2a3683ef54",
+                            "label": "page",
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "vikingpg2"
+                            }
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "c29e74c5-6ffe-4361-8d91-127dd2294e74",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "texture"
+                            ],
+                            "label": "tag1",
+                            "item": 489,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy1"
+                            },
+                            "x": -508,
+                            "y": -198
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "6e46662e-fddc-47e3-927c-212c804558ce",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag",
+                            "item": 5580,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy2"
+                            },
+                            "x": -43,
+                            "y": -124,
+                            "angle": 29.000000000000004
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "73f02308-7820-4110-a76c-523342558eb9",
+                    "label": "page1",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "938eb656-a988-4207-a1ca-9185aee4a924",
+                            "label": "page0",
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "vikingpg1"
+                            },
+                            "x": -760,
+                            "y": -480,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3781075c-2928-4cc8-9bd8-10ec7a0c8af4",
+                            "label": "turns_right_1111",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "front_right",
+                            "Button.callback": "() => this.nextPage();",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "front_right"
+                            },
+                            "x": 6,
+                            "y": -51
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "a90a6b36-99ec-4c13-b748-c40f3429a6dd",
+                            "label": "turns_close_111111",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "closebtn",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "closebtn"
+                            },
+                            "x": 227,
+                            "y": -330
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ad71a0bc-b1f8-4ee2-b189-b90b5a445f56",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 190,
+                    "y": 41,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "bb9facc3-7a86-49f0-a497-0ec458025950",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1133,
+                            "y": 798,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "36c5d442-1418-42f3-a3e7-c0bbfafba6a9",
+                            "label": "turns_right",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "rightbtn",
+                            "Button.callback": "() => this.nextPage();",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "rightbtn"
+                            },
+                            "x": 1077,
+                            "y": 658
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "b2fd8d5d-6c96-48a5-b231-2589ceae057c",
+                            "label": "turns_left",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "leftbtn",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "leftbtn"
+                            },
+                            "x": 66,
+                            "y": 659
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3b010612-b4c6-4ebd-8057-dbbb5bc5b3d6",
+                            "label": "turns_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "closebtn",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "viking-catalog",
+                                "frame": "closebtn"
+                            },
+                            "x": 1077,
+                            "y": 114
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "3003f2ec-9394-4489-a981-17b8c2a9bffb",
+            "label": "pages",
+            "objectIds": [
+                "73f02308-7820-4110-a76c-523342558eb9",
+                "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                "9671f277-8c6d-47ab-88f1-36cbb8cb684a",
+                "42fc311d-8d0d-4f99-a501-759645bdc75f"
+            ]
+        }
+    ]
+}

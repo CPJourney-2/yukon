@@ -1,0 +1,177 @@
+{
+    "id": "6311f8c2-2277-4381-b1b4-489f8b31760c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "1c8d30fa-e431-40f5-8acb-feed8a7125c0",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Text",
+                    "id": "bf8bb4b0-5ce5-4bec-9f43-1f09a2033357",
+                    "label": "errorText",
+                    "scope": "CLASS",
+                    "y": -172,
+                    "scaleX": 0.85,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "visible": false,
+                    "text": "this is A test of the Fonts and this is the new text prompt with lots of info but should maybe be a little bit bigger so that you can see it against everything else",
+                    "fixedWidth": 1200,
+                    "fixedHeight": 360,
+                    "paddingTop": 20,
+                    "align": "center",
+                    "fontFamily": "CCComicrazy",
+                    "fontSize": "30px",
+                    "fontStyle": "bold italic",
+                    "color": "#ffb409",
+                    "stroke": "#000",
+                    "strokeThickness": 10,
+                    "wordWrapWidth": 1100
+                },
+                {
+                    "type": "Container",
+                    "id": "00ecbe37-f44e-4d39-bb5f-d51e078f1598",
+                    "label": "garyPhone",
+                    "scope": "CLASS",
+                    "y": -259,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "791326f7-8e40-4cb8-bc51-13f9a7950490",
+                            "label": "rectangle_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.onGaryPhoneClick()",
+                            "SimpleButton.useHandCursor": false,
+                            "x": 6,
+                            "y": 208,
+                            "scaleX": 12.270218515564197,
+                            "scaleY": 9.952467320730683,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "RoundedRectangleImage",
+                            "id": "caa2ed2e-39ba-4fb7-9854-53df6b633cbc",
+                            "label": "roundedrectangleimage_1",
+                            "width": 1120,
+                            "height": 150,
+                            "fillColor": "#336699",
+                            "fillAlpha": 0.75,
+                            "strokeColor": "#000066",
+                            "lineWidth": 6
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "f6be66d5-5d42-4980-8cb7-1b87641f59e5",
+                            "label": "garyGlitch",
+                            "scope": "CLASS",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "phonebad",
+                            "Animation.end": 130,
+                            "Animation.repeat": 0,
+                            "Animation.autoPlay": false,
+                            "Animation.showOnStart": true,
+                            "texture": {
+                                "key": "garyphone",
+                                "frame": "phonebad0001"
+                            },
+                            "x": -450,
+                            "y": -12
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b86a32d0-b533-4f77-96ab-f99be25d7430",
+                            "label": "garyBody",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "garyphone",
+                                "frame": "body"
+                            },
+                            "x": -450,
+                            "y": -11.5
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "cc943a24-3177-4a49-8af3-6caee1caf03e",
+                            "label": "garyMouth",
+                            "scope": "CLASS",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "mouth",
+                            "Animation.end": 75,
+                            "Animation.autoPlay": false,
+                            "texture": {
+                                "key": "garyphone",
+                                "frame": "mouth0001"
+                            },
+                            "x": -426,
+                            "y": 4
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cbec8245-9678-4efe-a281-cae779d12958",
+                            "label": "garyGlass",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "garyphone",
+                                "frame": "glass"
+                            },
+                            "x": -457,
+                            "y": -27
+                        },
+                        {
+                            "type": "Text",
+                            "id": "35225e9e-88c7-465d-91bf-2ca7950d174f",
+                            "label": "phoneText",
+                            "scope": "CLASS",
+                            "x": 84,
+                            "y": 2,
+                            "scaleX": 0.85,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Hello there",
+                            "fixedWidth": 1000,
+                            "fixedHeight": 100,
+                            "paddingTop": 10,
+                            "align": "center",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "30px",
+                            "fontStyle": "bold italic",
+                            "color": "#000066",
+                            "strokeThickness": 9,
+                            "wordWrapWidth": 950
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

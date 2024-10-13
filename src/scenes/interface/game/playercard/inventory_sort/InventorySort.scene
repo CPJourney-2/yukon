@@ -1,0 +1,462 @@
+{
+    "id": "676b9d5e-1fcd-4a27-8667-0f19254fc582",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 64,
+        "snapHeight": 64,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "FloatingMenu",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "a571d894-2bbb-424f-9b81-7152272e220e",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "3635a2c2-e515-4cd8-9deb-201e8be9121b",
+                    "label": "safe",
+                    "scope": "CLASS",
+                    "isFilled": true,
+                    "fillColor": "#00ffff",
+                    "fillAlpha": 0.5,
+                    "width": 320,
+                    "height": 80
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "4ef7401e-75a4-45ca-a584-9fb48104ad83",
+                    "label": "close",
+                    "scope": "CLASS",
+                    "isFilled": true,
+                    "fillColor": "#00ffff",
+                    "fillAlpha": 0.5,
+                    "width": 295,
+                    "height": 48
+                },
+                {
+                    "type": "Image",
+                    "id": "b6ff79cd-c3ec-45c1-a6ad-d6c2bba626a3",
+                    "label": "all",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "list/small",
+                    "Button.hoverCallback": "() => other_container.visible = false",
+                    "Button.callback": "() => this.filterInventory('All Items', null)",
+                    "texture": {
+                        "key": "main",
+                        "frame": "list/small"
+                    },
+                    "y": -70
+                },
+                {
+                    "type": "Text",
+                    "id": "9eec27bc-a062-4e79-bff9-d13a1d39d99e",
+                    "label": "all_text",
+                    "y": -70,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "All Items",
+                    "fixedWidth": 268,
+                    "fixedHeight": 26,
+                    "align": "center",
+                    "fontFamily": "Arial",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "a9407747-75a6-40f6-a7c3-459c6a0e0934",
+                    "label": "other",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "list/small_arrow",
+                    "Button.hoverCallback": "() => other_container.visible = true",
+                    "Button.callback": "() => this.filterInventory('Other Items', 'other')",
+                    "texture": {
+                        "key": "main",
+                        "frame": "list/small_arrow"
+                    },
+                    "y": -134
+                },
+                {
+                    "type": "Text",
+                    "id": "46b0ab11-2bf0-4112-b1b9-c32ba9b29183",
+                    "label": "other_text",
+                    "y": -134,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Other Items",
+                    "fixedWidth": 268,
+                    "fixedHeight": 26,
+                    "align": "center",
+                    "fontFamily": "Arial",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "7bbf545f-0791-4b96-9096-ebb3964a8e31",
+                    "label": "colors",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "list/small",
+                    "Button.hoverCallback": "() => other_container.visible = false",
+                    "Button.callback": "() => this.filterInventory('Colors', 'color')",
+                    "texture": {
+                        "key": "main",
+                        "frame": "list/small"
+                    },
+                    "y": -198
+                },
+                {
+                    "type": "Text",
+                    "id": "a50d39d8-0d20-44cf-af97-5ce8d8779692",
+                    "label": "colors_text",
+                    "y": -198,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Colors",
+                    "fixedWidth": 268,
+                    "fixedHeight": 26,
+                    "align": "center",
+                    "fontFamily": "Arial",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "ca75850e-25b0-4e96-b2eb-758fde138f76",
+                    "label": "feet",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "list/small",
+                    "Button.hoverCallback": "() => other_container.visible = false",
+                    "Button.callback": "() => this.filterInventory('Feet Items', 'feet')",
+                    "texture": {
+                        "key": "main",
+                        "frame": "list/small"
+                    },
+                    "y": -262
+                },
+                {
+                    "type": "Text",
+                    "id": "d1458238-aed8-4e7d-a33d-6cd6540619c3",
+                    "label": "feet_text",
+                    "y": -262,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Feet Items",
+                    "fixedWidth": 268,
+                    "fixedHeight": 26,
+                    "align": "center",
+                    "fontFamily": "Arial",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "eb8e7c07-800c-4e7e-bbbe-b3ab41cc9887",
+                    "label": "hand",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "list/small",
+                    "Button.hoverCallback": "() => other_container.visible = false",
+                    "Button.callback": "() => this.filterInventory('Hand Items', 'hand')",
+                    "texture": {
+                        "key": "main",
+                        "frame": "list/small"
+                    },
+                    "y": -326
+                },
+                {
+                    "type": "Text",
+                    "id": "6d7413a9-f114-47ff-a131-b32cf01782f6",
+                    "label": "hand_text",
+                    "y": -326,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Hand Items",
+                    "fixedWidth": 268,
+                    "fixedHeight": 26,
+                    "align": "center",
+                    "fontFamily": "Arial",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "2752e957-f0df-4359-bdb9-5581a06ab506",
+                    "label": "body",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "list/small",
+                    "Button.hoverCallback": "() => other_container.visible = false",
+                    "Button.callback": "() => this.filterInventory('Body Items', 'body')",
+                    "texture": {
+                        "key": "main",
+                        "frame": "list/small"
+                    },
+                    "y": -390
+                },
+                {
+                    "type": "Text",
+                    "id": "76a34072-3624-412d-93ce-25edd1869379",
+                    "label": "body_text",
+                    "y": -390,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Body Items",
+                    "fixedWidth": 268,
+                    "fixedHeight": 26,
+                    "align": "center",
+                    "fontFamily": "Arial",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "73ca7be1-c82a-4750-9cc2-7f7df7e4b77c",
+                    "label": "neck",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "list/small",
+                    "Button.hoverCallback": "() => other_container.visible = false",
+                    "Button.callback": "() => this.filterInventory('Neck Items', 'neck')",
+                    "texture": {
+                        "key": "main",
+                        "frame": "list/small"
+                    },
+                    "y": -454
+                },
+                {
+                    "type": "Text",
+                    "id": "3639e781-f436-455b-8900-5992baecba9d",
+                    "label": "neck_text",
+                    "y": -454,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Neck Items",
+                    "fixedWidth": 268,
+                    "fixedHeight": 26,
+                    "align": "center",
+                    "fontFamily": "Arial",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "afdba2a0-5b7b-46e1-9a8d-f97b7d4dabb4",
+                    "label": "face",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "list/small",
+                    "Button.hoverCallback": "() => other_container.visible = false",
+                    "Button.callback": "() => this.filterInventory('Face Items', 'face')",
+                    "texture": {
+                        "key": "main",
+                        "frame": "list/small"
+                    },
+                    "y": -518
+                },
+                {
+                    "type": "Text",
+                    "id": "aa928aa0-1b90-4dfd-b0dc-2d0c01dd4d22",
+                    "label": "face_text",
+                    "y": -518,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Face Items",
+                    "fixedWidth": 268,
+                    "fixedHeight": 26,
+                    "align": "center",
+                    "fontFamily": "Arial",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "1546d5be-fe22-4f3b-a5b2-d54c5c3c3216",
+                    "label": "head",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "list/small",
+                    "Button.hoverCallback": "() => other_container.visible = false",
+                    "Button.callback": "() => this.filterInventory('Head Items', 'head')",
+                    "texture": {
+                        "key": "main",
+                        "frame": "list/small"
+                    },
+                    "y": -582
+                },
+                {
+                    "type": "Text",
+                    "id": "bf7edb85-fddf-4fbd-90b3-c30c7da4d77b",
+                    "label": "head_text",
+                    "y": -582,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Head Items",
+                    "fixedWidth": 268,
+                    "fixedHeight": 26,
+                    "align": "center",
+                    "fontFamily": "Arial",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Container",
+                    "id": "3cf02094-87a6-4f5e-a56a-0a9c81b3ad5a",
+                    "label": "other_container",
+                    "scope": "CLASS",
+                    "x": 264,
+                    "y": -198,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9e32ce52-106b-4ec9-b45d-ceee4a519a9e",
+                            "label": "inventory_list_item_9",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "list/small",
+                            "Button.callback": "() => this.filterInventory('Pins/Flags', 'flag')",
+                            "texture": {
+                                "key": "main",
+                                "frame": "list/small"
+                            }
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9927a2fc-6be3-4b3b-ba4c-fd45f89607cd",
+                            "label": "inventory_list_item_10",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "list/small",
+                            "Button.callback": "() => this.filterInventory('Transformations', 'transforms')",
+                            "texture": {
+                                "key": "main",
+                                "frame": "list/small"
+                            },
+                            "y": 64
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7dd93108-f8b0-44b5-8487-2beec75579ba",
+                            "label": "inventory_list_item_11",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "list/small",
+                            "Button.callback": "() => this.filterInventory('Backgrounds', 'photo')",
+                            "texture": {
+                                "key": "main",
+                                "frame": "list/small"
+                            },
+                            "y": 128
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d737a491-0b81-4d75-bb7c-d2d3267687ca",
+                            "label": "inventory_list_item12",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "list/small",
+                            "Button.callback": "() => this.filterInventory('Awards', 'award')",
+                            "texture": {
+                                "key": "main",
+                                "frame": "list/small"
+                            },
+                            "y": -64
+                        },
+                        {
+                            "type": "Text",
+                            "id": "2f15edf9-7e1e-48f6-aab7-dfc2db6e1887",
+                            "label": "pins_text",
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Pins/Flags",
+                            "fixedWidth": 268,
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "24px",
+                            "color": "#000000ff"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "a076607f-7453-46ed-9678-46c48dd9be91",
+                            "label": "transformations_text",
+                            "y": 64,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Transformations",
+                            "fixedWidth": 268,
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "24px",
+                            "color": "#000000ff"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "2bbbebc0-87a5-4aba-9e0a-7bf09a32ad48",
+                            "label": "backgrounds_text",
+                            "y": 128,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Backgrounds",
+                            "fixedWidth": 268,
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "24px",
+                            "color": "#000000ff"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "61b78f8e-bbfe-4b4f-ab78-f73058db58fd",
+                            "label": "awards_text",
+                            "x": 3,
+                            "y": -64,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Awards",
+                            "fixedWidth": 268,
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "24px",
+                            "color": "#000000ff"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

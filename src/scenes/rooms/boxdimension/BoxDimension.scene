@@ -1,0 +1,595 @@
+{
+    "id": "c06a7048-ee59-4cec-b242-f4cf9ad43351",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/boxdimension/boxdimension-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "BoxDimension",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "ef40c4b5-ac58-4893-b555-4568fadb726b",
+            "label": "reference",
+            "texture": {
+                "key": "reference"
+            },
+            "x": 760,
+            "y": 480,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "81413ffb-55e2-4419-b3b2-7012d6b3ec9b",
+            "label": "purplesky",
+            "texture": {
+                "key": "boxdimension",
+                "frame": "purplesky"
+            },
+            "x": 775,
+            "y": 499
+        },
+        {
+            "type": "Container",
+            "id": "baf23889-7648-4da0-a928-27ea05b010f3",
+            "label": "clouds",
+            "scope": "CLASS",
+            "x": -609,
+            "y": 174,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "9dea32f1-0e01-4a69-a803-4935f10abd9a",
+                    "label": "cloud1",
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "cloud1"
+                    },
+                    "x": 397,
+                    "y": 14
+                },
+                {
+                    "type": "Image",
+                    "id": "8b5cd895-24e2-499c-ba6d-b094d8dedf7e",
+                    "label": "cloud2",
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "cloud2"
+                    },
+                    "x": 800,
+                    "y": 1
+                },
+                {
+                    "type": "Image",
+                    "id": "dae29f6c-2c98-4f05-9a1e-a0ac682658b0",
+                    "label": "cloud",
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "cloud2"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "52e02d52-1eb9-46ac-b082-09a0b296e943",
+                    "label": "cloud_1",
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "cloud1"
+                    },
+                    "x": 1200,
+                    "y": 14
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "70913497-6933-47f1-b502-d44ef4ba06ac",
+            "label": "purplesky_1",
+            "texture": {
+                "key": "boxdimension",
+                "frame": "purplesky"
+            },
+            "x": 1389,
+            "y": 497,
+            "scaleX": 0.17594878427795768
+        },
+        {
+            "type": "Image",
+            "id": "a4d1b439-1c82-4931-85bc-670cea0fa56b",
+            "label": "purpleskyAbove",
+            "texture": {
+                "key": "boxdimension",
+                "frame": "purpleskyAbove"
+            },
+            "x": 760,
+            "y": 468
+        },
+        {
+            "type": "Container",
+            "id": "029eecaf-95f0-4908-a61e-f0ce0956b021",
+            "label": "bgboxes",
+            "x": -15,
+            "y": 18,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "d93f8e9f-6b6b-4f0d-9b51-d325c94b1e3f",
+                    "label": "bgboxes_t0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/t",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/t0001"
+                    },
+                    "x": 390,
+                    "y": 150
+                },
+                {
+                    "type": "Sprite",
+                    "id": "9b7483b4-0ef7-475c-a88d-adefb5bfd248",
+                    "label": "bgboxes_s0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/s",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/s0001"
+                    },
+                    "x": 80,
+                    "y": 178
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ac4de781-77b4-44fc-a30f-9a5e7b04d970",
+                    "label": "bgboxes_r0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/r",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/r0001"
+                    },
+                    "x": 106,
+                    "y": 137
+                },
+                {
+                    "type": "Sprite",
+                    "id": "0655ce49-c2df-4ddc-a166-b17dcf6b0110",
+                    "label": "bgboxes_q0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/q",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/q0001"
+                    },
+                    "x": 54,
+                    "y": 467
+                },
+                {
+                    "type": "Sprite",
+                    "id": "239b85c7-51ac-4c50-9257-ea6f60349010",
+                    "label": "bgboxes_p0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/p",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/p0001"
+                    },
+                    "x": 90,
+                    "y": 554
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f98cb3c0-1158-4ef2-86a0-d05d2803d672",
+                    "label": "bgboxes_o0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/o",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/o0001"
+                    },
+                    "x": 104,
+                    "y": 496
+                },
+                {
+                    "type": "Sprite",
+                    "id": "dd94ab07-a7a2-4cdb-9e9c-af7ed7ba1f55",
+                    "label": "bgboxes_n0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/n",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/n0001"
+                    },
+                    "x": 184,
+                    "y": 490
+                },
+                {
+                    "type": "Sprite",
+                    "id": "cefb25ec-ccd6-48c4-8c01-3fd9add057aa",
+                    "label": "bgboxes_m0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/m",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/m0001"
+                    },
+                    "x": 281,
+                    "y": 347
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8a818220-d234-4e37-9c0c-4edccc6f7f2c",
+                    "label": "bgboxes_l0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/l",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/l0001"
+                    },
+                    "x": 11,
+                    "y": 419
+                },
+                {
+                    "type": "Sprite",
+                    "id": "29a7bc04-bef5-47a5-b4d2-89809ec5b1de",
+                    "label": "bgboxes_k0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/k",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/k0001"
+                    },
+                    "y": 581
+                },
+                {
+                    "type": "Sprite",
+                    "id": "01286cbc-2783-4cfe-954b-f3daef290ed9",
+                    "label": "bgboxes_j0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/j",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/j0001"
+                    },
+                    "x": 868,
+                    "y": 123
+                },
+                {
+                    "type": "Sprite",
+                    "id": "388dd699-f806-49f2-9588-ca916b08bead",
+                    "label": "bgboxes_i0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/i",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/i0001"
+                    },
+                    "x": 924,
+                    "y": 156
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f61268f1-1956-46d5-b0aa-66778686cc9c",
+                    "label": "bgboxes_h0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/h",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/h0001"
+                    },
+                    "x": 837,
+                    "y": 181
+                },
+                {
+                    "type": "Sprite",
+                    "id": "33da406a-e6f0-4eac-aa08-8a612ae69276",
+                    "label": "bgboxes_g0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/g",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/g0001"
+                    },
+                    "x": 932
+                },
+                {
+                    "type": "Sprite",
+                    "id": "3e8b5c56-b851-4950-88aa-15c7017b495e",
+                    "label": "bgboxes_f0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/f",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/f0001"
+                    },
+                    "x": 1027,
+                    "y": 26
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8b66207c-22f9-46f4-8b76-1cf7c0c862a2",
+                    "label": "bgboxes_e0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/e",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/e0001"
+                    },
+                    "x": 633,
+                    "y": 161
+                },
+                {
+                    "type": "Sprite",
+                    "id": "693b469b-74ac-4499-8e3e-c7c8f04882ee",
+                    "label": "bgboxes_d0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/d",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/d0001"
+                    },
+                    "x": 713,
+                    "y": 80
+                },
+                {
+                    "type": "Sprite",
+                    "id": "a6286b2e-538a-4297-b00b-a961225f3769",
+                    "label": "bgboxes_c0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/c",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/c0001"
+                    },
+                    "x": 941,
+                    "y": 70
+                },
+                {
+                    "type": "Sprite",
+                    "id": "3bac8969-c0a8-4dfc-b8bc-48c41479f21c",
+                    "label": "bgboxes_b0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/b",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/b0001"
+                    },
+                    "x": 569,
+                    "y": 53
+                },
+                {
+                    "type": "Sprite",
+                    "id": "de28be31-3f5a-4e97-9a87-b2b083a874c7",
+                    "label": "bgboxes_a0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bgboxes/a",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "bgboxes/a0001"
+                    },
+                    "x": 152,
+                    "y": 387
+                }
+            ]
+        },
+        {
+            "type": "Sprite",
+            "id": "739b7b4a-2f15-4af1-8100-4324b21404cf",
+            "label": "plok",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "plok",
+            "Animation.end": 100,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "boxdimension",
+                "frame": "plok0001"
+            },
+            "x": 321,
+            "y": 239
+        },
+        {
+            "type": "Sprite",
+            "id": "086f594c-7277-4996-bf93-4e099e02ec10",
+            "label": "portal0001",
+            "components": [
+                "Animation",
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "Animation.key": "portal",
+            "Animation.end": 20,
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "boxdimension",
+                "frame": "portal0001"
+            },
+            "x": 1205.9774294055085,
+            "y": 240.47552748994968,
+            "originX": 0.3694249365954612,
+            "originY": 0.8179021268250984
+        },
+        {
+            "type": "Image",
+            "id": "031e8ffe-c393-4d96-8233-8e7f9d7bdc33",
+            "label": "platform_back",
+            "texture": {
+                "key": "boxdimension",
+                "frame": "platform-back"
+            },
+            "x": 1189,
+            "y": 238
+        },
+        {
+            "type": "Sprite",
+            "id": "e240c4b2-55cd-4581-93be-fd5774f55837",
+            "label": "boxRight0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "boxRight",
+            "Animation.end": 110,
+            "texture": {
+                "key": "boxdimension",
+                "frame": "boxRight0001"
+            },
+            "x": 1489,
+            "y": 444
+        },
+        {
+            "type": "Image",
+            "id": "9513e9c0-c591-4fbe-857d-75a48e2f96c9",
+            "label": "platform",
+            "texture": {
+                "key": "boxdimension",
+                "frame": "platform"
+            },
+            "x": 765,
+            "y": 586
+        },
+        {
+            "type": "Container",
+            "id": "6df11b8f-50c6-40b0-a088-f010a5af4f44",
+            "label": "foreground",
+            "x": 741.8735846890304,
+            "y": 985.8880788302723,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "7f03c94f-feba-4537-ae02-01c26e73a9f9",
+                    "label": "foreground_boxA0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "foreground/boxA",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "foreground/boxA0001"
+                    },
+                    "x": -631.8735846890304,
+                    "y": -171.88807883027232
+                },
+                {
+                    "type": "Sprite",
+                    "id": "332351e6-2338-43b2-a1d6-d4d5c0b4dfc8",
+                    "label": "foreground_boxB0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "foreground/boxB",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "foreground/boxB0001"
+                    },
+                    "x": 422.1264153109696,
+                    "y": -143.88807883027232
+                },
+                {
+                    "type": "Sprite",
+                    "id": "6662cfa8-90e4-4c86-a95e-ffc4f5d12b54",
+                    "label": "foreground_boxC0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "foreground/boxC",
+                    "Animation.end": 110,
+                    "texture": {
+                        "key": "boxdimension",
+                        "frame": "foreground/boxC0001"
+                    },
+                    "x": 699.1264153109696,
+                    "y": -209.88807883027232
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "0c192a27-51a8-4e6b-bd3c-099cd3a091b8",
+            "label": "sort",
+            "objectIds": [
+                "6df11b8f-50c6-40b0-a088-f010a5af4f44"
+            ]
+        }
+    ]
+}

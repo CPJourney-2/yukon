@@ -1,0 +1,1386 @@
+{
+    "id": "8bf092c7-e52d-432a-a9e1-247d82e67cbd",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/stage/fairy fables/fairyfables-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Stage",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "05b59235-2579-4265-9d15-df10fc204aa9",
+            "label": "bg",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "bg"
+            },
+            "x": 772.8732988618494,
+            "y": 433.19685625982726,
+            "originX": 0.5083701553067942,
+            "originY": 0.4235387216628804,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "de607dec-3622-4dfd-8376-a1cbb1a323ca",
+            "label": "river",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "river"
+            },
+            "x": 978,
+            "y": 476,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "f13ba61b-a952-4cde-b65f-027557d880e3",
+            "label": "bigtree",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "bigtree"
+            },
+            "x": 876.1057599434895,
+            "y": 289.96318814179773,
+            "originX": 0.38644450875892994,
+            "originY": 0.7446662264374639,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "35e92714-4e79-443c-a49f-9fd2455e0c8e",
+            "label": "bluebook0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bluebook",
+            "Animation.end": 90,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "bluebook0001"
+            },
+            "x": 380.89794828848034,
+            "y": 259.05900789893883,
+            "originX": 0.1856075810951901,
+            "originY": 0.46795946275370087,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "2cef74f3-349b-4b1e-92cd-221faae7309a",
+            "label": "blueee0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bluefix",
+            "Animation.end": 40,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "fairyfablesbluefix_1",
+                "frame": "bluefix0001"
+            },
+            "x": 538,
+            "y": 111,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "0de4d879-fae6-4fab-892f-272a327e2036",
+            "label": "fireplace",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "fireplace"
+            },
+            "x": 514,
+            "y": 252,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "58eb77d2-63ea-4dcf-a2b4-7c6dd7c514af",
+            "label": "fire0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fire",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "fire0001"
+            },
+            "x": 511,
+            "y": 272,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "da9ebcca-2264-4fa4-92df-2487d954d62f",
+            "label": "redchair_back",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "redchair back"
+            },
+            "x": 549.8872373474012,
+            "y": 300.61040369298985,
+            "originX": 0.394252033539217,
+            "originY": 0.5951854518084866,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "2eafe40f-7a23-45b3-8f69-ae12a99f8460",
+            "label": "bluebookfront",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "bluebookfront"
+            },
+            "x": 354,
+            "y": 267.2290139531094,
+            "originY": 0.690237209292353,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "5ff020af-fca0-4d7f-879f-8a9e68f6cf15",
+            "label": "blinkingeyes",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "eyes",
+            "Animation.end": 54,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "eyes0001"
+            },
+            "x": 346,
+            "y": 195,
+            "scaleX": 0.4365271554542136,
+            "scaleY": 0.4365271554542136,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "b75ff1e0-6de8-406c-a237-ea8a10ddcdb7",
+            "label": "sun0001",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "sun0001"
+            },
+            "x": 1061,
+            "y": 56,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "c2dbd2f7-6386-471e-98b6-3691470d9282",
+            "label": "topright",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "topright"
+            },
+            "x": 1177,
+            "y": 139,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "711cfb06-ca5d-43c9-891e-0b150ae6a20d",
+            "label": "front_log",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "front log"
+            },
+            "x": 831.8656682572508,
+            "y": 447.62650540300683,
+            "originX": 0.6041305913201664,
+            "originY": 0.8580033304992414,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "02f1028d-8d7a-4ba8-a313-5845dc23ed7c",
+            "label": "unicorn0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "unicorn",
+            "Animation.end": 116,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "unicorn0001"
+            },
+            "x": 932.4550096251633,
+            "y": 326.6795638938287,
+            "originX": 0.5221363087674782,
+            "originY": 1.1643549505710273,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "4578c093-3a26-4066-b8fe-cfa7a6717e7e",
+            "label": "greenbook0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "greenbook",
+            "Animation.end": 43,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "greenbook0001"
+            },
+            "x": 337,
+            "y": 297,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "d90ae087-552c-43f9-97f3-bd419d868c65",
+            "label": "puffle0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "puffle",
+            "Animation.end": 94,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "puffle0001"
+            },
+            "x": 352,
+            "y": 197,
+            "visible": false,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "d4f3c9b8-fadf-4571-8e73-44aea5886dee",
+            "label": "bigwave0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bigwave",
+            "Animation.end": 9,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "bigwave0001"
+            },
+            "x": 905,
+            "y": 605,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "0a86a65b-c3e6-47ad-97c5-f19bbd9678b4",
+            "label": "redchair_front",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "redchair front"
+            },
+            "x": 589.1314177974996,
+            "y": 335.86391471340977,
+            "originX": 0.4096239183881524,
+            "originY": 0.6198375223576744,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "33c7e243-4a64-4efa-adab-a7b5d091dbe0",
+            "label": "book0001",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "book",
+            "Animation.end": 16,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
+            "Animation.stopOnOut": false,
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "book0001"
+            },
+            "x": 527.3385009765625,
+            "y": 356.9220886230469,
+            "originX": 0.48461599233122277,
+            "originY": 0.6888037304804476,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "017b5db0-8b17-442a-a0f4-954a2272d341",
+            "label": "shroom",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "shroom"
+            },
+            "x": 356,
+            "y": 436,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "45d91aa3-c53b-4b31-a2da-96a76a1c6a87",
+            "label": "treefall0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "treefall",
+            "Animation.end": 23,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "treefall0001"
+            },
+            "x": 796.4427790336913,
+            "y": 524.9682348318686,
+            "originX": 0.30438947413380885,
+            "originY": 0.734607839635368,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "9ea6e25c-922f-4e96-9bb1-2874e1574298",
+            "label": "frontflowers",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "frontflowers"
+            },
+            "x": 598,
+            "y": 558.248992982273,
+            "originY": 0.6249760233874516,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "e97fc56d-b029-4164-aabf-64ebd5da1e95",
+            "label": "waves0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "waves",
+            "Animation.end": 6,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "waves0001"
+            },
+            "x": 990,
+            "y": 458,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ce317345-b7cf-4b91-a256-6d4dfdee7aa0",
+            "label": "pillar",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "pillar"
+            },
+            "x": 145,
+            "y": 468,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "7d162f75-13d9-4b6e-b855-8910ecf7d90f",
+            "label": "pillar_1",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "pillar"
+            },
+            "x": 1383,
+            "y": 465,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ffc5eeff-57f6-4cef-a4d5-55d56bf44f43",
+            "label": "pebbles",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "pebbles"
+            },
+            "x": 984,
+            "y": 481,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "7bad9005-1e7b-4660-bca7-f156932de3b1",
+            "label": "bridge_back",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "bridge back"
+            },
+            "x": 1047.9035488861352,
+            "y": 462.2578706683189,
+            "originX": 0.5133190315877764,
+            "originY": 0.47360410103513484,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "c156260d-5721-48f9-9c7f-fe57b216b4b4",
+            "label": "foam0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "foam",
+            "Animation.end": 9,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "foam0001"
+            },
+            "x": 904,
+            "y": 626,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "e9fc5e81-0304-482a-b604-2d9d6c2f8047",
+            "label": "bridge_floor",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "bridge floor"
+            },
+            "x": 1047,
+            "y": 490,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "2182f086-20b1-41d4-8d86-a6f9aab9997f",
+            "label": "strawfish",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "strawfish",
+            "Animation.end": 155,
+            "Animation.autoPlay": false,
+            "Animation.stopOnOut": false,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "strawfish0001"
+            },
+            "x": 1003,
+            "y": 622,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "c3c339ab-feeb-4c36-bb3e-52d3cc9b9378",
+            "label": "strawfish0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "strawfish",
+            "Animation.end": 155,
+            "Animation.autoPlay": false,
+            "Animation.stopOnOut": false,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "strawfish0001"
+            },
+            "x": 773,
+            "y": 619,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "4d2f3055-dcd6-43b2-9041-0347c72bb898",
+            "label": "bridge_front",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "bridge front"
+            },
+            "x": 1047,
+            "y": 495,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ee0b1f8c-d21a-4b8c-b9e5-9d2b7b721576",
+            "label": "bottom",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "bottom"
+            },
+            "x": 1133,
+            "y": 243,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "b4f42c96-45fa-49a7-a890-6e418e3348fb",
+            "label": "ridge",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "ridge"
+            },
+            "x": 1136.9576797141985,
+            "y": 328.0689537123701,
+            "originX": 0.5088582792497672,
+            "originY": 1.2555956791643879,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "11115c49-9bbd-414d-b315-ee7ff99c23af",
+            "label": "fg_bg",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "fg bg"
+            },
+            "x": 758.0724134224581,
+            "y": 366.4746952699816,
+            "originX": 0.49621261434670677,
+            "originY": 0.7280051514155701,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "0bd75d7c-733a-488d-bb6a-040fea5941fe",
+            "label": "curtainlog",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "curtainlog"
+            },
+            "x": 299.063241123673,
+            "y": 460.4889090051584,
+            "originX": 0.22664855924115898,
+            "originY": 0.49300417900439963,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ced754fc-e6e6-42ec-ade6-aa85a9c94cfe",
+            "label": "waterlog",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "waterlog"
+            },
+            "x": 528.3235247709632,
+            "y": 523.2482464333735,
+            "originX": 0.5349107959594939,
+            "originY": 0.33298456429767986,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "0e5a4d65-d754-4cd9-95db-da694e79fa8a",
+            "label": "fg2",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "fg2"
+            },
+            "x": 756.0192578677207,
+            "y": 514.8060122013112,
+            "originX": 0.4986768589630733,
+            "originY": 0.6531247034929067,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "58b989fd-12a8-4591-b4b4-b2ec6b0bcfca",
+            "label": "backflowers",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "backflowers"
+            },
+            "x": 617,
+            "y": 526.6716051279374,
+            "originY": 0.634589563648024,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "90400f28-cc8c-4a3f-9d6f-5b36672d4b68",
+            "label": "seatfront",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "seatfront"
+            },
+            "x": 116.67067047332263,
+            "y": 839.6648696903517,
+            "originX": 0.5268752422084177,
+            "originY": 4.442243234961824,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "f9d28239-baf4-46d5-b716-7462f3e304a1",
+            "label": "seatrightfront",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "seatrightfront"
+            },
+            "x": 1391.5984289422909,
+            "y": 841.788572010468,
+            "originX": 0.45070361223011673,
+            "originY": 4.451091093384791,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "52d020ff-9ffc-4bb1-b5f7-f923f737a148",
+            "label": "fg",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "fg"
+            },
+            "x": 760.0529393857448,
+            "y": 1165.2819374927753,
+            "originX": 0.5019966902457454,
+            "originY": 1.2424338967429511,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "8f1b69b5-da0c-41de-99c3-b30744a2918f",
+            "label": "trunk_costumes0001",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "costumetrunk",
+            "texture": {
+                "key": "fairyfablesbluefix_1",
+                "frame": "costumetrunk"
+            },
+            "x": 1341.3012277162593,
+            "y": 631.4937180726431,
+            "originX": 0.4625768681970479,
+            "originY": 0.6800736718475353,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "7d55620d-b6ab-4648-9e99-fc49cfe9c21a",
+            "label": "straw",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "straw"
+            },
+            "x": 754.6033463516028,
+            "y": 691.4895300394842,
+            "originX": 0.5107089385233842,
+            "originY": 1.2360141670322609,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "b697351c-b46b-46b3-a05c-c8917624b95e",
+            "label": "door_door_1",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door/door",
+            "texture": {
+                "key": "fairyfables",
+                "frame": "door/door"
+            },
+            "x": 157.5542540217607,
+            "y": 655.6910348259888,
+            "originX": 0.7481706495016515,
+            "originY": 0.791753764946472,
+            "list": []
+        },
+        {
+            "type": "Container",
+            "id": "24f66af6-ecb9-4e49-8805-ed167126a810",
+            "label": "left chair",
+            "components": [],
+            "x": 405.79182930422894,
+            "y": 705.7026245989849,
+            "list": []
+        },
+        {
+            "type": "Container",
+            "id": "22926359-bc49-4591-bafb-4ee31b5f942c",
+            "label": "right chair",
+            "components": [],
+            "x": 805,
+            "y": 515,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "7c7f5ced-2e24-4be4-ab3c-892760e5eb88",
+            "label": "chairs_BOT_1",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/BOT 1"
+            },
+            "x": 145,
+            "y": 828,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "7d23a3e8-d89d-4c4a-8725-1d71a35e250d",
+            "label": "chairs_BOT_2",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/BOT 2"
+            },
+            "x": 241.00001525878906,
+            "y": 848,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "c382dbce-5145-402c-b9be-793ba54fc876",
+            "label": "chairs_top_2",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/top 2"
+            },
+            "x": 286,
+            "y": 751,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "f9eee5d3-20ac-44ef-8c69-390fa08248ba",
+            "label": "chairs_TOP_3",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/TOP 3"
+            },
+            "x": 385,
+            "y": 772,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "180fc621-249f-4b1a-8184-9894c758ecba",
+            "label": "chairs_TOP_LEFT",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/TOP LEFT"
+            },
+            "x": 194.00001525878906,
+            "y": 730,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "27257a75-5724-4012-a249-60b2460feedc",
+            "label": "chairs_TOP_4",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/TOP 4"
+            },
+            "x": 490,
+            "y": 789,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "fe3df206-0aa4-4c3e-a2a2-fc5880a1867a",
+            "label": "chairs_BOT_3",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/BOT 3"
+            },
+            "x": 350,
+            "y": 862,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "256c61ff-b090-4e86-8287-6887cf408f30",
+            "label": "chairs_TOP_5",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/TOP 5"
+            },
+            "x": 590.8258056640625,
+            "y": 837.8065185546875,
+            "originX": 0.40635230678860984,
+            "originY": 0.8140918502961992,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "be410e1b-329a-4df7-b0c3-ea367f63240c",
+            "label": "chairs_BOT_4",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/BOT 4"
+            },
+            "x": 462,
+            "y": 872,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "83733a35-d7a9-4b93-9d96-c26212008c6e",
+            "label": "chairs_BOT_5",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/BOT 5"
+            },
+            "x": 579,
+            "y": 885,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "243e6c4b-0050-4d0b-a6d8-43d913177577",
+            "label": "chairs_TOP_LEFT1",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/TOP LEFT"
+            },
+            "x": 1334,
+            "y": 731,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "408a133c-523f-43ec-9570-e7f4e84de76f",
+            "label": "chairs_BOT_11",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/BOT 1"
+            },
+            "x": 1383,
+            "y": 829,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "8604a72f-d871-4441-8d0a-6619a7a56af5",
+            "label": "chairs_top_21",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/top 2"
+            },
+            "x": 1243,
+            "y": 753,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "51219ae3-b788-42ff-ac95-2dc7af35de6e",
+            "label": "chairs_BOT_21",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/BOT 2"
+            },
+            "x": 1288,
+            "y": 848,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "f3b70499-7aa8-467b-b782-1c8a46e0375b",
+            "label": "chairs_TOP_31",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/TOP 3"
+            },
+            "x": 1143,
+            "y": 773,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "06d73cd4-6534-42a5-9c6f-11944aad71b4",
+            "label": "chairs_BOT_31",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/BOT 3"
+            },
+            "x": 1177,
+            "y": 863,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "bb654a9e-267c-4f63-a27d-d2946de721cd",
+            "label": "chairs_TOP_41",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/TOP 4"
+            },
+            "x": 1039,
+            "y": 790,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "c7204f5b-cf08-4938-ad58-5c944096d540",
+            "label": "chairs_BOT_41",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/BOT 4"
+            },
+            "x": 1065,
+            "y": 873,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "e0d1f91c-bee5-4adc-b9e3-aa6041e19e52",
+            "label": "chairs_TOP_51",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/TOP 5"
+            },
+            "x": 926,
+            "y": 803,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "6b9f4428-b9b1-464e-bf8b-2bb6f4169a79",
+            "label": "chairs_BOT_51",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "chairs/BOT 5"
+            },
+            "x": 950,
+            "y": 886,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "edf95b93-dd4e-466d-8919-92df3fb5b405",
+            "label": "switchbox_switchbox",
+            "components": [],
+            "texture": {
+                "key": "fairyfables",
+                "frame": "switchbox/switchbox"
+            },
+            "x": 765,
+            "y": 876,
+            "originX": 0.48363242087092173,
+            "originY": 0.39509159752042977,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "48952cd7-4fc8-43f6-a7bb-2a724deb15e7",
+            "label": "switchbox_secondgreen0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "switchbox/secondgreen",
+            "Animation.end": 13,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "SimpleButton.callback": "() => {this.onDisk()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "switchbox/secondgreen0001"
+            },
+            "x": 689,
+            "y": 1111,
+            "originX": -0.09667059204552611,
+            "originY": 8.4357188742055,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "363273cd-50f8-4584-93af-557f4878bf63",
+            "label": "switchbox_firstgreen0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "switchbox/firstgreen",
+            "Animation.end": 18,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "SimpleButton.callback": "() => {this.onFish()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "switchbox/firstgreen0001"
+            },
+            "x": 703,
+            "y": 1187,
+            "originX": 1.5883271598910413,
+            "originY": 10.577103332324441,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "486543e6-81cb-4a87-a0e2-57a4ea1c0219",
+            "label": "switchbox_purplebutton0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "switchbox/purplebutton",
+            "Animation.end": 12,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "SimpleButton.callback": "() => {this.onTree()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "switchbox/purplebutton0001"
+            },
+            "x": 760,
+            "y": 1198,
+            "originX": 0.8775437253454054,
+            "originY": 17.18056822889696,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "ff8c3613-f7ae-4be0-ab57-451624e3851c",
+            "label": "switchbox_redbutton0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "switchbox/redbutton",
+            "Animation.end": 39,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.stopOnOut": false,
+            "SimpleButton.callback": "() => {this.onRedButton()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "switchbox/redbutton0001"
+            },
+            "x": 797,
+            "y": 1198,
+            "originX": 1.2030124540914435,
+            "originY": 18.945707724018337,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "09680df9-21ed-4e3a-8451-51e63633d2ca",
+            "label": "switchbox_tealbutton0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "switchbox/tealbutton",
+            "Animation.end": 76,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.stopOnOut": false,
+            "SimpleButton.callback": "() => {this.onSun()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "switchbox/tealbutton0001"
+            },
+            "x": 719,
+            "y": 1195,
+            "originX": 0.26566251530285345,
+            "originY": 18.83783808820536,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "4474e8f1-5d49-415e-8dd1-704289a12331",
+            "label": "switchbox_yellow0001",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton",
+                "Animation"
+            ],
+            "SimpleButton.callback": "() => {this.onYellowClick()}",
+            "SimpleButton.pixelPerfect": true,
+            "Animation.key": "switchbox/yellow",
+            "Animation.end": 13,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.stopOnOut": false,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "switchbox/yellow0001"
+            },
+            "x": 870,
+            "y": 1062,
+            "originX": 0.7375430267252625,
+            "originY": 4.893652975519899,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "252904fd-6b52-4a2e-9e06-693dfded756b",
+            "label": "switchbox_thirdgreen0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "switchbox/thirdgreen",
+            "Animation.end": 13,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "SimpleButton.callback": "() => {this.onGreenBook()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "switchbox/thirdgreen0001"
+            },
+            "x": 816,
+            "y": 1353,
+            "originX": 0.7836585764095182,
+            "originY": 16.070241706827012,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "33158bda-e2d5-4698-9e8a-d5bff6793679",
+            "label": "switchbox_furthest_green0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "switchbox/furthest green",
+            "Animation.end": 14,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "SimpleButton.callback": "() => {this.onBlueBookClick()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "fairyfables",
+                "frame": "switchbox/furthest green0001"
+            },
+            "x": 834,
+            "y": 1030,
+            "originX": 0.6628866468973229,
+            "originY": 6.731648233571828,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "9daac1c1-0981-4ad2-9df3-7deaadd4298b",
+            "label": "shops_book",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "shops/book",
+            "Button.callback": "() => {this.interface.loadWidget(\"FairyFablesBook\")}",
+            "texture": {
+                "key": "fairyfables",
+                "frame": "shops/book"
+            },
+            "x": 1431.0326649402473,
+            "y": 1252.5363842627019,
+            "originX": 0.32507902000254935,
+            "originY": 4.207676920464459,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "8bd4fa7b-d132-4c15-99f4-6bb34db9164d",
+            "label": "shops_trunk",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "shops/trunk",
+            "Button.callback": "() => {this.interface.loadWidget(\"FairyFablesCatalog\")}",
+            "texture": {
+                "key": "fairyfables",
+                "frame": "shops/trunk"
+            },
+            "x": 1438.131040674808,
+            "y": 2862.797005867764,
+            "originX": 0.5531442954576568,
+            "originY": 17.759103869443507,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "3a829b7d-3f6c-4d5b-bfd8-48f4eed7ba0b",
+            "label": "shops_script",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "shops/script",
+            "Button.callback": "() => this.interface.loadWidget('StageScript',true)",
+            "texture": {
+                "key": "fairyfables",
+                "frame": "shops/script"
+            },
+            "x": 1398.2257507434206,
+            "y": 1414.0953781098478,
+            "originX": -0.03598070031714567,
+            "originY": 5.35435902809663,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "c458aaf8-5e43-4a2e-9190-cc40c34eb344",
+            "label": "sort",
+            "objectIds": [
+                "180fc621-249f-4b1a-8184-9894c758ecba",
+                "c382dbce-5145-402c-b9be-793ba54fc876",
+                "f9eee5d3-20ac-44ef-8c69-390fa08248ba",
+                "27257a75-5724-4012-a249-60b2460feedc",
+                "256c61ff-b090-4e86-8287-6887cf408f30",
+                "83733a35-d7a9-4b93-9d96-c26212008c6e",
+                "be410e1b-329a-4df7-b0c3-ea367f63240c",
+                "fe3df206-0aa4-4c3e-a2a2-fc5880a1867a",
+                "7d23a3e8-d89d-4c4a-8725-1d71a35e250d",
+                "7c7f5ced-2e24-4be4-ab3c-892760e5eb88",
+                "e0d1f91c-bee5-4adc-b9e3-aa6041e19e52",
+                "bb654a9e-267c-4f63-a27d-d2946de721cd",
+                "f3b70499-7aa8-467b-b782-1c8a46e0375b",
+                "8604a72f-d871-4441-8d0a-6619a7a56af5",
+                "243e6c4b-0050-4d0b-a6d8-43d913177577",
+                "51219ae3-b788-42ff-ac95-2dc7af35de6e",
+                "06d73cd4-6534-42a5-9c6f-11944aad71b4",
+                "c7204f5b-cf08-4938-ad58-5c944096d540",
+                "6b9f4428-b9b1-464e-bf8b-2bb6f4169a79",
+                "8bd4fa7b-d132-4c15-99f4-6bb34db9164d",
+                "9daac1c1-0981-4ad2-9df3-7deaadd4298b",
+                "9ea6e25c-922f-4e96-9bb1-2874e1574298",
+                "58b989fd-12a8-4591-b4b4-b2ec6b0bcfca",
+                "ced754fc-e6e6-42ec-ade6-aa85a9c94cfe",
+                "45d91aa3-c53b-4b31-a2da-96a76a1c6a87",
+                "711cfb06-ca5d-43c9-891e-0b150ae6a20d",
+                "0a86a65b-c3e6-47ad-97c5-f19bbd9678b4",
+                "33c7e243-4a64-4efa-adab-a7b5d091dbe0",
+                "da9ebcca-2264-4fa4-92df-2487d954d62f",
+                "b4f42c96-45fa-49a7-a890-6e418e3348fb",
+                "7d55620d-b6ab-4648-9e99-fc49cfe9c21a",
+                "4d2f3055-dcd6-43b2-9041-0347c72bb898",
+                "7bad9005-1e7b-4660-bca7-f156932de3b1",
+                "24f66af6-ecb9-4e49-8805-ed167126a810",
+                "11115c49-9bbd-414d-b315-ee7ff99c23af",
+                "f9d28239-baf4-46d5-b716-7462f3e304a1",
+                "90400f28-cc8c-4a3f-9d6f-5b36672d4b68",
+                "0e5a4d65-d754-4cd9-95db-da694e79fa8a",
+                "8f1b69b5-da0c-41de-99c3-b30744a2918f",
+                "52d020ff-9ffc-4bb1-b5f7-f923f737a148",
+                "b697351c-b46b-46b3-a05c-c8917624b95e",
+                "0bd75d7c-733a-488d-bb6a-040fea5941fe",
+                "edf95b93-dd4e-466d-8919-92df3fb5b405",
+                "486543e6-81cb-4a87-a0e2-57a4ea1c0219",
+                "09680df9-21ed-4e3a-8451-51e63633d2ca",
+                "ff8c3613-f7ae-4be0-ab57-451624e3851c",
+                "252904fd-6b52-4a2e-9e06-693dfded756b",
+                "4474e8f1-5d49-415e-8dd1-704289a12331",
+                "33158bda-e2d5-4698-9e8a-d5bff6793679",
+                "48952cd7-4fc8-43f6-a7bb-2a724deb15e7",
+                "363273cd-50f8-4584-93af-557f4878bf63",
+                "35e92714-4e79-443c-a49f-9fd2455e0c8e",
+                "2eafe40f-7a23-45b3-8f69-ae12a99f8460",
+                "4578c093-3a26-4066-b8fe-cfa7a6717e7e",
+                "02f1028d-8d7a-4ba8-a313-5845dc23ed7c",
+                "3a829b7d-3f6c-4d5b-bfd8-48f4eed7ba0b"
+            ]
+        }
+    ]
+}

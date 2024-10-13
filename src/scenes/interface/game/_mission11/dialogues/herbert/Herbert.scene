@@ -1,0 +1,232 @@
+{
+    "id": "490b3408-3729-44cb-9f67-fc43368f5b14",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "DialogueWidget",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "be8a0767-07ca-4e60-90e1-7dc459a718be",
+            "label": "container_1",
+            "x": 0.00438428236389643,
+            "y": 0.0661551881702878,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "8f756980-9e73-4dec-9549-80272be0e2c2",
+                    "label": "block_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Sprite",
+                    "id": "604720cd-6046-4bdd-89be-d8a2175c86cb",
+                    "label": "laugh",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "laugh",
+                    "Animation.end": 15,
+                    "Animation.repeat": 0,
+                    "Animation.showOnStart": true,
+                    "texture": {
+                        "key": "mission11-herbert",
+                        "frame": "laugh0001"
+                    },
+                    "x": 302,
+                    "y": 625,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "12976b13-c0f1-4954-be6d-b27631148b30",
+                    "label": "arm",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "2/arm",
+                    "Animation.end": 180,
+                    "Animation.autoPlay": false,
+                    "Animation.showOnStart": true,
+                    "Animation.hideOnComplete": true,
+                    "texture": {
+                        "key": "mission11-herbert",
+                        "frame": "2/arm0001"
+                    },
+                    "x": 527,
+                    "y": 408,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "e7fe7139-5513-4b1f-ac43-e74830c1e4c9",
+                    "label": "common_body",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mission11-herbert",
+                        "frame": "common/body"
+                    },
+                    "x": 302,
+                    "y": 627
+                },
+                {
+                    "type": "Sprite",
+                    "id": "43d35100-1d72-4ef4-bac7-28f0ac5a3ba5",
+                    "label": "mouth",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "common/mouth",
+                    "Animation.end": 18,
+                    "Animation.showOnStart": true,
+                    "texture": {
+                        "key": "mission11-herbert",
+                        "frame": "common/mouth0001"
+                    },
+                    "x": 338,
+                    "y": 358,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "c67a6d2c-187c-48b9-9d0c-c0d5a35af529",
+                    "label": "eyes1",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "1/eyes",
+                    "Animation.end": 180,
+                    "Animation.autoPlay": false,
+                    "Animation.showOnStart": true,
+                    "Animation.hideOnComplete": true,
+                    "texture": {
+                        "key": "mission11-herbert",
+                        "frame": "1/eyes0001"
+                    },
+                    "x": 325,
+                    "y": 264,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "c0f0f55a-845b-40b8-8d6a-150d81921b7b",
+                    "label": "brows1",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "1/brows",
+                    "Animation.end": 180,
+                    "Animation.autoPlay": false,
+                    "Animation.showOnStart": true,
+                    "Animation.hideOnComplete": true,
+                    "texture": {
+                        "key": "mission11-herbert",
+                        "frame": "1/brows0001"
+                    },
+                    "x": 337,
+                    "y": 228,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "9a202b8c-40ec-4c2d-a887-4d6531b11bf8",
+                    "label": "eyes2",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "2/eyes",
+                    "Animation.end": 180,
+                    "Animation.autoPlay": false,
+                    "Animation.showOnStart": true,
+                    "Animation.hideOnComplete": true,
+                    "texture": {
+                        "key": "mission11-herbert",
+                        "frame": "2/eyes0001"
+                    },
+                    "x": 324,
+                    "y": 254,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "6b8f82be-ff85-43b0-9c1b-a67ff98a030e",
+                    "label": "brows2",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "2/brows",
+                    "Animation.end": 180,
+                    "Animation.autoPlay": false,
+                    "Animation.showOnStart": true,
+                    "Animation.hideOnComplete": true,
+                    "texture": {
+                        "key": "mission11-herbert",
+                        "frame": "2/brows0001"
+                    },
+                    "x": 343,
+                    "y": 221,
+                    "visible": false
+                },
+                {
+                    "prefabId": "b32b8a89-d431-470b-a677-49122b95e8f5",
+                    "id": "f13d386b-41e0-4d1a-8061-02e6d8a9c5dd",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "bubble",
+                    "scope": "CLASS",
+                    "x": 397,
+                    "y": 674
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1d3cf3e9-97a5-431e-bda5-56358012154c",
+            "label": "pages",
+            "objectIds": [
+                "190824ca-dbad-4db3-8e85-7ecbae537fbf"
+            ]
+        },
+        {
+            "id": "0378d960-cf3e-491b-89fa-1b0341af70c3",
+            "label": "arrows",
+            "objectIds": [
+                "d18b4c26-6375-4c26-9f21-d51a6f36b2f7"
+            ]
+        }
+    ]
+}

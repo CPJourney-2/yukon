@@ -1,0 +1,431 @@
+{
+    "id": "3e725196-3cc7-4408-892a-913b33866020",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/_mission11/sportshop/sportshop-popcorn-one-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Sportshop",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "bb857899-3ac5-424a-87bf-6cc24480b219",
+            "label": "bg",
+            "texture": {
+                "key": "sportshop",
+                "frame": "bg"
+            },
+            "x": 761,
+            "y": 479,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "f2ed6cb7-6768-408e-8ab9-7c2153eeab7b",
+            "label": "sports_ref",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "sports_ref"
+            },
+            "x": 776,
+            "y": 497
+        },
+        {
+            "type": "Image",
+            "id": "3885849c-a570-4b39-a38e-bfff2fc3f853",
+            "label": "popcorn_bg",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "popcorn_bg"
+            },
+            "x": 763,
+            "y": 499
+        },
+        {
+            "type": "Sprite",
+            "id": "0959d5cf-c8d1-4800-842b-c2660d430f34",
+            "label": "speaker0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "speaker0001"
+            },
+            "x": 74,
+            "y": 278
+        },
+        {
+            "type": "Sprite",
+            "id": "33e1bafc-9aa7-488f-9c68-1d4b4de23f61",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "out_door",
+            "Button.lazyName": true,
+            "MoveTo.x": "1086",
+            "MoveTo.y": "486",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "out_door0001"
+            },
+            "x": 1069,
+            "y": 320,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729
+        },
+        {
+            "type": "Image",
+            "id": "d3220cf6-923d-4bbe-9687-7fe406646741",
+            "label": "back_hqdoor",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "back_hqdoor"
+            },
+            "x": 414.1828103375992,
+            "y": 480.75474368079455,
+            "originX": 0.719270790933318,
+            "originY": 0.8082519826537934
+        },
+        {
+            "type": "Sprite",
+            "id": "443e409b-045e-458b-80d0-54ca2618c31d",
+            "label": "psa",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "hqdoor",
+            "MoveTo.x": "420",
+            "MoveTo.y": "535",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "hqdoor0001"
+            },
+            "x": 436,
+            "y": 513.9864542360369,
+            "scaleX": 1.016851083269729,
+            "scaleY": 1.016851083269729,
+            "originY": 0.8207119841203839
+        },
+        {
+            "type": "Image",
+            "id": "c67f8de4-3eb4-487e-b584-58bc9e5d346e",
+            "label": "changerooms",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "changerooms"
+            },
+            "x": 217.25747680664062,
+            "y": 545.3571965936683,
+            "originX": 0.5050729865961322,
+            "originY": 0.5588312718284791
+        },
+        {
+            "type": "Image",
+            "id": "8a25b088-068f-499a-b998-a0aebea862fb",
+            "label": "tape_back",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "tape_back"
+            },
+            "x": 510.7496337890625,
+            "y": 489.90824786613683,
+            "originX": 0.507320618335557,
+            "originY": 0.6013878701666824
+        },
+        {
+            "type": "Image",
+            "id": "11fbbd1e-3cf7-4ce7-9dbb-d78c70a15196",
+            "label": "tape_right",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "tape_right"
+            },
+            "x": 652.125186108901,
+            "y": 503.12220836648567,
+            "originX": 0.48541976848168245,
+            "originY": 0.7050345057263385
+        },
+        {
+            "type": "Image",
+            "id": "e5c88d19-082a-4d3b-863b-49dca4e0f64f",
+            "label": "tape_front",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "tape_front"
+            },
+            "x": 529.4947889507732,
+            "y": 582.4903223371504,
+            "originX": 0.5887492353288885,
+            "originY": 0.7675901313950021
+        },
+        {
+            "type": "Sprite",
+            "id": "a97a4aa0-348b-45a1-b717-ef08f2a1ad0a",
+            "label": "light0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "light0001"
+            },
+            "x": 571.9850090329322,
+            "y": 642.5517359191474,
+            "originX": 1.0328336344310742,
+            "originY": 3.6423522030550615
+        },
+        {
+            "type": "Sprite",
+            "id": "8d0f19bb-e0db-409a-b24e-463f70394887",
+            "label": "lighttwo0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "lighttwo0001"
+            },
+            "x": 616.4477757704595,
+            "y": 672.8945749201329,
+            "originX": 0.38159252568198476,
+            "originY": 6.420373715900843
+        },
+        {
+            "type": "Image",
+            "id": "6f02ce05-c5c8-4081-892c-a59bd7c227d9",
+            "label": "pile_bike",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "pile_bike"
+            },
+            "x": 1320.327775029942,
+            "y": 788.8533597125577,
+            "originX": 0.49016373690514087,
+            "originY": 0.7856901892519598
+        },
+        {
+            "type": "Image",
+            "id": "8c0d5863-7514-4acb-8071-fad1a8f443d0",
+            "label": "pile_middle",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "pile_middle"
+            },
+            "x": 643.0579406768337,
+            "y": 831.3878707697896,
+            "originX": 0.4930937574573561,
+            "originY": 0.6768064497095156
+        },
+        {
+            "type": "Image",
+            "id": "dd70e084-b628-4364-a2e1-4944812c3240",
+            "label": "pile_bike_front",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "pile_bike_front"
+            },
+            "x": 1292,
+            "y": 857,
+            "originX": 0.5086997707145989,
+            "originY": 0.7490309367053872
+        },
+        {
+            "type": "Image",
+            "id": "768b6439-99db-43fe-8112-f4490c4c29fb",
+            "label": "pile_stand",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "pile_stand"
+            },
+            "x": 1287.9022216796875,
+            "y": 610.8868998827417,
+            "originX": 0.5775997260633655,
+            "originY": 0.7151320227651908
+        },
+        {
+            "type": "Sprite",
+            "id": "2916d6ac-9f26-4d4b-a0c6-9cf14470ce29",
+            "label": "cashregister0001",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "cashregister",
+            "HoverAnimation.checkpoints": "20,35",
+            "HoverAnimation.end": 35,
+            "HoverAnimation.hoverZone": "cashregister0001",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "cashregister0001"
+            },
+            "x": 1271.2565897967843,
+            "y": 619.2232285350555,
+            "originX": 0.49916980311009196,
+            "originY": 1.3980937501848523
+        },
+        {
+            "type": "Sprite",
+            "id": "3b3f474c-d79a-43a9-84a7-688fbec11cc6",
+            "label": "callphone0001",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "callphone",
+            "HoverAnimation.end": 55,
+            "HoverAnimation.replayBeforeFinish": true,
+            "HoverAnimation.loop": false,
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "callphone0001"
+            },
+            "x": 1433.9976051861177,
+            "y": 651.7508196884291,
+            "originX": 0.7839219316867435,
+            "originY": 1.1996328695855505
+        },
+        {
+            "type": "Image",
+            "id": "4722ec3e-0732-416c-85d2-d414ee4b3f71",
+            "label": "stand_side",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "stand_side"
+            },
+            "x": 197.66884761142683,
+            "y": 716.7015617828299,
+            "originX": 0.5078349653118631,
+            "originY": 0.7069888510296892
+        },
+        {
+            "type": "Image",
+            "id": "4b224419-08e4-4ee0-9b5b-9dbf4daf9f79",
+            "label": "stand_bottom",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "stand_bottom"
+            },
+            "x": 332.2083984417502,
+            "y": 787.1202417920895,
+            "originX": 0.7098703777451671,
+            "originY": 0.3701459685215712
+        },
+        {
+            "type": "Image",
+            "id": "02b9665b-8e15-428f-9162-637549d03a8a",
+            "label": "stand_top",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "stand_top"
+            },
+            "x": 296.20763549476453,
+            "y": 727.147573178656,
+            "originX": 0.6405007231696046,
+            "originY": 0.28069524431117804
+        },
+        {
+            "type": "Image",
+            "id": "51fc8fe0-d8c5-4a69-b573-a039634145a1",
+            "label": "pile_far_left",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "pile_far_left"
+            },
+            "x": 79.86055367018717,
+            "y": 808.0429449704842,
+            "originX": 0.6315857100537023,
+            "originY": 0.5547389866203019
+        },
+        {
+            "type": "Image",
+            "id": "5c741307-6132-4e62-b3f1-9bcd9efb4894",
+            "label": "sign0001",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "sign0001"
+            },
+            "x": 517.5281320359067,
+            "y": 430.69692425134645,
+            "originX": 0.5223299495943459,
+            "originY": 0.7205082522441647
+        },
+        {
+            "type": "Image",
+            "id": "55826b32-caff-4116-b7c5-8e7d205e76eb",
+            "label": "fg0001",
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "fg0001"
+            },
+            "x": 777.910231873899,
+            "y": 1134.270120256524,
+            "originX": 0.513643745940764,
+            "originY": 3.4486813504801352
+        },
+        {
+            "type": "Sprite",
+            "id": "e12f1b46-b1b5-49c9-bf60-d66a11a0336c",
+            "label": "interfaceIcons",
+            "scope": "CLASS",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "snow_sports",
+            "Button.callback": "() => this.onCatalog()",
+            "Button.lazyName": true,
+            "texture": {
+                "key": "sportshop-popcorn-one",
+                "frame": "snow_sports0001"
+            },
+            "x": 1404.0000184003459,
+            "y": 864.9999661025114
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "e88af085-c2a2-468d-ae10-257af095cbb1",
+            "label": "sort",
+            "objectIds": [
+                "6f02ce05-c5c8-4081-892c-a59bd7c227d9",
+                "8c0d5863-7514-4acb-8071-fad1a8f443d0",
+                "dd70e084-b628-4364-a2e1-4944812c3240",
+                "768b6439-99db-43fe-8112-f4490c4c29fb",
+                "2916d6ac-9f26-4d4b-a0c6-9cf14470ce29",
+                "4722ec3e-0732-416c-85d2-d414ee4b3f71",
+                "51fc8fe0-d8c5-4a69-b573-a039634145a1",
+                "a97a4aa0-348b-45a1-b717-ef08f2a1ad0a",
+                "8d0f19bb-e0db-409a-b24e-463f70394887",
+                "e5c88d19-082a-4d3b-863b-49dca4e0f64f",
+                "11fbbd1e-3cf7-4ce7-9dbb-d78c70a15196",
+                "8a25b088-068f-499a-b998-a0aebea862fb",
+                "3b3f474c-d79a-43a9-84a7-688fbec11cc6",
+                "55826b32-caff-4116-b7c5-8e7d205e76eb",
+                "5c741307-6132-4e62-b3f1-9bcd9efb4894",
+                "02b9665b-8e15-428f-9162-637549d03a8a",
+                "d3220cf6-923d-4bbe-9687-7fe406646741",
+                "443e409b-045e-458b-80d0-54ca2618c31d",
+                "c67f8de4-3eb4-487e-b584-58bc9e5d346e"
+            ]
+        }
+    ]
+}

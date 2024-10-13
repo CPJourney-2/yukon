@@ -1,0 +1,389 @@
+{
+    "id": "6e735aa6-f4e6-47c7-b743-c55d448cd441",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/boiler/boiler-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Boiler",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "c187177f-c691-4014-91aa-29d3c35f0aff",
+            "label": "bg_png",
+            "texture": {
+                "key": "boiler",
+                "frame": "bg.png"
+            },
+            "x": 760,
+            "y": 485,
+            "scaleX": 1.02,
+            "scaleY": 1.02
+        },
+        {
+            "type": "Image",
+            "id": "d52e9377-b8c2-4142-ad47-d8d315e49e12",
+            "label": "boiler_board",
+            "texture": {
+                "key": "boiler-board"
+            },
+            "x": 1278,
+            "y": 301,
+            "scaleX": 1.05,
+            "scaleY": 1.05
+        },
+        {
+            "type": "Image",
+            "id": "8cb3a29b-3fc4-46e1-bc15-7f2a90764eaf",
+            "label": "boiler_door_png",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "boiler-door.png",
+            "Button.pixelPerfect": true,
+            "MoveTo.x": 582,
+            "MoveTo.y": "580",
+            "texture": {
+                "key": "boiler",
+                "frame": "boiler-door.png"
+            },
+            "x": 582,
+            "y": 363,
+            "scaleX": 1.02,
+            "scaleY": 1.02
+        },
+        {
+            "type": "Sprite",
+            "id": "b234f62a-0f70-4dd0-87e6-76ba44f861d0",
+            "label": "drawer1.pngbutworse",
+            "scope": "CLASS",
+            "texture": {
+                "key": "boiler",
+                "frame": "drawer1.png0001"
+            },
+            "x": 826,
+            "y": 550
+        },
+        {
+            "type": "Image",
+            "id": "6b8b4d8d-5c07-4373-a96e-737889d7ce0d",
+            "label": "snowballed_2",
+            "scope": "CLASS",
+            "texture": {
+                "key": "boiler-secret-two",
+                "frame": "snowballed"
+            },
+            "x": 826,
+            "y": 550,
+            "visible": false
+        },
+        {
+            "type": "Rectangle",
+            "id": "4f5a3994-8385-4895-8022-90426eed4309",
+            "label": "shelf_hitbox_4",
+            "scope": "CLASS",
+            "x": 820,
+            "y": 544,
+            "alpha": 1e-26,
+            "isFilled": true,
+            "width": 87,
+            "height": 54
+        },
+        {
+            "type": "Image",
+            "id": "3db0f1d8-bc51-4d2a-805b-7d6e89fd1e5e",
+            "label": "drawer1_png0001",
+            "texture": {
+                "key": "boiler",
+                "frame": "drawer1.png0001"
+            },
+            "x": 828,
+            "y": 473
+        },
+        {
+            "type": "Image",
+            "id": "2545e3a8-1457-441c-8c82-1d2d10793aaa",
+            "label": "snowballed_3",
+            "scope": "CLASS",
+            "texture": {
+                "key": "boiler-secret-two",
+                "frame": "snowballed"
+            },
+            "x": 828,
+            "y": 473,
+            "visible": false
+        },
+        {
+            "type": "Rectangle",
+            "id": "9edfd2fe-e8dd-441c-961a-b9581f12994a",
+            "label": "shelf_hitbox_3",
+            "scope": "CLASS",
+            "x": 823,
+            "y": 466,
+            "alpha": 1e-26,
+            "isFilled": true,
+            "width": 89,
+            "height": 52
+        },
+        {
+            "type": "Image",
+            "id": "a22dc112-d268-4be7-a686-0441b4689069",
+            "label": "drawer1_png0001_1_1",
+            "texture": {
+                "key": "boiler",
+                "frame": "drawer1.png0001"
+            },
+            "x": 947,
+            "y": 472
+        },
+        {
+            "type": "Image",
+            "id": "3c010704-0ae5-4d84-9a0e-916e3c4c5f44",
+            "label": "snowballed_1",
+            "scope": "CLASS",
+            "texture": {
+                "key": "boiler-secret-two",
+                "frame": "snowballed"
+            },
+            "x": 947,
+            "y": 472,
+            "visible": false
+        },
+        {
+            "type": "Rectangle",
+            "id": "34305326-61cf-4790-9d01-a21c51d554a5",
+            "label": "shelf_hitbox_2",
+            "scope": "CLASS",
+            "x": 942,
+            "y": 465,
+            "alpha": 1e-26,
+            "isFilled": true,
+            "width": 89,
+            "height": 52
+        },
+        {
+            "type": "Image",
+            "id": "7fbb6657-dcb6-4d71-87b1-8d13c92d333b",
+            "label": "drawer1_png0001_1_1_1",
+            "texture": {
+                "key": "boiler",
+                "frame": "drawer1.png0001"
+            },
+            "x": 949,
+            "y": 399
+        },
+        {
+            "type": "Image",
+            "id": "aa4215bd-8c0a-4af7-82d5-38508a501536",
+            "label": "snowballed",
+            "scope": "CLASS",
+            "texture": {
+                "key": "boiler-secret-two",
+                "frame": "snowballed"
+            },
+            "x": 949,
+            "y": 399,
+            "visible": false
+        },
+        {
+            "type": "Rectangle",
+            "id": "05ecef60-f987-42f8-a69a-915f0450c917",
+            "label": "shelf_hitbox_1",
+            "scope": "CLASS",
+            "x": 945,
+            "y": 391,
+            "alpha": 1e-26,
+            "isFilled": true,
+            "width": 87,
+            "height": 57
+        },
+        {
+            "type": "Sprite",
+            "id": "d1eca388-a25e-40c0-b0b5-4f7629d9ba57",
+            "label": "smoke",
+            "scope": "CLASS",
+            "texture": {
+                "key": "boiler",
+                "frame": "smoke0001.png"
+            },
+            "x": 250,
+            "y": 199
+        },
+        {
+            "type": "Image",
+            "id": "c452ddd4-c0f2-4e32-a389-bd8b2ecb77da",
+            "label": "main",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "main",
+            "Button.callback": "() => {this.triggerRoom(821, 0, 0)}",
+            "texture": {
+                "key": "newboiler",
+                "frame": "main"
+            },
+            "x": 277.2600538928435,
+            "y": 775.0236309168115,
+            "scaleX": 1.0197888558975952,
+            "scaleY": 1.0197888558975952,
+            "originX": 0.6937553751717792,
+            "originY": 0.8476552498963502
+        },
+        {
+            "type": "Image",
+            "id": "22e2c551-82c5-47b5-abfb-2ff14a838be4",
+            "label": "top",
+            "texture": {
+                "key": "newboiler",
+                "frame": "top"
+            },
+            "x": 192,
+            "y": 249
+        },
+        {
+            "type": "Image",
+            "id": "4041f924-1141-4fbd-98cf-25b977075bb0",
+            "label": "copper",
+            "texture": {
+                "key": "newboiler",
+                "frame": "copper"
+            },
+            "x": 237,
+            "y": 269
+        },
+        {
+            "type": "Image",
+            "id": "45775154-b366-426a-b3ff-d138816e3972",
+            "label": "tubes",
+            "texture": {
+                "key": "newboiler",
+                "frame": "tubes"
+            },
+            "x": 95,
+            "y": 755
+        },
+        {
+            "type": "Image",
+            "id": "78b5f72e-6e08-4d10-bc3e-c8147e9cbef5",
+            "label": "archivesbtn",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "archivesbtn",
+            "Button.callback": "() => this.onArchives()",
+            "texture": {
+                "key": "boiler-archivesbtn",
+                "frame": "archivesbtn"
+            },
+            "x": 1422.401640359713,
+            "y": 933.0820179856432,
+            "originX": 0.5146004204136764,
+            "originY": 1.148907573941141
+        },
+        {
+            "type": "Sprite",
+            "id": "2397942b-2014-4c27-be33-1d12dfdd25ef",
+            "label": "drawer1.png",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton",
+                "ShowHint"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onDrawerOver()",
+            "SimpleButton.hoverOutCallback": "() => this.onDrawerOut()",
+            "SimpleButton.callback": "() => this.onArchives()",
+            "ShowHint.text": "archives_hint",
+            "texture": {
+                "key": "boiler",
+                "frame": "drawer1.png0001"
+            },
+            "x": 832,
+            "y": 397
+        },
+        {
+            "type": "Sprite",
+            "id": "c1fc9c2d-0878-4ed3-8e57-3d0e2b89b652",
+            "label": "shelf",
+            "scope": "CLASS",
+            "texture": {
+                "key": "boiler-secret-two",
+                "frame": "shelf0001"
+            },
+            "x": 943,
+            "y": 548
+        },
+        {
+            "type": "Rectangle",
+            "id": "ba529041-51f4-420a-a6d9-c74ae8f712a4",
+            "label": "rectangle_1",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "x": 1029.5987321837747,
+            "y": 561.6863332700739,
+            "originX": 0.5584518519915211,
+            "originY": 1.0065827172598427,
+            "fillColor": "#00ffff",
+            "fillAlpha": 0.5,
+            "width": 130,
+            "height": 560
+        },
+        {
+            "type": "Rectangle",
+            "id": "66c84c40-764d-4022-95b1-6f9f7d423ce3",
+            "label": "finalClick",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => {this.onClick()}",
+            "x": 936,
+            "y": 540,
+            "visible": false,
+            "alpha": 0.0001,
+            "isFilled": true,
+            "width": 104,
+            "height": 67
+        },
+        {
+            "type": "Rectangle",
+            "id": "a12caef6-c421-4a67-9e81-789685cf834f",
+            "label": "shelf_hitbox_5",
+            "scope": "CLASS",
+            "x": 823,
+            "y": 387,
+            "alpha": 1e-26,
+            "isFilled": true,
+            "width": 103,
+            "height": 62
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "32c9d6d4-11e1-45a5-95fe-0c0299382b44",
+            "label": "sort",
+            "objectIds": [
+                "78b5f72e-6e08-4d10-bc3e-c8147e9cbef5"
+            ]
+        }
+    ]
+}

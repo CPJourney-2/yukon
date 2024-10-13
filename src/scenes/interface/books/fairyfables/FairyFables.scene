@@ -1,0 +1,505 @@
+{
+    "id": "01d045fc-528e-4f0a-8a7a-2804617be761",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 159,
+        "snapHeight": 31,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c2df2194-bb4a-4b41-8d90-aa5a6f01b553",
+            "label": "container_1",
+            "components": [],
+            "x": 0.34900255869139585,
+            "y": 0.14197775311840743,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "d158c3ee-85e0-4239-a8ee-9059e72a1bda",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 687,
+                    "y": 474,
+                    "scaleX": 19.186366570118256,
+                    "scaleY": 8.807316563934844,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Container",
+                    "id": "396bfb5c-171a-4b6d-9a60-6b6f4ad1a637",
+                    "label": "page_1",
+                    "components": [],
+                    "x": 791.7715418636799,
+                    "y": 498.8033347427845,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "8b0ddf3c-0651-4401-bea7-11354e786054",
+                            "label": "page12",
+                            "components": [],
+                            "texture": {
+                                "key": "fables",
+                                "frame": "page12"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        },
+                        {
+                            "type": "Image",
+                            "id": "96194ce3-96aa-4057-89f3-495c64d5ef08",
+                            "label": "turns_left_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/left_close",
+                            "Button.callback": "() => {this.close()}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "fables",
+                                "frame": "turns/left_close"
+                            },
+                            "x": -212,
+                            "y": -348,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5,
+                            "angle": -3
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "a9b4b660-3615-4667-92f2-34cf21411c92",
+                            "label": "turns_left_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/backleft",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "fables",
+                                "frame": "turns/backleft"
+                            },
+                            "x": -217,
+                            "y": 225,
+                            "scaleX": 0.4,
+                            "scaleY": 0.4
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "cd491035-43f1-427c-9268-f3ab85ed0ced",
+                    "label": "page_11",
+                    "components": [],
+                    "x": 792.1205408871174,
+                    "y": 499.945302516222,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4ff2348b-2581-4045-a2f9-8f3704ae8c70",
+                            "label": "page11",
+                            "components": [],
+                            "texture": {
+                                "key": "fables",
+                                "frame": "page11"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "786d3e91-eba2-47fa-8ea2-3f59fc8bd0da",
+                    "label": "page_10",
+                    "components": [],
+                    "x": 791.4225428402424,
+                    "y": 499.661366969347,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f1e2b2ec-c0fe-4e77-a00b-930f57c4e276",
+                            "label": "page10",
+                            "components": [],
+                            "texture": {
+                                "key": "fables",
+                                "frame": "page10"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a308b66c-7865-4cad-b4e5-0e6516b4af7a",
+                    "label": "page_9",
+                    "components": [],
+                    "x": 791.7715418636799,
+                    "y": 499.8033347427845,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f487fe0c-98bc-46ce-b078-159c4778ac6d",
+                            "label": "page9",
+                            "components": [],
+                            "texture": {
+                                "key": "fables",
+                                "frame": "page9"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a7047c38-fa3a-47d2-98e5-6df9a521d895",
+                    "label": "page_8",
+                    "components": [],
+                    "x": 792.1205408871174,
+                    "y": 499.945302516222,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "131e4264-a3ff-40bb-bae7-c8d3f96866ed",
+                            "label": "page8",
+                            "components": [],
+                            "texture": {
+                                "key": "fables",
+                                "frame": "page8"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "39c6baaf-4ed8-4cda-9cce-a52aa837b2b5",
+                    "label": "page_7",
+                    "components": [],
+                    "x": 792.4695399105549,
+                    "y": 500.0872702896595,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "216f938e-9736-44f7-8b7d-f13e7d283739",
+                            "label": "page7",
+                            "components": [],
+                            "texture": {
+                                "key": "fables",
+                                "frame": "page7"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "e85f4918-71a0-4a20-8b3b-af752581a8ca",
+                    "label": "page_6",
+                    "components": [],
+                    "x": 791.7715418636799,
+                    "y": 499.8033347427845,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "c175caf6-4816-4983-84be-545c33bf4c18",
+                            "label": "page6",
+                            "components": [],
+                            "texture": {
+                                "key": "fables",
+                                "frame": "page6"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "4cdac27b-746b-4964-a91c-b55400e96135",
+                    "label": "page_5",
+                    "components": [],
+                    "x": 792.1205408871174,
+                    "y": 499.945302516222,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ff4de4e4-eb64-4c96-89c1-dff51b97f9a8",
+                            "label": "page5",
+                            "components": [],
+                            "texture": {
+                                "key": "fables",
+                                "frame": "page5"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "15b6faa6-59ba-4b3e-bb62-d6c6bc1d91cc",
+                    "label": "page4",
+                    "components": [],
+                    "x": 792.4695399105549,
+                    "y": 500.0872702896595,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "8e128ee6-f7ce-4c2f-b3ad-7cfe45de6c36",
+                            "label": "page44",
+                            "components": [],
+                            "texture": {
+                                "key": "fables",
+                                "frame": "page4"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "3e8bd2fd-e0bd-4e75-93c4-cfb3185648c2",
+                    "label": "page3",
+                    "components": [],
+                    "x": 792.1205408871174,
+                    "y": 498.945302516222,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "04940089-c616-488b-b8d2-058e15f0f0db",
+                            "label": "page33",
+                            "components": [],
+                            "texture": {
+                                "key": "fables",
+                                "frame": "page3"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "297a4696-b6f0-41bf-b85e-50f430678b66",
+                    "label": "page2",
+                    "components": [],
+                    "x": 792.8185267235533,
+                    "y": 499.22924628614487,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ef41bdf8-7217-438a-9690-cd0174bcfb6f",
+                            "label": "page22",
+                            "components": [],
+                            "texture": {
+                                "key": "fables",
+                                "frame": "page2"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "776b1ada-1bd8-4f57-a1e4-1724c793bf0d",
+                    "label": "page1",
+                    "components": [],
+                    "x": 792.4695399105549,
+                    "y": 499.0872702896595,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "1ef12729-2dac-41be-a6bb-8dcd963a6753",
+                            "label": "page",
+                            "components": [],
+                            "texture": {
+                                "key": "fables",
+                                "frame": "page1"
+                            },
+                            "x": -32.81854248046875,
+                            "y": -19.229248046875
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "cd18b420-84af-448c-abed-de1e7d538318",
+                            "label": "turns_close_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "fables",
+                                "frame": "turns/close"
+                            },
+                            "x": 214,
+                            "y": -348,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5,
+                            "angle": 2
+                        },
+                        {
+                            "type": "Image",
+                            "id": "abeb6f5e-f888-431d-ad2d-00a17923ae4b",
+                            "label": "turns_front",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/front",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "fables",
+                                "frame": "turns/front"
+                            },
+                            "x": 217,
+                            "y": 225,
+                            "scaleX": 0.4,
+                            "scaleY": 0.4
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2d92e31f-a3ff-458f-8d06-f8126d88ceb8",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 780.0900074968481,
+                    "y": 592.0151470567336,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "9e8f54ab-389f-4723-a73e-d1d52b8474e9",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -87,
+                            "y": -146,
+                            "visible": false,
+                            "text": "New text"
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3eaa2193-0392-4af1-ac48-0f3aa6754633",
+                            "label": "turns_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "fables",
+                                "frame": "turns/close"
+                            },
+                            "x": 490,
+                            "y": -421,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "7e02fac5-dccc-4d88-b0e8-a6a164bb678d",
+                            "label": "turns_left",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/left",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "fables",
+                                "frame": "turns/left"
+                            },
+                            "x": -497,
+                            "y": 77,
+                            "scaleX": 0.4,
+                            "scaleY": 0.4
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "758520eb-f101-4ebb-9645-3c6e5ea06528",
+                            "label": "turns_right",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/right",
+                            "Button.callback": "() => this.nextPage();",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "fables",
+                                "frame": "turns/right"
+                            },
+                            "x": 470,
+                            "y": 78,
+                            "scaleX": 0.4,
+                            "scaleY": 0.4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "1029921f-26d0-4b4f-8a57-2e9fcf458660",
+            "label": "pages",
+            "objectIds": [
+                "776b1ada-1bd8-4f57-a1e4-1724c793bf0d",
+                "297a4696-b6f0-41bf-b85e-50f430678b66",
+                "3e8bd2fd-e0bd-4e75-93c4-cfb3185648c2",
+                "15b6faa6-59ba-4b3e-bb62-d6c6bc1d91cc",
+                "4cdac27b-746b-4964-a91c-b55400e96135",
+                "e85f4918-71a0-4a20-8b3b-af752581a8ca",
+                "39c6baaf-4ed8-4cda-9cce-a52aa837b2b5",
+                "a7047c38-fa3a-47d2-98e5-6df9a521d895",
+                "a308b66c-7865-4cad-b4e5-0e6516b4af7a",
+                "786d3e91-eba2-47fa-8ea2-3f59fc8bd0da",
+                "cd491035-43f1-427c-9268-f3ab85ed0ced",
+                "396bfb5c-171a-4b6d-9a60-6b6f4ad1a637"
+            ]
+        }
+    ]
+}

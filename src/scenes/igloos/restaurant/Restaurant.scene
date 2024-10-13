@@ -1,0 +1,85 @@
+{
+    "id": "1f01d7a0-8bde-45ae-b3ff-07257ecd8393",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/igloos/buildings/sprites/restaurant/restaurant-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Restaurant",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "5ba40741-ddf2-4e1a-b44e-c61f04d69b5c",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "restaurant",
+                "frame": "floor"
+            },
+            "x": 768,
+            "y": 691,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "c0b80f76-cf43-48d4-8f9f-a3185f09662e",
+            "label": "walls",
+            "components": [],
+            "texture": {
+                "key": "restaurant",
+                "frame": "walls"
+            },
+            "x": 760,
+            "y": 445.5,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "a6ae5f02-8e31-465c-bd35-5fea763695f0",
+            "label": "door0001",
+            "components": [],
+            "texture": {
+                "key": "restaurant",
+                "frame": "door0001"
+            },
+            "x": 279,
+            "y": 550,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "e0435432-d3b9-4e6d-8368-271dc047a1f0",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 300,
+            "y": 654,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.5426699417159034,
+            "originY": 0.6044734584964262,
+            "width": 128,
+            "height": 128,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

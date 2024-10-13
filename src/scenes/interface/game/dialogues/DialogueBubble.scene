@@ -1,0 +1,230 @@
+{
+    "id": "a2de820b-22ff-4224-a2e1-61367908713d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "3f6feddb-979d-4235-8835-bdc8878e03b2",
+            "label": "container_2",
+            "x": 439.79254072753525,
+            "y": 766.405908436523,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "0e61f064-a73c-46b2-967c-384d217077f5",
+                    "label": "bubble",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "dialogue-common",
+                        "frame": "textBubble"
+                    },
+                    "x": 452.20745927246475,
+                    "y": 9.594091563477036,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8
+                },
+                {
+                    "type": "Text",
+                    "id": "931c4b7e-c1fa-421d-a05a-5e25c627e056",
+                    "label": "text",
+                    "scope": "CLASS",
+                    "x": -38,
+                    "y": -124,
+                    "text": "Waddle On!",
+                    "fixedWidth": 1050,
+                    "fixedHeight": 250,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#333",
+                    "wordWrapWidth": 1050
+                },
+                {
+                    "type": "Container",
+                    "id": "6a19f02d-4aa5-405b-aafa-deb1c194f76e",
+                    "label": "options",
+                    "scope": "CLASS",
+                    "x": 489,
+                    "y": -30,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "RoundedRectangleGraphics",
+                            "id": "91e9fc3d-d6bf-4288-9aa5-d24f6deeaf37",
+                            "label": "options_bg",
+                            "y": 25,
+                            "width": 1040,
+                            "height": 280,
+                            "fillColor": "#000000",
+                            "fillAlpha": 0.7,
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 0.6,
+                            "lineWidth": 5
+                        },
+                        {
+                            "type": "NineSlice",
+                            "id": "81ee8b42-5f9d-48a5-9587-0a737e6a4912",
+                            "label": "option1",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "button",
+                            "texture": {
+                                "key": "dialogue-common",
+                                "frame": "button"
+                            },
+                            "y": -59,
+                            "width": 1000,
+                            "height": 74,
+                            "leftWidth": 20,
+                            "rightWidth": 20,
+                            "topHeight": 20,
+                            "bottomHeight": 20
+                        },
+                        {
+                            "type": "NineSlice",
+                            "id": "52c1dfbe-27b7-4c70-b8f3-c9ca4434bcb4",
+                            "label": "option2",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "button",
+                            "texture": {
+                                "key": "dialogue-common",
+                                "frame": "button"
+                            },
+                            "y": 23,
+                            "width": 1000,
+                            "height": 74,
+                            "leftWidth": 20,
+                            "rightWidth": 20,
+                            "topHeight": 20,
+                            "bottomHeight": 20
+                        },
+                        {
+                            "type": "NineSlice",
+                            "id": "3a0a0f51-e30d-460b-b4ed-4f9d6f18441e",
+                            "label": "option3",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "button",
+                            "texture": {
+                                "key": "dialogue-common",
+                                "frame": "button"
+                            },
+                            "y": 104,
+                            "width": 1000,
+                            "height": 74,
+                            "leftWidth": 20,
+                            "rightWidth": 20,
+                            "topHeight": 20,
+                            "bottomHeight": 20
+                        },
+                        {
+                            "type": "Text",
+                            "id": "662e62ea-e7bb-437b-804f-8f1d1bcb8181",
+                            "label": "option1Text",
+                            "scope": "CLASS",
+                            "x": -488,
+                            "y": -84,
+                            "text": "Can i just go back to the cave mine please",
+                            "fixedWidth": 1000,
+                            "fixedHeight": 50,
+                            "paddingLeft": 10,
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "43px",
+                            "fontStyle": "bold",
+                            "color": "#333",
+                            "wordWrapWidth": 1050
+                        },
+                        {
+                            "type": "Text",
+                            "id": "60329151-25e7-453e-aab6-9100aa424fa7",
+                            "label": "option2Text",
+                            "scope": "CLASS",
+                            "x": -488,
+                            "y": -1,
+                            "text": "Cool story bro but did i ask",
+                            "fixedWidth": 1000,
+                            "fixedHeight": 50,
+                            "paddingLeft": 10,
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "43px",
+                            "fontStyle": "bold",
+                            "color": "#333",
+                            "wordWrapWidth": 1050
+                        },
+                        {
+                            "type": "Text",
+                            "id": "9a0e79af-fda8-4105-8f95-f4736fd94a44",
+                            "label": "option3Text",
+                            "scope": "CLASS",
+                            "x": -488,
+                            "y": 79,
+                            "text": ":headmod:",
+                            "fixedWidth": 1000,
+                            "fixedHeight": 50,
+                            "paddingLeft": 10,
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "43px",
+                            "fontStyle": "bold",
+                            "color": "#333",
+                            "wordWrapWidth": 1050
+                        }
+                    ]
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "92479cf3-9ce8-4ce3-9397-9d900170b11d",
+                    "label": "bubbleButton",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.bubbleButtonCallback()",
+                    "x": 484,
+                    "y": -3,
+                    "visible": false,
+                    "width": 1100,
+                    "height": 280
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1cbb6568-4f1e-4734-8eb3-769cb5ddd086",
+            "label": "optionsStuff",
+            "objectIds": [
+                "861a97fe-b060-4918-adb0-9986934a1655",
+                "3feddc16-5a77-428e-b2ff-37d6be6d4272",
+                "f0e81d39-8e45-4d05-9547-681b0171d9f6",
+                "a1850931-1a1e-4cf5-92f6-fbba42b577db",
+                "069610db-9ca7-420a-b455-c8a23051b73f",
+                "fde29aab-16af-4b10-bfb2-3d4e969578d4"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,826 @@
+{
+    "id": "859f50cb-8f05-46f8-8068-a386bfa482c5",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 219,
+        "snapHeight": 70,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/maroonlagoonride/maroon-lagoon-ride-pack.json",
+            "yukon/assets/media/rooms/_fair/maroonlagoon/maroon-lagoon-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "MaroonedLagoon",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "1da666c2-f208-4bbd-93ab-ac3e42e46b60",
+            "label": "roots",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "roots"
+            },
+            "x": 1285,
+            "y": 99
+        },
+        {
+            "type": "Image",
+            "id": "de4fddd8-5a80-433c-94a1-229c0fcfb7a3",
+            "label": "crevice",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "crevice"
+            },
+            "x": 262,
+            "y": 89
+        },
+        {
+            "type": "Sprite",
+            "id": "45194266-faa4-47e7-85e2-6c22154bb114",
+            "label": "shark",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "shark",
+            "Animation.start": 21,
+            "Animation.end": 156,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "shark0022"
+            },
+            "x": 335,
+            "y": 215
+        },
+        {
+            "type": "Image",
+            "id": "da920cfa-bb67-4e0a-987c-da5a24f5f143",
+            "label": "water",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "water"
+            },
+            "x": 280,
+            "y": 214
+        },
+        {
+            "type": "Sprite",
+            "id": "64575644-3efd-49a1-8a16-4b59867fd598",
+            "label": "eye",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "eye",
+            "Animation.end": 282,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "eye0001"
+            },
+            "x": 1186,
+            "y": 208
+        },
+        {
+            "type": "Sprite",
+            "id": "15ebfeea-24db-4c03-9100-7eb8b264f8fe",
+            "label": "squid_target",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "target",
+            "Animation.end": 32,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "target0001"
+            },
+            "x": 1365,
+            "y": 165
+        },
+        {
+            "type": "Image",
+            "id": "fbf471d0-5d83-4f53-b376-34cfc4ba0a53",
+            "label": "bg",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "path"
+            },
+            "x": 733,
+            "y": 367
+        },
+        {
+            "type": "Sprite",
+            "id": "8ae5609d-ee6b-4975-a036-f5a473d66491",
+            "label": "skull_target",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "skull_target",
+            "Animation.end": 28,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "skull_target0001"
+            },
+            "x": 261,
+            "y": 151
+        },
+        {
+            "type": "Sprite",
+            "id": "6bcf10a3-fa40-463b-b676-a1a2f040e7a8",
+            "label": "barrel_target",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "barrel_target",
+            "Animation.end": 30,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "barrel_target0001"
+            },
+            "x": 877,
+            "y": 146
+        },
+        {
+            "type": "Sprite",
+            "id": "221ac321-c83a-465a-a2a7-0895e826dbca",
+            "label": "chest",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "chest",
+            "Animation.end": 140,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "chest0001"
+            },
+            "x": 742,
+            "y": 358.1497079712216,
+            "originY": 0.3469568993947661
+        },
+        {
+            "type": "Sprite",
+            "id": "4df60f4c-200d-4f5a-bdca-5b4eaa825337",
+            "label": "puffle_banner",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "puffle_banner",
+            "Animation.end": 86,
+            "Animation.showOnStart": true,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "puffle_banner0001"
+            },
+            "x": 924,
+            "y": 48
+        },
+        {
+            "type": "Image",
+            "id": "97041451-dc9b-4fe2-8e4c-34f96b5c7602",
+            "label": "rock2",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "rock2"
+            },
+            "x": 294,
+            "y": 405
+        },
+        {
+            "type": "Image",
+            "id": "f27aa7ac-3487-4a38-909b-82fd16eeca6c",
+            "label": "rock3",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "rock3"
+            },
+            "x": 256,
+            "y": 441
+        },
+        {
+            "type": "Image",
+            "id": "e11b284c-4e6c-46c9-a578-34ebb2cb1298",
+            "label": "rock1",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "rock1"
+            },
+            "x": 324.847503786608,
+            "y": 376.2121028974748,
+            "originX": 0.5749679972642051,
+            "originY": 0.6726405879855701
+        },
+        {
+            "type": "Image",
+            "id": "14d02d84-db2a-4d37-a550-34ad7bd849df",
+            "label": "rock8",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "rock8"
+            },
+            "x": 1200,
+            "y": 342
+        },
+        {
+            "type": "Image",
+            "id": "a0e7341b-b838-493e-bb12-a092afc0966d",
+            "label": "cover",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "bg"
+            },
+            "x": 760,
+            "y": 911.9322506561922,
+            "originY": 0.9477065847545915
+        },
+        {
+            "type": "Image",
+            "id": "e19304dd-e36e-4b82-8d4f-b03a386cc431",
+            "label": "rock7",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "rock7"
+            },
+            "x": 1237,
+            "y": 530.2641351118392,
+            "originY": 0.681773892329068
+        },
+        {
+            "type": "Image",
+            "id": "46a3e9dd-5dbd-4f31-91f1-6d0269a4a071",
+            "label": "rock9",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "rock9"
+            },
+            "x": 1171,
+            "y": 309
+        },
+        {
+            "type": "Sprite",
+            "id": "d5d9b07f-aea4-412f-98fd-440820150e2e",
+            "label": "penguin1",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "pirate_penguin_1",
+            "Animation.end": 42,
+            "Animation.repeat": 2,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "pirate_penguin_10001"
+            },
+            "x": 633,
+            "y": 134
+        },
+        {
+            "type": "Sprite",
+            "id": "c0318ebb-f89d-475e-8b80-ec624d4a21ed",
+            "label": "penguin2",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "pirate_penguin_2",
+            "Animation.end": 42,
+            "Animation.repeat": 2,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "pirate_penguin_20001"
+            },
+            "x": 708,
+            "y": 119
+        },
+        {
+            "type": "Sprite",
+            "id": "6db45e8d-bc4b-4eb2-b471-13d94d13f7ca",
+            "label": "penguin3",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "pirate_penguin_3",
+            "Animation.end": 21,
+            "Animation.repeat": 5,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "pirate_penguin_30001"
+            },
+            "x": 815,
+            "y": 155
+        },
+        {
+            "type": "Sprite",
+            "id": "4ad9c469-6eba-423d-80b8-2d96134f9751",
+            "label": "pufflemonkey",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "puffle_monkey",
+            "Animation.end": 18,
+            "Animation.repeat": 5,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "puffle_monkey0001"
+            },
+            "x": 925,
+            "y": 153
+        },
+        {
+            "type": "Image",
+            "id": "bcc477a4-4d9f-408d-805f-9c2cf7b94ebc",
+            "label": "cannon_rock",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "cannon_rock"
+            },
+            "x": 1001,
+            "y": 270
+        },
+        {
+            "type": "Sprite",
+            "id": "78a055d6-28ae-4ab0-8d81-4c1daa9ff068",
+            "label": "cannon_target",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "target",
+            "Animation.end": 32,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "target0001"
+            },
+            "x": 1048,
+            "y": 458.01504439870826,
+            "originY": 0.5748623795224734
+        },
+        {
+            "type": "Sprite",
+            "id": "e349dbfb-d05d-4bd8-985a-14a9718a7686",
+            "label": "cannon",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "cannon",
+            "Animation.end": 89,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "cannon0001"
+            },
+            "x": 984.8880785927944,
+            "y": 486.3423748378646,
+            "originX": 0.36076364853276843,
+            "originY": 0.7790564429646692
+        },
+        {
+            "type": "Image",
+            "id": "6a4a58de-e4d9-4be5-9b8d-3a8fc4ffb8a7",
+            "label": "jaggedrock",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "jagged_rock"
+            },
+            "x": 318,
+            "y": 487.18668686190944,
+            "originY": 0.7784525612670485
+        },
+        {
+            "type": "Image",
+            "id": "cc5ea6d3-c063-4ece-ba56-6c873d501c5a",
+            "label": "rock4",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "rock4"
+            },
+            "x": 573,
+            "y": 184
+        },
+        {
+            "type": "Image",
+            "id": "4f82b2e3-b531-460f-b624-f374907cd373",
+            "label": "rock6",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "rock6"
+            },
+            "x": 524.0219116210938,
+            "y": 442.23284568343837,
+            "originX": 0.5086600424907649,
+            "originY": 0.685074697306056
+        },
+        {
+            "type": "Image",
+            "id": "b09c3f63-4693-465b-aed6-07811794d22e",
+            "label": "rock5",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "rock5"
+            },
+            "x": 544.0218850139103,
+            "y": 253.63466540339627,
+            "originX": 0.5085157084492522,
+            "originY": 0.5657087924687279
+        },
+        {
+            "type": "Sprite",
+            "id": "c679b5eb-baf1-4944-816d-5ec9c80a7e91",
+            "label": "snowball_fall",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ball_fall",
+            "Animation.end": 27,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.stopOnOut": false,
+            "Animation.showOnStart": true,
+            "Animation.hideOnComplete": true,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "ball_fall0001"
+            },
+            "x": 719,
+            "y": 134,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "ae4b3f66-0f4f-4e74-8e46-1608c2daec7d",
+            "label": "barrel_ground",
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "popout_ground"
+            },
+            "x": 500,
+            "y": 572
+        },
+        {
+            "type": "Sprite",
+            "id": "809676fc-a50d-48d2-9a40-b4c1dc5e05a9",
+            "label": "popout_target",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "popout_target",
+            "Animation.end": 30,
+            "Animation.repeat": 0,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "popout_target0001"
+            },
+            "x": 540,
+            "y": 514
+        },
+        {
+            "type": "Sprite",
+            "id": "217c9083-b9c9-423e-a507-db469ebed378",
+            "label": "barrels",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "popout",
+            "Animation.end": 139,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "maroon-lagoon-ride",
+                "frame": "popout0001"
+            },
+            "x": 482,
+            "y": 546.2565773123107,
+            "originY": 0.5908240911174247
+        },
+        {
+            "type": "Rectangle",
+            "id": "fb533546-9a57-4e49-844d-502db7ac7c48",
+            "label": "hitbox5",
+            "scope": "CLASS",
+            "x": 538,
+            "y": 447,
+            "visible": false,
+            "width": 64,
+            "height": 64
+        },
+        {
+            "type": "Rectangle",
+            "id": "0b2109f2-92b3-482d-8d49-d9ad78a14030",
+            "label": "hitbox4",
+            "scope": "CLASS",
+            "x": 1038,
+            "y": 373,
+            "visible": false,
+            "width": 64,
+            "height": 64
+        },
+        {
+            "type": "Rectangle",
+            "id": "d0a34a54-4e3c-42e2-a6fc-9708f6239c82",
+            "label": "hitbox3",
+            "scope": "CLASS",
+            "x": 1361,
+            "y": 98,
+            "visible": false,
+            "width": 64,
+            "height": 64
+        },
+        {
+            "type": "Rectangle",
+            "id": "6bcc7af0-1b0f-4a4a-b7cc-8d3c5d7ae0e6",
+            "label": "hitbox2",
+            "scope": "CLASS",
+            "x": 877,
+            "y": 86,
+            "visible": false,
+            "width": 64,
+            "height": 64
+        },
+        {
+            "type": "Rectangle",
+            "id": "89d5ca61-ea21-4823-b78b-6e6b7f3b6e11",
+            "label": "hitbox1",
+            "scope": "CLASS",
+            "x": 259,
+            "y": 102,
+            "visible": false,
+            "width": 64,
+            "height": 64
+        },
+        {
+            "type": "Image",
+            "id": "6da5afea-b171-466b-820d-83ba31cfe2d4",
+            "label": "bg_1",
+            "texture": {
+                "key": "maroon-lagoon",
+                "frame": "bg"
+            },
+            "x": 760,
+            "y": 515,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "68f89df7-a63c-4df2-a6a4-01cc7a808c2e",
+            "label": "rock",
+            "texture": {
+                "key": "maroon-lagoon",
+                "frame": "rock"
+            },
+            "x": 966,
+            "y": 406,
+            "originX": 0.49360347368147883,
+            "originY": 1.0291304735193478,
+            "visible": false
+        },
+        {
+            "type": "Container",
+            "id": "9127eeac-a306-4044-b0bf-8cea2eacfb61",
+            "label": "_flag",
+            "x": 870,
+            "y": 499,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "83a894e7-95dc-42a2-bee7-ef6b577c3874",
+                    "label": "flag",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "flag",
+                    "Animation.end": 140,
+                    "texture": {
+                        "key": "maroon-lagoon",
+                        "frame": "flag0001"
+                    },
+                    "x": -110.48719909981537,
+                    "y": -492.38860468395956,
+                    "originX": 0,
+                    "originY": 0
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "6f5ddbef-3387-4b47-972c-b3852851a18e",
+            "label": "dock_boat",
+            "texture": {
+                "key": "maroon-lagoon",
+                "frame": "dock_boat"
+            },
+            "x": 1406,
+            "y": 465,
+            "originX": 0.492600545620581,
+            "originY": 0.558741894908311,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "9d6934ce-e574-4232-88d6-6f310c68a2f1",
+            "label": "rock_entrance",
+            "texture": {
+                "key": "maroon-lagoon",
+                "frame": "rock_entrance"
+            },
+            "x": 253,
+            "y": 386,
+            "originX": 0.4942410922104286,
+            "originY": 0.812202244326119,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "cf5b4233-96e6-4cdc-98f4-81f71dc3139c",
+            "label": "center",
+            "texture": {
+                "key": "maroon-lagoon",
+                "frame": "center"
+            },
+            "x": 684.6021166432985,
+            "y": 645.1179914680376,
+            "originX": 0.5024107473249337,
+            "originY": 0.8467929065103217,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "8d3a57ec-8b7e-40ad-8f18-771ef2136927",
+            "label": "danger_sign",
+            "texture": {
+                "key": "maroon-lagoon",
+                "frame": "danger_sign"
+            },
+            "x": 41,
+            "y": 483,
+            "originX": 0.5540479329514667,
+            "originY": 0.7788873340295677,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d798c9f6-71a6-479f-b917-0118f151a393",
+            "label": "front_deco_2",
+            "texture": {
+                "key": "maroon-lagoon",
+                "frame": "front_deco_2"
+            },
+            "x": 1551,
+            "y": 741.0525318767216,
+            "originY": 0.2715360173844016,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "3333efdc-38af-494a-9c5b-a60ccebe364a",
+            "label": "front_deco",
+            "texture": {
+                "key": "maroon-lagoon",
+                "frame": "front_deco"
+            },
+            "x": 1821,
+            "y": 1071,
+            "originX": 1,
+            "originY": 1,
+            "visible": false
+        },
+        {
+            "type": "Rectangle",
+            "id": "2e47d8de-16b6-4fea-abcf-d9b314c27bff",
+            "label": "darkness",
+            "scope": "CLASS",
+            "x": 1520,
+            "y": 1262.4142925317885,
+            "originX": 1,
+            "originY": 1.3150148728647069,
+            "alpha": 0,
+            "isFilled": true,
+            "fillColor": "#000",
+            "width": 1520,
+            "height": 960
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "89bb49d1-a8ed-44be-98ad-4a0e3d40e615",
+            "label": "rideParts",
+            "objectIds": [
+                "1da666c2-f208-4bbd-93ab-ac3e42e46b60",
+                "89d5ca61-ea21-4823-b78b-6e6b7f3b6e11",
+                "6bcc7af0-1b0f-4a4a-b7cc-8d3c5d7ae0e6",
+                "d0a34a54-4e3c-42e2-a6fc-9708f6239c82",
+                "0b2109f2-92b3-482d-8d49-d9ad78a14030",
+                "fb533546-9a57-4e49-844d-502db7ac7c48",
+                "217c9083-b9c9-423e-a507-db469ebed378",
+                "809676fc-a50d-48d2-9a40-b4c1dc5e05a9",
+                "ae4b3f66-0f4f-4e74-8e46-1608c2daec7d",
+                "b09c3f63-4693-465b-aed6-07811794d22e",
+                "4f82b2e3-b531-460f-b624-f374907cd373",
+                "cc5ea6d3-c063-4ece-ba56-6c873d501c5a",
+                "6a4a58de-e4d9-4be5-9b8d-3a8fc4ffb8a7",
+                "e349dbfb-d05d-4bd8-985a-14a9718a7686",
+                "78a055d6-28ae-4ab0-8d81-4c1daa9ff068",
+                "bcc477a4-4d9f-408d-805f-9c2cf7b94ebc",
+                "4ad9c469-6eba-423d-80b8-2d96134f9751",
+                "6db45e8d-bc4b-4eb2-b471-13d94d13f7ca",
+                "c0318ebb-f89d-475e-8b80-ec624d4a21ed",
+                "d5d9b07f-aea4-412f-98fd-440820150e2e",
+                "46a3e9dd-5dbd-4f31-91f1-6d0269a4a071",
+                "e19304dd-e36e-4b82-8d4f-b03a386cc431",
+                "a0e7341b-b838-493e-bb12-a092afc0966d",
+                "14d02d84-db2a-4d37-a550-34ad7bd849df",
+                "e11b284c-4e6c-46c9-a578-34ebb2cb1298",
+                "f27aa7ac-3487-4a38-909b-82fd16eeca6c",
+                "97041451-dc9b-4fe2-8e4c-34f96b5c7602",
+                "4df60f4c-200d-4f5a-bdca-5b4eaa825337",
+                "221ac321-c83a-465a-a2a7-0895e826dbca",
+                "6bcf10a3-fa40-463b-b676-a1a2f040e7a8",
+                "8ae5609d-ee6b-4975-a036-f5a473d66491",
+                "fbf471d0-5d83-4f53-b376-34cfc4ba0a53",
+                "15ebfeea-24db-4c03-9100-7eb8b264f8fe",
+                "64575644-3efd-49a1-8a16-4b59867fd598",
+                "da920cfa-bb67-4e0a-987c-da5a24f5f143",
+                "45194266-faa4-47e7-85e2-6c22154bb114",
+                "de4fddd8-5a80-433c-94a1-229c0fcfb7a3"
+            ]
+        },
+        {
+            "id": "300cde37-df47-4230-b0b8-c529b59983d0",
+            "label": "sort",
+            "objectIds": [
+                "a0e7341b-b838-493e-bb12-a092afc0966d",
+                "217c9083-b9c9-423e-a507-db469ebed378",
+                "221ac321-c83a-465a-a2a7-0895e826dbca",
+                "2e47d8de-16b6-4fea-abcf-d9b314c27bff",
+                "d798c9f6-71a6-479f-b917-0118f151a393",
+                "6f5ddbef-3387-4b47-972c-b3852851a18e",
+                "8d3a57ec-8b7e-40ad-8f18-771ef2136927",
+                "cf5b4233-96e6-4cdc-98f4-81f71dc3139c",
+                "9d6934ce-e574-4232-88d6-6f310c68a2f1",
+                "3333efdc-38af-494a-9c5b-a60ccebe364a",
+                "68f89df7-a63c-4df2-a6a4-01cc7a808c2e",
+                "e349dbfb-d05d-4bd8-985a-14a9718a7686",
+                "78a055d6-28ae-4ab0-8d81-4c1daa9ff068",
+                "14d02d84-db2a-4d37-a550-34ad7bd849df",
+                "e19304dd-e36e-4b82-8d4f-b03a386cc431",
+                "4f82b2e3-b531-460f-b624-f374907cd373",
+                "6a4a58de-e4d9-4be5-9b8d-3a8fc4ffb8a7",
+                "e11b284c-4e6c-46c9-a578-34ebb2cb1298",
+                "809676fc-a50d-48d2-9a40-b4c1dc5e05a9"
+            ]
+        },
+        {
+            "id": "87fa597b-c784-417e-9019-b93c13919839",
+            "label": "exteriorParts",
+            "objectIds": [
+                "6da5afea-b171-466b-820d-83ba31cfe2d4",
+                "3333efdc-38af-494a-9c5b-a60ccebe364a",
+                "d798c9f6-71a6-479f-b917-0118f151a393",
+                "8d3a57ec-8b7e-40ad-8f18-771ef2136927",
+                "cf5b4233-96e6-4cdc-98f4-81f71dc3139c",
+                "9d6934ce-e574-4232-88d6-6f310c68a2f1",
+                "6f5ddbef-3387-4b47-972c-b3852851a18e",
+                "9127eeac-a306-4044-b0bf-8cea2eacfb61",
+                "68f89df7-a63c-4df2-a6a4-01cc7a808c2e"
+            ]
+        }
+    ]
+}

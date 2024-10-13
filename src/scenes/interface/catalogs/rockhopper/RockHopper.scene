@@ -1,0 +1,176 @@
+{
+    "id": "9f082e9e-4baf-4759-92dd-c5324446c5e3",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "e06ea2fa-1b40-40a9-9089-b1ce19ff0bcd",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "702c6fab-118d-4dae-9e89-698f317a2542",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -7,
+                    "y": 3,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.2,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Image",
+                    "id": "6ed98b53-827f-413e-a776-97af5d6de93e",
+                    "label": "bg",
+                    "texture": {
+                        "key": "rockhopper_fair2024",
+                        "frame": "bg"
+                    },
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                    "id": "32ebdb98-85bd-42ad-b1bf-37730c71a5fa",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "itemType",
+                        "item"
+                    ],
+                    "label": "buyButton_1",
+                    "item": 103,
+                    "itemType": "Igloo",
+                    "x": -264,
+                    "y": 207
+                },
+                {
+                    "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                    "id": "a83fc2e3-7751-4be9-83fa-85f94a8c545a",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "item"
+                    ],
+                    "label": "buyButton",
+                    "item": 2040,
+                    "x": -193,
+                    "y": -12
+                },
+                {
+                    "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                    "id": "343fea77-ef7d-4818-beea-ee28f35ba1b7",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "item"
+                    ],
+                    "label": "buyButton_2",
+                    "item": 4423,
+                    "x": 117,
+                    "y": -5
+                },
+                {
+                    "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                    "id": "7c705d63-6a77-4f26-8ddd-25ebf16250d7",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "item"
+                    ],
+                    "label": "buyButton_3",
+                    "item": 5118,
+                    "x": 466,
+                    "y": -9
+                },
+                {
+                    "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                    "id": "732d501a-1f22-4f57-9c04-e60550837704",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "item",
+                        "itemType"
+                    ],
+                    "label": "buyButton_4",
+                    "item": 729,
+                    "itemType": "Furniture",
+                    "x": 538,
+                    "y": 262
+                },
+                {
+                    "type": "Image",
+                    "id": "7401fa38-3308-4962-9e06-e270e11692f5",
+                    "label": "receive0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "receive",
+                    "Button.callback": "() => this.interface.prompt.showItem(1159)",
+                    "Button.activeFrame": true,
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "rockhopper_fair2024",
+                        "frame": "receive0001"
+                    },
+                    "x": -505,
+                    "y": 296
+                },
+                {
+                    "type": "Image",
+                    "id": "9f39685d-1ac1-443f-9a50-cb51b02ce0da",
+                    "label": "grey_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 641,
+                    "y": -375
+                },
+                {
+                    "type": "Image",
+                    "id": "ee06db0d-a2e7-4125-9142-eebc2f671bc8",
+                    "label": "grey_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 641,
+                    "y": -377
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

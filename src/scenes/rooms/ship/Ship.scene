@@ -1,0 +1,264 @@
+{
+    "id": "175e54e0-c51e-4695-88c3-62bb19e577cb",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/ship/ship-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Ship",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "37dfd36d-bbf5-4e54-918e-f0eb60e24ea4",
+            "label": "sky",
+            "texture": {
+                "key": "ship",
+                "frame": "sky"
+            },
+            "x": 721,
+            "y": 166
+        },
+        {
+            "type": "Image",
+            "id": "529ec886-c0e9-4300-b8c5-bc72ea5fadf2",
+            "label": "sprite_202",
+            "texture": {
+                "key": "ship",
+                "frame": "back"
+            },
+            "x": 798.3336861106048,
+            "y": 542,
+            "originX": 0.5149574910965415
+        },
+        {
+            "type": "Image",
+            "id": "672b99c4-7377-44a6-ad6b-22727eae91be",
+            "label": "store",
+            "texture": {
+                "key": "ship",
+                "frame": "store"
+            },
+            "x": 452.1477745145639,
+            "y": 483.96470753398745,
+            "originX": 0.5815908186039278,
+            "originY": 0.6256605865127085
+        },
+        {
+            "type": "Sprite",
+            "id": "91d6558f-d622-4824-8765-2ebe203d4947",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "MoveTo.x": "566",
+            "MoveTo.y": "509",
+            "texture": {
+                "key": "ship",
+                "frame": "door"
+            },
+            "x": 612.7607670334029,
+            "y": 497.73136747477855,
+            "originX": 0.752270166018701,
+            "originY": 0.5375309789761876
+        },
+        {
+            "type": "Image",
+            "id": "8cca8e52-139a-4662-810e-ebe2ba2d77d8",
+            "label": "sprite_214",
+            "texture": {
+                "key": "ship",
+                "frame": "sprite 214"
+            },
+            "x": 274,
+            "y": 271
+        },
+        {
+            "type": "Image",
+            "id": "c8893c2d-e6af-49f5-bdf7-a7defb10d780",
+            "label": "sprite_227",
+            "texture": {
+                "key": "ship",
+                "frame": "sprite 227"
+            },
+            "x": 376.86531958393294,
+            "y": 432.1716279878315,
+            "originX": 0.5255521565542438,
+            "originY": 0.7628074379125677
+        },
+        {
+            "type": "Image",
+            "id": "c0b24dac-c1e8-46b7-a4e3-9ea73194840c",
+            "label": "sprite_247",
+            "texture": {
+                "key": "ship",
+                "frame": "sprite 247"
+            },
+            "x": 1095.1253338224562,
+            "y": 541.5591948758241,
+            "originX": 0.5135585724452315,
+            "originY": 0.9812999191396332
+        },
+        {
+            "type": "Image",
+            "id": "968324af-befd-4b26-bea8-08f87aa51d55",
+            "label": "sprite_216",
+            "texture": {
+                "key": "ship",
+                "frame": "sprite 216"
+            },
+            "x": 1376.9836083075725,
+            "y": 387.90164984543503,
+            "originX": 0.5106913946475268,
+            "originY": 0.5756621775055774
+        },
+        {
+            "type": "Image",
+            "id": "6b7eb043-8bdb-4146-a18e-a87f63fd43d5",
+            "label": "sprite_218",
+            "texture": {
+                "key": "ship",
+                "frame": "sprite 218"
+            },
+            "x": 1408.03050312601,
+            "y": 418.33122982462606,
+            "originX": 0.2992080102226282,
+            "originY": 0.6195257692434427
+        },
+        {
+            "type": "Image",
+            "id": "40600f3f-5631-450e-ae56-721c299797af",
+            "label": "sprite_225",
+            "texture": {
+                "key": "ship",
+                "frame": "sprite 225"
+            },
+            "x": 787.1703633225827,
+            "y": 678.7926182544373,
+            "originX": 0.5026975189576837,
+            "originY": 0.43735744046391867
+        },
+        {
+            "type": "Image",
+            "id": "47b95d47-06d7-4914-b7dd-14cbda0edf67",
+            "label": "sprite_230",
+            "texture": {
+                "key": "ship",
+                "frame": "sprite 230"
+            },
+            "x": 778.4199178378933,
+            "y": 487.0117149730374,
+            "originX": 0.3906077925385143,
+            "originY": 0.9372263687906317
+        },
+        {
+            "type": "Image",
+            "id": "ed3e7a5e-8586-48a3-8e93-44254dee5213",
+            "label": "sprite_297",
+            "texture": {
+                "key": "ship",
+                "frame": "sprite 297"
+            },
+            "x": 695.1693140579166,
+            "y": 689.6649066967533,
+            "originX": 0.6534188831972382,
+            "originY": 0.7511328316227008
+        },
+        {
+            "type": "Sprite",
+            "id": "8654225e-d1f2-4091-a09c-552f3a44436a",
+            "label": "puffle0388",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "stupidredidiot",
+            "Animation.end": 468,
+            "texture": {
+                "key": "ship",
+                "frame": "stupidredidiot0001"
+            },
+            "x": 648.1813553161213,
+            "y": 1181.820528365679,
+            "originX": 0.9053749234090324,
+            "originY": 10.753142434957637,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "ba244e09-1184-463a-b017-65c58ee2e68b",
+            "label": "ladder",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "AHHHHHHHHHHHHHHHHHHH",
+            "Animation.end": 20,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.stopOnOut": false,
+            "texture": {
+                "key": "ship",
+                "frame": "AHHHHHHHHHHHHHHHHHHH0001"
+            },
+            "x": 827.8073834451649,
+            "y": 933.5932345876297,
+            "originX": 0.4333932193444414,
+            "originY": 1.718907560599709
+        },
+        {
+            "type": "Rectangle",
+            "id": "91785708-01a3-4430-b86f-937cf1589cfd",
+            "label": "rectangle",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.hoverCallback": "() => this.ladder.__Animation.play()",
+            "SimpleButton.callback": "() => this.triggerRoom(423, 10, 10)",
+            "x": 797.1756714466426,
+            "y": 201.52689122966223,
+            "scaleX": 0.5026819154253821,
+            "originX": 0.5804385233283895,
+            "originY": 0.4806786789748414,
+            "fillColor": "#733737",
+            "fillAlpha": 0.7,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "d8014338-e465-4139-bd11-d2d330aded64",
+            "label": "sort",
+            "objectIds": [
+                "40600f3f-5631-450e-ae56-721c299797af",
+                "672b99c4-7377-44a6-ad6b-22727eae91be",
+                "c8893c2d-e6af-49f5-bdf7-a7defb10d780",
+                "c0b24dac-c1e8-46b7-a4e3-9ea73194840c",
+                "968324af-befd-4b26-bea8-08f87aa51d55",
+                "6b7eb043-8bdb-4146-a18e-a87f63fd43d5",
+                "47b95d47-06d7-4914-b7dd-14cbda0edf67",
+                "ed3e7a5e-8586-48a3-8e93-44254dee5213",
+                "8654225e-d1f2-4091-a09c-552f3a44436a",
+                "ba244e09-1184-463a-b017-65c58ee2e68b",
+                "91d6558f-d622-4824-8765-2ebe203d4947"
+            ]
+        }
+    ]
+}

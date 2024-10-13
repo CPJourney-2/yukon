@@ -1,0 +1,104 @@
+{
+    "id": "d804102d-7a08-4c62-b3d4-a9388bae9808",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "3af5dde7-1088-4d8d-be6c-85f942bc0921",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "a5a357b1-4785-497b-a7ae-a413014c0a33",
+                    "label": "game",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button",
+                        "MoveTo",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "animations/box/6",
+                    "MoveTo.x": "this.x",
+                    "MoveTo.y": "this.y + 15",
+                    "ShowHint.text": "treasurehunt_hint",
+                    "texture": {
+                        "key": "shipquarters",
+                        "frame": "animations/box/6"
+                    },
+                    "originY": 0.20218853122526168
+                },
+                {
+                    "prefabId": "3d402c83-0ef8-4993-bf56-3e076074ec9e",
+                    "id": "3ae5d1c1-815b-4487-9a65-96b04b6e98f2",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "done1",
+                    "x": -49,
+                    "y": -33
+                },
+                {
+                    "prefabId": "3d402c83-0ef8-4993-bf56-3e076074ec9e",
+                    "id": "a55fe14c-4799-48a0-bd61-b93f7e31bfce",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "done2",
+                    "x": 41,
+                    "y": -36
+                },
+                {
+                    "prefabId": "3d402c83-0ef8-4993-bf56-3e076074ec9e",
+                    "id": "5c6243a0-f908-4b8f-8b85-c4b41c41fabf",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "sitFrame",
+                        "donePoint"
+                    ],
+                    "label": "seat2",
+                    "scope": "CLASS",
+                    "sitFrame": 18,
+                    "donePoint": "done2",
+                    "x": 65,
+                    "y": 17
+                },
+                {
+                    "prefabId": "3d402c83-0ef8-4993-bf56-3e076074ec9e",
+                    "id": "c50ed23a-73ba-474c-bfe8-355bab016edc",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "sitFrame",
+                        "donePoint"
+                    ],
+                    "label": "seat1",
+                    "scope": "CLASS",
+                    "sitFrame": 24,
+                    "donePoint": "done1",
+                    "x": -53,
+                    "y": 17
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

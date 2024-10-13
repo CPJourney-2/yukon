@@ -1,0 +1,220 @@
+{
+    "id": "8c7e8c7b-b268-4edb-927b-d59ef3463615",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "be8a0767-07ca-4e60-90e1-7dc459a718be",
+            "label": "container_1",
+            "x": 0.00438428236389643,
+            "y": 0.0661551881702878,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "8f756980-9e73-4dec-9549-80272be0e2c2",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "dd2ab39c-e314-4988-94c7-228896a7d25f",
+                    "label": "cadence",
+                    "x": 81.00000261934474,
+                    "y": 374.0000069215894,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "45924ef7-6453-43cb-8a6b-e0398c47fc0f",
+                            "label": "rightarm",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "rightarm",
+                            "Animation.end": 180,
+                            "texture": {
+                                "key": "cadence-login",
+                                "frame": "rightarm0001"
+                            },
+                            "x": 442.00000762939453,
+                            "y": 199
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b6fdb0a5-6794-4efa-b443-b3b5de458f97",
+                            "label": "body",
+                            "texture": {
+                                "key": "cadence-login",
+                                "frame": "body"
+                            },
+                            "x": 253.00000762939453,
+                            "y": 295
+                        },
+                        {
+                            "type": "Image",
+                            "id": "39acb060-08bc-48cf-b8a1-bfcb0bb82110",
+                            "label": "scarf_hair",
+                            "texture": {
+                                "key": "cadence-login",
+                                "frame": "scarf_hair"
+                            },
+                            "x": 183.00000762939453,
+                            "y": 139
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "6332fd11-8188-4aa6-b94a-9f306655b51e",
+                            "label": "eyes",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "eyes",
+                            "Animation.end": 180,
+                            "texture": {
+                                "key": "cadence-login",
+                                "frame": "eyes0001"
+                            },
+                            "x": 215.00000762939453
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "cecbaf5d-7f1a-490c-a6bc-2f1c0647b2d2",
+                            "label": "mouth",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "mouth",
+                            "Animation.end": 16,
+                            "texture": {
+                                "key": "cadence-login",
+                                "frame": "mouth0001"
+                            },
+                            "x": 258.00000762939453,
+                            "y": 87
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "85a14001-bca2-40da-b59e-e4e6f0c978d5",
+                            "label": "leftarm",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "leftarm",
+                            "Animation.end": 22,
+                            "texture": {
+                                "key": "cadence-login",
+                                "frame": "leftarm0001"
+                            },
+                            "y": 98
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "a24fa790-05ba-4a8c-ba2f-cbe6bdb0386d",
+                    "label": "textBubble",
+                    "texture": {
+                        "key": "cadence-login",
+                        "frame": "bubble"
+                    },
+                    "x": 902,
+                    "y": 785
+                },
+                {
+                    "type": "Image",
+                    "id": "961ad289-cede-47df-aa35-f3eee35c81a2",
+                    "label": "button0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "button",
+                    "Button.callback": "() => this.nextPage()",
+                    "Button.activeFrame": true,
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "cadence-login",
+                        "frame": "button0001"
+                    },
+                    "x": 1351,
+                    "y": 863
+                },
+                {
+                    "type": "Text",
+                    "id": "8907cfa1-c9fe-4691-b735-be9d37e2cfa5",
+                    "label": "buttonText",
+                    "scope": "CLASS",
+                    "x": 1251,
+                    "y": 838,
+                    "text": "Next",
+                    "fixedWidth": 200,
+                    "fixedHeight": 60,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "36px",
+                    "fontStyle": "bold",
+                    "color": "#39334aff",
+                    "wordWrapWidth": 1080
+                },
+                {
+                    "type": "Text",
+                    "id": "538c52a5-d5cf-46ff-bca8-082cbddcdc10",
+                    "label": "text",
+                    "scope": "CLASS",
+                    "x": 405,
+                    "y": 654,
+                    "text": "Get up party penguins haven't you heard i get a lot a distance for a little placeholder text",
+                    "fixedWidth": 1060,
+                    "fixedHeight": 200,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "36px",
+                    "fontStyle": "bold",
+                    "color": "#39334aff",
+                    "wordWrapWidth": 1080
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1d3cf3e9-97a5-431e-bda5-56358012154c",
+            "label": "pages",
+            "objectIds": [
+                "ee5c3afe-bad9-4429-a6c0-321223e68c74"
+            ]
+        },
+        {
+            "id": "0378d960-cf3e-491b-89fa-1b0341af70c3",
+            "label": "arrows",
+            "objectIds": [
+                "d18b4c26-6375-4c26-9f21-d51a6f36b2f7"
+            ]
+        }
+    ]
+}

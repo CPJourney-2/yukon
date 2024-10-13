@@ -1,0 +1,174 @@
+{
+    "id": "b78ef157-aa20-421a-8701-2b1126afe346",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/propeller/propeller-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Propeller",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "7480806b-87e7-4b2f-b50a-3bc2a4d94e5e",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "propeller",
+                "frame": "floormain"
+            },
+            "x": 384,
+            "y": 509,
+            "originX": 0,
+            "originY": 0,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "b9898465-ce04-474d-8b04-1d52a08580dd",
+            "label": "floor_1",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "propeller",
+                "frame": "floor"
+            },
+            "x": 5,
+            "y": 10,
+            "originX": 0,
+            "originY": 0,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "61b59e36-3b6f-446e-9f48-96d9052e69fe",
+            "label": "floor_pt2",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "propeller",
+                "frame": "floorpt2"
+            },
+            "x": 5,
+            "y": 10,
+            "originX": 0,
+            "originY": 0,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "0b2a609b-0613-4958-8ac3-2331e7bb1ac6",
+            "label": "wall",
+            "components": [],
+            "texture": {
+                "key": "propeller",
+                "frame": "bg"
+            },
+            "x": 5,
+            "y": 10,
+            "originX": 0,
+            "originY": 0,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "7cc1f402-05ff-46ce-a24a-5b2e9972af9e",
+            "label": "fan",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fan",
+            "Animation.end": 14,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "propeller",
+                "frame": "fan0001"
+            },
+            "x": 760,
+            "y": 109,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "b9624c25-82fe-4807-a7d3-3b65be90734d",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "Button.activeFrame": true,
+            "MoveTo.x": "528",
+            "MoveTo.y": "586",
+            "texture": {
+                "key": "propeller",
+                "frame": "door"
+            },
+            "x": 484,
+            "y": 457,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "4fd95239-9e42-4d12-8cda-e940c1cd767d",
+            "label": "button",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "button",
+            "Button.callback": "() => {this.toggleFan()}",
+            "Button.activeFrame": true,
+            "texture": {
+                "key": "propeller",
+                "frame": "button"
+            },
+            "x": 944,
+            "y": 432,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "a33fffc4-7e0b-4166-8936-4995c5a1bb59",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 511,
+            "y": 557.0000000000001,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.5748622263939656,
+            "originY": 0.7568204277109731,
+            "width": 128,
+            "height": 128,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "9a5c70ea-d735-44fd-a516-e6de319e1040",
+            "label": "sort",
+            "objectIds": [
+                "7cc1f402-05ff-46ce-a24a-5b2e9972af9e"
+            ]
+        }
+    ]
+}

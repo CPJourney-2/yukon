@@ -1,0 +1,218 @@
+{
+    "id": "4cd1b443-67cd-4904-9fbd-1dcd194e7c38",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/book/book-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Book",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "8fc441d9-2cd2-4728-8d28-e81bc40d58c1",
+            "label": "bg",
+            "texture": {
+                "key": "book",
+                "frame": "bg"
+            },
+            "y": -6,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "3c785f09-b7ca-43cf-bf8b-b57183a3bea0",
+            "label": "books",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "books",
+            "MoveTo.x": "360",
+            "MoveTo.y": "470",
+            "texture": {
+                "key": "book",
+                "frame": "books"
+            },
+            "x": 241,
+            "y": 267,
+            "originX": 0.35501355013550134,
+            "originY": 0.28205128205128205
+        },
+        {
+            "type": "Image",
+            "id": "3f068263-f4f5-4b66-88b0-078006583a4c",
+            "label": "chair_back",
+            "texture": {
+                "key": "book",
+                "frame": "chair_back"
+            },
+            "x": 175,
+            "y": 590,
+            "originX": 0.5052631578947369,
+            "originY": 0.46808510638297873
+        },
+        {
+            "type": "Image",
+            "id": "587577af-f9ef-471a-849a-09a07bc115b1",
+            "label": "chair_front",
+            "texture": {
+                "key": "book",
+                "frame": "chair_front"
+            },
+            "x": 180,
+            "y": 652,
+            "originX": 0.5022026431718062,
+            "originY": 0.5178571428571429
+        },
+        {
+            "type": "Image",
+            "id": "c9532f84-c85e-4dc4-bae4-aaaf8557e69e",
+            "label": "chair_table",
+            "texture": {
+                "key": "book",
+                "frame": "chair_table"
+            },
+            "x": 132,
+            "y": 722,
+            "originX": 0.5069124423963134,
+            "originY": 0.5103734439834025
+        },
+        {
+            "type": "Image",
+            "id": "b90ced99-35ae-410a-8a7c-e6fd81b16608",
+            "label": "poster",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "poster",
+            "Button.callback": "() => this.interface.loadWidget('HowtoPlay')",
+            "Button.pixelPerfect": true,
+            "texture": {
+                "key": "book",
+                "frame": "poster"
+            },
+            "x": 720,
+            "y": 97,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "prefabId": "a31bdfcd-9fee-4e6e-b421-7edb8b8c7008",
+            "id": "fd51e368-47f4-47df-a384-50368708110b",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "table104",
+            "scope": "CLASS",
+            "x": 1208,
+            "y": 755,
+            "visible": true
+        },
+        {
+            "prefabId": "a31bdfcd-9fee-4e6e-b421-7edb8b8c7008",
+            "id": "62ad80e4-03cd-46be-bc97-88dde203d0d1",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "table103",
+            "scope": "CLASS",
+            "x": 806,
+            "y": 690,
+            "visible": true
+        },
+        {
+            "prefabId": "a31bdfcd-9fee-4e6e-b421-7edb8b8c7008",
+            "id": "026d8187-0e90-4d76-a2e4-3ab5b5463b36",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "table102",
+            "scope": "CLASS",
+            "x": 426,
+            "y": 652,
+            "visible": true
+        },
+        {
+            "prefabId": "a31bdfcd-9fee-4e6e-b421-7edb8b8c7008",
+            "id": "3c0f4d88-d38f-49e0-b90d-2389d36e4d50",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "table101",
+            "scope": "CLASS",
+            "x": 951,
+            "y": 453,
+            "visible": true
+        },
+        {
+            "prefabId": "a31bdfcd-9fee-4e6e-b421-7edb8b8c7008",
+            "id": "641156f5-cc76-4144-8f1a-e4648f3ddfc7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table100",
+            "scope": "CLASS",
+            "x": 651,
+            "y": 450
+        },
+        {
+            "type": "Image",
+            "id": "252f722f-1cfa-4bda-8b30-0dce951d3511",
+            "label": "interfaceIcons",
+            "scope": "CLASS",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "bookbtn",
+            "Button.callback": "() => this.onLibrary()",
+            "texture": {
+                "key": "book-btn",
+                "frame": "bookbtn"
+            },
+            "x": 1435.0000261607795,
+            "y": 872.000002672045
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "8bce6f73-b3e7-48cf-9a02-7e5412e5397d",
+            "label": "sort",
+            "objectIds": [
+                "c9532f84-c85e-4dc4-bae4-aaaf8557e69e",
+                "587577af-f9ef-471a-849a-09a07bc115b1",
+                "3f068263-f4f5-4b66-88b0-078006583a4c",
+                "641156f5-cc76-4144-8f1a-e4648f3ddfc7",
+                "3c0f4d88-d38f-49e0-b90d-2389d36e4d50",
+                "026d8187-0e90-4d76-a2e4-3ab5b5463b36",
+                "62ad80e4-03cd-46be-bc97-88dde203d0d1",
+                "fd51e368-47f4-47df-a384-50368708110b"
+            ]
+        }
+    ]
+}

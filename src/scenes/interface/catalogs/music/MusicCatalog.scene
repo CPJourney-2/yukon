@@ -1,0 +1,198 @@
+{
+    "id": "eb3cd73b-cc0c-420a-b98c-68995dde2c49",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8c3bf2eb-2277-4d27-a302-8d7c35ea6082",
+            "label": "container_1",
+            "x": 755.165759545349,
+            "y": 469.5966438186762,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "7d54c24d-937f-4213-b7c0-bae4f45b3266",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 4.837919959045507,
+                    "y": 10.403243876636282,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "91b203ac-f6a2-47fa-a981-766140b07a98",
+                    "label": "page1",
+                    "x": -755.165759545349,
+                    "y": -469.5966438186762,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "6b78ecb7-2c14-45af-9314-35ae47c1b36b",
+                            "label": "bg",
+                            "texture": {
+                                "key": "musiccatalog",
+                                "frame": "bg"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f668f919-4331-4975-9459-8f87c838b424",
+                            "label": "instruments",
+                            "texture": {
+                                "key": "musiccatalog",
+                                "frame": "instruments"
+                            },
+                            "x": 760,
+                            "y": 536.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "08e6b5f9-8e87-4076-8a9d-1232809bc0c4",
+                            "label": "closebtn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "closebtn",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "musiccatalog",
+                                "frame": "closebtn"
+                            },
+                            "x": 1248,
+                            "y": 177
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "40276978-3831-422b-aeca-994e41c847f4",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton",
+                            "item": 233,
+                            "x": 262,
+                            "y": 765
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "52451181-07f4-4664-af84-8ad3bff39809",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_1",
+                            "item": 180,
+                            "x": 813,
+                            "y": 765
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "1318a7f7-94e3-451f-b777-b742f8675f2a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_2",
+                            "item": 293,
+                            "x": 305,
+                            "y": 540
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "e18cc70c-79ba-494a-b803-e0957262c086",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_3",
+                            "item": 340,
+                            "x": 1087,
+                            "y": 557
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "1dfa0e41-3c0a-412c-b431-1886fa02cfd6",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_4",
+                            "item": 234,
+                            "x": 851,
+                            "y": 343
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "ab0a7de2-6b22-458e-91d1-b427ee3f3263",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_5",
+                            "item": 729,
+                            "x": 410,
+                            "y": 344
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "6bdd1ecb-61d6-4130-a71e-b2896e670552",
+                            "label": "secret",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(5014)",
+                            "x": 518,
+                            "y": 144,
+                            "scaleX": 0.2,
+                            "scaleY": 0.75,
+                            "width": 128,
+                            "height": 128
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "50a159f4-2f85-42a3-82d6-a4fdbc3e40b6",
+            "label": "pages",
+            "objectIds": [
+                "91b203ac-f6a2-47fa-a981-766140b07a98"
+            ]
+        }
+    ]
+}

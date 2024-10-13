@@ -1,0 +1,390 @@
+{
+    "id": "a1ffb379-a2ed-4fb9-9636-013099454b01",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/_mission11/hq/mission-hq-pack.json",
+            "client/assets/media/rooms/_mission11/hqphase1/postveggie-hqphase1-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "HQ",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "d7ffab6f-ceaa-4b14-932a-b0e5db8a9711",
+            "label": "bg_bottom",
+            "texture": {
+                "key": "postveggie-hqphase1",
+                "frame": "bg_bottom"
+            },
+            "x": 770,
+            "y": 481
+        },
+        {
+            "type": "Image",
+            "id": "e626a5c3-bf1c-4879-87bc-78389298b6c7",
+            "label": "bg",
+            "texture": {
+                "key": "postveggie-hqphase1",
+                "frame": "bg"
+            },
+            "x": 767,
+            "y": 480
+        },
+        {
+            "type": "Image",
+            "id": "d0ca6f7c-1af8-442d-9993-65137543ca9c",
+            "label": "ref",
+            "texture": {
+                "key": "postveggie-hqphase1",
+                "frame": "ref"
+            },
+            "x": 791,
+            "y": 336,
+            "visible": false,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "73aed059-19d7-4efd-97f8-76f90fbedfac",
+            "label": "second_door",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "second_door"
+            },
+            "x": 183,
+            "y": 443
+        },
+        {
+            "type": "Image",
+            "id": "a0d53c34-1b2c-4dcf-bae5-bc3a9b6f428f",
+            "label": "screens",
+            "scope": "CLASS",
+            "texture": {
+                "key": "postveggie-hqphase1",
+                "frame": "screens"
+            },
+            "x": 767,
+            "y": 367
+        },
+        {
+            "type": "Rectangle",
+            "id": "6839c708-e9de-465d-93f0-de334e1cae5e",
+            "label": "screensMask",
+            "scope": "CLASS",
+            "x": 148,
+            "y": 426,
+            "visible": false,
+            "isFilled": true,
+            "width": 300,
+            "height": 700
+        },
+        {
+            "type": "Sprite",
+            "id": "78400226-29ed-48ca-96ae-a70ae9169de5",
+            "label": "arrow_A",
+            "scope": "CLASS",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "arrow_A0001"
+            },
+            "x": 1486,
+            "y": 56
+        },
+        {
+            "type": "Sprite",
+            "id": "e19645d4-f674-4687-8b54-952198160c46",
+            "label": "arrow_B",
+            "scope": "CLASS",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "arrow_B0001"
+            },
+            "x": 793,
+            "y": 13
+        },
+        {
+            "type": "Sprite",
+            "id": "9fc57701-9a88-4bc4-86a4-451bdb6cdc91",
+            "label": "arrow_C",
+            "scope": "CLASS",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "arrow_C0001"
+            },
+            "x": 1104,
+            "y": 8
+        },
+        {
+            "type": "Sprite",
+            "id": "b8d82d1e-0420-48ee-9c7f-28abce3a8da6",
+            "label": "arrow_D",
+            "scope": "CLASS",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "arrow_D0001"
+            },
+            "x": 683,
+            "y": 193
+        },
+        {
+            "type": "Sprite",
+            "id": "00286bea-b7c0-4985-a922-87dc717bed5d",
+            "label": "arrow_E",
+            "scope": "CLASS",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "arrow_E0001"
+            },
+            "x": 384,
+            "y": -37
+        },
+        {
+            "type": "Sprite",
+            "id": "f21c07fd-ceea-42a9-b933-be3dfeac375e",
+            "label": "arrow_F",
+            "scope": "CLASS",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "arrow_F0001"
+            },
+            "x": 316,
+            "y": 222
+        },
+        {
+            "type": "Image",
+            "id": "19e285a7-e8c4-487f-b891-03cd9cf95c29",
+            "label": "cabinet_nonpsa",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "closeted0001"
+            },
+            "x": 1293.7389475099546,
+            "y": 576.7138748088317,
+            "angle": 128,
+            "originX": 0.4294675027453188,
+            "originY": 0.7519722883125145
+        },
+        {
+            "type": "Sprite",
+            "id": "18026571-91ce-4245-b2cf-471d548db010",
+            "label": "cabinet",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.hoverCallback": "() => this.cabinetHover()",
+            "SimpleButton.hoverOutCallback": "() => this.cabinetDone()",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "closeted0001"
+            },
+            "x": 1293.7389475099546,
+            "y": 576.7138748088317,
+            "angle": 128,
+            "originX": 0.4294675027453188,
+            "originY": 0.7519722883125145,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "e3c50485-1a7d-45a0-a333-ab2f6551d709",
+            "label": "popcorn_lowerground",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "popcorn_lowerground"
+            },
+            "x": 922,
+            "y": 893,
+            "originX": 0.4975795654989559,
+            "originY": 0.7749210187435883
+        },
+        {
+            "type": "Image",
+            "id": "3c6f5580-1847-4a3e-82ad-d1439606925c",
+            "label": "box",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "box"
+            },
+            "x": 1223.624727259195,
+            "y": 764.907549774206,
+            "originX": 0.14478221049780554,
+            "originY": 0.24932021892798542
+        },
+        {
+            "type": "Image",
+            "id": "4be83c20-55dd-44f5-b55d-30332ca6fa2f",
+            "label": "timedown",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "timedown"
+            },
+            "x": 778.3746948242188,
+            "y": 890.9147493749706,
+            "originX": 0.488875880191548,
+            "originY": 0.8251607205660976
+        },
+        {
+            "type": "Image",
+            "id": "d816a281-df84-4f3a-8116-acd470c7309a",
+            "label": "scrap_right",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "scrap_right"
+            },
+            "x": 1144.8662426162443,
+            "y": 755.5987278487329,
+            "originX": 0.5405704916574855,
+            "originY": 0.6999545660261747
+        },
+        {
+            "type": "Image",
+            "id": "a9d17409-8ea1-4afd-879b-cf559a8d06a2",
+            "label": "scrap_mid",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "scrap_mid"
+            },
+            "x": 1004,
+            "y": 726.1803114186546,
+            "originY": 0.6025906909243414
+        },
+        {
+            "type": "Image",
+            "id": "406b0166-3bdc-4964-91c5-923569f85c53",
+            "label": "scrap_left",
+            "texture": {
+                "key": "mission-hq",
+                "frame": "scrap_left"
+            },
+            "x": 901,
+            "y": 633.9966851210401,
+            "originY": 0.7057848565011782
+        },
+        {
+            "type": "Sprite",
+            "id": "bdabdf50-906f-4d18-aec5-7d7e6a12cac7",
+            "label": "light_left0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "mission-hq",
+                "frame": "light_left0001"
+            },
+            "x": 312,
+            "y": 219
+        },
+        {
+            "type": "Sprite",
+            "id": "66bd89e2-a2ef-42f5-9caa-c3c68dc28eef",
+            "label": "light_right0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "mission-hq",
+                "frame": "light_right0001"
+            },
+            "x": 1246,
+            "y": 222
+        },
+        {
+            "type": "Sprite",
+            "id": "705c854b-d11e-4f8c-bc37-14f0356c9085",
+            "label": "keyboard_hanging0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "mission-hq",
+                "frame": "keyboard_hanging0001"
+            },
+            "x": 677,
+            "y": 94
+        },
+        {
+            "type": "Image",
+            "id": "1f9f473a-1c05-46a3-b340-971292e708be",
+            "label": "fg",
+            "texture": {
+                "key": "postveggie-hqphase1",
+                "frame": "fg"
+            },
+            "x": 774,
+            "y": 498
+        },
+        {
+            "type": "Container",
+            "id": "1354d90a-02c1-4676-9073-005f3b364e95",
+            "label": "interfaceIcons",
+            "scope": "CLASS",
+            "x": 1423,
+            "y": 751.0000610351562,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "ca13ec6e-1bca-44f1-8a3b-c205e400d32d",
+                    "label": "sign",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "sign",
+                    "Button.callback": "() =>  this.interface.loadWidget('MissionMenu')",
+                    "texture": {
+                        "key": "mission-hq",
+                        "frame": "sign"
+                    },
+                    "x": 2
+                },
+                {
+                    "type": "Image",
+                    "id": "a38606fc-928c-4918-a38c-2f989ac65250",
+                    "label": "fish",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "fish",
+                    "Button.callback": "() =>  this.interface.loadWidget('FISH')",
+                    "texture": {
+                        "key": "mission-hq",
+                        "frame": "fish"
+                    },
+                    "y": 117.99993896484375
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "09507045-c43d-47ba-bb5e-e528ddec4255",
+            "label": "sort",
+            "objectIds": [
+                "4be83c20-55dd-44f5-b55d-30332ca6fa2f",
+                "e3c50485-1a7d-45a0-a333-ab2f6551d709",
+                "19e285a7-e8c4-487f-b891-03cd9cf95c29",
+                "3c6f5580-1847-4a3e-82ad-d1439606925c"
+            ]
+        }
+    ]
+}

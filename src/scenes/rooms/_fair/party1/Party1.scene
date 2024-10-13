@@ -1,0 +1,406 @@
+{
+    "id": "7ee8e229-7f4d-4d56-bbb7-c5c4da71a8a6",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/party1/fair-party1-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Party1",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "59d048f6-bdba-47e8-92a1-0e9fdcdab09f",
+            "label": "bgParty1",
+            "components": [],
+            "texture": {
+                "key": "fair-party1",
+                "frame": "bgParty1"
+            },
+            "originX": 0,
+            "originY": 0,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "b334eb8d-d667-4664-b50a-fc0019e18e37",
+            "label": "bale1",
+            "components": [],
+            "texture": {
+                "key": "fair-party1",
+                "frame": "bale1"
+            },
+            "x": 1212,
+            "y": 628,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "5ca983b3-3511-4d94-b70d-5bf2bb0c085a",
+            "label": "bale2",
+            "components": [],
+            "texture": {
+                "key": "fair-party1",
+                "frame": "bale2"
+            },
+            "x": 1284,
+            "y": 655,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "199a2a7f-0b01-4b3e-a69e-1b1566ec16fe",
+            "label": "bale3",
+            "components": [],
+            "texture": {
+                "key": "fair-party1",
+                "frame": "bale3"
+            },
+            "x": 1192,
+            "y": 683,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "2f4ffedd-d24a-4af8-9b69-cc725371526e",
+            "label": "bales",
+            "components": [],
+            "texture": {
+                "key": "fair-party1",
+                "frame": "bales"
+            },
+            "x": 264,
+            "y": 639.1685476930988,
+            "originY": 0.590245526707636,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "7eb044c5-d73d-4336-a5f1-8a2bf7899128",
+            "label": "board02",
+            "components": [],
+            "texture": {
+                "key": "fair-party1",
+                "frame": "board02"
+            },
+            "x": 932,
+            "y": 203,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "eae8a914-1760-4f3e-960f-00cd4be52292",
+            "label": "tramp",
+            "components": [
+                "SimpleButton",
+                "MoveTo",
+                "ShowHint"
+            ],
+            "MoveTo.x": "281",
+            "MoveTo.y": "416",
+            "ShowHint.text": "Balloon Pop",
+            "texture": {
+                "key": "fair-party1",
+                "frame": "tramp"
+            },
+            "x": 283.5998840332031,
+            "y": 272.96087646484375,
+            "originX": 0.4559483688108359,
+            "originY": 0.6468267080280173,
+            "list": []
+        },
+        {
+            "type": "Container",
+            "id": "73cfca3f-f202-4648-86b7-0f14e3b4752f",
+            "label": "ballonPopSign",
+            "components": [],
+            "x": 593.2391357421875,
+            "y": 409.6854133032829,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "1f1fbc63-77d1-449f-b9ac-849df1f5b9ef",
+                    "label": "balloonSign",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "balloonSign",
+                    "Animation.end": 12,
+                    "texture": {
+                        "key": "fair-party1",
+                        "frame": "balloonSign0001"
+                    },
+                    "x": 26.76089031039362,
+                    "y": -191.68541460884722,
+                    "list": []
+                },
+                {
+                    "type": "Sprite",
+                    "id": "3aa78401-4ae7-4a94-a9f5-341dcad8803b",
+                    "label": "balloonSignArrow",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "balloonSignArrow",
+                    "Animation.end": 39,
+                    "texture": {
+                        "key": "fair-party1",
+                        "frame": "balloonSignArrow0001"
+                    },
+                    "x": -103.23910968960638,
+                    "y": -120.68541460884722,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "3b138850-e738-49c7-a08e-f85b567a0d77",
+                    "label": "balloonSignBG",
+                    "components": [],
+                    "texture": {
+                        "key": "fair-party1",
+                        "frame": "balloonSignBG"
+                    },
+                    "x": -17.23910968960638,
+                    "y": -206.68541460884722,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "3be5c247-cb17-4bc4-8a38-8725204f5bb0",
+                    "label": "balloonSignBottom",
+                    "components": [],
+                    "texture": {
+                        "key": "fair-party1",
+                        "frame": "balloonSignBottom"
+                    },
+                    "x": -80.23910968960638,
+                    "y": -38.685414608847225,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "2ecfce6c-1743-4887-bc5f-932b05d646fd",
+                    "label": "balloonSignText",
+                    "components": [],
+                    "texture": {
+                        "key": "fair-party1",
+                        "frame": "balloonSignText"
+                    },
+                    "x": -7.23910968960638,
+                    "y": -344.6854146088472,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "f236ff17-9a55-4934-8887-c65c387a770c",
+            "label": "fgMiddle",
+            "components": [],
+            "texture": {
+                "key": "fair-party1",
+                "frame": "fgMiddle"
+            },
+            "x": 760,
+            "y": 447,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "35232590-2538-467c-afeb-871579718418",
+            "label": "fgRock",
+            "components": [],
+            "texture": {
+                "key": "fair-party1",
+                "frame": "fgRock"
+            },
+            "x": 1025,
+            "y": 798,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "edb0c123-75ec-4b4a-9ac7-eb6f3005ee61",
+            "label": "soda",
+            "components": [],
+            "texture": {
+                "key": "fair-party1",
+                "frame": "soda"
+            },
+            "x": 463,
+            "y": 743.6503007711098,
+            "originY": 0.7002994093518438,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "fda5f214-df36-413b-a46f-88151ca4043a",
+            "label": "fgParty1",
+            "components": [],
+            "texture": {
+                "key": "fair-party1",
+                "frame": "fgParty1"
+            },
+            "x": 738,
+            "y": 837.0590585578291,
+            "originY": 0.7559747385960243,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "cd56cd78-de0f-42a6-9d8d-f6e65a291db4",
+            "label": "water",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "water",
+            "Animation.end": 40,
+            "Animation.repeat": 0,
+            "Animation.onHover": true,
+            "texture": {
+                "key": "fair-party1",
+                "frame": "water0001"
+            },
+            "x": 1272,
+            "y": 313,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "b314d0e7-95dc-4f97-8abb-318951fc2ce1",
+            "label": "waterSignBG",
+            "components": [],
+            "texture": {
+                "key": "fair-party1",
+                "frame": "waterSignBG"
+            },
+            "x": 1233,
+            "y": 116,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ce6d04bf-8ec1-4eb1-878e-28ff716219ac",
+            "label": "waterTent",
+            "components": [
+                "SimpleButton",
+                "MoveTo",
+                "ShowHint"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onTent()",
+            "MoveTo.x": "1204",
+            "MoveTo.y": "455",
+            "ShowHint.text": "Puffle Soaker",
+            "texture": {
+                "key": "fair-party1",
+                "frame": "waterTent"
+            },
+            "x": 1233.1165771484375,
+            "y": 293.3320007324219,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "originX": 0.4379855972985472,
+            "originY": 0.6116740976896095,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "17189e7f-f564-40e4-b60a-847b22ff3182",
+            "label": "lights",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "lights",
+            "Animation.end": 37,
+            "texture": {
+                "key": "fair-party1",
+                "frame": "lights0001"
+            },
+            "x": 1236,
+            "y": 107,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "eb85eee4-6ef8-4877-9d52-fea84358a3bc",
+            "label": "soakerwords",
+            "components": [],
+            "texture": {
+                "key": "fair-party1",
+                "frame": "soakerwords"
+            },
+            "x": 1233,
+            "y": 180,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "3675d681-1d83-4121-a1a0-c32829fcfb9f",
+            "label": "balloonTrigger",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.triggerGame(929)",
+            "x": 295,
+            "y": 461.63949534377986,
+            "scaleX": 2.399772774006089,
+            "originY": 0.9971835573732801,
+            "width": 128,
+            "height": 128,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "45263f90-502d-47ff-9222-33a31f5bb155",
+            "label": "soakerTrigger",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.triggerGame(924)",
+            "x": 1229,
+            "y": 512,
+            "scaleX": 2.399772774006089,
+            "originY": 0.9971835573732801,
+            "width": 128,
+            "height": 128,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "528d71e2-a474-4325-aa76-2ccaa2e1016f",
+            "label": "sort",
+            "objectIds": [
+                "2f4ffedd-d24a-4af8-9b69-cc725371526e",
+                "199a2a7f-0b01-4b3e-a69e-1b1566ec16fe",
+                "b334eb8d-d667-4664-b50a-fc0019e18e37",
+                "5ca983b3-3511-4d94-b70d-5bf2bb0c085a",
+                "edb0c123-75ec-4b4a-9ac7-eb6f3005ee61",
+                "fda5f214-df36-413b-a46f-88151ca4043a",
+                "73cfca3f-f202-4648-86b7-0f14e3b4752f"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,486 @@
+{
+    "id": "66a97584-daf0-4843-9e4c-0407ac63dddb",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/mtn/mtn-pack.json",
+            "yukon/assets/media/rooms/_fair/mtn/fair-mtn-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Mtn",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "eaf9e9be-ca78-4327-be22-3bddc6fb28a7",
+            "label": "chair",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "chair/chair",
+            "Animation.end": 87,
+            "texture": {
+                "key": "mtn",
+                "frame": "chair/chair0001"
+            },
+            "x": 846,
+            "y": 75,
+            "originX": 0,
+            "originY": 0,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "3c1ad352-ffc7-4b73-ae91-4a2e8c036eaf",
+            "label": "bg",
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "bg"
+            },
+            "x": 760,
+            "y": 494
+        },
+        {
+            "type": "Sprite",
+            "id": "a0ccd889-ad8d-474c-b707-5b2df6cef441",
+            "label": "ridgerun0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "ridgerun",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "ridgerun0001"
+            },
+            "x": 181,
+            "y": 499
+        },
+        {
+            "prefabId": "b7f33e59-6236-4986-aae0-0d469632a6a1",
+            "id": "c828bf43-e164-44aa-b2bd-652209faf577",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waddle100",
+            "scope": "CLASS",
+            "x": 251,
+            "y": 530
+        },
+        {
+            "prefabId": "d651e1f5-3899-435a-9870-b101644a61e9",
+            "id": "59dd3768-c04f-4c02-9d21-41eaafbb69ee",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waddle101",
+            "scope": "CLASS",
+            "x": 586,
+            "y": 680
+        },
+        {
+            "prefabId": "aa8a8b2b-1a21-4d2f-a9c1-81c06cdda079",
+            "id": "d6c8c688-4c79-4fbc-ace1-64a0cb774e61",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waddle102",
+            "scope": "CLASS",
+            "x": 854,
+            "y": 757
+        },
+        {
+            "prefabId": "5c81ff31-f520-4dde-b56b-b1885901a262",
+            "id": "f0e16785-ae9d-4ffd-8e25-3664dfdbcc12",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "waddle103",
+            "scope": "CLASS",
+            "x": 1046,
+            "y": 653
+        },
+        {
+            "type": "Image",
+            "id": "259cb33e-eb62-4a70-8f6b-f9060835c840",
+            "label": "interfaceIcons",
+            "scope": "CLASS",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "catalog",
+            "Button.callback": "() => this.interface.loadWidget('MtnCatalog')",
+            "texture": {
+                "key": "mtn",
+                "frame": "catalog"
+            },
+            "x": 1423,
+            "y": 941,
+            "originX": 0.5133483459728905,
+            "originY": 1.1411531919849045
+        },
+        {
+            "type": "Sprite",
+            "id": "bfb552e7-390e-45b0-b88f-aad27cc5618a",
+            "label": "arrow0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "arrow",
+            "Animation.end": 22,
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "arrow0001"
+            },
+            "x": 217,
+            "y": 232
+        },
+        {
+            "type": "Sprite",
+            "id": "82ebeb18-75b1-4a88-8068-f3b4c1ccd118",
+            "label": "penguinrun0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "penguinrun",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "penguinrun0001"
+            },
+            "x": 492.1131430320665,
+            "y": 659.2251431085956,
+            "originX": 0.6291237040897569,
+            "originY": 0.6757944079819873
+        },
+        {
+            "type": "Sprite",
+            "id": "3cacf9d0-dd1a-4153-bec2-e8a34d3397e7",
+            "label": "express0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "express",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "express0001"
+            },
+            "x": 1071,
+            "y": 839,
+            "originX": 0.4155196896897698,
+            "originY": 0.6626901876502287
+        },
+        {
+            "type": "Image",
+            "id": "e005fe01-0318-4918-ba59-a6ded6bb3447",
+            "label": "coaster_fg",
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "coaster_fg"
+            },
+            "x": 1221,
+            "y": 991,
+            "originX": 1,
+            "originY": 1
+        },
+        {
+            "type": "Sprite",
+            "id": "608a95ce-5278-42cf-9a6d-dba3fbcfa159",
+            "label": "bunnyhill0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bunnyhill",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "bunnyhill0001"
+            },
+            "x": 1260.0779223039908,
+            "y": 719.8012982988964,
+            "originX": 0.387083361103403,
+            "originY": 0.7813882641303201
+        },
+        {
+            "type": "Sprite",
+            "id": "7fa0d1e0-4fc9-4f57-b644-de194d7333f8",
+            "label": "b30001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "b3",
+            "Animation.end": 43,
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "b30001"
+            },
+            "x": 502,
+            "y": 285
+        },
+        {
+            "type": "Sprite",
+            "id": "65b334c1-1111-47c5-856a-9d2f147646f1",
+            "label": "b20001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "b2",
+            "Animation.end": 50,
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "b20001"
+            },
+            "x": 471,
+            "y": 269
+        },
+        {
+            "type": "Sprite",
+            "id": "fa9437a1-3631-4f91-ab4c-043af99fbb25",
+            "label": "b10001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "b1",
+            "Animation.end": 47,
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "b10001"
+            },
+            "x": 483,
+            "y": 305
+        },
+        {
+            "type": "Sprite",
+            "id": "d49fd128-eb4c-4800-b188-851256487e6e",
+            "label": "b40001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "b4",
+            "Animation.end": 50,
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "b40001"
+            },
+            "x": 505,
+            "y": 264
+        },
+        {
+            "type": "Image",
+            "id": "e7ffac6c-2c84-4fc8-af0d-ef28e0caa529",
+            "label": "fence",
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "fence"
+            },
+            "x": 523,
+            "y": 348
+        },
+        {
+            "type": "Sprite",
+            "id": "9a29c2b2-03ff-43e7-aae7-621ecacb8341",
+            "label": "b3",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "b3",
+            "Animation.end": 43,
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "b30001"
+            },
+            "x": 1004,
+            "y": 262,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "edc557eb-a336-4bdd-bbc5-72a02f2f1e42",
+            "label": "fence_1",
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "fence"
+            },
+            "x": 984,
+            "y": 325,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "3ca785b6-86cf-4d0c-acde-efa732fe37b2",
+            "label": "b4",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "b4",
+            "Animation.end": 50,
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "b40001"
+            },
+            "x": 1001,
+            "y": 239,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "44685048-f7ad-418b-b55e-eca4d6e7e095",
+            "label": "b1",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "b1",
+            "Animation.end": 47,
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "b10001"
+            },
+            "x": 1024,
+            "y": 283,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "ba156b06-e8fe-4437-b60e-ae7b83c371ce",
+            "label": "b2",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "b2",
+            "Animation.end": 50,
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "b20001"
+            },
+            "x": 1036,
+            "y": 247,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "f9383804-4c6e-4bc0-8060-1d33a5f65700",
+            "label": "arrowign",
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "arrowign"
+            },
+            "x": 932,
+            "y": 316
+        },
+        {
+            "type": "Image",
+            "id": "8fa9fc88-707a-4b24-8d1f-8d5c27715488",
+            "label": "balloonbunch",
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "balloonbunch"
+            },
+            "x": 1223.3434420459496,
+            "y": 402.7941144126328,
+            "originX": 0.40728038700919617,
+            "originY": 1.1442805029727452
+        },
+        {
+            "type": "Image",
+            "id": "51e75d2e-917f-434a-a166-cb9ba1bf7f50",
+            "label": "icecream",
+            "texture": {
+                "key": "fair-mtn",
+                "frame": "icecream"
+            },
+            "x": 1124.9066799258665,
+            "y": 516.3625059887538,
+            "originX": 0.5026588854130981,
+            "originY": 0.9316435919112187
+        },
+        {
+            "type": "Image",
+            "id": "124720c1-f214-45b6-88d4-0325da8e2114",
+            "label": "sled",
+            "texture": {
+                "key": "mtn",
+                "frame": "sled"
+            },
+            "x": 1007.770053535138,
+            "y": 518.1132434925441,
+            "originX": 0.5401858528966138,
+            "originY": 0.7348766549094197,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "cd1933ae-fcd6-41e3-96e7-4b9b0636560b",
+            "label": "catalogSmall",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.hoverCallback": "() => catalogSmall.play('sledCatalog')",
+            "SimpleButton.hoverOutCallback": "() => { catalogSmall.anims.stop(); catalogSmall.setFrame('catalog_small0001') }",
+            "SimpleButton.callback": "() => this.interface.loadWidget('MtnCatalog')",
+            "texture": {
+                "key": "mtn",
+                "frame": "catalog_small0001"
+            },
+            "x": 990,
+            "y": 534,
+            "scaleX": 0.9,
+            "scaleY": 0.9,
+            "originX": 0.45618984828084613,
+            "originY": 1.5067640387851742,
+            "flipX": true
+        },
+        {
+            "type": "Rectangle",
+            "id": "2aa06b6c-ef86-496f-b547-41f291dbee95",
+            "label": "snackStampZone",
+            "components": [
+                "SnackStampArea"
+            ],
+            "x": 1125,
+            "y": 475,
+            "visible": false,
+            "width": 150,
+            "height": 150
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "5ae19c1d-cf39-4d6e-a5fa-935dde376775",
+            "label": "sort",
+            "objectIds": [
+                "d0aaf43c-c7b5-4804-ad63-de3b273f6afe",
+                "6471c65c-90ac-401f-ad4b-f0cfc6744920",
+                "18e304e8-8cc2-42b4-b8b5-49056864e58b",
+                "88d14316-b60a-45bc-8831-3f80be700cfc",
+                "e005fe01-0318-4918-ba59-a6ded6bb3447",
+                "51e75d2e-917f-434a-a166-cb9ba1bf7f50",
+                "8fa9fc88-707a-4b24-8d1f-8d5c27715488",
+                "82ebeb18-75b1-4a88-8068-f3b4c1ccd118",
+                "3cacf9d0-dd1a-4153-bec2-e8a34d3397e7",
+                "608a95ce-5278-42cf-9a6d-dba3fbcfa159",
+                "124720c1-f214-45b6-88d4-0325da8e2114",
+                "cd1933ae-fcd6-41e3-96e7-4b9b0636560b"
+            ]
+        }
+    ]
+}

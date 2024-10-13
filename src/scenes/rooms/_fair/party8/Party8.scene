@@ -1,0 +1,79 @@
+{
+    "id": "c3e1f556-a9f2-4865-8661-1238cf2ff363",
+    "sceneType": "SCENE",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/party8/fair-party8-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Party8",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "9b727a41-71b3-4f3c-8c64-0b113d4fa3ca",
+            "label": "bg",
+            "texture": {
+                "key": "fair-party8",
+                "frame": "bg"
+            },
+            "x": 762,
+            "y": 487
+        },
+        {
+            "type": "Image",
+            "id": "e286596f-367e-44f2-a276-a3649995756f",
+            "label": "fg",
+            "texture": {
+                "key": "fair-party8",
+                "frame": "fg"
+            },
+            "x": 1625,
+            "y": 1001,
+            "originX": 1,
+            "originY": 1
+        },
+        {
+            "type": "Image",
+            "id": "494674e4-9504-4ad2-a750-125e8ae30cad",
+            "label": "exit",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "exit",
+            "Button.activeFrame": true,
+            "Button.pixelPerfect": true,
+            "MoveTo.x": "760",
+            "MoveTo.y": "70",
+            "texture": {
+                "key": "fair-party8",
+                "frame": "exit"
+            },
+            "x": 764,
+            "y": 87
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "f8ba5aba-a293-460a-9bc3-e6e14fb7a9cd",
+            "label": "sort",
+            "objectIds": [
+                "e286596f-367e-44f2-a276-a3649995756f"
+            ]
+        }
+    ]
+}

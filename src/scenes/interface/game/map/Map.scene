@@ -1,0 +1,911 @@
+{
+    "id": "57b5331b-ac94-4f7b-b724-ada9f9aece59",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 36,
+        "snapHeight": 5,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "bfaa02be-42e7-4151-a022-1a38f8f54b3a",
+            "label": "container_1",
+            "x": 759,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "43dbb293-36da-4727-8b01-a9969fda2bec",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "b42d81db-5df0-4743-a330-95e0d98fa03e",
+                    "label": "bg",
+                    "texture": {
+                        "key": "map",
+                        "frame": "bg"
+                    },
+                    "x": 4,
+                    "y": -8
+                },
+                {
+                    "type": "Sprite",
+                    "id": "455af7c9-ab30-4367-b321-4d2092d79cfa",
+                    "label": "waterfall",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "waterfall",
+                    "Animation.end": 30,
+                    "texture": {
+                        "key": "map",
+                        "frame": "waterfall0001"
+                    },
+                    "x": 33,
+                    "y": -173
+                },
+                {
+                    "type": "Sprite",
+                    "id": "67a8b365-02c5-4ea2-9f5f-ab59f9af2a86",
+                    "label": "berg",
+                    "components": [
+                        "SimpleButton",
+                        "Animation"
+                    ],
+                    "SimpleButton.callback": "() => this.onRoomClick(805)",
+                    "Animation.key": "berg",
+                    "Animation.end": 75,
+                    "texture": {
+                        "key": "map",
+                        "frame": "berg0001"
+                    },
+                    "x": 654,
+                    "y": -41
+                },
+                {
+                    "type": "Image",
+                    "id": "8f608c72-3140-41b4-886d-ebe7f9e0d2df",
+                    "label": "island2",
+                    "texture": {
+                        "key": "map",
+                        "frame": "island2"
+                    },
+                    "x": 254,
+                    "y": 9
+                },
+                {
+                    "type": "Image",
+                    "id": "e1474a16-bfdd-4b72-af13-e976aad1c296",
+                    "label": "island7",
+                    "texture": {
+                        "key": "map",
+                        "frame": "island7"
+                    },
+                    "x": -185,
+                    "y": 57
+                },
+                {
+                    "type": "Container",
+                    "id": "30dd2d64-af34-4685-b407-b2bf1015b3a1",
+                    "label": "_mtn",
+                    "x": -408,
+                    "y": -138,
+                    "list": [
+                        {
+                            "type": "Polygon",
+                            "id": "2556f706-e36a-4445-96e8-db00c7485284",
+                            "label": "mtnHit",
+                            "components": [
+                                "ShowHint"
+                            ],
+                            "ShowHint.text": "mtn_hint",
+                            "x": -0.8752268958028822,
+                            "y": -53.56881466116374,
+                            "originX": 0.13038635171992172,
+                            "originY": -0.42210980950829635,
+                            "fillColor": "#00ffff",
+                            "fillAlpha": 0.5,
+                            "points": "-82.00781545027255 69.96476780934717 -118.95378119375584 60.728276373476376 -114.64341852368281 40.40799521456057 -29.1756262579471 -118.57312304791913 24.387891975755906 -154.83613078786195 93.10765210704892 -137.96855330109003 136.39807960642133 -40.6983002558012 166.08763430754323 -10.375179201037838 166.08763430754323 25.342521864208663 128.06556543163566 50.1144758288151 41.651772531845836 61.06022292945511"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c8fd2d0c-6b89-4f95-9621-de31800266c3",
+                            "label": "mtn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "mtn/mtn",
+                            "Button.callback": "() => this.onRoomClick(230)",
+                            "Button.alias": "mtnHit",
+                            "texture": {
+                                "key": "map",
+                                "frame": "mtn/mtn"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "2b83af3d-014a-44d0-b314-d1f3339b5ea7",
+                            "label": "skiLift",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "mtn/skilift",
+                            "Animation.end": 494,
+                            "texture": {
+                                "key": "map",
+                                "frame": "mtn/skilift0001"
+                            },
+                            "x": -32,
+                            "y": 12
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "63306dc1-f354-4036-b2b0-51cecdf626d6",
+                    "label": "island6",
+                    "texture": {
+                        "key": "map",
+                        "frame": "island6"
+                    },
+                    "x": -601,
+                    "y": 40
+                },
+                {
+                    "type": "Image",
+                    "id": "2f60cb2c-584f-402d-ba32-611b9c469c95",
+                    "label": "island5",
+                    "texture": {
+                        "key": "map",
+                        "frame": "island5"
+                    },
+                    "x": -441,
+                    "y": 112
+                },
+                {
+                    "type": "Image",
+                    "id": "dd54ddb1-7ffa-4ab0-ba5f-abac29b52f79",
+                    "label": "island4",
+                    "texture": {
+                        "key": "map",
+                        "frame": "island4"
+                    },
+                    "x": -524,
+                    "y": 233
+                },
+                {
+                    "type": "Image",
+                    "id": "bcc8766f-a5f8-44fd-94f0-15d6d01510e0",
+                    "label": "island3",
+                    "texture": {
+                        "key": "map",
+                        "frame": "island3"
+                    },
+                    "x": 230,
+                    "y": 51
+                },
+                {
+                    "type": "Image",
+                    "id": "d81c4478-4cd7-45e1-8a7b-61482e61bdf4",
+                    "label": "covestairs",
+                    "texture": {
+                        "key": "map",
+                        "frame": "covestairs"
+                    },
+                    "x": 531,
+                    "y": 187
+                },
+                {
+                    "type": "Image",
+                    "id": "47977645-ba32-4393-abb1-e9a70cb3c68f",
+                    "label": "island1",
+                    "texture": {
+                        "key": "map",
+                        "frame": "island1"
+                    },
+                    "x": 159,
+                    "y": 249
+                },
+                {
+                    "type": "Image",
+                    "id": "f10053eb-e137-41e9-9ac1-65b1834ece5a",
+                    "label": "courtyard",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "courtyard",
+                    "Button.callback": "() => this.onRoomClick(319)",
+                    "ShowHint.text": "courtyard_hint",
+                    "texture": {
+                        "key": "map",
+                        "frame": "courtyard"
+                    },
+                    "x": 153,
+                    "y": -185
+                },
+                {
+                    "type": "Image",
+                    "id": "66446719-2ab7-4832-a899-091fdecc0006",
+                    "label": "shack",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "shack",
+                    "Button.callback": "() => this.onRoomClick(807)",
+                    "ShowHint.text": "shack_hint",
+                    "texture": {
+                        "key": "map",
+                        "frame": "shack"
+                    },
+                    "x": 412,
+                    "y": -6
+                },
+                {
+                    "type": "Image",
+                    "id": "3f9ca2db-4d95-4dff-abfc-927e41980c49",
+                    "label": "village",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "village",
+                    "Button.callback": "() => this.onRoomClick(200)",
+                    "ShowHint.text": "village_hint",
+                    "texture": {
+                        "key": "map",
+                        "frame": "village"
+                    },
+                    "x": -364,
+                    "y": -35,
+                    "originY": 0.31541190082154064
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f64955e8-be44-45ea-a74e-aec0dc993cd0",
+                    "label": "dock",
+                    "scope": "CLASS",
+                    "components": [
+                        "MapAnimation"
+                    ],
+                    "MapAnimation.key": "dock",
+                    "MapAnimation.end": 96,
+                    "texture": {
+                        "key": "map",
+                        "frame": "dock0001"
+                    },
+                    "x": -416,
+                    "y": 291
+                },
+                {
+                    "type": "Container",
+                    "id": "872f8ba4-44e2-4f9e-a251-235a3409ebff",
+                    "label": "_rink",
+                    "x": -129,
+                    "y": -42,
+                    "list": [
+                        {
+                            "type": "Container",
+                            "id": "47e9fb55-f578-47dd-8e06-1e034462f9e1",
+                            "label": "_rink_soccer",
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "f88e50f5-9e16-4df3-aa9e-bd48f455cdb5",
+                                    "label": "soccerBtn",
+                                    "components": [
+                                        "Button",
+                                        "ShowHint"
+                                    ],
+                                    "Button.spriteName": "rinkVariations/soccer/button",
+                                    "Button.callback": "() => this.onRoomClick(802)",
+                                    "ShowHint.text": "rink_hint",
+                                    "texture": {
+                                        "key": "map",
+                                        "frame": "rinkVariations/soccer/button"
+                                    }
+                                },
+                                {
+                                    "type": "Sprite",
+                                    "id": "fd728a8e-6414-4cee-a5db-7351a8d094c7",
+                                    "label": "soccerAnim",
+                                    "components": [
+                                        "Animation"
+                                    ],
+                                    "Animation.key": "rinkVariations/soccer/anim",
+                                    "Animation.end": 30,
+                                    "texture": {
+                                        "key": "map",
+                                        "frame": "rinkVariations/soccer/anim0001"
+                                    },
+                                    "x": -2,
+                                    "y": 21
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "a061dfd5-87fc-4b27-b00a-b0bd1fffc387",
+                            "label": "_rink_hockey",
+                            "y": -6,
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "5f9d1ae0-76ff-4aaf-b8d9-fc47d8747182",
+                                    "label": "hockeyBtn",
+                                    "components": [
+                                        "Button",
+                                        "ShowHint"
+                                    ],
+                                    "Button.spriteName": "rinkVariations/hockey/button",
+                                    "Button.callback": "() => this.onRoomClick(802)",
+                                    "ShowHint.text": "rink_hint",
+                                    "texture": {
+                                        "key": "map",
+                                        "frame": "rinkVariations/hockey/button"
+                                    },
+                                    "y": 4
+                                },
+                                {
+                                    "type": "Sprite",
+                                    "id": "0b764f70-4540-4f72-8290-82637c6d199c",
+                                    "label": "hockeyAnim2",
+                                    "components": [
+                                        "Animation"
+                                    ],
+                                    "Animation.key": "rinkVariations/hockey/anim2",
+                                    "Animation.end": 70,
+                                    "texture": {
+                                        "key": "map",
+                                        "frame": "rinkVariations/hockey/anim20001"
+                                    },
+                                    "x": 2,
+                                    "y": 31
+                                },
+                                {
+                                    "type": "Sprite",
+                                    "id": "f94427a7-cc4f-4136-b8a2-dc363aa9b612",
+                                    "label": "hockeyAnim1",
+                                    "components": [
+                                        "Animation"
+                                    ],
+                                    "Animation.key": "rinkVariations/hockey/anim1",
+                                    "Animation.end": 30,
+                                    "texture": {
+                                        "key": "map",
+                                        "frame": "rinkVariations/hockey/anim10001"
+                                    },
+                                    "x": -2,
+                                    "y": 28
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "d465d4a2-33e1-4fb2-b162-8772eea812be",
+                            "label": "_rink_baseball",
+                            "y": -2,
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "3b8f3c24-2cba-4ff5-95df-58e44954fa42",
+                                    "label": "baseballBtn",
+                                    "components": [
+                                        "Button",
+                                        "ShowHint"
+                                    ],
+                                    "Button.spriteName": "rinkVariations/baseball/button",
+                                    "Button.callback": "() => this.onRoomClick(802)",
+                                    "ShowHint.text": "rink_hint",
+                                    "texture": {
+                                        "key": "map",
+                                        "frame": "rinkVariations/baseball/button"
+                                    }
+                                },
+                                {
+                                    "type": "Sprite",
+                                    "id": "08862d29-e8f9-42d4-95c7-36905bd79101",
+                                    "label": "baseballAnim",
+                                    "components": [
+                                        "Animation"
+                                    ],
+                                    "Animation.key": "rinkVariations/baseball/anim",
+                                    "Animation.end": 65,
+                                    "texture": {
+                                        "key": "map",
+                                        "frame": "rinkVariations/baseball/anim0001"
+                                    },
+                                    "x": -3,
+                                    "y": 26
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "59d4fa62-1551-46dc-a438-5cb258527441",
+                    "label": "_forts",
+                    "x": 7,
+                    "y": 49,
+                    "list": [
+                        {
+                            "type": "Polygon",
+                            "id": "a34a670a-ed62-40dd-8024-7d93fc141bd2",
+                            "label": "fortsHit",
+                            "components": [
+                                "ShowHint"
+                            ],
+                            "ShowHint.text": "forts_hint",
+                            "x": -5,
+                            "y": -23,
+                            "originX": 0.33106982049694306,
+                            "originY": -0.31592504213633554,
+                            "fillColor": "#00ffff",
+                            "fillAlpha": 0.5,
+                            "points": "36.337492675782414 35.76957250274904 -12.450622610738037 15.22720817158256 -12.450622610738037 -20.721929407958896 26.066310510199173 -44.688021127653144 55.34133147961791 -57.00707361520608 79.51936846607816 -93.53134225432694 120.67347397494677 -82.21396323938808 124.27445820697278 -36.94444717963262 119.13019501836425 -13.280836512033261 97.96458566928197 22.074662948638093"
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "ec7c6cf0-6e3d-4969-899b-7a321a98c88d",
+                            "label": "fortsFlag2",
+                            "scope": "CLASS",
+                            "components": [
+                                "MapAnimation"
+                            ],
+                            "MapAnimation.key": "forts/blueflag",
+                            "MapAnimation.end": 28,
+                            "texture": {
+                                "key": "map",
+                                "frame": "forts/blueflag0001"
+                            },
+                            "x": 20,
+                            "y": -32
+                        },
+                        {
+                            "type": "Image",
+                            "id": "771e8d59-79db-4bfc-9ed8-2de830a5a671",
+                            "label": "forts",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "forts/forts",
+                            "Button.hoverCallback": "() => { this.fortsFlag1.__MapAnimation.over(); this.fortsFlag2.__MapAnimation.over(); }",
+                            "Button.hoverOutCallback": "() => { this.fortsFlag1.__MapAnimation.out(); this.fortsFlag2.__MapAnimation.out(); }",
+                            "Button.callback": "() => this.onRoomClick(801)",
+                            "Button.alias": "fortsHit",
+                            "texture": {
+                                "key": "map",
+                                "frame": "forts/forts"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "303490e1-95fc-4499-85eb-505b066ab5b2",
+                            "label": "fortsFlag1",
+                            "scope": "CLASS",
+                            "components": [
+                                "MapAnimation"
+                            ],
+                            "MapAnimation.key": "forts/redflag",
+                            "MapAnimation.end": 28,
+                            "texture": {
+                                "key": "map",
+                                "frame": "forts/redflag0001"
+                            },
+                            "x": -30,
+                            "y": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "aba7f811-0293-468a-8f2c-26aa47864d6e",
+                    "label": "_town",
+                    "x": -194,
+                    "y": 93,
+                    "list": [
+                        {
+                            "type": "Polygon",
+                            "id": "196bc61a-3a4d-4ccd-9675-3cdaec0b5084",
+                            "label": "townHit",
+                            "components": [
+                                "ShowHint"
+                            ],
+                            "ShowHint.text": "town_hint",
+                            "x": 0.12227080937714163,
+                            "y": -10.644493280745678,
+                            "originX": 0.15022977045346275,
+                            "originY": -0.028598938946672953,
+                            "fillColor": "#00ffff",
+                            "fillAlpha": 0.5,
+                            "points": "-87.86440692930194 59.81775446638551 -93.22526318115189 -9.426638786676449 -48.104723061414745 -48.29284661258862 136.39807960642133 -40.6983002558012 143.54588794222127 -0.49187836692647124 154.59414564364647 35.36986839339875 146.06230431581287 57.862904621323764 4.899111437111287 60.18977043800567"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "86c66c6f-7c03-41da-bfa6-16bc4c1f47d5",
+                            "label": "town",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "town/town",
+                            "Button.hoverCallback": "() => this.spotlights.__MapAnimation.over()",
+                            "Button.hoverOutCallback": "() => this.spotlights.__MapAnimation.out()",
+                            "Button.callback": "() => this.onRoomClick(100)",
+                            "Button.alias": "townHit",
+                            "texture": {
+                                "key": "map",
+                                "frame": "town/town"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "9bcf7327-000b-459a-98ff-505903a6123e",
+                            "label": "spotlights",
+                            "scope": "CLASS",
+                            "components": [
+                                "MapAnimation"
+                            ],
+                            "MapAnimation.key": "town/lights",
+                            "MapAnimation.end": 270,
+                            "texture": {
+                                "key": "map",
+                                "frame": "town/lights0001"
+                            },
+                            "x": -1,
+                            "y": -30
+                        }
+                    ]
+                },
+                {
+                    "type": "Polygon",
+                    "id": "741c56e9-1e30-4907-a798-2ec799b1b007",
+                    "label": "plazaHit",
+                    "components": [
+                        "ShowHint"
+                    ],
+                    "ShowHint.text": "plaza_hint",
+                    "x": 240.56136237918645,
+                    "y": 55.773234203947595,
+                    "originX": 0.18493973359799945,
+                    "originY": -0.34409465551097296,
+                    "fillColor": "#00ffff",
+                    "fillAlpha": 0.5,
+                    "points": "-32.02824717090607 24.087204770724043 -61.93440567167215 12.99298468173015 -66.17856389762437 -17.21485248455906 -67.04201349725281 -43.98179007304134 -56.68061830171132 -69.02182846226663 -33.36747911174291 -87.58599485427851 78.01751924032828 -72.04390206096627 134.14174321617816 -50.45766207025474 144.9969168578225 -32.34861046459264 131.49090979296034 31.804923093502453"
+                },
+                {
+                    "type": "Polygon",
+                    "id": "7e41531a-7ac8-4f1e-8bc0-60abff91bf33",
+                    "label": "dockHit",
+                    "components": [
+                        "SimpleButton",
+                        "ShowHint"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.dock.__MapAnimation.over()",
+                    "SimpleButton.hoverOutCallback": "() => this.dock.__MapAnimation.out()",
+                    "SimpleButton.callback": "() => this.onRoomClick(800)",
+                    "ShowHint.text": "dock_hint",
+                    "x": -418,
+                    "y": 269,
+                    "originX": 0.3589905955293039,
+                    "originY": 0.23940678622573794,
+                    "fillColor": "#00ffff",
+                    "fillAlpha": 0.5,
+                    "points": "7.785698500059993 87.43356760807364 -19.681602171754207 39.54186387260279 9.546422902099323 5.735955353446798 47.22592510574185 -3.0676666567500206 127.86710271914507 9.961693918341325 131.38855152322378 38.13328435097128 103.21696109059388 48.697630763207485 66.59389352817493 97.2936242594941"
+                },
+                {
+                    "type": "Image",
+                    "id": "e9d49e68-f510-4faa-a63c-9e8ef174d306",
+                    "label": "plaza",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "plaza",
+                    "Button.callback": "() => this.onRoomClick(300)",
+                    "Button.alias": "plazaHit",
+                    "texture": {
+                        "key": "map",
+                        "frame": "plaza"
+                    },
+                    "x": 239,
+                    "y": 70
+                },
+                {
+                    "type": "Image",
+                    "id": "8a88726c-d335-4ab8-90b4-5afe16cbc337",
+                    "label": "forest",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "forest",
+                    "Button.callback": "() => this.onRoomClick(809)",
+                    "ShowHint.text": "forest_hint",
+                    "texture": {
+                        "key": "map",
+                        "frame": "forest"
+                    },
+                    "x": 400,
+                    "y": 131
+                },
+                {
+                    "type": "Image",
+                    "id": "88bc420b-74f6-4f02-83a4-5d0722624d9b",
+                    "label": "beach",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "beach",
+                    "Button.callback": "() => this.onRoomClick(400)",
+                    "ShowHint.text": "beach_hint",
+                    "texture": {
+                        "key": "map",
+                        "frame": "beach"
+                    },
+                    "x": -673,
+                    "y": 125,
+                    "originX": 0.41495930790544905,
+                    "originY": 0.330102686573007
+                },
+                {
+                    "type": "Image",
+                    "id": "a2192b01-ba53-4b6c-9f86-64b5ff356c80",
+                    "label": "rink_trees",
+                    "texture": {
+                        "key": "map",
+                        "frame": "rink-trees"
+                    },
+                    "x": -186,
+                    "y": 31
+                },
+                {
+                    "type": "Image",
+                    "id": "7f634c80-b312-4b83-b351-b4092785c4e0",
+                    "label": "cove",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "cove",
+                    "Button.callback": "() => this.onRoomClick(810)",
+                    "ShowHint.text": "cove_hint",
+                    "texture": {
+                        "key": "map",
+                        "frame": "cove"
+                    },
+                    "x": 636,
+                    "y": 180
+                },
+                {
+                    "type": "Image",
+                    "id": "3ec30020-ea55-407b-818f-c68743a68364",
+                    "label": "logs",
+                    "texture": {
+                        "key": "map",
+                        "frame": "logs"
+                    },
+                    "x": 602,
+                    "y": 216
+                },
+                {
+                    "type": "Sprite",
+                    "id": "71a13fbe-d843-4a86-9f72-182583231d51",
+                    "label": "campfire",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "campfire",
+                    "Animation.end": 12,
+                    "texture": {
+                        "key": "map",
+                        "frame": "campfire0001"
+                    },
+                    "x": 602,
+                    "y": 223
+                },
+                {
+                    "type": "Polygon",
+                    "id": "a4b03f9f-9cc6-4d74-8039-52419bed0701",
+                    "label": "igloosHit",
+                    "components": [
+                        "ShowHint"
+                    ],
+                    "ShowHint.text": "igloos_hint",
+                    "x": -144.36879602897466,
+                    "y": 235.95749638322047,
+                    "originX": 0.035895439649471984,
+                    "originY": -0.7256613604643632,
+                    "fillColor": "#00ffff",
+                    "fillAlpha": 0.5,
+                    "points": "-41.79740625863724 -43.474236548910085 -91.18559888050493 -81.93817664198298 -92.8160962434888 -117.92560510506121 -106.64923334124705 -126.79300068054727 -119.50064519252311 -168.87331685485412 -93.43519184399071 -181.45663916104218 24.308752592483188 -181.45663916104218 63.40693261528179 -187.2988959460581 112.84141310387781 -189.54591778644874 107.75513712356008 -139.49690277954596 136.34277833625197 -84.77908880090422 159.07759666062407 -30.78158526555012 109.41070033443305 -16.433370771317186 55.88082318287172 -38.50754691629095"
+                },
+                {
+                    "type": "Image",
+                    "id": "0a92e89b-56ef-4467-bae6-fb9272dca71a",
+                    "label": "igloos",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "igloos",
+                    "Button.callback": "() => this.iglooMap.show()",
+                    "Button.alias": "igloosHit",
+                    "texture": {
+                        "key": "map",
+                        "frame": "igloos"
+                    },
+                    "x": -142,
+                    "y": 261
+                },
+                {
+                    "type": "Polygon",
+                    "id": "cc44042e-1c2f-423c-9527-4e45d45bb637",
+                    "label": "welcomeHit",
+                    "components": [
+                        "ShowHint"
+                    ],
+                    "ShowHint.text": "welcome_hint",
+                    "x": 56,
+                    "y": 148.45940736948864,
+                    "originX": 0.10845828805412777,
+                    "originY": -0.7169549706204741,
+                    "fillColor": "#00ffff",
+                    "fillAlpha": 0.5,
+                    "points": "-73.11759325908088 -9.842835169815316 -83.95175041056359 -36.02538161923201 -72.21474682979067 -81.16770308374339 -18.946807501667195 -99.22463166954788 9.617169289853905 -121.31454663215197 35.59121225014451 -123.23804873296297 46.96098183651941 -117.28156025535247 74.0463747152263 -109.15594239174038 122.80008189689852 -101.93317095741861 136.34277833625197 -84.77908880090422 141.75985691199332 -50.47092448787555 119.18869617973769 -20.67699232129803 29.80689968000513 -3.5229101647837524"
+                },
+                {
+                    "type": "Image",
+                    "id": "f792005f-3d02-4cd5-9d01-5c874c36a962",
+                    "label": "welcome",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "welcome",
+                    "Button.callback": "() => this.onRoomClick(1)",
+                    "Button.alias": "welcomeHit",
+                    "texture": {
+                        "key": "map",
+                        "frame": "welcome"
+                    },
+                    "x": 65,
+                    "y": 170
+                },
+                {
+                    "type": "Image",
+                    "id": "968dc75b-37a8-4aa4-be4b-86e29da6c629",
+                    "label": "welcome_trees",
+                    "texture": {
+                        "key": "map",
+                        "frame": "welcome-trees"
+                    },
+                    "x": 83,
+                    "y": 244
+                },
+                {
+                    "type": "Container",
+                    "id": "2516f37b-f2e4-4b34-a1b9-e07b76f72fc9",
+                    "label": "border",
+                    "x": -722,
+                    "y": 440,
+                    "showChildrenInOutline": false,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "5d28f06c-cb50-4004-ba66-2c8a789965e2",
+                            "label": "border1",
+                            "originX": 1,
+                            "originY": 1,
+                            "isFilled": true,
+                            "width": 11,
+                            "height": 880
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b3564f21-6354-406c-9dcb-08436d414571",
+                            "label": "border2",
+                            "x": 1463,
+                            "originX": 1,
+                            "originY": 1,
+                            "isFilled": true,
+                            "width": 11,
+                            "height": 880
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a1fc35a9-88ce-4973-9aaf-6793cec851b5",
+                            "label": "border3",
+                            "x": 1463,
+                            "y": -876,
+                            "originX": 1,
+                            "originY": 1,
+                            "isFilled": true,
+                            "width": 1474,
+                            "height": 11
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "e757100a-c83b-404f-9672-2c9fb33b67e2",
+                            "label": "border4",
+                            "x": 1463,
+                            "originX": 1,
+                            "originY": 1,
+                            "isFilled": true,
+                            "width": 1474,
+                            "height": 11
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "6466fda5-512e-4d12-9c12-084e900d2f3e",
+                    "label": "grey_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => { this.closeMap() }",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 691,
+                    "y": -400
+                },
+                {
+                    "type": "Image",
+                    "id": "45830b5d-99cb-41f8-8903-65046e08ebfe",
+                    "label": "grey_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 691,
+                    "y": -402
+                },
+                {
+                    "prefabId": "9f793ade-93a8-4ab2-bd68-ccd899fb9179",
+                    "id": "10280413-fe4e-43c5-87a0-4ff109f3c31a",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "iglooMap",
+                    "scope": "CLASS",
+                    "x": 4,
+                    "y": 0,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

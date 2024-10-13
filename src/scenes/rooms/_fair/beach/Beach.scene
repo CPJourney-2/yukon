@@ -1,0 +1,304 @@
+{
+    "id": "ff072b62-bb3b-4e32-8a73-808b0cb6a1d3",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/beach/beach-pack.json",
+            "yukon/assets/media/rooms/_fair/beach/fair-beach-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Beach",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "68749f45-7c3a-4533-a649-4e68017c893a",
+            "label": "bg2",
+            "texture": {
+                "key": "fair-beach",
+                "frame": "bg2"
+            },
+            "x": 745,
+            "y": 479
+        },
+        {
+            "type": "Sprite",
+            "id": "e2ae155f-fdd4-4b42-b7ff-d97c7a931b22",
+            "label": "migrator",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "migrator",
+            "Animation.end": 100,
+            "texture": {
+                "key": "migrator_docked",
+                "frame": "migrator0001"
+            },
+            "x": 489,
+            "y": 186
+        },
+        {
+            "type": "Image",
+            "id": "351afefd-d344-444c-882b-2eb1ecb0d612",
+            "label": "bg1",
+            "texture": {
+                "key": "fair-beach",
+                "frame": "bg1"
+            },
+            "x": 727,
+            "y": 237
+        },
+        {
+            "type": "Image",
+            "id": "4012baa0-518e-4853-9e83-d20c84ba503d",
+            "label": "lighthouse_door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "lighthouse_door",
+            "MoveTo.x": 480,
+            "MoveTo.y": 400,
+            "texture": {
+                "key": "beach",
+                "frame": "lighthouse_door"
+            },
+            "x": 389,
+            "y": 216,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "6962a5eb-c8c8-4689-b4bb-23126518fcc1",
+            "label": "sign",
+            "texture": {
+                "key": "beach",
+                "frame": "sign"
+            },
+            "x": 1315,
+            "y": 282,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Container",
+            "id": "77b7808b-0b5c-4729-80a9-b1a41168687b",
+            "label": "_right",
+            "x": 1232.617108976682,
+            "y": 536.651388500587,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "7820a0d7-6d7b-46a1-990f-3a1285362a72",
+                    "label": "right",
+                    "texture": {
+                        "key": "fair-beach",
+                        "frame": "right"
+                    },
+                    "x": 113.38289102331805,
+                    "y": -112.65138850058702
+                },
+                {
+                    "type": "Image",
+                    "id": "00a2f95c-2128-4bbf-876a-b0f345f00cf5",
+                    "label": "wheel",
+                    "texture": {
+                        "key": "fair-beach",
+                        "frame": "wheel"
+                    },
+                    "x": 181.94395625651396,
+                    "y": -287,
+                    "originX": 0.4633620018587968
+                },
+                {
+                    "type": "Image",
+                    "id": "a6da9599-3513-43a1-ac58-d13b5b5b97c8",
+                    "label": "circle",
+                    "texture": {
+                        "key": "fair-beach",
+                        "frame": "circle"
+                    },
+                    "x": 184,
+                    "y": -287
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "0063c48e-8025-467b-ac36-4b61f187171c",
+            "label": "barn2",
+            "texture": {
+                "key": "fair-beach",
+                "frame": "barn2"
+            },
+            "x": 333,
+            "y": 454,
+            "originX": 0.5869291190503435,
+            "originY": 0.7885093417255271
+        },
+        {
+            "type": "Image",
+            "id": "0a5096ed-618f-4411-bc8e-e7a8b50ce6a2",
+            "label": "barn1",
+            "texture": {
+                "key": "fair-beach",
+                "frame": "barn1"
+            },
+            "x": 129.01563137704977,
+            "y": 522.0919035546874,
+            "originX": 0.7439569037527867,
+            "originY": 0.9020798162946426
+        },
+        {
+            "type": "Image",
+            "id": "fc54feaf-ee50-4be4-be22-bd4d4909cd96",
+            "label": "bestinshow",
+            "texture": {
+                "key": "fair-beach",
+                "frame": "bestinshow"
+            },
+            "x": 926,
+            "y": 421.2495679933403,
+            "originY": 0.5576068173623491
+        },
+        {
+            "type": "Image",
+            "id": "cd30ee98-f4e5-4232-aa22-3eff659209dd",
+            "label": "fence",
+            "texture": {
+                "key": "fair-beach",
+                "frame": "fence"
+            },
+            "x": 663,
+            "y": 926,
+            "originY": 1
+        },
+        {
+            "type": "Image",
+            "id": "d26e7d47-0f3c-4923-83a0-6c916788c7bd",
+            "label": "fence2",
+            "texture": {
+                "key": "fair-beach",
+                "frame": "fence2"
+            },
+            "x": 820,
+            "y": 578,
+            "originY": 0.45795538459729523
+        },
+        {
+            "type": "Image",
+            "id": "adc87699-cf9f-4d19-87b9-8a498f3bcbb4",
+            "label": "haaaayyyyyy",
+            "texture": {
+                "key": "fair-beach",
+                "frame": "haaaayyyyyy"
+            },
+            "x": 951,
+            "y": 710
+        },
+        {
+            "type": "Image",
+            "id": "f47e73ac-a1d8-4366-bd77-1b2343ad6b24",
+            "label": "haaaayyyyyy_1",
+            "texture": {
+                "key": "fair-beach",
+                "frame": "haaaayyyyyy"
+            },
+            "x": 138,
+            "y": 569
+        },
+        {
+            "type": "Image",
+            "id": "bc756a65-493d-42f7-bcac-143a4f42dddf",
+            "label": "trough",
+            "texture": {
+                "key": "fair-beach",
+                "frame": "trough"
+            },
+            "x": 457.5904541015625,
+            "y": 506.4254662188365,
+            "originX": 0.5666161542334982,
+            "originY": 0.22252444848195807
+        },
+        {
+            "type": "Sprite",
+            "id": "b4bb2b52-be0a-42eb-9644-20a7d904c311",
+            "label": "gumballs",
+            "scope": "CLASS",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "gumballs",
+            "Animation.end": 30,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "SimpleButton.callback": "() => this.gumballs.__Animation.play()",
+            "texture": {
+                "key": "fair-beach",
+                "frame": "gumballs0001"
+            },
+            "x": 532.9873124792033,
+            "y": 384.9386370715874,
+            "originX": 0.5288016301333811,
+            "originY": 0.8198331021217764
+        },
+        {
+            "type": "Rectangle",
+            "id": "c822da50-7958-411f-92ab-d874788b36e7",
+            "label": "snackStampZone",
+            "components": [
+                "SnackStampArea"
+            ],
+            "x": 1210,
+            "y": 575,
+            "visible": false,
+            "width": 150,
+            "height": 150
+        },
+        {
+            "prefabId": "03c1e2c5-a3a8-4d2d-a4b8-4cdd167a2b9a",
+            "id": "2498ea89-f3ef-4b21-9026-677cfa52e36e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sharedCoaster",
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1bc796af-8118-4a54-b624-39e93ad42d65",
+            "label": "sort",
+            "objectIds": [
+                "0a5096ed-618f-4411-bc8e-e7a8b50ce6a2",
+                "0063c48e-8025-467b-ac36-4b61f187171c",
+                "fc54feaf-ee50-4be4-be22-bd4d4909cd96",
+                "cd30ee98-f4e5-4232-aa22-3eff659209dd",
+                "d26e7d47-0f3c-4923-83a0-6c916788c7bd",
+                "adc87699-cf9f-4d19-87b9-8a498f3bcbb4",
+                "f47e73ac-a1d8-4366-bd77-1b2343ad6b24",
+                "bc756a65-493d-42f7-bcac-143a4f42dddf",
+                "b4bb2b52-be0a-42eb-9644-20a7d904c311",
+                "77b7808b-0b5c-4729-80a9-b1a41168687b"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,144 @@
+{
+    "id": "d411ca44-a13f-488c-9c0b-7f30b0155b02",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "37549f01-e125-4863-89fd-8732d638ee15",
+            "label": "container_1",
+            "x": -1,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "57107b7a-f94a-42f4-89ae-444ececcd083",
+                    "label": "rectangle_4",
+                    "x": 168,
+                    "y": 52,
+                    "isFilled": true,
+                    "strokeColor": "#000",
+                    "lineWidth": 5,
+                    "isStroked": true,
+                    "width": 330,
+                    "height": 100
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "96f3c2d1-b3b4-4413-824d-065e2ff74a54",
+                    "label": "rectangle_5",
+                    "x": 496,
+                    "y": 52,
+                    "isFilled": true,
+                    "strokeColor": "#000",
+                    "lineWidth": 5,
+                    "isStroked": true,
+                    "width": 330,
+                    "height": 100
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "180233c2-fa08-4dcf-acd3-1f68b35fe9a5",
+                    "label": "rectangle_6",
+                    "x": 805,
+                    "y": 53,
+                    "isFilled": true,
+                    "strokeColor": "#000",
+                    "lineWidth": 5,
+                    "isStroked": true,
+                    "width": 300,
+                    "height": 100
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "59491b48-158e-4485-836a-708d380198c8",
+                    "label": "rectangle_7",
+                    "x": 1123,
+                    "y": 53,
+                    "isFilled": true,
+                    "strokeColor": "#000",
+                    "lineWidth": 5,
+                    "isStroked": true,
+                    "width": 340,
+                    "height": 100
+                },
+                {
+                    "type": "Text",
+                    "id": "2b976798-b622-4158-8be2-a35f2622b924",
+                    "label": "issued",
+                    "scope": "CLASS",
+                    "x": 11,
+                    "y": 10,
+                    "text": "Issued",
+                    "fixedWidth": 310,
+                    "lineSpacing": -5,
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "30px",
+                    "color": "#000",
+                    "wordWrapWidth": 310
+                },
+                {
+                    "type": "Text",
+                    "id": "3f93af7c-3102-463f-bd77-4c785eb160a6",
+                    "label": "expiry",
+                    "scope": "CLASS",
+                    "x": 338,
+                    "y": 10,
+                    "text": "Expiry",
+                    "fixedWidth": 310,
+                    "lineSpacing": -5,
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "30px",
+                    "color": "#000",
+                    "wordWrapWidth": 310
+                },
+                {
+                    "type": "Text",
+                    "id": "cfdad92b-ab12-4e03-a8ea-0fcd54fd8adf",
+                    "label": "username",
+                    "scope": "CLASS",
+                    "x": 662,
+                    "y": 9,
+                    "text": "Username",
+                    "fixedWidth": 290,
+                    "lineSpacing": -5,
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "30px",
+                    "color": "#000",
+                    "wordWrapWidth": 290
+                },
+                {
+                    "type": "Text",
+                    "id": "f205d0ab-9727-4100-b30f-b008d7129a8c",
+                    "label": "reason",
+                    "scope": "CLASS",
+                    "x": 959,
+                    "y": 9,
+                    "text": "Because he is stinky",
+                    "fixedWidth": 330,
+                    "lineSpacing": -5,
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "30px",
+                    "color": "#000",
+                    "wordWrapWidth": 330
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

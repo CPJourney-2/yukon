@@ -1,0 +1,391 @@
+{
+    "id": "83613d5f-65fb-4fb0-97ac-fbac90614f19",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/berg/fair-berg-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Berg",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "009c916f-93cb-4de1-8ffe-0c3d0f4f5b83",
+            "label": "bg",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "backgroundBerg"
+            },
+            "x": -18,
+            "y": -18,
+            "originX": 0,
+            "originY": 0,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "f0762a91-dcfe-4fd4-ae43-b5351415b23a",
+            "label": "balls_14",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 775,
+            "y": 438,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "63971c9d-e630-43b5-b11a-17ebd1ae948a",
+            "label": "balls_15",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 758,
+            "y": 346,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "0f7a085f-d758-4ba2-98d1-1de608d7e4bf",
+            "label": "aqua",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton",
+                "MoveTo",
+                "ShowHint"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onAquaOver()",
+            "SimpleButton.callback": "() => this.onAquaClick()",
+            "SimpleButton.pixelPerfect": true,
+            "ShowHint.text": "sub_hint",
+            "texture": {
+                "key": "berg",
+                "frame": "aqua0001"
+            },
+            "x": 1269,
+            "y": 332,
+            "originX": 0.49444529894575834,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "28de401a-8924-4e06-876b-23d728dafd47",
+            "label": "wheel",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wheel",
+            "Animation.end": 91,
+            "texture": {
+                "key": "fair-berg",
+                "frame": "wheel0001"
+            },
+            "x": 1091,
+            "y": 201,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "4cd71633-1d3a-456e-b75c-da72e092eab2",
+            "label": "wheelFrame",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "wheelFrame"
+            },
+            "x": 1098,
+            "y": 181,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "49c93f90-b66e-496e-8ba0-b7d34e1acf78",
+            "label": "wheelSign",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "wheelSign"
+            },
+            "x": 1098,
+            "y": 122,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "2ebb6ebc-ab9b-4880-aa94-e76d87349c4e",
+            "label": "balls_4",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 831,
+            "y": 638,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "d183afdf-e674-4c2e-baef-adf9db230862",
+            "label": "balls_2",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 552,
+            "y": 676,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "83e27278-04c2-451d-9e27-d2ea95f2c427",
+            "label": "balls_6",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 840,
+            "y": 694,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "44421b97-9d54-4ef2-9308-c90afd29763c",
+            "label": "balls_7",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 817,
+            "y": 771,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "c7922ce2-29b3-4bdf-8549-8f2bb720b9e6",
+            "label": "balls",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 296,
+            "y": 707,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "d0e94a58-db97-4c83-87a5-37fbd8eec85d",
+            "label": "balls_1",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 511,
+            "y": 767,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "74fb692b-cfb0-4497-8279-1446cefae9f6",
+            "label": "balls_8",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 1094,
+            "y": 602,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "2214aefd-b183-49db-892b-a0a8a2ceb54a",
+            "label": "balls_9",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 1161,
+            "y": 684,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "8bd9129e-3ca9-4bd8-82eb-7c422eae9d50",
+            "label": "balls_13",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 930,
+            "y": 394,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "6232a2f9-e45f-4248-87a8-7c710b950366",
+            "label": "balls_10",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 1030,
+            "y": 527,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "8fbea0b7-f86c-4e00-ac48-54792cd0e4b6",
+            "label": "balls_12",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 1000,
+            "y": 486,
+            "flipX": true,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "dc3bf4d8-2fad-4770-9719-3d67b02d5d04",
+            "label": "slide",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "slide"
+            },
+            "x": 458,
+            "y": 341,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "040a8218-3028-4c5d-837a-bede47c50b15",
+            "label": "slideFG",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "slideFG"
+            },
+            "x": 479,
+            "y": 524.5827624137471,
+            "originY": 1.0002206997699923,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "258cdcee-f928-493b-a486-7e2651babd56",
+            "label": "foreground",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "foreground"
+            },
+            "x": 718,
+            "y": 936.7374704616996,
+            "originY": 0.9966242525713892,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "95357501-9c5f-467d-beb6-1aa16e4e25e8",
+            "label": "balls_3",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 337,
+            "y": 616,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "4755f148-ab91-420b-bfc3-624258d9c5dd",
+            "label": "balls_5",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 616,
+            "y": 578,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "76f8d785-4023-4617-8e86-ef6e57ec3d75",
+            "label": "balls_11",
+            "components": [],
+            "texture": {
+                "key": "fair-berg",
+                "frame": "balls"
+            },
+            "x": 734,
+            "y": 516,
+            "flipX": true,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "70aa9df9-38de-4ec3-b508-8b949ac0bac3",
+            "label": "sort",
+            "objectIds": [
+                "258cdcee-f928-493b-a486-7e2651babd56",
+                "040a8218-3028-4c5d-837a-bede47c50b15",
+                "76f8d785-4023-4617-8e86-ef6e57ec3d75",
+                "4755f148-ab91-420b-bfc3-624258d9c5dd",
+                "95357501-9c5f-467d-beb6-1aa16e4e25e8",
+                "8fbea0b7-f86c-4e00-ac48-54792cd0e4b6",
+                "6232a2f9-e45f-4248-87a8-7c710b950366",
+                "8bd9129e-3ca9-4bd8-82eb-7c422eae9d50",
+                "2214aefd-b183-49db-892b-a0a8a2ceb54a",
+                "74fb692b-cfb0-4497-8279-1446cefae9f6",
+                "d0e94a58-db97-4c83-87a5-37fbd8eec85d",
+                "c7922ce2-29b3-4bdf-8549-8f2bb720b9e6",
+                "44421b97-9d54-4ef2-9308-c90afd29763c",
+                "83e27278-04c2-451d-9e27-d2ea95f2c427",
+                "d183afdf-e674-4c2e-baef-adf9db230862",
+                "2ebb6ebc-ab9b-4880-aa94-e76d87349c4e",
+                "63971c9d-e630-43b5-b11a-17ebd1ae948a",
+                "f0762a91-dcfe-4fd4-ae43-b5351415b23a"
+            ]
+        }
+    ]
+}

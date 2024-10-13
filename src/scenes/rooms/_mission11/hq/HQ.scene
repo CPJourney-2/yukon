@@ -1,0 +1,743 @@
+{
+    "id": "e16abfae-d04d-40a8-9ab0-a0f97dfd08f9",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_mission11/new_hq/mission11-new-hq-pack.json",
+            "yukon/assets/media/rooms/hq/hq-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "HQ",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "6123a90d-c97c-4724-978c-ed86493f8803",
+            "label": "dojobg_1",
+            "texture": {
+                "key": "hq-room",
+                "frame": "background"
+            },
+            "x": 770,
+            "y": 481
+        },
+        {
+            "type": "Sprite",
+            "id": "b3738427-584d-4364-b598-c78e992d5769",
+            "label": "bg",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bg",
+            "Animation.end": 10,
+            "texture": {
+                "key": "mission11-new-hq",
+                "frame": "bg0001"
+            },
+            "x": 770,
+            "y": 481
+        },
+        {
+            "type": "Sprite",
+            "id": "5cc9e9b9-bdfe-4760-9d2e-1667bbe96a99",
+            "label": "herbert",
+            "scope": "CLASS",
+            "texture": {
+                "key": "mission11-new-hq",
+                "frame": "herbert0001"
+            },
+            "x": 785,
+            "y": 300
+        },
+        {
+            "type": "Container",
+            "id": "d2de2cc2-d033-46c9-b397-c2f5a3b533b1",
+            "label": "evergreen",
+            "scope": "CLASS",
+            "x": 770,
+            "y": 481,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "2a9459e1-e203-4fd4-bb53-a830a81a7233",
+                    "label": "dojobg",
+                    "texture": {
+                        "key": "hq-room",
+                        "frame": "background"
+                    }
+                },
+                {
+                    "type": "Sprite",
+                    "id": "0f1b066f-2c2b-4672-b04d-482233532e66",
+                    "label": "agent_danceclub",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "agent_danceclub",
+                    "Animation.end": 7,
+                    "Animation.frameRate": 1,
+                    "texture": {
+                        "key": "hq-room",
+                        "frame": "agent_danceclub0001"
+                    },
+                    "x": -207,
+                    "y": -231
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "b21baf26-5a7f-4b3b-aa1b-55f9121ff4a3",
+                    "label": "Beach",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Beach",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(400)",
+                    "x": 375,
+                    "y": -123,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "5c431796-740a-425d-9d7a-c1224aad8b74",
+                    "label": "Plaza",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Plaza",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(300)",
+                    "x": 279,
+                    "y": -135,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "161b8d17-386f-43a8-b9ed-e851ceb2c422",
+                    "label": "Pet Shop",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Pet Shop",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(310)",
+                    "x": 185,
+                    "y": -142,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "4a9bc92b-a368-4d65-a589-f7e266f73bf8",
+                    "label": "Snow Forts",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Snow Forts",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(801)",
+                    "x": 87,
+                    "y": -144,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "ceb0f911-ecc4-4b71-94b7-959ffc835de5",
+                    "label": "Coffee Shop",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Coffee Shop",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(110)",
+                    "x": -38,
+                    "y": -138,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "881c14e7-ab5c-4033-8c6d-0a7e456ece24",
+                    "label": "Book Room",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Book Room",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(111)",
+                    "x": -142,
+                    "y": -142,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "4c2cbd16-01f8-4f38-96af-ecefd10f74d4",
+                    "label": "Ski Lodge",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Ski Lodge",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(220)",
+                    "x": -240,
+                    "y": -137,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "2f0acae0-ca9c-4d9f-b955-52e7e4d61538",
+                    "label": "Sport Shop",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Sports Shop",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(210)",
+                    "x": -338,
+                    "y": -119,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "1d890a6d-907c-460e-ae19-68f1772da1fb",
+                    "label": "Beacon",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Beacon",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(411)",
+                    "x": 434,
+                    "y": -208,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "86de8be7-2e37-465a-9077-bc0a5e8bba7e",
+                    "label": "Lighthouse",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Lighthouse",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(410)",
+                    "x": 339,
+                    "y": -231,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "534c702f-6725-41c7-bb5a-05d8be8e23c1",
+                    "label": "Pizza Parlor",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Pizza Parlor",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(330)",
+                    "x": 245,
+                    "y": -235,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "dc1f9e06-40ed-476e-82dd-e9967a925c96",
+                    "label": "Stadium/Rink",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Stadium",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(802)",
+                    "x": 159,
+                    "y": -239,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 70,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "1294c7b7-7bcb-4c9e-89d3-6ab6705281a7",
+                    "label": "Gift Shop",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Gift Shop",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(130)",
+                    "x": 71,
+                    "y": -238,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 65,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "9e8c4415-7ad2-483c-80d4-c82c11694c24",
+                    "label": "Town",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Town",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(100)",
+                    "x": -20,
+                    "y": -240,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "cdf60649-a615-497c-a9a6-8eb0f2925bed",
+                    "label": "Dock",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Dock",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(800)",
+                    "x": -113,
+                    "y": -237,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "5ef9d36a-c298-4f95-ac34-c18f1784aa08",
+                    "label": "Dance Club",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Dance Club",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(120)",
+                    "x": -207,
+                    "y": -233,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "038c58fe-29ae-4fc2-b4a2-4e251b17be5c",
+                    "label": "Lodge Attic",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Lodge Attic",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(221)",
+                    "x": -404,
+                    "y": -206,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "9a662b6c-2b13-4ef0-b218-43a56f8ba8ed",
+                    "label": "Lounge",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Dance Lounge",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(121)",
+                    "x": -305,
+                    "y": -225,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "2a402590-0a36-4e69-be46-3451a67cdb69",
+                    "label": "Stage",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Stage",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(340)",
+                    "x": 263,
+                    "y": -330,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "b071e804-99c9-443c-b0f1-534300c3eb3c",
+                    "label": "Cove",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Cove",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(810)",
+                    "x": 166,
+                    "y": -331,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "07b94cbe-fe15-4921-a982-f1607ff205e8",
+                    "label": "Forest",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Forest",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(809)",
+                    "x": 73,
+                    "y": -339,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "bc01354e-3802-4942-825b-2b98c662effe",
+                    "label": "Dojo",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "The Dojo",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(320)",
+                    "x": -19,
+                    "y": -336,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "9c007d75-0224-49af-92d0-72c3ec7c2e29",
+                    "label": "Ski Hill",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Ski Hill",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(230)",
+                    "x": -116,
+                    "y": -333,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "6bff7261-3834-435a-9ba1-debf89c7267d",
+                    "label": "skivillage",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Ski Village",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(200)",
+                    "x": -218,
+                    "y": -328,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "86c1e5a5-552a-4a63-8e1c-7012083ba9fd",
+                    "label": "courtyard",
+                    "components": [
+                        "ShowHint",
+                        "SimpleButton"
+                    ],
+                    "ShowHint.text": "Dojo Courtyard",
+                    "SimpleButton.callback": "() =>  this.teleportRoom(319)",
+                    "x": -316,
+                    "y": -322,
+                    "alpha": 0.00001,
+                    "isFilled": true,
+                    "width": 80,
+                    "height": 70
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "7b433e77-5ed4-40e2-ae8c-eb9e1938cbb2",
+            "label": "table",
+            "texture": {
+                "key": "mission11-new-hq",
+                "frame": "table"
+            },
+            "x": 1278,
+            "y": 531
+        },
+        {
+            "type": "Sprite",
+            "id": "da934f07-6326-4099-ad43-85bbeb5994a6",
+            "label": "book",
+            "scope": "CLASS",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "book",
+            "Animation.end": 4,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "SimpleButton.hoverCallback": "() => {}",
+            "SimpleButton.hoverOutCallback": "() => {}",
+            "SimpleButton.callback": "() => this.bookCallback()",
+            "SimpleButton.pixelPerfect": true,
+            "SimpleButton.useHandCursor": false,
+            "texture": {
+                "key": "mission11-new-hq",
+                "frame": "book0001"
+            },
+            "x": 1319,
+            "y": 463
+        },
+        {
+            "type": "Rectangle",
+            "id": "bbb9f1c9-5e52-47fd-a6b7-e3057809742e",
+            "label": "bookBlock",
+            "scope": "CLASS",
+            "components": [
+                "Interactive"
+            ],
+            "x": 1319,
+            "y": 459,
+            "fillColor": "#20cf9b",
+            "fillAlpha": 0.5,
+            "width": 80,
+            "height": 80
+        },
+        {
+            "type": "Image",
+            "id": "7842dd18-e8f9-44b9-8f42-ac87b9d73883",
+            "label": "books",
+            "texture": {
+                "key": "mission11-new-hq",
+                "frame": "books"
+            },
+            "x": 1341,
+            "y": 477
+        },
+        {
+            "type": "Image",
+            "id": "a2980083-235e-4e9a-ac58-67b40fec49c5",
+            "label": "chairone",
+            "texture": {
+                "key": "hq-room",
+                "frame": "chairone"
+            },
+            "x": 1170.737783443294,
+            "y": 588.4267006597639,
+            "originX": 0.46370885133306133,
+            "originY": 0.34673155660079574
+        },
+        {
+            "type": "Image",
+            "id": "588b74a4-9a2c-4301-bf21-0a402007094d",
+            "label": "chairtwo",
+            "texture": {
+                "key": "hq-room",
+                "frame": "chairtwo"
+            },
+            "x": 466.2980752081793,
+            "y": 587.3509623959104,
+            "originX": 0.7848143117805468,
+            "originY": 0.3997619533782059
+        },
+        {
+            "type": "Sprite",
+            "id": "00a2618c-85ce-41c8-90e4-e3a8f8d2c610",
+            "label": "door",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton",
+                "MoveTo",
+                "Animation"
+            ],
+            "SimpleButton.hoverCallback": "() => this.HQDoor()",
+            "SimpleButton.hoverOutCallback": "() => this.HQDone()",
+            "MoveTo.x": "203",
+            "MoveTo.y": "583",
+            "Animation.key": "door",
+            "Animation.end": 100,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "mission11-new-hq",
+                "frame": "door0001"
+            },
+            "x": 183,
+            "y": 447
+        },
+        {
+            "type": "Sprite",
+            "id": "595ffa67-1c06-4274-9998-5f6b3081c812",
+            "label": "cabinet",
+            "scope": "CLASS",
+            "texture": {
+                "key": "mission11-new-hq",
+                "frame": "closet"
+            },
+            "x": 1447,
+            "y": 565
+        },
+        {
+            "type": "Container",
+            "id": "1354d90a-02c1-4676-9073-005f3b364e95",
+            "label": "interfaceIcons",
+            "scope": "CLASS",
+            "x": 1423,
+            "y": 751.0000610351562,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "ca13ec6e-1bca-44f1-8a3b-c205e400d32d",
+                    "label": "oldmission",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "sign",
+                    "Button.callback": "() =>  this.interface.loadWidget('MissionMenu')",
+                    "texture": {
+                        "key": "hq-room",
+                        "frame": "sign"
+                    },
+                    "x": 2
+                },
+                {
+                    "type": "Image",
+                    "id": "a38606fc-928c-4918-a38c-2f989ac65250",
+                    "label": "fish",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "fish",
+                    "Button.callback": "() =>  this.interface.loadWidget('FISH')",
+                    "texture": {
+                        "key": "hq-room",
+                        "frame": "fish"
+                    },
+                    "y": 117.99993896484375
+                }
+            ]
+        },
+        {
+            "type": "Sprite",
+            "id": "cce62ff5-a440-4152-925f-3ab00bc7eeaa",
+            "label": "chairbomb",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "chairbomb",
+            "Animation.end": 46,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "mission11-newhq-chairbomb",
+                "frame": "chairbomb0001"
+            },
+            "x": 950,
+            "y": 725,
+            "originX": 0.4264793203972074,
+            "originY": 0.8678989339618957,
+            "visible": false
+        },
+        {
+            "type": "Rectangle",
+            "id": "5f5d90e9-8b2f-4fe6-ad0f-1faab6993362",
+            "label": "colorCodeBtn",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.openColorCode()",
+            "x": 1332,
+            "y": 464,
+            "visible": false,
+            "fillColor": "#20cf9b",
+            "fillAlpha": 0.5,
+            "width": 80,
+            "height": 80
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "09507045-c43d-47ba-bb5e-e528ddec4255",
+            "label": "sort",
+            "objectIds": [
+                "588b74a4-9a2c-4301-bf21-0a402007094d",
+                "a2980083-235e-4e9a-ac58-67b40fec49c5",
+                "cce62ff5-a440-4152-925f-3ab00bc7eeaa"
+            ]
+        }
+    ]
+}

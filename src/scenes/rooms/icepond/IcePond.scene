@@ -1,0 +1,298 @@
+{
+    "id": "f1348104-4fb5-4f35-a6f0-571821eae8bf",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/icepond/icepond-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "IcePond",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "5dde6759-59b0-4f28-bb54-cc71de3710b3",
+            "label": "hole",
+            "texture": {
+                "key": "icepond",
+                "frame": "hole"
+            },
+            "x": 788,
+            "y": 740
+        },
+        {
+            "type": "Image",
+            "id": "1821b301-2ee0-4825-89e3-fc399fb78c16",
+            "label": "bg",
+            "texture": {
+                "key": "icepond",
+                "frame": "bg"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "d29fa8c3-eaab-4439-94f1-25fac777981c",
+            "label": "fluffyjump0001",
+            "scope": "CLASS",
+            "texture": {
+                "key": "icepond",
+                "frame": "fluffyjump0014"
+            },
+            "x": 768,
+            "y": 687.6121340735475,
+            "originY": 0.40652605485852394,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "ca50fa95-fd11-48fe-b8e2-c4ce0f390dd6",
+            "label": "fluffyjump0006",
+            "scope": "CLASS",
+            "texture": {
+                "key": "icepond",
+                "frame": "fluffydip0001"
+            },
+            "x": 760,
+            "y": 686,
+            "originX": 0.11010329757480819,
+            "originY": 0.42448198733514964,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a710a33f-e504-4054-9e08-05407c5b6a20",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "MoveTo.x": "147",
+            "MoveTo.y": "748",
+            "texture": {
+                "key": "icepond",
+                "frame": "door"
+            },
+            "x": 137,
+            "y": 568
+        },
+        {
+            "type": "Image",
+            "id": "ca2c9178-c259-4577-8d12-853d2161a610",
+            "label": "fishingrod",
+            "texture": {
+                "key": "icepond",
+                "frame": "fishingrod"
+            },
+            "x": 270.612548828125,
+            "y": 665.5835325115999,
+            "originX": 0.6583965642335293,
+            "originY": 0.9086618781078621
+        },
+        {
+            "type": "Image",
+            "id": "7231a80e-2751-4322-bee8-e0d3d698736e",
+            "label": "bigtree_1",
+            "texture": {
+                "key": "icepond",
+                "frame": "bigtreeside"
+            },
+            "x": 1147.0917875589907,
+            "y": 325.1105005086057,
+            "originX": 0.47419486517271636,
+            "originY": 0.80267578762628
+        },
+        {
+            "type": "Image",
+            "id": "aedb570f-47a1-41c1-b087-ef8f514cb0e3",
+            "label": "bigtree",
+            "texture": {
+                "key": "icepond",
+                "frame": "bigtreemain"
+            },
+            "x": 1213.6187744140625,
+            "y": 440.637451171875,
+            "originX": 0.5315951604949455,
+            "originY": 0.964478227792195
+        },
+        {
+            "type": "Image",
+            "id": "759ea487-05eb-4b68-a2c9-9298be8e34ac",
+            "label": "fishbox",
+            "texture": {
+                "key": "icepond",
+                "frame": "fishbox"
+            },
+            "x": 607.2113683878787,
+            "y": 674.3308251140149,
+            "originX": 0.4547759809503713,
+            "originY": 0.7320354732672985
+        },
+        {
+            "type": "Sprite",
+            "id": "88a594e7-eb07-49dc-9d88-bcb7bd3796a7",
+            "label": "equipment",
+            "scope": "CLASS",
+            "texture": {
+                "key": "icepond",
+                "frame": "equipment"
+            },
+            "x": 517,
+            "y": 710.7672675570568,
+            "originY": 0.8926426460122885
+        },
+        {
+            "type": "Image",
+            "id": "efeb8dc3-2370-4e64-aa70-fbbc43578da9",
+            "label": "treefront",
+            "texture": {
+                "key": "icepond",
+                "frame": "treefront"
+            },
+            "x": 76.81526569226222,
+            "y": 983.5190189169656,
+            "originX": 0.6344542305217434,
+            "originY": 0.9094472910939578
+        },
+        {
+            "type": "Image",
+            "id": "5e891c85-ffa2-4bc0-bd5a-4083e2388675",
+            "label": "holeside",
+            "texture": {
+                "key": "icepond",
+                "frame": "holeside"
+            },
+            "x": 640.7177043117371,
+            "y": 697.3535740539824,
+            "originX": -0.007789495428456567,
+            "originY": -0.23774189172267768
+        },
+        {
+            "type": "Rectangle",
+            "id": "7a59e199-1839-4504-9ecb-0d6947553f19",
+            "label": "rectangle_1",
+            "components": [
+                "Zone",
+                "MoveTo",
+                "ShowHint"
+            ],
+            "Zone.hoverCallback": "() => {this.onFluffyHover()}",
+            "Zone.hoverOutCallback": "() => {this.onFluffyHoverOut()}",
+            "Zone.callback": "() => {this.onFluffyHoverOut()}",
+            "MoveTo.x": "785",
+            "MoveTo.y": "750",
+            "ShowHint.text": "fluffy_hint",
+            "x": 788,
+            "y": 740,
+            "width": 220,
+            "height": 90
+        },
+        {
+            "type": "Sprite",
+            "id": "4cac2183-46e7-49d3-9539-6cf9c2d2d740",
+            "label": "fishinfishbox",
+            "scope": "CLASS",
+            "texture": {
+                "key": "icepond",
+                "frame": "fishinfishbox0018"
+            },
+            "x": 607.7741864690926,
+            "y": 677.5271514231778,
+            "originX": 0.44211197245909895,
+            "originY": 1.7744554634798235,
+            "visible": false
+        },
+        {
+            "type": "Rectangle",
+            "id": "b988d541-5dcd-4f2e-8488-a2a3eeea3357",
+            "label": "rectangle_2",
+            "components": [
+                "Zone",
+                "ShowHint",
+                "MoveTo"
+            ],
+            "Zone.hoverCallback": "() => {this.onFishHover()}",
+            "Zone.hoverOutCallback": "() => {this.onFishHoverOut()}",
+            "ShowHint.text": "fish_hint",
+            "MoveTo.x": "582",
+            "MoveTo.y": "646",
+            "x": 575,
+            "y": 646,
+            "width": 200,
+            "height": 150
+        },
+        {
+            "type": "Sprite",
+            "id": "472bff3a-149e-4214-8370-f100ef7329ab",
+            "label": "catalog0001",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "catalog",
+            "Animation.end": 7,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
+            "SimpleButton.callback": "() => {this.onCatalog()}",
+            "texture": {
+                "key": "icepond",
+                "frame": "catalog0001"
+            },
+            "x": 250,
+            "y": 413
+        },
+        {
+            "type": "Image",
+            "id": "469fefac-21b1-4ad8-8467-ade9a4e3e86b",
+            "label": "interfaceIcons",
+            "scope": "CLASS",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "catalogbtn",
+            "Button.callback": "() => {this.onCatalog()}",
+            "texture": {
+                "key": "icepond",
+                "frame": "catalogbtn"
+            },
+            "x": 1438.7424970510153,
+            "y": 879.3619857544014
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "672dde11-c1fa-4288-8b95-0278f69713f1",
+            "label": "sort",
+            "objectIds": [
+                "aedb570f-47a1-41c1-b087-ef8f514cb0e3",
+                "88a594e7-eb07-49dc-9d88-bcb7bd3796a7",
+                "efeb8dc3-2370-4e64-aa70-fbbc43578da9",
+                "7231a80e-2751-4322-bee8-e0d3d698736e",
+                "ca2c9178-c259-4577-8d12-853d2161a610",
+                "759ea487-05eb-4b68-a2c9-9298be8e34ac",
+                "5e891c85-ffa2-4bc0-bd5a-4083e2388675",
+                "d29fa8c3-eaab-4439-94f1-25fac777981c",
+                "ca50fa95-fd11-48fe-b8e2-c4ce0f390dd6",
+                "4cac2183-46e7-49d3-9539-6cf9c2d2d740",
+                "472bff3a-149e-4214-8370-f100ef7329ab"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "id": "e1fd4db1-daec-4830-98b2-2d1294d639bf",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "bb4d2198-5ce9-4999-b83f-8ab252d88b7e",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "122082e3-8384-43a3-9fe1-1f944e5dec49",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "f447a36a-5cff-4525-ad9b-376aebc19c03",
+                    "label": "bg",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "y": -95,
+                    "width": 708,
+                    "height": 324,
+                    "leftWidth": 44,
+                    "rightWidth": 39,
+                    "topHeight": 40,
+                    "bottomHeight": 41
+                },
+                {
+                    "type": "Text",
+                    "id": "c76c64cd-daab-44f2-93c8-0a368c62070b",
+                    "label": "text",
+                    "scope": "CLASS",
+                    "y": -161,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "visible": false,
+                    "text": "Message goes here\nMessage goes here",
+                    "fixedWidth": 628,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000000"
+                },
+                {
+                    "prefabId": "48dfbf63-271b-4c3d-9fcc-6406eb7a0754",
+                    "id": "941db4ad-218b-43e5-a7b0-71d4206ff3ab",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "single",
+                    "scope": "CLASS",
+                    "x": 0,
+                    "y": -35,
+                    "visible": false
+                },
+                {
+                    "prefabId": "88bfda40-6205-4acf-a1c5-ce803655487b",
+                    "id": "a4eca45d-2e90-4105-bfd3-27e5c5c30117",
+                    "unlock": [
+                        "visible",
+                        "x",
+                        "y"
+                    ],
+                    "label": "dual",
+                    "scope": "CLASS",
+                    "x": 0,
+                    "y": -36,
+                    "visible": false
+                },
+                {
+                    "prefabId": "1de1eb22-93eb-4755-aeba-c735ea72b677",
+                    "id": "059ce188-b090-4582-a12a-15d4ce4e5329",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "spinner",
+                    "scope": "CLASS",
+                    "x": 0,
+                    "y": -104
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

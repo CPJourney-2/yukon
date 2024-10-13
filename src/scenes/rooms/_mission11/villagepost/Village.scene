@@ -1,0 +1,362 @@
+{
+    "id": "adf679c7-d673-4ec9-8d7f-8c486f0b887a",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_mission11/villagepost/villagepost-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Village",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "d6b31b9a-b56f-4427-a705-9f85311c0729",
+            "label": "bg",
+            "texture": {
+                "key": "villagepost",
+                "frame": "Symbol_52"
+            },
+            "x": 751,
+            "y": 426
+        },
+        {
+            "type": "Image",
+            "id": "9c761723-393c-4243-948e-47beaa9b7dff",
+            "label": "lodgestairs",
+            "texture": {
+                "key": "village",
+                "frame": "lodgestairs"
+            },
+            "x": 953,
+            "y": 433
+        },
+        {
+            "type": "Sprite",
+            "id": "685e8c7a-2deb-4ff6-8c52-a200732e197a",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "Button.pixelPerfect": true,
+            "MoveTo.x": "1069",
+            "MoveTo.y": "318",
+            "texture": {
+                "key": "village",
+                "frame": "door"
+            },
+            "x": 1109,
+            "y": 292
+        },
+        {
+            "type": "Image",
+            "id": "1dd8049b-edc9-49a7-a797-7f791bcb8918",
+            "label": "lodgefront",
+            "texture": {
+                "key": "village",
+                "frame": "lodgefront"
+            },
+            "x": 1065.9336656506036,
+            "y": 372.96198435596614,
+            "originX": 0.4499370171253708,
+            "originY": 0.5276338062737922
+        },
+        {
+            "type": "Image",
+            "id": "8f5c310c-ca82-40ee-9ee5-44dd1fec19bb",
+            "label": "lodgesnow",
+            "texture": {
+                "key": "village",
+                "frame": "lodgesnow"
+            },
+            "x": 1209.508386024415,
+            "y": 395.462964407251,
+            "originX": 0.7596688233559367,
+            "originY": 0.3555316455307134
+        },
+        {
+            "type": "Sprite",
+            "id": "3a3650b9-36da-4715-89c9-cbed74932b28",
+            "label": "lodgesmoke0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "lodgesmoke",
+            "Animation.end": 5,
+            "texture": {
+                "key": "village",
+                "frame": "lodgesmoke0001"
+            },
+            "x": 1103,
+            "y": 23
+        },
+        {
+            "type": "Image",
+            "id": "f0b7f171-6f9c-440a-9676-860fa15728c2",
+            "label": "symbol_100",
+            "texture": {
+                "key": "villagepost",
+                "frame": "Symbol_100"
+            },
+            "x": 1086.835092475471,
+            "y": 397.9492556113862,
+            "originX": 0.5247781544730886,
+            "originY": 0.5192646664421162
+        },
+        {
+            "type": "Image",
+            "id": "e9942505-f752-46a6-94f8-721a00c34292",
+            "label": "sport",
+            "texture": {
+                "key": "villagepost",
+                "frame": "Symbol_143"
+            },
+            "x": 1164.5984164500321,
+            "y": 418.07393332656875,
+            "originX": 0.7818349409529086,
+            "originY": 0.747054805672266
+        },
+        {
+            "type": "Image",
+            "id": "b5f8dd3c-e44d-4e8c-a885-8fa2434523e8",
+            "label": "lsign",
+            "texture": {
+                "key": "village",
+                "frame": "lsign"
+            },
+            "x": 132,
+            "y": 663
+        },
+        {
+            "type": "Sprite",
+            "id": "37c0053a-987d-476d-9783-71378c3f1d16",
+            "label": "seat0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "seat",
+            "Animation.end": 210,
+            "texture": {
+                "key": "village",
+                "frame": "seat0001"
+            },
+            "x": 291,
+            "y": 137
+        },
+        {
+            "type": "Image",
+            "id": "c14d81b0-89e8-47b6-a4aa-fd8ca9039cef",
+            "label": "symbol_152",
+            "texture": {
+                "key": "villagepost",
+                "frame": "Symbol_152"
+            },
+            "x": 1177.1068103596876,
+            "y": 655.9777373017696,
+            "originX": 0.09048146999919496,
+            "originY": 0.7651929371399724
+        },
+        {
+            "type": "Image",
+            "id": "2431ee4e-c5a2-4a95-a650-8bb7b660e546",
+            "label": "rsign",
+            "texture": {
+                "key": "village",
+                "frame": "rsign"
+            },
+            "x": 1488,
+            "y": 791.6162214146171,
+            "originY": 1.9411592941520137
+        },
+        {
+            "type": "Image",
+            "id": "b159f263-91fe-4270-bd71-315b1d2e00c4",
+            "label": "symbol_166",
+            "texture": {
+                "key": "villagepost",
+                "frame": "Symbol_166"
+            },
+            "x": 1057.202165885558,
+            "y": 728.9159324555553,
+            "originX": -0.0046186267417861636,
+            "originY": 0.6739637272904442
+        },
+        {
+            "type": "Image",
+            "id": "47dbf7f0-fa60-46eb-8d73-05f2f7f44f79",
+            "label": "symbol_164",
+            "texture": {
+                "key": "villagepost",
+                "frame": "Symbol_164"
+            },
+            "x": 762.1433186044469,
+            "y": 760.8823054377775,
+            "originX": 0.05047772868148968,
+            "originY": 0.6633212404444414
+        },
+        {
+            "type": "Image",
+            "id": "1948af62-70f8-4097-8c09-efbbd371381e",
+            "label": "symbol_91",
+            "texture": {
+                "key": "villagepost",
+                "frame": "Symbol_91"
+            },
+            "x": 784.7158180053073,
+            "y": 473.11419908453644,
+            "originX": 1.0004641287972036,
+            "originY": 0.11618317078325037
+        },
+        {
+            "type": "Image",
+            "id": "46dd16a9-4a8b-457a-be5d-c712aebf49ed",
+            "label": "symbol_156",
+            "texture": {
+                "key": "villagepost",
+                "frame": "Symbol_156"
+            },
+            "x": 886.7104333111761,
+            "y": 477.08880192313836,
+            "originX": 0.3900803326264917,
+            "originY": 0.42487827080315954
+        },
+        {
+            "type": "Image",
+            "id": "0be45d36-acbc-4b6b-acd0-77f933a1a011",
+            "label": "videoMask",
+            "scope": "CLASS",
+            "texture": {
+                "key": "villagepost-video-mask"
+            },
+            "x": 564,
+            "y": 234,
+            "originX": 0,
+            "originY": 0,
+            "visible": false
+        },
+        {
+            "type": "Container",
+            "id": "b24ef640-d07f-461d-bdfd-06323b825466",
+            "label": "mediaPlayer",
+            "scope": "CLASS",
+            "x": 983,
+            "y": 513,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "7e63f10f-db9d-47c5-a617-1e8a5bcd8cdb",
+                    "label": "videoContainer",
+                    "scope": "CLASS",
+                    "x": -417.49942699539315,
+                    "y": -274.3475757557864,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "e2f1db37-2420-4a63-aa63-8ba025ab41a0",
+                            "label": "videoBg",
+                            "texture": {
+                                "key": "villagepost-video-mask"
+                            },
+                            "y": -3,
+                            "originX": 0,
+                            "originY": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "1f0d2b7c-1b1e-4b3f-8686-9f3f56947fe6",
+                    "label": "movie_screen",
+                    "texture": {
+                        "key": "villagepost",
+                        "frame": "mediaplayer"
+                    },
+                    "x": -7.20481530416896,
+                    "y": 14.293883060989174,
+                    "originX": 0.794156624335972,
+                    "originY": 0.8285050124485401
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "8b255480-c1b6-4a0b-8356-842c1e0a3eb0",
+            "label": "symbol_158",
+            "texture": {
+                "key": "villagepost",
+                "frame": "Symbol_158"
+            },
+            "x": 706.835342988441,
+            "y": 598.3233834146066,
+            "originX": 0.9043698820451912,
+            "originY": 0.1934080812362277
+        },
+        {
+            "type": "Image",
+            "id": "e85821cd-86ba-4536-9c71-4c6b96a646f0",
+            "label": "symbol_162",
+            "texture": {
+                "key": "villagepost",
+                "frame": "Symbol_162"
+            },
+            "x": 745.0736537446957,
+            "y": 796.9241225954493,
+            "originX": 0.7849542906738665,
+            "originY": 0.5055007297348171
+        },
+        {
+            "type": "Rectangle",
+            "id": "b1971cce-1874-4a5e-8dcb-59512fffb337",
+            "label": "rectangle_1",
+            "components": [
+                "MoveTo",
+                "SimpleButton"
+            ],
+            "x": 1328.9289563999914,
+            "y": 444.4824179094004,
+            "scaleX": 1.3196874889629602,
+            "scaleY": 1.1368270035322932,
+            "originX": 0.11478180740947153,
+            "originY": 1.0187301609121238,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "528d71e2-a474-4325-aa76-2ccaa2e1016f",
+            "label": "sort",
+            "objectIds": [
+                "1dd8049b-edc9-49a7-a797-7f791bcb8918",
+                "8f5c310c-ca82-40ee-9ee5-44dd1fec19bb",
+                "c14d81b0-89e8-47b6-a4aa-fd8ca9039cef",
+                "2431ee4e-c5a2-4a95-a650-8bb7b660e546",
+                "b159f263-91fe-4270-bd71-315b1d2e00c4",
+                "47dbf7f0-fa60-46eb-8d73-05f2f7f44f79",
+                "e85821cd-86ba-4536-9c71-4c6b96a646f0",
+                "8b255480-c1b6-4a0b-8356-842c1e0a3eb0",
+                "1948af62-70f8-4097-8c09-efbbd371381e",
+                "f0b7f171-6f9c-440a-9676-860fa15728c2",
+                "e9942505-f752-46a6-94f8-721a00c34292",
+                "46dd16a9-4a8b-457a-be5d-c712aebf49ed",
+                "b24ef640-d07f-461d-bdfd-06323b825466"
+            ]
+        }
+    ]
+}

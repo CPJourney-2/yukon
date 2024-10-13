@@ -1,0 +1,73 @@
+{
+    "id": "688ff040-1606-4b2d-b25a-81eef3aa282f",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c8009e58-37ce-448b-af48-33e213e09231",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "50f6288b-32a9-4b95-a123-ceb24ec67e76",
+                    "label": "_graphic2",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "musicjam-login",
+                        "frame": "carouselitem1"
+                    },
+                    "alpha": 0,
+                    "alphaTopLeft": 0,
+                    "alphaTopRight": 0,
+                    "alphaBottomLeft": 0,
+                    "alphaBottomRight": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "3a9144e5-888a-41fd-b99f-b2a5eca2073a",
+                    "label": "_graphic",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "musicjam-login",
+                        "frame": "carouselitem1"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "ed8c97f9-d835-44df-82ef-2f33ca681b5e",
+                    "label": "overlay_carousel",
+                    "texture": {
+                        "key": "newstart",
+                        "frame": "overlay-carousel"
+                    },
+                    "x": -2,
+                    "y": 146
+                },
+                {
+                    "type": "Container",
+                    "id": "4074ef71-4b09-4733-99d4-9e040dba3869",
+                    "label": "circles",
+                    "scope": "CLASS",
+                    "y": 96
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

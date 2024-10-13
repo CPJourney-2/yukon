@@ -1,0 +1,813 @@
+{
+    "id": "2dbe5481-668c-4536-8b9d-39403ededa73",
+    "sceneType": "SCENE",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/party7/fair-party7-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Party7",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "996d1ca9-33be-419d-890a-1c99bab584d3",
+            "label": "bg",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "bg"
+            },
+            "x": 749,
+            "y": 511
+        },
+        {
+            "type": "Image",
+            "id": "2c45fa1e-c1e3-4e04-8178-b51d5166d4dc",
+            "label": "barrel2",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "barrel2"
+            },
+            "x": 1341,
+            "y": 477
+        },
+        {
+            "type": "Container",
+            "id": "ff18cef7-e780-4630-a76c-6f9cf3d27aa6",
+            "label": "windmill",
+            "x": 487,
+            "y": 225,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "52d96d58-ede7-41f4-8d5b-d77b01a533ed",
+                    "label": "windmill_support",
+                    "texture": {
+                        "key": "fair-party7",
+                        "frame": "targets/windmill/windmill_support"
+                    },
+                    "y": 124
+                },
+                {
+                    "type": "Container",
+                    "id": "b6fb42af-1929-409f-a58c-5fdb1fb6a439",
+                    "label": "windmill_target_container",
+                    "scope": "CLASS",
+                    "x": 60,
+                    "y": 6,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "166e551c-136b-4c6f-90c8-65ba7d2721fe",
+                            "label": "windmill_base",
+                            "texture": {
+                                "key": "fair-party7",
+                                "frame": "targets/windmill/windmill"
+                            },
+                            "x": 3,
+                            "y": 2
+                        },
+                        {
+                            "type": "Image",
+                            "id": "61bf6adb-4731-4404-90a8-95b238652698",
+                            "label": "windmill_target",
+                            "texture": {
+                                "key": "fair-party7",
+                                "frame": "target"
+                            },
+                            "x": -76,
+                            "y": 111
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "423e1671-1992-43ca-bac6-b492299c0197",
+                            "label": "windmillHitbox",
+                            "scope": "CLASS",
+                            "x": -76,
+                            "y": 111,
+                            "isFilled": true,
+                            "fillColor": "#13b6a7",
+                            "fillAlpha": 0,
+                            "width": 70,
+                            "height": 70
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "398c93ca-ad8a-4b98-9be9-58dda6fd4480",
+                    "label": "windmill_button",
+                    "texture": {
+                        "key": "fair-party7",
+                        "frame": "targets/windmill/windmill_button"
+                    },
+                    "x": 60,
+                    "y": 5.5
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "1bf73c36-a283-42f4-b014-6b40d8f77f88",
+            "label": "cactus1",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "cactus1"
+            },
+            "x": 1345,
+            "y": 328
+        },
+        {
+            "type": "Sprite",
+            "id": "b2e43a1b-f8fa-469b-a0bb-9a64a23ece34",
+            "label": "targetWaterTower",
+            "scope": "CLASS",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "targets/targetWaterTower/targetWaterTower0001"
+            },
+            "x": 349,
+            "y": -20,
+            "animationKey": "targetWaterTower"
+        },
+        {
+            "type": "Rectangle",
+            "id": "5732920c-03e6-4ecb-8b82-ab0a8ce1e09e",
+            "label": "targetWaterTowerHitbox",
+            "scope": "CLASS",
+            "x": 366,
+            "y": 234,
+            "isFilled": true,
+            "fillColor": "#48edec",
+            "fillAlpha": 0,
+            "width": 50,
+            "height": 50
+        },
+        {
+            "type": "Image",
+            "id": "8932be52-5c1e-452b-8d87-8b363178aeb9",
+            "label": "water_tower",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "water_tower"
+            },
+            "x": 428,
+            "y": 407
+        },
+        {
+            "type": "Image",
+            "id": "10629a92-ee6d-4d19-9f95-b4aefa024758",
+            "label": "cave_bottom",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "cave_bottom"
+            },
+            "x": 370,
+            "y": 505
+        },
+        {
+            "type": "Image",
+            "id": "cf83a428-db43-41dd-bb48-236535e8b0fd",
+            "label": "rails",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "rails"
+            },
+            "x": 431,
+            "y": 622
+        },
+        {
+            "type": "Sprite",
+            "id": "8da9853f-d136-417d-90f5-3be288d03636",
+            "label": "cactusB",
+            "scope": "CLASS",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "targets/cactusB/cactusB0001"
+            },
+            "x": 548,
+            "y": 150,
+            "animationKey": "cactusB"
+        },
+        {
+            "type": "Rectangle",
+            "id": "9ade9b35-7544-4864-8268-c39da2e33ece",
+            "label": "cactusBHitbox",
+            "scope": "CLASS",
+            "x": 530,
+            "y": 455,
+            "isFilled": true,
+            "fillColor": "#48edec",
+            "fillAlpha": 0,
+            "width": 50,
+            "height": 50
+        },
+        {
+            "type": "Image",
+            "id": "3c5594a1-613a-4808-8d7a-768f4a9515b8",
+            "label": "cactus_2",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "cactus1"
+            },
+            "x": 605,
+            "y": 460,
+            "scaleX": -1
+        },
+        {
+            "type": "Container",
+            "id": "07cdf055-42d3-4315-b69f-932bc56b2b0c",
+            "label": "cart_container",
+            "scope": "CLASS",
+            "x": 128,
+            "y": 190,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "96e457c2-5832-4d05-a081-988c049ce771",
+                    "label": "cart",
+                    "texture": {
+                        "key": "fair-party7",
+                        "frame": "targets/cart/cart"
+                    },
+                    "x": 176,
+                    "y": 363
+                },
+                {
+                    "type": "Sprite",
+                    "id": "5c35474b-4ebb-48a8-9be1-edd7733b17c0",
+                    "label": "cartTarget",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "fair-party7",
+                        "frame": "targets/cart/cartTarget0001"
+                    },
+                    "animationKey": "cartTarget"
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "1baa1fcc-eb89-4430-af98-77405e82c330",
+                    "label": "cartHitbox",
+                    "scope": "CLASS",
+                    "x": -8,
+                    "y": 259,
+                    "isFilled": true,
+                    "fillColor": "#48edec",
+                    "fillAlpha": 0,
+                    "width": 50,
+                    "height": 50
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "a5f7ad67-d58e-4a51-a090-09b8ee6f3c14",
+            "label": "cave",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "cave"
+            },
+            "x": 209,
+            "y": 419
+        },
+        {
+            "type": "Sprite",
+            "id": "a12025dd-eaf0-4d84-99cc-12a6f01a4261",
+            "label": "cactusA",
+            "scope": "CLASS",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "targets/cactusA/cactusA0001"
+            },
+            "x": 263,
+            "y": 66,
+            "animationKey": "cactusA"
+        },
+        {
+            "type": "Rectangle",
+            "id": "cb0b87e5-b7b6-4a93-80d3-7f83e78209d3",
+            "label": "cactusAHitbox",
+            "scope": "CLASS",
+            "x": 278,
+            "y": 305,
+            "isFilled": true,
+            "fillColor": "#48edec",
+            "fillAlpha": 0,
+            "width": 50,
+            "height": 50
+        },
+        {
+            "type": "Image",
+            "id": "d6a402d3-58dd-4257-9754-883beedb0478",
+            "label": "cactus",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "cactus"
+            },
+            "x": 192,
+            "y": 306
+        },
+        {
+            "type": "Container",
+            "id": "758a1577-7870-44e4-8dbe-2a0b601b27e0",
+            "label": "puffle_house",
+            "x": 800,
+            "y": 201,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "3b625fb3-1005-4ccd-a936-c3717791c3f9",
+                    "label": "puffle_bg",
+                    "texture": {
+                        "key": "fair-party7",
+                        "frame": "puffle_bg"
+                    },
+                    "x": 195,
+                    "y": 338
+                },
+                {
+                    "type": "Sprite",
+                    "id": "b91e5e0a-4e44-4ff3-8f5e-b08de3287485",
+                    "label": "targetBottomWindowB",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "fair-party7",
+                        "frame": "targets/targetBottomWindowB/targetBottomWindowB0001"
+                    },
+                    "x": 322,
+                    "y": 1,
+                    "animationKey": "targetBottomWindowB"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "5ec822a1-71cc-4b1e-9a98-3ea373d129aa",
+                    "label": "targetBottomWindowA",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "fair-party7",
+                        "frame": "targets/targetBottomWindowA/targetBottomWindowA0001"
+                    },
+                    "x": 38,
+                    "y": 1,
+                    "animationKey": "targetBottomWindowA"
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "14fc3d5c-5745-48e7-a442-91aac91a3243",
+                    "label": "targetBottomWindowBHitbox",
+                    "scope": "CLASS",
+                    "x": 332,
+                    "y": 259,
+                    "isFilled": true,
+                    "fillColor": "#39dfe7",
+                    "fillAlpha": 0,
+                    "width": 50,
+                    "height": 50
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "d688081b-d1f8-47aa-ba20-3e64dc4be4ba",
+                    "label": "targetBottomWindowAHitbox",
+                    "scope": "CLASS",
+                    "x": 26,
+                    "y": 259,
+                    "isFilled": true,
+                    "fillColor": "#39dfe7",
+                    "fillAlpha": 0,
+                    "width": 50,
+                    "height": 50
+                },
+                {
+                    "type": "Image",
+                    "id": "e7716f39-15fd-4e61-b132-e30a2aaf42ca",
+                    "label": "windows_bg",
+                    "texture": {
+                        "key": "fair-party7",
+                        "frame": "windows_bg"
+                    },
+                    "x": 187,
+                    "y": 249
+                },
+                {
+                    "type": "Image",
+                    "id": "6d8e255f-a523-4920-933f-1ab6a9ecbe18",
+                    "label": "windows",
+                    "texture": {
+                        "key": "fair-party7",
+                        "frame": "windows"
+                    },
+                    "x": 189,
+                    "y": 250
+                },
+                {
+                    "type": "Container",
+                    "id": "c07bb166-b7bb-4987-9c96-c4615b37cae1",
+                    "label": "swing_door",
+                    "x": 194,
+                    "y": 287,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ce5734c6-9f52-4df6-a80d-cbd073a75b0a",
+                            "label": "swingDoor_open",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "fair-party7",
+                                "frame": "swingDoor_open"
+                            },
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "04e9b10b-2c5a-4e43-badb-2f527aa5f887",
+                            "label": "swingDoor",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "fair-party7",
+                                "frame": "swingDoor"
+                            },
+                            "x": 2,
+                            "y": 5
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "c2e8dbb5-95e1-48f3-9f96-5ad3fce0635c",
+                            "label": "herbertTarget",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "fair-party7",
+                                "frame": "targets/herbertTarget/herbertTarget0001"
+                            },
+                            "x": -12,
+                            "y": -280,
+                            "animationKey": "herbertTarget"
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "42bfc545-96fd-4023-b42c-dce4cc5f055f",
+                            "label": "herbertHitbox",
+                            "scope": "CLASS",
+                            "x": -11,
+                            "y": 20,
+                            "isFilled": true,
+                            "fillColor": "#39dfe7",
+                            "fillAlpha": 0,
+                            "width": 50,
+                            "height": 50
+                        }
+                    ]
+                },
+                {
+                    "type": "Sprite",
+                    "id": "c7f70684-6267-43cf-a5db-7baba7a832af",
+                    "label": "scrollCrab",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "fair-party7",
+                        "frame": "targets/scrollCrab/scrollCrab0001"
+                    },
+                    "x": 196,
+                    "y": 37,
+                    "animationPlayMethod": 1,
+                    "animationKey": "scrollCrab",
+                    "animationCustomConfig": true,
+                    "animationRepeat": -1,
+                    "animationRepeatDelay": 4500
+                },
+                {
+                    "type": "Image",
+                    "id": "9d21887b-1423-4ec7-9d84-445ac056df2b",
+                    "label": "wood",
+                    "texture": {
+                        "key": "fair-party7",
+                        "frame": "wood"
+                    },
+                    "x": 180,
+                    "y": 305
+                },
+                {
+                    "type": "Image",
+                    "id": "71c82003-af18-4b31-a727-e80ab1179dc1",
+                    "label": "puffle_bg1",
+                    "texture": {
+                        "key": "fair-party7",
+                        "frame": "puffle_bg1"
+                    },
+                    "x": 193,
+                    "y": 2
+                },
+                {
+                    "type": "Container",
+                    "id": "3665368b-af17-40d5-a364-942b836d00b3",
+                    "label": "window_right",
+                    "x": 386,
+                    "y": 28,
+                    "scaleX": -1,
+                    "list": [
+                        {
+                            "type": "Container",
+                            "id": "0206de4f-5920-4a65-a84e-9fa1a12ef138",
+                            "label": "window_open_1",
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "05278540-bc56-49b3-93fb-04d87a819a43",
+                                    "label": "window_open_bg_1",
+                                    "texture": {
+                                        "key": "fair-party7",
+                                        "frame": "window_open_bg"
+                                    },
+                                    "x": 6
+                                },
+                                {
+                                    "type": "Sprite",
+                                    "id": "d98eb5f6-50d3-47d5-89f2-cb7aa1ce79db",
+                                    "label": "cardTarget_1",
+                                    "scope": "CLASS",
+                                    "texture": {
+                                        "key": "fair-party7",
+                                        "frame": "targets/cardTarget/cardTarget0001"
+                                    },
+                                    "x": -22,
+                                    "y": -293,
+                                    "animationKey": "cardTarget"
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "d13ee6db-b22e-4d4c-ab8d-36b844566718",
+                                    "label": "window_open_wood_1",
+                                    "texture": {
+                                        "key": "fair-party7",
+                                        "frame": "window_open_wood"
+                                    },
+                                    "x": 11,
+                                    "y": 59
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "e5bdb1dc-88fc-4fff-95a6-249a4f33be5f",
+                                    "label": "windows_open_1",
+                                    "texture": {
+                                        "key": "fair-party7",
+                                        "frame": "window_open"
+                                    },
+                                    "y": 8
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "5a97ba19-a6b3-450c-9117-640b61324f63",
+                                    "label": "windowRightHitbox",
+                                    "scope": "CLASS",
+                                    "x": -8,
+                                    "y": -30,
+                                    "isFilled": true,
+                                    "fillColor": "#39dfe7",
+                                    "fillAlpha": 0,
+                                    "width": 50,
+                                    "height": 50
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8f1550b1-1d4a-4e01-a7eb-f736060ee5de",
+                            "label": "window_closed_1",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "fair-party7",
+                                "frame": "window_closed"
+                            },
+                            "x": 9,
+                            "y": 17
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "874dd009-c841-47ba-95d0-a95bb16227d6",
+                    "label": "window_left",
+                    "y": 30,
+                    "list": [
+                        {
+                            "type": "Container",
+                            "id": "acd44f09-a1a2-4790-ba2e-e62dca549313",
+                            "label": "window_open",
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "6c9a27d5-84cc-42bf-803b-7e1dbc264284",
+                                    "label": "window_open_bg",
+                                    "texture": {
+                                        "key": "fair-party7",
+                                        "frame": "window_open_bg"
+                                    },
+                                    "x": 6
+                                },
+                                {
+                                    "type": "Sprite",
+                                    "id": "1fd02f5d-5edb-4658-b379-3db752b9dd3f",
+                                    "label": "cardTarget",
+                                    "scope": "CLASS",
+                                    "texture": {
+                                        "key": "fair-party7",
+                                        "frame": "targets/cardTarget/cardTarget0001"
+                                    },
+                                    "x": -22,
+                                    "y": -293,
+                                    "animationKey": "cardTarget"
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "37c0bd93-7bd0-463d-9fe8-8b2d33204574",
+                                    "label": "window_open_wood",
+                                    "texture": {
+                                        "key": "fair-party7",
+                                        "frame": "window_open_wood"
+                                    },
+                                    "x": 11,
+                                    "y": 59
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "0933300e-6754-4b3a-a822-9cf55a36026e",
+                                    "label": "windows_open",
+                                    "texture": {
+                                        "key": "fair-party7",
+                                        "frame": "window_open"
+                                    },
+                                    "y": 8
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "808a06a7-9a4b-46e7-865a-f988998fd558",
+                                    "label": "windowLeftHitbox",
+                                    "scope": "CLASS",
+                                    "x": -6,
+                                    "y": -41,
+                                    "isFilled": true,
+                                    "fillColor": "#39dfe7",
+                                    "fillAlpha": 0,
+                                    "width": 50,
+                                    "height": 50
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9755a2ac-3358-41cb-975f-7e7b5d05e03d",
+                            "label": "window_closed",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "fair-party7",
+                                "frame": "window_closed"
+                            },
+                            "x": 9,
+                            "y": 17
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "27c17c5e-8f10-463a-af9e-69ead0d02746",
+                    "label": "puffle_roof",
+                    "texture": {
+                        "key": "fair-party7",
+                        "frame": "puffle_roof"
+                    },
+                    "x": 195,
+                    "y": 79
+                }
+            ]
+        },
+        {
+            "type": "Sprite",
+            "id": "33abafbf-ab08-4bff-a3f5-11b9283d9ba4",
+            "label": "targetBarrelB",
+            "scope": "CLASS",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "targets/targetBarrelB/targetBarrelB0001"
+            },
+            "x": 1391,
+            "y": 186,
+            "animationKey": "targetBarrelB"
+        },
+        {
+            "type": "Rectangle",
+            "id": "2a2acd34-1310-4fef-a90d-4bfdf4d1738a",
+            "label": "targetBarrelBHitbox",
+            "scope": "CLASS",
+            "x": 1374,
+            "y": 440,
+            "isFilled": true,
+            "fillColor": "#48edec",
+            "fillAlpha": 0,
+            "width": 50,
+            "height": 50
+        },
+        {
+            "type": "Image",
+            "id": "11ee5925-901e-4fc9-8bb0-559d5db78ce6",
+            "label": "barrel1",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "barrel1"
+            },
+            "x": 1304,
+            "y": 627
+        },
+        {
+            "type": "Sprite",
+            "id": "8bffb1d3-26a6-4866-b228-0fd85e069f01",
+            "label": "targetBarrelA",
+            "scope": "CLASS",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "targets/targetBarrelA/targetBarrelA0001"
+            },
+            "x": 210,
+            "y": 201,
+            "animationKey": "targetBarrelA"
+        },
+        {
+            "type": "Rectangle",
+            "id": "fe71e6a6-9f05-4d4b-a451-4f94f954f5f2",
+            "label": "targetBarrelAHitbox",
+            "scope": "CLASS",
+            "x": 213,
+            "y": 458,
+            "isFilled": true,
+            "fillColor": "#48edec",
+            "fillAlpha": 0,
+            "width": 50,
+            "height": 50
+        },
+        {
+            "type": "Image",
+            "id": "500524ad-56af-4d20-8065-c02c55fe5984",
+            "label": "barrel",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "barrel"
+            },
+            "x": 191,
+            "y": 629
+        },
+        {
+            "type": "Image",
+            "id": "acc6eb3c-9dc4-4014-8ea6-f5191f24e5b2",
+            "label": "rock",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "rock"
+            },
+            "x": 136,
+            "y": 389
+        },
+        {
+            "type": "Image",
+            "id": "dd053030-e664-408e-bee3-326b60de8c77",
+            "label": "fg",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "fg"
+            },
+            "x": 759,
+            "y": 414
+        },
+        {
+            "type": "Image",
+            "id": "d109d1f2-9369-4284-a20a-35e92c46350d",
+            "label": "snowballs",
+            "texture": {
+                "key": "fair-party7",
+                "frame": "snowballs"
+            },
+            "x": 758,
+            "y": 801
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "e06c6459-7caa-45a5-b4d0-45b8e8fe3db2",
+            "label": "sort",
+            "objectIds": [
+                "d3ecedae-4268-4173-b03e-bb9ab9342508",
+                "d109d1f2-9369-4284-a20a-35e92c46350d"
+            ]
+        }
+    ]
+}

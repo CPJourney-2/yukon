@@ -1,0 +1,128 @@
+{
+    "id": "12aaafd9-8545-49c7-bf0d-8b410c5b4a28",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "7de8de23-c014-480d-86d7-bb0b6b916a3c",
+            "label": "container_4",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "93ebc834-4a1f-4b50-a68b-b3d5588e7a70",
+                    "label": "cottonstand",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "cottonstand"
+                    },
+                    "x": 77,
+                    "y": 113
+                },
+                {
+                    "type": "Image",
+                    "id": "7c1ab141-79cf-4c17-a6d1-20320578a38c",
+                    "label": "shelf_1",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "shelf"
+                    },
+                    "x": 80,
+                    "y": 171
+                },
+                {
+                    "type": "Image",
+                    "id": "c4dc9047-72f6-408b-b381-4f9f987c6a87",
+                    "label": "cottoncandy10001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "cottoncandy1",
+                    "Button.callback": "() => this.interface.prompt.showItem(350)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "cottoncandy10001"
+                    },
+                    "x": 5
+                },
+                {
+                    "type": "Image",
+                    "id": "77fc5f42-6809-4ebf-9a66-d785fb8288bc",
+                    "label": "cottoncandy20001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "cottoncandy2",
+                    "Button.callback": "() => this.interface.prompt.showItem(5004)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "cottoncandy20001"
+                    },
+                    "x": 149
+                },
+                {
+                    "type": "Image",
+                    "id": "c12fb3d1-b695-42f6-bab1-c287c9cda892",
+                    "label": "ticketsign",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketsign1"
+                    },
+                    "x": 88,
+                    "y": 187
+                },
+                {
+                    "type": "Image",
+                    "id": "4f0c2dfe-d65e-49cf-9146-93b3ba3443ed",
+                    "label": "ticketicon_1",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketicon"
+                    },
+                    "x": 140,
+                    "y": 188
+                },
+                {
+                    "type": "Text",
+                    "id": "e5b8f06c-2d64-4024-87fa-965b10e14ca3",
+                    "label": "text",
+                    "x": 80,
+                    "y": 184,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "100",
+                    "fixedWidth": 150,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "50px",
+                    "fontStyle": "bold italic",
+                    "shadow.offsetX": 3,
+                    "shadow.offsetY": 3,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#00000097"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

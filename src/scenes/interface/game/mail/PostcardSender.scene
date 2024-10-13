@@ -1,0 +1,149 @@
+{
+    "id": "f902fa24-3f41-47f9-a9cb-1a01e9555453",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "b01e15cd-0899-4153-890b-001f46275e73",
+            "label": "sendConfirmation",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "69cda94b-7407-4d11-a489-8bd7913cd986",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "alpha": 0.1,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "7ba13fd5-ab5a-4f0f-951c-d52fbf5020ea",
+                    "label": "bg_1",
+                    "texture": {
+                        "key": "mail-book-sendpopup",
+                        "frame": "bg"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "3900419d-c9aa-4721-ba75-e8e925134053",
+                    "label": "impostorcard",
+                    "texture": {
+                        "key": "mail-book-sendpopup",
+                        "frame": "impostorcard"
+                    },
+                    "y": -60,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "74ef4d6e-e4a7-4743-aff8-caf2e4783709",
+                    "label": "yesbtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.onYes()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "mail-book-sendpopup",
+                        "frame": "sendbtn"
+                    },
+                    "x": -167,
+                    "y": 389
+                },
+                {
+                    "type": "Image",
+                    "id": "e45e1e9a-ce51-41aa-8bda-38c86c219a7c",
+                    "label": "nobtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.onNo()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "mail-book-sendpopup",
+                        "frame": "sendbtn"
+                    },
+                    "x": 167,
+                    "y": 389
+                },
+                {
+                    "type": "Image",
+                    "id": "83908375-fb36-4ec0-be16-071646bd9c1e",
+                    "label": "yesno",
+                    "texture": {
+                        "key": "mail-book-sendpopup",
+                        "frame": "yesno"
+                    },
+                    "y": 389
+                },
+                {
+                    "type": "Text",
+                    "id": "bb786509-4675-46d2-bc66-0eb0e60f3af5",
+                    "label": "usernameText",
+                    "scope": "CLASS",
+                    "x": -509,
+                    "y": 298,
+                    "text": "Send this postcard to misabr from cpmisabr for 10 coins?",
+                    "fixedWidth": 1020,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "32px",
+                    "color": "#000"
+                },
+                {
+                    "prefabId": "d755a6c6-b827-4dde-9370-7d901b5db69c",
+                    "id": "f7b11a53-8ccb-41ab-a4a3-7a75d355c7a9",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "cardHolder",
+                    "scope": "CLASS",
+                    "x": -483,
+                    "y": -418
+                },
+                {
+                    "type": "Image",
+                    "id": "4a85da85-a885-4e5c-99d9-531ab1cac6c6",
+                    "label": "closebtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.onNo()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "stampbook-inside",
+                        "frame": "closebtn"
+                    },
+                    "x": 474,
+                    "y": -399
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

@@ -1,0 +1,256 @@
+{
+    "id": "9dd834b3-e12d-47df-b7c5-49da4087ec53",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 159,
+        "snapHeight": 31,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c2df2194-bb4a-4b41-8d90-aa5a6f01b553",
+            "label": "container_1",
+            "y": -6,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "121c6ff1-60c5-40f3-b457-63e4de03ffc7",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "scaleX": 1.0472659596877991,
+                    "scaleY": 1.103238452765252,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "fillAlpha": 0.3,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "9bd05616-54d1-4f9a-a3ef-85b10fe5fd95",
+                    "label": "tourbot_bg",
+                    "texture": {
+                        "key": "tourbot",
+                        "frame": "tourbot-bg"
+                    },
+                    "x": 1155,
+                    "y": 684
+                },
+                {
+                    "type": "Image",
+                    "id": "db128da2-8e84-470b-b5bb-34d37e38d47a",
+                    "label": "tourbot_bubble",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "tourbot",
+                        "frame": "tourbot-bubble"
+                    },
+                    "x": 717,
+                    "y": 256
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "c83fd613-ffd7-4b85-afd4-bd1332974edb",
+                    "label": "dialoguenext_btn",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onOptionClick(0)}",
+                    "x": 772,
+                    "y": 485,
+                    "scaleX": 11.858639913213567,
+                    "scaleY": -7.100577136311277,
+                    "visible": false,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "2685e274-a7bb-47a2-bc14-3d8902de308a",
+                    "label": "tourbot_optionbg",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "tourbot",
+                        "frame": "tourbot-optionbg"
+                    },
+                    "x": 504,
+                    "y": 805
+                },
+                {
+                    "type": "Image",
+                    "id": "d3543da5-a4e3-4711-97b3-04a43c859db2",
+                    "label": "option1_btn",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "tourbot-option",
+                    "Button.callback": "() => {this.onOptionClick(1)}",
+                    "texture": {
+                        "key": "tourbot",
+                        "frame": "tourbot-option"
+                    },
+                    "x": 503,
+                    "y": 718
+                },
+                {
+                    "type": "Image",
+                    "id": "3c64da03-e783-474c-bf8d-1ae6483908be",
+                    "label": "option2_btn",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "tourbot-option",
+                    "Button.callback": "() => {this.onOptionClick(2)}",
+                    "texture": {
+                        "key": "tourbot",
+                        "frame": "tourbot-option"
+                    },
+                    "x": 503,
+                    "y": 776
+                },
+                {
+                    "type": "Image",
+                    "id": "e7800326-004c-4e81-9f0f-a7dc637b29b3",
+                    "label": "option3_btn",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "tourbot-option",
+                    "Button.callback": "() => {this.onOptionClick(3)}",
+                    "texture": {
+                        "key": "tourbot",
+                        "frame": "tourbot-option"
+                    },
+                    "x": 503,
+                    "y": 833.572509765625
+                },
+                {
+                    "type": "Image",
+                    "id": "50ae025d-cf13-455d-915b-a67dd46fdb6b",
+                    "label": "option4_btn",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "tourbot-option",
+                    "Button.callback": "() => {this.onOptionClick(4)}",
+                    "texture": {
+                        "key": "tourbot",
+                        "frame": "tourbot-option"
+                    },
+                    "x": 503,
+                    "y": 891.4552001953125
+                },
+                {
+                    "type": "Text",
+                    "id": "64ee025f-25f3-4b0c-ac67-45d7ae2666cf",
+                    "label": "option1_txt",
+                    "scope": "CLASS",
+                    "x": 72,
+                    "y": 701,
+                    "text": "Hi there tour bot",
+                    "fixedWidth": 840,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "33px",
+                    "fontStyle": "bold",
+                    "color": "#000 "
+                },
+                {
+                    "type": "Text",
+                    "id": "bef9cc57-4309-423d-a0c8-3801c44952bc",
+                    "label": "tourbot_dialogue",
+                    "scope": "CLASS",
+                    "x": 717,
+                    "y": 208,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "This example text\nI have put it on four lines\nNot a good haiku\nExcept its not a haiku, just a strange poem",
+                    "align": "center",
+                    "fontFamily": "CCComicrazy",
+                    "fontSize": "50px",
+                    "color": "#000 "
+                },
+                {
+                    "type": "Text",
+                    "id": "35362981-3333-401a-892d-480cca60228b",
+                    "label": "option2_txt",
+                    "scope": "CLASS",
+                    "x": 72,
+                    "y": 758,
+                    "text": "Hi there tour bot",
+                    "fixedWidth": 840,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "33px",
+                    "fontStyle": "bold",
+                    "color": "#000 "
+                },
+                {
+                    "type": "Text",
+                    "id": "8ce294c3-3991-4abc-a1bd-fe96dfd1ca9c",
+                    "label": "option3_txt",
+                    "scope": "CLASS",
+                    "x": 72,
+                    "y": 816,
+                    "text": "Hi there tour bot",
+                    "fixedWidth": 840,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "33px",
+                    "fontStyle": "bold",
+                    "color": "#000 "
+                },
+                {
+                    "type": "Text",
+                    "id": "8e8c9c40-5267-4baa-a2c5-e74f2b06cb07",
+                    "label": "option4_txt",
+                    "scope": "CLASS",
+                    "x": 72,
+                    "y": 872.000020980835,
+                    "text": "Hi there tour bot",
+                    "fixedWidth": 840,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "33px",
+                    "fontStyle": "bold",
+                    "color": "#000 "
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1029921f-26d0-4b4f-8a57-2e9fcf458660",
+            "label": "pages"
+        },
+        {
+            "id": "9d8bcf41-ac21-4876-9418-5e1ae7226ded",
+            "label": "questions"
+        }
+    ]
+}

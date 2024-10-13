@@ -1,0 +1,701 @@
+{
+    "id": "2393520b-41e7-4a9c-b5c6-eda6502ba5fc",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/stage/normanswarm/underground/normanswarm-underground-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Underground",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "3c6cd3a7-2a50-4eec-94ee-e6e12b399b6a",
+            "label": "bg_bg",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "bg/bg"
+            },
+            "x": 718,
+            "y": 470
+        },
+        {
+            "type": "Image",
+            "id": "585b1de1-f3a7-406a-a8a2-4689d0c15e4a",
+            "label": "doorwayleft",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "doorwayleft"
+            },
+            "x": 136,
+            "y": 405
+        },
+        {
+            "type": "Image",
+            "id": "0db94c62-bcfd-4643-81e5-c54dbe3f2874",
+            "label": "rocksleft",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "rocksleft"
+            },
+            "x": 262,
+            "y": 357
+        },
+        {
+            "type": "Sprite",
+            "id": "ccae0365-6b19-4f9f-8820-099e2f338f16",
+            "label": "bg_ripple10001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bg/ripple1",
+            "Animation.end": 30,
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "bg/ripple10001"
+            },
+            "x": 1040,
+            "y": 538,
+            "scaleX": 1.508071921520389,
+            "scaleY": 1.4646954230206932
+        },
+        {
+            "type": "Sprite",
+            "id": "a9b0eced-f23e-41c1-8734-de407b4f7c83",
+            "label": "bg_ripple20001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bg/ripple2",
+            "Animation.end": 30,
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "bg/ripple20001"
+            },
+            "x": 592,
+            "y": 678,
+            "scaleX": 1.4337659753637542,
+            "scaleY": 1.840046827603036
+        },
+        {
+            "type": "Sprite",
+            "id": "13e1c98c-b978-44ba-abab-054a9f679a13",
+            "label": "bg_ripple30001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bg/ripple3",
+            "Animation.end": 30,
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "bg/ripple30001"
+            },
+            "x": 322,
+            "y": 813,
+            "scaleX": 1.4293207141299724,
+            "scaleY": 1.9735489429730566
+        },
+        {
+            "type": "Sprite",
+            "id": "13b3ff11-20e1-4d79-9081-f743a68da6c7",
+            "label": "bg_ripple40001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bg/ripple4",
+            "Animation.end": 30,
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "bg/ripple40001"
+            },
+            "x": 267,
+            "y": 849,
+            "scaleX": 1.3601697138943698,
+            "scaleY": 1.6875619805740185
+        },
+        {
+            "type": "Sprite",
+            "id": "90e38732-c2e1-49d5-aa8f-bed584213662",
+            "label": "crystals2_anim0001",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "crystals2/anim0001"
+            },
+            "x": 604.3908425512183,
+            "y": 367.4618955109947,
+            "originX": 0.5363065848730144,
+            "originY": 0.6857997238693787
+        },
+        {
+            "type": "Image",
+            "id": "b2eb4ea5-a969-4a6f-b38e-b579832e62a5",
+            "label": "prepepepeppepe",
+            "texture": {
+                "key": "prepepepeppepe"
+            },
+            "x": 760,
+            "y": 480,
+            "visible": false,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Sprite",
+            "id": "8b2640c5-f58a-4983-b93b-1610341e26a4",
+            "label": "crystals2_shine10001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "crystals2/shine",
+            "Animation.end": 52,
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "crystals2/shine10001"
+            },
+            "x": 643,
+            "y": 394.74714375009125,
+            "originY": 1.2002344904929174
+        },
+        {
+            "type": "Sprite",
+            "id": "c2a43a90-c054-44b1-849f-4f0e76c242a0",
+            "label": "bg_waterfall0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bg/waterfall",
+            "Animation.end": 30,
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "bg/waterfall0001"
+            },
+            "x": 739,
+            "y": 158,
+            "scaleX": 0.956617705507833
+        },
+        {
+            "type": "Sprite",
+            "id": "da9b6ad9-2c31-4425-968d-286f4a526240",
+            "label": "bg_ripple50001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bg/ripple5",
+            "Animation.end": 30,
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "bg/ripple50001"
+            },
+            "x": 326,
+            "y": 887,
+            "scaleX": 1.2225444922435371,
+            "scaleY": 1.456587083904986
+        },
+        {
+            "type": "Image",
+            "id": "f429cef7-f092-42f0-b555-c869a1bb5fff",
+            "label": "roots",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "roots"
+            },
+            "x": 726.0154418945312,
+            "y": 433.191220024855,
+            "originX": 0.7493136528360147,
+            "originY": 0.7716771132027204
+        },
+        {
+            "type": "Image",
+            "id": "c020454e-3d6f-47e3-a1f0-53d4e85b90a4",
+            "label": "mushroomshadows",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "mushroomshadows"
+            },
+            "x": 146,
+            "y": 203
+        },
+        {
+            "type": "Image",
+            "id": "6d540dbd-f9a1-46d2-8a21-21a9a6840018",
+            "label": "rocksright",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "rocksright"
+            },
+            "x": 1426,
+            "y": 573
+        },
+        {
+            "type": "Sprite",
+            "id": "95c9ea86-f202-4ab7-8e79-784578a53c60",
+            "label": "mailbox",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton",
+                "Animation"
+            ],
+            "SimpleButton.callback": "() => this.onMailbox()",
+            "SimpleButton.pixelPerfect": true,
+            "Animation.key": "mailbox",
+            "Animation.end": 18,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "mailbox0001"
+            },
+            "x": 404.40308977847485,
+            "y": 588.8194714341041,
+            "originX": 0.2815100905414338,
+            "originY": 0.9066275621418702
+        },
+        {
+            "type": "Image",
+            "id": "768c8e88-bff6-40ba-908d-4d4b1ff9c5e3",
+            "label": "flowers2",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "flowers2"
+            },
+            "x": 1369.9910454854282,
+            "y": 931.5941323608688,
+            "originX": 0.4805546149633224,
+            "originY": 0.7510921088054116
+        },
+        {
+            "type": "Image",
+            "id": "69284c72-e40f-4ddd-b815-2a746c03e1a9",
+            "label": "costumebtn",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "costumebtn",
+            "Button.callback": "() => this.interface.loadWidget(\"NormanSwarmCatalog\")",
+            "texture": {
+                "key": "stage-basic",
+                "frame": "costumebtn"
+            },
+            "x": 1431,
+            "y": 1005,
+            "originX": 0.5238205532906157,
+            "originY": 1.5775175497198353
+        },
+        {
+            "type": "Image",
+            "id": "1a5d3f4d-a063-4863-88db-28fc64364fa6",
+            "label": "scriptbtn",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "scriptbtn",
+            "Button.callback": "() => this.interface.loadWidget('StageScript',true)",
+            "texture": {
+                "key": "stage-basic",
+                "frame": "scriptbtn"
+            },
+            "x": 1438,
+            "y": 994,
+            "originX": 0.5600749118702879,
+            "originY": 2.1517673137045117
+        },
+        {
+            "type": "Image",
+            "id": "47ccde82-48c8-43b9-8eda-5b71282cbc78",
+            "label": "mushroom1",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "mushroom1"
+            },
+            "x": 18.053093618412404,
+            "y": 338.4602850660403,
+            "originX": 0.5070677424054524,
+            "originY": 0.1680465768047857
+        },
+        {
+            "type": "Image",
+            "id": "72235807-fb0e-4cfc-b223-6d5af7d6819d",
+            "label": "mushroom2",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "mushroom2"
+            },
+            "x": 89.23376529424372,
+            "y": 227.1808218548448,
+            "originX": 0.5759861198400231,
+            "originY": 0.14103940056541026
+        },
+        {
+            "type": "Image",
+            "id": "876b55ac-3183-4565-ad58-7d7d58684ae4",
+            "label": "mushroom3",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "mushroom3"
+            },
+            "x": 140.52847095030384,
+            "y": 144.82717506757265,
+            "originX": 0.5505266506731802,
+            "originY": 0.18290407682144189
+        },
+        {
+            "type": "Image",
+            "id": "52cef751-79d7-4fc1-ade1-1a7d07a1e896",
+            "label": "mushroom4",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "mushroom4"
+            },
+            "x": 207.88446548309525,
+            "y": 57.346603550714136,
+            "originX": 0.5613941955471756,
+            "originY": 0.1942948819661251
+        },
+        {
+            "type": "Image",
+            "id": "b079e71c-232b-4a17-8614-b4a0cbf07583",
+            "label": "mushroom5",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "mushroom5"
+            },
+            "x": 279.36492483783644,
+            "y": -12.3082319730341,
+            "originX": 0.4957377505895063,
+            "originY": 0.20317139159745543
+        },
+        {
+            "type": "Image",
+            "id": "7c4bf945-0d4f-429e-8cdf-f9f24d0951e2",
+            "label": "flowers1",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "flowers1"
+            },
+            "x": -17.692128342501235,
+            "y": 963.2863536354915,
+            "originX": 0.4159253551185539,
+            "originY": 0.9665560635834168
+        },
+        {
+            "type": "Sprite",
+            "id": "5274004f-cd46-46dc-b3be-320cf8a2d4d2",
+            "label": "crystals1_anim0001",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "crystals1/anim0001"
+            },
+            "x": 3.1704301297293966,
+            "y": 990.2895163621588,
+            "originX": 0.5083432371834984,
+            "originY": 0.6040297386317462
+        },
+        {
+            "type": "Sprite",
+            "id": "fdd3547b-3121-4b61-a988-22a12337c1d7",
+            "label": "crystals1_shine0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "crystals1/shine",
+            "Animation.end": 52,
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "crystals1/shine0001"
+            },
+            "x": -23,
+            "y": 1060.5215064864703,
+            "originY": 1.3006136691235877
+        },
+        {
+            "type": "Image",
+            "id": "09ff124b-d04b-4bf0-8969-d6f1e399fa9f",
+            "label": "stone1",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "stone1"
+            },
+            "x": 1038,
+            "y": 522
+        },
+        {
+            "type": "Image",
+            "id": "fce8213f-e179-47e4-a9e5-fae9b7b668f8",
+            "label": "stone2",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "stone2"
+            },
+            "x": 609,
+            "y": 648
+        },
+        {
+            "type": "Image",
+            "id": "3dd931ef-4c53-4fe6-8acd-e9361fcedb81",
+            "label": "stone3",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "stone3"
+            },
+            "x": 348,
+            "y": 797
+        },
+        {
+            "type": "Image",
+            "id": "85ba0589-b8fc-4f44-98ab-82e89d803c76",
+            "label": "stone4",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "stone4"
+            },
+            "x": 294,
+            "y": 841
+        },
+        {
+            "type": "Image",
+            "id": "e6f77be5-e928-42bb-a823-ab8eaa3efb9b",
+            "label": "stone5",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "stone5"
+            },
+            "x": 339,
+            "y": 880
+        },
+        {
+            "type": "Sprite",
+            "id": "2e3163b6-8e84-4da5-9a21-9670a2cdc644",
+            "label": "crystals3_anim0001",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "crystals3/anim0001"
+            },
+            "x": 961.4349891404424,
+            "y": 311.8960870489461,
+            "originX": 0.02929504636210636,
+            "originY": 0.7922077298109114
+        },
+        {
+            "type": "Sprite",
+            "id": "7a82cc1f-189b-4ea2-a913-a8f50c83d498",
+            "label": "crystals3_shine0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "crystals3/shine",
+            "Animation.end": 52,
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "crystals3/shine0001"
+            },
+            "x": 1059.9589165709065,
+            "y": 343.593528384259,
+            "angle": -20,
+            "originX": -0.31701716811858976,
+            "originY": 1.5748198214552263
+        },
+        {
+            "type": "Sprite",
+            "id": "dcf05842-946b-404b-a4f0-cc7bb7463948",
+            "label": "chestGlow",
+            "scope": "CLASS",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "shine0031"
+            },
+            "x": 1117.5313608907038,
+            "y": 380.1288727727417,
+            "scaleX": 2.1749268501447503,
+            "scaleY": 1.4672859704556227,
+            "originX": 0.32782410408201756,
+            "originY": 0.8075639768522248,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "6eabd41c-aec4-44b1-813e-923672919916",
+            "label": "gem2",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "gem2"
+            },
+            "x": 1208.8076665349372,
+            "y": 317.9993299083695,
+            "scaleX": 0.7,
+            "scaleY": 0.7,
+            "originX": 0.5081830450728637,
+            "originY": 0.7173843712834982
+        },
+        {
+            "type": "Image",
+            "id": "9c411a1e-7a87-4ae3-a205-cc8920fb2cdb",
+            "label": "gem1",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "gem1"
+            },
+            "x": 1145,
+            "y": 393,
+            "scaleX": 0.7,
+            "scaleY": 0.7,
+            "originX": 0.6004352167797657,
+            "originY": 0.8513349426977197
+        },
+        {
+            "type": "Sprite",
+            "id": "d5d308a7-da0d-40f6-b3fc-ba2989a586a3",
+            "label": "chest",
+            "scope": "CLASS",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "chest0001"
+            },
+            "x": 1135.1745919005268,
+            "y": 418.406978706858,
+            "originX": 0.28970510797063914,
+            "originY": 0.6918752638851349
+        },
+        {
+            "type": "Sprite",
+            "id": "bc7aea78-d835-4369-81a9-3fc0d0bbf927",
+            "label": "crystals4_anim0001",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "crystals4/anim0001"
+            },
+            "x": 1312.3308627038423,
+            "y": 527.1173384717413,
+            "originX": 0.08508121764169023,
+            "originY": 0.7784916827241914
+        },
+        {
+            "type": "Sprite",
+            "id": "93b7bd27-d4c8-4d59-b0df-05b845ad958b",
+            "label": "crystals4_shine0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "crystals4/shine",
+            "Animation.end": 52,
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "crystals4/shine0001"
+            },
+            "x": 1421.5648566240563,
+            "y": 574.2258693346753,
+            "originX": 0.46395237873528355,
+            "originY": 1.5543929219929535
+        },
+        {
+            "type": "Image",
+            "id": "d8d2b7ca-5869-463a-b0db-4b0368cdb57a",
+            "label": "bg_idk",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "bg/idk"
+            },
+            "x": 723,
+            "y": 213
+        },
+        {
+            "type": "Image",
+            "id": "2451d9db-cfb0-4894-a5d1-0a3517dd0ce2",
+            "label": "lights",
+            "texture": {
+                "key": "normanswarm-underground",
+                "frame": "lights"
+            },
+            "x": 709,
+            "y": 749,
+            "originY": 1.2245701953681243
+        },
+        {
+            "type": "Rectangle",
+            "id": "7a77f5cb-ef56-41ff-9b8b-7b340b588921",
+            "label": "chestTrigger",
+            "scope": "CLASS",
+            "components": [
+                "GlobalTrigger"
+            ],
+            "GlobalTrigger.checkOccupants": "(l) => this.checkChestTrigger(l)",
+            "x": 847,
+            "y": 493,
+            "isFilled": true,
+            "fillColor": "#00ff00",
+            "fillAlpha": 0.5,
+            "width": 220,
+            "height": 100
+        },
+        {
+            "type": "Polygon",
+            "id": "ce2dc8c0-c372-4dfe-be5f-706949025e64",
+            "label": "chestBtn",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "SimpleButton.isPoly": true,
+            "x": 1131.2335449281659,
+            "y": 483.7523547313773,
+            "originX": 0.28082045891511886,
+            "originY": 0.5719635519091576,
+            "points": "231.1166994915045 148.80699689889514 54.91836477203151 60.14668834578464 41.45097613105281 29.845063903582286 113.27704888293988 -8.312537245857698 128.98900229741503 -58.81524464952821 169.39116822035157 -58.81524464952821 316.41016088437027 -6.067972472361191 344.9671275448238 71.82583503106338"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1c8b86e0-85a4-494c-97dd-08cb0b3090b6",
+            "label": "sort",
+            "objectIds": [
+                "69284c72-e40f-4ddd-b815-2a746c03e1a9",
+                "1a5d3f4d-a063-4863-88db-28fc64364fa6",
+                "95c9ea86-f202-4ab7-8e79-784578a53c60",
+                "f429cef7-f092-42f0-b555-c869a1bb5fff",
+                "47ccde82-48c8-43b9-8eda-5b71282cbc78",
+                "52cef751-79d7-4fc1-ade1-1a7d07a1e896",
+                "876b55ac-3183-4565-ad58-7d7d58684ae4",
+                "72235807-fb0e-4cfc-b223-6d5af7d6819d",
+                "768c8e88-bff6-40ba-908d-4d4b1ff9c5e3",
+                "7c4bf945-0d4f-429e-8cdf-f9f24d0951e2",
+                "5274004f-cd46-46dc-b3be-320cf8a2d4d2",
+                "fdd3547b-3121-4b61-a988-22a12337c1d7",
+                "09ff124b-d04b-4bf0-8969-d6f1e399fa9f",
+                "fce8213f-e179-47e4-a9e5-fae9b7b668f8",
+                "3dd931ef-4c53-4fe6-8acd-e9361fcedb81",
+                "85ba0589-b8fc-4f44-98ab-82e89d803c76",
+                "e6f77be5-e928-42bb-a823-ab8eaa3efb9b",
+                "90e38732-c2e1-49d5-aa8f-bed584213662",
+                "8b2640c5-f58a-4983-b93b-1610341e26a4",
+                "2e3163b6-8e84-4da5-9a21-9670a2cdc644",
+                "7a82cc1f-189b-4ea2-a913-a8f50c83d498",
+                "bc7aea78-d835-4369-81a9-3fc0d0bbf927",
+                "d5d308a7-da0d-40f6-b3fc-ba2989a586a3",
+                "93b7bd27-d4c8-4d59-b0df-05b845ad958b",
+                "6d540dbd-f9a1-46d2-8a21-21a9a6840018",
+                "2451d9db-cfb0-4894-a5d1-0a3517dd0ce2",
+                "dcf05842-946b-404b-a4f0-cc7bb7463948",
+                "9c411a1e-7a87-4ae3-a205-cc8920fb2cdb",
+                "6eabd41c-aec4-44b1-813e-923672919916"
+            ]
+        }
+    ]
+}

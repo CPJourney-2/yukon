@@ -1,0 +1,132 @@
+{
+    "id": "165f9a80-aca7-4a6f-8219-8932bbc1eaa5",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "f6575b46-9838-4677-8e0f-ac04e0ee5e93",
+            "label": "container_2",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "5f3b65de-1e50-4101-8446-b68c34aea8d5",
+                    "label": "corndogtray",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "corndogtray"
+                    },
+                    "x": 5,
+                    "y": 118
+                },
+                {
+                    "type": "Image",
+                    "id": "c9080023-8ca6-456e-9610-8cace3f42045",
+                    "label": "corndog10001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "corndog1",
+                    "Button.callback": "() => this.interface.prompt.showItem(380592)",
+                    "Button.pixelPerfect": true,
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "corndog10001"
+                    },
+                    "x": -20,
+                    "y": 91
+                },
+                {
+                    "type": "Image",
+                    "id": "4f061dd5-087e-4d23-bc1a-e18c8d6eb512",
+                    "label": "corndog20001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "corndog2",
+                    "Button.callback": "() => this.interface.prompt.showItem(380591)",
+                    "Button.pixelPerfect": true,
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "corndog20001"
+                    },
+                    "x": 27,
+                    "y": 64
+                },
+                {
+                    "type": "Image",
+                    "id": "67d19f17-bd5e-42ed-b4c1-36f4f7f0e62f",
+                    "label": "signstand",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "signstand"
+                    },
+                    "x": 177,
+                    "y": 110
+                },
+                {
+                    "type": "Image",
+                    "id": "a50406c1-7df6-49e8-a2c0-eef3e7ee91a3",
+                    "label": "ticketsign_1",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketsign1"
+                    },
+                    "x": 173,
+                    "y": 30
+                },
+                {
+                    "type": "Image",
+                    "id": "df464fc7-b65f-48dd-a088-286eb95f179b",
+                    "label": "ticketicon_2",
+                    "texture": {
+                        "key": "villageprizes",
+                        "frame": "ticketicon"
+                    },
+                    "x": 229,
+                    "y": 31
+                },
+                {
+                    "type": "Text",
+                    "id": "be3484b6-cd23-40ce-89cc-03cb18adc889",
+                    "label": "text_2",
+                    "x": 162,
+                    "y": 27,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "150",
+                    "fixedWidth": 150,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "50px",
+                    "fontStyle": "bold italic",
+                    "shadow.offsetX": 3,
+                    "shadow.offsetY": 3,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#00000097"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "id": "8235710b-3f0d-45e5-9509-00d1edfb41bb",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "1c5978f9-cd54-4259-8979-f97d5bfa2bbd",
+            "label": "container_1",
+            "components": [],
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "NineSlice",
+                    "id": "0fcd2510-f642-4356-91b1-f08aa4e9adb8",
+                    "label": "bg",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "width": 688,
+                    "height": 288,
+                    "leftWidth": 44,
+                    "rightWidth": 39,
+                    "topHeight": 40,
+                    "bottomHeight": 41,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "e469efd7-0729-4668-8049-287496c7c11e",
+                    "label": "penguinSmall",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "player_small",
+                    "texture": {
+                        "key": "login",
+                        "frame": "player_small"
+                    },
+                    "list": []
+                },
+                {
+                    "prefabId": "7b4017c1-c8f3-4f6b-9aae-61bbce16ce08",
+                    "id": "1d48cf54-9599-4b49-8743-2aabc7c8948d",
+                    "unlock": [
+                        "visible",
+                        "fadeIn",
+                        "x",
+                        "y"
+                    ],
+                    "label": "paperDoll",
+                    "scope": "CLASS",
+                    "fadeIn": false,
+                    "components": [],
+                    "x": -212,
+                    "y": 60,
+                    "visible": true,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "257ef101-cd29-4c0c-b07b-dec273782cc3",
+                    "label": "username",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 90,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "fixedWidth": 420,
+                    "align": "center",
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "48px",
+                    "fontStyle": "bold italic",
+                    "stroke": "#003366",
+                    "strokeThickness": 10,
+                    "shadow.color": "#000000ff",
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

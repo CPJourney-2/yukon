@@ -1,0 +1,169 @@
+{
+    "id": "efe790ae-d64f-41d5-a191-ebab213636e3",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eefc5a3-1b9a-4b15-a92a-1a543086f96d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "637cca7d-b294-4dcd-aa38-991230ee66f5",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -12,
+                    "y": 10,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Sprite",
+                    "id": "a4e8b330-6f23-4b69-869a-561ea33ed98b",
+                    "label": "lidopening",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.closeLid()",
+                    "texture": {
+                        "key": "gifteight",
+                        "frame": "lidopening0001"
+                    },
+                    "x": -2,
+                    "y": -314,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "171b2f33-d7aa-42be-a9e9-ea93ccd47dbe",
+                    "label": "chestback",
+                    "texture": {
+                        "key": "gifteight",
+                        "frame": "chestback"
+                    },
+                    "x": -1.5,
+                    "y": -146
+                },
+                {
+                    "type": "Sprite",
+                    "id": "1aa53178-752a-401e-be6b-2325580f43aa",
+                    "label": "gearanim",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "gifteight",
+                        "frame": "gearanim0001"
+                    },
+                    "x": -1,
+                    "y": -108,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "f3823649-12cf-4bc5-96af-2d4058261636",
+                    "label": "chest",
+                    "texture": {
+                        "key": "gifteight",
+                        "frame": "chest"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "9db5bba6-cf35-4dbf-aa9e-25d01f776c2f",
+                    "label": "chestlid",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.openLid()",
+                    "texture": {
+                        "key": "gifteight",
+                        "frame": "chestlid"
+                    },
+                    "x": -2,
+                    "y": -167
+                },
+                {
+                    "type": "Image",
+                    "id": "58437c98-ba32-4686-b1da-da0ef0654395",
+                    "label": "closebutton",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "closebutton",
+                    "Button.callback": "() => this.interface.destroyWidget(this);",
+                    "texture": {
+                        "key": "gifteight",
+                        "frame": "closebutton"
+                    },
+                    "x": 211,
+                    "y": 66
+                },
+                {
+                    "type": "Image",
+                    "id": "30e7010f-575f-4b99-a515-bd5012eef633",
+                    "label": "note",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.showLetter()",
+                    "SimpleButton.pixelPerfect": true,
+                    "texture": {
+                        "key": "gifteight",
+                        "frame": "note"
+                    },
+                    "x": -4,
+                    "y": 8
+                },
+                {
+                    "type": "Image",
+                    "id": "8e2de461-7243-4265-82e8-6584e4d8c989",
+                    "label": "letter",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.closeLetter()",
+                    "SimpleButton.pixelPerfect": true,
+                    "texture": {
+                        "key": "gifteight",
+                        "frame": "letter"
+                    },
+                    "x": -26,
+                    "y": -53,
+                    "angle": -6.000000000000001,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

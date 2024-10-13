@@ -1,0 +1,86 @@
+{
+    "id": "e1b887a4-406b-4f19-a6ea-769e241bfb5b",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/tent/tent-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Tent",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "6a303b07-994d-4d68-9df4-323eef5f9c5f",
+            "label": "floor",
+            "scope": "CLASS",
+            "texture": {
+                "key": "tent",
+                "frame": "floor"
+            },
+            "x": 760,
+            "y": 746,
+            "scaleX": 1.01,
+            "scaleY": 1.01
+        },
+        {
+            "type": "Image",
+            "id": "1925725e-20ec-47bf-b7fa-6becdcdffa3f",
+            "label": "walls",
+            "texture": {
+                "key": "tent",
+                "frame": "walls"
+            },
+            "x": 764,
+            "y": 454
+        },
+        {
+            "type": "Image",
+            "id": "0b5dbbd8-1f9c-465b-b59e-74cb7b2e598f",
+            "label": "roof",
+            "texture": {
+                "key": "tent",
+                "frame": "roof"
+            },
+            "x": 746,
+            "y": 452.5399877040221,
+            "originY": 0.9988499949316463
+        },
+        {
+            "type": "Rectangle",
+            "id": "39ac9b3e-78cd-4e2e-bebc-08e70fd88bb9",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 754,
+            "y": 584,
+            "width": 150,
+            "height": 150
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "e6d0810b-b8de-4d29-9f57-1eb74a186a76",
+            "label": "sort",
+            "objectIds": [
+                "0b5dbbd8-1f9c-465b-b59e-74cb7b2e598f"
+            ]
+        }
+    ]
+}

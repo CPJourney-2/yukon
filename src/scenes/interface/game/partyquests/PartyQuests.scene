@@ -1,0 +1,1014 @@
+{
+    "id": "c61bc864-adf2-4fab-8e71-17994ed49907",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eefc5a3-1b9a-4b15-a92a-1a543086f96d",
+            "label": "container_1",
+            "x": 760,
+            "y": 477,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "637cca7d-b294-4dcd-aa38-991230ee66f5",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -12,
+                    "y": 7,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Container",
+                    "id": "e7ce0783-8e74-4064-afab-80e78a54b468",
+                    "label": "bg",
+                    "x": -760,
+                    "y": -477,
+                    "list": [
+                        {
+                            "type": "Container",
+                            "id": "b10026b9-995d-4bae-bb39-a816c27f5cf0",
+                            "label": "party_bgs",
+                            "scope": "CLASS",
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "a92af747-d51e-42c0-962b-7c1c4584bf17",
+                                    "label": "partybg",
+                                    "scope": "CLASS",
+                                    "texture": {
+                                        "key": "generic"
+                                    },
+                                    "x": 760,
+                                    "y": 480
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Image",
+                            "id": "be6572e9-f242-4b3e-b8cc-1bcc871b448a",
+                            "label": "generic",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "generic"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "type": "Image",
+                            "id": "02726ade-3cd0-4328-a4f9-a2c42356ba56",
+                            "label": "gradient_overlay_1",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "gradient_overlay"
+                            },
+                            "x": 760,
+                            "y": 480
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a42ea478-18ae-4fb6-a04d-5650fa3e7236",
+                    "label": "quest_holder_container",
+                    "x": -760,
+                    "y": -477,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "04ff76bc-f148-4ca0-b390-8097ff27280f",
+                            "label": "quest_holder",
+                            "texture": {
+                                "key": "partyquests",
+                                "frame": "quest_holder"
+                            },
+                            "x": 664,
+                            "y": 115,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Container",
+                            "id": "c8884c14-562a-4a16-b0ec-8070f2061f15",
+                            "label": "arrow_holder_container",
+                            "scope": "CLASS",
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "29c49bfe-9312-4033-a07b-5ac936b4319e",
+                                    "label": "arrow_holder_1",
+                                    "texture": {
+                                        "key": "partyquests",
+                                        "frame": "arrow_holder"
+                                    },
+                                    "x": 1430,
+                                    "y": 506,
+                                    "scaleY": 1.05
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "69da64ae-6ea7-41d1-9cf9-fdfa9c85e0a1",
+                                    "label": "downButton",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "grey-button",
+                                    "Button.callback": "() => {this.pageUp();}",
+                                    "Button.activeFrame": true,
+                                    "texture": {
+                                        "key": "main",
+                                        "frame": "grey-button"
+                                    },
+                                    "x": 1431,
+                                    "y": 728,
+                                    "scaleX": 0.7,
+                                    "scaleY": 0.7,
+                                    "angle": -180,
+                                    "flipX": true
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "a9370a42-f3aa-482c-97e1-4e35694f8363",
+                                    "label": "downArrow",
+                                    "scope": "CLASS",
+                                    "texture": {
+                                        "key": "main",
+                                        "frame": "grey-arrow"
+                                    },
+                                    "x": 1431,
+                                    "y": 729,
+                                    "scaleX": 0.7,
+                                    "scaleY": 0.7,
+                                    "angle": -180
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "39f74e9b-c3a9-42e1-ae7f-b28b1d0edb9c",
+                                    "label": "upButton",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "grey-button",
+                                    "Button.callback": "() => {this.pageDown();}",
+                                    "Button.activeFrame": true,
+                                    "texture": {
+                                        "key": "main",
+                                        "frame": "grey-button"
+                                    },
+                                    "x": 1431,
+                                    "y": 287,
+                                    "scaleX": 0.7,
+                                    "scaleY": 0.7
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "50f1bf50-a7fa-48f6-93f7-51ec1a85c937",
+                                    "label": "upArrow",
+                                    "scope": "CLASS",
+                                    "texture": {
+                                        "key": "main",
+                                        "frame": "grey-arrow"
+                                    },
+                                    "x": 1431,
+                                    "y": 286,
+                                    "scaleX": 0.7,
+                                    "scaleY": 0.7
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "35976b30-4216-496d-b1f1-f96b13fcf786",
+                            "label": "quests_view",
+                            "scope": "CLASS",
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Container",
+                                    "id": "02d659f7-7701-421a-816d-d00b0855c69c",
+                                    "label": "title_holder",
+                                    "list": [
+                                        {
+                                            "type": "Image",
+                                            "id": "d93cc441-d188-4804-b641-2b65031e800b",
+                                            "label": "quests",
+                                            "texture": {
+                                                "key": "main",
+                                                "frame": "quests"
+                                            },
+                                            "x": 737,
+                                            "y": 179,
+                                            "scaleX": 0.8,
+                                            "scaleY": 0.8
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "id": "f0ba9fe0-96c8-4ff9-98fc-a210ba7b121b",
+                                            "label": "title",
+                                            "scope": "CLASS",
+                                            "x": 1024,
+                                            "y": 179,
+                                            "originX": 0.5,
+                                            "originY": 0.5,
+                                            "text": "April Fools' 2024",
+                                            "fixedWidth": 470,
+                                            "fontFamily": "Burbank Small",
+                                            "fontSize": "48px",
+                                            "fontStyle": "bold",
+                                            "color": "#000000ff"
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "8b0594c4-83d7-4112-b293-9c63ccc306db",
+                                            "label": "more",
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "Button",
+                                                "ShowHint"
+                                            ],
+                                            "Button.spriteName": "more",
+                                            "Button.callback": "() => {this.showParties();}",
+                                            "ShowHint.text": "Show all Parties",
+                                            "texture": {
+                                                "key": "partyquests",
+                                                "frame": "more"
+                                            },
+                                            "x": 1296,
+                                            "y": 179
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "e73dee43-c8bd-449f-8d27-f213ad2e4912",
+                                    "label": "gem_counter",
+                                    "list": [
+                                        {
+                                            "type": "Image",
+                                            "id": "50fdee30-4132-4a54-b1e3-6f95ed739760",
+                                            "label": "gem_counter_gem",
+                                            "components": [
+                                                "SimpleButton",
+                                                "ShowHint"
+                                            ],
+                                            "SimpleButton.callback": "() => {this.openGemSplain();}",
+                                            "ShowHint.text": "Quest Rewards",
+                                            "texture": {
+                                                "key": "partyquests",
+                                                "frame": "gem_counter_gem"
+                                            },
+                                            "x": 1422,
+                                            "y": 185
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "id": "618f2986-b27a-4f23-a560-e58bfdae7e11",
+                                            "label": "gem_title",
+                                            "scope": "CLASS",
+                                            "x": 1436,
+                                            "y": 146,
+                                            "originX": 1,
+                                            "text": "Gems Earned:",
+                                            "align": "right",
+                                            "fontFamily": "Burbank Small",
+                                            "fontSize": "18px",
+                                            "color": "#000000ff"
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "id": "9bd58b96-3890-4559-9270-932a81cbca88",
+                                            "label": "gems_earned",
+                                            "scope": "CLASS",
+                                            "x": 1403,
+                                            "y": 182.5,
+                                            "originX": 1,
+                                            "originY": 0.5,
+                                            "text": "500",
+                                            "align": "right",
+                                            "fontFamily": "Burbank Small",
+                                            "fontSize": "24px",
+                                            "fontStyle": "bold",
+                                            "color": "#000000ff"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "01bc8f99-565f-49d2-bcff-c6dd1b75cce1",
+                                    "label": "legend",
+                                    "scope": "CLASS",
+                                    "texture": {
+                                        "key": "partyquests",
+                                        "frame": "legend"
+                                    },
+                                    "x": 1007,
+                                    "y": 809
+                                },
+                                {
+                                    "prefabId": "a1e66c65-0c7b-46e4-a9ac-4a6ebf58aa3d",
+                                    "id": "a9ae5d38-90b5-42b3-a144-a850da0dd74a",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "questItem_0",
+                                    "x": 1051,
+                                    "y": 296,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "a1e66c65-0c7b-46e4-a9ac-4a6ebf58aa3d",
+                                    "id": "4eca4bec-8864-45de-9730-5402a16bf154",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "questItem_1",
+                                    "x": 1051,
+                                    "y": 356,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "a1e66c65-0c7b-46e4-a9ac-4a6ebf58aa3d",
+                                    "id": "c1d923e1-25f3-46bc-aa5b-684179f54545",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "questItem_2",
+                                    "x": 1051,
+                                    "y": 416,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "a1e66c65-0c7b-46e4-a9ac-4a6ebf58aa3d",
+                                    "id": "964ddd71-b1f1-4d28-a259-ace39841f9b1",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "questItem_3",
+                                    "x": 1051,
+                                    "y": 476,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "a1e66c65-0c7b-46e4-a9ac-4a6ebf58aa3d",
+                                    "id": "21355564-9668-4d95-80b3-8dd3a8df066d",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "questItem_4",
+                                    "x": 1051,
+                                    "y": 536,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "a1e66c65-0c7b-46e4-a9ac-4a6ebf58aa3d",
+                                    "id": "702c969e-7229-4a66-aba1-1bdc9be86164",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "questItem_5",
+                                    "x": 1051,
+                                    "y": 596,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "a1e66c65-0c7b-46e4-a9ac-4a6ebf58aa3d",
+                                    "id": "62a0a801-0313-4383-bb49-3a75a891d363",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "questItem_6",
+                                    "x": 1051,
+                                    "y": 656,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "a1e66c65-0c7b-46e4-a9ac-4a6ebf58aa3d",
+                                    "id": "fc6f4c01-1081-4176-bbc9-2ebba865f49b",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "questItem_7",
+                                    "x": 1051,
+                                    "y": 716,
+                                    "visible": false
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "e95062c0-8425-442f-aabd-dc7c3f1e60fe",
+                                    "label": "completeText",
+                                    "scope": "CLASS",
+                                    "x": 1446,
+                                    "y": 811,
+                                    "originX": 1,
+                                    "originY": 0.5,
+                                    "text": "0 / 0",
+                                    "align": "right",
+                                    "fontFamily": "Burbank Small",
+                                    "fontSize": "18px",
+                                    "color": "#000000ff",
+                                    "shadow.offsetX": 1,
+                                    "shadow.offsetY": 1,
+                                    "shadow.fill": true,
+                                    "shadow.color": "#818181ff",
+                                    "shadow.blur": 2,
+                                    "baselineX": 1,
+                                    "baselineY": 1
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "dd385304-03d4-42cf-96bc-def3be1d9242",
+                                    "label": "claimbtn",
+                                    "scope": "CLASS",
+                                    "visible": false,
+                                    "list": [
+                                        {
+                                            "type": "Image",
+                                            "id": "61d4a0dd-fe1f-450a-9db2-430d65f317a6",
+                                            "label": "claim",
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "Button"
+                                            ],
+                                            "Button.spriteName": "claim",
+                                            "Button.callback": "() => {this.addPrize(this.prize);}",
+                                            "texture": {
+                                                "key": "partyquests",
+                                                "frame": "claim"
+                                            },
+                                            "x": 1381,
+                                            "y": 235
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "id": "bc2a5c62-cbac-4ef1-b3aa-d7343247433a",
+                                            "label": "claimText",
+                                            "x": 1381,
+                                            "y": 235,
+                                            "originX": 0.5,
+                                            "originY": 0.5,
+                                            "text": "CLAIM PRIZE",
+                                            "align": "center",
+                                            "fontFamily": "Burbank Small",
+                                            "fontSize": "18px"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "a8887079-fd33-49c4-8d2c-aa867be19f46",
+                                    "label": "gemSplain",
+                                    "scope": "CLASS",
+                                    "visible": false,
+                                    "list": [
+                                        {
+                                            "type": "NineSlice",
+                                            "id": "9dab095f-d063-4e75-9ffb-bd064bce09e4",
+                                            "label": "nineslice_1",
+                                            "texture": {
+                                                "key": "prompt",
+                                                "frame": "window"
+                                            },
+                                            "x": 760,
+                                            "y": 480,
+                                            "width": 512,
+                                            "height": 512
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "42176bb3-f4cb-45fb-b70c-95c9fff51c02",
+                                            "label": "quest_easy_1",
+                                            "texture": {
+                                                "key": "partyquests",
+                                                "frame": "quest_easy"
+                                            },
+                                            "x": 674,
+                                            "y": 362,
+                                            "scaleX": 0.5,
+                                            "scaleY": 0.5
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "879ba1c1-fd7a-41e9-aaef-b27941ace764",
+                                            "label": "quest_medium",
+                                            "texture": {
+                                                "key": "partyquests",
+                                                "frame": "quest_medium"
+                                            },
+                                            "x": 674,
+                                            "y": 454,
+                                            "scaleX": 0.5,
+                                            "scaleY": 0.5
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "a6ad5ecd-5110-424d-a44c-915c3bc429f1",
+                                            "label": "quest_hard",
+                                            "texture": {
+                                                "key": "partyquests",
+                                                "frame": "quest_hard"
+                                            },
+                                            "x": 674,
+                                            "y": 546,
+                                            "scaleX": 0.5,
+                                            "scaleY": 0.5
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "f93cc998-7223-4f83-9381-53d4416ab538",
+                                            "label": "quest_extreme",
+                                            "texture": {
+                                                "key": "partyquests",
+                                                "frame": "quest_extreme"
+                                            },
+                                            "x": 674,
+                                            "y": 638,
+                                            "scaleX": 0.5,
+                                            "scaleY": 0.5
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "id": "0390deac-cc4f-4187-a8d2-4779d048ca8b",
+                                            "label": "gemLegendTitle",
+                                            "x": 760,
+                                            "y": 280.5,
+                                            "originX": 0.5,
+                                            "originY": 0.5,
+                                            "text": "QUEST REWARDS",
+                                            "align": "center",
+                                            "fontFamily": "CCComicrazy",
+                                            "fontSize": "28px",
+                                            "fontStyle": "bold italic",
+                                            "stroke": "#134263",
+                                            "strokeThickness": 10,
+                                            "shadow.fill": true,
+                                            "shadow.blur": 0.00001
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "id": "92b241ff-a689-4a2b-a9e3-a894a3f6271d",
+                                            "label": "easyText",
+                                            "scope": "CLASS",
+                                            "x": 768,
+                                            "y": 362,
+                                            "originX": 0.5,
+                                            "originY": 0.5,
+                                            "text": "+ 10",
+                                            "align": "center",
+                                            "fontFamily": "CCComicrazy",
+                                            "fontSize": "32px",
+                                            "fontStyle": "bold italic",
+                                            "stroke": "#134263",
+                                            "strokeThickness": 10,
+                                            "shadow.fill": true,
+                                            "shadow.blur": 0.00001
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "ab7f9f2a-12be-4c17-8a38-5b914f14fd9f",
+                                            "label": "reward_gem_1",
+                                            "texture": {
+                                                "key": "quest-reward",
+                                                "frame": "reward_gem"
+                                            },
+                                            "x": 846,
+                                            "y": 362,
+                                            "scaleX": 0.3,
+                                            "scaleY": 0.3
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "id": "b12ad327-de75-415a-bd77-1aee9208c58e",
+                                            "label": "mediumText",
+                                            "scope": "CLASS",
+                                            "x": 768,
+                                            "y": 454,
+                                            "originX": 0.5,
+                                            "originY": 0.5,
+                                            "text": "+ 20",
+                                            "align": "center",
+                                            "fontFamily": "CCComicrazy",
+                                            "fontSize": "32px",
+                                            "fontStyle": "bold italic",
+                                            "stroke": "#134263",
+                                            "strokeThickness": 10,
+                                            "shadow.fill": true,
+                                            "shadow.blur": 0.00001
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "8b1cd60b-d9be-4fee-98c4-fd9c608def3e",
+                                            "label": "reward_gem",
+                                            "texture": {
+                                                "key": "quest-reward",
+                                                "frame": "reward_gem"
+                                            },
+                                            "x": 846,
+                                            "y": 454,
+                                            "scaleX": 0.3,
+                                            "scaleY": 0.3
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "id": "8660ad15-3b05-4d41-9d6b-25488cdfe0cc",
+                                            "label": "hardText",
+                                            "scope": "CLASS",
+                                            "x": 768,
+                                            "y": 546,
+                                            "originX": 0.5,
+                                            "originY": 0.5,
+                                            "text": "+ 30",
+                                            "align": "center",
+                                            "fontFamily": "CCComicrazy",
+                                            "fontSize": "32px",
+                                            "fontStyle": "bold italic",
+                                            "stroke": "#134263",
+                                            "strokeThickness": 10,
+                                            "shadow.fill": true,
+                                            "shadow.blur": 0.00001
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "5aadefdc-d5b2-4dc4-9dd0-7129f0e4cd2c",
+                                            "label": "reward_gem_2",
+                                            "texture": {
+                                                "key": "quest-reward",
+                                                "frame": "reward_gem"
+                                            },
+                                            "x": 846,
+                                            "y": 546,
+                                            "scaleX": 0.3,
+                                            "scaleY": 0.3
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "id": "c5a8bf31-4884-4565-b48b-2493b1395412",
+                                            "label": "extremeText",
+                                            "scope": "CLASS",
+                                            "x": 768,
+                                            "y": 638,
+                                            "originX": 0.5,
+                                            "originY": 0.5,
+                                            "text": "+ 50",
+                                            "align": "center",
+                                            "fontFamily": "CCComicrazy",
+                                            "fontSize": "32px",
+                                            "fontStyle": "bold italic",
+                                            "stroke": "#134263",
+                                            "strokeThickness": 10,
+                                            "shadow.fill": true,
+                                            "shadow.blur": 0.00001
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "2df76c56-586e-41f6-a37f-21cc9c90e16e",
+                                            "label": "reward_gem_3",
+                                            "texture": {
+                                                "key": "quest-reward",
+                                                "frame": "reward_gem"
+                                            },
+                                            "x": 846,
+                                            "y": 638,
+                                            "scaleX": 0.3,
+                                            "scaleY": 0.3
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "4f2a58a2-9657-4fee-8907-e7272f8c29c5",
+                                            "label": "blue_button",
+                                            "components": [
+                                                "Button"
+                                            ],
+                                            "Button.spriteName": "blue-button",
+                                            "Button.callback": "() => {this.closeGemSplain();}",
+                                            "Button.activeFrame": true,
+                                            "texture": {
+                                                "key": "main",
+                                                "frame": "blue-button"
+                                            },
+                                            "x": 964,
+                                            "y": 280,
+                                            "scaleX": 0.9,
+                                            "scaleY": 0.9
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "b50f6efb-7f07-46f5-8542-5dc97a72ae13",
+                                            "label": "blue_x",
+                                            "texture": {
+                                                "key": "main",
+                                                "frame": "blue-x"
+                                            },
+                                            "x": 964,
+                                            "y": 279,
+                                            "scaleX": 0.9,
+                                            "scaleY": 0.9
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "681e097a-0953-422d-a8ae-333794dbce66",
+                            "label": "party_view",
+                            "scope": "CLASS",
+                            "list": [
+                                {
+                                    "prefabId": "f8f8851d-2ae8-447f-bebd-3364febcd751",
+                                    "id": "930684a6-e071-4edf-8c14-3a929e34f310",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "partyItem_0",
+                                    "x": 1051,
+                                    "y": 296,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "f8f8851d-2ae8-447f-bebd-3364febcd751",
+                                    "id": "66f8d0b2-3d07-4816-9c19-928073f5d425",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "partyItem_1",
+                                    "x": 1051,
+                                    "y": 356,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "f8f8851d-2ae8-447f-bebd-3364febcd751",
+                                    "id": "245e87d8-8e37-4239-ac85-03cf847c0e98",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "partyItem_2",
+                                    "x": 1051,
+                                    "y": 416,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "f8f8851d-2ae8-447f-bebd-3364febcd751",
+                                    "id": "dbb7c51a-3068-429b-8cc0-f249c1e7984f",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "partyItem_3",
+                                    "x": 1051,
+                                    "y": 476,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "f8f8851d-2ae8-447f-bebd-3364febcd751",
+                                    "id": "450561fa-026b-4999-80ac-9e0423204dc8",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "partyItem_4",
+                                    "x": 1051,
+                                    "y": 536,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "f8f8851d-2ae8-447f-bebd-3364febcd751",
+                                    "id": "527ee767-4fd3-4cd0-92ec-ebc866a9174c",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "partyItem_5",
+                                    "x": 1051,
+                                    "y": 596,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "f8f8851d-2ae8-447f-bebd-3364febcd751",
+                                    "id": "6ffeaed1-1202-44fc-bceb-db9c3f0a9d23",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "partyItem_6",
+                                    "x": 1051,
+                                    "y": 656,
+                                    "visible": false
+                                },
+                                {
+                                    "prefabId": "f8f8851d-2ae8-447f-bebd-3364febcd751",
+                                    "id": "588da88f-e5b4-4c2c-9729-746e96178084",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "visible"
+                                    ],
+                                    "label": "partyItem_7",
+                                    "x": 1051,
+                                    "y": 716,
+                                    "visible": false
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "8d484295-e164-4f17-ac41-f2ee514359dd",
+                                    "label": "title_holder_parties",
+                                    "list": [
+                                        {
+                                            "type": "Image",
+                                            "id": "d8c2ac78-f665-4428-abce-195e74ad24d3",
+                                            "label": "quests_parties",
+                                            "texture": {
+                                                "key": "main",
+                                                "frame": "quests"
+                                            },
+                                            "x": 737,
+                                            "y": 179,
+                                            "scaleX": 0.8,
+                                            "scaleY": 0.8
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "id": "13ec342f-f68a-4b9d-92fe-a625ee546ab8",
+                                            "label": "title_parties",
+                                            "scope": "CLASS",
+                                            "x": 976.5,
+                                            "y": 179,
+                                            "originX": 0.5,
+                                            "originY": 0.5,
+                                            "text": "Select a Party",
+                                            "fontFamily": "Burbank Small",
+                                            "fontSize": "48px",
+                                            "fontStyle": "bold",
+                                            "color": "#000000ff"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "f7f6573d-198f-42b8-a00c-c3957ed7a1c8",
+                                    "label": "gem_counter_parties",
+                                    "list": [
+                                        {
+                                            "type": "Image",
+                                            "id": "7d0a436b-d644-4ee8-8f13-95ee053aa833",
+                                            "label": "gem_counter_gem_1",
+                                            "texture": {
+                                                "key": "partyquests",
+                                                "frame": "gem_counter_gem"
+                                            },
+                                            "x": 1422,
+                                            "y": 185
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "id": "274f3a2a-80a0-49d3-8b66-2ec1a48a77b8",
+                                            "label": "gem_title_1",
+                                            "scope": "CLASS",
+                                            "x": 1436,
+                                            "y": 146,
+                                            "originX": 1,
+                                            "text": "Current Gems Total:",
+                                            "align": "right",
+                                            "fontFamily": "Burbank Small",
+                                            "fontSize": "18px",
+                                            "color": "#000000ff"
+                                        },
+                                        {
+                                            "type": "Text",
+                                            "id": "cbb9427a-8199-478f-a47c-35fe519949eb",
+                                            "label": "gems_earned_1",
+                                            "scope": "CLASS",
+                                            "x": 1403,
+                                            "y": 182.5,
+                                            "originX": 1,
+                                            "originY": 0.5,
+                                            "text": "500",
+                                            "align": "right",
+                                            "fontFamily": "Burbank Small",
+                                            "fontSize": "24px",
+                                            "fontStyle": "bold",
+                                            "color": "#000000ff"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "5f02d825-d8f9-4126-b22b-78aec4acf1d1",
+                    "label": "grey_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => {this.hide();}",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 713,
+                    "y": -429
+                },
+                {
+                    "type": "Image",
+                    "id": "8163549b-98dd-4dab-b701-d679681f10c5",
+                    "label": "grey_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 713,
+                    "y": -431
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "3307a8d6-6e8f-45bd-ae9b-9509dfd5a06c",
+            "label": "questItems",
+            "objectIds": [
+                "a9ae5d38-90b5-42b3-a144-a850da0dd74a",
+                "4eca4bec-8864-45de-9730-5402a16bf154",
+                "c1d923e1-25f3-46bc-aa5b-684179f54545",
+                "964ddd71-b1f1-4d28-a259-ace39841f9b1",
+                "21355564-9668-4d95-80b3-8dd3a8df066d",
+                "702c969e-7229-4a66-aba1-1bdc9be86164",
+                "62a0a801-0313-4383-bb49-3a75a891d363",
+                "fc6f4c01-1081-4176-bbc9-2ebba865f49b"
+            ]
+        },
+        {
+            "id": "bc0aa09f-1d39-4ed9-bf50-923c061aa25e",
+            "label": "parties",
+            "objectIds": [
+                "930684a6-e071-4edf-8c14-3a929e34f310",
+                "66f8d0b2-3d07-4816-9c19-928073f5d425",
+                "245e87d8-8e37-4239-ac85-03cf847c0e98",
+                "dbb7c51a-3068-429b-8cc0-f249c1e7984f",
+                "450561fa-026b-4999-80ac-9e0423204dc8",
+                "527ee767-4fd3-4cd0-92ec-ebc866a9174c",
+                "6ffeaed1-1202-44fc-bceb-db9c3f0a9d23",
+                "588da88f-e5b4-4c2c-9729-746e96178084"
+            ]
+        }
+    ]
+}

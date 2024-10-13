@@ -1,0 +1,161 @@
+{
+    "id": "93be6364-dca2-43c5-aad5-c77741aad741",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "bb4d2198-5ce9-4999-b83f-8ab252d88b7e",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "075a248b-46dc-4c7e-9191-11f4b51c1802",
+                    "label": "broadcastContainer",
+                    "scope": "CLASS",
+                    "y": -186,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9e31d6bb-74d5-4810-9518-4ff6a991faf5",
+                            "label": "broadcast",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "main-broadcast",
+                                "frame": "developer"
+                            },
+                            "x": -760,
+                            "y": -435,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Text",
+                            "id": "07bc9df2-27cb-4f01-b959-dcc654963b4c",
+                            "label": "broadcastTitle",
+                            "scope": "CLASS",
+                            "x": -602,
+                            "y": -429,
+                            "text": "Message from the Developers",
+                            "paddingLeft": 10,
+                            "paddingTop": 10,
+                            "paddingRight": 10,
+                            "paddingBottom": 10,
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#f3f3f3ff",
+                            "stroke": "#000",
+                            "shadow.offsetY": 3,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000007a",
+                            "wordWrapWidth": 1110
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ff33fa6a-6eed-4ae9-aa07-89895c6e1b09",
+                            "label": "broadcastText",
+                            "scope": "CLASS",
+                            "x": -588,
+                            "y": -375,
+                            "text": "This is a test broadcast to fill in this space. Server restart will happen in 15 minutes. Please uh save your igloos and exit mini-games to make sure your coins save. There's still room for lots of cool text!!!!!!!!",
+                            "fixedWidth": 1300,
+                            "fixedHeight": 65,
+                            "lineSpacing": 2,
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "24px",
+                            "color": "#f3f3f3ff",
+                            "stroke": "#000",
+                            "shadow.offsetY": 2,
+                            "shadow.fill": true,
+                            "shadow.color": "#0000007a",
+                            "maxLines": 2,
+                            "wordWrapWidth": 1200
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d50e9680-2986-4609-8803-bd4dbfc99f7e",
+                            "label": "closebtn-orange",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "orange-button",
+                            "Button.callback": "() => { this.onExit() }",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main-broadcast",
+                                "frame": "orange-button"
+                            },
+                            "x": 712,
+                            "y": -401
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a97fd98a-266f-40a9-9db5-736486f0cfd1",
+                            "label": "orange_x",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "main-broadcast",
+                                "frame": "orange-x"
+                            },
+                            "x": 712,
+                            "y": -403
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c61d429c-fba6-43f0-9aac-7fad282fc18d",
+                            "label": "closebtn-blue",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => { this.onExit() }",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 712,
+                            "y": -401,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c59d0fbe-1bd7-4efa-925a-1753b4ba0335",
+                            "label": "blue_x",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-x"
+                            },
+                            "x": 712,
+                            "y": -403,
+                            "visible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

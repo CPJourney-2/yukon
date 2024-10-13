@@ -1,0 +1,372 @@
+{
+    "id": "654cef24-5eeb-4b53-b068-235d14f9e485",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "476997ac-09df-45bf-b3ef-f7a2d62c1a67",
+            "label": "editorSelectionBox",
+            "components": [],
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "fb094dd2-5bc2-481c-a82d-59f02287bdda",
+                    "label": "exitOnTouch",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.visible = false}",
+                    "width": 3040,
+                    "height": 1840,
+                    "list": []
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "efb1e5bf-bec8-4e76-bc12-242535497c63",
+                    "label": "selectionBackground",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "stampbook-editor",
+                        "frame": "selectionBackground"
+                    },
+                    "x": -122,
+                    "y": 1,
+                    "originX": 0,
+                    "alpha": 0.9,
+                    "width": 122,
+                    "height": 248,
+                    "leftWidth": 24,
+                    "rightWidth": 20,
+                    "topHeight": 25,
+                    "bottomHeight": 27,
+                    "list": []
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "797e1231-1a23-4342-ad28-71e0273f5708",
+                    "label": "maskBox",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "stampbook-editor",
+                        "frame": "selectionMask"
+                    },
+                    "x": -116,
+                    "y": 1,
+                    "originX": 0,
+                    "visible": false,
+                    "width": 112,
+                    "height": 239,
+                    "leftWidth": 24,
+                    "rightWidth": 19,
+                    "topHeight": 22,
+                    "bottomHeight": 22,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "0173e9ed-8166-47e5-a6d8-e3af50c645e6",
+                    "label": "rectangle1",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onRectHover(this.rectangle1)",
+                    "SimpleButton.hoverOutCallback": "() => this.onRectHoverOut(this.rectangle1)",
+                    "SimpleButton.callback": "() => this.doCallback(1)",
+                    "x": -59,
+                    "y": -80,
+                    "alpha": 0.91,
+                    "fillColor": "#98CAEA",
+                    "width": 119,
+                    "height": 80,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "b7d4ced9-e1f8-4cb9-a41c-6c2b99346d43",
+                    "label": "rectangle4",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onRectHover(this.rectangle4)",
+                    "SimpleButton.hoverOutCallback": "() => this.onRectHoverOut(this.rectangle4)",
+                    "SimpleButton.callback": "() => this.doCallback(4)",
+                    "x": 61,
+                    "y": -80,
+                    "alpha": 0.91,
+                    "fillColor": "#98CAEA",
+                    "width": 119,
+                    "height": 80,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "5e2945ef-5758-4be5-89a6-420eeb0550d4",
+                    "label": "rectangle2",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onRectHover(this.rectangle2)",
+                    "SimpleButton.hoverOutCallback": "() => this.onRectHoverOut(this.rectangle2)",
+                    "SimpleButton.callback": "() => this.doCallback(2)",
+                    "x": -59,
+                    "alpha": 0.91,
+                    "fillColor": "#98CAEA",
+                    "width": 119,
+                    "height": 80,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "0ca65758-e56d-4e8a-9ce4-81253d9a58fb",
+                    "label": "rectangle5",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onRectHover(this.rectangle5)",
+                    "SimpleButton.hoverOutCallback": "() => this.onRectHoverOut(this.rectangle5)",
+                    "SimpleButton.callback": "() => this.doCallback(5)",
+                    "x": 61,
+                    "alpha": 0.91,
+                    "fillColor": "#98CAEA",
+                    "width": 119,
+                    "height": 80,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "1603ae84-9aaf-457c-8f85-97b9f54d2aa9",
+                    "label": "rectangle3",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onRectHover(this.rectangle3)",
+                    "SimpleButton.hoverOutCallback": "() => this.onRectHoverOut(this.rectangle3)",
+                    "SimpleButton.callback": "() => this.doCallback(3)",
+                    "x": -59,
+                    "y": 80,
+                    "alpha": 0.91,
+                    "fillColor": "#98CAEA",
+                    "width": 119,
+                    "height": 80,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "909adcfa-bc87-4c43-aaf8-b1ccbd2146d9",
+                    "label": "rectangle6",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onRectHover(this.rectangle6)",
+                    "SimpleButton.hoverOutCallback": "() => this.onRectHoverOut(this.rectangle6)",
+                    "SimpleButton.callback": "() => this.doCallback(6)",
+                    "x": 61,
+                    "y": 80,
+                    "alpha": 0.91,
+                    "fillColor": "#98CAEA",
+                    "width": 119,
+                    "height": 80,
+                    "list": []
+                },
+                {
+                    "prefabId": "9577a0b7-ac2a-4c45-9c50-c1b8206df8f8",
+                    "id": "c9f49216-ef11-421b-92a0-0a84be9adda2",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "thumb1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -61,
+                    "y": -79,
+                    "scaleX": 0.66,
+                    "scaleY": 0.66,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "9577a0b7-ac2a-4c45-9c50-c1b8206df8f8",
+                    "id": "1a2568ad-3c17-47c5-858c-2646ef83daf3",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "thumb4",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 61,
+                    "y": -79,
+                    "scaleX": 0.66,
+                    "scaleY": 0.66,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "9577a0b7-ac2a-4c45-9c50-c1b8206df8f8",
+                    "id": "1e654219-26f1-42d1-933d-d93eff913884",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "thumb2",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -61,
+                    "y": 0,
+                    "scaleX": 0.66,
+                    "scaleY": 0.66,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "9577a0b7-ac2a-4c45-9c50-c1b8206df8f8",
+                    "id": "d9599634-79f9-42e9-b0e8-903667072601",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "thumb3",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -61,
+                    "y": 79,
+                    "scaleX": 0.66,
+                    "scaleY": 0.66,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "9577a0b7-ac2a-4c45-9c50-c1b8206df8f8",
+                    "id": "51577f36-c326-4730-9bd4-2b4edc129955",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "thumb6",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 61,
+                    "y": 79,
+                    "scaleX": 0.66,
+                    "scaleY": 0.66,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "9577a0b7-ac2a-4c45-9c50-c1b8206df8f8",
+                    "id": "1597d874-4fd4-4273-9490-87268432d5f0",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "thumb5",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 61,
+                    "y": 0,
+                    "scaleX": 0.66,
+                    "scaleY": 0.66,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "9bbb5f7a-db9c-4ae0-a8a2-a10c5aec369a",
+                    "label": "selectionMenuHorizontalDivider",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "stampbook-editor",
+                        "frame": "selectionMenuHorizontalDivider"
+                    },
+                    "x": -115,
+                    "y": 39,
+                    "originX": 0,
+                    "width": 230,
+                    "height": 5,
+                    "leftWidth": 4,
+                    "rightWidth": 9,
+                    "topHeight": 2,
+                    "bottomHeight": 1,
+                    "list": []
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "4c117117-fcae-4457-9eb2-b48ead77b3bd",
+                    "label": "selectionMenuVerticalDivider",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "stampbook-editor",
+                        "frame": "selectionMenuVerticalDivider"
+                    },
+                    "width": 5,
+                    "height": 240,
+                    "leftWidth": 1,
+                    "rightWidth": 1,
+                    "topHeight": 7,
+                    "list": []
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "10703250-8c7f-4457-80d4-be0c9ce34b97",
+                    "label": "selectionMenuHorizontalDivider2",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "stampbook-editor",
+                        "frame": "selectionMenuHorizontalDivider"
+                    },
+                    "x": -115,
+                    "y": -39,
+                    "originX": 0,
+                    "width": 110,
+                    "height": 5,
+                    "leftWidth": 4,
+                    "rightWidth": 9,
+                    "topHeight": 2,
+                    "bottomHeight": 1,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

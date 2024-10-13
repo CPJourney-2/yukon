@@ -1,0 +1,457 @@
+{
+    "id": "013ba3de-9324-4e46-ae06-a732821ec82d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "1f9e28cf-2f59-4be8-b702-672980764310",
+            "label": "altsList",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "NineSlice",
+                    "id": "727fba23-eaf9-4cb0-8929-e25d58846f03",
+                    "label": "bg",
+                    "texture": {
+                        "key": "main",
+                        "frame": "chatlog/bg"
+                    },
+                    "x": 367.226318359375,
+                    "y": 307.68109130859375,
+                    "originX": 1,
+                    "originY": 1,
+                    "width": 400,
+                    "height": 617,
+                    "leftWidth": 57,
+                    "rightWidth": 60,
+                    "topHeight": 58,
+                    "bottomHeight": 60
+                },
+                {
+                    "type": "Container",
+                    "id": "0b7314e3-5f0b-4df8-a59a-90ba9a83686c",
+                    "label": "tabBtn",
+                    "x": 372,
+                    "y": -171,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "a2a57159-a898-418b-a402-2ca20f699773",
+                            "label": "handle",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => { this.hideAltsList() }",
+                            "texture": {
+                                "key": "main",
+                                "frame": "tab"
+                            },
+                            "x": 8,
+                            "y": 2,
+                            "angle": -90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2cb3b589-ff9d-4673-bd5f-8c90005e9152",
+                            "label": "arrow",
+                            "texture": {
+                                "key": "main",
+                                "frame": "tab-arrow"
+                            },
+                            "x": 1,
+                            "angle": -90,
+                            "flipY": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "118ed24e-8f5b-4c36-a368-93d2a9b2ea2f",
+                    "label": "altsTitle",
+                    "scope": "CLASS",
+                    "x": 217,
+                    "y": -277,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Listing alts",
+                    "fixedWidth": 250,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "3de4438c-73e0-478f-aaa6-68d57493a78b",
+                    "label": "btn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "learn-button",
+                    "Button.callback": "() => this.switchAltsMode()",
+                    "texture": {
+                        "key": "login",
+                        "frame": "learn-button"
+                    },
+                    "x": 280,
+                    "y": 267,
+                    "scaleX": 0.6601167152139591,
+                    "scaleY": 0.7101846354587545
+                },
+                {
+                    "type": "Text",
+                    "id": "a3160ba0-f0ba-42c7-b0dc-589ce59b6444",
+                    "label": "altsTitle2",
+                    "scope": "CLASS",
+                    "x": 282,
+                    "y": 266,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Show Alts+",
+                    "fixedWidth": 110,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "20px"
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "97ee6d37-944f-4810-9426-476bc5aeb90b",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn15",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": 211,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "8c74637f-7620-4940-8499-780f7ca5504f",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn14",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": 179,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "c791a97b-03dc-4591-9dc3-4224de346fdf",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn13",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": 148,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "70674675-6551-493b-8e38-160076f5ff4b",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn12",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": 116,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "d0e5e4f5-aae6-4594-ad51-ce3fe9ca9351",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn11",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": 85,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "2c2a7e4d-2880-4845-ae2f-931fc27c5f4b",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn10",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": 54,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "a559b6ed-a2c3-45ec-b42d-92a50820bb9f",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn9",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": 23,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "61d9df05-f3d6-437a-82e6-7deb2d8c0fd8",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn8",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": -8,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "1c579612-4afe-47cc-9f50-b2d74df7b614",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn7",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": -36,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "77b12ee3-549d-40f8-89e9-cd44ab19b610",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn6",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": -67,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "d841b854-aa66-4b50-b30d-2637c1455674",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn5",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": -98,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "62213de2-8d92-4b13-8028-dcdd51ea28db",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn4",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": -129,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "2ad4d198-5afc-45b7-8fc2-95385eb1143b",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn3",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": -160,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "e7867aa3-ed27-492f-be0a-5d9225fcc621",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn2",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": -190,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "f6a731ee-002b-423b-a0b4-109b8d9e647c",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn1",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": -222,
+                    "visible": false
+                },
+                {
+                    "prefabId": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+                    "id": "5b41e51e-a31f-4c7c-9fa6-458225e02188",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "altsItemBtn0",
+                    "scope": "CLASS",
+                    "x": 82,
+                    "y": -254,
+                    "visible": false
+                },
+                {
+                    "type": "Container",
+                    "id": "7d737d4b-9671-4a46-85a9-0cf8a85c958d",
+                    "label": "altsUpBtn",
+                    "scope": "CLASS",
+                    "x": 125,
+                    "y": 260,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "057c0a74-8066-41f6-a4e7-92d642aa6ab9",
+                            "label": "grey_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "grey-button",
+                            "Button.callback": "() => this.altsUp()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-button"
+                            },
+                            "y": 7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "75e49758-f160-4745-8b9f-2bbd247ef5f2",
+                            "label": "grey_arrow",
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-arrow"
+                            },
+                            "y": 5
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a855c0b9-c2a2-4937-9428-48fe7e4a4aa2",
+                    "label": "altsDownBtn",
+                    "scope": "CLASS",
+                    "x": 186,
+                    "y": 260,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9536a9b6-673e-4874-882a-c8a1e4b27bec",
+                            "label": "grey_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "grey-button",
+                            "Button.callback": "() => this.altsDown()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-button"
+                            },
+                            "y": 7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3b9af62d-8dda-4c94-88e7-bbf091c4f036",
+                            "label": "grey_arrow_1",
+                            "texture": {
+                                "key": "main",
+                                "frame": "grey-arrow"
+                            },
+                            "y": 5,
+                            "flipY": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "11c803be-e40a-46b6-b844-396959107739",
+            "label": "items",
+            "objectIds": [
+                "5b41e51e-a31f-4c7c-9fa6-458225e02188",
+                "f6a731ee-002b-423b-a0b4-109b8d9e647c",
+                "e7867aa3-ed27-492f-be0a-5d9225fcc621",
+                "2ad4d198-5afc-45b7-8fc2-95385eb1143b",
+                "62213de2-8d92-4b13-8028-dcdd51ea28db",
+                "d841b854-aa66-4b50-b30d-2637c1455674",
+                "77b12ee3-549d-40f8-89e9-cd44ab19b610",
+                "1c579612-4afe-47cc-9f50-b2d74df7b614",
+                "61d9df05-f3d6-437a-82e6-7deb2d8c0fd8",
+                "a559b6ed-a2c3-45ec-b42d-92a50820bb9f",
+                "2c2a7e4d-2880-4845-ae2f-931fc27c5f4b",
+                "d0e5e4f5-aae6-4594-ad51-ce3fe9ca9351",
+                "70674675-6551-493b-8e38-160076f5ff4b",
+                "c791a97b-03dc-4591-9dc3-4224de346fdf",
+                "8c74637f-7620-4940-8499-780f7ca5504f",
+                "97ee6d37-944f-4810-9426-476bc5aeb90b"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,542 @@
+{
+    "id": "5bda2a3f-77ab-4edf-bf0f-e2e56ac3f0d7",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/_prefair/lighthouse/prefair-lighthouse-pack.json",
+            "client/assets/media/rooms/lighthouse/lighthouse-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Lighthouse",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "0af723ee-0033-4e8b-a937-c67e4d2311bf",
+            "label": "rectangle_1",
+            "x": 453,
+            "y": 424,
+            "scaleX": 2.01822369519442,
+            "scaleY": 2.01822369519442,
+            "isFilled": true,
+            "fillColor": "#000",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "10dd5ad7-2f2d-45d1-a92f-b3f8fe5e7193",
+            "label": "bg",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "bg"
+            },
+            "x": 758,
+            "y": 494
+        },
+        {
+            "type": "Image",
+            "id": "e2233a5e-d7d0-4d3d-a6ad-272e1fa9bb84",
+            "label": "railing",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "railing"
+            },
+            "x": 645.870239843217,
+            "y": 800.1325795432979,
+            "originX": 0.4828981760766746,
+            "originY": 1.2064019485074828
+        },
+        {
+            "type": "Image",
+            "id": "5e026a84-8fc2-49a2-a31d-f70260eba70d",
+            "label": "wirelol",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "wirelol"
+            },
+            "x": 339,
+            "y": 667
+        },
+        {
+            "type": "Image",
+            "id": "b5c357bd-ffe3-4e78-a05c-1791366e90ff",
+            "label": "piano",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "piano"
+            },
+            "x": 397.8038926188229,
+            "y": 727.0705115914689,
+            "originX": 0.4577520925160905,
+            "originY": 0.6696854044183268
+        },
+        {
+            "type": "Image",
+            "id": "84472ea8-19f5-4cf2-8683-0e5cfb71ae8c",
+            "label": "chair",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "chair"
+            },
+            "x": 365.4742110513567,
+            "y": 783.6805226405032,
+            "originX": 0.5196561473514225,
+            "originY": 0.33355681678231014
+        },
+        {
+            "type": "Image",
+            "id": "5267d162-b0a8-496a-85f8-a275b4a8e7bc",
+            "label": "drum0001",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "drum0001"
+            },
+            "x": 167.34384879155448,
+            "y": 543.3552028095227,
+            "originX": 0.47921361067658247,
+            "originY": 0.873903051587293
+        },
+        {
+            "type": "Image",
+            "id": "830f3726-f8a8-4afb-8811-cd9f487927e8",
+            "label": "mic",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "mic"
+            },
+            "x": 319.29869600047743,
+            "y": 635.4415240031034,
+            "originX": 0.5659739200095487,
+            "originY": 0.730554021538746
+        },
+        {
+            "type": "Sprite",
+            "id": "37ee0202-d7ec-41aa-8739-92a070323485",
+            "label": "blspeaker0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "blspeaker",
+            "Animation.end": 10,
+            "texture": {
+                "key": "lighthouse",
+                "frame": "blspeaker0001"
+            },
+            "x": 111,
+            "y": 296
+        },
+        {
+            "type": "Sprite",
+            "id": "6864a683-0622-4d38-95d0-2ea0751ba649",
+            "label": "bottomspeaker0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "bottomspeaker",
+            "Animation.end": 10,
+            "texture": {
+                "key": "lighthouse",
+                "frame": "bottomspeaker0001"
+            },
+            "x": 8,
+            "y": 875
+        },
+        {
+            "type": "Sprite",
+            "id": "9c05ec0e-080b-4725-8b4b-1a8a41921b0f",
+            "label": "instruments",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "instruments",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "instruments"
+            },
+            "x": 1189.8134786366043,
+            "y": 607.1020400947572,
+            "scaleX": 0.7,
+            "scaleY": 0.7,
+            "originX": 0.5031055954871473,
+            "originY": 0.6991055549754968,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "2f55df25-d93d-46ba-aa01-5ca87d084034",
+            "label": "top0001",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "top",
+            "Animation.end": 26,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
+            "Animation.stopOnOut": false,
+            "SimpleButton.callback": "() => {this.triggerRoom(411, 272, 680)}",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "top0001"
+            },
+            "x": 334,
+            "y": 63
+        },
+        {
+            "type": "Sprite",
+            "id": "aff61801-62b2-49f5-a452-392abaf35e51",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "door"
+            },
+            "x": 466,
+            "y": 401,
+            "angle": 1
+        },
+        {
+            "type": "Rectangle",
+            "id": "e6823f80-45c0-4be2-b2ed-794a0d60f0a6",
+            "label": "drumBounds",
+            "scope": "CLASS",
+            "x": 165,
+            "y": 486,
+            "visible": false,
+            "width": 200,
+            "height": 140
+        },
+        {
+            "type": "Image",
+            "id": "c43c8f03-c444-422a-acd4-2fd49335494c",
+            "label": "flags1",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "flags1"
+            },
+            "x": 110,
+            "y": 339
+        },
+        {
+            "type": "Image",
+            "id": "fdde5fba-c92e-4945-81bc-be2441330b1d",
+            "label": "flags2",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "flags2"
+            },
+            "x": 297,
+            "y": 311
+        },
+        {
+            "type": "Image",
+            "id": "5c1a8eb2-9311-41d2-aa54-1836e29fec60",
+            "label": "flags3",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "flags3"
+            },
+            "x": 446,
+            "y": 311
+        },
+        {
+            "type": "Image",
+            "id": "17b5ff58-0181-40c3-bc88-a2a899480b17",
+            "label": "flags4",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "flags4"
+            },
+            "x": 595,
+            "y": 304
+        },
+        {
+            "type": "Image",
+            "id": "cc75d9e5-7822-4ed5-a04c-7bb9e5af2728",
+            "label": "stagebox",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "stagebox"
+            },
+            "x": 27,
+            "y": 572,
+            "originX": 0.630938826461769,
+            "originY": 0.7106768051310765
+        },
+        {
+            "type": "Image",
+            "id": "754cbac9-66f4-42f8-a43e-a479ee7c5f5e",
+            "label": "crate",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "crate"
+            },
+            "x": 61.38873830560533,
+            "y": 689.4807787594916,
+            "originX": 0.5461796144100333,
+            "originY": 0.7239011607759196
+        },
+        {
+            "type": "Image",
+            "id": "ea9e2617-2323-4380-aefe-5a03f7d4cf7e",
+            "label": "pianobox",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "pianobox"
+            },
+            "x": 296.3360206641242,
+            "y": 824.9948200586161,
+            "originX": 0.45908799552423935,
+            "originY": 0.6817820122008929
+        },
+        {
+            "type": "Image",
+            "id": "904a25c8-bdf3-4be0-ada9-36181aede0da",
+            "label": "partybox",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "partybox"
+            },
+            "x": 587.5541446698176,
+            "y": 795.6687829952735,
+            "originX": 0.4153343174817521,
+            "originY": 0.6305509300368779
+        },
+        {
+            "type": "Image",
+            "id": "42f36091-b895-4084-be93-01985de9fe77",
+            "label": "crate2",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "crate2"
+            },
+            "x": 726,
+            "y": 847,
+            "originX": 0.5165305403280538,
+            "originY": 0.6859685786906047
+        },
+        {
+            "type": "Image",
+            "id": "6de9c56a-07c4-4b62-a09f-fc212091d160",
+            "label": "cornerbox",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "cornerbox"
+            },
+            "x": 1448.2572003596704,
+            "y": 686.9367146392573,
+            "originX": 0.2564169522005964,
+            "originY": 0.7590931306282106
+        },
+        {
+            "type": "Image",
+            "id": "432234d5-de98-4925-8134-c3d12c7714c0",
+            "label": "fg",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "fg"
+            },
+            "x": 1446,
+            "y": 938,
+            "originX": 0.5294211975031814,
+            "originY": 0.830929629515789
+        },
+        {
+            "type": "Image",
+            "id": "7dcdbcc9-0d03-4593-a9bf-b30ff828af19",
+            "label": "interfaceIcons",
+            "scope": "CLASS",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "shop",
+            "Button.callback": "() => this.interface.loadWidget('MusicCatalog')",
+            "texture": {
+                "key": "lighthouse",
+                "frame": "shop"
+            },
+            "x": 1434.0000206299962,
+            "y": 889.0000147169374
+        },
+        {
+            "type": "Container",
+            "id": "65900005-f399-439f-8f63-98ade165b7b4",
+            "label": "right_flags",
+            "x": 1653.027239093272,
+            "y": 651.4411092553503,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "e6d711b7-1e84-40bd-b8c8-fcda56559325",
+                    "label": "flags9",
+                    "texture": {
+                        "key": "prefair-lighthouse",
+                        "frame": "flags9"
+                    },
+                    "x": -83.0272710952238,
+                    "y": -366.44108215371466
+                },
+                {
+                    "type": "Image",
+                    "id": "ac7151f1-e4c4-42f5-b12e-665d2de2172d",
+                    "label": "flags8",
+                    "texture": {
+                        "key": "prefair-lighthouse",
+                        "frame": "flags8"
+                    },
+                    "x": -237.0272710952238,
+                    "y": -390.44108215371466
+                },
+                {
+                    "type": "Image",
+                    "id": "76bd91f1-ba53-448b-ab26-d530a6acb8c8",
+                    "label": "flags7",
+                    "texture": {
+                        "key": "prefair-lighthouse",
+                        "frame": "flags7"
+                    },
+                    "x": -395.0272710952238,
+                    "y": -415.44108215371466
+                },
+                {
+                    "type": "Image",
+                    "id": "80ef6a83-32b7-4dd1-b2e2-4379bf890641",
+                    "label": "flags6",
+                    "texture": {
+                        "key": "prefair-lighthouse",
+                        "frame": "flags6"
+                    },
+                    "x": -552.0272710952238,
+                    "y": -441.44108215371466
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "62bc758f-3f21-44ae-9186-64217c9a101d",
+            "label": "rockhoppernote",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "rockhoppernote"
+            },
+            "x": 909.8649041191413,
+            "y": 887.6343696767452,
+            "originX": 0.3648650408930104,
+            "originY": 2.6368522533699825
+        },
+        {
+            "type": "Image",
+            "id": "892a769a-7c1f-46e4-ad54-44a60b85a9ef",
+            "label": "topbox",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "topbox"
+            },
+            "x": 694.7196655273438,
+            "y": 914.003958983921,
+            "originX": 0.18505808013938635,
+            "originY": 5.205911405516159
+        },
+        {
+            "type": "Image",
+            "id": "7b2a40ab-3e14-4dbc-8a7d-d2f95104ed1b",
+            "label": "box",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "box"
+            },
+            "x": 709,
+            "y": 579,
+            "originX": 0.5040862956562517,
+            "originY": 0.6485521359660448
+        },
+        {
+            "type": "Image",
+            "id": "a2c02650-e59b-4ea7-8794-965c9e8a7ad5",
+            "label": "doorbox",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "doorbox"
+            },
+            "x": 441.66362711940064,
+            "y": 517.1191156097086,
+            "originX": 0.6316271186504255,
+            "originY": 0.7443163568442217
+        },
+        {
+            "type": "Image",
+            "id": "9cbefcc2-740b-4800-bc52-3b69a3c3ace8",
+            "label": "longbox",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "longbox"
+            },
+            "x": 1136.0558608020312,
+            "y": 848.5175457904562,
+            "originX": 0.40299642884649295,
+            "originY": 0.6218525688624674
+        },
+        {
+            "type": "Image",
+            "id": "62b38113-1c8e-4d1d-a8dc-1d21f78ddaa1",
+            "label": "topbox2",
+            "texture": {
+                "key": "prefair-lighthouse",
+                "frame": "topbox2"
+            },
+            "x": 978.6485719657455,
+            "y": 1053.8115424935108,
+            "originX": -0.03647690251319149,
+            "originY": 4.651289893253115
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1bc796af-8118-4a54-b624-39e93ad42d65",
+            "label": "sort",
+            "objectIds": [
+                "5267d162-b0a8-496a-85f8-a275b4a8e7bc",
+                "830f3726-f8a8-4afb-8811-cd9f487927e8",
+                "b5c357bd-ffe3-4e78-a05c-1791366e90ff",
+                "84472ea8-19f5-4cf2-8683-0e5cfb71ae8c",
+                "e2233a5e-d7d0-4d3d-a6ad-272e1fa9bb84",
+                "9c05ec0e-080b-4725-8b4b-1a8a41921b0f",
+                "754cbac9-66f4-42f8-a43e-a479ee7c5f5e",
+                "ea9e2617-2323-4380-aefe-5a03f7d4cf7e",
+                "42f36091-b895-4084-be93-01985de9fe77",
+                "904a25c8-bdf3-4be0-ada9-36181aede0da",
+                "432234d5-de98-4925-8134-c3d12c7714c0",
+                "6de9c56a-07c4-4b62-a09f-fc212091d160",
+                "62bc758f-3f21-44ae-9186-64217c9a101d",
+                "892a769a-7c1f-46e4-ad54-44a60b85a9ef",
+                "7b2a40ab-3e14-4dbc-8a7d-d2f95104ed1b",
+                "a2c02650-e59b-4ea7-8794-965c9e8a7ad5",
+                "65900005-f399-439f-8f63-98ade165b7b4",
+                "9cbefcc2-740b-4800-bc52-3b69a3c3ace8",
+                "cc75d9e5-7822-4ed5-a04c-7bb9e5af2728",
+                "62b38113-1c8e-4d1d-a8dc-1d21f78ddaa1"
+            ]
+        }
+    ]
+}

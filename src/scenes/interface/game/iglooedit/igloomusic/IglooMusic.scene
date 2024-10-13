@@ -1,0 +1,284 @@
+{
+    "id": "d6cf4a9b-bcc7-4de0-bd9b-d33346f4fd2b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 56,
+        "snapHeight": 56,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "4e0718fd-22be-4c04-a02b-3bc66e3f302d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "c1a39cb7-0456-440d-bd05-bc612858fa23",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "fa4a2baa-aaa4-4aa6-94aa-a402389e7287",
+                    "label": "music_inventory_selected",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "music_store_selected"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "a9c23562-2c7b-4a40-b7a2-8ecfa47fa923",
+                    "label": "music_store_selected",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "music_inventory_selected"
+                    },
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "d3f83dbd-9623-45fe-b727-b65e9aca1dcd",
+                    "label": "upArrow",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "store_up"
+                    },
+                    "x": 482,
+                    "y": -214
+                },
+                {
+                    "type": "Image",
+                    "id": "492d926a-5a6c-414a-8a9a-b81b2ec6aa5a",
+                    "label": "downArrow",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "store_up"
+                    },
+                    "x": 482,
+                    "y": 337,
+                    "flipY": true
+                },
+                {
+                    "type": "Image",
+                    "id": "3fd873f1-521f-42b9-a1f0-f6acab233bbd",
+                    "label": "blueButton",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "store_x",
+                    "Button.callback": "() => this.onMusicClose();",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "store_x"
+                    },
+                    "x": 482,
+                    "y": -285
+                },
+                {
+                    "type": "Image",
+                    "id": "75fe99d2-a883-4bcd-8258-6d007197f22a",
+                    "label": "my_music_txt",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "music_txt_here.png"
+                    },
+                    "x": -302,
+                    "y": -278
+                },
+                {
+                    "type": "Container",
+                    "id": "655679bd-7b02-4616-a306-f1b5b481a04a",
+                    "label": "store_text",
+                    "scope": "CLASS",
+                    "x": -760,
+                    "y": -480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9d387aa6-c482-4ea9-8e7a-1ab5668b773c",
+                            "label": "music_store_text_1",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "new-iglooedit",
+                                "frame": "music_store_text"
+                            },
+                            "x": 547,
+                            "y": 202
+                        },
+                        {
+                            "type": "Text",
+                            "id": "c3783c74-1c13-41fb-ad13-1ce412739308",
+                            "label": "text_1",
+                            "x": 1028,
+                            "y": 202,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "All Igloo Music costs 100 ",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "24px",
+                            "fontStyle": "bold",
+                            "color": "#3D82C4"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "01ce2b23-8259-49ec-820b-ed2f4d9893d5",
+                            "label": "text",
+                            "x": 273,
+                            "y": 220,
+                            "text": "Click the Play Icon to Preview!",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "18px",
+                            "fontStyle": "bold",
+                            "color": "#3D82C4"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ae0055a4-27ff-48cb-9a90-d3b98de6619f",
+                            "label": "store_coin",
+                            "texture": {
+                                "key": "new-iglooedit",
+                                "frame": "store_coin"
+                            },
+                            "x": 1182,
+                            "y": 202,
+                            "scaleX": 0.25,
+                            "scaleY": 0.25
+                        },
+                        {
+                            "type": "Image",
+                            "id": "56c55267-d82d-479d-9757-6da38574d01b",
+                            "label": "seasonal",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => {this.toggleSeasonalFilter()}",
+                            "texture": {
+                                "key": "new-iglooedit",
+                                "frame": "seasonal"
+                            },
+                            "x": 722,
+                            "y": 202,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "d875c79a-64b1-42b3-a391-348d126c6336",
+                    "label": "inv_text",
+                    "scope": "CLASS",
+                    "x": -475,
+                    "y": -407,
+                    "text": "Music Inventory",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "30px",
+                    "fontStyle": "bold",
+                    "color": "#3D82C4"
+                },
+                {
+                    "type": "Text",
+                    "id": "c3deedc4-87e1-4203-9565-9530c43d8937",
+                    "label": "mstore_text",
+                    "scope": "CLASS",
+                    "x": -91,
+                    "y": -407,
+                    "text": "Music Store",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "30px",
+                    "fontStyle": "bold",
+                    "color": "#3D82C4"
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "eaf04e2d-8b89-4830-bfaa-9195c1879131",
+                    "label": "inv_rect",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onMusicTab(\"inventory\")}",
+                    "x": -364,
+                    "y": -386,
+                    "width": 325,
+                    "height": 70
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "56255a0f-e383-4bc1-b8da-2789cc195fdc",
+                    "label": "store_rect",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onMusicTab(\"store\")}",
+                    "x": -15,
+                    "y": -388,
+                    "width": 325,
+                    "height": 70
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "b41d6dfe-a024-4d2f-8a5d-12a0d772efb9",
+            "label": "title_name",
+            "objectIds": [
+                "0f2946d5-2f49-4988-87ad-0dd4ee878d23",
+                "13fe472d-b508-4d2f-a2ce-b8063edb8dbc",
+                "4aed34a4-c390-4c15-8094-acebbc7be880",
+                "2f9befce-203d-4496-a06d-1baafce46466",
+                "a0ad0fbf-631c-44a8-aa59-4ec3beb3b8ee",
+                "74f2314b-50d6-4277-bbb9-0a5a0f88f468",
+                "e8974658-fe69-4183-afd9-e57bf859b698",
+                "5abe2ad4-8834-4451-bc17-50359b846f5e",
+                "524cf9a9-391c-457e-82d3-ce9f21f3bf90",
+                "b2db1b2b-a0d7-41ee-aea0-7c084e86b1ae",
+                "60ab145b-54af-4fec-af9c-5a66cd9e4307",
+                "dc3754a5-fcf2-4252-8983-b9f556def239",
+                "683ea79f-47b7-433f-a0a0-73691f17238c",
+                "e490f3dc-0706-41f4-8415-0746423255b1",
+                "f1682926-b4fb-4218-8ff4-4f42b51be802"
+            ]
+        },
+        {
+            "id": "53203e80-6bc6-47e6-be47-c77b4e41ec4b",
+            "label": "music_inventory"
+        }
+    ]
+}

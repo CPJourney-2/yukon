@@ -1,0 +1,372 @@
+{
+    "id": "cafc54ac-4f44-4ef0-9bdb-21f2dd15324e",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eefc5a3-1b9a-4b15-a92a-1a543086f96d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "637cca7d-b294-4dcd-aa38-991230ee66f5",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Text",
+                    "id": "e058206d-0bc4-4e36-b7c5-0cb729de1865",
+                    "label": "text_1",
+                    "x": -660,
+                    "y": -669,
+                    "text": "total cards text field is Burbank Small Bold 24\ncardsViewMask is at a seemingly nonsensical place because it's +760 +480 to account for prefab position",
+                    "fontSize": "40px",
+                    "stroke": "#000",
+                    "strokeThickness": 20
+                },
+                {
+                    "type": "Image",
+                    "id": "4b716316-347f-492c-b596-2e1cd3a87f24",
+                    "label": "bg",
+                    "texture": {
+                        "key": "cjninjaprogress",
+                        "frame": "bg"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "0885ffa4-cf30-4c38-aa8b-1a83feb36587",
+                    "label": "closebtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.interface.destroyWidget(this)",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "cjninjaprogress",
+                        "frame": "closebtn"
+                    },
+                    "x": 546,
+                    "y": -315
+                },
+                {
+                    "type": "Image",
+                    "id": "e4daeda9-5657-4981-acee-168884ebf5fe",
+                    "label": "bgtop",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onView()",
+                    "texture": {
+                        "key": "cjninjaprogress",
+                        "frame": "bgtop"
+                    },
+                    "x": 2,
+                    "y": -216
+                },
+                {
+                    "type": "Image",
+                    "id": "f8b090cc-318d-4d42-a749-df2d192f75cd",
+                    "label": "beltsbg",
+                    "texture": {
+                        "key": "cjninjaprogress",
+                        "frame": "beltsbg"
+                    },
+                    "y": -5
+                },
+                {
+                    "type": "Container",
+                    "id": "44b86d68-ce4b-4417-82e8-e277150a24d1",
+                    "label": "normalBelts",
+                    "scope": "CLASS",
+                    "x": -402,
+                    "y": 9,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "d34dfe62-46eb-44af-bdee-07890dce86c0",
+                            "label": "currentBelt",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "cjninjaprogress",
+                                "frame": "bigbelt0001"
+                            },
+                            "y": 55
+                        },
+                        {
+                            "type": "Image",
+                            "id": "00cf518e-b43c-4fb1-8119-18a5cf781f44",
+                            "label": "percentage",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "cjninjaprogress",
+                                "frame": "percentage0001"
+                            },
+                            "x": 430
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8c38fc83-c4d5-418f-9473-2fafae6707d4",
+                            "label": "nextBelt",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "cjninjaprogress",
+                                "frame": "minibelt0001"
+                            },
+                            "x": 841,
+                            "y": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d5c077cd-f7a3-459b-a7f8-8b59a8b29639",
+                    "label": "fightSensayContainer",
+                    "scope": "CLASS",
+                    "x": -402,
+                    "y": -24,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "b115679a-2ee6-4840-96f4-2c7b9ec4e14d",
+                            "label": "rectangle_1",
+                            "x": 836,
+                            "y": 5,
+                            "isFilled": true,
+                            "fillColor": "#EFEBDA",
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "5172b9cb-6790-4175-b87a-d6cee94659a8",
+                            "label": "rectangle",
+                            "isFilled": true,
+                            "fillColor": "#EFEBDA",
+                            "width": 200,
+                            "height": 128
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ea7428d0-8afe-4cb1-b7c7-0ec9f21c3471",
+                            "label": "fightsensay",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "cjninjaprogress",
+                                "frame": "fightsensay0001"
+                            },
+                            "x": 433,
+                            "y": 5
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "093be353-914a-46ae-80a9-9dbaba682dc8",
+                    "label": "imANinja",
+                    "scope": "CLASS",
+                    "x": -408,
+                    "y": -29,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "e26c9561-3a49-426f-a733-679bb4902209",
+                            "label": "rectangle_2",
+                            "isFilled": true,
+                            "fillColor": "#EFEBDA",
+                            "width": 200,
+                            "height": 128
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "9e3bc126-e274-4604-b207-db0d20dcb083",
+                            "label": "rectangle_3",
+                            "x": 836,
+                            "y": 5,
+                            "isFilled": true,
+                            "fillColor": "#EFEBDA",
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Image",
+                            "id": "52bddad4-9d0e-4f08-84b2-71b8db1efbe8",
+                            "label": "ninjamask",
+                            "texture": {
+                                "key": "cjninjaprogress",
+                                "frame": "ninjamask"
+                            },
+                            "x": 28,
+                            "y": 27
+                        },
+                        {
+                            "type": "Image",
+                            "id": "adbfdc03-8130-43b5-8ef2-245da08a51cf",
+                            "label": "elhideoutdeninja",
+                            "texture": {
+                                "key": "cjninjaprogress",
+                                "frame": "elhideoutdeninja"
+                            },
+                            "x": 831,
+                            "y": 30
+                        },
+                        {
+                            "type": "Text",
+                            "id": "125b1577-6207-457a-848a-56e291465b8d",
+                            "label": "text_3",
+                            "x": 449,
+                            "y": 27,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Continue your journey in the\nNinja Hideout next to the dojo.",
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "26px",
+                            "color": "#333333"
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "1a33239f-184d-46fd-92af-5a24b068d0a7",
+                    "label": "ninjabtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.onView()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "cjninjaprogress",
+                        "frame": "ninjabtn"
+                    },
+                    "x": -250,
+                    "y": 242
+                },
+                {
+                    "type": "Image",
+                    "id": "e6b3eb9d-087b-4be8-a457-392958a55b88",
+                    "label": "ninjabtn_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.onAdd()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "cjninjaprogress",
+                        "frame": "ninjabtn"
+                    },
+                    "x": 250,
+                    "y": 242
+                },
+                {
+                    "type": "Text",
+                    "id": "40146c65-6388-426d-82f7-cae2271e1998",
+                    "label": "text_2",
+                    "x": -393,
+                    "y": 221,
+                    "text": "VIEW YOUR\nCARDS",
+                    "align": "center",
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "20px",
+                    "fontStyle": "bold italic",
+                    "color": "#736357"
+                },
+                {
+                    "type": "Image",
+                    "id": "8190e224-123c-4fd0-8e85-6e62753c2f52",
+                    "label": "cards",
+                    "texture": {
+                        "key": "cjninjaprogress",
+                        "frame": "cards"
+                    },
+                    "x": -173,
+                    "y": 238
+                },
+                {
+                    "type": "Image",
+                    "id": "b9f10fe0-84b6-431a-816f-761786425916",
+                    "label": "plus",
+                    "texture": {
+                        "key": "cjninjaprogress",
+                        "frame": "plus"
+                    },
+                    "x": 121,
+                    "y": 242
+                },
+                {
+                    "type": "Text",
+                    "id": "9abb7176-cf68-48ae-bd4e-99969120a27f",
+                    "label": "text",
+                    "x": 165,
+                    "y": 230,
+                    "text": "ADD NEW CARDS",
+                    "align": "center",
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "20px",
+                    "fontStyle": "bold italic",
+                    "color": "#736357"
+                },
+                {
+                    "prefabId": "619a5671-6408-44f7-9bdd-7ce59d5d7037",
+                    "id": "c458ca13-081c-4d96-98ef-e2090f207006",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible",
+                        "alpha"
+                    ],
+                    "label": "cardsView",
+                    "scope": "CLASS",
+                    "x": 0,
+                    "y": -575,
+                    "visible": false,
+                    "alpha": 1
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "f7fb451d-a1f2-450f-b53f-d300956a310d",
+                    "label": "cardsViewMask",
+                    "scope": "CLASS",
+                    "x": 762,
+                    "y": 669,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 1164,
+                    "height": 800
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "id": "33aa9d06-9080-45b7-b85c-c0cbac054939",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "b7250109-6582-41b8-a137-c6ea76202c1a",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "c5dcca05-559c-4bd7-8ae7-c8221a5003bd",
+                    "label": "game",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button",
+                        "ShowHint",
+                        "MoveTo"
+                    ],
+                    "Button.spriteName": "animations/box/4",
+                    "ShowHint.text": "treasurehunt_hint",
+                    "MoveTo.x": "this.x",
+                    "MoveTo.y": "this.y + 20",
+                    "texture": {
+                        "key": "shipquarters",
+                        "frame": "animations/box/4"
+                    },
+                    "originY": 0.14654327113279855
+                },
+                {
+                    "prefabId": "3d402c83-0ef8-4993-bf56-3e076074ec9e",
+                    "id": "33cb5180-e83d-46a0-9c4e-8a5b80ed6cfc",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "sitFrame",
+                        "donePoint"
+                    ],
+                    "label": "seat1",
+                    "scope": "CLASS",
+                    "sitFrame": 24,
+                    "donePoint": "done1",
+                    "x": -57,
+                    "y": 27
+                },
+                {
+                    "prefabId": "3d402c83-0ef8-4993-bf56-3e076074ec9e",
+                    "id": "5ab52f32-4ed5-4b64-aa46-425f6054e771",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "done1",
+                    "x": 41,
+                    "y": -14
+                },
+                {
+                    "prefabId": "3d402c83-0ef8-4993-bf56-3e076074ec9e",
+                    "id": "f8e3498c-c528-4ef7-8df3-721899972fe7",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "done2",
+                    "x": 126,
+                    "y": 23
+                },
+                {
+                    "prefabId": "3d402c83-0ef8-4993-bf56-3e076074ec9e",
+                    "id": "52aa8fa4-a435-44e5-ada9-3e25bda553e2",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "sitFrame",
+                        "donePoint"
+                    ],
+                    "label": "seat2",
+                    "scope": "CLASS",
+                    "sitFrame": 18,
+                    "donePoint": "done2",
+                    "x": 54,
+                    "y": 42
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "id": "d6cf4a9b-bcc8-4de0-bd9b-d33346f4fd2b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 56,
+        "snapHeight": 56,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "4e0718fd-22be-4c04-a02b-3bc66e3f302d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "c1a39cb7-0456-440d-bd05-bc612858fa23",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "fa4a2baa-aaa4-4aa6-94aa-a402389e7287",
+                    "label": "music_inventory_selected",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "store_background"
+                    }
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "a20c9ef4-0cd9-4530-b37a-edc8a519af85",
+                    "label": "youtube_place",
+                    "scope": "CLASS",
+                    "y": 48,
+                    "fillColor": "#DBECFD",
+                    "width": 900,
+                    "height": 500
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "954ee5c8-cacb-4cb5-8d09-8b8d5af117bf",
+                    "label": "rectangle_1",
+                    "x": 460,
+                    "y": 33,
+                    "scaleX": 0.7007442709804543,
+                    "scaleY": 4.637366386597599,
+                    "isFilled": true,
+                    "fillColor": "#E8F1FE",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "761cae39-37b6-4914-8bf0-22ec68050c6e",
+                    "label": "rectangle_2",
+                    "x": -321,
+                    "y": 28,
+                    "scaleX": 0.2299589634513648,
+                    "scaleY": 4.637366386597599,
+                    "isFilled": true,
+                    "fillColor": "#DBECFD",
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "3fd873f1-521f-42b9-a1f0-f6acab233bbd",
+                    "label": "blueButton",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "store_x",
+                    "Button.callback": "() => this.onClose()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "store_x"
+                    },
+                    "x": 513,
+                    "y": -303
+                },
+                {
+                    "type": "Text",
+                    "id": "d875c79a-64b1-42b3-a391-348d126c6336",
+                    "label": "tutorial_text",
+                    "scope": "CLASS",
+                    "y": -322,
+                    "originX": 0.5,
+                    "text": "Need help on how to navigate the igloo editor? Watch the video below!",
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#3D82C4",
+                    "wordWrapWidth": 800
+                },
+                {
+                    "type": "Container",
+                    "id": "5b413979-875d-47b2-ad96-ddcf6bfed440",
+                    "label": "live",
+                    "scope": "CLASS",
+                    "visible": false
+                },
+                {
+                    "prefabId": "1de1eb22-93eb-4755-aeba-c735ea72b677",
+                    "id": "33bdad42-7e83-42fd-bd52-be39df66e2c8",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "tintFill",
+                        "tintTopLeft",
+                        "tintTopRight",
+                        "tintBottomLeft",
+                        "tintBottomRight"
+                    ],
+                    "label": "spinner",
+                    "scope": "CLASS",
+                    "x": 0,
+                    "y": 11,
+                    "tintTopLeft": "#3D82C4",
+                    "tintTopRight": "#3D82C4",
+                    "tintBottomLeft": "#3D82C4",
+                    "tintBottomRight": "#3D82C4",
+                    "tintFill": true
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "b41d6dfe-a024-4d2f-8a5d-12a0d772efb9",
+            "label": "title_name",
+            "objectIds": [
+                "0f2946d5-2f49-4988-87ad-0dd4ee878d23",
+                "13fe472d-b508-4d2f-a2ce-b8063edb8dbc",
+                "4aed34a4-c390-4c15-8094-acebbc7be880",
+                "2f9befce-203d-4496-a06d-1baafce46466",
+                "a0ad0fbf-631c-44a8-aa59-4ec3beb3b8ee",
+                "74f2314b-50d6-4277-bbb9-0a5a0f88f468",
+                "e8974658-fe69-4183-afd9-e57bf859b698",
+                "5abe2ad4-8834-4451-bc17-50359b846f5e",
+                "524cf9a9-391c-457e-82d3-ce9f21f3bf90",
+                "b2db1b2b-a0d7-41ee-aea0-7c084e86b1ae",
+                "60ab145b-54af-4fec-af9c-5a66cd9e4307",
+                "dc3754a5-fcf2-4252-8983-b9f556def239",
+                "683ea79f-47b7-433f-a0a0-73691f17238c",
+                "e490f3dc-0706-41f4-8415-0746423255b1",
+                "f1682926-b4fb-4218-8ff4-4f42b51be802"
+            ]
+        },
+        {
+            "id": "53203e80-6bc6-47e6-be47-c77b4e41ec4b",
+            "label": "music_inventory"
+        }
+    ]
+}

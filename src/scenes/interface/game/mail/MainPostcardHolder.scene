@@ -1,0 +1,62 @@
+{
+    "id": "d755a6c6-b827-4dde-9370-7d901b5db69c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0f8e1edd-13fb-4e28-bd1f-19404988e187",
+            "label": "cardHolder",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "prefabId": "1de1eb22-93eb-4755-aeba-c735ea72b677",
+                    "id": "6bf4002a-5cbc-400f-b064-afbcad6662b3",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "spinner",
+                    "scope": "CLASS",
+                    "x": 489,
+                    "y": 351
+                },
+                {
+                    "type": "Image",
+                    "id": "35dd58ee-bc67-4bea-9bd4-39673fd06c03",
+                    "label": "nullcard",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mail-book-sendpopup",
+                        "frame": "impostorcard"
+                    },
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Container",
+                    "id": "65ed76a7-260c-4f1f-8dd9-9bff2caa59f7",
+                    "label": "holderContainer",
+                    "scope": "CLASS"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

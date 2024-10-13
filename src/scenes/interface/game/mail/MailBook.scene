@@ -1,0 +1,370 @@
+{
+    "id": "8105b01d-8034-44dc-93f8-f54cbc964b8d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eefc5a3-1b9a-4b15-a92a-1a543086f96d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "637cca7d-b294-4dcd-aa38-991230ee66f5",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -12,
+                    "y": 10,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Image",
+                    "id": "3f4836f6-7a22-46b7-8619-feab888f90f4",
+                    "label": "bg",
+                    "texture": {
+                        "key": "mail-book-bg"
+                    },
+                    "x": -52,
+                    "y": 2
+                },
+                {
+                    "type": "Container",
+                    "id": "64d1bc52-4a28-43f3-9156-63e088ecf77c",
+                    "label": "mainview",
+                    "scope": "CLASS",
+                    "x": -660,
+                    "y": -320,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "2948f0bb-4b84-4772-a16c-78174982f252",
+                            "label": "categoryTitle",
+                            "scope": "CLASS",
+                            "x": 479,
+                            "y": 9,
+                            "originY": 0.5,
+                            "text": "Activities",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "40px",
+                            "color": "#333333",
+                            "stroke": "#333333"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2ae3f1b6-41c3-4248-b4f8-6d2e3c8bf178",
+                            "label": "mail_book_header",
+                            "texture": {
+                                "key": "mail-book-header"
+                            },
+                            "x": 745,
+                            "y": 13
+                        },
+                        {
+                            "prefabId": "d0f88fd5-413f-4405-90d1-55390a4a1bc3",
+                            "id": "eb51e38d-88e3-4f07-a9e9-820386da6a80",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "container_1",
+                            "scope": "CLASS",
+                            "x": 298,
+                            "y": 205
+                        },
+                        {
+                            "prefabId": "d0f88fd5-413f-4405-90d1-55390a4a1bc3",
+                            "id": "3fc0df69-cf03-4d98-9cba-9ee7af32a0a9",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "container_2",
+                            "scope": "CLASS",
+                            "x": 717,
+                            "y": 207
+                        },
+                        {
+                            "prefabId": "d0f88fd5-413f-4405-90d1-55390a4a1bc3",
+                            "id": "c0fed8a1-46c4-466c-9b5a-5c408d2257c5",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "container_3",
+                            "scope": "CLASS",
+                            "x": 1114,
+                            "y": 209
+                        },
+                        {
+                            "prefabId": "d0f88fd5-413f-4405-90d1-55390a4a1bc3",
+                            "id": "d947301d-7e17-4cf8-8a1a-a086c179fc17",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "container_4",
+                            "scope": "CLASS",
+                            "x": 298,
+                            "y": 511
+                        },
+                        {
+                            "prefabId": "d0f88fd5-413f-4405-90d1-55390a4a1bc3",
+                            "id": "4039e263-93b8-42db-b3eb-7a946ec07d73",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "container_5",
+                            "scope": "CLASS",
+                            "x": 717,
+                            "y": 513
+                        },
+                        {
+                            "prefabId": "d0f88fd5-413f-4405-90d1-55390a4a1bc3",
+                            "id": "c31bafc2-d24a-4a91-beab-5ce460a1b8d1",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "container_6",
+                            "scope": "CLASS",
+                            "x": 1114,
+                            "y": 515
+                        },
+                        {
+                            "type": "Image",
+                            "id": "571bb05b-9021-41cb-bb51-19bc8528b798",
+                            "label": "pageCurl04",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "pageCurl04",
+                            "Button.callback": "() => {this.onNext()}",
+                            "texture": {
+                                "key": "stampbook-inside",
+                                "frame": "pageCurl04"
+                            },
+                            "x": 1274,
+                            "y": 601
+                        },
+                        {
+                            "type": "Image",
+                            "id": "bf8ee7cb-3a37-47b2-8f8f-2f113cc514e5",
+                            "label": "pageCurl03",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "pageCurl03",
+                            "Button.callback": "() => this.onPrev()",
+                            "texture": {
+                                "key": "stampbook-inside",
+                                "frame": "pageCurl03"
+                            },
+                            "y": 602,
+                            "flipX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "de4194a1-6ef4-442a-8186-409d378bf1f0",
+                    "label": "buddy",
+                    "scope": "CLASS",
+                    "x": -594,
+                    "y": -361,
+                    "visible": false,
+                    "list": [
+                        {
+                            "prefabId": "cda13a82-2ed2-4422-be5d-9a05c903ac25",
+                            "id": "a5978f4d-fb47-425a-8465-611ced26eb13",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "userList",
+                            "scope": "CLASS",
+                            "x": 1051,
+                            "y": 349
+                        },
+                        {
+                            "type": "Image",
+                            "id": "56f66cb4-2b68-4939-8d76-adc8117e1f2a",
+                            "label": "send",
+                            "texture": {
+                                "key": "mail-book-buddy",
+                                "frame": "send"
+                            },
+                            "x": 622,
+                            "y": 294,
+                            "originX": 0.5043478260869565,
+                            "originY": 0.5074626865671642
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b6ecc7d3-3b19-43d5-a89d-11eb15ccb95b",
+                            "label": "penguin",
+                            "texture": {
+                                "key": "mail-book-buddy",
+                                "frame": "penguin"
+                            },
+                            "x": 175,
+                            "y": 479,
+                            "originX": 0.5012722646310432,
+                            "originY": 0.5011337868480725
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0b6cab7c-eb99-475a-b6f6-3bdf204708fe",
+                            "label": "separator4",
+                            "texture": {
+                                "key": "mail-book-buddy",
+                                "frame": "separator/1"
+                            },
+                            "x": 611,
+                            "y": 349,
+                            "originX": 0.501187648456057
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7ddb4161-69f5-48f8-9477-9c0220edaa1f",
+                            "label": "separator3",
+                            "texture": {
+                                "key": "mail-book-buddy",
+                                "frame": "separator/3"
+                            },
+                            "x": 229,
+                            "y": 188,
+                            "originY": 0.5081967213114754
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6f650782-70b5-44f3-9f41-0d4cb0c526c4",
+                            "label": "sendText3",
+                            "x": 420,
+                            "y": 339,
+                            "text": "Send to:",
+                            "fixedWidth": 380,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "56px",
+                            "fontStyle": "italic",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6b716a54-bfcc-4a0f-9dd5-71bd0156a9d0",
+                            "label": "coinText2",
+                            "x": 251,
+                            "y": 158,
+                            "text": "10",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "50px",
+                            "fontStyle": "bold",
+                            "color": "#000000"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "1dc4c2f4-fef9-4740-bfb4-4e81cc3bad50",
+                            "label": "sendText2",
+                            "x": 11,
+                            "y": 150,
+                            "text": "Buy and send\npostcards for",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "30px",
+                            "color": "#000000"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f4867145-a1a1-4075-90af-5f4334b9bdce",
+                            "label": "postcardsText2",
+                            "x": 127,
+                            "y": 48,
+                            "originY": 0.5,
+                            "text": "Postcards",
+                            "fixedWidth": 400,
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "55px",
+                            "fontStyle": "bold",
+                            "color": "#000000"
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "d818e76a-a9ad-48c7-8301-47d2c50e44ac",
+                    "label": "buttons_close",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pageCurlExit",
+                    "Button.callback": "() => this.onClose()",
+                    "Button.activeFrame": true,
+                    "Button.pixelPerfect": true,
+                    "texture": {
+                        "key": "stampbook-inside",
+                        "frame": "pageCurlExit"
+                    },
+                    "x": 617,
+                    "y": -320,
+                    "scaleY": -1
+                },
+                {
+                    "prefabId": "f902fa24-3f41-47f9-a9cb-1a01e9555453",
+                    "id": "13f9adb3-488a-4100-b6e1-3a15bcbd706f",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "sendConfirmation",
+                    "scope": "CLASS",
+                    "x": 0,
+                    "y": 0,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "565bba90-061d-4e5d-a971-fe0ecd49e346",
+            "label": "cardIcons",
+            "objectIds": [
+                "eb51e38d-88e3-4f07-a9e9-820386da6a80",
+                "3fc0df69-cf03-4d98-9cba-9ee7af32a0a9",
+                "c0fed8a1-46c4-466c-9b5a-5c408d2257c5",
+                "d947301d-7e17-4cf8-8a1a-a086c179fc17",
+                "4039e263-93b8-42db-b3eb-7a946ec07d73",
+                "c31bafc2-d24a-4a91-beab-5ce460a1b8d1"
+            ]
+        }
+    ]
+}

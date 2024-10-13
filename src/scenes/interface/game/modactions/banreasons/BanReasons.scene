@@ -1,0 +1,485 @@
+{
+    "id": "13b2b0bb-4b2a-45e0-814d-8c552f023ff7",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "b03631d8-7496-4675-9a4f-50820d1f52cd",
+            "label": "banrecom",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "NineSlice",
+                    "id": "eac64f0d-edad-4838-ad23-0a3068291a92",
+                    "label": "bg_2",
+                    "scope": "CLASS",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "x": 418,
+                    "y": 360,
+                    "width": 1000,
+                    "height": 720,
+                    "leftWidth": 44,
+                    "rightWidth": 39,
+                    "topHeight": 40,
+                    "bottomHeight": 41
+                },
+                {
+                    "type": "Image",
+                    "id": "cb779a2b-e7c4-4240-8fd1-ef96af91a35d",
+                    "label": "x_button_3",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 851,
+                    "y": 57
+                },
+                {
+                    "type": "Image",
+                    "id": "b5bfe38a-2848-49b9-a3cf-830e2cf4744e",
+                    "label": "blue_x_1",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 851,
+                    "y": 55
+                },
+                {
+                    "type": "Text",
+                    "id": "8dcfbd6c-5cd7-4e8f-8c5e-44a9a2fdef7c",
+                    "label": "title",
+                    "scope": "CLASS",
+                    "x": 236,
+                    "y": 64,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Ban Reasons",
+                    "fixedWidth": 500,
+                    "fixedHeight": 50,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.fill": true,
+                    "shadow.color": "#003366"
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "3be1a00b-dfed-4f5f-a446-d03331405739",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item1",
+                    "scope": "CLASS",
+                    "x": -22,
+                    "y": 113
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "3c0e64f1-942b-4f25-93fa-805f55a4544f",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item3",
+                    "scope": "CLASS",
+                    "x": -22,
+                    "y": 164
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "da4eeb87-fe01-4a77-852b-3ebc4e3b4d5f",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item7",
+                    "scope": "CLASS",
+                    "x": -22,
+                    "y": 268
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "d5bbf525-b0cc-40ad-9017-3c1dd501620d",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item5",
+                    "scope": "CLASS",
+                    "x": -22,
+                    "y": 217
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "bfea084d-45e0-4b0b-ac56-b084fa9547e4",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item9",
+                    "scope": "CLASS",
+                    "x": -22,
+                    "y": 320
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "11aeeee8-0c13-440e-87f2-65ed77be375f",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item13",
+                    "scope": "CLASS",
+                    "x": -22,
+                    "y": 424
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "b76e9178-d42c-4235-9aaa-08e991baff2f",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item15",
+                    "scope": "CLASS",
+                    "x": -22,
+                    "y": 475
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "8163fa32-59b9-47a1-9b07-8dcdd300b918",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item11",
+                    "scope": "CLASS",
+                    "x": -22,
+                    "y": 371
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "8de8b0c1-64d7-4bba-85f5-995d3a427fc3",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item21",
+                    "scope": "CLASS",
+                    "x": -22,
+                    "y": 634
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "83f8e331-7ab8-4bda-b505-f2f6b5706b10",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item19",
+                    "scope": "CLASS",
+                    "x": -22,
+                    "y": 583
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "78a4439b-c5b9-43d0-8b28-de9eaad2e9d2",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item17",
+                    "scope": "CLASS",
+                    "x": -22,
+                    "y": 530
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "f9b1fb19-fe45-4786-bcb3-0310e021e11f",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item2",
+                    "scope": "CLASS",
+                    "x": 398,
+                    "y": 113
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "b19b3fc7-a8a5-44c1-b21a-5bbbf8653fde",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item18",
+                    "scope": "CLASS",
+                    "x": 398,
+                    "y": 530
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "fd0ca06a-3e13-4fd7-a144-c790cc895870",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item20",
+                    "scope": "CLASS",
+                    "x": 398,
+                    "y": 583
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "5e110c7d-207b-4853-b2d8-df79ff64d64c",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item22",
+                    "scope": "CLASS",
+                    "x": 398,
+                    "y": 634
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "3e145dcf-f1f3-4121-8306-9d548f305989",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item12",
+                    "scope": "CLASS",
+                    "x": 398,
+                    "y": 371
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "d5f1354a-6b59-4358-9df1-ad8ccfecf8dc",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item16",
+                    "scope": "CLASS",
+                    "x": 398,
+                    "y": 475
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "04921bf4-e0b3-46ae-8128-9cbdce507d32",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item14",
+                    "scope": "CLASS",
+                    "x": 398,
+                    "y": 424
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "803d1e80-1792-49b8-b99e-d0ed57a6b121",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item10",
+                    "scope": "CLASS",
+                    "x": 398,
+                    "y": 320
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "23fbe6f0-f9a9-4ac4-845f-8a48359f06a1",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item6",
+                    "scope": "CLASS",
+                    "x": 398,
+                    "y": 217
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "501f4cb8-01cd-4305-9ed2-b681fde8ce7a",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item8",
+                    "scope": "CLASS",
+                    "x": 398,
+                    "y": 268
+                },
+                {
+                    "prefabId": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+                    "id": "68a2a717-b66a-41a0-a191-3a04ecb63f9a",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "txt"
+                    ],
+                    "label": "item4",
+                    "scope": "CLASS",
+                    "x": 398,
+                    "y": 164
+                },
+                {
+                    "type": "Image",
+                    "id": "ef60f630-5406-450b-a9aa-83f4d4d802ad",
+                    "label": "buddy_scroll",
+                    "texture": {
+                        "key": "main",
+                        "frame": "buddy/scroll"
+                    },
+                    "x": 851,
+                    "y": 390,
+                    "scaleY": 1.4
+                },
+                {
+                    "type": "Image",
+                    "id": "18f9b0a3-88b6-4afd-bd44-c9c3022f38e4",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.listController.scrollDown()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 851,
+                    "y": 137
+                },
+                {
+                    "type": "Image",
+                    "id": "00627ee2-3c4f-4f6b-ab5d-3389b30c2217",
+                    "label": "x_button_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.listController.scrollUp()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 851,
+                    "y": 647
+                },
+                {
+                    "type": "Image",
+                    "id": "43efb35d-35fc-42f8-926c-bd4ad1eff573",
+                    "label": "blue_arrow",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-arrow"
+                    },
+                    "x": 851,
+                    "y": 135
+                },
+                {
+                    "type": "Image",
+                    "id": "a32b6345-839e-4cf3-a35a-b53bc6c3fb67",
+                    "label": "blue_arrow_1",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-arrow"
+                    },
+                    "x": 851,
+                    "y": 645,
+                    "flipY": true
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "2fe32761-743a-4fec-8e54-4d36eecc3778",
+            "label": "items",
+            "objectIds": [
+                "3be1a00b-dfed-4f5f-a446-d03331405739",
+                "68a2a717-b66a-41a0-a191-3a04ecb63f9a",
+                "501f4cb8-01cd-4305-9ed2-b681fde8ce7a",
+                "23fbe6f0-f9a9-4ac4-845f-8a48359f06a1",
+                "803d1e80-1792-49b8-b99e-d0ed57a6b121",
+                "04921bf4-e0b3-46ae-8128-9cbdce507d32",
+                "d5f1354a-6b59-4358-9df1-ad8ccfecf8dc",
+                "3e145dcf-f1f3-4121-8306-9d548f305989",
+                "5e110c7d-207b-4853-b2d8-df79ff64d64c",
+                "fd0ca06a-3e13-4fd7-a144-c790cc895870",
+                "b19b3fc7-a8a5-44c1-b21a-5bbbf8653fde",
+                "f9b1fb19-fe45-4786-bcb3-0310e021e11f",
+                "78a4439b-c5b9-43d0-8b28-de9eaad2e9d2",
+                "83f8e331-7ab8-4bda-b505-f2f6b5706b10",
+                "8de8b0c1-64d7-4bba-85f5-995d3a427fc3",
+                "8163fa32-59b9-47a1-9b07-8dcdd300b918",
+                "b76e9178-d42c-4235-9aaa-08e991baff2f",
+                "11aeeee8-0c13-440e-87f2-65ed77be375f",
+                "bfea084d-45e0-4b0b-ac56-b084fa9547e4",
+                "d5bbf525-b0cc-40ad-9017-3c1dd501620d",
+                "da4eeb87-fe01-4a77-852b-3ebc4e3b4d5f",
+                "3c0e64f1-942b-4f25-93fa-805f55a4544f"
+            ]
+        }
+    ]
+}

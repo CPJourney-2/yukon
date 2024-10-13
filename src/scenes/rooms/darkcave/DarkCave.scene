@@ -1,0 +1,164 @@
+{
+    "id": "fc18499a-25ec-4031-b3fe-8b0e4c791b60",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/rooms/darkcave/darkcave-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "DarkCave",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "3dffc686-78c6-433b-b329-2a612dceae8a",
+            "label": "darkcave_bg",
+            "texture": {
+                "key": "darkcave",
+                "frame": "darkcave_bg"
+            },
+            "x": 760,
+            "y": 480
+        },
+        {
+            "type": "Image",
+            "id": "2a95ecc5-7c89-4691-8a8d-afa679a5567a",
+            "label": "cliffrock",
+            "texture": {
+                "key": "darkcave",
+                "frame": "cliffrock"
+            },
+            "x": 274,
+            "y": 450
+        },
+        {
+            "type": "Image",
+            "id": "a448116f-e9dd-46b0-a24d-b5224b76f200",
+            "label": "cliffrock2",
+            "texture": {
+                "key": "darkcave",
+                "frame": "cliffrock2"
+            },
+            "x": 940,
+            "y": 465.5429992675781,
+            "originY": 0.75
+        },
+        {
+            "type": "Image",
+            "id": "5948d675-ecbc-41e2-a826-71b319c475c4",
+            "label": "rock",
+            "texture": {
+                "key": "darkcave",
+                "frame": "rock"
+            },
+            "x": 780,
+            "y": 595
+        },
+        {
+            "type": "Image",
+            "id": "78a0ed9b-3a20-4766-8ab0-94aa5d335bfe",
+            "label": "pebble",
+            "texture": {
+                "key": "darkcave",
+                "frame": "pebble"
+            },
+            "x": 912,
+            "y": 571
+        },
+        {
+            "type": "Image",
+            "id": "4c000200-232c-44a2-8958-6efd507e0780",
+            "label": "rock_1",
+            "texture": {
+                "key": "darkcave",
+                "frame": "rock"
+            },
+            "x": 1174,
+            "y": 514,
+            "originY": 0.6,
+            "tintTopLeft": "#fff",
+            "tintTopRight": "#fff",
+            "tintBottomLeft": "#fff",
+            "tintBottomRight": "#000000"
+        },
+        {
+            "type": "Container",
+            "id": "7820cd36-b042-4801-ae7f-3e3cd4e098c3",
+            "label": "voyagerContainer",
+            "scope": "CLASS",
+            "x": 209,
+            "y": 718,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "d61fc05a-6a34-4ad8-866b-81adac745e7a",
+                    "label": "voyager",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "darkcave",
+                        "frame": "voyager"
+                    },
+                    "x": 111,
+                    "y": 28
+                },
+                {
+                    "type": "Sprite",
+                    "id": "2d4ade53-29f6-45eb-ba3b-1964d5eb9d89",
+                    "label": "crimson",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onCrimsonOver()",
+                    "SimpleButton.hoverOutCallback": "() => this.onCrimsonOut()",
+                    "SimpleButton.pixelPerfect": true,
+                    "SimpleButton.downCallback": "() => this.interface.loadWidget('CrimsonDialogue', false, 0);",
+                    "texture": {
+                        "key": "darkcave",
+                        "frame": "crimson0001"
+                    },
+                    "x": -45,
+                    "y": -8,
+                    "scaleX": -1,
+                    "animationKey": "crimson",
+                    "list": [
+                        {
+                            "type": "Glow",
+                            "id": "7440b5e9-fb48-4823-bf4a-ec40ad33385f",
+                            "label": "crimsonGlow",
+                            "scope": "CLASS",
+                            "color": "#b40606",
+                            "outerStrength": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "e495767d-2e16-42e0-a9c9-b1e231f708b1",
+            "label": "sort",
+            "objectIds": [
+                "78a0ed9b-3a20-4766-8ab0-94aa5d335bfe",
+                "5948d675-ecbc-41e2-a826-71b319c475c4",
+                "4c000200-232c-44a2-8958-6efd507e0780",
+                "7820cd36-b042-4801-ae7f-3e3cd4e098c3"
+            ]
+        }
+    ]
+}

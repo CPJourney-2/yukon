@@ -1,0 +1,131 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Club Penguin, Club Penguin Journey, cpjourney, CPJ, cpps, penguins, disney, virtual world, mmo, online game, free, club penguin island, free game">
+    <meta name="description" content="Club Penguin Journey is a free-to-play, fan-made recreation of the original Club Penguin. Waddle around and meet new friends on a snowy virtual world!">
+    <meta property="og:title" content="Play Now! | Club Penguin Journey">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://play.cpjourney.com">
+    <meta property="og:image" content="https://cdn.cpjourney.net/assets/media/mainmenu/winter_login.png">
+    <meta property="og:image:alt" content="Penguins sledding on an island off a mountain.">
+    <meta property="og:description" content="Club Penguin Journey is a free-to-play, fan-made recreation of the original Club Penguin. Waddle around and meet new friends on a snowy virtual world!">
+    <meta name="twitter:site" content="@CPJOfficial">
+    <meta name="twitter:creator" content="@CPJOfficial">
+    <link type="text/css" rel="stylesheet" href="assets/sites/default/files/css/css_cawUUwTb6FTEpTC7UYZQwdcaTVHlWORZjZlFNt1mXNc.css" media="all">
+    <link type="text/css" rel="stylesheet" href="assets/sites/default/files/css/css_5FxwTVZs9EtbjcExytQ5ndQqt-X7PFwK3mD2o7QXYH0.css" media="all">
+    <link type="text/css" rel="stylesheet" href="assets/sites/default/files/css/css_Ithmjuj4ePlnkLrL_GIuS3TsGEoCIelrKOCUPBOfhJ8.css" media="all">
+    <link type="text/css" rel="stylesheet" href="assets/sites/default/files/css/css_6sGcdaud_kk5LWaaq4lZk2ZLw8uneQM4wYx5rg2QgOM.css" media="all">
+    <link type="text/css" rel="stylesheet" href="assets/sites/default/files/css/css_9Heh1u--mIfOomnfZC-JIjM3PxmkhjTogDetvyuVnMU.css" media="all">
+    <link type="text/css" rel="stylesheet" href="assets/sites/default/files/css/css_5AoaSUlnRluwt_SO1GRzTQdCdcJf0Aw-MqGesNvp_6Y.css" media="all">
+    <link type="text/css" rel="stylesheet" href="assets/sites/default/files/css/css_lpn3saPwnh0DOdveZjtLNqWuVLzzK8A98rurOUMUo0s.css" media="all">
+
+    <title>Play Now! | Club Penguin Journey</title>
+
+    <link rel="stylesheet" href="assets/styles/styles.css?version=3" type="text/css">
+
+    <!-- Fonts -->
+    <script src="assets/scripts/lib/webfont.js"></script>
+
+    <!-- Phaser -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.80.1/phaser.min.js"></script>
+    <script src="assets/scripts/lib/phaser-cachebuster.min.js"></script>
+
+    <!-- Ruffle -->
+    <script src="https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.1.0-nightly.2024.8.9/ruffle.min.js"></script>
+
+    <!-- Main code for page (dropdown, disclaimer, check overlap) -->
+    <script src="assets/scripts/playpage.js?version=2"></script>
+
+    <!-- Hcaptcha -->
+    <script src="https://hcaptcha.com/1/api.js" async defer="defer"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2ZDQ6J8Q0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-E2ZDQ6J8Q0');
+    </script>
+
+    <!-- Client bundle -->
+    <script>var script = document.createElement("script"); script.src = `assets/scripts/client/yukon.${document.location.host == 'play.cpjourney.net' || document.location.host == 'staging.cpjourney.net' ? "min." : ""}js?cachebust=${Date.parse(document.lastModified)}`, document.getElementsByTagName("HEAD")[0].appendChild(script)</script>
+</head>
+
+<body>
+<div class="region region-page-top" id="region-page-top">
+    <div class="region-inner region-page-top-inner"></div>
+</div>
+<div class="page clearfix" id="page">
+    <header id="section-header" class="section section-header">
+        <div id="affiliate-header" style="display:none"></div>
+        <nav>
+            <a id="home-link" href="https://cpjourney.net">Home</a>
+            <ul class="mainnav" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+                <li itemprop="name">
+                    <a itemprop="url" href="https://cpjourney.net/news" class="cpmenu" target="_blank">What's New?</a>
+                </li>
+                <li itemprop="name">
+                    <a itemprop="url" href="https://cpjourney.net/terms" class="cpmenu" target="_blank">Community Rules</a>
+                </li>
+                <li itemprop="name">
+                    <a itemprop="url" href="https://cpjourney.net/privacy" class="cpmenu" target="_blank">Legal</a>
+                </li>
+                <li itemprop="name">
+                    <a itemprop="url" href="https://discord.gg/cpjourney" class="cpmenu" target="_blank">Discord</a>
+                </li>
+                <li itemprop="name">
+                    <a itemprop="url" href="https://support.cpjourney.net/" class="cpmenu" target="_blank">Help</a>
+                </li>
+            </ul>
+
+            <div id="language-select" onselectstart="return false;">
+                <div>
+                    <a id="language-select-link" type="button" class="top-level" onclick="toggleLangDropdown()" tabindex="1" style="cursor: pointer;">
+                        Go Full Screen<span class="indicator"></span>
+                    </a>
+                    <div id="bottom-languages" style="display: none">
+                        <a class="first" href="/en">ENGLISH</a>
+                    </div>
+                    <script>
+                        function toggleLangDropdown() {
+                            // Set the width and height of the game-fullscreen-div to 100%
+                            var gameFullscreenDiv = document.getElementById('game-fullscreen-div');
+                            gameFullscreenDiv.style.width = '100%';
+                            gameFullscreenDiv.style.height = '100%';
+
+                            // Hide the footer and header
+                            var footer = document.getElementById('section-footer');
+                            var header = document.getElementById('section-header');
+
+                            if (footer) {
+                                footer.style.display = 'none';
+                            }
+
+                            if (header) {
+                                header.style.display = 'none';
+                            }
+                            }
+                    </script>
+                </div>
+            </div>
+            <ul class="navbar navbar-right">
+                <a id="logout-link" type="button" href="https://play.cpjourney.net" class="logout" style="display:block">
+                    <img src="assets/sites/default/themes/snowball/img/icon-logout.png">Log Out </a>
+            </ul>
+        </nav>
+</div>
+<div id="game-fullscreen-div" style="width:90%;height:90%;margin:auto">
+    <div id="game" class="game"></div>
+</div>
+<footer id="section-footer" class="section section-footer">
+    <a href="https://cpjourney.net" target="_blank">Home</a> | <a href="https://cpjourney.net/news" target="_blank">Community</a> | <a href="https://support.cpjourney.net" target="_blank">Help</a> | <a href="https://cpjourney.net/terms" target="_blank">Terms of Service</a> | <a href="https://cpjourney.net/privacy" target="_blank">Privacy Policy</a> | <a href="https://play.cpjourney.net/panel/reset" target="_blank">Reset Your Password</a>
+
+    <p id="name">© 2024 Non-Graphical Content CPJourney.net, All Rights Reserved.</p>
+</footer>
+</body>
+</html>

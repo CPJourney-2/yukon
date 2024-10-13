@@ -1,0 +1,77 @@
+{
+    "id": "702dd088-682e-4c87-b05b-24b363630c1f",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/ship/shipigloo-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "ShipIgloo",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "10cc4116-4336-43fe-8ca3-1100c2469f0b",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "shipigloo",
+                "frame": "floor"
+            },
+            "originX": 0,
+            "originY": 0,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "6b5b80c2-470e-418d-a262-d77e63b39e78",
+            "label": "igloo",
+            "components": [],
+            "texture": {
+                "key": "shipigloo",
+                "frame": "igloo"
+            },
+            "originX": 0,
+            "originY": 0,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "3193fd57-9014-4924-a231-ff47aa7acbc5",
+            "label": "foreground",
+            "components": [],
+            "texture": {
+                "key": "shipigloo",
+                "frame": "foreground"
+            },
+            "x": 193,
+            "y": 392.0977952753993,
+            "originY": 0.8295154045328811,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "9494243c-bd9a-47a8-ab2a-a049b3b1fd16",
+            "label": "sort",
+            "objectIds": [
+                "3193fd57-9014-4924-a231-ff47aa7acbc5"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,184 @@
+{
+    "id": "5e5392d9-b689-4890-bcb5-bd68b729f0cd",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eefc5a3-1b9a-4b15-a92a-1a543086f96d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "637cca7d-b294-4dcd-aa38-991230ee66f5",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -12,
+                    "y": 10,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Image",
+                    "id": "d2370e71-ece9-4686-bb50-a1ab3b392017",
+                    "label": "award_q7_bg",
+                    "texture": {
+                        "key": "award_q7_medal",
+                        "frame": "bg"
+                    },
+                    "x": 11,
+                    "y": -2
+                },
+                {
+                    "type": "Image",
+                    "id": "bc88223c-a5aa-443b-bb63-6c915822659a",
+                    "label": "award_q7_medal_fg0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onMedalClick()",
+                    "texture": {
+                        "key": "award_q7_medal",
+                        "frame": "mdeal0001"
+                    },
+                    "x": -53,
+                    "y": -68
+                },
+                {
+                    "type": "Image",
+                    "id": "6a06670a-c570-4eb0-8322-a91cde13d071",
+                    "label": "fish",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "award_q7_medal",
+                        "frame": "fish"
+                    },
+                    "x": 12,
+                    "y": 43,
+                    "originX": -2.403486393395413,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "25e341ba-ee4a-4fdc-be75-ff9c038f6319",
+                    "label": "big_hand",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "award_q7_medal",
+                        "frame": "big-hand"
+                    },
+                    "x": 13,
+                    "y": 41.36506613439974,
+                    "originY": 1.5812888808242385,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "38a2f3f6-7af9-45b6-b60d-9b3391924a2c",
+                    "label": "little_hand",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "award_q7_medal",
+                        "frame": "little-hand"
+                    },
+                    "x": 14,
+                    "y": 45,
+                    "originX": -0.8069712850147375,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "28b99263-b8c7-474f-908b-6a18e4694444",
+                    "label": "glass",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "award_q7_medal",
+                        "frame": "glass"
+                    },
+                    "x": 10,
+                    "y": 48,
+                    "visible": false
+                },
+                {
+                    "type": "Text",
+                    "id": "4af2d3c3-f8df-4215-b217-a15a91ef721f",
+                    "label": "text_1",
+                    "x": -120,
+                    "y": 253,
+                    "text": "Silver Watch Medal",
+                    "fontFamily": "Helvetica",
+                    "fontSize": "30px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "9a3ee899-eb4f-4e6d-9a54-57a72373f46e",
+                    "label": "buttons_close",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.interface.destroyWidget(this)",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 288,
+                    "y": -366
+                },
+                {
+                    "type": "Image",
+                    "id": "c9bfca6f-7c4f-436e-8101-10e4c7fcca68",
+                    "label": "grey_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 288,
+                    "y": -368
+                },
+                {
+                    "type": "Text",
+                    "id": "05f484de-aa96-445a-b144-9eb0b7065417",
+                    "label": "text_2",
+                    "x": -185,
+                    "y": 299,
+                    "text": "Awarded for timely repairs on the \nClub Penguin Clock Tower",
+                    "align": "center",
+                    "fontFamily": "Verdana",
+                    "fontSize": "23px",
+                    "color": "#000000ff"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

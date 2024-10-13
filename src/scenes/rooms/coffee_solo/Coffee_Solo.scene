@@ -1,0 +1,554 @@
+{
+    "id": "1adc125a-c0ec-4eb5-853c-2f7ff3c2bb3e",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/coffee_solo/coffee_solo-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Coffee_Solo",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "e7ab62b8-6032-4b57-b05e-00934179e5c3",
+            "label": "bg",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "bg"
+            },
+            "x": 1,
+            "y": -6,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "acd6c4d4-4d4d-4825-b2bf-b4f31174a258",
+            "label": "lamp",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "lamp"
+            },
+            "x": 176,
+            "y": -11,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "5beaef60-3e4f-40a3-9fb3-01dc145bfeda",
+            "label": "table",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "table"
+            },
+            "x": 418,
+            "y": 499,
+            "originX": 0.5217391304347826,
+            "originY": 0.5368421052631579
+        },
+        {
+            "type": "Container",
+            "id": "19f7683c-7112-44f9-baf0-725844fc0f02",
+            "label": "smoothie_stand",
+            "x": 157.9919490592393,
+            "y": 658.5672741886791,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "1ff7e33e-d9a6-4101-9baa-9c162e692bd7",
+                    "label": "smoothie",
+                    "components": [
+                        "Button",
+                        "MoveTo",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "smoothie",
+                    "Button.hoverCallback": "() => blender.__Animation.play()",
+                    "Button.hoverOutCallback": "() => blender.__Animation.stop()",
+                    "Button.pixelPerfect": true,
+                    "MoveTo.x": "176",
+                    "MoveTo.y": "690",
+                    "ShowHint.text": "smoothie_hint",
+                    "texture": {
+                        "key": "coffee_solo",
+                        "frame": "smoothie"
+                    },
+                    "x": -44.58566983918888,
+                    "y": -64.34841680810257,
+                    "originX": 0.5946647978225035,
+                    "originY": 0.6296633645007567
+                },
+                {
+                    "type": "Sprite",
+                    "id": "95d609ee-ed4a-43bd-828f-21c156887d6b",
+                    "label": "blender",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "blender",
+                    "Animation.end": 14,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "coffee_solo",
+                        "frame": "blender0001"
+                    },
+                    "x": -6,
+                    "y": -89
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "d3b6029f-28ab-437e-8c34-4383d656f1e0",
+            "label": "fruitbox_1",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "fruitbox_1"
+            },
+            "x": 57,
+            "y": 792.6431540807403,
+            "originY": 0.7852698057242741
+        },
+        {
+            "type": "Image",
+            "id": "babdb4db-4ba4-4386-97ee-5a0d66ad9988",
+            "label": "fruitbox_2",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "fruitbox_2"
+            },
+            "x": 90,
+            "y": 832.5976789280489,
+            "originY": 0.7619262147885945
+        },
+        {
+            "type": "Image",
+            "id": "07c938ab-f75d-4718-bf8b-cf3a5b619d64",
+            "label": "counter_back",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "counter_back"
+            },
+            "x": 854,
+            "y": 458,
+            "originX": 0.27906976744186046,
+            "originY": 0.8363636363636363
+        },
+        {
+            "type": "Image",
+            "id": "4025e1a5-f97d-4dba-87dd-4633cf3557bf",
+            "label": "counter_front",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "counter_front"
+            },
+            "x": 812,
+            "y": 621,
+            "originX": 0.2864583333333333,
+            "originY": 0.8710801393728222
+        },
+        {
+            "type": "Sprite",
+            "id": "298ec922-280d-4b53-b5fd-1bcf3ab5e7e6",
+            "label": "smoke",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "smoke",
+            "Animation.end": 5,
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "smoke0001"
+            },
+            "x": 907,
+            "y": 180,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "9783525f-a865-4877-9de4-bf83985dcb6b",
+            "label": "sign_back",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "sign_back"
+            },
+            "x": 907,
+            "y": 632,
+            "originY": 0.4789915966386555
+        },
+        {
+            "type": "Image",
+            "id": "2af1eeae-7993-4b46-98c7-a63e57822b27",
+            "label": "sign_front",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "sign_front"
+            },
+            "x": 884,
+            "y": 695,
+            "originX": 0.5190839694656488,
+            "originY": 0.8827586206896552
+        },
+        {
+            "type": "Sprite",
+            "id": "d978b25f-26ad-465e-993e-ef17d62727a8",
+            "label": "board",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.onBoardClick()",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "board0001"
+            },
+            "x": 951,
+            "y": 146,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "495e8163-ee24-4674-bfaf-3b1ab8d91de8",
+            "label": "machine_1",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "machine_1"
+            },
+            "x": 956,
+            "y": 468,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "188af677-d3b9-4bd5-a1e4-dfe2ce005467",
+            "label": "machine_2",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "machine_2"
+            },
+            "x": 964,
+            "y": 314,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "8a605348-9b6d-46e6-8e9a-a85c0ee0353d",
+            "label": "machine_3",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "machine_3"
+            },
+            "x": 1021,
+            "y": 406,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "86a80e93-528d-45f0-baa2-6392cf65d675",
+            "label": "bag",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "bag"
+            },
+            "x": 1077,
+            "y": 646,
+            "originX": 0.4430379746835443,
+            "originY": 0.506024096385542
+        },
+        {
+            "type": "Image",
+            "id": "86153e9a-e9e2-4608-b038-65a44c58761b",
+            "label": "beans",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "beans"
+            },
+            "x": 1016,
+            "y": 651,
+            "originX": 0.3411764705882352,
+            "originY": 0.6145708044679954
+        },
+        {
+            "type": "Image",
+            "id": "1bedd6e8-3870-49d0-9854-fbd028b74996",
+            "label": "lamp_2",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "lamp_2"
+            },
+            "x": 992,
+            "y": 151,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "5afcfbce-8f15-4ada-aff4-39125bf912ce",
+            "label": "stairs",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "stairs"
+            },
+            "x": 1202,
+            "y": 328,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "9b4e2c94-5e99-439a-a672-13d8b51d7614",
+            "label": "door",
+            "components": [
+                "Button",
+                "ShowHint"
+            ],
+            "Button.spriteName": "door",
+            "Button.callback": "() => {this.exitTut();}",
+            "Button.pixelPerfect": true,
+            "ShowHint.text": "Exit Tutorial?",
+            "texture": {
+                "key": "coffee_solo",
+                "frame": "door"
+            },
+            "x": 728,
+            "y": 135,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "a3fede93-247b-4fb2-afbe-eeee670fc345",
+            "label": "shop_coffee_solo",
+            "scope": "CLASS",
+            "texture": {
+                "key": "coffee_solo_jobs",
+                "frame": "job_coffee_solo_0001"
+            },
+            "x": 834,
+            "y": 665,
+            "originX": 0.48104857995152495,
+            "originY": 3.9520740519068775,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "713428cc-1025-4d9c-9a7c-ddd1c5713758",
+            "label": "coffee_icon",
+            "scope": "CLASS",
+            "texture": {
+                "key": "coffee_solo_jobs",
+                "frame": "job_coffee_solo_0001"
+            },
+            "x": -153,
+            "y": 344,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "b144a82b-e77f-496c-a707-edf9839c485a",
+            "label": "arrow",
+            "scope": "CLASS",
+            "texture": {
+                "key": "arrow"
+            },
+            "x": 512,
+            "y": 279,
+            "scaleX": 0.2,
+            "scaleY": 0.2,
+            "angle": -180,
+            "visible": false
+        },
+        {
+            "type": "Container",
+            "id": "7719b99b-ad5a-4e94-8005-eab5efa7a3a9",
+            "label": "coin",
+            "scope": "CLASS",
+            "x": -173,
+            "y": 220,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "3c8c2e2e-d2cc-4525-bb04-aed579ffa179",
+                    "label": "coin_sprite",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "coffee_solo_jobs",
+                        "frame": "coin0002"
+                    },
+                    "x": 31.03714265764836,
+                    "y": -50.12658541187517
+                }
+            ]
+        },
+        {
+            "type": "Sprite",
+            "id": "4100823a-fb7b-4deb-b874-68ab72cacb26",
+            "label": "counter_arrow",
+            "scope": "CLASS",
+            "texture": {
+                "key": "arrow"
+            },
+            "x": 840,
+            "y": 1112,
+            "scaleX": 0.2,
+            "scaleY": 0.2,
+            "angle": -180,
+            "originX": 0.49999999999999406,
+            "originY": -10.688557995255064,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "c3bc2d4f-f7cd-4cdc-b552-c3ad123be6c2",
+            "label": "cooldown_timer",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "cooldown_timer_",
+            "Animation.end": 121,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "coffee_solo_jobs",
+                "frame": "cooldown_timer_0001"
+            },
+            "x": -109,
+            "y": 289,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c8b3d6d5-0f6c-4791-8ae5-42b2b409e513",
+            "label": "tut_down",
+            "texture": {
+                "key": "coffee_tutorial",
+                "frame": "tut_down"
+            },
+            "x": 511,
+            "y": 358
+        },
+        {
+            "type": "Image",
+            "id": "f27dcf87-7586-416b-b424-6039ee679e18",
+            "label": "npc_right",
+            "texture": {
+                "key": "coffee_tutorial",
+                "frame": "npc_right"
+            },
+            "x": 245,
+            "y": 462,
+            "flipX": true
+        },
+        {
+            "type": "Container",
+            "id": "dacd6287-24ed-40fb-9bbb-941064e32879",
+            "label": "coffee_bubble",
+            "scope": "CLASS",
+            "x": 508,
+            "y": 1204.0767359005963,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "37c60e4a-f5ac-4af3-a3a7-1029e189e2fc",
+                    "label": "balloon_emote",
+                    "texture": {
+                        "key": "main",
+                        "frame": "balloon-emote"
+                    },
+                    "y": -912.0767359005963
+                },
+                {
+                    "type": "Image",
+                    "id": "39c1619e-6d11-4adb-8680-a0351c3cef0f",
+                    "label": "balloon",
+                    "texture": {
+                        "key": "main",
+                        "frame": "balloon"
+                    },
+                    "y": -965.0767359005963
+                },
+                {
+                    "type": "Image",
+                    "id": "37002b93-d4a4-42f0-84fe-cf2b6e67d01a",
+                    "label": "emotes_13",
+                    "texture": {
+                        "key": "main",
+                        "frame": "emotes/13"
+                    },
+                    "x": 5,
+                    "y": -957.0767359005963
+                }
+            ]
+        },
+        {
+            "type": "Sprite",
+            "id": "c8c6549a-3a85-4103-955e-3adb159b0420",
+            "label": "coffee_drink",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "job_coffee_solo_",
+            "Animation.end": 5,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "coffee_solo_jobs",
+                "frame": "job_coffee_solo_0001"
+            },
+            "x": 554,
+            "y": 1033.4978882140765,
+            "originY": 19.628511091830756,
+            "visible": false
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "d8014338-e465-4139-bd11-d2d330aded64",
+            "label": "sort",
+            "objectIds": [
+                "86153e9a-e9e2-4608-b038-65a44c58761b",
+                "86a80e93-528d-45f0-baa2-6392cf65d675",
+                "2af1eeae-7993-4b46-98c7-a63e57822b27",
+                "9783525f-a865-4877-9de4-bf83985dcb6b",
+                "4025e1a5-f97d-4dba-87dd-4633cf3557bf",
+                "07c938ab-f75d-4718-bf8b-cf3a5b619d64",
+                "5beaef60-3e4f-40a3-9fb3-01dc145bfeda",
+                "19f7683c-7112-44f9-baf0-725844fc0f02",
+                "babdb4db-4ba4-4386-97ee-5a0d66ad9988",
+                "d3b6029f-28ab-437e-8c34-4383d656f1e0",
+                "a3fede93-247b-4fb2-afbe-eeee670fc345",
+                "713428cc-1025-4d9c-9a7c-ddd1c5713758",
+                "4100823a-fb7b-4deb-b874-68ab72cacb26",
+                "dacd6287-24ed-40fb-9bbb-941064e32879",
+                "c8b3d6d5-0f6c-4791-8ae5-42b2b409e513",
+                "f27dcf87-7586-416b-b424-6039ee679e18",
+                "c8c6549a-3a85-4103-955e-3adb159b0420"
+            ]
+        }
+    ]
+}

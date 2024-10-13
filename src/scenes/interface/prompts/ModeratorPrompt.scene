@@ -1,0 +1,181 @@
+{
+    "id": "fe01ebe8-3ebe-4972-aa57-0daf496e9b1b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "7116bc6b-047d-419b-996f-a768f6aa75f9",
+            "label": "container_2",
+            "y": 463,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "096be22c-22b2-4d60-aa1c-0d8806d8a3c8",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 17,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.5,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "a5993e16-6476-408a-95de-0271fe890521",
+                    "label": "bg_1",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "x": 760,
+                    "y": -23,
+                    "scaleY": 1.1127383675235438,
+                    "width": 708,
+                    "height": 584,
+                    "leftWidth": 44,
+                    "rightWidth": 39,
+                    "topHeight": 40,
+                    "bottomHeight": 41
+                },
+                {
+                    "type": "Text",
+                    "id": "2740c241-da24-4e75-a0fe-9e13316270fe",
+                    "label": "text",
+                    "scope": "CLASS",
+                    "x": 760,
+                    "y": -14,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "For your safety, the most recent messages\nin the room have been cleared.",
+                    "fixedWidth": 628,
+                    "fixedHeight": 136,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000000"
+                },
+                {
+                    "type": "Image",
+                    "id": "6a17e09d-c4b7-44d9-8a50-4df9643e1209",
+                    "label": "help_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "help-button",
+                    "Button.callback": "() => { this.close() }",
+                    "texture": {
+                        "key": "main",
+                        "frame": "help-button"
+                    },
+                    "x": 761,
+                    "y": 70
+                },
+                {
+                    "type": "Text",
+                    "id": "de775112-b30d-418f-8c4e-bc51375c6fa7",
+                    "label": "text_1",
+                    "scope": "CLASS",
+                    "x": 758,
+                    "y": 67,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Dismiss",
+                    "fixedWidth": 280,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "40px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "902469c0-863a-422f-8418-1ccabc7d7f5b",
+                    "label": "mod_badge",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "mod/badge_",
+                    "Animation.end": 20,
+                    "texture": {
+                        "key": "main",
+                        "frame": "mod/badge_0001"
+                    },
+                    "x": 763,
+                    "y": -233
+                },
+                {
+                    "type": "Text",
+                    "id": "e66f0b38-0784-418a-8261-f76b71f44801",
+                    "label": "settings",
+                    "x": 760,
+                    "y": -132,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Chat has been cleared",
+                    "fixedWidth": 600,
+                    "align": "center",
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "40px",
+                    "fontStyle": "bold italic",
+                    "stroke": "#003366",
+                    "strokeThickness": 10
+                },
+                {
+                    "type": "Image",
+                    "id": "7247da9a-3a61-4e42-a7ca-f9e644ffe52b",
+                    "label": "help_button_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "help-button",
+                    "Button.callback": "() => { this.onDontShowAgain() }",
+                    "texture": {
+                        "key": "main",
+                        "frame": "help-button"
+                    },
+                    "x": 761,
+                    "y": 193
+                },
+                {
+                    "type": "Text",
+                    "id": "cff4aaf5-d343-489f-8e80-8fff4a6d4b70",
+                    "label": "text_2",
+                    "scope": "CLASS",
+                    "x": 763,
+                    "y": 192,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Don't Show Again",
+                    "fixedWidth": 280,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "40px",
+                    "fontStyle": "bold"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

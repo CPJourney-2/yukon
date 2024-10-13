@@ -1,0 +1,584 @@
+{
+    "id": "85472720-024c-4da6-a5dc-a98a0cd9d9ad",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "604d13b8-868d-46c8-a5a3-13d96bb18968",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "028ec836-255b-461d-bbb6-01fca27a428f",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "42fc311d-8d0d-4f99-a501-759645bdc75f",
+                    "label": "page6",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "66e15722-8bad-4a39-880c-da8f0aa6fa99",
+                            "label": "pg6",
+                            "texture": {
+                                "key": "underwater-catalog",
+                                "frame": "pg6"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e0fba22d-5261-4325-a1ec-70e6abe2b03a",
+                            "label": "back_left_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "x": -204,
+                            "y": 220
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3f506a93-6b95-4d82-b20e-36ac698a7104",
+                            "label": "back_catalog_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": -204,
+                            "y": -329,
+                            "flipX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "89f30cc3-774b-461a-a7f7-83e93922d841",
+                    "label": "page5",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "d333c261-b08b-4ca9-9f68-aa13e010430d",
+                            "label": "pg",
+                            "texture": {
+                                "key": "underwater-catalog",
+                                "frame": "pg5"
+                            }
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "3f282af7-47cf-40bb-a9dc-912ebae10a98",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton",
+                            "item": 489,
+                            "x": -500,
+                            "y": -243
+                        },
+                        {
+                            "prefabId": "d9f4da97-c017-415a-aec7-cd283c0992b7",
+                            "id": "45f3f453-4a70-464f-8f80-865a021f9cde",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "itemId"
+                            ],
+                            "label": "photoButton",
+                            "itemId": 9039,
+                            "x": -282,
+                            "y": 104
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                    "label": "page4",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9920e113-be77-4df1-91d9-4a7a3a0c6094",
+                            "label": "pg4",
+                            "texture": {
+                                "key": "underwater-catalog",
+                                "frame": "pg4"
+                            }
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "6b1d2daf-5a1d-4ea6-8496-fe5f2abf2b39",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_4",
+                            "item": 4111,
+                            "x": 460,
+                            "y": -127,
+                            "angle": 20
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "73a8c2bf-b129-44b9-99af-03360ba1d09d",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_7",
+                            "item": 4112,
+                            "x": 51,
+                            "y": -290,
+                            "angle": 50
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "26cbcec4-26b7-4556-a246-cbf78c5b42a8",
+                            "label": "secret",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(716)",
+                            "x": 325,
+                            "y": -257,
+                            "scaleX": 0.075,
+                            "scaleY": 0.075,
+                            "visible": false,
+                            "alpha": 0.05,
+                            "isFilled": true,
+                            "width": 128,
+                            "height": 128
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                    "label": "page3",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9b5826eb-9ddd-41a5-a75c-71f887f78e87",
+                            "label": "pg3",
+                            "texture": {
+                                "key": "underwater-catalog",
+                                "frame": "pg3"
+                            }
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "197269e3-91c7-4546-afde-f9d40c1d9e74",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag1",
+                            "item": 768,
+                            "x": -489,
+                            "y": 73,
+                            "angle": -25
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "bfc302e1-12e8-4fc6-8d0b-f67c2eb14e9c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag",
+                            "item": 1076,
+                            "x": -466,
+                            "y": -248,
+                            "angle": 20
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "8ba9030d-79db-4d95-8dd3-c13f172b271a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_1",
+                            "item": 5044,
+                            "x": 47,
+                            "y": -129,
+                            "angle": 29.999999999999996
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "b5632567-81eb-4c19-9f14-2cfbf48e2d7b",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_2",
+                            "item": 1077,
+                            "x": 268,
+                            "y": -357,
+                            "angle": -14.999999999999998
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "b38bbfc4-610e-4a9c-8ee8-f9917a3a51d1",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_3",
+                            "item": 4110,
+                            "x": 475,
+                            "y": -39,
+                            "angle": 40
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "c6bd9725-8f2c-466e-98d9-4203db5a2742",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_14",
+                            "item": 3029,
+                            "x": 299,
+                            "y": -236,
+                            "angle": -20
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                    "label": "page2",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "77f42957-bf82-43e0-a920-f773f79a83b5",
+                            "label": "pg2",
+                            "texture": {
+                                "key": "underwater-catalog",
+                                "frame": "pg2"
+                            }
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "54f10dca-aced-48a7-a7c4-887a1b0acfd0",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_8",
+                            "item": 308,
+                            "x": 202,
+                            "y": -351,
+                            "angle": -35
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "12fa7c46-ad62-4d11-8d85-346f2c023c26",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_9",
+                            "item": 2003,
+                            "x": 32,
+                            "y": -180,
+                            "angle": -25
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "cf6c6832-b20f-4b82-8e58-2bd2d3627b1e",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_10",
+                            "item": 4114,
+                            "x": 293,
+                            "y": -113,
+                            "angle": 35
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "62a77608-8329-4187-9af9-04e9e42a9abf",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_11",
+                            "item": 364,
+                            "x": 374,
+                            "y": 96,
+                            "angle": -20
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "a121f8de-2c2a-4060-9da6-419e86574587",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_12",
+                            "item": 4113,
+                            "x": 39,
+                            "y": 265,
+                            "angle": -25
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "12cd0f88-5276-40c9-8a0e-626bfac644b6",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_13",
+                            "item": 132,
+                            "x": 97,
+                            "y": -25,
+                            "angle": -29.999999999999996
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "9ec2413c-fd41-4558-b88d-f5faed28fd95",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_5",
+                            "item": 367,
+                            "x": 485,
+                            "y": -146,
+                            "angle": 50
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "73f02308-7820-4110-a76c-523342558eb9",
+                    "label": "page1",
+                    "x": 760,
+                    "y": 480,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4c456861-e585-486f-81b9-92e8bc8eca42",
+                            "label": "pg1",
+                            "texture": {
+                                "key": "underwater-catalog",
+                                "frame": "pg1"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "413414bc-32b3-4f4d-ab5e-d3c279d25d00",
+                            "label": "right_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-front",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-front"
+                            },
+                            "x": 2,
+                            "y": -54
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "914e79f6-dbfd-41bc-b43f-fa8ef4e07489",
+                            "label": "catalog_close_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 227,
+                            "y": -330
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "9504d876-bbf3-4133-ae7d-5d00e2a60072",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 190,
+                    "y": 41,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "c3e215e7-adfa-4b72-84f2-dcfee4bc85fe",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1133,
+                            "y": 793,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "dc509880-3770-4de6-9e79-a5b68c453143",
+                            "label": "right_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-right",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-right"
+                            },
+                            "x": 1077,
+                            "y": 658
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "6b52c4e5-3644-482b-a28a-4b230539e8a3",
+                            "label": "left_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "x": 66,
+                            "y": 659
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "db2ab97b-5a48-4f49-a689-6e46356f787b",
+                            "label": "catalog_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 1077,
+                            "y": 114
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "3003f2ec-9394-4489-a981-17b8c2a9bffb",
+            "label": "pages",
+            "objectIds": [
+                "73f02308-7820-4110-a76c-523342558eb9",
+                "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                "89f30cc3-774b-461a-a7f7-83e93922d841",
+                "42fc311d-8d0d-4f99-a501-759645bdc75f"
+            ]
+        }
+    ]
+}

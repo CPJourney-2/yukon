@@ -1,0 +1,102 @@
+{
+    "id": "7f5c9b2f-cd13-43e7-884e-cad15bd526ba",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "70766603-80eb-4276-9355-6b53ff409f39",
+            "label": "pengiquinPositions",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Text",
+                    "id": "3c7aa197-fe94-469d-b489-402b981d8bf3",
+                    "label": "usageText",
+                    "x": -707,
+                    "text": "Position nodes as you like and add set prefab's position property to a list/array of these nodes",
+                    "fixedWidth": 1408,
+                    "fixedHeight": 309,
+                    "fontSize": "41px",
+                    "color": "#0dff11ff",
+                    "maxLines": 10,
+                    "wordWrapWidth": 1538
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "positions",
+            "label": "positions",
+            "tooltip": "",
+            "defValue": "[]",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "array"
+            }
+        },
+        {
+            "name": "positionProps",
+            "label": "positionProps",
+            "tooltip": "",
+            "defValue": "[]",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "array"
+            }
+        },
+        {
+            "name": "targets",
+            "label": "targets",
+            "tooltip": "",
+            "defValue": "[]",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Array<Phaser.GameObjects.GameObject>"
+            }
+        },
+        {
+            "name": "shuffleTweenDuration",
+            "label": "shuffleTweenDuration",
+            "tooltip": "",
+            "defValue": 500,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "paginationTweenDuration",
+            "label": "paginationTweenDuration",
+            "tooltip": "",
+            "defValue": 250,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

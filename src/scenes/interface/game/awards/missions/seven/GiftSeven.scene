@@ -1,0 +1,122 @@
+{
+    "id": "3702ab00-739e-44c7-b4cf-7c3d6f18530c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eefc5a3-1b9a-4b15-a92a-1a543086f96d",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "637cca7d-b294-4dcd-aa38-991230ee66f5",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -12,
+                    "y": 10,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Image",
+                    "id": "d2370e71-ece9-4686-bb50-a1ab3b392017",
+                    "label": "bg",
+                    "texture": {
+                        "key": "award_q7_gift"
+                    },
+                    "x": -8,
+                    "y": -2
+                },
+                {
+                    "type": "Image",
+                    "id": "9a3ee899-eb4f-4e6d-9a54-57a72373f46e",
+                    "label": "buttons_close",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.interface.destroyWidget(this)",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 274,
+                    "y": -363
+                },
+                {
+                    "type": "Image",
+                    "id": "c9bfca6f-7c4f-436e-8101-10e4c7fcca68",
+                    "label": "grey_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 274,
+                    "y": -365
+                },
+                {
+                    "type": "Text",
+                    "id": "b8086db5-5c42-425e-a72b-af83668cf493",
+                    "label": "penguinName",
+                    "scope": "CLASS",
+                    "x": -6,
+                    "y": -175,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "TESTNAME123",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Impact",
+                    "fontSize": "45px",
+                    "color": "#ffffffff",
+                    "baselineX": 0,
+                    "baselineY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "ae61d445-0711-48ae-9a79-130af62ffecd",
+                    "label": "todolang",
+                    "x": -11,
+                    "y": 107,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "HONORARY MEMBER\nBLUE TEAM",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Impact",
+                    "fontSize": "40px",
+                    "color": "#ffffffff"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

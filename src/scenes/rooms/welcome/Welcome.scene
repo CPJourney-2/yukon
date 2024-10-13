@@ -1,0 +1,337 @@
+{
+    "id": "53e48da6-25f2-42b0-b66b-00c2f1e7050f",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 128,
+        "snapHeight": 128,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/welcome/welcome-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Welcome",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "55c3f26e-280d-4522-8997-38e9a27f9e02",
+            "label": "background",
+            "components": [],
+            "texture": {
+                "key": "welcome",
+                "frame": "background"
+            },
+            "x": -1,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "055c8761-7177-4d73-84c9-a1deb8884a6e",
+            "label": "noticeboardoutline0001",
+            "components": [
+                "Button",
+                "MoveTo",
+                "ShowHint"
+            ],
+            "Button.spriteName": "noticeboardoutline",
+            "MoveTo.x": "769",
+            "MoveTo.y": "431",
+            "ShowHint.text": "Community Events",
+            "texture": {
+                "key": "welcome",
+                "frame": "noticeboardoutline"
+            },
+            "x": 778,
+            "y": 333,
+            "originX": 0.506896551724138,
+            "originY": 0.4037464142806126
+        },
+        {
+            "type": "Image",
+            "id": "0f14ca71-dfe5-4ef2-bf35-a43893f43e04",
+            "label": "grandstandR",
+            "components": [],
+            "texture": {
+                "key": "welcome",
+                "frame": "grandstandR"
+            },
+            "x": 438.3354797363281,
+            "y": 453.64676081435744,
+            "originX": 0.4372135679257684,
+            "originY": 0.7715379028167627
+        },
+        {
+            "type": "Image",
+            "id": "17e5942f-c7f4-4600-8819-87700fffeea3",
+            "label": "grandstandL_1",
+            "components": [],
+            "texture": {
+                "key": "welcome",
+                "frame": "grandstandL"
+            },
+            "x": 213,
+            "y": 527.1116506690049,
+            "originY": 0.6701924442197558
+        },
+        {
+            "type": "Sprite",
+            "id": "d976b5ed-79b3-4bcc-965f-d29e224e3dfc",
+            "label": "tourhq_door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "tourhq_door",
+            "texture": {
+                "key": "welcome",
+                "frame": "tourhq_door"
+            },
+            "x": 1283,
+            "y": 467,
+            "originX": 0.47540983606557374,
+            "originY": 0.7905405405405406
+        },
+        {
+            "type": "Image",
+            "id": "1279ad9f-e2e7-417a-9927-16fb102a009d",
+            "label": "tourhqL",
+            "components": [],
+            "texture": {
+                "key": "welcome",
+                "frame": "tourhqL"
+            },
+            "x": 1112.946238989188,
+            "y": 461.8387169675641,
+            "originX": 0.6540567180835276,
+            "originY": 0.7455976665099715
+        },
+        {
+            "type": "Image",
+            "id": "4fe6b57b-319c-4a2b-a5cf-e9deb81792aa",
+            "label": "tourhqR",
+            "components": [],
+            "texture": {
+                "key": "welcome",
+                "frame": "tourhqR"
+            },
+            "x": 1304.0695914938492,
+            "y": 542.9715233700147,
+            "originX": 0.44923512285373957,
+            "originY": 0.5153622230965647
+        },
+        {
+            "type": "Sprite",
+            "id": "9cb11b48-ef86-4dd5-9528-bd386fcd11f6",
+            "label": "fishwater0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fishwater",
+            "Animation.end": 12,
+            "texture": {
+                "key": "welcome",
+                "frame": "fishwater0001"
+            },
+            "x": 664,
+            "y": 128
+        },
+        {
+            "type": "Image",
+            "id": "ba263b86-3f50-44f8-ad16-5e7a60ddd159",
+            "label": "foreground",
+            "components": [],
+            "texture": {
+                "key": "welcome",
+                "frame": "foreground"
+            },
+            "x": -17,
+            "y": 969,
+            "originX": 0,
+            "originY": 1
+        },
+        {
+            "type": "Sprite",
+            "id": "376938c0-7a72-4397-b00b-b6cbe76402aa",
+            "label": "wf_bottomL0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf_bottom",
+            "Animation.end": 12,
+            "texture": {
+                "key": "welcome",
+                "frame": "wf_bottom0001"
+            },
+            "x": 663,
+            "y": 384
+        },
+        {
+            "type": "Sprite",
+            "id": "36fda013-55cc-4d85-9114-ba3e816245c3",
+            "label": "wf_bottomR0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf_bottom",
+            "Animation.end": 12,
+            "texture": {
+                "key": "welcome",
+                "frame": "wf_bottom0001"
+            },
+            "x": 892.5,
+            "y": 384,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "46d51000-c64c-4854-a93f-d6aa02dc485b",
+            "label": "wf_topL0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf_top",
+            "Animation.end": 6,
+            "texture": {
+                "key": "welcome",
+                "frame": "wf_top0001"
+            },
+            "x": 664,
+            "y": 255
+        },
+        {
+            "type": "Sprite",
+            "id": "aa3bf42f-69ac-4620-a803-58122a3f93cc",
+            "label": "wf_topR0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wf_top",
+            "Animation.end": 6,
+            "texture": {
+                "key": "welcome",
+                "frame": "wf_top0001"
+            },
+            "x": 891,
+            "y": 255,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "15e3755c-5258-4d12-9cff-a6c988c04858",
+            "label": "nc_lights0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "nc_lights",
+            "Animation.end": 69,
+            "texture": {
+                "key": "welcome",
+                "frame": "nc_lights0001"
+            },
+            "x": 540,
+            "y": 179
+        },
+        {
+            "type": "Rectangle",
+            "id": "bda633f5-4a08-4e17-bb6a-8e951422fdab",
+            "label": "rectangle_1",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.world.scavenger.collect(3)",
+            "x": 937,
+            "y": 394,
+            "visible": false,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "43765a81-44d7-4f82-bfb0-295bd9dcdf3d",
+            "label": "rectangle",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.world.scavenger.collect(1)",
+            "x": 680,
+            "y": 421,
+            "visible": false,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "7c60def3-17b2-4e81-bea6-066b94eb7859",
+            "label": "rectangle_2",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.world.scavenger.collect(2)",
+            "x": 865,
+            "y": 623,
+            "visible": false,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "e0010456-3943-4f12-9a7a-31f7ebe9e614",
+            "label": "rectangle_3",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.world.scavenger.collect(4)",
+            "x": 1135,
+            "y": 558,
+            "visible": false,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "d15024cd-1e3b-47d0-bd4a-4de082fc6a6d",
+            "label": "rectangle_4",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.world.scavenger.collect(0)",
+            "x": 529,
+            "y": 584,
+            "visible": false,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "71a186d8-f24d-4ce7-a866-f90bf9b93148",
+            "label": "sort",
+            "objectIds": [
+                "0f14ca71-dfe5-4ef2-bf35-a43893f43e04",
+                "ba263b86-3f50-44f8-ad16-5e7a60ddd159",
+                "4fe6b57b-319c-4a2b-a5cf-e9deb81792aa",
+                "1279ad9f-e2e7-417a-9927-16fb102a009d",
+                "17e5942f-c7f4-4600-8819-87700fffeea3"
+            ]
+        }
+    ]
+}

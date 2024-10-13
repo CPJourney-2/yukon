@@ -1,0 +1,110 @@
+{
+    "id": "8da8c426-8b0f-4c58-a287-2796f2485c97",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "d4e0d19d-4f4f-48af-8bfe-57d0e8bb2e2b",
+            "label": "stampCategory",
+            "components": [],
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "aa76b13b-8cbb-4776-b93d-3fe1efcf6e6c",
+                    "label": "rectangle_1",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onHover()",
+                    "SimpleButton.hoverOutCallback": "() => this.onHoverOut()",
+                    "SimpleButton.callback": "() => this.onClick()",
+                    "x": -61,
+                    "y": 5,
+                    "originX": 0,
+                    "fillColor": "#ff2d2d",
+                    "width": 250,
+                    "height": 50,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "52ca1e34-f016-48b4-bc50-4d2d3711dda6",
+                    "label": "text",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 22,
+                    "y": -6,
+                    "text": "Activities",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "fontStyle": "bold",
+                    "color": "#666666",
+                    "stroke": "#666666",
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "1bc135d6-84c6-4f19-9823-264cca2b031e",
+                    "label": "inactiveContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -22,
+                    "y": 6,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "a0ec50b1-3c3b-4ebf-8421-6e8db4148ee1",
+                            "label": "imageInactive",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "testCategoryIcon"
+                            },
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6360e42e-afd9-4eb3-9de1-205c85ebd564",
+                    "label": "activeContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -22,
+                    "y": 6,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "e2791d59-71d2-45a1-a9c7-81b86942707e",
+                            "label": "imageActive",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "testCategoryIcon"
+                            },
+                            "list": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

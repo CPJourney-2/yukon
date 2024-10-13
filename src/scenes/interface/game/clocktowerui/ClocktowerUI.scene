@@ -1,0 +1,130 @@
+{
+    "id": "73af8e72-60c9-4532-b1d2-5746c4cb1448",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8bb89fb5-8fd3-4d6d-a8b9-f11a53a7735f",
+            "label": "container_1",
+            "components": [],
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9d274e25-df95-406f-883b-f4102166d431",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960,
+                    "list": []
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "72b107fe-d052-40b8-ab5c-8dc45d6f189a",
+                    "label": "nineslice_1",
+                    "components": [],
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "width": 708,
+                    "height": 600,
+                    "leftWidth": 43,
+                    "rightWidth": 38,
+                    "topHeight": 40,
+                    "bottomHeight": 40,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "8d1cc4d7-9fc2-476a-9a7f-1f4a77c03434",
+                    "label": "buddies",
+                    "components": [],
+                    "y": 60,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "The time showing on this clock may not match \nthe time on your computer. This snowball-\npowered clock, like all other clocks in Club\n Penguin, is in PST (Penguin Standard Time).\n\n\nThis means the penguins from all over the world \nwill see this clock as the exact same time, even if\nthe penguins are in different time zones.\nBecause of this, you can use this clock to plan\nparties and fun events with friends.",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000000ff",
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "049efdf7-a9e9-4774-81b7-5a3c6b0e7c7e",
+                    "label": "settings",
+                    "components": [],
+                    "y": -181,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "CLUB PENGUIN\nCLOCK TOWER",
+                    "fixedWidth": 600,
+                    "align": "center",
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "40px",
+                    "fontStyle": "bold italic",
+                    "stroke": "#003366",
+                    "strokeThickness": 10,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "e656c20c-78a6-4d94-917f-6cf411b1f4d4",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 300,
+                    "y": -247,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "56d93af1-ac83-4be9-a548-efd7ba743bf2",
+                    "label": "blue_x",
+                    "components": [],
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 300,
+                    "y": -249,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

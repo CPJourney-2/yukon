@@ -1,0 +1,93 @@
+{
+    "id": "a1e66c65-0c7b-46e4-a9ac-4a6ebf58aa3d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "70cbdcc3-fd6f-442b-92d0-b1ebcbcacd21",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "fce6f303-eafc-4fe3-933d-0298625d05de",
+                    "label": "quest_item",
+                    "texture": {
+                        "key": "partyquests",
+                        "frame": "quest_item"
+                    }
+                },
+                {
+                    "type": "Text",
+                    "id": "f16eff7f-fc43-4db6-89e6-76c46d30d3ee",
+                    "label": "quest_title",
+                    "scope": "CLASS",
+                    "x": -293,
+                    "y": -12,
+                    "text": "Have fun playing Club Penguin Journey",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "069d33fe-e70c-4336-b981-c1487b5b7d72",
+                    "label": "quest_difficulty",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "partyquests",
+                        "frame": "quest_easy"
+                    },
+                    "x": -324,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25
+                },
+                {
+                    "type": "Image",
+                    "id": "cab6e3f1-977c-47b4-8532-d4d7dc5c0fc4",
+                    "label": "quest_done",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "partyquests",
+                        "frame": "quest_done"
+                    },
+                    "x": 325,
+                    "scaleX": 0.25,
+                    "scaleY": 0.25,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "356090c5-9ba8-4169-8403-701835a6fb01",
+                    "label": "quest_community",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "partyquests",
+                        "frame": "quest_community"
+                    },
+                    "x": -349,
+                    "y": -20,
+                    "scaleX": 0.75,
+                    "scaleY": 0.75,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

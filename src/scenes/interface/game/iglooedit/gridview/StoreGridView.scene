@@ -1,0 +1,100 @@
+{
+    "id": "5e67778f-f6b1-47c7-a8e0-fccf4a610c82",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "7c1c9ca3-0998-4409-b76a-ead91db93dce",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "003cecd1-fab3-4a5c-985b-53d99bd1eba3",
+                    "label": "block",
+                    "scope": "CLASS",
+                    "x": 903,
+                    "y": 392,
+                    "visible": false,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Container",
+                    "id": "f252d1e9-d775-4ff8-a24a-4bf688bd7767",
+                    "label": "container",
+                    "scope": "CLASS"
+                },
+                {
+                    "type": "Container",
+                    "id": "b4417fac-c8de-4926-bff3-4a4f3b1fd6ed",
+                    "label": "pageButtons",
+                    "scope": "CLASS",
+                    "x": 747,
+                    "y": -14,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ecaed311-3099-4fd8-8c54-c82e5e1d38ab",
+                            "label": "down_button",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "store_up",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "new-iglooedit",
+                                "frame": "store_up"
+                            },
+                            "x": 150,
+                            "y": 588,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9,
+                            "angle": 180
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ddcad954-f487-4f86-9644-034b45159062",
+                            "label": "up_button",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "store_up",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "new-iglooedit",
+                                "frame": "store_up"
+                            },
+                            "x": 150,
+                            "y": 82,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

@@ -1,0 +1,154 @@
+{
+    "id": "abdccc5b-6b05-4dfe-8d1a-8673bad0563a",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8bb89fb5-8fd3-4d6d-a8b9-f11a53a7735f",
+            "label": "container_1",
+            "x": 760,
+            "y": 479,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9d274e25-df95-406f-883b-f4102166d431",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "72b107fe-d052-40b8-ab5c-8dc45d6f189a",
+                    "label": "nineslice_1",
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "width": 708,
+                    "height": 600,
+                    "leftWidth": 43,
+                    "rightWidth": 38,
+                    "topHeight": 40,
+                    "bottomHeight": 40
+                },
+                {
+                    "type": "Text",
+                    "id": "049efdf7-a9e9-4774-81b7-5a3c6b0e7c7e",
+                    "label": "title",
+                    "scope": "CLASS",
+                    "y": -234,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "SUGGESTION BOX",
+                    "fixedWidth": 600,
+                    "align": "center",
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "40px",
+                    "fontStyle": "bold italic",
+                    "stroke": "#003366",
+                    "strokeThickness": 10
+                },
+                {
+                    "type": "Image",
+                    "id": "e656c20c-78a6-4d94-917f-6cf411b1f4d4",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.hide()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 300,
+                    "y": -247
+                },
+                {
+                    "type": "Image",
+                    "id": "56d93af1-ac83-4be9-a548-efd7ba743bf2",
+                    "label": "blue_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 300,
+                    "y": -249
+                },
+                {
+                    "type": "Image",
+                    "id": "93af33e1-bd7b-4fef-a3ae-a89f66c42b99",
+                    "label": "newsform_sendbtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "help-button",
+                    "Button.callback": "() => this.sendNewsSubmission()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "help-button"
+                    },
+                    "x": -1,
+                    "y": 207
+                },
+                {
+                    "type": "Text",
+                    "id": "b8f2469d-9ef3-413d-acd2-238ad8520cd4",
+                    "label": "buttonText",
+                    "y": 204,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Send",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "2322f7e4-e9c2-4d0e-8aae-c1552bfb23ca",
+                    "label": "textContentNormal",
+                    "scope": "CLASS",
+                    "y": -189,
+                    "originX": 0.5,
+                    "text": "Please type your suggestion for the CPJ team here.",
+                    "fixedWidth": 640,
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000000ff",
+                    "wordWrapWidth": 640
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

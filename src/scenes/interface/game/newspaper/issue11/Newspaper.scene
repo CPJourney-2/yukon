@@ -1,0 +1,496 @@
+{
+    "id": "5df543fa-a7d2-4673-b3ee-7dff9b11e022",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 1476,
+        "snapHeight": 975,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "a8214ef9-62e8-4418-97f7-4c23bb906ca7",
+            "label": "buttons",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "69d3ffab-4765-4abe-b9fc-358dc7849a83",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 775,
+                    "y": 480,
+                    "scaleX": 11.961414097039036,
+                    "scaleY": 7.609571892641703,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Container",
+                    "id": "92be1521-42a4-455d-a6d2-de9f3101906d",
+                    "label": "_page7",
+                    "x": 711,
+                    "y": 438,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "432641d4-6992-41c6-b52e-fc1141878532",
+                            "label": "adaptedpg2",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "pages0026"
+                            },
+                            "x": -2,
+                            "y": 101
+                        },
+                        {
+                            "type": "Image",
+                            "id": "67daccdb-c7b2-4686-9e35-35a4ea8680a2",
+                            "label": "left_122",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => { this.prevPage();}",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "prevbtn"
+                            },
+                            "x": -597,
+                            "y": 374,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "bfdb3546-7d88-4eb7-a7f9-e95028b34664",
+                            "label": "close_232",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => {this.closeNews()}",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "closebtn"
+                            },
+                            "x": 691,
+                            "y": -245,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ac5528f4-906e-41a5-a9e0-c96891652ca2",
+                            "label": "main_12",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => {this.showPage(0)}",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "mainbtn"
+                            },
+                            "x": -598,
+                            "y": -202,
+                            "angle": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "56d0d47d-f2dc-4326-986b-57e2c4f1b3df",
+                    "label": "_page6",
+                    "x": 711,
+                    "y": 438,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "32c796e8-666e-4bc0-abe5-e43c00a28395",
+                            "label": "adaptedpg",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "pages0036"
+                            },
+                            "x": -2,
+                            "y": 101
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0ccd7662-89be-48fb-9861-0a1717001b8c",
+                            "label": "submit_question",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => {this.interface.loadWidget(\"Newsform\")}",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "submit"
+                            },
+                            "x": 395,
+                            "y": 191,
+                            "angle": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "496056d2-dab5-4668-ae2b-1d1d0bfebfaf",
+                    "label": "_page5",
+                    "x": 711,
+                    "y": 438,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "928d6460-db13-4dbd-8007-a5ffa30c6585",
+                            "label": "page5",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "pages0054"
+                            },
+                            "x": -2,
+                            "y": 101
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6a70bdea-a49c-44b1-aa28-0c7e44b22883",
+                    "label": "_page4",
+                    "x": 711,
+                    "y": 438,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "d50b8bbc-1d8c-4b67-90e2-9d1a5cdfa963",
+                            "label": "adaptedpg22",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "pages0046"
+                            },
+                            "x": -2,
+                            "y": 101
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "7b537ada-6c5e-45db-9d8b-bed9e90af04b",
+                    "label": "_page3",
+                    "x": 695,
+                    "y": 408,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "62b23514-49fb-4d57-9e34-2a53f7c8138f",
+                            "label": "page3",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "pages0019"
+                            },
+                            "x": 14,
+                            "y": 132
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "257b7fcb-cbba-43e6-874a-552b75d63e96",
+                    "label": "_page2",
+                    "x": 695,
+                    "y": 407,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "3b31a940-049a-45b7-80d7-f97d632a97a1",
+                            "label": "page2",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "pages0011"
+                            },
+                            "x": 14,
+                            "y": 133
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "05a2db35-02ff-49d9-8ad0-d9ad44eb6baa",
+                    "label": "_page1",
+                    "x": 679,
+                    "y": 438,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "94f21694-9aa1-4fab-aa4f-2eef48f4af7d",
+                            "label": "adaptedpg1",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "pages0001"
+                            },
+                            "x": 23,
+                            "y": 103
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2abd908d-3f74-4eb4-9560-a25a42d8162e",
+                            "label": "close_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => {this.closeNews()}",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "closebtn"
+                            },
+                            "x": 598,
+                            "y": -230,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3ae25f69-5bba-4baf-b2a9-bab864555126",
+                            "label": "right_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "nextbtn",
+                            "Button.callback": "() => { this.nextPage();}",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "nextbtn"
+                            },
+                            "x": 606,
+                            "y": 349,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "1beda22f-ef03-4848-948e-49e10dbca74e",
+                            "label": "construction",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => {this.showPage(1)}",
+                            "x": -284,
+                            "y": -33,
+                            "scaleX": 2.936192991169804,
+                            "scaleY": 1.4472187285201359,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "c1891ea7-c6e8-45b1-bf4b-c5153ddcc87b",
+                            "label": "questions",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => {this.showPage(2)}",
+                            "x": 108,
+                            "y": -31,
+                            "scaleX": 2.608448576426685,
+                            "scaleY": 1.4521025367799516,
+                            "angle": -1,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "e4807689-d3b4-4878-be3b-5997ac58c721",
+                            "label": "events",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => {this.showPage(3)}",
+                            "x": 471,
+                            "y": -47,
+                            "scaleX": 2.608448576426685,
+                            "scaleY": 1.4521025367799516,
+                            "angle": -1,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Image",
+                            "id": "030cacc9-de3a-43b2-8a42-ef8acb36e674",
+                            "label": "we_need_you",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => {this.showPage(4)}",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "weneedyou"
+                            },
+                            "x": -406,
+                            "y": -243,
+                            "angle": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "3e80bfaa-3624-4c22-acf1-49e5b66d2389",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 4,
+                    "y": -41,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "95d1e73d-5ccb-4379-a4e4-efeeebc2aaf0",
+                            "label": "right",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => { this.nextPage();}",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "nextbtn"
+                            },
+                            "x": 1408,
+                            "y": 830,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3f59c522-7eb1-400e-af43-58e35aa2f464",
+                            "label": "main",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => {this.showPage(0)}",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "mainbtn"
+                            },
+                            "x": 110,
+                            "y": 276,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2be2e726-a22b-46c9-b8f8-95bf54787992",
+                            "label": "left",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => { this.prevPage();}",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "prevbtn"
+                            },
+                            "x": 110,
+                            "y": 853,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ed58a456-3347-43fc-ae91-4f9ee216e639",
+                            "label": "close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => {this.closeNews()}",
+                            "texture": {
+                                "key": "eleventh-edition",
+                                "frame": "closebtn"
+                            },
+                            "x": 1399,
+                            "y": 233,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f1f49599-b9e0-4858-83d9-5b94591d59e2",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 538,
+                            "y": 196,
+                            "visible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1029921f-26d0-4b4f-8a57-2e9fcf458660",
+            "label": "pages",
+            "objectIds": [
+                "297a4696-b6f0-41bf-b85e-50f430678b66",
+                "4ea22717-221e-4e01-9828-9a77d81f5aeb",
+                "a6587c42-1227-40ed-a8ad-655fdd0853fe",
+                "a73f9418-7f76-4427-85af-611e964d7e2e",
+                "fce6fe02-62bd-4119-ad21-d1ecef6320ea",
+                "4602b03e-53b3-41d4-8fb6-a1de99dd39b1",
+                "2741339d-c902-443e-8dbc-397c33a0a2dc",
+                "58957b73-41c4-4e02-ab72-d85f6a252791",
+                "e0693b36-c512-464e-9e9a-c7f495196f59",
+                "3608adb8-0d6a-46e4-bcfe-ecb8fedcf388",
+                "eb22e33a-a726-4df9-9b99-977988d39bee",
+                "5d5e5cc8-30f5-4f28-bee3-21f2de5a2ac1",
+                "6579188f-a803-4a34-b0c5-1d8288eada23",
+                "505633e9-0895-4816-8dfe-a4ca5f26a693",
+                "70509f2d-ae66-4515-95b9-22a81f1262a7",
+                "360500cb-997c-4c4a-a99a-46c9931bba50",
+                "269b241b-830d-4670-a784-bb3503e7083c",
+                "2292d328-c99f-473e-9186-ac2d02f0441c",
+                "f2cc0516-f48c-45ce-8379-fbd82de540a2",
+                "ba7e8081-e7a1-4b23-8920-58e55d2bb383",
+                "30d260f5-d2f5-41c1-88c2-f55c64c12318",
+                "72106732-7a2e-4aae-8aa6-112f7f454974",
+                "f54ba30a-df84-47b6-8914-0fd8ef19b334",
+                "b2ab8ba0-466d-42aa-bb04-bbc6227ae8ae",
+                "ee6e60d7-9c74-4840-961e-d70f13e9f1ac",
+                "46ee3e78-6b32-45af-a2ac-03ff8f5ad561",
+                "8a8242e2-f2b6-4fa3-b119-3e98247be733",
+                "a5b6db3f-c4e6-4381-ab17-848e020ee4e4",
+                "93004182-a420-4dce-8460-e88314205813",
+                "55d1affa-47cc-4b09-b828-f46729fe61ad",
+                "694f0121-be0a-48ac-8718-9e45805b9eeb",
+                "849f4388-7107-46a7-8f50-84af80b50240",
+                "503e4247-4287-466a-9f96-c98617565186",
+                "7428516c-f80e-4ef8-9bed-18d6ae470fc2",
+                "17eadebd-647b-4c07-9c60-038a50f0a22f",
+                "d36aaf59-dd2f-4546-b546-ca2d6a8c2921",
+                "5127e8a7-5e7b-4152-8257-78009cb71be1",
+                "cb03e9cc-fff7-4dec-8bfa-567e8e6d1a99",
+                "ec1dd316-70f7-4f2c-8d45-0ca137f038ea",
+                "d631c5e9-b357-4cb4-98df-dc4a6d5753ae",
+                "e293257a-c2ab-4e0a-9ea5-4c6337adac89",
+                "453cbe60-4554-4836-86ff-b59b29e10b6b",
+                "05a2db35-02ff-49d9-8ad0-d9ad44eb6baa",
+                "257b7fcb-cbba-43e6-874a-552b75d63e96",
+                "7b537ada-6c5e-45db-9d8b-bed9e90af04b",
+                "6a70bdea-a49c-44b1-aa28-0c7e44b22883",
+                "496056d2-dab5-4668-ae2b-1d1d0bfebfaf",
+                "56d0d47d-f2dc-4326-986b-57e2c4f1b3df",
+                "92be1521-42a4-455d-a6d2-de9f3101906d"
+            ]
+        }
+    ]
+}

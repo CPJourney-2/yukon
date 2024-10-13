@@ -1,0 +1,305 @@
+{
+    "id": "ca770f23-7dc5-462c-8ece-49c78a8759f9",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/lookout/lookout-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Lookout",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "9c5cc9e7-dc87-4743-8816-348fbb4de3b4",
+            "label": "background",
+            "texture": {
+                "key": "lookout",
+                "frame": "background"
+            },
+            "x": 738,
+            "y": 295
+        },
+        {
+            "type": "Sprite",
+            "id": "559a03b6-aad6-4518-a6ab-d296324a6513",
+            "label": "club_lights0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "club-lights",
+            "Animation.end": 69,
+            "texture": {
+                "key": "lookout",
+                "frame": "club-lights0001"
+            },
+            "x": 419,
+            "y": 215
+        },
+        {
+            "type": "Container",
+            "id": "058e136a-bb85-4f42-ab75-00b65b59030f",
+            "label": "stadium",
+            "x": 670,
+            "y": 190,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "51e726a0-0544-4571-96c3-ca26e5bf7cfd",
+                    "label": "stadium_back",
+                    "texture": {
+                        "key": "lookout-stadium",
+                        "frame": "stadium-back"
+                    }
+                },
+                {
+                    "type": "Sprite",
+                    "id": "e3dfbc20-9d60-4cb9-8c69-2817e838df89",
+                    "label": "stadium_animation0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "stadium-animation",
+                    "Animation.end": 30,
+                    "texture": {
+                        "key": "lookout-stadium",
+                        "frame": "stadium-animation0001"
+                    },
+                    "x": -1,
+                    "y": 25
+                },
+                {
+                    "type": "Image",
+                    "id": "34597f21-931f-4144-bef6-c63138fa6a62",
+                    "label": "stadium_front",
+                    "texture": {
+                        "key": "lookout-stadium",
+                        "frame": "stadium-front"
+                    },
+                    "x": -13,
+                    "y": 48
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "c52fa3e1-7ef3-423d-8e62-d77672a77c8d",
+            "label": "rink",
+            "x": 670,
+            "y": 190,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "b61f1369-d3d0-4187-b92f-466fcfcee86c",
+                    "label": "rink_back",
+                    "texture": {
+                        "key": "lookout-stadium",
+                        "frame": "rink-back"
+                    }
+                },
+                {
+                    "type": "Sprite",
+                    "id": "1ec44a37-2a01-4f4b-8644-67020891134b",
+                    "label": "rink_animation0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "lookout-stadium",
+                        "frame": "rink-animation0001"
+                    },
+                    "y": 24
+                },
+                {
+                    "type": "Image",
+                    "id": "4be0f654-43db-4847-9426-42f419e1cdb2",
+                    "label": "rink_front",
+                    "texture": {
+                        "key": "lookout-stadium",
+                        "frame": "rink-front"
+                    },
+                    "x": -12,
+                    "y": 47
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "15bc141b-0fb8-4575-93f4-6b87b6208f38",
+            "label": "baseball",
+            "x": 669,
+            "y": 205,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "cb7d11e7-0a2f-4abd-8462-205179bcec77",
+                    "label": "baseball_back",
+                    "texture": {
+                        "key": "lookout-baseball",
+                        "frame": "baseball-back"
+                    },
+                    "x": 1
+                },
+                {
+                    "type": "Sprite",
+                    "id": "3ce28e7d-e86f-4608-8100-758fb9955291",
+                    "label": "baseball_animation0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "texture": {
+                        "key": "lookout-baseball",
+                        "frame": "baseball-animation0001"
+                    },
+                    "y": 1
+                },
+                {
+                    "type": "Image",
+                    "id": "f28916da-a70b-4d8c-b966-6ddadb099124",
+                    "label": "baseball_front",
+                    "texture": {
+                        "key": "lookout-baseball",
+                        "frame": "baseball-front"
+                    },
+                    "y": 24.5
+                }
+            ]
+        },
+        {
+            "type": "Sprite",
+            "id": "0a711586-eb62-4065-af1e-f3097611b0a8",
+            "label": "fountain0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fountain",
+            "Animation.end": 12,
+            "texture": {
+                "key": "lookout",
+                "frame": "fountain0001"
+            },
+            "x": 43,
+            "y": 169
+        },
+        {
+            "type": "Sprite",
+            "id": "4297b104-d409-43af-ae3a-649fdfc6b274",
+            "label": "forts_flag0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "forts-flag",
+            "Animation.end": 14,
+            "texture": {
+                "key": "lookout",
+                "frame": "forts-flag0001"
+            },
+            "x": 683,
+            "y": 275,
+            "tintTopLeft": "#e98b6b",
+            "tintTopRight": "#e98b6b",
+            "tintBottomLeft": "#e98b6b",
+            "tintBottomRight": "#e98b6b"
+        },
+        {
+            "type": "Sprite",
+            "id": "d8b411c7-b1de-466d-b9e2-31fd001ed0f8",
+            "label": "forts_flag",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "forts-flag",
+            "Animation.end": 14,
+            "texture": {
+                "key": "lookout",
+                "frame": "forts-flag0001"
+            },
+            "x": 766,
+            "y": 238,
+            "tintTopLeft": "#2c3b81",
+            "tintTopRight": "#2c3b81",
+            "tintBottomLeft": "#2c3b81",
+            "tintBottomRight": "#2c3b81"
+        },
+        {
+            "type": "Image",
+            "id": "28558566-8997-4f9a-9bd1-bf68c0f809c3",
+            "label": "dome",
+            "texture": {
+                "key": "lookout",
+                "frame": "dome"
+            },
+            "x": 722,
+            "y": 482
+        },
+        {
+            "type": "Ellipse",
+            "id": "e7887cb3-ce92-430a-9d50-cdba40dc05e5",
+            "label": "tourhqBtn",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "x": 234.0525515418252,
+            "y": 825.0000000000001,
+            "originX": 0.5597884602108705,
+            "originY": 0.5000000000000009,
+            "width": 310,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "fb08d507-7697-4ba1-9543-2c45bfb2f4ab",
+            "label": "newspaper_pile",
+            "texture": {
+                "key": "lookout",
+                "frame": "newspaper-pile"
+            },
+            "x": 1415.29833984375,
+            "y": 800.9875286155151,
+            "originX": 0.43443850562415953,
+            "originY": 0.3741073345473194
+        },
+        {
+            "type": "Image",
+            "id": "84f0bb28-812e-4b10-8614-c841aac006b8",
+            "label": "map_btn",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "map-btn",
+            "Button.callback": "() => this.interface.loadWidget('Map')",
+            "texture": {
+                "key": "lookout",
+                "frame": "map-btn"
+            },
+            "x": 735,
+            "y": 485
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "6d14c7db-64ce-4f5b-a50b-40ff0ea19825",
+            "label": "sort",
+            "objectIds": [
+                "fb08d507-7697-4ba1-9543-2c45bfb2f4ab"
+            ]
+        }
+    ]
+}

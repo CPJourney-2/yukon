@@ -1,0 +1,152 @@
+{
+    "id": "68707838-4ef1-4671-8028-4b71d1e8add2",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "74977af4-07c1-4497-bf61-5cbf76b03b3a",
+            "label": "stamp",
+            "components": [],
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "541d0c0c-3a98-4a57-b12f-6f974d3c3b9f",
+                    "label": "rectangleMain",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onHover()",
+                    "SimpleButton.hoverOutCallback": "() => this.onHoverOut()",
+                    "fillColor": "#ff0808",
+                    "width": 180,
+                    "height": 128,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "14b152b5-0357-41bb-8e63-9acd9f2585d4",
+                    "label": "rectangleCover",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "fillColor": "#ff0808",
+                    "width": 180,
+                    "height": 128,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "6d9e7344-2b15-487d-9ffa-c72b480c5849",
+                    "label": "rectangleCallback",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "fillColor": "#ff0808",
+                    "width": 180,
+                    "height": 180,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "2f9d63ec-5ecd-427a-94d4-e54d4ce97b7c",
+                    "label": "idText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "visible": false,
+                    "text": "420",
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "64px",
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "1eaddfcd-cce6-4901-bdb2-54ad58f0cfbd",
+                    "label": "stampInfo",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "926a14a6-1ed9-4f84-a8c7-ccc1e33af976",
+                            "label": "chatBubble",
+                            "components": [],
+                            "texture": {
+                                "key": "stampbook-inside",
+                                "frame": "chatBubble"
+                            },
+                            "y": -126,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "bd7151f4-0849-43d3-a869-2cbfe87d7a42",
+                            "label": "stampDescription",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -118,
+                            "y": -152,
+                            "text": "Be in the same room as Rockhopper",
+                            "fixedWidth": 240,
+                            "fixedHeight": 96,
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "20px",
+                            "color": "#595959",
+                            "stroke": "#595959",
+                            "wordWrapWidth": 240,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "7a2f850f-6fc4-4678-9aad-d8fb0a09a1ce",
+                            "label": "stampTitle",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -119,
+                            "y": -188,
+                            "text": "Among Us",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "24px",
+                            "fontStyle": "bold",
+                            "color": "#000000ff",
+                            "stroke": "#000000ff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "eb198697-c9bb-4861-9019-fd9335d21f3e",
+                    "label": "teststamp",
+                    "components": [],
+                    "texture": {
+                        "key": "teststamp"
+                    },
+                    "visible": false,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

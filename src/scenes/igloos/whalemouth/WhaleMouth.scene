@@ -1,0 +1,74 @@
+{
+    "id": "34977e2a-0332-451e-854e-2960fc46d463",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/whalemouth/whalemouth-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "WhaleMouth",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "10cc4116-4336-43fe-8ca3-1100c2469f0b",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "whalemouth",
+                "frame": "floor"
+            },
+            "x": -36,
+            "originX": 0,
+            "originY": 0,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ab7b749f-606f-464b-a0b9-c7c7a2d082bb",
+            "label": "background",
+            "components": [],
+            "texture": {
+                "key": "whalemouth",
+                "frame": "background"
+            },
+            "x": -36,
+            "originX": 0,
+            "originY": 0,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "22a02c78-6844-471d-8986-e695ecc83969",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 742,
+            "y": 410,
+            "scaleX": 4.1851203638599115,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.4934015560906795,
+            "originY": 0.7143424794011963,
+            "width": 128,
+            "height": 128,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

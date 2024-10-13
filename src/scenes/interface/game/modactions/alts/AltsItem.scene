@@ -1,0 +1,79 @@
+{
+    "id": "d411ca44-a13f-488c-9c0b-7f30b0155a02",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "37549f01-e125-4863-89fd-8732d638ee15",
+            "label": "container_1",
+            "x": -1,
+            "list": [
+                {
+                    "type": "RoundedRectangleImage",
+                    "id": "c1f4db29-5166-4165-85a4-30f4728abdf1",
+                    "label": "btn",
+                    "scope": "CLASS",
+                    "x": 131,
+                    "y": 15,
+                    "width": 262,
+                    "height": 32,
+                    "fillColor": "#fff897",
+                    "isStroked": false,
+                    "radiusTopLeft": 16,
+                    "radiusTopRight": 16,
+                    "radiusBottomLeft": 16,
+                    "radiusBottomRight": 16
+                },
+                {
+                    "type": "Text",
+                    "id": "b0aae03d-2759-44e6-bcc9-f1d7dfb17dd5",
+                    "label": "name",
+                    "scope": "CLASS",
+                    "x": 14,
+                    "y": 1,
+                    "fixedWidth": 250,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "fontStyle": "bold",
+                    "color": "#000000ff",
+                    "stroke": "#00000050",
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "f09b860a-0bbd-409a-a920-f88163f2380b",
+                    "label": "_btn",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.btn.alpha = 1",
+                    "SimpleButton.hoverOutCallback": "() => this.btn.alpha = 0",
+                    "SimpleButton.callback": "() => this.doTheThing()",
+                    "x": 131,
+                    "y": 15,
+                    "fillColor": "#fff897",
+                    "width": 262,
+                    "height": 32
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

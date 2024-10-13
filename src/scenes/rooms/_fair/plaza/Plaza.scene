@@ -1,0 +1,396 @@
+{
+    "id": "ec12311e-4ffe-49e2-a812-112664336d91",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/plaza/fair-plaza-pack.json",
+            "yukon/assets/media/rooms/plaza/plaza-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Plaza",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "f31b1111-e2d0-427c-9aff-189d219ca82b",
+            "label": "symbol_154",
+            "texture": {
+                "key": "Symbol 154"
+            },
+            "x": -263,
+            "y": -28,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "924c61e4-abb7-4066-8ec9-f7a98abdba1a",
+            "label": "pet_door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "pet_door",
+            "Button.pixelPerfect": true,
+            "MoveTo.x": 340,
+            "MoveTo.y": 540,
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "pet_door"
+            },
+            "x": 333,
+            "y": 489,
+            "originX": 0.473118,
+            "originY": 0.678218
+        },
+        {
+            "type": "Image",
+            "id": "8765e580-25dd-483f-8083-9cff48de2f75",
+            "label": "cave_door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "cave_door",
+            "Button.pixelPerfect": true,
+            "MoveTo.x": 560,
+            "MoveTo.y": 500,
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "cave_door"
+            },
+            "x": 564,
+            "y": 510,
+            "originX": 0.473684,
+            "originY": 0.781513
+        },
+        {
+            "type": "Sprite",
+            "id": "4cbdd610-b504-42d8-8743-1fbda48c3c9b",
+            "label": "stage_lights_back",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "stage_lights_back",
+            "Animation.end": 16,
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "stage_lights_back0001"
+            },
+            "x": 851,
+            "y": 174,
+            "originX": 0.5011764705882353
+        },
+        {
+            "type": "Image",
+            "id": "1d1d724b-4983-4e2d-962f-0cddd22b1c1f",
+            "label": "stage_screen",
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "fair_plaza_stagesign"
+            },
+            "x": 847,
+            "y": 221
+        },
+        {
+            "type": "Sprite",
+            "id": "bc77f388-6cf6-4a0d-a2e2-aa77337d24e0",
+            "label": "stage_lights_front",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "stage_lights_front",
+            "Animation.end": 16,
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "stage_lights_front0001"
+            },
+            "x": 853,
+            "y": 166
+        },
+        {
+            "type": "Image",
+            "id": "a1143256-3618-46ec-85ad-c33b4d598c0f",
+            "label": "fair_plaza_circusposter",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "fair_plaza_circusposter",
+            "Button.callback": "() => this.interface.loadWidget('FairPoster')",
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "fair_plaza_circusposter"
+            },
+            "x": 210.92607724531956,
+            "y": 789.1252106468538,
+            "originX": 0.5060134886059712,
+            "originY": 0.8810848841359252
+        },
+        {
+            "type": "Image",
+            "id": "d1edf127-2391-44cd-a58f-48dc7184c82b",
+            "label": "lamp",
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "lamp"
+            },
+            "x": 129,
+            "y": 827,
+            "originX": 0.5099009900990099,
+            "originY": 0.9323076923076923
+        },
+        {
+            "type": "Image",
+            "id": "51061cdc-f70a-4e59-b0f3-2a5aa91e8040",
+            "label": "stage_door_1",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "stage_door_1",
+            "MoveTo.x": 730,
+            "MoveTo.y": 460,
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "stage_door_1"
+            },
+            "x": 733,
+            "y": 385,
+            "originX": 0.5045871559633027,
+            "originY": 0.4567901234567901
+        },
+        {
+            "type": "Image",
+            "id": "50a9ce54-f89e-4569-b0b8-86b834c33508",
+            "label": "stage_door_2",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "stage_door_2",
+            "MoveTo.x": 960,
+            "MoveTo.y": 460,
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "stage_door_2"
+            },
+            "x": 958,
+            "y": 385,
+            "originX": 0.5045871559633027,
+            "originY": 0.4567901234567901
+        },
+        {
+            "type": "Image",
+            "id": "e6064661-b8d1-44d5-baa6-27a0f534f6a5",
+            "label": "tickets",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "MoveTo.x": 846,
+            "MoveTo.y": 426,
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "fair_plaza_tickets0001"
+            },
+            "x": 846,
+            "y": 457,
+            "originX": 0.49612403100775193,
+            "originY": 0.9247311827956989
+        },
+        {
+            "type": "Image",
+            "id": "32d568f2-d688-4091-94c2-d65b233228cd",
+            "label": "fair_plaza_foodstand",
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "fair_plaza_foodstand"
+            },
+            "x": 518,
+            "y": 740,
+            "originX": 0.37011717070656286,
+            "originY": 0.6641734695275042
+        },
+        {
+            "type": "Sprite",
+            "id": "4bc1f469-dfcd-45d8-bb1d-824b1c5eb3fa",
+            "label": "fair_plaza_petsign0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fair_plaza_petsign",
+            "Animation.end": 30,
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "fair_plaza_petsign0001"
+            },
+            "x": 205,
+            "y": 201
+        },
+        {
+            "type": "Image",
+            "id": "9270637c-4f6e-42d8-85d6-3739198c8769",
+            "label": "fair_plaza_fenceL",
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "fair_plaza_fenceL"
+            },
+            "x": 73,
+            "y": 930.9644259722129,
+            "originY": 0.8675889626689371,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a1846975-8f7d-41f9-8c35-d18a62ce703d",
+            "label": "fair_plaza_fenceR",
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "fair_plaza_fenceR"
+            },
+            "x": 1415.9280681572982,
+            "y": 930.3596592135094,
+            "originX": 0.4613783165420966,
+            "originY": 0.8669059928500856
+        },
+        {
+            "type": "Sprite",
+            "id": "0cd44476-6794-45c4-80dc-e3fa0ba27712",
+            "label": "fair_plaza_pizzalights0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fair_plaza_pizzalights",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "fair_plaza_pizzalights0001"
+            },
+            "x": 1231,
+            "y": 328,
+            "scaleX": 0.8237682379537776,
+            "scaleY": 0.8207563068291837
+        },
+        {
+            "type": "Image",
+            "id": "2bf5b98d-5be2-48cf-8d69-48ca012c8918",
+            "label": "fair_plaza_pizzaroof",
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "fair_plaza_pizzaroof"
+            },
+            "x": 1250,
+            "y": 195
+        },
+        {
+            "type": "Sprite",
+            "id": "b7d0dac2-36df-44e7-b116-9b4f342ade88",
+            "label": "fair_plaza_stagelights0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fair_plaza_stagelights",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "fair_plaza_stagelights0001"
+            },
+            "x": 855,
+            "y": 74
+        },
+        {
+            "type": "Rectangle",
+            "id": "65fb36fd-2814-4b85-85b4-07e9ae584e72",
+            "label": "rectangle_1",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "x": 1178.614367877513,
+            "y": 516.1209766736777,
+            "scaleX": 0.842147523533296,
+            "scaleY": 0.9751546667624699,
+            "angle": 11,
+            "originX": 0.5052760656150515,
+            "originY": 0.8755306454365095,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "126c22dc-ce0d-4fb9-96f8-a64fb6d10a6b",
+            "label": "haunting_sign",
+            "texture": {
+                "key": "stageplay-signs",
+                "frame": "underwater"
+            },
+            "x": 851,
+            "y": 242
+        },
+        {
+            "type": "Image",
+            "id": "4bf5e97a-d832-4451-be02-e8c7100f327d",
+            "label": "welcome_sign",
+            "texture": {
+                "key": "plaza",
+                "frame": "welcome_sign"
+            },
+            "x": 192,
+            "y": 839.9220724278256,
+            "originY": 0.6242507324380262
+        },
+        {
+            "type": "Rectangle",
+            "id": "49d186d0-cf6c-424a-b359-938b42de81c7",
+            "label": "snackStampZone",
+            "components": [
+                "SnackStampArea"
+            ],
+            "x": 600,
+            "y": 740,
+            "visible": false,
+            "width": 150,
+            "height": 150
+        },
+        {
+            "prefabId": "03c1e2c5-a3a8-4d2d-a4b8-4cdd167a2b9a",
+            "id": "e7b31da4-b8ef-4f13-bb49-f8d295593bb0",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sharedCoaster",
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "9c185332-22f1-4d89-8194-2666eda5e6ad",
+            "label": "sort",
+            "objectIds": [
+                "d1edf127-2391-44cd-a58f-48dc7184c82b",
+                "e6064661-b8d1-44d5-baa6-27a0f534f6a5",
+                "32d568f2-d688-4091-94c2-d65b233228cd",
+                "9270637c-4f6e-42d8-85d6-3739198c8769",
+                "a1846975-8f7d-41f9-8c35-d18a62ce703d",
+                "a1143256-3618-46ec-85ad-c33b4d598c0f",
+                "4bf5e97a-d832-4451-be02-e8c7100f327d"
+            ]
+        }
+    ]
+}

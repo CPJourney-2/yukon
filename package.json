@@ -1,0 +1,43 @@
+{
+    "name": "yukon",
+    "version": "1.7.0-beta",
+    "private": true,
+    "scripts": {
+        "dev": "rspack serve",
+        "editor": "phasereditor2d-launcher -project . -max-number-files 50000",
+        "build": "rspack --mode production --env obfuscate=true",
+        "build-staging": "rspack --mode production --env obfuscate=true --env staging=true",
+        "build-crumbs": "node ./utils/build-crumbs.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wizguin/yukon.git"
+    },
+    "author": "wizguin",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/wizguin/yukon/issues"
+    },
+    "homepage": "https://github.com/wizguin/yukon#readme",
+    "devDependencies": {
+        "@rspack/cli": "1.0.0-alpha.0",
+        "@rspack/core": "1.0.0-alpha.0",
+        "core-js": "^3.26.0",
+        "howler": "^2.2.4",
+        "javascript-obfuscator": "^4.0.0",
+        "phaser": "3.80.1",
+        "phasereditor2d-launcher": "^3.60.0-beta.2",
+        "phasereditor2d-roundedrectanglegraphics-plugin": "^1.0.1",
+        "socket.io-client": "^4.7.5",
+        "source-map": "^0.7.4",
+        "webpack-obfuscator": "^3.5.1"
+    },
+    "dependencies": {
+        "axios": "^1.6.7",
+        "moment": "^2.29.4",
+        "moment-timezone": "^0.5.40",
+        "phaser3-rex-plugins": "^1.60.1",
+        "socket.io-msgpack-parser": "^3.0.2"
+    },
+    "packageManager": "pnpm@9.1.0"
+}

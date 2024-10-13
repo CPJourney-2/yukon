@@ -1,0 +1,138 @@
+{
+    "id": "08ff9f5f-3d18-422d-bb17-c0001445f13e",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/box/box-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Box",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "c23f855b-3c74-4475-970a-1fa807741df5",
+            "label": "floor",
+            "scope": "CLASS",
+            "texture": {
+                "key": "box",
+                "frame": "floor"
+            },
+            "x": 760,
+            "y": 480
+        },
+        {
+            "type": "Image",
+            "id": "7f4ed3bb-6573-4558-adeb-907f4037f6d7",
+            "label": "wall",
+            "texture": {
+                "key": "box",
+                "frame": "wall"
+            },
+            "x": 760,
+            "y": 480
+        },
+        {
+            "type": "Image",
+            "id": "d3f1e2e9-492d-43dd-b5d1-a3f5558ea86b",
+            "label": "doorholderback",
+            "texture": {
+                "key": "box",
+                "frame": "doorholderback"
+            },
+            "x": 760,
+            "y": 480
+        },
+        {
+            "type": "Image",
+            "id": "503bf681-5833-429a-8d53-b8bfe5e70155",
+            "label": "door",
+            "texture": {
+                "key": "box",
+                "frame": "door"
+            },
+            "x": 1102,
+            "y": 486
+        },
+        {
+            "type": "Image",
+            "id": "db02f394-2f7f-4d71-a362-1861898d4991",
+            "label": "two_row_box",
+            "texture": {
+                "key": "box",
+                "frame": "two_row_box"
+            },
+            "x": 334.08063896404184,
+            "y": 598.0095044908546,
+            "originX": 0.21978989405529067,
+            "originY": 0.6229265671779736
+        },
+        {
+            "type": "Image",
+            "id": "db0b3921-44e5-4f09-821e-b7c65d74eeb2",
+            "label": "doorholder",
+            "texture": {
+                "key": "box",
+                "frame": "doorholder"
+            },
+            "x": 1157.687846758355,
+            "y": 597.9952951920394,
+            "originX": 0.7616367412883914,
+            "originY": 0.622911765825041
+        },
+        {
+            "type": "Image",
+            "id": "acd8689a-bbb6-478a-8234-c54da51b08ca",
+            "label": "fg",
+            "texture": {
+                "key": "box",
+                "frame": "fg"
+            },
+            "x": 766.9897725660235,
+            "y": 731.6318123768418,
+            "originX": 0.5045985345829102,
+            "originY": 0.7621164712258769
+        },
+        {
+            "type": "Rectangle",
+            "id": "22a02c78-6844-471d-8986-e695ecc83969",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 1107,
+            "y": 517,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.4934015560906795,
+            "originY": 0.7143424794011963,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "bc4b4f84-e995-4cdd-ba22-d4ef2e614df5",
+            "label": "sort",
+            "objectIds": [
+                "acd8689a-bbb6-478a-8234-c54da51b08ca",
+                "db02f394-2f7f-4d71-a362-1861898d4991"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,411 @@
+{
+    "id": "e1eaef06-9548-4412-ad2e-96fafb15526d",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/lodge/lodge-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Lodge",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "76eaef0a-15dc-43f1-9bc8-5622f0ec228e",
+            "label": "bg",
+            "texture": {
+                "key": "lodge",
+                "frame": "bg"
+            },
+            "x": -16,
+            "y": 1,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "b718d90c-2b24-47b8-b2b3-c436b38e8125",
+            "label": "clock",
+            "texture": {
+                "key": "lodge",
+                "frame": "clock"
+            },
+            "x": 262,
+            "y": 367
+        },
+        {
+            "type": "Image",
+            "id": "5cbe4729-ab3c-46cd-8776-c63211ebfae2",
+            "label": "hourHand",
+            "scope": "CLASS",
+            "texture": {
+                "key": "lodge",
+                "frame": "clockHour"
+            },
+            "x": 291.67491340040146,
+            "y": 347.36944580078125,
+            "originX": 0.2624929857910396,
+            "originY": 0.5738910710872347
+        },
+        {
+            "type": "Image",
+            "id": "4bc99cb4-aec2-45d6-b3eb-236a0b712ae7",
+            "label": "minuteHand",
+            "scope": "CLASS",
+            "texture": {
+                "key": "lodge",
+                "frame": "clockMinute"
+            },
+            "x": 291.61575892572694,
+            "y": 347.2955267612516,
+            "originX": 0.5684176584141041,
+            "originY": 0.7941959311806449
+        },
+        {
+            "type": "Sprite",
+            "id": "9e0c5670-8621-4785-aa33-c0fadae006e3",
+            "label": "fred",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fred",
+            "Animation.end": 25,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "lodge",
+                "frame": "fred0001"
+            },
+            "x": 398,
+            "y": 337
+        },
+        {
+            "type": "Image",
+            "id": "88448b99-23ca-4433-82a8-40b75fe91423",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "MoveTo.x": 184,
+            "MoveTo.y": 626,
+            "texture": {
+                "key": "lodge",
+                "frame": "door"
+            },
+            "x": 135,
+            "y": 462
+        },
+        {
+            "type": "Image",
+            "id": "53e3dc25-0ed5-456d-ab6b-fcf13df0fceb",
+            "label": "footrest",
+            "texture": {
+                "key": "lodge",
+                "frame": "footrest"
+            },
+            "x": 1275,
+            "y": 750,
+            "originX": 0.49295775,
+            "originY": 0.47222222
+        },
+        {
+            "type": "Image",
+            "id": "c015247e-c4dd-45b4-a287-6530da7dbc01",
+            "label": "chair",
+            "texture": {
+                "key": "lodge",
+                "frame": "chair"
+            },
+            "x": 1368,
+            "y": 760,
+            "originX": 0.5017064846416383,
+            "originY": 0.5018450184501845
+        },
+        {
+            "type": "Sprite",
+            "id": "043cb8a8-f3ae-44fd-ad07-20c2ca07c4a2",
+            "label": "fire",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fire",
+            "Animation.end": 10,
+            "texture": {
+                "key": "lodge",
+                "frame": "fire0001"
+            },
+            "x": 1329,
+            "y": 474,
+            "originX": 0.5061728395061729
+        },
+        {
+            "type": "Image",
+            "id": "a63ca841-5066-4bac-9805-f6730b8850a4",
+            "label": "fishing_door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "fishing_door",
+            "Button.hoverCallback": "() => this.onFishOver()",
+            "Button.hoverOutCallback": "() => this.onFishOut()",
+            "MoveTo.x": 960,
+            "MoveTo.y": 460,
+            "texture": {
+                "key": "lodge",
+                "frame": "fishing_door"
+            },
+            "x": 946,
+            "y": 256,
+            "originX": 0.2916666666666667,
+            "originY": 0.3961218836565097
+        },
+        {
+            "type": "Image",
+            "id": "77cd1882-69fd-448c-979f-f284c45113b8",
+            "label": "rods",
+            "texture": {
+                "key": "lodge",
+                "frame": "rods"
+            },
+            "x": 816,
+            "y": 335
+        },
+        {
+            "type": "Image",
+            "id": "62189c22-d3e4-4dbd-9c11-3402e58a1215",
+            "label": "bait",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "bait",
+            "texture": {
+                "key": "lodge",
+                "frame": "bait"
+            },
+            "x": 835,
+            "y": 421,
+            "originX": 0.5060240963855421
+        },
+        {
+            "type": "Sprite",
+            "id": "1bcadf52-0e40-4659-a7fd-d782d5681eda",
+            "label": "catalog_small",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "catalog_small",
+            "Animation.end": 7,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "lodge",
+                "frame": "catalog_small0001"
+            },
+            "x": 826,
+            "y": 247,
+            "originX": 0,
+            "originY": 0,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "74960a23-c275-47bd-89f3-9f7d6f6e3cd1",
+            "label": "catalog_small_tape",
+            "texture": {
+                "key": "lodge",
+                "frame": "catalog_small_tape"
+            },
+            "x": 843,
+            "y": 244,
+            "originX": 0,
+            "originY": 0,
+            "visible": false
+        },
+        {
+            "prefabId": "d3866883-7507-4f66-a7e3-bc9a896c4a22",
+            "id": "72dd394b-dd12-4039-b0b9-aa2e0b014f29",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table207",
+            "scope": "CLASS",
+            "x": 1020,
+            "y": 814
+        },
+        {
+            "prefabId": "8163f2e4-12be-4ba3-9eb1-464060e5ecd3",
+            "id": "116a3627-102f-4436-ade3-2a3a1d84b925",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table206",
+            "scope": "CLASS",
+            "x": 620,
+            "y": 794
+        },
+        {
+            "prefabId": "a6e91d83-75ce-421c-94ea-d375188195eb",
+            "id": "5efa3090-313c-4ccb-9847-5d666c8fe7e3",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table205",
+            "scope": "CLASS",
+            "x": 600,
+            "y": 513
+        },
+        {
+            "type": "Image",
+            "id": "0503fb33-c16c-42c7-8a78-de9df070e30f",
+            "label": "candle",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onCandleOver()",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "lodge",
+                "frame": "candle"
+            },
+            "x": 451,
+            "y": 261,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "e8d1f6c0-99c5-4d3b-b85e-7caa97bdc37b",
+            "label": "flame",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "flame",
+            "Animation.end": 14,
+            "texture": {
+                "key": "lodge",
+                "frame": "flame0001"
+            },
+            "x": 516,
+            "y": 232,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "4c73c395-fe4c-4c5e-bf81-76e1385e4876",
+            "label": "flame_out",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "flame_out",
+            "Animation.end": 30,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.showOnStart": true,
+            "Animation.hideOnComplete": true,
+            "texture": {
+                "key": "lodge",
+                "frame": "flame_out0001"
+            },
+            "x": 516,
+            "y": 200,
+            "originX": 0,
+            "originY": 0,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "d96d756f-7e3a-4a54-ba16-adf5fd7580d7",
+            "label": "fish",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fish",
+            "Animation.end": 18,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.showOnStart": true,
+            "texture": {
+                "key": "lodge",
+                "frame": "fish0001"
+            },
+            "x": 1010,
+            "y": 372,
+            "originX": 0,
+            "originY": 0,
+            "visible": false
+        },
+        {
+            "type": "Rectangle",
+            "id": "5769c896-bdcb-4fa6-b7e7-e2d1871577be",
+            "label": "zone",
+            "components": [
+                "Zone"
+            ],
+            "Zone.callback": "() => this.onZoneClick()",
+            "x": 1220,
+            "y": 215,
+            "alpha": 0.5,
+            "isFilled": true,
+            "fillColor": "#00ff00",
+            "width": 115,
+            "height": 430
+        },
+        {
+            "type": "Image",
+            "id": "c92a6a33-c598-4dba-8aa1-1954bef4e97b",
+            "label": "paddlepin",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.interface.prompt.showItem(592)",
+            "texture": {
+                "key": "lodge-paddlepin"
+            },
+            "x": 1382,
+            "y": 410
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "c17b59e1-6b76-4fd3-8fcf-ba6c957a2587",
+            "label": "sort",
+            "objectIds": [
+                "88448b99-23ca-4433-82a8-40b75fe91423",
+                "116a3627-102f-4436-ade3-2a3a1d84b925",
+                "53e3dc25-0ed5-456d-ab6b-fcf13df0fceb",
+                "c015247e-c4dd-45b4-a287-6530da7dbc01",
+                "72dd394b-dd12-4039-b0b9-aa2e0b014f29",
+                "5efa3090-313c-4ccb-9847-5d666c8fe7e3"
+            ]
+        }
+    ]
+}

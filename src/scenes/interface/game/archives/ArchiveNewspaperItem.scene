@@ -1,0 +1,129 @@
+{
+    "id": "3cdab819-c934-4784-b680-019ee86ca3a3",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "7b247840-f826-41c1-9379-5fa7b0ab107e",
+            "label": "container_2",
+            "components": [],
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "04a67414-bd1a-4c68-bb87-08c31cae6887",
+                    "label": "newsContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "1a54c897-f040-4f16-b08a-54487391b93a",
+                            "label": "newspaper_6",
+                            "components": [],
+                            "texture": {
+                                "key": "archives",
+                                "frame": "newspaper"
+                            },
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "3ab72d67-420f-487e-ab18-81319935678c",
+                            "label": "headlineText",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -558,
+                            "y": -100,
+                            "text": "AMONG US PARTY TO START TOMORROW",
+                            "fixedWidth": 1110,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "50px",
+                            "fontStyle": "bold",
+                            "color": "#333333",
+                            "stroke": "#333333",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "c88a532d-f94c-467a-9cbb-7b9ddc70ff59",
+                            "label": "issueText",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 555,
+                            "y": -153,
+                            "originX": 1,
+                            "text": "Issue #48",
+                            "align": "right",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "20px",
+                            "color": "#333333",
+                            "stroke": "#333333",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ebf11280-10de-4bcc-909b-c7fa8f0ea4cc",
+                            "label": "dateText",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -560,
+                            "y": -153,
+                            "text": "September 14, 2006",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "20px",
+                            "color": "#333333",
+                            "stroke": "#333333",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "34bf58ff-b0fa-4429-b45d-25fae2f30558",
+                    "label": "rectangle_1",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onHover()",
+                    "SimpleButton.hoverOutCallback": "() => this.onHoverOut()",
+                    "SimpleButton.callback": "() => this.openNewspaper()",
+                    "y": -150,
+                    "fillColor": "#df0000",
+                    "width": 1200,
+                    "height": 100,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "issueOffset",
+            "label": "Issue Offset",
+            "tooltip": "Issue Offset",
+            "defValue": 1,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

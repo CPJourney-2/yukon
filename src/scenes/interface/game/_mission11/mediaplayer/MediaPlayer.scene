@@ -1,0 +1,618 @@
+{
+    "id": "6cdfd312-269b-4690-8a80-082b7a1ff01c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 466,
+        "snapHeight": 100,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "be8a0767-07ca-4e60-90e1-7dc459a718be",
+            "label": "container_1",
+            "x": 441,
+            "y": 406,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "0e11d5cc-49ae-49a1-bd35-1940bb746a29",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 322,
+                    "y": 63,
+                    "scaleX": 12.858944958430353,
+                    "scaleY": 8.469006608790183,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "1185ed54-a0e9-40f5-a222-46853ded5725",
+                    "label": "mediaplayerbg",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "mediaplayerbg"
+                    },
+                    "x": -440,
+                    "y": -405,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "3767753a-42e5-4156-9a19-02dbc753521a",
+                    "label": "discback",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "discback"
+                    },
+                    "x": 207,
+                    "y": -134
+                },
+                {
+                    "type": "Image",
+                    "id": "a54341e7-1d13-4d47-9aa9-0a8217de6cad",
+                    "label": "signalback",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "signalback"
+                    },
+                    "x": 211,
+                    "y": 71
+                },
+                {
+                    "type": "Image",
+                    "id": "091dcd28-625f-4425-bf8e-4d2f9a9a3aef",
+                    "label": "inputsback",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "inputsback"
+                    },
+                    "x": 211,
+                    "y": 231
+                },
+                {
+                    "type": "Image",
+                    "id": "c8d8b743-5368-4fd6-9c6d-27053451848d",
+                    "label": "screensback",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "screensback"
+                    },
+                    "x": 212,
+                    "y": 447
+                },
+                {
+                    "type": "Image",
+                    "id": "c4fb17e1-54bf-450e-bcfe-5735ffee2033",
+                    "label": "medialayer",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "medialayer"
+                    },
+                    "x": 420,
+                    "y": 163
+                },
+                {
+                    "type": "Sprite",
+                    "id": "a97ad8a3-017f-445f-b59a-ba010bae95e1",
+                    "label": "close",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "Button.pixelPerfect": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 1033,
+                    "y": -352
+                },
+                {
+                    "type": "Image",
+                    "id": "80f32dc3-5ef2-484b-9692-07f4d8901300",
+                    "label": "grey_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 1033,
+                    "y": -354
+                },
+                {
+                    "type": "Sprite",
+                    "id": "5860345e-a334-404a-b556-51eb5f755c98",
+                    "label": "colorcodefront",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "colorcodefront",
+                    "Animation.end": 192,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "Animation.hideOnComplete": true,
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "colorcodefront0001"
+                    },
+                    "x": 848,
+                    "y": 410
+                },
+                {
+                    "type": "Sprite",
+                    "id": "455f3d86-a9a0-4155-b531-2f3599aa1718",
+                    "label": "forward",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "forward",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "forward"
+                    },
+                    "x": 570,
+                    "y": -93
+                },
+                {
+                    "type": "Sprite",
+                    "id": "2aaf9d1a-16d9-447d-8a59-fd22bf21826f",
+                    "label": "opendvd",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "opendvd",
+                    "Button.callback": "() => this.openDiscTray()",
+                    "Button.activeFrame": true,
+                    "Button.pixelPerfect": true,
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "opendvd"
+                    },
+                    "x": -183,
+                    "y": -158
+                },
+                {
+                    "type": "Sprite",
+                    "id": "642edaeb-fcd9-4dec-970e-734165c2dc09",
+                    "label": "playbtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "playbtn",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "playbtn"
+                    },
+                    "x": 487,
+                    "y": -115
+                },
+                {
+                    "type": "Sprite",
+                    "id": "62c12d9b-250d-42f3-96d9-0f159682433f",
+                    "label": "rewind",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "rewind",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "rewind"
+                    },
+                    "x": 399,
+                    "y": -93
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d8279c34-e7df-4d92-b19f-9d79d8ee5006",
+                    "label": "stopbtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "stopbtn",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "stopbtn"
+                    },
+                    "x": 488,
+                    "y": -67
+                },
+                {
+                    "type": "Text",
+                    "id": "2f8908dd-3855-40ee-9e80-220a9d3217cd",
+                    "label": "disc_status",
+                    "scope": "CLASS",
+                    "x": 373,
+                    "y": -200,
+                    "text": "no disc",
+                    "fixedWidth": 219,
+                    "fixedHeight": 58,
+                    "align": "center",
+                    "fontFamily": "cplcd",
+                    "fontSize": "35px"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d16d8ad8-a7d7-411d-aeb7-70087cf0f9a3",
+                    "label": "disctray",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "dvdclose"
+                    },
+                    "x": 101,
+                    "y": -158
+                },
+                {
+                    "type": "Sprite",
+                    "id": "60013171-a29e-467a-8e26-3755db5edcad",
+                    "label": "disc_close",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "dvddiscclose0001"
+                    },
+                    "x": 98,
+                    "y": -125,
+                    "visible": false,
+                    "animationKey": "disc_close"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "bf201f31-ad85-447a-a09e-cbd245e3f663",
+                    "label": "disc_insert",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "dvddiscinsert0001"
+                    },
+                    "x": 314,
+                    "y": -210,
+                    "visible": false,
+                    "animationKey": "disc_insert"
+                },
+                {
+                    "type": "Image",
+                    "id": "12a5546f-8caa-4e5a-8b44-670049658617",
+                    "label": "inputsbg",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "inputsbg"
+                    },
+                    "x": 222,
+                    "y": 232
+                },
+                {
+                    "type": "Image",
+                    "id": "6c206c53-468e-4666-a3e6-d773a1cb591e",
+                    "label": "inputsicons",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "inputsicons0001"
+                    },
+                    "x": 218,
+                    "y": 248
+                },
+                {
+                    "type": "Image",
+                    "id": "fce136fd-136b-4dee-8586-40a2f3bb4a03",
+                    "label": "unputsvary",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "unputsvary0001"
+                    },
+                    "x": 236,
+                    "y": 220
+                },
+                {
+                    "type": "Image",
+                    "id": "c6ce4d29-1990-4dc9-9383-0649c2bcc5b2",
+                    "label": "input",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "input"
+                    },
+                    "x": 110,
+                    "y": 215
+                },
+                {
+                    "type": "Image",
+                    "id": "27af0072-553f-4d3e-8b56-ce8a749b5e74",
+                    "label": "inputslayer",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "inputslayer"
+                    },
+                    "x": 224,
+                    "y": 231
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ef901e3f-883b-426e-9832-86ba507fcfb7",
+                    "label": "staticscreen0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "staticscreen",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "staticscreen0001"
+                    },
+                    "x": 383,
+                    "y": 455
+                },
+                {
+                    "type": "Sprite",
+                    "id": "1e1c63db-cab4-44ab-8a80-d1ffb20e5ce5",
+                    "label": "staticstuff0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "staticstuff",
+                    "Animation.end": 5,
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "staticstuff0001"
+                    },
+                    "x": 65,
+                    "y": 453
+                },
+                {
+                    "type": "Sprite",
+                    "id": "35454036-caa1-4384-8a37-ea56103f610a",
+                    "label": "herbert0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "herbert",
+                    "Animation.end": 72,
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "herbert0001"
+                    },
+                    "x": 66,
+                    "y": 453,
+                    "visible": false
+                },
+                {
+                    "type": "Container",
+                    "id": "a451c659-51ad-4e9f-8dd8-845f011426d5",
+                    "label": "livingsled_container",
+                    "scope": "CLASS",
+                    "x": -58,
+                    "y": 350,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "526096a3-3143-4584-bd30-7e46a0da9072",
+                    "label": "screenslayer",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "screenslayer"
+                    },
+                    "x": 224,
+                    "y": 455
+                },
+                {
+                    "type": "Sprite",
+                    "id": "19416401-c697-4a87-a6af-e356c0372775",
+                    "label": "signaldot0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "signaldot",
+                    "Animation.end": 235,
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "signaldot0001"
+                    },
+                    "x": 220,
+                    "y": 30
+                },
+                {
+                    "type": "Image",
+                    "id": "fe39c38e-a0b3-4ce6-b687-751d8c71fbe5",
+                    "label": "signalstrenght",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "signalstrenght"
+                    },
+                    "x": 214,
+                    "y": 84
+                },
+                {
+                    "type": "Sprite",
+                    "id": "57545189-e0df-4fd9-bebf-2ef7f33ca3cb",
+                    "label": "signalanim0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "signalanim",
+                    "Animation.end": 50,
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "signalanim0001"
+                    },
+                    "x": 380,
+                    "y": 84
+                },
+                {
+                    "type": "Sprite",
+                    "id": "c56412b0-49c5-486f-9506-9162b5bd8ddf",
+                    "label": "button_big",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "inputbuttonbig0001"
+                    },
+                    "x": 549,
+                    "y": 284,
+                    "animationKey": "button_break"
+                },
+                {
+                    "type": "Image",
+                    "id": "87f5bc15-fcaf-49cc-af21-8d7bb0567e90",
+                    "label": "signalstrenghtlayer",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "signalstrenghtlayer"
+                    },
+                    "x": 215,
+                    "y": 85
+                },
+                {
+                    "type": "Sprite",
+                    "id": "4244bd86-f3f0-4ac5-8190-39aacd04855b",
+                    "label": "slider1",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "sliderbutton0001"
+                    },
+                    "x": -178,
+                    "y": 232
+                },
+                {
+                    "type": "Sprite",
+                    "id": "7558f9c2-3948-4f26-92f9-cb701215e82d",
+                    "label": "slider2",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "sliderbutton0001"
+                    },
+                    "x": -134,
+                    "y": 232
+                },
+                {
+                    "type": "Sprite",
+                    "id": "971714d6-b9d5-4be0-88c4-8c91b3f2c42f",
+                    "label": "slider3",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "sliderbutton0001"
+                    },
+                    "x": -89.77005004882812,
+                    "y": 232
+                },
+                {
+                    "type": "Sprite",
+                    "id": "53f1b2eb-ef40-41a2-b7ab-cc548c260610",
+                    "label": "inputbuttonsmall",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "inputbuttonsmall",
+                    "Button.callback": "() => {this.changeInput()}",
+                    "texture": {
+                        "key": "mission11-mediaplayer",
+                        "frame": "inputbuttonsmall"
+                    },
+                    "x": -10,
+                    "y": 216
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "56257d68-31bf-4357-aecb-40ab458b3e47",
+                    "label": "rectangle_1",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onPanelClick()",
+                    "x": 867,
+                    "y": 244,
+                    "scaleX": 1.8808089782919701,
+                    "scaleY": 3.0640098169944103,
+                    "alpha": 1e-20,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "6195bb51-4182-436c-9f6f-b1f125ff9525",
+                    "label": "button_break_trigger",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.playBreakButtonAnim()",
+                    "x": 537,
+                    "y": 229,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "a031f022-4cd0-4390-8d0e-284a87a428be",
+                    "label": "slider1_trigger",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.addSliderTween(this.slider1)",
+                    "SimpleButton.hoverOutCallback": "() => this.removeSliderTween()",
+                    "x": -178,
+                    "y": 232,
+                    "width": 30,
+                    "height": 100
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "69763eb1-0df0-4157-80de-77693ed9bb47",
+                    "label": "slider2_trigger",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.addSliderTween(this.slider2)",
+                    "SimpleButton.hoverOutCallback": "() => this.removeSliderTween()",
+                    "x": -134,
+                    "y": 232,
+                    "width": 30,
+                    "height": 100
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "8a55670b-7da7-4e51-886d-ac940243554d",
+                    "label": "slider3_trigger",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.addSliderTween(this.slider3)",
+                    "SimpleButton.hoverOutCallback": "() => this.removeSliderTween()",
+                    "x": -89,
+                    "y": 232,
+                    "width": 30,
+                    "height": 100
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

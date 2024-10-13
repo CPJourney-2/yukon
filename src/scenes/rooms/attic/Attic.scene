@@ -1,0 +1,165 @@
+{
+    "id": "9ce09dcc-1589-414e-ad6e-ae57c96557a5",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/attic/attic-pack.json",
+            "yukon/assets/media/rooms/lodge/lodge-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Attic",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "35457aaa-97a7-4ce5-8a8c-50288c3378b3",
+            "label": "bg",
+            "texture": {
+                "key": "attic",
+                "frame": "bg"
+            },
+            "x": -11,
+            "y": -6,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "5415a75b-9831-4ffa-a621-3222772839b7",
+            "label": "arm",
+            "texture": {
+                "key": "attic",
+                "frame": "arm"
+            },
+            "x": 223,
+            "y": 606,
+            "originX": 0.497143,
+            "originY": 0.649402
+        },
+        {
+            "type": "Sprite",
+            "id": "744bf6b7-7721-40a8-9619-6d45e1fc6b44",
+            "label": "horse",
+            "components": [
+                "SimpleButton",
+                "Animation"
+            ],
+            "Animation.key": "horse/horse",
+            "Animation.end": 67,
+            "Animation.repeat": 0,
+            "Animation.onHover": true,
+            "Animation.stopOnOut": false,
+            "texture": {
+                "key": "attic",
+                "frame": "horse/horse0001"
+            },
+            "x": 1365,
+            "y": 633,
+            "originX": 0.544,
+            "originY": 0.503185
+        },
+        {
+            "type": "Image",
+            "id": "65a936ef-a9a8-486c-977e-31ccc0f17219",
+            "label": "box",
+            "texture": {
+                "key": "attic",
+                "frame": "box"
+            },
+            "x": -7,
+            "y": 964,
+            "originX": 0,
+            "originY": 1
+        },
+        {
+            "prefabId": "d3866883-7507-4f66-a7e3-bc9a896c4a22",
+            "id": "b7299c9d-fbcb-4d63-9534-1ecdf57d3e0e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table204",
+            "scope": "CLASS",
+            "x": 1140,
+            "y": 814
+        },
+        {
+            "prefabId": "d2fdc365-c022-4a72-8cdf-3f339d862cf6",
+            "id": "10978010-998d-4d10-a499-dedb1a0b8d9e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table203",
+            "scope": "CLASS",
+            "x": 800,
+            "y": 772
+        },
+        {
+            "prefabId": "8163f2e4-12be-4ba3-9eb1-464060e5ecd3",
+            "id": "13d058c1-5258-4e05-b754-8e0db4562ace",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table202",
+            "scope": "CLASS",
+            "x": 481,
+            "y": 774
+        },
+        {
+            "prefabId": "d2fdc365-c022-4a72-8cdf-3f339d862cf6",
+            "id": "196decac-e92d-4938-81d3-a7b0cc0e2ee3",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table201",
+            "scope": "CLASS",
+            "x": 861,
+            "y": 593
+        },
+        {
+            "prefabId": "a6e91d83-75ce-421c-94ea-d375188195eb",
+            "id": "d21611fa-2e39-4c5e-8fc1-d9e5303a15b5",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "table200",
+            "scope": "CLASS",
+            "x": 601,
+            "y": 633
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "167f5623-6351-4c6d-ad9c-fa45cd2b2108",
+            "label": "sort",
+            "objectIds": [
+                "65a936ef-a9a8-486c-977e-31ccc0f17219",
+                "5415a75b-9831-4ffa-a621-3222772839b7",
+                "744bf6b7-7721-40a8-9619-6d45e1fc6b44",
+                "13d058c1-5258-4e05-b754-8e0db4562ace",
+                "d21611fa-2e39-4c5e-8fc1-d9e5303a15b5",
+                "196decac-e92d-4938-81d3-a7b0cc0e2ee3",
+                "10978010-998d-4d10-a499-dedb1a0b8d9e",
+                "b7299c9d-fbcb-4d63-9534-1ecdf57d3e0e"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1182 @@
+{
+    "id": "602150ca-386c-4af6-9284-47cfbcbdaebd",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "604d13b8-868d-46c8-a5a3-13d96bb18968",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "028ec836-255b-461d-bbb6-01fca27a428f",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 759,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "1b8b09cc-03df-4487-ab39-3b717fa84adf",
+                    "label": "page9",
+                    "y": -42,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4d42db2c-54af-42c4-93a9-d47b0ff82271",
+                            "label": "p",
+                            "texture": {
+                                "key": "jun24-sport",
+                                "frame": "june24sport9"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e48dd78f-99f8-49c7-ac24-9e54524d75d5",
+                            "label": "closeLeft_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 504,
+                            "y": 196,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "639775ab-9d14-4cda-8715-ceeecca7d943",
+                            "label": "pageLeft_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "x": 437,
+                            "y": 634,
+                            "angle": -0.5,
+                            "originX": 0,
+                            "originY": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a13ab213-cf0c-4475-a66a-19b8d89c8fa5",
+                    "label": "page8",
+                    "scope": "CLASS",
+                    "y": -42,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "a5c63ec2-df12-4016-ad1d-13301bdb0a4c",
+                            "label": "p8",
+                            "texture": {
+                                "key": "jun24-sport",
+                                "frame": "june24sport8"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "ec659288-4c70-439b-aced-aa4db0c7bbdb",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "itemType",
+                                "item"
+                            ],
+                            "label": "buyButton",
+                            "item": 2238,
+                            "itemType": "Furniture",
+                            "x": 508,
+                            "y": 662
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "69490cec-180c-4d59-abcc-c1ef796f8d92",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_1",
+                            "item": 545,
+                            "itemType": "Furniture",
+                            "x": 501,
+                            "y": 424
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "e1cb83db-cb5f-49ec-9791-cee60070ef47",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_2",
+                            "item": 520,
+                            "itemType": "Furniture",
+                            "x": 1139,
+                            "y": 244
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "2a96e848-e0c7-469c-9581-2325cd36a83e",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_3",
+                            "item": 522,
+                            "itemType": "Furniture",
+                            "x": 1142,
+                            "y": 481
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "e26bb60d-88da-433f-a7a4-4b004d23beb7",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_4",
+                            "item": 295,
+                            "itemType": "Furniture",
+                            "x": 1142,
+                            "y": 719
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "8417ea0d-300c-42b2-8090-0041a0a3e9c5",
+                    "label": "page7",
+                    "scope": "CLASS",
+                    "y": -42,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4a348d9b-0d1b-4e47-b004-00f81f38f117",
+                            "label": "p7",
+                            "texture": {
+                                "key": "jun24-sport",
+                                "frame": "june24sport7"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "d9f4da97-c017-415a-aec7-cd283c0992b7",
+                            "id": "a4ddcfd4-5722-4684-b4dc-343a35717654",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slotId",
+                                "pageNumber",
+                                "itemId"
+                            ],
+                            "label": "photoButtonE1",
+                            "scope": "CLASS",
+                            "itemId": 920,
+                            "x": 917,
+                            "y": 330
+                        },
+                        {
+                            "prefabId": "d9f4da97-c017-415a-aec7-cd283c0992b7",
+                            "id": "af9b0a04-a2eb-4689-8cb6-ae2c2c199f33",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slotId",
+                                "pageNumber",
+                                "itemId"
+                            ],
+                            "label": "photoButtonE2",
+                            "scope": "CLASS",
+                            "itemId": 918,
+                            "x": 1211,
+                            "y": 330
+                        },
+                        {
+                            "prefabId": "d9f4da97-c017-415a-aec7-cd283c0992b7",
+                            "id": "9746f5f0-b391-4403-9c54-b0f8c0de6e7b",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slotId",
+                                "pageNumber",
+                                "itemId"
+                            ],
+                            "label": "photoButtonE3",
+                            "scope": "CLASS",
+                            "itemId": 974,
+                            "x": 1060,
+                            "y": 625
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "5ebdcfa6-ef1a-4dd3-af3a-433668bf84d2",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag1",
+                            "item": 722,
+                            "x": 228,
+                            "y": 417,
+                            "angle": -23
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "9c2bc53a-ebad-4d0a-b4f9-ad6f2e222d66",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag2",
+                            "item": 3002,
+                            "x": 555,
+                            "y": 386,
+                            "angle": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b642861f-7c5d-4789-b7aa-24baaa3c2c79",
+                    "label": "page6",
+                    "scope": "CLASS",
+                    "y": -42,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "54c704a0-6182-430f-9c6b-060f906e63e2",
+                            "label": "p6",
+                            "texture": {
+                                "key": "jun24-sport",
+                                "frame": "june24sport6"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c1b525c8-69fa-4ed7-b51e-069785934c18",
+                            "label": "tracksuit",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "jun24-sport",
+                                "frame": "blue_track_suit"
+                            },
+                            "x": 1091,
+                            "y": 427
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "f73b2329-fbd8-4f43-b3d2-38ae149fc40e",
+                            "label": "blueBtn",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onTracksuitHover('blue')",
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(4264)",
+                            "x": 303,
+                            "y": 262,
+                            "width": 225,
+                            "height": 200
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "ea67b140-dc9f-4e76-9ea4-ebafc19427f1",
+                            "label": "yellowBtn",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onTracksuitHover('yellow')",
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(4266)",
+                            "x": 566,
+                            "y": 371,
+                            "width": 225,
+                            "height": 200
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "3233aab8-60fc-4037-b8b0-a784c66383d0",
+                            "label": "redBtn",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onTracksuitHover('red')",
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(4263)",
+                            "x": 303,
+                            "y": 532,
+                            "width": 225,
+                            "height": 200
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "71b4c9a5-6394-4186-90cb-9607fd444184",
+                            "label": "greenBtn",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => this.onTracksuitHover('green')",
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(4265)",
+                            "x": 573,
+                            "y": 666,
+                            "width": 225,
+                            "height": 200
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "27b9813a-cd0e-4fc2-8fe4-d7865e8a11e8",
+                    "label": "page5",
+                    "y": -42,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b7083f4d-3612-45ef-a33d-16b0925c1ffb",
+                            "label": "p5",
+                            "texture": {
+                                "key": "jun24-sport",
+                                "frame": "june24sport5"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "9f948e0b-6a75-48aa-8d6c-544afd164a8f",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag",
+                            "item": 2027,
+                            "x": 234,
+                            "y": 308,
+                            "angle": -14
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "739699ec-070e-4d94-bc22-fe090d059529",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_3",
+                            "item": 254,
+                            "x": 606,
+                            "y": 388,
+                            "angle": 25
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "6552ca2f-1fc5-40f8-aa97-cfc7905f0c49",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_1",
+                            "item": 255,
+                            "x": 460,
+                            "y": 523,
+                            "angle": 33
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "6f632bdc-1bce-4dc7-8d69-c7fa3cd8a80a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_2",
+                            "item": 2026,
+                            "x": 888,
+                            "y": 247,
+                            "angle": -22
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "271d5340-cd52-4f04-86ad-38f82427772e",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_5",
+                            "item": 2018,
+                            "x": 1138,
+                            "y": 243,
+                            "angle": 0
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "2a1f8fbf-3465-4f64-b879-6de3b30b0885",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_4",
+                            "item": 4116,
+                            "x": 1227,
+                            "y": 508,
+                            "angle": 23
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "105bffda-a04c-456e-9bcb-359b54c47d0d",
+                            "label": "secret",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(2019)",
+                            "x": 1176,
+                            "y": 161,
+                            "width": 30,
+                            "height": 30
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "6b3e6bcc-495b-4f3e-94fe-5753e469dbc9",
+                            "label": "secret_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(4205)",
+                            "x": 279,
+                            "y": 133,
+                            "width": 50,
+                            "height": 50
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "e1157343-5533-4b07-a315-c1f5241d0aef",
+                            "label": "secret_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(333)",
+                            "x": 555,
+                            "y": 529,
+                            "width": 30,
+                            "height": 30
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "8a14402a-68d4-4f48-9376-e2a72331bb53",
+                            "label": "secret_3",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(330)",
+                            "x": 1008,
+                            "y": 389,
+                            "width": 30,
+                            "height": 30
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "ac02edd7-cb39-4bd3-b994-b0896e570fd5",
+                            "label": "secret_4",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(5138)",
+                            "x": 1134,
+                            "y": 393,
+                            "width": 25,
+                            "height": 25
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "94b3d683-9930-4f36-a6db-875d833ea6f0",
+                            "label": "secret_5",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(5139)",
+                            "x": 784,
+                            "y": 213,
+                            "width": 50,
+                            "height": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "7ea4bc55-a455-4845-9f4c-0ef9222bea9d",
+                    "label": "page4",
+                    "y": -42,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "77ee51c0-161b-455c-a512-7f52582dbb63",
+                            "label": "p4",
+                            "texture": {
+                                "key": "jun24-sport",
+                                "frame": "june24sport4"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "e6f10d12-5a81-46c4-a5df-983dd6838444",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_6",
+                            "item": 720,
+                            "x": 166,
+                            "y": 396,
+                            "angle": -39
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "8168a555-69c6-472d-b901-43133a1c96d4",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_7",
+                            "item": 463,
+                            "x": 445,
+                            "y": 188,
+                            "angle": 22
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "8eaa7d47-9da8-4b57-b705-15a30bccee44",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_8",
+                            "item": 721,
+                            "x": 332,
+                            "y": 589,
+                            "angle": -3
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "c3821d76-c1f3-4293-bfbb-513e86e22c63",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_9",
+                            "item": 4115,
+                            "x": 872.7748413085938,
+                            "y": 510.6964111328125,
+                            "angle": -8
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "8e11a4c5-9986-4a5c-8c79-a99ec63718b2",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_10",
+                            "item": 462,
+                            "x": 604,
+                            "y": 357,
+                            "angle": 26
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "00ed265c-833b-45e9-829a-03e27722ecfb",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_11",
+                            "item": 726,
+                            "x": 1106,
+                            "y": 586,
+                            "angle": 16
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "f7e4767e-0918-4d08-b8e7-a2c0c0be1396",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_12",
+                            "item": 1078,
+                            "x": 1196,
+                            "y": 380,
+                            "angle": 31
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "038712d6-135f-4c8b-8d56-8b2337bb658c",
+                            "label": "secret_6",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(453)",
+                            "x": 1027,
+                            "y": 225,
+                            "width": 25,
+                            "height": 25
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "06f20cc2-12cb-4c61-a35d-1a433b79d608",
+                            "label": "secret_10",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(118)",
+                            "x": 1022,
+                            "y": 162,
+                            "width": 25,
+                            "height": 25
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "8de6f495-8cac-47bf-b9d7-1318dc6f30c2",
+                    "label": "page3",
+                    "y": -42,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "fc52192d-d38a-43e8-90f0-b84b41459e29",
+                            "label": "p3",
+                            "texture": {
+                                "key": "jun24-sport",
+                                "frame": "june24sport3"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "211d9d26-2ca0-4eaf-9730-97c7f90a3763",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_13",
+                            "item": 4091,
+                            "x": 1161,
+                            "y": 415,
+                            "angle": 18
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "ad10effa-8302-4cfe-8784-0f44d06a1841",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_15",
+                            "item": 775,
+                            "x": 561,
+                            "y": 530,
+                            "angle": 18
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "8a5f49c0-78e3-4351-873c-3e5935cd3ca4",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_14",
+                            "item": 727,
+                            "x": 246,
+                            "y": 273,
+                            "angle": -31
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "76bf2dc3-8b31-4b3f-92c4-ad89f72b1948",
+                            "label": "secret_7",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(778)",
+                            "x": 437,
+                            "y": 410,
+                            "width": 25,
+                            "height": 25
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "960ee77e-289b-4762-a23f-5157fe4287bc",
+                            "label": "secret_8",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(4088)",
+                            "x": 488.8145751953125,
+                            "y": 580.3980712890625,
+                            "width": 25,
+                            "height": 25
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a076fa54-481a-4ceb-8bf0-5d3f7b5e94aa",
+                            "label": "secret_9",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(4346)",
+                            "x": 1010,
+                            "y": 438,
+                            "width": 40,
+                            "height": 40
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2b02fd14-5820-43b2-bd98-64b6de53e53d",
+                    "label": "page2",
+                    "y": -42,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "cbaa27b7-8c69-4e0a-b8d4-5a23cb76a736",
+                            "label": "p2",
+                            "texture": {
+                                "key": "jun24-sport",
+                                "frame": "june24sport2"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "type": "Container",
+                            "id": "bf96f645-2a16-42ec-8358-b9bc3dc9aa3e",
+                            "label": "flagButtons",
+                            "scope": "CLASS",
+                            "x": 436,
+                            "y": 505,
+                            "list": [
+                                {
+                                    "type": "Ellipse",
+                                    "id": "534020fa-87f6-456d-8d0c-d38d356a54e4",
+                                    "label": "argentinaBtn",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => this.onKitHover('argentina')",
+                                    "SimpleButton.hoverOutCallback": "() => this.onKitOut('argentina')",
+                                    "SimpleButton.callback": "() => this.buyKitItem('argentina')",
+                                    "x": -150,
+                                    "y": -140,
+                                    "width": 115,
+                                    "height": 115
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "e3f31c6f-9b01-401c-99db-b832dba97e1b",
+                                    "label": "brazilBtn",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => this.onKitHover('brazil')",
+                                    "SimpleButton.hoverOutCallback": "() => this.onKitOut('brazil')",
+                                    "SimpleButton.callback": "() => this.buyKitItem('brazil')",
+                                    "x": 0.464996337890625,
+                                    "y": -139.66506958007812,
+                                    "width": 115,
+                                    "height": 115
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "a39a66f9-345a-4b5c-8a17-11e9cf14c7ac",
+                                    "label": "englandBtn",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => this.onKitHover('england')",
+                                    "SimpleButton.hoverOutCallback": "() => this.onKitOut('england')",
+                                    "SimpleButton.callback": "() => this.buyKitItem('england')",
+                                    "x": 148.751220703125,
+                                    "y": -139.19198608398438,
+                                    "width": 119,
+                                    "height": 119
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "49338500-ba56-4edf-9c8e-e8249fef6692",
+                                    "label": "italyBtn",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => this.onKitHover('italy')",
+                                    "SimpleButton.hoverOutCallback": "() => this.onKitOut('italy')",
+                                    "SimpleButton.callback": "() => this.buyKitItem('italy')",
+                                    "x": 150,
+                                    "width": 115,
+                                    "height": 115
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "8af1bcbf-b755-4a2e-ad8f-d26701063729",
+                                    "label": "germanyBtn",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => this.onKitHover('germany')",
+                                    "SimpleButton.hoverOutCallback": "() => this.onKitOut('germany')",
+                                    "SimpleButton.callback": "() => this.buyKitItem('germany')",
+                                    "x": 1,
+                                    "y": 1,
+                                    "width": 115,
+                                    "height": 115
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "cd8aa40a-d5d4-470e-9ce2-f5b317d49781",
+                                    "label": "franceBtn",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => this.onKitHover('france')",
+                                    "SimpleButton.hoverOutCallback": "() => this.onKitOut('france')",
+                                    "SimpleButton.callback": "() => this.buyKitItem('france')",
+                                    "x": -149,
+                                    "y": 1,
+                                    "width": 115,
+                                    "height": 115
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "bae03efe-bbb5-4582-9039-3505e3cefa9e",
+                                    "label": "portugalBtn",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => this.onKitHover('portugal')",
+                                    "SimpleButton.hoverOutCallback": "() => this.onKitOut('portugal')",
+                                    "SimpleButton.callback": "() => this.buyKitItem('portugal')",
+                                    "x": -150,
+                                    "y": 141,
+                                    "width": 115,
+                                    "height": 115
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "0142df40-c658-46a9-869e-27507a615c2d",
+                                    "label": "usaBtn",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => this.onKitHover('usa')",
+                                    "SimpleButton.hoverOutCallback": "() => this.onKitOut('usa')",
+                                    "SimpleButton.callback": "() => this.buyKitItem('usa')",
+                                    "y": 141,
+                                    "width": 115,
+                                    "height": 115
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "ea87a4ec-c732-459c-b142-dd4efd41e3d3",
+                                    "label": "spainBtn",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => this.onKitHover('spain')",
+                                    "SimpleButton.hoverOutCallback": "() => this.onKitOut('spain')",
+                                    "SimpleButton.callback": "() => this.buyKitItem('spain')",
+                                    "x": 149,
+                                    "y": 140,
+                                    "width": 115,
+                                    "height": 115
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "da2336f0-6882-4778-bef4-52b2bb0525ce",
+                                    "label": "flags",
+                                    "texture": {
+                                        "key": "jun24-sport",
+                                        "frame": "flags"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b5980c5a-0197-41b5-b7f7-247379281fb3",
+                            "label": "countryKit",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "jun24-sport",
+                                "frame": "argentina 1"
+                            },
+                            "x": 1072,
+                            "y": 519
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b4bf1020-6cd2-4e72-9a22-9dc3c0faebae",
+                    "label": "page1",
+                    "x": 1,
+                    "y": -42,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "1ea0381e-03ee-4ac8-bb22-28e3551c8dac",
+                            "label": "p1",
+                            "texture": {
+                                "key": "jun24-sport",
+                                "frame": "june24sport1"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c75eb35b-1796-427b-a268-0bfd7de78ab1",
+                            "label": "closeRight_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 1016,
+                            "y": 196
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b381f396-fe83-4d30-9830-d4298deba574",
+                            "label": "pageRight_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-right",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-right"
+                            },
+                            "x": 951,
+                            "y": 633,
+                            "originX": 0,
+                            "originY": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ad71a0bc-b1f8-4ee2-b189-b90b5a445f56",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 190,
+                    "y": 41,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "29b10cf1-38cf-4cc2-ae5b-d14dce746c79",
+                            "label": "closeRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 1066,
+                            "y": 1,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c1807dd0-690e-4094-b44e-f5d7674cb4d8",
+                            "label": "pageRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-right",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-right"
+                            },
+                            "x": 1059,
+                            "y": 548,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "38c55173-6068-46af-8b96-50e02fa3f9f2",
+                            "label": "pageLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "x": -60,
+                            "y": 548,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Text",
+                            "id": "bb9facc3-7a86-49f0-a497-0ec458025950",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1130,
+                            "y": 790,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "3003f2ec-9394-4489-a981-17b8c2a9bffb",
+            "label": "pages",
+            "objectIds": [
+                "b4bf1020-6cd2-4e72-9a22-9dc3c0faebae",
+                "2b02fd14-5820-43b2-bd98-64b6de53e53d",
+                "8de6f495-8cac-47bf-b9d7-1318dc6f30c2",
+                "7ea4bc55-a455-4845-9f4c-0ef9222bea9d",
+                "27b9813a-cd0e-4fc2-8fe4-d7865e8a11e8",
+                "b642861f-7c5d-4789-b7aa-24baaa3c2c79",
+                "8417ea0d-300c-42b2-8090-0041a0a3e9c5",
+                "a13ab213-cf0c-4475-a66a-19b8d89c8fa5",
+                "1b8b09cc-03df-4487-ab39-3b717fa84adf"
+            ]
+        }
+    ]
+}

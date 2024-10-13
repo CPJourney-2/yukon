@@ -1,0 +1,109 @@
+{
+    "id": "87c5df6e-0671-4f45-8d94-ee2292210f37",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/berg/berg-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Berg",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "009c916f-93cb-4de1-8ffe-0c3d0f4f5b83",
+            "label": "bg",
+            "texture": {
+                "key": "berg",
+                "frame": "bg"
+            },
+            "x": -18,
+            "y": -18,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "0f7a085f-d758-4ba2-98d1-1de608d7e4bf",
+            "label": "aqua",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton",
+                "MoveTo",
+                "ShowHint"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onAquaOver()",
+            "SimpleButton.callback": "() => this.onAquaClick()",
+            "SimpleButton.pixelPerfect": true,
+            "ShowHint.text": "sub_hint",
+            "texture": {
+                "key": "berg",
+                "frame": "aqua0001"
+            },
+            "x": 1255,
+            "y": 325,
+            "originY": 0.4014336917562724
+        },
+        {
+            "type": "Container",
+            "id": "01ca6466-6589-4485-9f05-9864f3a5a62e",
+            "label": "coin",
+            "scope": "CLASS",
+            "x": -130,
+            "y": 99,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "85ab7eaa-4812-41de-a3a6-09e793775fa9",
+                    "label": "coin_sprite",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "job_coin",
+                        "frame": "coin0002"
+                    },
+                    "x": 31.03714265764836,
+                    "y": -50.12658541187517
+                },
+                {
+                    "type": "Text",
+                    "id": "34e5fe1e-a434-418b-8432-ac1b6373e55d",
+                    "label": "coin_text",
+                    "scope": "PUBLIC",
+                    "x": -29,
+                    "y": -33,
+                    "text": "10",
+                    "fixedWidth": 50,
+                    "fixedHeight": 50,
+                    "paddingTop": 15,
+                    "align": "center",
+                    "fontFamily": "CCComiccrazy",
+                    "fontStyle": "bold",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 2,
+                    "baselineX": 0,
+                    "baselineY": 0
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "70aa9df9-38de-4ec3-b508-8b949ac0bac3",
+            "label": "sort"
+        }
+    ]
+}

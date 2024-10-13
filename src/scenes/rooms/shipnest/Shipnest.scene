@@ -1,0 +1,162 @@
+{
+    "id": "b9b4a167-8efc-4dd9-95c4-1f015af2ee86",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/shipnest/shipnest-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Shipnest",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "d20d42b8-2667-4181-acbe-dffb02f7c417",
+            "label": "crowsnesttt",
+            "texture": {
+                "key": "crowsnesttt"
+            },
+            "x": 763,
+            "y": 494
+        },
+        {
+            "type": "Image",
+            "id": "b1633798-883b-45ac-a3c9-6274358869ed",
+            "label": "sprite_17",
+            "texture": {
+                "key": "shipnest",
+                "frame": "sprite 17"
+            },
+            "x": 763,
+            "y": 493
+        },
+        {
+            "type": "Image",
+            "id": "f50957ad-1646-4270-9d9b-362cff88e84d",
+            "label": "ship_nest",
+            "texture": {
+                "key": "shipnest_new_bg",
+                "frame": "ship_nest"
+            },
+            "x": 736,
+            "y": 464
+        },
+        {
+            "type": "Image",
+            "id": "9b1e4365-fa05-4d8b-a9aa-cef6599f024f",
+            "label": "sprite",
+            "texture": {
+                "key": "shipnest",
+                "frame": "sprite 230001"
+            },
+            "x": 969.3983445202764,
+            "y": 458.38435412087244,
+            "originX": 0.4205367507623961,
+            "originY": 0.8711522617566348
+        },
+        {
+            "type": "Image",
+            "id": "c2b91c77-6e26-446d-adae-60209b733cc8",
+            "label": "sprite_25",
+            "texture": {
+                "key": "shipnest",
+                "frame": "sprite 25"
+            },
+            "x": 1041.5364618646422,
+            "y": 522.5803943936814,
+            "originX": 0.21014584745856882,
+            "originY": 0.5822141344853161
+        },
+        {
+            "type": "Image",
+            "id": "0d5044c1-4e22-4223-af78-c1d5251055fa",
+            "label": "sprite_27",
+            "texture": {
+                "key": "shipnest",
+                "frame": "sprite 27"
+            },
+            "x": 386.9212831878096,
+            "y": 615.6629958090703,
+            "originX": 0.5833889895123372,
+            "originY": 0.24556561820956727
+        },
+        {
+            "type": "Image",
+            "id": "074f9472-1b4e-4dc6-9b22-bc16bed443c6",
+            "label": "sprite_88",
+            "texture": {
+                "key": "shipnest",
+                "frame": "sprite 88"
+            },
+            "x": 785.3297501563495,
+            "y": 835.2117508298551,
+            "originX": 0.5334924391769263,
+            "originY": 1.0954632380060623
+        },
+        {
+            "type": "Sprite",
+            "id": "56507b1e-2e60-414a-bcce-de71773d8631",
+            "label": "sprite_670001",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "cannon",
+            "Animation.end": 43,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
+            "Animation.stopOnOut": false,
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "shipnest",
+                "frame": "cannon0001"
+            },
+            "x": 468.80394393681485,
+            "y": 485.513746739974,
+            "originX": 0.8016297791182059,
+            "originY": 0.8268773087777297
+        },
+        {
+            "type": "Image",
+            "id": "33c50a0b-6f90-4dc4-bbaf-d90fb6a0e7fd",
+            "label": "sprite_85",
+            "texture": {
+                "key": "shipnest",
+                "frame": "sprite 85"
+            },
+            "x": 762.1240711240335,
+            "y": 513.8498148967462,
+            "originX": 0.9475238971584543,
+            "originY": 0.9306626526607483
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "167f5623-6351-4c6d-ad9c-fa45cd2b2108",
+            "label": "sort",
+            "objectIds": [
+                "56507b1e-2e60-414a-bcce-de71773d8631",
+                "33c50a0b-6f90-4dc4-bbaf-d90fb6a0e7fd",
+                "9b1e4365-fa05-4d8b-a9aa-cef6599f024f",
+                "c2b91c77-6e26-446d-adae-60209b733cc8",
+                "0d5044c1-4e22-4223-af78-c1d5251055fa",
+                "074f9472-1b4e-4dc6-9b22-bc16bed443c6"
+            ]
+        }
+    ]
+}

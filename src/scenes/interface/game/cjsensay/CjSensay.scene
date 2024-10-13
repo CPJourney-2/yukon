@@ -1,0 +1,357 @@
+{
+    "id": "72af8d29-ee0f-403a-a43a-def4e6dcc1a9",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "259588a9-7249-4243-ba08-195bffd0b229",
+            "label": "container_1",
+            "x": 550,
+            "y": 376,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "e5bee85a-0e5f-45ff-aac1-8afa1a34b054",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillAlpha": 0,
+                    "width": 3000,
+                    "height": 1500
+                },
+                {
+                    "type": "Image",
+                    "id": "7bffed36-b29a-4bed-9c5e-30adf76b6a63",
+                    "label": "bg",
+                    "texture": {
+                        "key": "levelup",
+                        "frame": "bg"
+                    },
+                    "x": 101,
+                    "y": 180
+                },
+                {
+                    "type": "Sprite",
+                    "id": "653a3eab-1d3e-458e-af04-cac54301ac15",
+                    "label": "sensay",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.end": 103,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "levelup",
+                        "frame": "sensay/sensay0001"
+                    },
+                    "x": -283,
+                    "y": 95
+                },
+                {
+                    "type": "Text",
+                    "id": "755f632b-364e-4ef2-b63e-8b6221414769",
+                    "label": "text_2",
+                    "x": -614,
+                    "y": -613,
+                    "text": "menu text x is 79 when not next to btn icon\n119 when it is\n61 per menu item\nE3DABB is menu item color",
+                    "fontSize": "40px",
+                    "stroke": "#000",
+                    "strokeThickness": 10
+                },
+                {
+                    "type": "Container",
+                    "id": "125a5e41-057c-4ab4-b510-a956ed6b2246",
+                    "label": "menu",
+                    "x": 79,
+                    "y": 207,
+                    "list": [
+                        {
+                            "type": "NineSlice",
+                            "id": "b2eb6d74-f31c-4a72-8200-c933de2a744f",
+                            "label": "menuBg",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "sensay-menu",
+                                "frame": "menu"
+                            },
+                            "originX": 0,
+                            "originY": 0,
+                            "width": 850,
+                            "height": 327,
+                            "leftWidth": 57,
+                            "rightWidth": 60,
+                            "topHeight": 55,
+                            "bottomHeight": 56
+                        },
+                        {
+                            "type": "Container",
+                            "id": "3781da95-4db4-4df3-a7e9-966b3873e6b5",
+                            "label": "menuButtonContainer",
+                            "x": 50,
+                            "y": 41,
+                            "list": [
+                                {
+                                    "type": "Rectangle",
+                                    "id": "529d8eed-8f3c-42d5-af03-29888ff75e55",
+                                    "label": "menuButton4",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => this.onMenuHover(3)",
+                                    "SimpleButton.hoverOutCallback": "() => this.onMenuHoverOut(3)",
+                                    "SimpleButton.callback": "() => this.onMenuClick(3)",
+                                    "y": 183,
+                                    "originX": 0,
+                                    "originY": 0,
+                                    "fillColor": "#E3DABB",
+                                    "width": 750,
+                                    "height": 61
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "7dd7c97e-ab8a-460b-ae6c-b29e11ec9e95",
+                                    "label": "menuButton3",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => this.onMenuHover(2)",
+                                    "SimpleButton.hoverOutCallback": "() => this.onMenuHoverOut(2)",
+                                    "SimpleButton.callback": "() => this.onMenuClick(2)",
+                                    "y": 122,
+                                    "originX": 0,
+                                    "originY": 0,
+                                    "fillColor": "#E3DABB",
+                                    "width": 750,
+                                    "height": 61
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "e84222fd-bff2-4a3f-9e64-701a69ce6a1c",
+                                    "label": "menuButton2",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => this.onMenuHover(1)",
+                                    "SimpleButton.hoverOutCallback": "() => this.onMenuHoverOut(1)",
+                                    "SimpleButton.callback": "() => this.onMenuClick(1)",
+                                    "y": 61,
+                                    "originX": 0,
+                                    "originY": 0,
+                                    "fillColor": "#E3DABB",
+                                    "width": 750,
+                                    "height": 61
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "e4a4bb92-ec2c-4a35-8e08-1c4025df4f8b",
+                                    "label": "menuButton1",
+                                    "components": [
+                                        "SimpleButton"
+                                    ],
+                                    "SimpleButton.hoverCallback": "() => this.onMenuHover(0)",
+                                    "SimpleButton.hoverOutCallback": "() => this.onMenuHoverOut(0)",
+                                    "SimpleButton.callback": "() => this.onMenuClick(0)",
+                                    "originX": 0,
+                                    "originY": 0,
+                                    "fillColor": "#E3DABB",
+                                    "width": 750,
+                                    "height": 61
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "6d63fcc0-07c2-4e6c-b80c-fbfcaf0a5133",
+                            "label": "menuItemTextContainer",
+                            "scope": "CLASS",
+                            "x": 119,
+                            "y": 57,
+                            "list": [
+                                {
+                                    "type": "Text",
+                                    "id": "836f9ed1-df7f-4546-ad2e-4077ec15ca01",
+                                    "label": "menuItem4",
+                                    "y": 184,
+                                    "text": "This is a menu item!",
+                                    "fontFamily": "CCComicrazy",
+                                    "fontSize": "26px",
+                                    "color": "#000"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "36cea302-ff91-4e4d-849b-456fe9c743ef",
+                                    "label": "menuItem3",
+                                    "y": 123,
+                                    "text": "This is a menu item!",
+                                    "fontFamily": "CCComicrazy",
+                                    "fontSize": "26px",
+                                    "color": "#000"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "4b4a7181-f8f8-404f-892c-7be46ccdb331",
+                                    "label": "menuItem2",
+                                    "y": 62,
+                                    "text": "This is a menu item!",
+                                    "fontFamily": "CCComicrazy",
+                                    "fontSize": "26px",
+                                    "color": "#000"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "a65e7554-cffd-4d2f-aa5f-24c4c0293b98",
+                                    "label": "menuItem1",
+                                    "text": "This is a menu item!",
+                                    "fontFamily": "CCComicrazy",
+                                    "fontSize": "26px",
+                                    "color": "#000"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "1ea5678b-16bd-40bf-9afd-4b64c14f07fa",
+                            "label": "btnIconContainer",
+                            "scope": "CLASS",
+                            "x": 81,
+                            "y": 72,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "b63d5b39-03b2-4b0e-9c23-bea2e516bc76",
+                                    "label": "beltIcon",
+                                    "texture": {
+                                        "key": "sensay-menu",
+                                        "frame": "beltIcon"
+                                    },
+                                    "scaleX": 0.9,
+                                    "scaleY": 0.9,
+                                    "visible": false
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "d3bd5d85-5731-4863-b413-ca60283b1353",
+                                    "label": "instructionsIcon",
+                                    "texture": {
+                                        "key": "sensay-menu",
+                                        "frame": "instructionsIcon"
+                                    },
+                                    "y": 123,
+                                    "scaleX": 0.9,
+                                    "scaleY": 0.9,
+                                    "visible": false
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "0cbee8cd-f3f6-4814-acbf-df488f05b1ea",
+                                    "label": "senseiIcon",
+                                    "texture": {
+                                        "key": "sensay-menu",
+                                        "frame": "senseiIcon"
+                                    },
+                                    "scaleX": 0.9,
+                                    "scaleY": 0.9
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "66b7fc42-7fe0-4a1f-b083-bd56efc5bf9d",
+                    "label": "closebtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.interface.destroyWidget(this)",
+                    "Button.activeFrame": true,
+                    "Button.pixelPerfect": true,
+                    "texture": {
+                        "key": "stampbook-inside",
+                        "frame": "closebtn"
+                    },
+                    "x": 927,
+                    "y": -332
+                },
+                {
+                    "type": "Container",
+                    "id": "a35e38da-b86e-45d8-a945-2e1a037d797f",
+                    "label": "speechBubble",
+                    "scope": "CLASS",
+                    "x": 20,
+                    "y": -228,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9c3fe1cc-ab7b-47be-873d-46662301fa6e",
+                            "label": "speech",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "levelup",
+                                "frame": "speech"
+                            },
+                            "x": 357,
+                            "y": 113
+                        },
+                        {
+                            "type": "Text",
+                            "id": "36445473-acd2-41c3-af15-52c91217b829",
+                            "label": "bubbleText",
+                            "scope": "CLASS",
+                            "text": "This one grasshopper\nI saw her beat Sensei quick\nNot a skill issue",
+                            "fixedWidth": 800,
+                            "fixedHeight": 150,
+                            "align": "center",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "35px",
+                            "color": "#000000ff"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "3591d798-1c5b-456d-8038-016a2e0d65b9",
+            "label": "menuItems",
+            "objectIds": [
+                "a65e7554-cffd-4d2f-aa5f-24c4c0293b98",
+                "4b4a7181-f8f8-404f-892c-7be46ccdb331",
+                "36cea302-ff91-4e4d-849b-456fe9c743ef",
+                "836f9ed1-df7f-4546-ad2e-4077ec15ca01"
+            ]
+        },
+        {
+            "id": "fa24b622-659a-4a70-bc90-e7dd2cc4cbe3",
+            "label": "menuButtons",
+            "objectIds": [
+                "e4a4bb92-ec2c-4a35-8e08-1c4025df4f8b",
+                "e84222fd-bff2-4a3f-9e64-701a69ce6a1c",
+                "7dd7c97e-ab8a-460b-ae6c-b29e11ec9e95",
+                "529d8eed-8f3c-42d5-af03-29888ff75e55"
+            ]
+        }
+    ]
+}

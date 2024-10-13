@@ -1,0 +1,124 @@
+{
+    "id": "59009071-2d51-404d-9aa8-22e65a892399",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/igloos/buildings/sprites/theatre/theatre-iggy-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "TheatreIgloo",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "32f93e0c-e819-4555-9907-855c4ef578e5",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "theatre_iggy",
+                "frame": "floor"
+            },
+            "x": 765,
+            "y": 655,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "d16248e9-ccca-4fe1-bc06-6057049bf0e8",
+            "label": "stage",
+            "components": [],
+            "texture": {
+                "key": "theatre_iggy",
+                "frame": "stage"
+            },
+            "x": 758,
+            "y": 587,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ffbb6974-e7a3-4928-bb93-a51f902918f7",
+            "label": "curtan",
+            "components": [],
+            "texture": {
+                "key": "theatre_iggy",
+                "frame": "curtan"
+            },
+            "x": 767,
+            "y": 410,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "5b752090-fadb-4ba6-9765-a56908fd5c59",
+            "label": "walls",
+            "components": [],
+            "texture": {
+                "key": "theatre_iggy",
+                "frame": "walls"
+            },
+            "x": 760,
+            "y": 438,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "e7787f19-580e-4e96-92a8-84140516b09e",
+            "label": "puffles",
+            "components": [],
+            "texture": {
+                "key": "theatre_iggy",
+                "frame": "puffles"
+            },
+            "x": 811,
+            "y": 301,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "14118aa7-72ba-4821-9909-51e9707f8d54",
+            "label": "door",
+            "components": [],
+            "texture": {
+                "key": "theatre_iggy",
+                "frame": "door"
+            },
+            "x": 211,
+            "y": 618,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "3a26b879-514a-4909-8389-90cf07f2261b",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 222.99999999999997,
+            "y": 675.0000000000001,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.6668401826169998,
+            "originY": 0.7420771726256943,
+            "width": 128,
+            "height": 128,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

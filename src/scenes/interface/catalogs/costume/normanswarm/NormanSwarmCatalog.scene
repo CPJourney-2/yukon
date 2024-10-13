@@ -1,0 +1,643 @@
+{
+    "id": "44c53db1-833c-406f-ba96-e9cb15c617e2",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "604d13b8-868d-46c8-a5a3-13d96bb18968",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "028ec836-255b-461d-bbb6-01fca27a428f",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "42fc311d-8d0d-4f99-a501-759645bdc75f",
+                    "label": "page7",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "52bf2096-23f5-4f6a-8f90-fbdd0ae0cb0d",
+                            "label": "page_7",
+                            "texture": {
+                                "key": "normanswarm-catalog",
+                                "frame": "norman-pg7"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e0fba22d-5261-4325-a1ec-70e6abe2b03a",
+                            "label": "back_left_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "x": -204,
+                            "y": 220
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3f506a93-6b95-4d82-b20e-36ac698a7104",
+                            "label": "back_catalog_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": -204,
+                            "y": -329,
+                            "flipX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "9671f277-8c6d-47ab-88f1-36cbb8cb684a",
+                    "label": "page6",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f653e609-9d6a-4d1d-9f11-87cd2c18b690",
+                            "label": "page_6",
+                            "texture": {
+                                "key": "normanswarm-catalog",
+                                "frame": "norman-pg6"
+                            }
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "ed678597-beab-4d00-9a74-8ab9961f2e1c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_7",
+                            "item": 489,
+                            "x": -477,
+                            "y": -239
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "e20ade54-99ef-48c7-9131-93d8949e32ae",
+                            "label": "rectangle_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(9047)",
+                            "x": -262,
+                            "y": 130,
+                            "scaleX": 2.18475436163401,
+                            "scaleY": 2.169713625109182,
+                            "width": 128,
+                            "height": 128
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6b29ceb8-fb5c-474c-9867-729583adc67b",
+                    "label": "page5",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "48d40be4-cb87-44e0-bbc5-79605fe72cd4",
+                            "label": "page_5",
+                            "texture": {
+                                "key": "normanswarm-catalog",
+                                "frame": "norman-pg5"
+                            }
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "897e05d5-e531-4433-82f3-ce077dfb58f9",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_5",
+                            "item": 4135,
+                            "x": -412,
+                            "y": -70,
+                            "angle": 15,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "99efddad-9896-4632-93a7-90dbfe23cd60",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_8",
+                            "item": 472,
+                            "x": 178,
+                            "y": -300,
+                            "angle": 15,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "571d5abb-5897-4c34-a4f2-9180498b9e1a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_9",
+                            "item": 309,
+                            "x": 453,
+                            "y": -200,
+                            "angle": 15
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "317a0d20-3ad1-4e44-9807-65f1e2892c9f",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_10",
+                            "item": 227,
+                            "x": 435,
+                            "y": -59,
+                            "angle": 5
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "17cdc2a0-6ac3-4d24-a299-7902c075e813",
+                            "label": "secret_feet",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(6029);",
+                            "x": 408,
+                            "y": 159,
+                            "scaleX": 0.49979005075443433,
+                            "scaleY": 0.3555573013324802,
+                            "width": 80,
+                            "height": 110
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                    "label": "page4",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b5c3a3bb-0d03-4c45-906e-876df1322b87",
+                            "label": "page_4",
+                            "texture": {
+                                "key": "normanswarm-catalog",
+                                "frame": "norman-pg4"
+                            }
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "d2abab4a-2605-4b00-83e8-aaae0adc1729",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_2",
+                            "item": 4138,
+                            "x": -420,
+                            "y": -182,
+                            "angle": 8,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "e902d9aa-d090-431d-8b16-7872f2c1f126",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_3",
+                            "item": 1102,
+                            "x": 363,
+                            "y": -298,
+                            "angle": 15
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "9b7d39d5-a119-4b87-9fdb-98678d659188",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_4",
+                            "item": 3037,
+                            "x": 168,
+                            "y": -162,
+                            "angle": 10,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "8ccaf1d2-3e18-4239-9495-498ec7a093e6",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag",
+                            "item": 4136,
+                            "x": 374,
+                            "y": -13,
+                            "angle": -10
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "f3e885b0-f669-4e7b-bdf1-631239cfcc2c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_1",
+                            "item": 6020,
+                            "x": 250,
+                            "y": 113,
+                            "angle": 5,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "83b5e999-c4a4-4d47-9591-754065910aa3",
+                            "label": "secret_body",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(4129);",
+                            "x": 67,
+                            "y": 106,
+                            "scaleX": 0.480276588375766,
+                            "scaleY": 0.16091552046112695,
+                            "width": 80,
+                            "height": 110
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                    "label": "page3",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "75d7cff1-5d67-4a7a-87cc-08e55eff604c",
+                            "label": "page_3",
+                            "texture": {
+                                "key": "normanswarm-catalog",
+                                "frame": "norman-pg3"
+                            }
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "bacd274d-8385-466d-8160-b50e98a01425",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag2",
+                            "item": 3036,
+                            "x": 339,
+                            "y": -370,
+                            "angle": 20
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "8e937d4f-46b9-4403-a270-320e9c461f72",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_6",
+                            "item": 1101,
+                            "x": 148,
+                            "y": -293,
+                            "angle": 10,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "5befe966-193d-43de-b96b-f33e41a32b69",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_7",
+                            "item": 4137,
+                            "x": 127,
+                            "y": 96,
+                            "angle": -30,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "82b3d03b-b11a-4f7d-b477-f312a45e73c8",
+                            "label": "secret_head",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(1094);",
+                            "x": 114,
+                            "y": -93,
+                            "scaleX": 0.18336588246318736,
+                            "scaleY": 0.13043062128196065,
+                            "width": 80,
+                            "height": 110
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                    "label": "page2",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ddf8dd92-d71d-4d6b-a335-cb2a3683ef54",
+                            "label": "page_2",
+                            "texture": {
+                                "key": "normanswarm-catalog",
+                                "frame": "norman-pg2"
+                            }
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "1b938268-f956-4095-871f-6d7d2e42fe0e",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag1",
+                            "item": 5003,
+                            "x": -423,
+                            "y": -324,
+                            "angle": 20,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "73f02308-7820-4110-a76c-523342558eb9",
+                    "label": "page1",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "938eb656-a988-4207-a1ca-9185aee4a924",
+                            "label": "page_1",
+                            "texture": {
+                                "key": "normanswarm-catalog",
+                                "frame": "norman-pg1"
+                            },
+                            "x": -760,
+                            "y": -480,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "413414bc-32b3-4f4d-ab5e-d3c279d25d00",
+                            "label": "right_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-front",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-front"
+                            },
+                            "x": 2,
+                            "y": -54
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "914e79f6-dbfd-41bc-b43f-fa8ef4e07489",
+                            "label": "catalog_close_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 227,
+                            "y": -330
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ad71a0bc-b1f8-4ee2-b189-b90b5a445f56",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 190,
+                    "y": 41,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "bb9facc3-7a86-49f0-a497-0ec458025950",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1133,
+                            "y": 793,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "36c5d442-1418-42f3-a3e7-c0bbfafba6a9",
+                            "label": "right_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-right",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-right"
+                            },
+                            "x": 1077,
+                            "y": 658
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "b2fd8d5d-6c96-48a5-b231-2589ceae057c",
+                            "label": "left_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "x": 66,
+                            "y": 659
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3b010612-b4c6-4ebd-8057-dbbb5bc5b3d6",
+                            "label": "catalog_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 1077,
+                            "y": 114
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "3003f2ec-9394-4489-a981-17b8c2a9bffb",
+            "label": "pages",
+            "objectIds": [
+                "73f02308-7820-4110-a76c-523342558eb9",
+                "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                "6b29ceb8-fb5c-474c-9867-729583adc67b",
+                "9671f277-8c6d-47ab-88f1-36cbb8cb684a",
+                "42fc311d-8d0d-4f99-a501-759645bdc75f"
+            ]
+        }
+    ]
+}

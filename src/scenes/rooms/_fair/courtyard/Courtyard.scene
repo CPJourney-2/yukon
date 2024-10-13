@@ -1,0 +1,416 @@
+{
+    "id": "398cd226-1d51-411d-ad15-6e1b245f20b4",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "CPJ-yukon/assets/media/rooms/_fair/courtyard/courtyard-fair-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Courtyard",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "7eecee26-4206-417b-b020-d41580180e87",
+            "label": "dojo_opening_ref",
+            "components": [],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "courtyard_ref"
+            },
+            "x": 750,
+            "y": 480,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "f2cf217d-fe39-4930-8dad-65141e6e3d47",
+            "label": "j",
+            "components": [],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "j"
+            },
+            "x": 751,
+            "y": 311,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "5f777938-bdd0-47bb-b282-bdb929d8c191",
+            "label": "watefall_side0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "watefall_side0001"
+            },
+            "x": 262,
+            "y": 353,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "734c5d29-a552-449f-ab91-735238e14bcf",
+            "label": "waterfall_back",
+            "components": [],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "waterfall_back"
+            },
+            "x": 298,
+            "y": 353,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "9454fc21-4ac0-45bb-b558-a9fea7c9b24f",
+            "label": "waterfall_sparkles0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "waterfall_sparkles0001"
+            },
+            "x": 290,
+            "y": 356,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "f2f720b5-6cd8-446f-bd6d-8cf0209f8128",
+            "label": "waterfall_bottom0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "waterfall_bottom0001"
+            },
+            "x": 294,
+            "y": 339,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "2523f7f3-00f0-44ad-a3ab-56030dafd621",
+            "label": "waterfall_top0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "waterfall_top0001"
+            },
+            "x": 292,
+            "y": 260,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "c1efd023-9dcf-43ab-acf3-2f1bac4156a6",
+            "label": "waterfall_gas0001",
+            "components": [],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "waterfall_gas0001"
+            },
+            "x": 293,
+            "y": 416,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "0a159651-9fe5-4e1f-9281-0209c0442402",
+            "label": "i",
+            "components": [],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "i"
+            },
+            "x": 750,
+            "y": 404,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "8a400205-5403-4d07-b986-9bef16e4dc11",
+            "label": "h",
+            "scope": "CLASS",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "h",
+            "MoveTo.x": "260",
+            "MoveTo.y": "670",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "h"
+            },
+            "x": 276,
+            "y": 614,
+            "visible": false,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ad05c21c-4a9c-46fd-9913-bdd573ea0af4",
+            "label": "fraud",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "h"
+            },
+            "x": 276,
+            "y": 615,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "0e324558-2004-4019-a1bb-3d87a461a626",
+            "label": "ninjahide",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "ninjahide0001"
+            },
+            "x": 270,
+            "y": 618,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "a49ad57e-5a9f-4a71-b3ce-384551e94541",
+            "label": "f",
+            "components": [],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "f"
+            },
+            "x": 750,
+            "y": 622,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "1494996b-d6df-47f4-8190-60a27de40444",
+            "label": "e",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "e",
+            "MoveTo.x": "760",
+            "MoveTo.y": "580",
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "e"
+            },
+            "x": 770,
+            "y": 497,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "7232e2d3-a95d-4e7c-beca-9ceb5d4cb8f6",
+            "label": "d",
+            "components": [],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "d"
+            },
+            "x": 954,
+            "y": 377,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ec984a0d-4e7c-4625-a02d-f74e18da07f1",
+            "label": "c",
+            "components": [],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "c"
+            },
+            "x": 1245.1216054553904,
+            "y": 790.3386797943771,
+            "originX": 0.19020753818204353,
+            "originY": 0.5927326741381298,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "7bac6b0e-509e-4c68-9a3d-938ee63254d1",
+            "label": "b",
+            "components": [],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "b"
+            },
+            "x": 157.0008349447062,
+            "y": 895.4838414087985,
+            "originX": 0.4131534390377134,
+            "originY": 0.7079152496527487,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "3ec9a5d2-cd84-4a99-a1fd-937b067f04e6",
+            "label": "a",
+            "components": [],
+            "texture": {
+                "key": "cj-courtyard",
+                "frame": "a"
+            },
+            "x": 764.0679321289062,
+            "y": 807.881163292704,
+            "originX": 0.4723328854233956,
+            "originY": 0.44713690655307137,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "1a5ed1dd-fe34-489b-a3eb-fdd7d26267ce",
+            "label": "hideout",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onHideoutHover()",
+            "SimpleButton.hoverOutCallback": "() => this.onHideoutOut()",
+            "x": 270,
+            "y": 609,
+            "visible": false,
+            "alpha": 0.000001,
+            "isFilled": true,
+            "width": 130,
+            "height": 150,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "2897fa66-4c31-429a-8613-3cbb3a5f3678",
+            "label": "sign",
+            "components": [],
+            "texture": {
+                "key": "fair-town",
+                "frame": "sign"
+            },
+            "x": 695,
+            "y": 272,
+            "angle": 17,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "3d3418e1-41fd-424f-80d4-c45265865bd9",
+            "label": "balloon",
+            "components": [],
+            "texture": {
+                "key": "fair-town",
+                "frame": "balloon"
+            },
+            "x": 1022,
+            "y": 551,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "b1bf3277-8ba6-4faa-a739-b80657379988",
+            "label": "balloon_bottom",
+            "components": [],
+            "texture": {
+                "key": "fair-town",
+                "frame": "balloon_bottom"
+            },
+            "x": 1026.9741459871454,
+            "y": 607.4229052158731,
+            "originX": 0.495460822951971,
+            "originY": -0.0006167582730149661,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "74a9abc8-b407-468f-8e15-19ebdb2c785a",
+            "label": "circus_sign",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "circus_sign",
+            "Button.callback": "() => this.interface.loadWidget('FairPoster')",
+            "texture": {
+                "key": "fair-town",
+                "frame": "circus_sign"
+            },
+            "x": 515,
+            "y": 557,
+            "angle": 10,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "8b458570-3d16-43e6-8a0f-8e3a4c54613b",
+            "label": "fair_plaza_fenceR",
+            "components": [],
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "fair_plaza_fenceR"
+            },
+            "x": 1485.2059573499737,
+            "y": 948.8908495870978,
+            "angle": -22,
+            "originX": 0.2674045762506073,
+            "originY": 2.309086650783046,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "0e2ab943-bdd5-4941-991f-fa970b93ca45",
+            "label": "fair_plaza_fenceL",
+            "components": [],
+            "texture": {
+                "key": "fair_plaza",
+                "frame": "fair_plaza_fenceL"
+            },
+            "x": 105.81844551597194,
+            "y": 946.7377581081131,
+            "originX": 0.6443542152483148,
+            "originY": 1.2805448878123877,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "44f9f703-a2c1-4b93-a265-25a270e227f0",
+            "label": "sort",
+            "objectIds": [
+                "3ec9a5d2-cd84-4a99-a1fd-937b067f04e6",
+                "7bac6b0e-509e-4c68-9a3d-938ee63254d1",
+                "ec984a0d-4e7c-4625-a02d-f74e18da07f1",
+                "b1bf3277-8ba6-4faa-a739-b80657379988",
+                "3d3418e1-41fd-424f-80d4-c45265865bd9",
+                "8b458570-3d16-43e6-8a0f-8e3a4c54613b",
+                "0e2ab943-bdd5-4941-991f-fa970b93ca45"
+            ]
+        }
+    ]
+}

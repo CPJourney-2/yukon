@@ -1,0 +1,124 @@
+{
+    "id": "be2f3eac-0ad2-4365-bfb0-6adba6a7a752",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/igloos/buildings/sprites/treehouse/treehouse-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Treehouse",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "f6b09f05-778d-4505-8b65-75b006dcfb21",
+            "label": "shadow",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "treehouse",
+                "frame": "shadow"
+            },
+            "x": 741,
+            "y": 800,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "8c9b277e-caed-40d4-9074-63f6aa745667",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "treehouse",
+                "frame": "floor"
+            },
+            "x": 768,
+            "y": 658.7161529987027,
+            "originY": 0.6678858929108076,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "9ed47334-f4b0-4226-aa18-7722c6577c93",
+            "label": "walls",
+            "components": [],
+            "texture": {
+                "key": "treehouse",
+                "frame": "walls"
+            },
+            "x": 766,
+            "y": 418,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "9a32aa71-ea3d-4d80-ace8-016bb045e4cf",
+            "label": "outline",
+            "components": [],
+            "texture": {
+                "key": "treehouse",
+                "frame": "outline"
+            },
+            "x": 758,
+            "y": 524,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "8144c6e4-692b-4b18-a75e-5e652940d8b5",
+            "label": "fg",
+            "components": [],
+            "texture": {
+                "key": "treehouse",
+                "frame": "fg"
+            },
+            "x": 760,
+            "y": 782.5713063283397,
+            "originY": 0.829128651261129,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "ede839f5-9f7a-4217-b2ae-934c5f960ae9",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 1283.0000000000002,
+            "y": 646,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.4368952920594147,
+            "originY": 0.41281114238780336,
+            "width": 128,
+            "height": 128,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "5894ff48-8e9b-451c-aa26-8fcce80acc03",
+            "label": "sort",
+            "objectIds": [
+                "8144c6e4-692b-4b18-a75e-5e652940d8b5",
+                "8c9b277e-caed-40d4-9074-63f6aa745667"
+            ]
+        }
+    ]
+}

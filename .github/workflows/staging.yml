@@ -1,0 +1,148 @@
+name: Client CI (Staging)
+
+on:
+    push:
+        branches: [staging]
+    
+jobs:
+    client-ci:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+
+            - name: Cache pnpm
+              uses: actions/cache@v3
+              with:
+                path: ~/.pnpm-store
+                key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+                restore-keys: |
+                  ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+            - name: Setup pnpm
+              uses: pnpm/action-setup@v4.0.0
+              with:
+                version: 9.1.0
+            - name: Install Node
+              uses: actions/setup-node@v4
+              with:
+                node-version: '20'
+                cache: 'pnpm'
+
+            - name: Install dependencies
+              run: pnpm install
+
+            - name: Build
+              run: pnpm build-staging
+
+            - name: Temporarily save client build
+              uses: actions/upload-artifact@v3
+              with:
+                name: client-artifact
+                path: ./dist/assets/scripts/client
+                retention-days: 1
+    
+    assets-server-push:
+      runs-on: ubuntu-latest
+
+      steps:
+          - name: Checkout assets
+            uses: actions/checkout@v3
+            with:
+                token: ${{ secrets.MEDIAKEY }}
+                repository: CPJourney/assets
+                path: assets
+                ref: 'staging'
+
+          - name: Push assets to server
+            uses: burnett01/rsync-deployments@5.2.1
+            with:
+              switches: -avzr --delete --omit-dir-times --exclude .git/ --exclude .gitignore
+              path: ./assets/
+              remote_path: client/assets
+              remote_host: ${{ secrets.HOST_STAGING }}
+              remote_port: ${{ secrets.PORT }}
+              remote_user: ${{ secrets.USERNAME }}
+              remote_key: ${{ secrets.SSHKEY }}
+
+    cdn-ci:
+      runs-on: ubuntu-latest
+
+      steps:
+          - name: Checkout assets For CDN
+            uses: actions/checkout@v3
+            with:
+                token: ${{ secrets.MEDIAKEY }}
+                repository: CPJourney/assets
+                path: cdn/assets
+                ref: 'staging'
+            if: ${{ contains(github.event.head_commit.message, 'cdn') }}
+
+          - name: Remove .git folder (CDN)
+            run: rm -rf cdn/assets/.git
+            if: ${{ contains(github.event.head_commit.message, 'cdn') }}
+
+          - name: Remove assets served from CloudFlare
+            run: |
+              rm -rf cdn/assets/media/games/card/icons/
+              rm -rf cdn/assets/media/clothing/sprites/
+              rm -rf cdn/assets/media/furniture/sprites/
+              rm -rf cdn/assets/media/clothing/icon/120/
+              rm -rf cdn/assets/media/clothing/icon/240/
+              rm -rf cdn/assets/media/puffles/paper/
+              rm -rf cdn/assets/media/clothing/photos/
+              rm -rf cdn/assets/media/penguin/transforms/sprites/
+              rm -rf cdn/assets/media/penguin/transforms/paper/
+              rm -rf cdn/assets/media/interface/game/mail/postcards/
+              rm -rf cdn/assets/media/interface/game/mail/postcardIcons/
+              rm -rf cdn/assets/media/postcards/icon/
+              rm -rf cdn/assets/media/postcards/sprites/
+            if: ${{ contains(github.event.head_commit.message, 'cdn') }}
+                
+          - name: Deploy to Edge Storage
+            uses: own3d/bunny-action@main
+            env:
+              BUNNY_API_ACCESS_KEY: ${{ secrets.BUNNY_API_ACCESS_KEY }}
+              BUNNY_STORAGE_USERNAME: cpjourney-staging
+              BUNNY_STORAGE_PASSWORD: ${{ secrets.BUNNY_PASSWORD_STAGING }}
+              BUNNY_PULL_ZONE_ID: 1486682
+            with:
+              args: deploy --dir=cdn
+            if: ${{ contains(github.event.head_commit.message, 'cdn') }}
+
+    server-finish-ci:
+      runs-on: ubuntu-latest
+      needs: ['client-ci', 'assets-server-push', 'cdn-ci']
+
+      steps:
+          - name: Checkout
+            uses: actions/checkout@v3
+
+          - name: Retrieve saved client build
+            uses: actions/download-artifact@v3
+            with:
+              name: client-artifact
+              path: ./dist/assets/scripts/client
+
+          - name: Push client build to server
+            uses: burnett01/rsync-deployments@5.2.1
+            with:
+              switches: -avzr --delete --omit-dir-times --exclude .git/ --exclude .gitignore
+              path: ./dist/assets/scripts/client
+              remote_path: client/assets/scripts/
+              remote_host: ${{ secrets.HOST_STAGING }}
+              remote_port: ${{ secrets.PORT }}
+              remote_user: ${{ secrets.USERNAME }}
+              remote_key: ${{ secrets.SSHKEY }}
+              
+          - name: Push index.html to server
+            uses: burnett01/rsync-deployments@5.2.1
+            with:
+              switches: -avzr --delete --omit-dir-times --exclude .git/ --exclude .gitignore
+              path: ./index.html
+              remote_path: client/
+              remote_host: ${{ secrets.HOST_STAGING }}
+              remote_port: ${{ secrets.PORT }}
+              remote_user: ${{ secrets.USERNAME }}
+              remote_key: ${{ secrets.SSHKEY }}
+          

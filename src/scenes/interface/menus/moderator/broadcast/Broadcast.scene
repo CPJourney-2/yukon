@@ -1,0 +1,323 @@
+{
+    "id": "928f4370-f314-45f5-816f-76e899047da2",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8bb89fb5-8fd3-4d6d-a8b9-f11a53a7735f",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9d274e25-df95-406f-883b-f4102166d431",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "72b107fe-d052-40b8-ab5c-8dc45d6f189a",
+                    "label": "nineslice_1",
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "width": 708,
+                    "height": 600,
+                    "leftWidth": 43,
+                    "rightWidth": 38,
+                    "topHeight": 40,
+                    "bottomHeight": 40
+                },
+                {
+                    "type": "Text",
+                    "id": "8d1cc4d7-9fc2-476a-9a7f-1f4a77c03434",
+                    "label": "textContent",
+                    "scope": "CLASS",
+                    "x": -4,
+                    "y": -215,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "This message will be broadcasted for\neveryone on the island.\nREMEMBER TO PICK A MODE ON THE RIGHT!",
+                    "fixedWidth": 600,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "e656c20c-78a6-4d94-917f-6cf411b1f4d4",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => { this.visible = false }",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 300,
+                    "y": -247
+                },
+                {
+                    "type": "Image",
+                    "id": "56d93af1-ac83-4be9-a548-efd7ba743bf2",
+                    "label": "blue_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 300,
+                    "y": -249
+                },
+                {
+                    "type": "Image",
+                    "id": "93af33e1-bd7b-4fef-a3ae-a89f66c42b99",
+                    "label": "newsform_sendbtn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "help-button",
+                    "Button.callback": "() => this.sendNewsSubmission()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "help-button"
+                    },
+                    "x": -1,
+                    "y": 207
+                },
+                {
+                    "type": "Text",
+                    "id": "b8f2469d-9ef3-413d-acd2-238ad8520cd4",
+                    "label": "textContent_1",
+                    "y": 228,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Broadcast\n",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "8ffa26b5-4ced-4994-8175-8a245fce66a0",
+                    "label": "nineslice",
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "x": 545,
+                    "y": -73,
+                    "width": 340,
+                    "height": 400,
+                    "leftWidth": 43,
+                    "rightWidth": 38,
+                    "topHeight": 40,
+                    "bottomHeight": 40
+                },
+                {
+                    "type": "Text",
+                    "id": "737b2092-2db6-459c-b6f7-d5c971486165",
+                    "label": "textContent_2",
+                    "x": 544,
+                    "y": -226,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Choose a mode below",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "a60287ea-ad5a-4e7b-b690-dd91300c1e40",
+                    "label": "blue_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => { this.changeMode(\"devalert\") }",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 431,
+                    "y": -164
+                },
+                {
+                    "type": "Text",
+                    "id": "56da88fd-09d7-4c2b-96c9-c11dfbf3d305",
+                    "label": "textContent_3",
+                    "x": 575,
+                    "y": -167,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Developer Message",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "30px"
+                },
+                {
+                    "type": "Image",
+                    "id": "7dad6443-e57c-4c26-9227-b5d53565162c",
+                    "label": "blue_button_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => { this.changeMode(\"eventalert\") }",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 431,
+                    "y": -99
+                },
+                {
+                    "type": "Text",
+                    "id": "0849b782-4406-4a21-9a3b-ca9265a6c897",
+                    "label": "textContent_4",
+                    "x": 564,
+                    "y": -99,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Community Event",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "30px"
+                },
+                {
+                    "type": "Image",
+                    "id": "e0731e42-d9d8-4b25-ba61-4e0d7e6a49c7",
+                    "label": "blue_button_2",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => { this.changeMode(\"slenderalert\") }",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 431,
+                    "y": -6,
+                    "visible": false
+                },
+                {
+                    "type": "Text",
+                    "id": "26dc1dd2-8cb6-482e-b90f-3d28b9236b97",
+                    "label": "textContent_6",
+                    "x": 521,
+                    "y": -6,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "visible": false,
+                    "text": "Slenderin",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "30px"
+                },
+                {
+                    "type": "Text",
+                    "id": "a6fe650f-e9a5-45b6-ade0-884b600a3c6d",
+                    "label": "textContent_5",
+                    "x": 542,
+                    "y": 33,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "CURRENT MODE:",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "35px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Text",
+                    "id": "ff757316-e7c1-4071-8d8f-29a410278f79",
+                    "label": "alertModeText",
+                    "scope": "CLASS",
+                    "x": 541,
+                    "y": 73,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Developer message",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "35px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Image",
+                    "id": "cb76bbbe-dd21-4402-856f-b6b68896f09e",
+                    "label": "checkbox",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onRangeClick()",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": 432,
+                    "y": -29,
+                    "originX": 0.41509433962264153,
+                    "originY": 0.5849056603773585
+                },
+                {
+                    "type": "Text",
+                    "id": "18b8f2ea-debd-488a-849f-67bbf0a837a7",
+                    "label": "textContent_7",
+                    "x": 563,
+                    "y": -31,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Only broadcast to\nthis room",
+                    "lineSpacing": -5,
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "30px"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

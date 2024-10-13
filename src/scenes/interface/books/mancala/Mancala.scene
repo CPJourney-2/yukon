@@ -1,0 +1,1639 @@
+{
+    "id": "803f7767-9ba2-43c7-9df9-ea17b4075cb0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8610f1b5-8398-4d32-b22b-6d7a8d165b0f",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "c2826836-0916-43b9-8aa2-328f7178f001",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 12.996400499553676,
+                    "y": -11.3585407236192,
+                    "scaleX": 12.036334357595884,
+                    "scaleY": 11.350381326698546,
+                    "originX": 0.017191915249913314,
+                    "originY": 0.01646058144870876,
+                    "alpha": 0.2,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "8e725117-1b2c-4a47-a64c-e95714f4965c",
+                    "label": "window",
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "width": 1136,
+                    "height": 664,
+                    "leftWidth": 51,
+                    "rightWidth": 41,
+                    "topHeight": 45,
+                    "bottomHeight": 43
+                },
+                {
+                    "type": "Container",
+                    "id": "427bd70a-2bea-4062-8b21-ce001bb4f992",
+                    "label": "page5",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "622d316b-2ac2-4a7a-93ce-45a8004e93d3",
+                            "label": "text45",
+                            "y": -129,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "HOW TO WIN",
+                            "fixedWidth": 500,
+                            "align": "center",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b56592a9-be85-4bb5-b3a4-a60eb6bd1c17",
+                            "label": "text_245",
+                            "y": 14,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "The game is over when a player has no more stones on their side of the board. The winner is the player with the greatest total amount of stones in their mancala, and any remaining stones on their side of the board.",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "36px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 800
+                        },
+                        {
+                            "type": "Text",
+                            "id": "82d16ef3-ab7b-4b76-90b5-05a2a963754f",
+                            "label": "text_545",
+                            "x": 309,
+                            "y": 268,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "alpha": 0.5,
+                            "alphaTopLeft": 0.5,
+                            "alphaTopRight": 0.5,
+                            "alphaBottomLeft": 0.5,
+                            "alphaBottomRight": 0.5,
+                            "text": "Page 5 of 5",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "33px",
+                            "color": "#ffffffff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "3c79103a-81bb-4e5e-8441-729a21e2f2c4",
+                            "label": "polygon_145",
+                            "x": 47,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "81b47372-e39b-4694-8a60-f72515ff9565",
+                            "label": "polygon45",
+                            "x": 85,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "7485e768-ee5c-477a-b0a5-eaa58da3099f",
+                            "label": "polygon_25",
+                            "x": 122,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "eb0fe11d-f3d3-463e-a951-7cf8ebc11460",
+                            "label": "polygon_35",
+                            "x": 159,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "a3ee0eaa-25bb-43a0-8bc1-3d7bc070a8b1",
+                            "label": "polygon_445",
+                            "x": 197,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0dda3764-cd75-4e42-b45f-4af73063167b",
+                            "label": "blue_button_345",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 444,
+                            "y": 272
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d104849b-1e5e-4580-ad75-6103806dba95",
+                            "label": "blue_arrow_245",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 444,
+                            "y": 270,
+                            "angle": 90,
+                            "flipY": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "46751a4f-8cba-456b-91b2-9e0c4c3f5011",
+                    "label": "page4",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "7faa99fc-9810-4958-b4ff-dc4591245067",
+                            "label": "text4",
+                            "y": -163,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "FREE TURNS",
+                            "fixedWidth": 500,
+                            "align": "center",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Text",
+                            "id": "e633153d-ed91-4829-b7b2-8f128a5acf4b",
+                            "label": "text_24",
+                            "y": -87,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "If the last stone lands in the player's own mancala, that player goes again.",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "36px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 800
+                        },
+                        {
+                            "type": "Text",
+                            "id": "96839bfa-7005-42bd-8256-9eed2e050748",
+                            "label": "text_34",
+                            "y": 10,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "CAPTURES",
+                            "fixedWidth": 500,
+                            "align": "center",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 500
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f23c48df-ed34-4a11-993a-e9c136a04211",
+                            "label": "text_44",
+                            "y": 118,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "If the last stone is dropped in an empty hole on the player's own side, they capture all the stones from the opponent's hole directly opposite that hole, including their stone.",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "33px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 700
+                        },
+                        {
+                            "type": "Text",
+                            "id": "98261860-d3ae-4240-9ab3-6a26b6da8ede",
+                            "label": "text_54",
+                            "x": 309,
+                            "y": 268,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "alpha": 0.5,
+                            "alphaTopLeft": 0.5,
+                            "alphaTopRight": 0.5,
+                            "alphaBottomLeft": 0.5,
+                            "alphaBottomRight": 0.5,
+                            "text": "Page 4 of 5",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "33px",
+                            "color": "#ffffffff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "9bfa41d9-231e-4d83-8460-a5c89776dff6",
+                            "label": "polygon_14",
+                            "x": 47,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "c19b8e1d-21eb-4e3b-83c7-7bd4649547a5",
+                            "label": "polygon4",
+                            "x": 85,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "562335aa-560f-475b-8bf3-a30e3639bcfc",
+                            "label": "polygon_24",
+                            "x": 122,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "aa00843a-6f53-4e4c-bbe4-d62a4a4256ae",
+                            "label": "polygon_34",
+                            "x": 159,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "f8dc298a-52e6-4075-b93e-322d038f87f9",
+                            "label": "polygon_44",
+                            "x": 197,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "6ed651fb-dd46-43be-8202-10f20279365e",
+                            "label": "blue_button4",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 512,
+                            "y": 274
+                        },
+                        {
+                            "type": "Image",
+                            "id": "65754a8b-01e0-4442-9230-48c82b2286a6",
+                            "label": "blue_arrow4",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 512,
+                            "y": 272,
+                            "angle": 90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9f31faff-61bb-46d9-9534-548672cb706b",
+                            "label": "blue_button_34",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 444,
+                            "y": 272
+                        },
+                        {
+                            "type": "Image",
+                            "id": "67d80ce5-55d1-4b38-a4e7-fe756c729e01",
+                            "label": "blue_arrow_24",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 444,
+                            "y": 270,
+                            "angle": 90,
+                            "flipY": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2b249436-a6ab-4533-ac41-09c0c70f7eff",
+                    "label": "page3",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "a7bf9232-0844-48db-967e-3be23dc6a48d",
+                            "label": "text3",
+                            "y": -117,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "HOW TO PLAY",
+                            "fixedWidth": 500,
+                            "align": "center",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 500
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f3851d00-7235-43fa-92f8-548e191b26ad",
+                            "label": "text_23",
+                            "y": 21,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Players alternate turns. In their turn, each player selects a group of stones from one hole on their side of the board. Each stone is dropped one by one in the holes around the board, including their mancala but not the opponent's mancala.",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "36px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 800
+                        },
+                        {
+                            "type": "Text",
+                            "id": "5b4e292d-2043-4f9d-a9ee-0993aa35d63a",
+                            "label": "text_53",
+                            "x": 309,
+                            "y": 268,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "alpha": 0.5,
+                            "alphaTopLeft": 0.5,
+                            "alphaTopRight": 0.5,
+                            "alphaBottomLeft": 0.5,
+                            "alphaBottomRight": 0.5,
+                            "text": "Page 3 of 5",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "33px",
+                            "color": "#ffffffff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 700
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "9c77b33d-a267-431d-8d42-9d330a38c316",
+                            "label": "polygon_13",
+                            "x": 47,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "be9544da-d22f-4bf9-98f2-a31dd1887e68",
+                            "label": "polygon3",
+                            "x": 85,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "9b01712c-a520-4d20-a435-fd81ed4f5730",
+                            "label": "polygon_23",
+                            "x": 122,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "ea3171f1-3d0e-4b8e-9620-8eff153f47d1",
+                            "label": "polygon_33",
+                            "x": 159,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "22e328cf-064f-4f41-a8c0-922cb58ebe8f",
+                            "label": "polygon_43",
+                            "x": 197,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b181ed6a-e809-40d6-b5b0-bf8b389b7172",
+                            "label": "blue_button3",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 512,
+                            "y": 274
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f024a028-189c-4641-903c-ae77c50b29f5",
+                            "label": "blue_arrow3",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 512,
+                            "y": 272,
+                            "angle": 90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "99c20356-e3c3-4a72-93d0-c22c4bf6d62c",
+                            "label": "blue_button_333",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 444,
+                            "y": 272
+                        },
+                        {
+                            "type": "Image",
+                            "id": "00fba5f0-007f-43ac-81c5-fc293eb752ca",
+                            "label": "blue_arrow_2543",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 444,
+                            "y": 270,
+                            "angle": 90,
+                            "flipY": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "7e22a694-b372-428b-8a29-9e11de9dceae",
+                    "label": "page2",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "df9de82c-e818-4321-a891-5e3d18a50fc6",
+                            "label": "text_22",
+                            "x": -68,
+                            "y": -66,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Player 2 Side",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "33px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "wordWrapWidth": 800
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f35a2778-5026-495f-911a-21fbb0ee0e53",
+                            "label": "text_32",
+                            "y": -134,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "THE BOARD",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f02007a2-701a-4d5f-9cad-9b1f52673768",
+                            "label": "text_52",
+                            "x": 309,
+                            "y": 268,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "alpha": 0.5,
+                            "alphaTopLeft": 0.5,
+                            "alphaTopRight": 0.5,
+                            "alphaBottomLeft": 0.5,
+                            "alphaBottomRight": 0.5,
+                            "text": "Page 2 of 5",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "33px",
+                            "color": "#ffffffff",
+                            "stroke": "#134263",
+                            "wordWrapWidth": 700
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "6609f303-6668-4c84-9262-167e92c9a5a8",
+                            "label": "polygon_12",
+                            "x": 47,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "5a0894aa-dc98-42a3-83db-b698470613ed",
+                            "label": "polygon2",
+                            "x": 85,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "08c51b70-a4ab-4aec-aa50-269fd981a605",
+                            "label": "polygon_22",
+                            "x": 122,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "b5b10d66-ce26-450e-a4ac-7c0fd1866811",
+                            "label": "polygon_32",
+                            "x": 159,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "02990d7d-c2f1-40f9-a3b8-43f1706ad9b1",
+                            "label": "polygon_42",
+                            "x": 197,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "75e9c3bd-10a5-4285-8820-35a2ea8b4140",
+                            "label": "blue_button2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 512,
+                            "y": 274
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5555296b-c68a-4b89-9407-900789f61c84",
+                            "label": "blue_arrow2",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 512,
+                            "y": 272,
+                            "angle": 90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cc81f057-5b32-4915-92ae-c1c0056ae2f1",
+                            "label": "blue_button_2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 444,
+                            "y": 272
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e71cf03f-8d2e-4191-8d1c-0c190de07e32",
+                            "label": "blue_arrow_1",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 444,
+                            "y": 270,
+                            "angle": 90,
+                            "flipY": true
+                        },
+                        {
+                            "type": "Container",
+                            "id": "817e71f2-28e9-4773-8360-58481c6f8b60",
+                            "label": "boardgraph",
+                            "x": -1,
+                            "y": 37,
+                            "list": [
+                                {
+                                    "type": "RoundedRectangleGraphics",
+                                    "id": "b9906a88-5d91-4cb8-acba-d3a98a99bcb0",
+                                    "label": "board_1",
+                                    "width": 500,
+                                    "height": 150,
+                                    "fillColor": "#000",
+                                    "fillAlpha": 0.2,
+                                    "isStroked": false,
+                                    "radiusTopLeft": 25,
+                                    "radiusTopRight": 25,
+                                    "radiusBottomLeft": 25,
+                                    "radiusBottomRight": 25
+                                },
+                                {
+                                    "type": "RoundedRectangleGraphics",
+                                    "id": "50359c8a-6721-49fe-9c6f-9958f26224e9",
+                                    "label": "board",
+                                    "width": 490,
+                                    "height": 140,
+                                    "fillColor": "#78AE8A",
+                                    "strokeColor": "#608A6D",
+                                    "lineWidth": 4,
+                                    "radiusTopLeft": 25,
+                                    "radiusTopRight": 25,
+                                    "radiusBottomLeft": 25,
+                                    "radiusBottomRight": 25
+                                },
+                                {
+                                    "type": "RoundedRectangleGraphics",
+                                    "id": "19d328c3-af9b-404f-95d3-ca5d7c9f6c4d",
+                                    "label": "board_2",
+                                    "x": 208,
+                                    "width": 75,
+                                    "height": 140,
+                                    "fillColor": "#F49B3E",
+                                    "strokeColor": "#C37B30",
+                                    "lineWidth": 4,
+                                    "radiusTopLeft": 0,
+                                    "radiusTopRight": 25,
+                                    "radiusBottomLeft": 0,
+                                    "radiusBottomRight": 25
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "af72fb21-2a09-4ec0-a57a-0655c1e0bfed",
+                                    "label": "rectangle_1",
+                                    "x": -3,
+                                    "y": 31,
+                                    "isFilled": true,
+                                    "fillColor": "#F49B3E",
+                                    "width": 360,
+                                    "height": 70
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "2fcbfd13-2674-449d-8633-5b8aeb5fe53d",
+                                    "label": "rectangle",
+                                    "x": 2,
+                                    "y": 68,
+                                    "isFilled": true,
+                                    "fillColor": "#C37B30",
+                                    "width": 370,
+                                    "height": 4
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "1bef5d01-0edf-49fb-9196-d16ae429e810",
+                                    "label": "rectangle_2",
+                                    "x": 181,
+                                    "y": -31,
+                                    "isFilled": true,
+                                    "fillColor": "#F49B3E",
+                                    "width": 20,
+                                    "height": 70
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "1b0c722d-74f1-4cfa-9be4-089a1fb6f3f7",
+                                    "label": "rectangle_3",
+                                    "x": -182,
+                                    "y": 119,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "94360079-83c0-4d6b-adb9-32d761482f41",
+                                    "label": "rectangle_4",
+                                    "x": -182,
+                                    "y": 93,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "cc1b462a-d9ef-4352-9325-3c3d0625ad44",
+                                    "label": "rectangle_5",
+                                    "x": -182,
+                                    "y": 66,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "5a525393-52df-4ab1-8b59-bc9038e02ee6",
+                                    "label": "rectangle_6",
+                                    "x": -182,
+                                    "y": 11,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "3a29c1c0-d9dc-48dd-b17c-6678d58e6b0d",
+                                    "label": "rectangle_7",
+                                    "x": -182,
+                                    "y": 38,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "db6e46cf-4f60-47de-bf56-6d8e5efe2980",
+                                    "label": "rectangle_8",
+                                    "x": -165,
+                                    "y": -4,
+                                    "angle": 90,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "891a85ea-a8ce-4cd7-a067-2e332446e763",
+                                    "label": "rectangle_9",
+                                    "x": -138,
+                                    "y": -4,
+                                    "angle": 90,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "705d8cb0-2ebf-4713-8c2b-d80af0752905",
+                                    "label": "rectangle_10",
+                                    "x": -111,
+                                    "y": -4,
+                                    "angle": 90,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "e744bf91-0978-4325-8c5f-175512cd32a9",
+                                    "label": "rectangle_11",
+                                    "x": -84,
+                                    "y": -4,
+                                    "angle": 90,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "8092396d-fde2-4f5e-8eb2-23fbcdd5a161",
+                                    "label": "rectangle_12",
+                                    "x": -30,
+                                    "y": -4,
+                                    "angle": 90,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "5a0907f8-ecf2-4df7-9e76-7db3253afc9b",
+                                    "label": "rectangle_13",
+                                    "x": -57,
+                                    "y": -4,
+                                    "angle": 90,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "5533c052-791c-41d2-bd92-107cd67ed113",
+                                    "label": "rectangle_14",
+                                    "x": -3,
+                                    "y": -4,
+                                    "angle": 90,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "21048a19-7586-4dcb-81d3-2cca1208737d",
+                                    "label": "rectangle_15",
+                                    "x": 24,
+                                    "y": -4,
+                                    "angle": 90,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "ab60cf6a-7a62-48e5-b62e-bac4e8ae4126",
+                                    "label": "rectangle_16",
+                                    "x": 51,
+                                    "y": -4,
+                                    "angle": 90,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "9e9e46cc-cf70-4fa4-8248-05edc8afab79",
+                                    "label": "rectangle_17",
+                                    "x": 78,
+                                    "y": -4,
+                                    "angle": 90,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "548fe5b2-6450-487f-844f-15d625b3e234",
+                                    "label": "rectangle_18",
+                                    "x": 105,
+                                    "y": -4,
+                                    "angle": 90,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "fe4863be-6005-4b4b-ae32-dc5dfaeee604",
+                                    "label": "rectangle_19",
+                                    "x": 132,
+                                    "y": -4,
+                                    "angle": 90,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "e39dfbd5-cd1f-423d-94e8-a66b1c0fcd80",
+                                    "label": "rectangle_20",
+                                    "x": 159,
+                                    "y": -4,
+                                    "angle": 90,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "66430ea1-20b8-4480-b97d-e6c513d34a35",
+                                    "label": "rectangle_21",
+                                    "x": 171,
+                                    "y": -131,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "b234ccbc-9b30-492b-a2e3-996c3f55c82c",
+                                    "label": "rectangle_22",
+                                    "x": 171,
+                                    "y": -104,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "09c50fb0-2638-401b-a861-fde7b17909dd",
+                                    "label": "rectangle_23",
+                                    "x": 171,
+                                    "y": -76,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "47a1caaf-d793-4e58-97ac-350c0902bfab",
+                                    "label": "rectangle_24",
+                                    "x": 171,
+                                    "y": -23,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "Rectangle",
+                                    "id": "dbdc4b83-b3d8-4898-8c43-5c841b6570f4",
+                                    "label": "rectangle_25",
+                                    "x": 171,
+                                    "y": -49,
+                                    "isFilled": true,
+                                    "fillColor": "#000",
+                                    "width": 6,
+                                    "height": 22
+                                },
+                                {
+                                    "type": "RoundedRectangleGraphics",
+                                    "id": "bc6da13f-4983-43e4-927d-90ce01e20d26",
+                                    "label": "board_3",
+                                    "x": -212,
+                                    "y": 1,
+                                    "width": 40,
+                                    "height": 110,
+                                    "fillColor": "#78AE8A",
+                                    "strokeColor": "#608A6D",
+                                    "lineWidth": 4,
+                                    "radiusTopLeft": 15,
+                                    "radiusTopRight": 15,
+                                    "radiusBottomLeft": 15,
+                                    "radiusBottomRight": 15
+                                },
+                                {
+                                    "type": "RoundedRectangleGraphics",
+                                    "id": "646eaeaf-ef92-4ef9-98d2-575f05aa0fc6",
+                                    "label": "board_4",
+                                    "x": 209,
+                                    "y": 1,
+                                    "width": 40,
+                                    "height": 110,
+                                    "isFilled": false,
+                                    "fillColor": "#78AE8A",
+                                    "strokeColor": "#C37B30",
+                                    "lineWidth": 4,
+                                    "radiusTopLeft": 15,
+                                    "radiusTopRight": 15,
+                                    "radiusBottomLeft": 15,
+                                    "radiusBottomRight": 15
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "d26c0c1c-0f1a-4597-8280-3b0d77fdc5e3",
+                                    "label": "ellipse_2",
+                                    "x": -141,
+                                    "y": 34,
+                                    "strokeColor": "#C37B30",
+                                    "lineWidth": 4,
+                                    "isStroked": true,
+                                    "width": 45,
+                                    "height": 45
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "e36a14b4-a15d-484b-a73f-3e0664cf0e55",
+                                    "label": "ellipse",
+                                    "x": -85,
+                                    "y": 34,
+                                    "strokeColor": "#C37B30",
+                                    "lineWidth": 4,
+                                    "isStroked": true,
+                                    "width": 45,
+                                    "height": 45
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "4091dbbf-fe57-40fd-9274-ce8e06f145cd",
+                                    "label": "ellipse_1",
+                                    "x": -30,
+                                    "y": 34,
+                                    "strokeColor": "#C37B30",
+                                    "lineWidth": 4,
+                                    "isStroked": true,
+                                    "width": 45,
+                                    "height": 45
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "d3590c08-5e56-43e8-ad03-357d1dcec22f",
+                                    "label": "ellipse_3",
+                                    "x": 25,
+                                    "y": 33,
+                                    "strokeColor": "#C37B30",
+                                    "lineWidth": 4,
+                                    "isStroked": true,
+                                    "width": 45,
+                                    "height": 45
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "20b187a7-6e95-48d1-a83c-1b2959e11849",
+                                    "label": "ellipse_4",
+                                    "x": 136,
+                                    "y": 33,
+                                    "strokeColor": "#C37B30",
+                                    "lineWidth": 4,
+                                    "isStroked": true,
+                                    "width": 45,
+                                    "height": 45
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "2936f0b9-866b-4b69-99f6-a113db59475f",
+                                    "label": "ellipse_5",
+                                    "x": 81,
+                                    "y": 33,
+                                    "strokeColor": "#C37B30",
+                                    "lineWidth": 4,
+                                    "isStroked": true,
+                                    "width": 45,
+                                    "height": 45
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "0d850d7c-1ca7-473a-a2db-ff51242db75c",
+                                    "label": "ellipse_6",
+                                    "x": 80,
+                                    "y": -39,
+                                    "strokeColor": "#608A6D",
+                                    "lineWidth": 4,
+                                    "isStroked": true,
+                                    "width": 45,
+                                    "height": 45
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "56ddfa67-e056-4c8f-94fc-23948855082f",
+                                    "label": "ellipse_7",
+                                    "x": 135,
+                                    "y": -39,
+                                    "strokeColor": "#608A6D",
+                                    "lineWidth": 4,
+                                    "isStroked": true,
+                                    "width": 45,
+                                    "height": 45
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "a49e55ee-6db2-431c-9b4a-d635ea3fb0f2",
+                                    "label": "ellipse_8",
+                                    "x": 24,
+                                    "y": -39,
+                                    "strokeColor": "#608A6D",
+                                    "lineWidth": 4,
+                                    "isStroked": true,
+                                    "width": 45,
+                                    "height": 45
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "5973d5b6-07d1-46e2-87fb-df59da3c6dd9",
+                                    "label": "ellipse_9",
+                                    "x": -31,
+                                    "y": -38,
+                                    "strokeColor": "#608A6D",
+                                    "lineWidth": 4,
+                                    "isStroked": true,
+                                    "width": 45,
+                                    "height": 45
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "582c1cab-7e43-4cd5-8a3d-1f229665a557",
+                                    "label": "ellipse_10",
+                                    "x": -86,
+                                    "y": -38,
+                                    "strokeColor": "#608A6D",
+                                    "lineWidth": 4,
+                                    "isStroked": true,
+                                    "width": 45,
+                                    "height": 45
+                                },
+                                {
+                                    "type": "Ellipse",
+                                    "id": "909259b0-8ece-43f3-8397-5a3a4ba4cfb6",
+                                    "label": "ellipse_11",
+                                    "x": -142,
+                                    "y": -38,
+                                    "strokeColor": "#608A6D",
+                                    "lineWidth": 4,
+                                    "isStroked": true,
+                                    "width": 45,
+                                    "height": 45
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ae30a5c6-b143-4c5b-98cb-b2252220cb1f",
+                            "label": "text_6",
+                            "x": 61,
+                            "y": 139,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Player 1 Side",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "33px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "wordWrapWidth": 800
+                        },
+                        {
+                            "type": "Triangle",
+                            "id": "0815d828-edcc-409a-af57-38c844c521e7",
+                            "label": "triangle_1",
+                            "x": -216,
+                            "y": 40,
+                            "scaleX": 0.22106864304749396,
+                            "scaleY": 0.1724850725870641,
+                            "angle": 90,
+                            "isFilled": true,
+                            "fillColor": "#000"
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "658c3285-a75b-47d9-b2ae-ded50849971c",
+                            "label": "rectangle_26",
+                            "x": -248,
+                            "y": 40,
+                            "scaleX": 2.3692486347080646,
+                            "scaleY": 0.2976855863175931,
+                            "isFilled": true,
+                            "fillColor": "#000",
+                            "width": 20,
+                            "height": 20
+                        },
+                        {
+                            "type": "Triangle",
+                            "id": "5a384178-6a9c-444a-b920-fb5777b2094e",
+                            "label": "triangle",
+                            "x": 210,
+                            "y": 37,
+                            "scaleX": 0.22106864304749396,
+                            "scaleY": 0.1724850725870641,
+                            "angle": -90,
+                            "isFilled": true,
+                            "fillColor": "#000"
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "3565b6bc-7c48-49ee-87f1-c978eb140a18",
+                            "label": "rectangle_27",
+                            "x": 239,
+                            "y": 37,
+                            "scaleX": 2.3692486347080646,
+                            "scaleY": 0.2976855863175931,
+                            "isFilled": true,
+                            "fillColor": "#000",
+                            "width": 20,
+                            "height": 20
+                        },
+                        {
+                            "type": "Text",
+                            "id": "04720819-195b-4582-8a7a-3ea411349d43",
+                            "label": "text_7",
+                            "x": 328,
+                            "y": 40,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Player 1\nMancala",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "30px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "wordWrapWidth": 800
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6b52c99d-d808-41ff-91a6-91604b4116cd",
+                            "label": "text_8",
+                            "x": -339,
+                            "y": 40,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Player 2\nMancala",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "30px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "wordWrapWidth": 800
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "fe619b96-98b7-478a-b54d-f07e6b3079b6",
+                    "label": "page1",
+                    "x": 760,
+                    "y": 480,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "0cfbaabf-dab6-413b-8ee7-fc144de346c2",
+                            "label": "text",
+                            "y": -163,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "OBJECT OF THE GAME",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Text",
+                            "id": "bde9d8dc-2469-461c-9c8a-6719ddfbcd8a",
+                            "label": "text_2",
+                            "y": -67,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Each player attempts to collect as many stones as possible before one of the players clears their side of stones.",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "36px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 800
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b5f56ebb-5242-46df-bad2-630ebde829ef",
+                            "label": "text_3",
+                            "y": 43,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "THE BOARD",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Text",
+                            "id": "52754430-d145-4676-b9ed-42b117d353de",
+                            "label": "text_4",
+                            "y": 151,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Each player has a side of the board (top and bottom). The six holes nearest each player belong to them and their large holes or mancala is to the right.",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "33px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 700
+                        },
+                        {
+                            "type": "Text",
+                            "id": "1171dd62-92b4-4418-af80-083bce1bb704",
+                            "label": "text_5",
+                            "x": 309,
+                            "y": 268,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "alpha": 0.5,
+                            "alphaTopLeft": 0.5,
+                            "alphaTopRight": 0.5,
+                            "alphaBottomLeft": 0.5,
+                            "alphaBottomRight": 0.5,
+                            "text": "Page 1 of 5",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "33px",
+                            "color": "#ffffffff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 700
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "7a55d836-042a-45f8-9d97-bcee695de91e",
+                            "label": "polygon_1",
+                            "x": 47,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "e376fc49-f9b5-4116-9802-aac1390a7cff",
+                            "label": "polygon",
+                            "x": 85,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "d48f3ed4-70c8-43e1-9fc7-6b310ae59c8b",
+                            "label": "polygon_2",
+                            "x": 122,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "170248f9-be67-4b2f-a3cb-53516eaf2a71",
+                            "label": "polygon_3",
+                            "x": 159,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "6c304cbd-8554-4293-af0d-c79f88fb1b82",
+                            "label": "polygon_4",
+                            "x": 197,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3e6868e7-633e-4b17-b06b-afa6495fe8ee",
+                            "label": "blue_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 512,
+                            "y": 274
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4df4b286-57e0-499c-b230-839696d235c5",
+                            "label": "blue_arrow",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 512,
+                            "y": 272,
+                            "angle": 90
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "48ec1425-369b-4377-82d8-a9540d3a0d89",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 515.5541691235741,
+                    "y": 262.32643943873194,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "5a7037a9-6e3c-4765-94af-8da68b26c2a6",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": -109,
+                            "y": -387,
+                            "visible": false,
+                            "text": "New text"
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "a7867e2f-a70e-4040-ad69-ae3d59ddbb66",
+                    "label": "blue_button_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 1268,
+                    "y": 209
+                },
+                {
+                    "type": "Image",
+                    "id": "53d648a1-84bc-44f6-95d1-a8b01eab604c",
+                    "label": "blue_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 1268,
+                    "y": 207
+                },
+                {
+                    "type": "Text",
+                    "id": "3838e261-7bbe-4b35-926c-50acc9d7f27b",
+                    "label": "text_1",
+                    "x": 760,
+                    "y": 225,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "HOW TO PLAY MANCALA",
+                    "fontFamily": "CCComicrazy",
+                    "fontSize": "36px",
+                    "fontStyle": "bold italic",
+                    "stroke": "#134263",
+                    "strokeThickness": 10,
+                    "shadow.fill": true,
+                    "shadow.blur": 0.00001
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "93639825-c427-4863-8fd8-ff8579694de6",
+            "label": "pages",
+            "objectIds": [
+                "fe619b96-98b7-478a-b54d-f07e6b3079b6",
+                "7e22a694-b372-428b-8a29-9e11de9dceae",
+                "2b249436-a6ab-4533-ac41-09c0c70f7eff",
+                "46751a4f-8cba-456b-91b2-9e0c4c3f5011",
+                "427bd70a-2bea-4062-8b21-ce001bb4f992"
+            ]
+        }
+    ]
+}

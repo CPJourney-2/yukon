@@ -1,0 +1,2105 @@
+{
+    "id": "6bee4f4a-27db-44f9-846d-847249d60b5e",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/coffee/coffee-pack.json",
+            "yukon/assets/media/rooms/_fair/coffee/fair-coffee-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Coffee",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "81df93c9-0908-4d47-905a-5a1d1578133e",
+            "label": "rectangle_2",
+            "x": 500,
+            "y": 117,
+            "scaleX": 1.4013670805270109,
+            "scaleY": 1.7991368606337044,
+            "originY": 0,
+            "isFilled": true,
+            "fillColor": "#1f1717",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "e7ab62b8-6032-4b57-b05e-00934179e5c3",
+            "label": "bg",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "backgroundCoffee"
+            },
+            "x": -123,
+            "y": -2,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "5afcfbce-8f15-4ada-aff4-39125bf912ce",
+            "label": "stairs",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "stairs",
+            "MoveTo.x": 1255,
+            "MoveTo.y": "755",
+            "texture": {
+                "key": "coffee",
+                "frame": "stairs"
+            },
+            "x": 1203,
+            "y": 328,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "07c938ab-f75d-4718-bf8b-cf3a5b619d64",
+            "label": "counter_back",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "counterBottom"
+            },
+            "x": 850,
+            "y": 458,
+            "originX": 0.27906976744186046,
+            "originY": 0.8363636363636363
+        },
+        {
+            "type": "Image",
+            "id": "4025e1a5-f97d-4dba-87dd-4633cf3557bf",
+            "label": "counter_front",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "counterTop"
+            },
+            "x": 808,
+            "y": 621,
+            "originX": 0.2864583333333333,
+            "originY": 0.8710801393728222
+        },
+        {
+            "type": "Sprite",
+            "id": "298ec922-280d-4b53-b5fd-1bcf3ab5e7e6",
+            "label": "smoke",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "smoke",
+            "Animation.end": 5,
+            "texture": {
+                "key": "coffee",
+                "frame": "smoke0001"
+            },
+            "x": 833,
+            "y": 205,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "9783525f-a865-4877-9de4-bf83985dcb6b",
+            "label": "sign_back",
+            "texture": {
+                "key": "coffee",
+                "frame": "sign_back"
+            },
+            "x": 903,
+            "y": 632,
+            "originY": 0.4789915966386555
+        },
+        {
+            "type": "Image",
+            "id": "2af1eeae-7993-4b46-98c7-a63e57822b27",
+            "label": "sign_front",
+            "texture": {
+                "key": "coffee",
+                "frame": "sign_front"
+            },
+            "x": 880,
+            "y": 695,
+            "originX": 0.5190839694656488,
+            "originY": 0.8827586206896552
+        },
+        {
+            "type": "Sprite",
+            "id": "d978b25f-26ad-465e-993e-ef17d62727a8",
+            "label": "board",
+            "scope": "CLASS",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "fg"
+            },
+            "x": 138,
+            "y": -42,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "8a605348-9b6d-46e6-8e9a-a85c0ee0353d",
+            "label": "machine_3",
+            "texture": {
+                "key": "coffee",
+                "frame": "machine_3"
+            },
+            "x": 1017,
+            "y": 406,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "86153e9a-e9e2-4608-b038-65a44c58761b",
+            "label": "beans",
+            "components": [
+                "Button",
+                "MoveTo",
+                "ShowHint"
+            ],
+            "Button.spriteName": "beans",
+            "Button.pixelPerfect": true,
+            "ShowHint.text": "beans_hint",
+            "texture": {
+                "key": "coffee",
+                "frame": "beans"
+            },
+            "x": 1057,
+            "y": 722,
+            "originX": 0.3411764705882352,
+            "originY": 0.6145708044679954
+        },
+        {
+            "type": "Image",
+            "id": "9b4e2c94-5e99-439a-a672-13d8b51d7614",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "Button.pixelPerfect": true,
+            "MoveTo.x": "765",
+            "MoveTo.y": "375",
+            "texture": {
+                "key": "coffee",
+                "frame": "door"
+            },
+            "x": 730,
+            "y": 149,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Container",
+            "id": "11aa5385-7516-4d30-9d7f-0ca24e7d53bf",
+            "label": "smoothie_stand",
+            "x": 1367,
+            "y": 802,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "9b2bc6e1-2fb1-431a-8243-498453709910",
+                    "label": "smoothiestand",
+                    "components": [
+                        "Button",
+                        "MoveTo",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "smoothiestand",
+                    "Button.hoverCallback": "() => blender.__Animation.play()",
+                    "Button.hoverOutCallback": "() => blender.__Animation.stop()",
+                    "Button.pixelPerfect": true,
+                    "MoveTo.x": "1340",
+                    "MoveTo.y": "840",
+                    "ShowHint.text": "smoothie_hint",
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "smoothiestand"
+                    },
+                    "x": 33,
+                    "y": -118
+                },
+                {
+                    "type": "Sprite",
+                    "id": "b31be3e8-bee4-490e-b96b-b99a3939618c",
+                    "label": "blender",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "blender",
+                    "Animation.end": 14,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "coffee",
+                        "frame": "blender0001"
+                    },
+                    "x": -6,
+                    "y": -89,
+                    "flipX": true
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "96ddd851-e992-4b12-8f8f-b8682a0ca6f7",
+            "label": "bench",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "bench"
+            },
+            "x": 1501,
+            "y": 857,
+            "originY": 0.28411911548512425
+        },
+        {
+            "type": "Image",
+            "id": "3f2f5497-4110-4073-b1f6-dd05570c1939",
+            "label": "bigSign",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "bigSign"
+            },
+            "x": 1223,
+            "y": 366
+        },
+        {
+            "type": "Image",
+            "id": "fcff798d-587e-44ba-b35e-ad0659438d06",
+            "label": "carBack",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "carBack"
+            },
+            "x": 418,
+            "y": 395.7929543103851,
+            "originY": 0.22313735007525423
+        },
+        {
+            "type": "Image",
+            "id": "cb213bb1-548f-42d8-adac-88e9528e99bc",
+            "label": "carTable",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "carTable"
+            },
+            "x": 391,
+            "y": 419.7356818965383,
+            "originY": 0.590323985081832
+        },
+        {
+            "type": "Image",
+            "id": "c0c9422a-1d67-49a1-b78b-6c5cbdc180d7",
+            "label": "carFront",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "carFront"
+            },
+            "x": 432,
+            "y": 516.7758807112018,
+            "originY": 0.5214165054313983
+        },
+        {
+            "type": "Image",
+            "id": "9a85fd17-8f75-4ea7-9f7c-ce20415b55e4",
+            "label": "stool1",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "stool1"
+            },
+            "x": 578,
+            "y": 405
+        },
+        {
+            "type": "Image",
+            "id": "b4d3aefa-c642-4ac8-ba2c-5c9afd5589dd",
+            "label": "stool2",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "stool2"
+            },
+            "x": 659,
+            "y": 405
+        },
+        {
+            "type": "Image",
+            "id": "0736e85d-a7b8-40b7-a65e-83724f83c190",
+            "label": "chair_1",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "chair1"
+            },
+            "x": 640,
+            "y": 768,
+            "originY": 0.3611111111111111
+        },
+        {
+            "type": "Image",
+            "id": "366254cd-52fb-4c9c-afa0-4ca7c8d32d92",
+            "label": "chair1",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "chair1"
+            },
+            "x": 314,
+            "y": 707,
+            "originX": 0.45294117647058824,
+            "originY": 0.3888888888888889
+        },
+        {
+            "type": "Image",
+            "id": "1d3c6675-ac9d-4dac-ba3c-562f32273808",
+            "label": "chair_2",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "chair1"
+            },
+            "x": 518,
+            "y": 720,
+            "originX": 0.5588235294117647,
+            "originY": 0.3958333333333333,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "ab005809-bf23-41d4-b021-bded1f03ac65",
+            "label": "chair_3",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "chair1"
+            },
+            "x": 770,
+            "y": 706,
+            "originX": 0.48823529411764705,
+            "originY": 0.3680555555555556,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "19e6adb7-c56f-463c-9c22-264a89994650",
+            "label": "chair_4",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "chair1"
+            },
+            "x": 844,
+            "y": 789,
+            "originY": 0.375,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "933774d3-0bc0-461b-904c-81e72cb79761",
+            "label": "table1",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "table1"
+            },
+            "x": 415,
+            "y": 779,
+            "originY": 0.6833333333333335
+        },
+        {
+            "type": "Image",
+            "id": "33c11ef0-ccc4-4e87-8805-512f07cc2c46",
+            "label": "table2",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "table2"
+            },
+            "x": 741,
+            "y": 840,
+            "originY": 0.6914893617021277
+        },
+        {
+            "type": "Container",
+            "id": "fd752e73-64b8-44b6-8467-d499c7131572",
+            "label": "machine",
+            "x": 152.3628387451172,
+            "y": 618.4205949415921,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "2c8a1be8-68ae-49a8-923e-1f0daefb65a6",
+                    "label": "machineTable",
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "machineTable"
+                    },
+                    "x": -5.3628317921670146,
+                    "y": -24.968677205730387,
+                    "originY": 0.3761718490335708
+                },
+                {
+                    "type": "Sprite",
+                    "id": "cb7f97db-a497-47be-ab3a-7d011d8f5565",
+                    "label": "interior",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "interior0001"
+                    },
+                    "x": -50.362831792167015,
+                    "y": 6.561718302082113,
+                    "originY": 0.7132859835614993
+                },
+                {
+                    "type": "Sprite",
+                    "id": "4d511565-d98f-43d4-8b5f-2c24ca7fe96b",
+                    "label": "funnel0001",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "funnel0001"
+                    },
+                    "x": -90.36283179216701,
+                    "y": 30.049816446613363,
+                    "originY": 1.0583920713905892
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "8b5751f0-c2f9-48ba-9a6e-cf72aa6f5a3a",
+            "label": "candyStand",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "candyStand"
+            },
+            "x": 46,
+            "y": 734,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "3fa55d9a-d8ed-48cb-9b48-54eb47796d26",
+            "label": "chair2Bottom",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "chair2Bottom"
+            },
+            "x": 334,
+            "y": 859
+        },
+        {
+            "type": "Image",
+            "id": "25f2600e-aeae-4a98-8f8b-60ece5016dd7",
+            "label": "chair2Top",
+            "texture": {
+                "key": "fair-coffee",
+                "frame": "chair2Top"
+            },
+            "x": 312,
+            "y": 862.5572197228918,
+            "originY": 0.621540779085092
+        },
+        {
+            "type": "Container",
+            "id": "22b6839a-a1fe-4347-a845-8f2ee826540b",
+            "label": "lights",
+            "x": 1066,
+            "y": 121.1740493774414,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "e5992a71-39b3-4c91-b7fe-29a2dac47514",
+                    "label": "light10001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 50,
+                    "y": 478.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8aab59e3-f9dd-48ff-aff3-d49e73f1fdcc",
+                    "label": "light10006",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 39,
+                    "y": 470.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "4765fc31-3da7-4013-b2fb-f68e9092889f",
+                    "label": "light",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 55,
+                    "y": 460.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "be5d5b47-d30b-4b9e-86c2-a84485bde074",
+                    "label": "light_1",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 33,
+                    "y": 457.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f2fc59b2-6f69-4992-a458-0eecc3520aaa",
+                    "label": "light_2",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 26,
+                    "y": 445.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "a05168ca-636f-4cad-af1a-46ef2ad5ed79",
+                    "label": "light_3",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 18,
+                    "y": 432.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "0c255b55-9f0e-4325-816d-f35b4116f99c",
+                    "label": "light_4",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 5,
+                    "y": 409.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "322313df-ef55-47c2-b9b4-01082926e944",
+                    "label": "light_5",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 11,
+                    "y": 421.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ee319993-430e-4690-93fb-8f9211b0c6e8",
+                    "label": "light_6",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "y": 395.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "93561ecc-6f48-4bdb-b315-dcbb750ef456",
+                    "label": "light_7",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 14,
+                    "y": 390.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "b91c53c2-f4e0-40ae-857b-8d240d0929eb",
+                    "label": "light_8",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 13,
+                    "y": 362.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d8a82b1f-a3d1-4539-8b97-15b426c90e3a",
+                    "label": "light_9",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 14,
+                    "y": 337.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "7511ca67-6c77-4596-be61-50fb4f616aa1",
+                    "label": "light_10",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 16.49462890625,
+                    "y": 311.0217819213867
+                },
+                {
+                    "type": "Sprite",
+                    "id": "6134c5d4-4eb9-42a9-a485-1551b1a1251a",
+                    "label": "light_11",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 22.335205078125,
+                    "y": 281.2319869995117
+                },
+                {
+                    "type": "Sprite",
+                    "id": "6831dff4-1eda-4e52-9a7a-8b67be1d5841",
+                    "label": "light_12",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 30,
+                    "y": 255.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "fc22205d-1ae8-470c-96da-a821b7ea4b96",
+                    "label": "light_13",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 37.690185546875,
+                    "y": 230.88414764404297
+                },
+                {
+                    "type": "Sprite",
+                    "id": "820dc934-ab2f-411e-adc4-f4d3a269d423",
+                    "label": "light_14",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 47.878662109375,
+                    "y": 207.1594467163086
+                },
+                {
+                    "type": "Sprite",
+                    "id": "b1ad649d-8375-48e5-be70-42b569e4ae3d",
+                    "label": "light_15",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 60,
+                    "y": 179.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "83392714-b89e-4e5c-b6c6-35854eed32fd",
+                    "label": "light_16",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 73.66845703125,
+                    "y": 159.69573211669922
+                },
+                {
+                    "type": "Sprite",
+                    "id": "b80b21f3-d74b-4f38-8860-257cba634ff7",
+                    "label": "light_17",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 86.740966796875,
+                    "y": 139.4926986694336
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8fe286c7-bf3a-431b-bb98-1b362f9339ba",
+                    "label": "light_18",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 104.284423828125,
+                    "y": 120.40579986572266
+                },
+                {
+                    "type": "Sprite",
+                    "id": "59bded45-0fa7-4faa-a211-c3633b8303b7",
+                    "label": "light_19",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 120.2408447265625,
+                    "y": 102.96385955810547
+                },
+                {
+                    "type": "Sprite",
+                    "id": "2a3ed967-1748-4f34-930e-43db786b1816",
+                    "label": "light_20",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 139,
+                    "y": 85.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "c2af1546-902a-41ac-8d92-449050619b17",
+                    "label": "light_21",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 158,
+                    "y": 70.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f176b855-a5d3-464a-bb6f-4491a97293af",
+                    "label": "light_22",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 177,
+                    "y": 56.825950622558594
+                },
+                {
+                    "type": "Sprite",
+                    "id": "02429664-96e4-4b08-a15b-c21067f850da",
+                    "label": "light_23",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 199,
+                    "y": 44.825950622558594
+                },
+                {
+                    "type": "Sprite",
+                    "id": "48ac9945-6cb4-494a-8654-9c69b4498784",
+                    "label": "light_24",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 221.0306396484375,
+                    "y": 29.71031951904297
+                },
+                {
+                    "type": "Sprite",
+                    "id": "1d6c77ae-b2dd-4f06-b2da-cf362ca68982",
+                    "label": "light_25",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 245.3931884765625,
+                    "y": 18.12329864501953
+                },
+                {
+                    "type": "Sprite",
+                    "id": "73872133-84cf-4988-bb46-92cad9a5afce",
+                    "label": "light_26",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 264,
+                    "y": 8.825950622558594
+                },
+                {
+                    "type": "Sprite",
+                    "id": "166b3baa-66fa-4bde-9bb3-d917461c5cc4",
+                    "label": "light_27",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 284.6107177734375
+                },
+                {
+                    "type": "Sprite",
+                    "id": "19a7aa08-b957-4dfe-b1ab-1fba34543182",
+                    "label": "light_29",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 315,
+                    "y": 15.825950622558594
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f5dc974a-7f3f-4cb6-8d12-9ecdbff87f2b",
+                    "label": "light_30",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 292,
+                    "y": 29.825950622558594
+                },
+                {
+                    "type": "Sprite",
+                    "id": "809c29ee-fe8b-443b-a824-6920e234763e",
+                    "label": "light_31",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 269,
+                    "y": 42.825950622558594
+                },
+                {
+                    "type": "Sprite",
+                    "id": "14010461-235e-47d8-9f76-c8044d9939fd",
+                    "label": "light_32",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 249,
+                    "y": 57.825950622558594
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f6f23494-db1d-465b-81e6-c1ea9e23251e",
+                    "label": "light_33",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 223,
+                    "y": 73.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "139acd2e-ab93-44a9-afd8-c08553f6f509",
+                    "label": "light_34",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 200,
+                    "y": 91.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "5dcc8f4f-032c-47b5-bd6d-3ea26929ee4f",
+                    "label": "light_35",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 181,
+                    "y": 112.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "67aa26f9-e75b-418a-a887-f0a6862da7a7",
+                    "label": "light_36",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 158,
+                    "y": 133.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "6dbbd4ff-5934-4069-a2da-948f37c355bf",
+                    "label": "light_37",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 138,
+                    "y": 160.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8b536b2e-e1aa-42a3-ba4d-be81c7b3e06b",
+                    "label": "light_38",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 119,
+                    "y": 182.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8c7d17d1-123d-4f43-ba9f-e5e4f121c00b",
+                    "label": "light_39",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 105,
+                    "y": 206.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "08e1db3a-cda6-4c41-96ef-c13d8a1a2bff",
+                    "label": "light_40",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 92,
+                    "y": 232.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "a6bdc584-dc6c-41db-89d3-4ab75eb563da",
+                    "label": "light_41",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 82,
+                    "y": 262.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f3862905-d804-41ac-84d5-61ff09ea0a11",
+                    "label": "light_42",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 71,
+                    "y": 296.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "2b569b6e-283e-4b69-8c41-50d2d99f2a5a",
+                    "label": "light_43",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 68,
+                    "y": 327.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "9fdedc2b-535b-419f-b78e-3f7f727a1b66",
+                    "label": "light_44",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 68,
+                    "y": 356.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "fdf96e82-1b7d-4c36-b7c7-d8ac795596ef",
+                    "label": "light_45",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 71,
+                    "y": 390.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "6a2df0f1-ca9a-4516-a01e-1e6505c73779",
+                    "label": "light_46",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 67,
+                    "y": 415.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "2e7255a5-0513-4b68-9c72-eb063abb8c7b",
+                    "label": "light_47",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light1",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10001"
+                    },
+                    "x": 59,
+                    "y": 440.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "4e7e6b35-5b25-4d74-9e7a-9331fcc8ab3a",
+                    "label": "light_48",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 63,
+                    "y": 427.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8972f4f3-86d2-4a72-a067-e3f5cbfe9ad3",
+                    "label": "light_49",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 70,
+                    "y": 402.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ceb759c5-1f89-4cda-82b0-b4df2b48e996",
+                    "label": "light_50",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 69,
+                    "y": 374.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "082476cc-d575-45a2-9da2-3d1c6d30bf8f",
+                    "label": "light_51",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 69,
+                    "y": 342.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "4e0d5a24-6602-49fa-b234-7c3b00d2645c",
+                    "label": "light_52",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 70,
+                    "y": 311.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "9b0296ed-a062-447c-a133-1fe1e9dac652",
+                    "label": "light_53",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 76.9410400390625,
+                    "y": 279.99718475341797
+                },
+                {
+                    "type": "Sprite",
+                    "id": "941c00d3-23ce-4f8f-97c8-8f19b4e3f9a0",
+                    "label": "light_54",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 87.001708984375,
+                    "y": 247.50325775146484
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f7a04b23-5bf9-4db7-aa94-f5898b17183f",
+                    "label": "light_55",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 99.3865966796875,
+                    "y": 220.2396469116211
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8a908f38-f9fe-4158-9c3a-475c7202301f",
+                    "label": "light_56",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 112.2911376953125,
+                    "y": 194.68355560302734
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d1a70bd0-937b-4e6d-b96c-4810afa038b1",
+                    "label": "light_57",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 128.485107421875,
+                    "y": 171.40474700927734
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f0fb13b8-1f80-4af0-97da-4e62fad265c2",
+                    "label": "light_58",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 148.28955078125,
+                    "y": 147.62602996826172
+                },
+                {
+                    "type": "Sprite",
+                    "id": "097ea04a-7177-4624-8242-cbfd9d15e0d6",
+                    "label": "light_59",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 168.2789306640625,
+                    "y": 123.33509063720703
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8ac80bbd-ae79-4e0b-a814-9d0300400a47",
+                    "label": "light_60",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 189.78662109375,
+                    "y": 101.57445526123047
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f7ea9b40-2c32-428f-a0aa-6ace6821b347",
+                    "label": "light_61",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 211.9669189453125,
+                    "y": 83.33509063720703
+                },
+                {
+                    "type": "Sprite",
+                    "id": "53e60738-4cfa-4ac7-8963-a6766e8d3153",
+                    "label": "light_62",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 234.2335205078125,
+                    "y": 66.88809967041016
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ea73e211-1356-4a0d-bb3d-8bafce5a2174",
+                    "label": "light_63",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 259.280517578125,
+                    "y": 51.57599639892578
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d22018e7-a824-4e29-ae21-3303d4b34936",
+                    "label": "light_64",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 279.2698974609375,
+                    "y": 37.65930938720703
+                },
+                {
+                    "type": "Sprite",
+                    "id": "39cd954c-0b5e-4c64-ae05-e54c889941df",
+                    "label": "light_65",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 303.307861328125,
+                    "y": 24.248695373535156
+                },
+                {
+                    "type": "Sprite",
+                    "id": "82dc4967-6860-435a-8abf-a4240ed4f22a",
+                    "label": "light_28",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 301,
+                    "y": 6.825950622558594
+                },
+                {
+                    "type": "Sprite",
+                    "id": "2d83ec44-ffd1-4f80-8f8f-5c3d0cd2a40a",
+                    "label": "light_66",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 275.05322265625,
+                    "y": 4.092643737792969
+                },
+                {
+                    "type": "Sprite",
+                    "id": "ee0619c0-8ea5-4109-a6bf-0c9798cd5167",
+                    "label": "light_67",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 255,
+                    "y": 13.825950622558594
+                },
+                {
+                    "type": "Sprite",
+                    "id": "481cea3e-c31d-4b3f-9cd0-fc31e432358e",
+                    "label": "light_68",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 233,
+                    "y": 24.825950622558594
+                },
+                {
+                    "type": "Sprite",
+                    "id": "def79eba-e9aa-4941-b504-1f73388b5966",
+                    "label": "light_69",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 210.530517578125,
+                    "y": 37.49266815185547
+                },
+                {
+                    "type": "Sprite",
+                    "id": "638acfd8-fba9-4525-be80-c144745110b1",
+                    "label": "light_70",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 189.0228271484375,
+                    "y": 51.15631866455078
+                },
+                {
+                    "type": "Sprite",
+                    "id": "185f4178-c788-4e03-9ace-b2cd76bb6810",
+                    "label": "light_71",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 167,
+                    "y": 63.825950622558594
+                },
+                {
+                    "type": "Sprite",
+                    "id": "e657b3c0-c8df-421c-8da7-b8dd64fcb4fc",
+                    "label": "light_72",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 149,
+                    "y": 78.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "0f77d955-897e-4052-aecc-84cb87554df0",
+                    "label": "light_73",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 129,
+                    "y": 93.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "97302992-b224-4a33-badb-598b2f2d9ea9",
+                    "label": "light_74",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 111,
+                    "y": 110.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "66966987-801f-460f-af87-156010a3afb6",
+                    "label": "light_75",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 95,
+                    "y": 128.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d9122422-31b5-49d2-8d1d-e3da559d9740",
+                    "label": "light_76",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 79,
+                    "y": 148.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "1722e596-431d-4447-8665-297f64ef7c73",
+                    "label": "light_77",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 66,
+                    "y": 168.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "e6dcc581-3b85-41f5-baeb-0b081cbc8930",
+                    "label": "light_78",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 54,
+                    "y": 190.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "1fa91570-45fc-445b-ac62-8a8898e59831",
+                    "label": "light_79",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 41,
+                    "y": 218.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "09d578af-77b4-4cf5-af09-ebdf097344cf",
+                    "label": "light_80",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 32,
+                    "y": 243.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "5731b7d8-f1d9-4d5b-ac1d-d3b3bf7e2a85",
+                    "label": "light_81",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 25,
+                    "y": 268.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "2c6f47f4-6a47-40b4-88cf-a71f91be0320",
+                    "label": "light_82",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 19,
+                    "y": 295.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "52b20b6a-f1e6-4cc5-915f-56af8f3c0618",
+                    "label": "light_83",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 14,
+                    "y": 325.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "b6c41384-9991-4627-b673-16a4cba75950",
+                    "label": "light_84",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 14,
+                    "y": 350.8259506225586
+                },
+                {
+                    "type": "Sprite",
+                    "id": "5b09a6d0-285a-4a06-8dfd-037516205fc6",
+                    "label": "light_85",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "light2",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-coffee",
+                        "frame": "light10006"
+                    },
+                    "x": 13.346435546875,
+                    "y": 377.31172943115234
+                }
+            ]
+        },
+        {
+            "type": "Rectangle",
+            "id": "78b95bf4-a259-4562-9213-496940ab34de",
+            "label": "hitbox",
+            "scope": "CLASS",
+            "x": 68,
+            "y": 537,
+            "scaleX": 1.9276237590808705,
+            "scaleY": 1.8552470980211893,
+            "visible": false,
+            "width": 70,
+            "height": 75
+        },
+        {
+            "type": "Rectangle",
+            "id": "78b0e505-e32c-4607-80aa-02d6dec5975b",
+            "label": "rectangle",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.triggerPin()",
+            "x": 274,
+            "y": 607,
+            "originY": 1.073208366010646,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Sprite",
+            "id": "99a748a3-ea4d-4722-9e7d-302ad1de29fb",
+            "label": "shop_coffee",
+            "scope": "CLASS",
+            "texture": {
+                "key": "coffee_jobs",
+                "frame": "job_coffee_0001"
+            },
+            "x": 828,
+            "y": 672,
+            "originX": 0.48104857995152495,
+            "originY": 3.9520740519068775,
+            "visible": false
+        },
+        {
+            "type": "Container",
+            "id": "c60678c5-055a-4d97-8fe5-8cb5f145ad8e",
+            "label": "coin",
+            "scope": "CLASS",
+            "x": -169,
+            "y": 264,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "0ae07ffe-c618-4f5a-a50a-ba2d855cff6c",
+                    "label": "coin_sprite",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "coffee_jobs",
+                        "frame": "coin0002"
+                    },
+                    "x": 31.03714265764836,
+                    "y": -50.12658541187517
+                },
+                {
+                    "type": "Text",
+                    "id": "a4f94b75-abff-41b7-8f70-e36e79e1313a",
+                    "label": "coin_text",
+                    "scope": "PUBLIC",
+                    "x": -29,
+                    "y": -33,
+                    "text": "10",
+                    "fixedWidth": 50,
+                    "fixedHeight": 50,
+                    "paddingTop": 15,
+                    "align": "center",
+                    "fontFamily": "CCComiccrazy",
+                    "fontStyle": "bold",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 2,
+                    "baselineX": 0,
+                    "baselineY": 0
+                }
+            ]
+        },
+        {
+            "type": "Sprite",
+            "id": "e6824cb6-888b-41f5-ba5c-83b1f9834489",
+            "label": "cooldown_timer",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "cooldown_timer_",
+            "Animation.end": 121,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "coffee_jobs",
+                "frame": "cooldown_timer_0001"
+            },
+            "x": -115,
+            "y": 296,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "dfeceb0f-a846-42bf-9e8b-2fb807bd3adc",
+            "label": "counter_arrow",
+            "scope": "CLASS",
+            "texture": {
+                "key": "arrow"
+            },
+            "x": 834,
+            "y": 1119,
+            "scaleX": 0.2,
+            "scaleY": 0.2,
+            "angle": -180,
+            "originX": 0.49999999999999406,
+            "originY": -10.688557995255064,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "f161eba1-9c62-496b-805c-8523a2699072",
+            "label": "coffee_arrow",
+            "scope": "CLASS",
+            "texture": {
+                "key": "arrow"
+            },
+            "x": -179,
+            "y": 106,
+            "scaleX": 0.2,
+            "scaleY": 0.2,
+            "angle": -180
+        },
+        {
+            "type": "Sprite",
+            "id": "da3adbfa-989a-48d3-8d4e-65a9ae0b6c4d",
+            "label": "penguin_coffee",
+            "scope": "CLASS",
+            "texture": {
+                "key": "coffee_jobs",
+                "frame": "job_coffee_0001"
+            },
+            "x": -159,
+            "y": 351
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "d8014338-e465-4139-bd11-d2d330aded64",
+            "label": "sort",
+            "objectIds": [
+                "86153e9a-e9e2-4608-b038-65a44c58761b",
+                "2af1eeae-7993-4b46-98c7-a63e57822b27",
+                "9783525f-a865-4877-9de4-bf83985dcb6b",
+                "4025e1a5-f97d-4dba-87dd-4633cf3557bf",
+                "07c938ab-f75d-4718-bf8b-cf3a5b619d64",
+                "cb213bb1-548f-42d8-adac-88e9528e99bc",
+                "fcff798d-587e-44ba-b35e-ad0659438d06",
+                "c0c9422a-1d67-49a1-b78b-6c5cbdc180d7",
+                "25f2600e-aeae-4a98-8f8b-60ece5016dd7",
+                "933774d3-0bc0-461b-904c-81e72cb79761",
+                "33c11ef0-ccc4-4e87-8805-512f07cc2c46",
+                "8b5751f0-c2f9-48ba-9a6e-cf72aa6f5a3a",
+                "96ddd851-e992-4b12-8f8f-b8682a0ca6f7",
+                "ab005809-bf23-41d4-b021-bded1f03ac65",
+                "19e6adb7-c56f-463c-9c22-264a89994650",
+                "0736e85d-a7b8-40b7-a65e-83724f83c190",
+                "1d3c6675-ac9d-4dac-ba3c-562f32273808",
+                "366254cd-52fb-4c9c-afa0-4ca7c8d32d92",
+                "fd752e73-64b8-44b6-8467-d499c7131572",
+                "11aa5385-7516-4d30-9d7f-0ca24e7d53bf"
+            ]
+        }
+    ]
+}

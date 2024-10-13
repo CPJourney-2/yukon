@@ -1,0 +1,400 @@
+{
+    "id": "f0fe4f9b-59c2-4407-b505-ab388e1434a0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8bb89fb5-8fd3-4d6d-a8b9-f11a53a7735f",
+            "label": "container_1",
+            "components": [],
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9d274e25-df95-406f-883b-f4102166d431",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960,
+                    "list": []
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "72b107fe-d052-40b8-ab5c-8dc45d6f189a",
+                    "label": "nineslice_1",
+                    "components": [],
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "width": 708,
+                    "height": 700,
+                    "leftWidth": 43,
+                    "rightWidth": 38,
+                    "topHeight": 40,
+                    "bottomHeight": 40,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "e656c20c-78a6-4d94-917f-6cf411b1f4d4",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.hide()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 300,
+                    "y": -292,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "56d93af1-ac83-4be9-a548-efd7ba743bf2",
+                    "label": "blue_x",
+                    "components": [],
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 300,
+                    "y": -294,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "066b35be-ca46-416b-9454-8113a2a6f005",
+                    "label": "title",
+                    "components": [],
+                    "y": -281,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "SUBMIT YOUR EVENT",
+                    "fixedWidth": 500,
+                    "align": "center",
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "40px",
+                    "fontStyle": "bold italic",
+                    "stroke": "#003366",
+                    "strokeThickness": 10,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "3c5d2285-5200-4bba-aba8-8ed563fb1f28",
+                    "label": "intro",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "4cd67404-840a-4adb-b9a0-a56dc0cc88f6",
+                            "label": "disclaimemrtrext",
+                            "components": [],
+                            "y": -24,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Want to host your own event for the community? Great! We'd love to hear your idea!\n\nPLEASE NOTE:\nBy submitting an event to potentially be hosted, you agree that, if the event is chosen to be among next week's events, you will be present to host the event at its specified time. Failure to be present will result in penalties on your account.\n\nIn addition, your account must also be in good standing for us to accept your proposed event.\n\nDo you wish to give us the needed information for your event?",
+                            "fixedWidth": 640,
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "30px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "prefabId": "88bfda40-6205-4acf-a1c5-ce803655487b",
+                            "id": "cc84f6d6-6fff-4db9-af9f-500ba859f531",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "yesCallback",
+                                "noCallback"
+                            ],
+                            "label": "dualButtons",
+                            "yesCallback": "() => this.turnPage(1)",
+                            "noCallback": "() => this.hide()",
+                            "components": [],
+                            "x": 0,
+                            "y": 261.3963623046875,
+                            "nestedPrefabs": [],
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "93766f6c-c674-47c5-951c-427304ad01c4",
+                    "label": "firstPage",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "289b50f1-3503-44cf-926d-b219b98b66f4",
+                            "label": "firsttellus",
+                            "components": [],
+                            "y": -219,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "First, tell us the name of your event.",
+                            "fixedWidth": 600,
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "32px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "66aba8d6-24b7-40b6-87f6-b5124979c31d",
+                            "label": "help_button_first",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.validateInput(1)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 255,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "18c47ddb-d995-454e-b42a-530a8b914840",
+                            "label": "describevenntnent",
+                            "components": [],
+                            "y": -82,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "In the field below, please briefly describe what the event will be about.",
+                            "fixedWidth": 600,
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "32px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "19176402-f093-4108-acdd-2e1caa860385",
+                            "label": "next_txt1",
+                            "components": [],
+                            "y": 269,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Next\n",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "23295109-2a78-4681-8245-b6f46532ad41",
+                            "label": "name_white_box",
+                            "components": [],
+                            "x": 250,
+                            "y": -128,
+                            "originX": 1,
+                            "originY": 1,
+                            "isFilled": true,
+                            "width": 498,
+                            "height": 58,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "4524bfb8-cba9-45ad-908a-67a9ddc62814",
+                    "label": "secondPage",
+                    "scope": "CLASS",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "d636589c-88e5-4f35-bddf-7e922d2674e5",
+                            "label": "whereevent",
+                            "components": [],
+                            "y": -209,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Where will your event take place? (example: The Beach, Someone's Igloo, etc.)",
+                            "fixedWidth": 600,
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "32px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ba47b298-cad4-41bd-a52a-a95a60eaee69",
+                            "label": "textContenrttttt",
+                            "components": [],
+                            "y": -5,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Below, please input the date and time your event will take place.",
+                            "fixedWidth": 600,
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "32px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "47b87f8e-c224-4f86-bbbe-6b52a9047b9f",
+                            "label": "help_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.validateInput(2)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 255,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "2004f61c-8d56-40a5-be4d-edcf6f8fab7f",
+                            "label": "next_txt",
+                            "components": [],
+                            "y": 269,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Submit\n",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "ac704015-eeac-481b-8120-c9a6fae351b9",
+                            "label": "name_white_box_1",
+                            "components": [],
+                            "x": 250,
+                            "y": -99,
+                            "originX": 1,
+                            "originY": 1,
+                            "isFilled": true,
+                            "width": 498,
+                            "height": 58,
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "10eba3c2-1c30-4558-8956-759ea36c4791",
+                            "label": "timeBox",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 11,
+                            "y": 90,
+                            "originX": 0.5289930006904638,
+                            "isFilled": true,
+                            "strokeColor": "#000",
+                            "lineWidth": 2,
+                            "isStroked": true,
+                            "width": 490,
+                            "height": 75,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "da127e48-8978-43b1-a67a-acfb67861b1d",
+                    "label": "nameBox",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": -158,
+                    "visible": false,
+                    "width": 500,
+                    "height": 60,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "104deb9a-6e7a-459d-8fb6-b31e21848ba9",
+                    "label": "descriptionBox",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": 74,
+                    "visible": false,
+                    "width": 600,
+                    "height": 200,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "446b725c-c74e-42d3-92f7-1b641dc729cd",
+                    "label": "whereBox",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": -130,
+                    "visible": false,
+                    "width": 500,
+                    "height": 60,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

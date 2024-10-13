@@ -1,0 +1,90 @@
+{
+    "id": "564fddc5-0f7a-4b20-9c1b-937d1c5a01b4",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/noboundary/noboundary-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "NoBoundary",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "c23f7027-d52c-43d0-8517-e4aa46f939b5",
+            "label": "floor",
+            "scope": "CLASS",
+            "texture": {
+                "key": "noboundary",
+                "frame": "floor-1"
+            },
+            "x": 760,
+            "y": 624,
+            "alpha": 0.0001,
+            "alphaTopLeft": 0.0001,
+            "alphaTopRight": 0.0001,
+            "alphaBottomLeft": 0.0001,
+            "alphaBottomRight": 0.0001
+        },
+        {
+            "type": "Image",
+            "id": "d1c66857-28e3-4bbd-b241-20ed645e2850",
+            "label": "floor_2",
+            "scope": "CLASS",
+            "texture": {
+                "key": "noboundary",
+                "frame": "floor-2"
+            },
+            "x": 760,
+            "y": 624,
+            "alpha": 0.0001,
+            "alphaTopLeft": 0.0001,
+            "alphaTopRight": 0.0001,
+            "alphaBottomLeft": 0.0001,
+            "alphaBottomRight": 0.0001
+        },
+        {
+            "type": "Image",
+            "id": "2c0ab5cd-9e2e-489f-8f7d-80a5bf075552",
+            "label": "floor_4",
+            "scope": "CLASS",
+            "texture": {
+                "key": "noboundary",
+                "frame": "floor_4"
+            },
+            "x": 760,
+            "y": 624,
+            "alpha": 0.0001,
+            "alphaTopLeft": 0.0001,
+            "alphaTopRight": 0.0001,
+            "alphaBottomLeft": 0.0001,
+            "alphaBottomRight": 0.0001
+        },
+        {
+            "type": "Rectangle",
+            "id": "ead1b667-89dc-4b0d-981f-8b99ebd8eeb3",
+            "label": "floorMask",
+            "scope": "CLASS",
+            "originX": 0,
+            "originY": 0,
+            "alpha": 0,
+            "isFilled": true,
+            "width": 1520,
+            "height": 960
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

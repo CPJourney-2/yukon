@@ -1,0 +1,73 @@
+import IglooScene from '../IglooScene'
+import { ZoneTrigger } from '@components/components'
+
+
+/* START OF COMPILED CODE */
+
+export default class Cave extends IglooScene {
+
+    constructor() {
+        super("CaveIgloo");
+
+        /** @type {Phaser.GameObjects.Image} */
+        this.floor;
+
+
+        /* START-USER-CTR-CODE */
+
+        this.floorSpawn = [720, 720]
+        this.wallSpawn = [720, 260]
+        this.wallBounds = [350, 1200]
+        this.floorFrame = 2
+
+        /* END-USER-CTR-CODE */
+    }
+
+    /** @returns {void} */
+    _preload() {
+
+        this.load.pack("caveigloo-pack", "assets/media/igloos/buildings/sprites/cave/caveigloo-pack.json");
+    }
+
+    /** @returns {void} */
+    _create() {
+
+        // floor
+        const floor = this.add.image(760, 636, "caveigloo", "floor");
+        floor.setOrigin(0.5003940110323088, 0.5013477088948787);
+
+        // door
+        this.add.image(253, 470, "caveigloo", "door0001");
+
+        // wall_1
+        const wall_1 = this.add.image(321, 389, "caveigloo", "wall_1");
+        wall_1.setOrigin(0.5010266940451745, 0.5);
+
+        // wall_3
+        this.add.image(1209, 383, "caveigloo", "wall_3");
+
+        // wall_2
+        const wall_2 = this.add.image(776, 285, "caveigloo", "wall_2");
+        wall_2.setOrigin(0.5008695652173913, 0.5);
+
+        // rectangle_1
+        const rectangle_1 = this.add.rectangle(263, 551, 128, 128);
+        rectangle_1.scaleX = 1.6987766126222235;
+        rectangle_1.scaleY = 1.5897100335089185;
+        rectangle_1.setOrigin(0.5748622263939656, 0.820707866413847);
+
+        // rectangle_1 (components)
+        const rectangle_1ZoneTrigger = new ZoneTrigger(rectangle_1);
+        rectangle_1ZoneTrigger.callback = () => this.interface.loadWidget('Map');
+
+        this.floor = floor;
+
+        this.events.emit("scene-awake");
+    }
+
+
+    /* START-USER-CODE */
+    /* END-USER-CODE */
+}
+
+/* END OF COMPILED CODE */

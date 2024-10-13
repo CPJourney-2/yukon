@@ -1,0 +1,203 @@
+{
+    "id": "9f08a7d7-8fc9-4123-bbdd-86dc64c787d4",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "259588a9-7249-4243-ba08-195bffd0b229",
+            "label": "container_1",
+            "components": [],
+            "x": 550,
+            "y": 376,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "e5bee85a-0e5f-45ff-aac1-8afa1a34b054",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 184,
+                    "y": 116,
+                    "scaleX": 28.01184818668493,
+                    "scaleY": 12.663820491097233,
+                    "isFilled": true,
+                    "fillAlpha": 0,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "7bffed36-b29a-4bed-9c5e-30adf76b6a63",
+                    "label": "bg",
+                    "components": [],
+                    "texture": {
+                        "key": "levelup",
+                        "frame": "bg"
+                    },
+                    "x": 101,
+                    "y": 180
+                },
+                {
+                    "type": "Sprite",
+                    "id": "653a3eab-1d3e-458e-af04-cac54301ac15",
+                    "label": "sensay_sensay0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.end": 103,
+                    "texture": {
+                        "key": "levelup",
+                        "frame": "sensay/sensay0001"
+                    },
+                    "x": -283,
+                    "y": 95
+                },
+                {
+                    "type": "Image",
+                    "id": "9c3fe1cc-ab7b-47be-873d-46662301fa6e",
+                    "label": "speech",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "levelup",
+                        "frame": "speech"
+                    },
+                    "x": 377,
+                    "y": -115,
+                    "visible": false
+                },
+                {
+                    "type": "Text",
+                    "id": "36445473-acd2-41c3-af15-52c91217b829",
+                    "label": "text_1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 20,
+                    "y": -228,
+                    "visible": false,
+                    "text": "Congratulations!\nMuch like the fearsome earthquake,\nYou have rocked the house.",
+                    "fixedWidth": 800,
+                    "fixedHeight": 150,
+                    "align": "center",
+                    "fontFamily": "CCComicrazy",
+                    "fontSize": "35px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "2526542b-eec5-4c48-aeb6-e5d5f09b592a",
+                    "label": "rectangle",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onClick()}",
+                    "x": 148,
+                    "y": 55,
+                    "scaleX": 28.01184818668493,
+                    "scaleY": 12.663820491097233,
+                    "isFilled": true,
+                    "fillAlpha": 0,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Container",
+                    "id": "cd0a06d5-3bf8-4242-92ef-3cbdf9813783",
+                    "label": "belt",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 409,
+                    "y": 236,
+                    "alpha": 0,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "34b4868d-3076-45de-8aa8-3fd34cc5099d",
+                            "label": "belt_blackbelt0001",
+                            "components": [],
+                            "texture": {
+                                "key": "levelup",
+                                "frame": "belt/blackbelt0001"
+                            },
+                            "y": 2
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e8052271-561d-4ac8-98c0-d12c3b2f5d90",
+                            "label": "belt_beltcolour0001",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "levelup",
+                                "frame": "belt/beltcolour0001"
+                            },
+                            "x": 1
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "f990bc48-c905-4ccf-901a-4efb57948331",
+                            "label": "belt_beltshadow0001",
+                            "components": [],
+                            "texture": {
+                                "key": "levelup",
+                                "frame": "belt/beltshadow0001"
+                            },
+                            "x": 1,
+                            "y": 5
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b884c6d7-87a1-4ada-b03e-e0148a0e1110",
+                    "label": "mask1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 440,
+                    "y": 217,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "75623439-3915-472e-af32-e7598b50bac6",
+                            "label": "mask_mask0001",
+                            "scope": "CLASS",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.end": 6,
+                            "Animation.repeat": 0,
+                            "Animation.autoPlay": false,
+                            "texture": {
+                                "key": "levelup",
+                                "frame": "mask/mask0001"
+                            },
+                            "y": -58,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

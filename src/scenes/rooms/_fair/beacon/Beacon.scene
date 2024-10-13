@@ -1,0 +1,265 @@
+{
+    "id": "bc29278a-ea00-4e4b-a1bb-4b927076281a",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/beacon/beacon-pack.json",
+            "yukon/assets/media/rooms/_fair/beacon/fair-beacon-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Beacon",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "52a18044-45d2-4cc0-a9a0-5e87ce9a84ea",
+            "label": "background",
+            "components": [],
+            "texture": {
+                "key": "fair-beacon",
+                "frame": "background"
+            },
+            "x": 760,
+            "y": 462,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "a3765406-24b6-492f-8a16-874402683463",
+            "label": "jetpack",
+            "scope": "CLASS",
+            "components": [
+                "ShowHint",
+                "MoveTo",
+                "SimpleButton"
+            ],
+            "ShowHint.text": "Jetpack Adventure",
+            "SimpleButton.hoverCallback": "() => this.onJetpackOver()",
+            "SimpleButton.hoverOutCallback": "() => this.onJetpackOverOut()",
+            "texture": {
+                "key": "lttop",
+                "frame": "jetpack"
+            },
+            "x": 1323,
+            "y": 545,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "2df431a4-1778-4334-9bbb-69c401f9a275",
+            "label": "front",
+            "components": [],
+            "texture": {
+                "key": "fair-beacon",
+                "frame": "foreground"
+            },
+            "x": 680.1011190305793,
+            "y": 1002.0445580839471,
+            "originX": 0.5023528975952802,
+            "originY": 1.3062909479506062,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "bfa72967-97fc-4530-ba40-3c1d741e6c8d",
+            "label": "handle0001",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "handle",
+            "HoverAnimation.checkpoints": "19",
+            "HoverAnimation.start": 4,
+            "HoverAnimation.end": 29,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "HoverAnimation.clickable": true,
+            "texture": {
+                "key": "lttop",
+                "frame": "handle0001"
+            },
+            "x": 465,
+            "y": 585,
+            "scaleX": 0.886147659042706,
+            "scaleY": 0.886147659042706,
+            "originX": 0.44998297772973683,
+            "originY": 1.0514148842405089,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "b39db1ce-2e4f-4c59-a29e-a1189f9665c9",
+            "label": "light0001",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "fair-beacon",
+                "frame": "beaconMid0001"
+            },
+            "x": 391.2498476291905,
+            "y": 513.6209364923394,
+            "originX": 0.09057948537196672,
+            "originY": 0.7638462674554327,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "92ab8c01-be89-41d9-97fb-c591112dd153",
+            "label": "yep",
+            "components": [],
+            "texture": {
+                "key": "fair-beacon",
+                "frame": "stairRailing"
+            },
+            "x": 185.81323498678466,
+            "y": 523.9087662671338,
+            "originX": 0.5889807985193379,
+            "originY": 0.1729083732016776,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "d509ba37-beeb-4ab9-b316-e1ff4961e07d",
+            "label": "rectangle_invalid",
+            "scope": "CLASS",
+            "components": [],
+            "x": -241,
+            "y": 15,
+            "isFilled": true,
+            "width": 128,
+            "height": 128,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "1a82c644-a138-4a71-a102-13c20c4b17e9",
+            "label": "zone_light",
+            "components": [
+                "Zone"
+            ],
+            "Zone.callback": "() => {this.toggleLight()}",
+            "x": 462,
+            "y": 508,
+            "width": 90,
+            "height": 128,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "58716b25-00ef-40c6-994c-39f245bac73f",
+            "label": "flag1",
+            "components": [],
+            "texture": {
+                "key": "fair-beacon",
+                "frame": "flag1"
+            },
+            "x": 293,
+            "y": 408.980950576777,
+            "originY": 0.9979484212520829,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "564f3fad-1dd6-44f6-9211-de4e702932bc",
+            "label": "flag2",
+            "components": [],
+            "texture": {
+                "key": "fair-beacon",
+                "frame": "flag2"
+            },
+            "x": 255,
+            "y": 635.4454570458889,
+            "originY": 0.998789207523775,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "c37ef339-2666-40c0-baac-b5893abe20f3",
+            "label": "flag3",
+            "components": [],
+            "texture": {
+                "key": "fair-beacon",
+                "frame": "flag3"
+            },
+            "x": 433,
+            "y": 832.4327574304069,
+            "originY": 1.000693521523088,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "a9900321-ffd3-4f3c-ab34-ca184742a99f",
+            "label": "flag4",
+            "components": [],
+            "texture": {
+                "key": "fair-beacon",
+                "frame": "flag4"
+            },
+            "x": 940,
+            "y": 836.8314874688588,
+            "originY": 1.009256329315649,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "fb85b154-c1e7-4339-8d04-3b53c18cd57e",
+            "label": "flag5",
+            "components": [],
+            "texture": {
+                "key": "fair-beacon",
+                "frame": "flag5"
+            },
+            "x": 1128,
+            "y": 632.5239330920311,
+            "originY": 1.0053473158729473,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "244ea400-bfc1-4720-8f5e-312e85db9937",
+            "label": "jetpacksign",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "jetpacksign",
+            "Animation.end": 21,
+            "texture": {
+                "key": "fair-beacon",
+                "frame": "jetpacksign0001"
+            },
+            "x": 1212,
+            "y": 390.90247453063483,
+            "originY": 0.7746504135797034,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "1bc796af-8118-4a54-b624-39e93ad42d65",
+            "label": "sort",
+            "objectIds": [
+                "b39db1ce-2e4f-4c59-a29e-a1189f9665c9",
+                "2df431a4-1778-4334-9bbb-69c401f9a275",
+                "92ab8c01-be89-41d9-97fb-c591112dd153",
+                "fb85b154-c1e7-4339-8d04-3b53c18cd57e",
+                "a9900321-ffd3-4f3c-ab34-ca184742a99f",
+                "c37ef339-2666-40c0-baac-b5893abe20f3",
+                "564f3fad-1dd6-44f6-9211-de4e702932bc",
+                "58716b25-00ef-40c6-994c-39f245bac73f"
+            ]
+        }
+    ]
+}

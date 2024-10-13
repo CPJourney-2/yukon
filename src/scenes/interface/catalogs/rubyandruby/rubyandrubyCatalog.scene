@@ -1,0 +1,662 @@
+{
+    "id": "e2822dc5-da59-4078-86f1-0f914ec05fdd",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "604d13b8-868d-46c8-a5a3-13d96bb18968",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "028ec836-255b-461d-bbb6-01fca27a428f",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "42fc311d-8d0d-4f99-a501-759645bdc75f",
+                    "label": "page6",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "52bf2096-23f5-4f6a-8f90-fbdd0ae0cb0d",
+                            "label": "page_6",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "pageSix"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e0fba22d-5261-4325-a1ec-70e6abe2b03a",
+                            "label": "back_left_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "leftButton",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "leftButton"
+                            },
+                            "x": -204,
+                            "y": 220
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3f506a93-6b95-4d82-b20e-36ac698a7104",
+                            "label": "back_catalog_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "closeButton",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "closeButton"
+                            },
+                            "x": -204,
+                            "y": -329,
+                            "scaleX": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "986bc55a-8d92-4c15-a30b-be7550b7e703",
+                            "label": "bg",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "bg",
+                            "Button.callback": "() => this.interface.prompt.showSecret(9001);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "bg"
+                            },
+                            "x": 17,
+                            "y": -150
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e05078b7-6de3-4083-b440-fe0244b14137",
+                            "label": "textBox",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "textBox"
+                            },
+                            "x": 15,
+                            "y": -83
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "9671f277-8c6d-47ab-88f1-36cbb8cb684a",
+                    "label": "page5",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f653e609-9d6a-4d1d-9f11-87cd2c18b690",
+                            "label": "page_5",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "pageFive"
+                            }
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7a40531d-3d7a-470c-8581-24d889976dc7",
+                            "label": "background_outline",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "background_outline"
+                            },
+                            "x": -296,
+                            "y": 150,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "738d8969-1ed8-4926-85ec-81fdc1c908d7",
+                            "label": "background_base",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => {this.onBgHover(false)}",
+                            "SimpleButton.hoverOutCallback": "() => {this.onBgHover(true)}",
+                            "SimpleButton.callback": "() => {this.interface.prompt.showItem(9002)}",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "background_base"
+                            },
+                            "x": -290,
+                            "y": 154
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2128ff54-21ec-4295-ac48-91d63a5ed696",
+                            "label": "buyButton_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "BuyButton",
+                            "Button.callback": "() => this.interface.prompt.showItem(489);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "BuyButton"
+                            },
+                            "x": -431,
+                            "y": -187,
+                            "scaleX": 0.75,
+                            "scaleY": 0.75
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                    "label": "page4",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b5c3a3bb-0d03-4c45-906e-876df1322b87",
+                            "label": "page_4",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "pageFour"
+                            }
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "f6cdb56a-1269-40b4-a6ae-128d2f38af87",
+                            "label": "DarkCoatSecret",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(4015);",
+                            "x": -130,
+                            "y": -389,
+                            "scaleX": 0.5346275211514221,
+                            "scaleY": 0.5232506744293175,
+                            "width": 80,
+                            "height": 110
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e99612ab-0ed9-42a8-a222-4248a1a76a5a",
+                            "label": "buy_tag_4_6",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "BuyTagGreyOne",
+                            "Button.callback": "() => this.interface.prompt.showItem(1011);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "BuyTagGreyOne"
+                            },
+                            "x": -424,
+                            "y": -283,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "angle": -24.000000000000004
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c503d201-7e1d-4463-a455-cb7a4fdd315a",
+                            "label": "buy_tag_4_1",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "BuyTagGreyOne",
+                            "Button.callback": "() => this.interface.prompt.showItem(3005);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "BuyTagGreyOne"
+                            },
+                            "x": -368,
+                            "y": 78,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "angle": -70
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9aaaed99-a3b8-47c6-af97-1eba757ab632",
+                            "label": "buy_tag_4_2",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "BuyTagGreyTwo",
+                            "Button.callback": "() => this.interface.prompt.showItem(4013);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "BuyTagGreyTwo"
+                            },
+                            "x": -168,
+                            "y": -142,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "angle": -7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2ab8cec8-8cb6-4ff3-9b20-329e0178fdca",
+                            "label": "buy_tag_4_3",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "BuyTagGreyTwo",
+                            "Button.callback": "() => this.interface.prompt.showItem(6008);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "BuyTagGreyTwo"
+                            },
+                            "x": -116,
+                            "y": 173,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "angle": 55
+                        },
+                        {
+                            "type": "Image",
+                            "id": "adabb6e0-00ab-4d09-b8b7-f5d610b0e0e2",
+                            "label": "buy_tag_4_4",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "BuyTagGreyTwo",
+                            "Button.callback": "() => this.interface.prompt.showItem(1012);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "BuyTagGreyTwo"
+                            },
+                            "x": 352,
+                            "y": -327,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "angle": -11
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e9f2794f-9cec-4582-87e4-7ed9fee45ef7",
+                            "label": "buy_tag_4_5",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "BuyTagGreyTwo",
+                            "Button.callback": "() => this.interface.prompt.showItem(4014);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "BuyTagGreyTwo"
+                            },
+                            "x": 446,
+                            "y": 153,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "angle": 53
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                    "label": "page3",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "75d7cff1-5d67-4a7a-87cc-08e55eff604c",
+                            "label": "page_3",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "pageThree"
+                            }
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8074b49f-a771-4eff-868b-36c474cc655f",
+                            "label": "buy_tag_3_3",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "BuyTagGreyOne",
+                            "Button.callback": "() => this.interface.prompt.showItem(842);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "BuyTagGreyOne"
+                            },
+                            "x": 209,
+                            "y": 104,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "angle": -54
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b0c2f027-a981-441a-b0bf-16a93211264d",
+                            "label": "buy_tag_3_1",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "BuyTagGreyTwo",
+                            "Button.callback": "() => this.interface.prompt.showItem(181);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "BuyTagGreyTwo"
+                            },
+                            "x": 436,
+                            "y": -85,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "angle": 55
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7df9ea53-4542-40b9-9842-674e99cb8bad",
+                            "label": "buy_tag_3_2",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "BuyTagGreyOne",
+                            "Button.callback": "() => this.interface.prompt.showItem(1010);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "BuyTagGreyOne"
+                            },
+                            "x": 235,
+                            "y": -296,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "angle": -24.000000000000004
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                    "label": "page2",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ddf8dd92-d71d-4d6b-a335-cb2a3683ef54",
+                            "label": "page_2",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "pageTwo"
+                            }
+                        },
+                        {
+                            "type": "Image",
+                            "id": "62db62c3-94ee-400c-aab9-073d0f7138f8",
+                            "label": "buy_tag_1_3",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "BuyTagGreyOne",
+                            "Button.callback": "() => this.interface.prompt.showItem(1009);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "BuyTagGreyOne"
+                            },
+                            "x": 261,
+                            "y": -309,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a82daccb-8abc-476b-8d16-59d7b0377ab5",
+                            "label": "buy_tag_1_1",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "BuyTagGreyOne",
+                            "Button.callback": "() => this.interface.prompt.showItem(5003);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "BuyTagGreyOne"
+                            },
+                            "x": 139,
+                            "y": 197,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "angle": -86
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d9621a2e-bc18-4693-a48d-e50bfc847d6a",
+                            "label": "buy_tag_1_2",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "BuyTagGreyTwo",
+                            "Button.callback": "() => this.interface.prompt.showItem(4012);",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "BuyTagGreyTwo"
+                            },
+                            "x": 403,
+                            "y": 68,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7,
+                            "angle": 80
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "73f02308-7820-4110-a76c-523342558eb9",
+                    "label": "page1",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "938eb656-a988-4207-a1ca-9185aee4a924",
+                            "label": "page_1",
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "pageOne"
+                            },
+                            "x": -760,
+                            "y": -480,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "a630da3e-c688-4bab-9bcb-9f18ca861b17",
+                            "label": "back_left_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "leftButton",
+                            "Button.callback": "() => this.nextPage();",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "leftButton"
+                            },
+                            "x": 227,
+                            "y": 219,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "a16db1ae-b744-4249-b59f-0ea59f09b7a8",
+                            "label": "front_catalog_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "closeButton",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "closeButton"
+                            },
+                            "x": 226,
+                            "y": -332,
+                            "scaleX": -1,
+                            "flipX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ad71a0bc-b1f8-4ee2-b189-b90b5a445f56",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 190,
+                    "y": 41,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "bb9facc3-7a86-49f0-a497-0ec458025950",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1133,
+                            "y": 793,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "36c5d442-1418-42f3-a3e7-c0bbfafba6a9",
+                            "label": "right_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "rightButton",
+                            "Button.callback": "() => this.nextPage();",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "rightButton"
+                            },
+                            "x": 1077,
+                            "y": 658
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "b2fd8d5d-6c96-48a5-b231-2589ceae057c",
+                            "label": "left_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "leftButton",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "leftButton"
+                            },
+                            "x": 66,
+                            "y": 659
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3b010612-b4c6-4ebd-8057-dbbb5bc5b3d6",
+                            "label": "catalog_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "closeButton",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "rubyandruby-catalog",
+                                "frame": "closeButton"
+                            },
+                            "x": 1077,
+                            "y": 114
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "3003f2ec-9394-4489-a981-17b8c2a9bffb",
+            "label": "pages",
+            "objectIds": [
+                "73f02308-7820-4110-a76c-523342558eb9",
+                "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                "9671f277-8c6d-47ab-88f1-36cbb8cb684a",
+                "42fc311d-8d0d-4f99-a501-759645bdc75f"
+            ]
+        }
+    ]
+}

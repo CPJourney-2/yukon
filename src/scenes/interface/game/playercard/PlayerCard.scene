@@ -1,0 +1,464 @@
+{
+    "id": "aa26f680-5a55-46f1-b89f-e40211af8a8d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 20,
+        "snapHeight": 20,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "80b40d42-bac6-4d3b-ac21-b81f37ee9a54",
+            "label": "container_1",
+            "components": [
+                "DraggableContainer"
+            ],
+            "DraggableContainer.handle": "card_bg",
+            "x": 760,
+            "y": 460,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "ee85591c-b1c5-4527-a1a9-89efce38d667",
+                    "label": "outfitsaver",
+                    "x": -245,
+                    "y": -123,
+                    "list": [
+                        {
+                            "prefabId": "f2e8b538-6469-4a45-b23d-beac8cbf03a0",
+                            "id": "c0c8bb1f-3458-4b4b-92ab-19eb27cda6eb",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "scaleX",
+                                "scaleY",
+                                "visible"
+                            ],
+                            "label": "outfitsaver_1",
+                            "scope": "CLASS",
+                            "x": 865,
+                            "y": 105,
+                            "scaleX": 1,
+                            "scaleY": 1,
+                            "visible": false
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "7d777943-f33d-411a-b64c-37f557089f8b",
+                    "label": "card_photo",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "texture": {
+                        "key": "main",
+                        "frame": "card-photo"
+                    },
+                    "originX": 0.5011600928074246,
+                    "originY": 0.5011709601873536
+                },
+                {
+                    "type": "Container",
+                    "id": "ae5ef1eb-31ba-4fb6-b949-c7cdbb0f48f4",
+                    "label": "photo",
+                    "scope": "CLASS",
+                    "x": -205,
+                    "y": -206
+                },
+                {
+                    "type": "Container",
+                    "id": "610bdcf3-58ee-4222-a525-3381baee4944",
+                    "label": "transformPaper",
+                    "scope": "CLASS",
+                    "y": -3
+                },
+                {
+                    "type": "Image",
+                    "id": "fe294108-b9df-4ff7-8a4c-2b4ee0d81d76",
+                    "label": "card_bg",
+                    "texture": {
+                        "key": "main",
+                        "frame": "card-bg-player"
+                    }
+                },
+                {
+                    "prefabId": "7b4017c1-c8f3-4f6b-9aae-61bbce16ce08",
+                    "id": "d6bbac10-17e0-44da-902d-f6dfbbe8bc93",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "paperDoll",
+                    "scope": "CLASS",
+                    "x": 0,
+                    "y": -3
+                },
+                {
+                    "prefabId": "8808181a-7877-4aef-982e-f4ba2441da75",
+                    "id": "b958363f-47ef-45d1-ab73-8ee745452d50",
+                    "unlock": [
+                        "visible",
+                        "x",
+                        "y"
+                    ],
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": -30,
+                    "y": 255,
+                    "visible": false
+                },
+                {
+                    "type": "Container",
+                    "id": "b173b409-a478-4303-9fbc-f0300fea9f35",
+                    "label": "stats",
+                    "scope": "CLASS",
+                    "x": -13,
+                    "y": 255,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "6e0b3192-1f75-484c-ba84-d76ccd3a3345",
+                            "label": "card_coin",
+                            "texture": {
+                                "key": "main",
+                                "frame": "card-coin"
+                            },
+                            "x": -160.5,
+                            "y": -50,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4e333f56-1b39-4350-aac9-9aa32b28c1f0",
+                            "label": "quests_button",
+                            "components": [
+                                "Button",
+                                "ShowHint"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => {this.openQuests()}",
+                            "Button.activeFrame": true,
+                            "ShowHint.text": "quests_hint",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 177,
+                            "y": -3
+                        },
+                        {
+                            "type": "Image",
+                            "id": "65c047e7-c319-44df-9811-f834924d671c",
+                            "label": "quest_icon",
+                            "texture": {
+                                "key": "main",
+                                "frame": "quest-icon"
+                            },
+                            "x": 158,
+                            "y": -25,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Text",
+                            "id": "41323b7b-a2e7-4992-b3c1-b2c6e3078c0e",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 39,
+                            "y": -37,
+                            "originX": 0.5,
+                            "text": "Your Coins: 000000",
+                            "fixedWidth": 300,
+                            "fontFamily": "Arial",
+                            "fontSize": "24px",
+                            "color": "#000000ff"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3737bc2f-8a29-47d6-bd48-4b8ef22f961f",
+                            "label": "blue_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => {this.openStampbook()}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": -146,
+                            "y": 23
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f6b07961-adf6-459b-a50b-6eafcd5ef093",
+                            "label": "stamp_icon_1",
+                            "texture": {
+                                "key": "main",
+                                "frame": "stamp-icon"
+                            },
+                            "x": -163.5,
+                            "y": 3.5,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Text",
+                            "id": "45c63ea7-fdd8-4c70-bad5-3ceb7b91e076",
+                            "label": "stamps",
+                            "scope": "CLASS",
+                            "x": 39,
+                            "y": 9,
+                            "originX": 0.5,
+                            "text": "Your Stamps: 295/340",
+                            "fixedWidth": 300,
+                            "fontFamily": "Arial",
+                            "fontSize": "24px",
+                            "color": "#000000ff"
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "e96707d4-a8b8-4cf9-bdd5-3babddd9ac5c",
+                    "label": "username",
+                    "scope": "CLASS",
+                    "y": -238,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Username",
+                    "fixedWidth": 360,
+                    "fixedHeight": 36,
+                    "align": "center",
+                    "fontFamily": "Arial",
+                    "fontSize": "32px",
+                    "fontStyle": "bold",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "b2a8d78f-e0ea-4e34-9407-0fb6a87fcb81",
+                    "label": "highlightArea",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton",
+                        "ShowHint"
+                    ],
+                    "SimpleButton.callback": "() => { this.copyUsername() }",
+                    "ShowHint.text": "Copy Username",
+                    "x": 5,
+                    "y": -238,
+                    "scaleX": 1.8747760847026522,
+                    "scaleY": 0.18470512463903943,
+                    "visible": false,
+                    "fillColor": "#51eaff",
+                    "fillAlpha": 100,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "274b2a17-fd19-4625-8207-2ce436778aba",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => { this.close() }",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 177,
+                    "y": -237
+                },
+                {
+                    "type": "Image",
+                    "id": "0a074237-0457-4002-a588-2d9705f5aaf4",
+                    "label": "blue_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 177,
+                    "y": -239
+                },
+                {
+                    "prefabId": "676b9d5e-1fcd-4a27-8667-0f19254fc582",
+                    "id": "1e195136-b37b-4455-8b80-df6580175885",
+                    "unlock": [
+                        "visible",
+                        "x",
+                        "y"
+                    ],
+                    "label": "inventorySort",
+                    "scope": "CLASS",
+                    "x": 434,
+                    "y": 315,
+                    "visible": false
+                },
+                {
+                    "prefabId": "092e5111-82e2-4289-8f29-b8d9568e9497",
+                    "id": "2c78d474-38e5-4639-85d4-0191679ebb81",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "inventory",
+                    "scope": "CLASS",
+                    "x": -135,
+                    "y": 33,
+                    "visible": true
+                },
+                {
+                    "type": "Container",
+                    "id": "0270725c-cb9f-492d-a380-eccdd9275d1a",
+                    "label": "badge",
+                    "scope": "CLASS",
+                    "x": -153,
+                    "y": -240,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "d7d09dd6-5a3d-4b01-a39c-3624addb808f",
+                            "label": "badge_member",
+                            "texture": {
+                                "key": "main",
+                                "frame": "badge/member"
+                            },
+                            "y": 17
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "0f94544b-8688-4697-8954-c27a66f7c9d8",
+                            "label": "badge_lines_lines",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "badge/lines/lines",
+                            "Animation.end": 180,
+                            "texture": {
+                                "key": "main",
+                                "frame": "badge/lines/lines0001"
+                            },
+                            "y": 18,
+                            "originY": 0.5028571428571429
+                        },
+                        {
+                            "type": "Image",
+                            "id": "19716e19-069f-4ae4-bb3e-cf418e2faee1",
+                            "label": "stripes",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "main",
+                                "frame": "badge/stripes/4"
+                            },
+                            "y": 56,
+                            "originY": 0.5051546391752577
+                        },
+                        {
+                            "type": "Image",
+                            "id": "05860546-ac93-4e10-8d9e-5cd0a99badb2",
+                            "label": "badge_ribbon",
+                            "texture": {
+                                "key": "main",
+                                "frame": "badge/ribbon"
+                            },
+                            "y": 33,
+                            "originX": 0.5061728395061729,
+                            "originY": 0.5185185185185185
+                        },
+                        {
+                            "type": "Image",
+                            "id": "299ffc11-4542-4a91-bc7d-76b24daf4324",
+                            "label": "badge_star",
+                            "texture": {
+                                "key": "main",
+                                "frame": "badge/star"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "021cadb7-02e3-428d-9276-ae4e95669d58",
+                    "label": "edit_player_button",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "edit_player_button",
+                    "Button.callback": "() => { this.editPlayer() }",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "edit_player_button"
+                    },
+                    "x": 163,
+                    "y": -176
+                },
+                {
+                    "type": "Container",
+                    "id": "937cad08-8a0c-43ee-8421-66ccded8d492",
+                    "label": "outfitarrow",
+                    "scope": "CLASS",
+                    "x": -255,
+                    "y": -164,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4c58eab1-aef8-4ab3-a752-e3f3e0fadd86",
+                            "label": "tab_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => {this.onoutfitClick()}",
+                            "SimpleButton.pixelPerfect": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "tab"
+                            },
+                            "x": 497,
+                            "y": 261,
+                            "angle": -90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "025fd773-c8fe-4dea-af12-68aaccd30568",
+                            "label": "tab_arrow",
+                            "texture": {
+                                "key": "main",
+                                "frame": "tab-arrow"
+                            },
+                            "x": 490,
+                            "y": 258,
+                            "angle": -90
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

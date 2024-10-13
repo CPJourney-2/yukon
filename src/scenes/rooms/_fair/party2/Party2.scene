@@ -1,0 +1,183 @@
+{
+    "id": "7ca40bfc-005f-4924-b391-ea1ffb4dfd63",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/party2/fair-party2-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Party2",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "59d048f6-bdba-47e8-92a1-0e9fdcdab09f",
+            "label": "bgParty1",
+            "texture": {
+                "key": "fair-party2",
+                "frame": "bgParty2"
+            },
+            "x": -198,
+            "y": -8,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "ac89c81b-ef0e-42a5-8f88-d47fc56a81f0",
+            "label": "soda_png",
+            "texture": {
+                "key": "fair-party2",
+                "frame": "soda"
+            },
+            "x": 510,
+            "y": 811.0699611254125,
+            "originY": 0.7623211971750746
+        },
+        {
+            "type": "Image",
+            "id": "87d65306-b6b0-460d-be6e-578623917b5e",
+            "label": "button0001_png",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "button",
+            "texture": {
+                "key": "fair-party2",
+                "frame": "button0001"
+            },
+            "x": 333.56336636940216,
+            "y": 484.2485155833147,
+            "originX": 0.5242588282419325,
+            "originY": 1.005948453924113
+        },
+        {
+            "type": "Image",
+            "id": "3d6f74ee-229d-4de9-b785-d7a6fc9795a2",
+            "label": "tent_1",
+            "texture": {
+                "key": "fair-party2",
+                "frame": "tent"
+            },
+            "x": 320,
+            "y": 297
+        },
+        {
+            "type": "Sprite",
+            "id": "5a59d21b-58d4-4624-9458-febcde83475a",
+            "label": "lights0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "lights",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fair-party2",
+                "frame": "lights0001"
+            },
+            "x": 339,
+            "y": 214
+        },
+        {
+            "type": "Image",
+            "id": "26261b15-a4a1-4907-b70a-62abc403c968",
+            "label": "fgTree_png",
+            "texture": {
+                "key": "fair-party2",
+                "frame": "fgTree"
+            },
+            "x": 88,
+            "y": 355
+        },
+        {
+            "type": "Image",
+            "id": "bf0b2300-f480-46c1-9861-6c4e72c98b9a",
+            "label": "fgMiddle_png",
+            "texture": {
+                "key": "fair-party2",
+                "frame": "fgMiddle"
+            },
+            "x": 840,
+            "y": 648.4306407653928,
+            "originY": 0.698036692294458
+        },
+        {
+            "type": "Image",
+            "id": "52977d45-170c-4c24-bbff-231ded7a6792",
+            "label": "fgRock_png",
+            "texture": {
+                "key": "fair-party2",
+                "frame": "fgRock"
+            },
+            "x": 1017,
+            "y": 807
+        },
+        {
+            "type": "Image",
+            "id": "e93c5d4a-7381-423a-a9c4-6f4b3f6e2182",
+            "label": "fg_png",
+            "texture": {
+                "key": "fair-party2",
+                "frame": "fg"
+            },
+            "x": 740.3290932651265,
+            "y": 889.9507512365236,
+            "originX": 0.4983369198412992,
+            "originY": 0.8495131860088352
+        },
+        {
+            "type": "Rectangle",
+            "id": "74c63999-3dab-4bad-a731-7134029fa23d",
+            "label": "circusTrigger",
+            "components": [
+                "SimpleButton",
+                "MoveTo",
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.triggerRoom(853, 800, 800)",
+            "x": 928,
+            "y": 424,
+            "width": 300,
+            "height": 300
+        },
+        {
+            "type": "Rectangle",
+            "id": "8541f07f-6271-4d0a-b19d-484cb3bb5b88",
+            "label": "circusTrigger_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('PrizeBooth3')",
+            "x": 334,
+            "y": 455,
+            "width": 300,
+            "height": 100
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "528d71e2-a474-4325-aa76-2ccaa2e1016f",
+            "label": "sort",
+            "objectIds": [
+                "e93c5d4a-7381-423a-a9c4-6f4b3f6e2182",
+                "ac89c81b-ef0e-42a5-8f88-d47fc56a81f0",
+                "bf0b2300-f480-46c1-9861-6c4e72c98b9a"
+            ]
+        }
+    ]
+}

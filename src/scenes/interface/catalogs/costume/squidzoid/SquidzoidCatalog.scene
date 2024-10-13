@@ -1,0 +1,639 @@
+{
+    "id": "a646e425-8d14-4d1a-b1bf-57d7c0394ff8",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "604d13b8-868d-46c8-a5a3-13d96bb18968",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "028ec836-255b-461d-bbb6-01fca27a428f",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "42fc311d-8d0d-4f99-a501-759645bdc75f",
+                    "label": "page6",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "52bf2096-23f5-4f6a-8f90-fbdd0ae0cb0d",
+                            "label": "page_6",
+                            "texture": {
+                                "key": "squidzoid-catalog",
+                                "frame": "squidzoid-catalog-pg6"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e0fba22d-5261-4325-a1ec-70e6abe2b03a",
+                            "label": "back_left_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "x": -204,
+                            "y": 220
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3f506a93-6b95-4d82-b20e-36ac698a7104",
+                            "label": "back_catalog_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": -204,
+                            "y": -329,
+                            "flipX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "9671f277-8c6d-47ab-88f1-36cbb8cb684a",
+                    "label": "page5",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f653e609-9d6a-4d1d-9f11-87cd2c18b690",
+                            "label": "page_5",
+                            "texture": {
+                                "key": "squidzoid-catalog",
+                                "frame": "squidzoid-catalog-pg"
+                            }
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "ed678597-beab-4d00-9a74-8ab9961f2e1c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_7",
+                            "item": 489,
+                            "x": -473,
+                            "y": -227
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "e20ade54-99ef-48c7-9131-93d8949e32ae",
+                            "label": "rectangle_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(995)",
+                            "x": -264,
+                            "y": 130,
+                            "scaleX": 2.18475436163401,
+                            "scaleY": 2.169713625109182,
+                            "width": 128,
+                            "height": 128
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                    "label": "page4",
+                    "x": 760,
+                    "y": 480,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b5c3a3bb-0d03-4c45-906e-876df1322b87",
+                            "label": "page_4",
+                            "texture": {
+                                "key": "squidzoid-catalog",
+                                "frame": "squidzoid-catalog-pg4"
+                            }
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "716a47d6-0a17-4575-ba63-fda2e12daf60",
+                            "label": "polygon_3",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => tag_2.setFrame('cc-buy1-hover')",
+                            "SimpleButton.hoverOutCallback": "() => tag_2.setFrame('cc-buy1')",
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(tag_2.item)",
+                            "SimpleButton.isPoly": true,
+                            "SimpleButton.downCallback": "() => tag_2.setFrame('cc-buy1-active')",
+                            "x": -512,
+                            "y": 41,
+                            "originX": 0,
+                            "originY": 0,
+                            "points": "48.739011211530226 103.60431046917063 34.9158188018485 64.8993717220618 50.57544248955048 -3.7021539501772622 83.0887727060337 -63.98456072906748 96.41475005445056 -74.88130375718725 89.78804995203467 -86.48906228192834 83.45610990183121 -101.79125073658673 12.632573497652288 -210.5213504118695 43.03144827481702 -236.19151133480858 80.18562855801838 -212.54794206368047 98.42495342431721 -230.7872669299793 120.04193104363435 -238.89363353722325 159.22270297864674 -203.76604490583287 226.1002274884092 -167.9629257238388 296.35540475119 -143.64382590210698 306.95219365771595 -33.86167072767796 313.80325832159053 33.7925928280838 317.42940339239715 73.14445759636419 311.31221909130295 99.65225623443894 275.43936673031055 133.09378760982497 217.3819586096473 153.36780314402483 135.36435031220236 154.28934930467028 89.28704227992995 137.7015184130522"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "a1dca88e-5675-4e93-adb6-93c0ba69c848",
+                            "label": "polygon_2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => tag_1.setFrame('cc-buy2-hover')",
+                            "SimpleButton.hoverOutCallback": "() => tag_1.setFrame('cc-buy2')",
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(tag_1.item)",
+                            "SimpleButton.isPoly": true,
+                            "SimpleButton.downCallback": "() => tag_1.setFrame('cc-buy2-active')",
+                            "x": -306.2405937046124,
+                            "y": -27.412371333722874,
+                            "originX": 0,
+                            "originY": 0,
+                            "points": "112.95948396675999 70.8868907702655 106.76396607756726 35.77895606484026 95.78340408748647 -48.364773144696585 96.41475005445056 -74.88130375718725 57.902646069642685 -90.66495293128884 36.436883192864514 -103.92321823753417 74.9489871776724 -110.2366779071748 100.20282585623488 -105.81725613842633 149.4478112794318 -83.08880132772009 208.7943321740538 -91.29629889825287 252.35720389457413 -110.86802387413883 268.53582207315435 -70.92162980458943 274.73133996234696 -39.25564948204902 258.89834980107673 -22.04587756762487 254.07961366503798 -35.81369509916419 240.8790145002181 -49.182062421921444 215.61500289079072 -22.946358058285398 237.96393623759184 28.553357914777905 228.2470086955044 49.93059850737029 196.18114780661597 70.33614634575383 199.0962260692421 104.34539274305985 190.35099128136346 150.98664494507943 118.44572746991662 179.16573481713294 154.39835937563998 109.20385651410356 146.00224604245432 83.96631742522788"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "ae4d3d84-2437-4a27-8c66-08310a8d1449",
+                            "label": "polygon_4",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => tag.setFrame('cc-buy2-hover')",
+                            "SimpleButton.hoverOutCallback": "() => tag.setFrame('cc-buy2')",
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(tag.item)",
+                            "SimpleButton.isPoly": true,
+                            "SimpleButton.downCallback": "() => tag.setFrame('cc-buy2-active')",
+                            "x": -276,
+                            "y": -204.76694377248248,
+                            "originX": 0,
+                            "originY": -1.7409905105742822,
+                            "points": "-7.279350645827947 -88.5775765212536 -44.88152844071783 -100.14058886872147 -34.89861165837084 -121.93552798622576 -1.1049901388793728 -118.47913251135247 22.63063047765928 -113.39292809352276 40.006279804072165 -89.17907687601416 35.586353288542796 -72.97267965240638 18.702012540943258 -64.05643952454108"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "57eb510a-0b07-44a3-9cc7-1f03e48f5369",
+                            "label": "polygon_6",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => tag_4.setFrame('cc-buy1-hover')",
+                            "SimpleButton.hoverOutCallback": "() => tag_4.setFrame('cc-buy1')",
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(tag_4.item)",
+                            "SimpleButton.isPoly": true,
+                            "SimpleButton.downCallback": "() => tag_4.setFrame('cc-buy1-active')",
+                            "x": 176.45703125,
+                            "y": 97.6539306640625,
+                            "originX": 0,
+                            "originY": 0,
+                            "points": "3.505430008673329 96.70824146803727 -23.00703011035705 37.055206200219004 -18.841568619185182 -2.9065231908856504 -14.358400178745455 -27.11563276926006 -8.978598050217784 -49.531474971458465 6.264174647277173 -101.53622888055895 -15.14528230366659 -258.14769487155775 13.478207423671165 -363.3583598152857 36.68644233772875 -351.7542423582569 45.19612847288329 -218.69369551765976 59.470822403840316 -163.91751348870997 95.68093599987333 -138.57043397148686 116.68280188557242 -121.91378171731168 143.55249489218272 -122.54441735739601 173.65554825468462 -147.8713741701349 184.79978857978676 -213.94079895466933 201.51614906743998 -234.6372452727162 176.04359975292073 -322.99515070745497 203.10818339959746 -333.3433738664785 258.3848982945037 -237.39328269836466 225.7335280265222 -144.0777916395548 202.34888090140112 -108.76332445444797 230.18696402638284 -6.690352996181105 228.86134102043138 39.70645221212203 203.67450390735257 84.77763441447371 150.64958366929181 111.29009453350398 75.08907233005527 117.9182095632616"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "47326dbc-74a4-43af-bceb-99d7c337ba50",
+                            "label": "polygon_5",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => tag_3.setFrame('cc-buy2-hover')",
+                            "SimpleButton.hoverOutCallback": "() => tag_3.setFrame('cc-buy2')",
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(tag_3.item)",
+                            "SimpleButton.isPoly": true,
+                            "SimpleButton.downCallback": "() => tag_3.setFrame('cc-buy2-active')",
+                            "x": 175,
+                            "y": 92,
+                            "originX": 0,
+                            "originY": 0,
+                            "points": "51.61121834560629 -93.46029334688086 -14.066899211753025 8.042251969038148 -41.53229382664881 8.042251969038148 -77.35672158520845 -88.6837029790729 2.8435361594241613 -156.58760957479268 51.69717150985048 -193.2278360876124 72.63444380289025 -167.05624572131256 97.93364782364665 -144.37420073718607 117.99853377114323 -149.60851881044607 131.08432895429314 -149.60851881044607 154.63876028396294 -158.3323822658793 174.70364623145952 -196.71738146978566 195.21615040436723 -148.28168782842158 228.80966963586002 -131.09430589602994 272.55936910012974 -127.96932736286783 293.6529741989741 -140.46924149551631 336.6214290299531 -142.03173076209737 358.49627876208797 -132.656795162611 338.9651629298248 -113.90692396363829 315.52782393110897 -41.25117306761899 290.5279956658119 -49.06361940052432 256.9344764343191 -59.219799633301136 220.9972233029548 -27.188769668389455 174.60842031666107 -94.65444093883286"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "9d5c5137-82e7-4f4d-a49c-b0730dece758",
+                            "label": "polygon_7",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => tag_5.setFrame('cc-buy1-hover')",
+                            "SimpleButton.hoverOutCallback": "() => tag_5.setFrame('cc-buy1')",
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(tag_5.item)",
+                            "SimpleButton.isPoly": true,
+                            "SimpleButton.downCallback": "() => tag_5.setFrame('cc-buy1-active')",
+                            "x": 273.00000297278325,
+                            "y": -32.756142587055706,
+                            "originX": 0,
+                            "originY": 0,
+                            "points": "-8.299857618752185 -81.06653868606458 -28.289201220862424 -67.16092000109126 -36.54566923042978 -90.19212023830534 -24.812793637886784 -116.69972805849505 -1.1049901388793728 -118.47913251135247 18.207750201437648 -116.69972805849505 54.7100298226826 -120.17613564147081 70.35386394607326 -112.78876952764739 71.657516789689 -89.75756929043337 60.793743092890054 -69.3336747404511 46.01901086524322 -81.50110128086607 14.731342618461895 -85.84659911265618"
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "a1cd80e5-bfa4-4ff1-8f53-dcb5137b002d",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag",
+                            "item": 123,
+                            "x": -248,
+                            "y": -212,
+                            "angle": -25
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "024bc770-6d93-4842-a388-fed3f15cd626",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_1",
+                            "item": 302,
+                            "x": -121,
+                            "y": 92,
+                            "angle": 29.999999999999996
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "d2abab4a-2605-4b00-83e8-aaae0adc1729",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_2",
+                            "item": 765,
+                            "x": -418,
+                            "y": -36,
+                            "angle": 20,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "e902d9aa-d090-431d-8b16-7872f2c1f126",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_3",
+                            "item": 315,
+                            "x": 424,
+                            "y": -43,
+                            "angle": -45
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "9b7d39d5-a119-4b87-9fdb-98678d659188",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_4",
+                            "item": 766,
+                            "x": 168,
+                            "y": 72,
+                            "angle": 10,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "10a6a66c-2eb3-4d19-8435-e650e184b436",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_5",
+                            "item": 124,
+                            "x": 239,
+                            "y": -149,
+                            "angle": 20,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                    "label": "page3",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "75d7cff1-5d67-4a7a-87cc-08e55eff604c",
+                            "label": "page_3",
+                            "texture": {
+                                "key": "squidzoid-catalog",
+                                "frame": "squidzoid-catalog-pg3"
+                            }
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "bacd274d-8385-466d-8160-b50e98a01425",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag2",
+                            "item": 767,
+                            "x": 373,
+                            "y": -174,
+                            "angle": 29.999999999999996
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "9299bab7-3f5c-4340-a3be-b312e5f5d383",
+                            "label": "polygon",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => tag2.setFrame('cc-buy2-hover')",
+                            "SimpleButton.hoverOutCallback": "() => tag2.setFrame('cc-buy2')",
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(tag2.item)",
+                            "SimpleButton.isPoly": true,
+                            "SimpleButton.downCallback": "() => tag2.setFrame('cc-buy2-active')",
+                            "x": 176.15652569691832,
+                            "y": -200.81403375191144,
+                            "originX": 0,
+                            "originY": 0,
+                            "points": "-31.110615078652245 93.48838257091109 -72.54449955407392 -10.265997108636782 -29.099444239451373 -107.18188973356405 -10.161856025385191 -159.53875126657073 24.371393070853287 -158.4247754892727 68.93042416277387 -117.20767172924619 90.09596393143624 -103.83996240167 96.77981859522424 -65.96478597353752 121.28728569578061 -5.810093999444746 149.19328030696465 -16.514608692723016 182.59150362124456 -36.55354268129099 198.91952390822598 -84.05323806160021 236.51689522681022 -121.2566356184748 258.05717824059116 -117.34022052506012 240.4817573659966 -73.66267969715759 236.0286609240925 -4.639684847645697 214.5053614548899 22.821076544095547 189.31412638465696 76.37622835953186 214.02582274284146 116.7237531014361 217.93042267331657 116.7237531014361 242.65955556632548 150.5636191655537 289.51475473202686 159.67435233666225 340.2745538282031 127.13601958270306 338.9730205180449 157.07128571634553 262.18255521870105 229.9571510852142 318.1484875555109 241.6709508766395 369.3494725425735 224.70578609966202 374.46093962804866 237.25211440037356 325.6696629030589 278.14385108417434 259.22059079188284 283.2553181696495 196.48894928832465 270.7089898689379 216.00545997832046 302.7718288596453 241.09811657974365 323.682376027498 263.4651084461834 339.17554906366183 233.03598295291272 342.8270441228543 200.67105872189518 331.1172372427345 152.72362125480322 301.64228773087655 119.8937931773662 266.8141787364726 171.59385265154538 181.56408066734764 168.29384885532113 156.26405156296215 113.84378621762198 139.21403194913717 50.363713399350445 149.13714114068006 38.19544537910292 165.78845527365036 33.71239926638009 207.41674060607608 43.89390448301424 264.16978105816634 10.571489581916808 317.06250312340046 -33.23371183734537 347.0721168083164 -68.3333712430209 353.803558338172 -73.14154376434624 343.7063960433886 -35.63779809800815 301.3944778557251 -24.081642310163488 277.5113033486932 -101.56613214183051 287.5452660607076 -146.16152197300573 276.95386097580354 -147.83384909167478 260.78803216200254 -90.58571139627134 237.98321217154398 -20.34809965980685 175.9393470909551"
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "ff1806ed-ce75-417c-a051-4f907481d66c",
+                            "label": "rectangle_1",
+                            "components": [
+                                "Interactive"
+                            ],
+                            "x": 232,
+                            "y": -216,
+                            "width": 100,
+                            "height": 110
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                    "label": "page2",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ddf8dd92-d71d-4d6b-a335-cb2a3683ef54",
+                            "label": "page_2",
+                            "texture": {
+                                "key": "squidzoid-catalog",
+                                "frame": "squidzoid-catalog-pg2"
+                            }
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "1b938268-f956-4095-871f-6d7d2e42fe0e",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag1",
+                            "item": 195,
+                            "x": -446,
+                            "y": -51,
+                            "angle": -20,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "88e18a80-e7ed-4cb8-ad90-989ee8f90c41",
+                            "label": "polygon_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => tag1.setFrame('cc-buy1-hover')",
+                            "SimpleButton.hoverOutCallback": "() => tag1.setFrame('cc-buy1')",
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(tag1.item)",
+                            "SimpleButton.isPoly": true,
+                            "SimpleButton.downCallback": "() => tag1.setFrame('cc-buy1-active')",
+                            "x": -399.34710693359375,
+                            "y": -76.23977661132812,
+                            "originX": 0.6471584514192467,
+                            "originY": 0.47049764056289917,
+                            "points": "35.0343297071654 107.94437650053368 42.83081722029817 28.680086783683407 75.9658891511126 15.036233635701024 110.40686579974692 24.652869972657356 121.90915621223166 -33.1614237737237 143.99920416610797 -39.65849670133434 173.23603234035602 -29.26318001715731 158.47871533176817 31.278915954727722 176.020812236317 42.97364722442694 170.1734466014674 113.1420348426222 122.74481422990948 138.4806192603038"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "73f02308-7820-4110-a76c-523342558eb9",
+                    "label": "page1",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "938eb656-a988-4207-a1ca-9185aee4a924",
+                            "label": "page_1",
+                            "texture": {
+                                "key": "squidzoid-catalog",
+                                "frame": "squidzoid-catalog-pg1"
+                            },
+                            "x": -760,
+                            "y": -480,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "413414bc-32b3-4f4d-ab5e-d3c279d25d00",
+                            "label": "right_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-front",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-front"
+                            },
+                            "x": 2,
+                            "y": -54
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "914e79f6-dbfd-41bc-b43f-fa8ef4e07489",
+                            "label": "catalog_close_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 227,
+                            "y": -330
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ad71a0bc-b1f8-4ee2-b189-b90b5a445f56",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 190,
+                    "y": 41,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "bb9facc3-7a86-49f0-a497-0ec458025950",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1133,
+                            "y": 793,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "36c5d442-1418-42f3-a3e7-c0bbfafba6a9",
+                            "label": "right_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-right",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-right"
+                            },
+                            "x": 1077,
+                            "y": 658
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "b2fd8d5d-6c96-48a5-b231-2589ceae057c",
+                            "label": "left_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "x": 66,
+                            "y": 659
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3b010612-b4c6-4ebd-8057-dbbb5bc5b3d6",
+                            "label": "catalog_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 1077,
+                            "y": 114
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "3003f2ec-9394-4489-a981-17b8c2a9bffb",
+            "label": "pages",
+            "objectIds": [
+                "73f02308-7820-4110-a76c-523342558eb9",
+                "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                "9671f277-8c6d-47ab-88f1-36cbb8cb684a",
+                "42fc311d-8d0d-4f99-a501-759645bdc75f"
+            ]
+        }
+    ]
+}

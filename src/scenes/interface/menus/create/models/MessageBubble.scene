@@ -1,0 +1,100 @@
+{
+    "id": "e063dda2-7dbe-4817-9d45-0262dba9d2b0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "e7c3d074-d899-423d-9f46-4f09244064e5",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "1d5c0b6a-cd7e-4922-a276-53dc8466e356",
+                    "label": "bubble",
+                    "scope": "CLASS",
+                    "y": 2.0742921304753574,
+                    "angle": 180,
+                    "list": [
+                        {
+                            "type": "RoundedRectangleGraphics",
+                            "id": "46386ab8-7b17-46cc-8c10-5c464df62f13",
+                            "label": "roundedrectanglegraphics",
+                            "y": -31.19050774335062,
+                            "angle": 45,
+                            "width": 80,
+                            "height": 80,
+                            "fillColor": "#44bbff",
+                            "isStroked": false,
+                            "strokeColor": "#44bbff",
+                            "lineWidth": 5,
+                            "radiusTopLeft": 5,
+                            "radiusTopRight": 5,
+                            "radiusBottomLeft": 0,
+                            "radiusBottomRight": 5
+                        },
+                        {
+                            "type": "RoundedRectangleGraphics",
+                            "id": "ae570063-c2dc-45f2-aef5-53afce5ddeb4",
+                            "label": "roundedrectanglegraphics_1",
+                            "y": -53.190507743350615,
+                            "originY": 0,
+                            "width": 350,
+                            "height": 110,
+                            "strokeColor": "#44bbff",
+                            "lineWidth": 5,
+                            "shadowAlpha": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "cd6be65d-bc39-476d-a4b6-45433803cab2",
+                    "label": "text",
+                    "scope": "CLASS",
+                    "y": 2,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "This bubble will have text with some kind of error, it can have three lines",
+                    "fixedWidth": 310,
+                    "fixedHeight": 90,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "fontStyle": "bold",
+                    "color": "#666",
+                    "wordWrapWidth": 310
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "prefabProperties": [
+        {
+            "name": "flipDownwards",
+            "label": "Pointy side up?",
+            "tooltip": "uhhhhhhhhh",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "id": "159c72db-f563-4364-b2bf-f7f99f6af278",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 353,
+        "snapHeight": 442,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/candy/candy-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Candy",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "10cc4116-4336-43fe-8ca3-1100c2469f0b",
+            "label": "floor",
+            "scope": "CLASS",
+            "texture": {
+                "key": "candy",
+                "frame": "floor"
+            },
+            "x": 765,
+            "y": 639,
+            "originX": 0.5006337135614702
+        },
+        {
+            "type": "Image",
+            "id": "2db06e46-6b0d-4fab-8a45-a512d5ae6faf",
+            "label": "wall_1",
+            "texture": {
+                "key": "candy",
+                "frame": "wall_1"
+            },
+            "x": 570,
+            "y": 378,
+            "originX": 0.5010266940451745
+        },
+        {
+            "type": "Image",
+            "id": "3c2cf664-5f90-48ed-a80b-4a9e9c9faacc",
+            "label": "wall_2",
+            "texture": {
+                "key": "candy",
+                "frame": "wall_2"
+            },
+            "x": 972,
+            "y": 388
+        },
+        {
+            "type": "Image",
+            "id": "edf0608a-a7f0-47c9-b2ed-d1b259b4b5b7",
+            "label": "chimney",
+            "texture": {
+                "key": "candy",
+                "frame": "chimney"
+            },
+            "x": 887,
+            "y": 120,
+            "originX": 0.5050505050505051
+        },
+        {
+            "type": "Image",
+            "id": "88c19fd8-3b24-4cbf-ad57-195715d6113b",
+            "label": "window",
+            "texture": {
+                "key": "candy",
+                "frame": "window"
+            },
+            "x": 828,
+            "y": 476,
+            "originX": 0.5014164305949008
+        },
+        {
+            "type": "Image",
+            "id": "b9624c25-82fe-4807-a7d3-3b65be90734d",
+            "label": "door",
+            "components": [
+                "MoveTo",
+                "Button"
+            ],
+            "Button.spriteName": "door",
+            "texture": {
+                "key": "candy",
+                "frame": "door"
+            },
+            "x": 491,
+            "y": 467
+        },
+        {
+            "type": "Rectangle",
+            "id": "c57b1770-790a-4f50-ab59-d84ec12d8aa8",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 502.00000000000006,
+            "y": 550.0000000000001,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.5288732482824485,
+            "originY": 0.8649376316696833,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

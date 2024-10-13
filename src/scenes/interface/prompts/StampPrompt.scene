@@ -1,0 +1,101 @@
+{
+    "id": "008fb2b1-050a-43b5-b2ba-aa2504b0ad65",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "bb4d2198-5ce9-4999-b83f-8ab252d88b7e",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "075a248b-46dc-4c7e-9191-11f4b51c1802",
+                    "label": "stampContainer",
+                    "scope": "CLASS",
+                    "y": -278,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ba486a8a-11ab-4fd9-a467-048094ea6a17",
+                            "label": "stamps_stampbg",
+                            "texture": {
+                                "key": "main",
+                                "frame": "stamps/stampbg"
+                            },
+                            "x": 342,
+                            "y": -354
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ff33fa6a-6eed-4ae9-aa07-89895c6e1b09",
+                            "label": "stampTitle",
+                            "scope": "CLASS",
+                            "x": 244,
+                            "y": -282,
+                            "text": "Rockhopper",
+                            "fixedWidth": 400,
+                            "fixedHeight": 100,
+                            "fontFamily": "CCComicCrazy",
+                            "fontSize": "24px",
+                            "fontStyle": "italic",
+                            "shadow.offsetX": 4,
+                            "shadow.offsetY": 4,
+                            "shadow.fill": true,
+                            "shadow.blur": 5
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f29f4986-f6b5-4192-96c7-bf4f17539ee9",
+                            "label": "stampEarned",
+                            "x": 244,
+                            "y": -321,
+                            "text": "Stamp Earned!",
+                            "fixedWidth": 400,
+                            "fixedHeight": 100,
+                            "fontFamily": "CCComicCrazy",
+                            "fontSize": "24px",
+                            "fontStyle": "italic",
+                            "shadow.offsetX": 4,
+                            "shadow.offsetY": 4,
+                            "shadow.fill": true,
+                            "shadow.blur": 5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a4800e29-77c1-4384-827c-e1bff35929ca",
+                            "label": "categoryIcon",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "main",
+                                "frame": "stamps/cat30001"
+                            },
+                            "x": 148,
+                            "y": -352,
+                            "originY": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

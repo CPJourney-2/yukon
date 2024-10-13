@@ -1,0 +1,75 @@
+{
+    "id": "4c21039c-519e-44b8-95dd-ef9c88ba6dbb",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0a697f85-243e-4b75-af29-2a28ac4c4595",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9c09cc34-4b54-4de0-92d4-4b4c7c81e2c6",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "84b1eb89-700a-4f78-ac50-2d9c9094e2c7",
+                    "label": "page1",
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "8cc314cf-ef37-4d69-a69e-94b09ed4a01d",
+                            "label": "discSpray",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "disc-spray",
+                                "frame": "discSpray0001"
+                            },
+                            "x": 760,
+                            "y": 480
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "4a3ae42b-7c2e-4fac-aa2f-96d7122a5dd3",
+            "label": "pages",
+            "objectIds": [
+                "84b1eb89-700a-4f78-ac50-2d9c9094e2c7"
+            ]
+        }
+    ]
+}

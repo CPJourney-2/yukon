@@ -1,0 +1,408 @@
+{
+    "id": "c3b672c6-e6c4-47d8-b5a9-4afe7e6251d6",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eefc5a3-1b9a-4b15-a92a-1a543086f96d",
+            "label": "container_1",
+            "components": [],
+            "x": 760,
+            "y": 477,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "637cca7d-b294-4dcd-aa38-991230ee66f5",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -12,
+                    "y": 7,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "820a6f82-2187-4ade-b6b6-1d027ca7661a",
+                    "label": "noticeboard",
+                    "components": [],
+                    "texture": {
+                        "key": "communityevents",
+                        "frame": "noticeboard"
+                    },
+                    "x": 4,
+                    "y": -28,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "d09e8988-c869-4a6a-9e5c-8c6d6f174898",
+                    "label": "close",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 475,
+                    "y": -359,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "ccf6fba8-710a-47c8-b70f-58060854be8f",
+                    "label": "grey_x",
+                    "components": [],
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 475,
+                    "y": -361,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "da7240c4-5b26-452b-9f88-9e5bec75fcba",
+                    "label": "event_name",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -284,
+                    "y": -66.54999542236328,
+                    "originY": 1,
+                    "text": "An Awesome Event!",
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "50px",
+                    "color": "#000",
+                    "maxLines": 1,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "067370b9-8a07-40fc-bb43-8adc26197a98",
+                    "label": "rectangle_1",
+                    "components": [],
+                    "x": -292,
+                    "y": -56,
+                    "scaleX": 4.657746108699158,
+                    "scaleY": -0.03913091631650171,
+                    "originX": -0.0006030975494644153,
+                    "originY": 0.3633332485189271,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "width": 128,
+                    "height": 128,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "a282deeb-2831-4d99-9386-7749ffabfd16",
+                    "label": "event_name_1",
+                    "components": [],
+                    "x": -289,
+                    "y": -45,
+                    "text": "Location",
+                    "fixedWidth": 590,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "35px",
+                    "fontStyle": "italic",
+                    "color": "#000",
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "58545618-188d-49c2-b606-d75d7a26ec22",
+                    "label": "event_location",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -290,
+                    "y": -1,
+                    "text": "Someone's Igloo",
+                    "fixedWidth": 590,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#000",
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "a0ccbc26-8dc8-4a4a-928a-88b881fecb22",
+                    "label": "rectangle",
+                    "components": [],
+                    "x": -292,
+                    "y": 61,
+                    "scaleX": 4.657746108699158,
+                    "scaleY": -0.03913091631650171,
+                    "originX": -0.0006030975494644153,
+                    "originY": 0.3633332485189271,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "width": 128,
+                    "height": 128,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "3ac2c026-68d7-40d4-9f31-3efb3c9f1ce0",
+                    "label": "event_name_3",
+                    "components": [],
+                    "x": -292,
+                    "y": 69,
+                    "text": "When",
+                    "fixedWidth": 590,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "35px",
+                    "fontStyle": "italic",
+                    "color": "#000",
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "408d6a69-804a-418a-94e6-4be3aad03544",
+                    "label": "save_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "save-button",
+                    "Button.callback": "() =>  this.showSubmissionForm()",
+                    "texture": {
+                        "key": "login",
+                        "frame": "save-button"
+                    },
+                    "x": 213,
+                    "y": 374,
+                    "scaleX": 0.5590512425044025,
+                    "scaleY": 0.5645643851973567,
+                    "originX": 0.5017543859649123,
+                    "originY": 0.5046728971962616,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "d27d9043-4d50-4550-8241-49160876a24a",
+                    "label": "event_date",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -289,
+                    "y": 111,
+                    "text": "Date: December 31, 2000",
+                    "fixedWidth": 590,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#000",
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "f21047e7-b52f-472b-be07-7042c997f37f",
+                    "label": "rectangle_2",
+                    "components": [],
+                    "x": -286,
+                    "y": 218,
+                    "scaleX": 4.657746108699158,
+                    "scaleY": -0.03913091631650171,
+                    "originX": -0.0006030975494644153,
+                    "originY": 0.3633332485189271,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "width": 128,
+                    "height": 128,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "fa104c57-531d-43df-80c3-48dbfc51baa9",
+                    "label": "disclaimer",
+                    "components": [],
+                    "x": 23,
+                    "y": 243,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "The listed times are in Penguin Standard Time.",
+                    "fixedWidth": 590,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "23px",
+                    "fontStyle": "bold",
+                    "color": "#000",
+                    "wordWrapWidth": 600,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "6af88ae1-ec64-49f5-ae40-4b4a121f2666",
+                    "label": "event_time",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -288,
+                    "y": 158,
+                    "text": "Time: 12:00 PM",
+                    "fixedWidth": 590,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#000",
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "5a52dd81-9fa6-4898-b482-d5551d2e624c",
+                    "label": "disclaimer_1",
+                    "components": [],
+                    "x": 23,
+                    "y": 289.77557373046875,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "These events are community-hosted. Our moderators are not affiliated with nor responsible for these events.",
+                    "fixedWidth": 590,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "23px",
+                    "color": "#000",
+                    "wordWrapWidth": 600,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "3ccc01cc-21ec-4c28-8162-beedf9c4dbe4",
+                    "label": "rectangle_4",
+                    "components": [],
+                    "x": -276,
+                    "y": 332,
+                    "scaleX": 4.657746108699158,
+                    "scaleY": -0.03913091631650171,
+                    "originX": -0.0006030975494644153,
+                    "originY": 0.3633332485189271,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "width": 128,
+                    "height": 128,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "bc0f6a96-fbcd-4d2f-8f66-92b7e1ee95cf",
+                    "label": "disclaimer_2",
+                    "components": [],
+                    "x": -66,
+                    "y": 368,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Want to host your own event? Click the button for more information!",
+                    "fixedWidth": 450,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "23px",
+                    "fontStyle": "bold",
+                    "color": "#000",
+                    "wordWrapWidth": 400,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "4634e835-ec2e-4682-b3c7-f311fac8e321",
+                    "label": "submittxthihu",
+                    "components": [],
+                    "x": 214,
+                    "y": 372,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "View Form",
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "27px",
+                    "fontStyle": "bold",
+                    "wordWrapWidth": 400,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "1df134a5-2935-48c1-9cd9-6d385a87f717",
+                    "label": "toggleLeft",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "ce-pageturn",
+                    "Button.callback": "() => {this.onBack()}",
+                    "texture": {
+                        "key": "communityevents",
+                        "frame": "ce-pageturn"
+                    },
+                    "x": -261,
+                    "y": 327,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "8caa46dc-9536-4c67-b056-97633980bc44",
+                    "label": "toggleRight",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "ce-pageturn",
+                    "Button.callback": "() => {this.onForward()}",
+                    "texture": {
+                        "key": "communityevents",
+                        "frame": "ce-pageturn"
+                    },
+                    "x": 321,
+                    "y": 318,
+                    "angle": -0.5,
+                    "flipX": true,
+                    "list": []
+                },
+                {
+                    "prefabId": "f0fe4f9b-59c2-4407-b505-ab388e1434a0",
+                    "id": "4f47f56c-227f-4dd2-bc90-3df8da35fd18",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "eventSubmission",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 0,
+                    "y": 0,
+                    "visible": false,
+                    "nestedPrefabs": [],
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

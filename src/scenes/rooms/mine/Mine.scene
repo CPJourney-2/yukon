@@ -1,0 +1,503 @@
+{
+    "id": "0a5b7bbc-2b89-4c51-b688-c9d3dccddb6c",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/mine/mine-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Mine",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "e6d6e322-dd59-4d07-85ed-28517b4e5330",
+            "label": "bg_bg",
+            "texture": {
+                "key": "mine",
+                "frame": "bg/bg"
+            },
+            "x": 760,
+            "y": 489
+        },
+        {
+            "type": "Container",
+            "id": "5545262f-061d-4c71-b26f-00c17229d89e",
+            "label": "_entrance",
+            "x": 764,
+            "y": 235,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "75bd7233-ab00-447a-a326-fd8d31227e73",
+                    "label": "entrance",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bg/entrance",
+                    "Animation.end": 81,
+                    "texture": {
+                        "key": "mine",
+                        "frame": "bg/entrance0001"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "456d7daa-e403-4edb-bf4a-db6eb6ed5f58",
+                    "label": "wire",
+                    "texture": {
+                        "key": "mine",
+                        "frame": "bg/wire"
+                    },
+                    "x": 38,
+                    "y": -83
+                },
+                {
+                    "type": "Image",
+                    "id": "60fe4912-a310-4ed1-b4a7-41d1d505b017",
+                    "label": "bg_light1",
+                    "texture": {
+                        "key": "mine",
+                        "frame": "bg/light1"
+                    },
+                    "x": -24,
+                    "y": -56
+                },
+                {
+                    "type": "Image",
+                    "id": "533449c6-382b-4dc9-bc70-51830a260a47",
+                    "label": "bg_light2",
+                    "texture": {
+                        "key": "mine",
+                        "frame": "bg/light2"
+                    },
+                    "x": 25,
+                    "y": -51
+                },
+                {
+                    "type": "Image",
+                    "id": "25931eba-643f-4bf2-ab45-045376a07a09",
+                    "label": "bg_light",
+                    "texture": {
+                        "key": "mine",
+                        "frame": "bg/light2"
+                    },
+                    "x": 93,
+                    "y": -37,
+                    "angle": 20
+                },
+                {
+                    "type": "Sprite",
+                    "id": "a782366e-74dd-4b02-80e1-b2678c35fa57",
+                    "label": "lightanim",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "bg/lightanim",
+                    "Animation.end": 160,
+                    "texture": {
+                        "key": "mine",
+                        "frame": "bg/lightanim0001"
+                    },
+                    "x": 55,
+                    "y": -50
+                },
+                {
+                    "type": "Image",
+                    "id": "d28cf400-208a-4ade-ae67-3d50f1548923",
+                    "label": "bg_wood",
+                    "texture": {
+                        "key": "mine",
+                        "frame": "bg/wood"
+                    },
+                    "x": 20,
+                    "y": -57
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "a4b0ba34-9a3b-42a9-9ef0-d35a3bb76a8d",
+            "label": "rescuesign",
+            "texture": {
+                "key": "mine",
+                "frame": "bg/rescuesign0001"
+            },
+            "x": 542,
+            "y": 84
+        },
+        {
+            "type": "Image",
+            "id": "853aa604-7373-4abe-8c82-e346a400c09a",
+            "label": "pufflerescue",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "bg/pufflerescue",
+            "Button.lazyName": true,
+            "Button.alias": "pufflerescuebtn",
+            "texture": {
+                "key": "mine",
+                "frame": "bg/pufflerescue0001"
+            },
+            "x": 557,
+            "y": 187
+        },
+        {
+            "type": "Rectangle",
+            "id": "334d1123-5014-4e80-abf1-5c36a4d1495b",
+            "label": "pufflerescuebtn",
+            "components": [
+                "ShowHint",
+                "MoveTo"
+            ],
+            "ShowHint.text": "rescue_hint",
+            "MoveTo.x": "600",
+            "MoveTo.y": "400",
+            "x": 561,
+            "y": 201.54595510102953,
+            "originY": 0.4212162454519332,
+            "fillColor": "#00ffff",
+            "fillAlpha": 0.5,
+            "width": 188,
+            "height": 120
+        },
+        {
+            "type": "Image",
+            "id": "97e4848b-ca8a-4ffb-affd-a411ff969d94",
+            "label": "chair",
+            "texture": {
+                "key": "mine",
+                "frame": "chair"
+            },
+            "x": 571,
+            "y": 296
+        },
+        {
+            "type": "Image",
+            "id": "ed2e9a7b-154b-450b-8840-f748bb6c0836",
+            "label": "equipment",
+            "texture": {
+                "key": "mine",
+                "frame": "bg/equipment"
+            },
+            "x": 398,
+            "y": 213
+        },
+        {
+            "type": "Image",
+            "id": "a3e69cd1-f6c9-4acf-9326-85d54a735ffb",
+            "label": "rocks",
+            "texture": {
+                "key": "mine",
+                "frame": "rocks"
+            },
+            "x": 795.5263061523438,
+            "y": 339.7232979752952,
+            "originX": 0.44226971609026544,
+            "originY": 0.6386193252897521
+        },
+        {
+            "type": "Container",
+            "id": "cbbd761f-2740-40b6-a513-3325a9df8321",
+            "label": "_table",
+            "x": 582.9551391601562,
+            "y": 374.9795710724456,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "017e779f-8b58-4614-82ed-28c109e4e843",
+                    "label": "table",
+                    "texture": {
+                        "key": "mine",
+                        "frame": "table/table"
+                    },
+                    "x": -4.955153361774364,
+                    "y": -6.979556740471878
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "e020e9de-280e-4a21-9cc7-d34d27326eab",
+                    "label": "puffleshadow",
+                    "x": 55,
+                    "y": -20,
+                    "isFilled": true,
+                    "fillColor": "#5b300e",
+                    "fillAlpha": 0.56,
+                    "width": 44,
+                    "height": 12
+                },
+                {
+                    "type": "Sprite",
+                    "id": "02b71be4-5286-4aba-b7bb-8a9af1cb4111",
+                    "label": "puffle",
+                    "components": [
+                        "HoverAnimation"
+                    ],
+                    "HoverAnimation.key": "table/puffle",
+                    "HoverAnimation.end": 60,
+                    "HoverAnimation.hoverZone": "puffleHover",
+                    "texture": {
+                        "key": "mine",
+                        "frame": "table/puffle0001"
+                    },
+                    "x": 55.044846638225636,
+                    "y": -33.97955674047188
+                },
+                {
+                    "type": "Sprite",
+                    "id": "27d5ac8a-0c2f-42f3-9ba5-2dd756700fa2",
+                    "label": "telephone",
+                    "scope": "CLASS",
+                    "components": [
+                        "HoverAnimation"
+                    ],
+                    "HoverAnimation.key": "table/telephone",
+                    "HoverAnimation.end": 28,
+                    "HoverAnimation.hoverZone": "telephoneHover",
+                    "texture": {
+                        "key": "mine",
+                        "frame": "table/telephone0001"
+                    },
+                    "x": -52.955153361774364,
+                    "y": -32.97955674047188
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "75986518-d590-4e5c-a11a-600109d03bee",
+            "label": "wood",
+            "texture": {
+                "key": "mine",
+                "frame": "wood"
+            },
+            "x": 1116,
+            "y": 365.54351975730776,
+            "originY": 0.92588231796126
+        },
+        {
+            "type": "Image",
+            "id": "d4f813b2-98a0-4068-b904-5c79609e5329",
+            "label": "shovel",
+            "texture": {
+                "key": "mine",
+                "frame": "shovel"
+            },
+            "x": 909.9843953442745,
+            "y": 458.7876645150541,
+            "originX": 0.46083630317239616,
+            "originY": 0.8214435731927237
+        },
+        {
+            "type": "Sprite",
+            "id": "7332face-f23f-4c94-9da5-0fbc8fe3e0c3",
+            "label": "cartAnim",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "cartanim",
+            "Animation.end": 7,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.showOnStart": true,
+            "texture": {
+                "key": "mine",
+                "frame": "cartanim0001"
+            },
+            "x": 1209,
+            "y": 367,
+            "originX": 0.1180745482373641,
+            "originY": 0.6701580748087208,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "4a281ef5-59bf-46a6-a941-9a4df33562ed",
+            "label": "cart2",
+            "texture": {
+                "key": "mine",
+                "frame": "cart2"
+            },
+            "x": 1138,
+            "y": 425.28098321240867,
+            "originY": 0.601283568882331
+        },
+        {
+            "type": "Image",
+            "id": "5d2f6516-e5e4-4cfc-9f3b-a46fab82ec87",
+            "label": "cart1",
+            "texture": {
+                "key": "mine",
+                "frame": "cart1"
+            },
+            "x": 1009,
+            "y": 469.6990919490997,
+            "originY": 0.6316615858764366
+        },
+        {
+            "type": "Container",
+            "id": "8c151473-aa14-4f9d-81e4-d90c1fcc8a58",
+            "label": "_cavewallback",
+            "x": 406.280620426912,
+            "y": 426.2159594428454,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "1d8a76e2-11ed-4b2a-9863-8e502644a0c2",
+                    "label": "cavewallback_wall",
+                    "texture": {
+                        "key": "mine",
+                        "frame": "cavewallback/wall"
+                    },
+                    "x": 274.7193644312734,
+                    "y": -185.21596428897845
+                },
+                {
+                    "type": "Image",
+                    "id": "650cc7ea-12c9-49c4-9af7-b8fe8b279ccb",
+                    "label": "cavewallback_lantern",
+                    "texture": {
+                        "key": "mine",
+                        "frame": "cavewallback/lantern"
+                    },
+                    "x": -95,
+                    "y": -261
+                },
+                {
+                    "type": "Sprite",
+                    "id": "90d5579b-81b2-4594-a0ee-7edd1de24570",
+                    "label": "candle",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "cavewallback/candle",
+                    "Animation.end": 14,
+                    "texture": {
+                        "key": "mine",
+                        "frame": "cavewallback/candle0001"
+                    },
+                    "x": -94,
+                    "y": -230
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "7f746381-5273-4311-ae9f-48cb4a68a73a",
+            "label": "cavewallfront",
+            "texture": {
+                "key": "mine",
+                "frame": "cavewallfront"
+            },
+            "x": 157,
+            "y": 582,
+            "originX": 0.2569234806628597,
+            "originY": 0.8591608689361728
+        },
+        {
+            "type": "Image",
+            "id": "bdaaf609-2ac9-4ffc-8a06-df70f0aab232",
+            "label": "minesign",
+            "texture": {
+                "key": "mine",
+                "frame": "minesign0001"
+            },
+            "x": 1289.353962774777,
+            "y": 518.7982605294275,
+            "originX": 0.6396505921545457,
+            "originY": 0.8622487579799021
+        },
+        {
+            "type": "Image",
+            "id": "e1777aa3-3d64-4c34-9257-c7176c7ed114",
+            "label": "foreground",
+            "texture": {
+                "key": "mine",
+                "frame": "foreground"
+            },
+            "x": -3.5,
+            "y": 969,
+            "originX": 0,
+            "originY": 1
+        },
+        {
+            "type": "Rectangle",
+            "id": "07fd6cea-59a2-4089-87b9-844baa5dcc87",
+            "label": "telephoneHover",
+            "x": 530,
+            "y": 344,
+            "fillColor": "#00ffff",
+            "fillAlpha": 0.5,
+            "width": 60,
+            "height": 50
+        },
+        {
+            "type": "Rectangle",
+            "id": "34643b6c-0f41-4772-8360-968c4fe1b417",
+            "label": "puffleHover",
+            "x": 637,
+            "y": 342,
+            "fillColor": "#00ffff",
+            "fillAlpha": 0.5,
+            "width": 50,
+            "height": 50
+        },
+        {
+            "type": "Polygon",
+            "id": "ea5381f9-47b8-49da-9fcb-c1e7b8a526cb",
+            "label": "cartbtn",
+            "components": [
+                "ShowHint",
+                "MoveTo",
+                "SimpleButton"
+            ],
+            "ShowHint.text": "cart_hint",
+            "MoveTo.x": "1260",
+            "MoveTo.y": "400",
+            "SimpleButton.hoverCallback": "() => this.onCartHover()",
+            "SimpleButton.hoverOutCallback": "() => this.onCartOut()",
+            "x": 1238.1728644060977,
+            "y": 303.7248667640935,
+            "originX": 0.5462245784535273,
+            "originY": 0.0350787621909927,
+            "fillColor": "#00ffff",
+            "fillAlpha": 0.5,
+            "points": "84.94083813095381 75.3229853841828 83.76904361679817 -93.4154246542449 309.92538484885745 -92.24363014008915 314.75980346806455 85.4566034144583 159.115936452067 126.79950559058267"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "ec88df7b-6dbc-49c0-b31b-3f401f52c99c",
+            "label": "sort",
+            "objectIds": [
+                "e1777aa3-3d64-4c34-9257-c7176c7ed114",
+                "bdaaf609-2ac9-4ffc-8a06-df70f0aab232",
+                "5d2f6516-e5e4-4cfc-9f3b-a46fab82ec87",
+                "d4f813b2-98a0-4068-b904-5c79609e5329",
+                "4a281ef5-59bf-46a6-a941-9a4df33562ed",
+                "75986518-d590-4e5c-a11a-600109d03bee",
+                "7f746381-5273-4311-ae9f-48cb4a68a73a",
+                "8c151473-aa14-4f9d-81e4-d90c1fcc8a58",
+                "a3e69cd1-f6c9-4acf-9326-85d54a735ffb",
+                "97e4848b-ca8a-4ffb-affd-a411ff969d94",
+                "cbbd761f-2740-40b6-a513-3325a9df8321"
+            ]
+        }
+    ]
+}

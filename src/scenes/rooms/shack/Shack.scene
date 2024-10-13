@@ -1,0 +1,1537 @@
+{
+    "id": "42229dff-ad29-4fbd-828f-6a28e3d84a09",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/shack/shack-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Shack",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "8ebdbde4-d552-4f51-92a3-210fcb57d2a6",
+            "label": "bg_1",
+            "texture": {
+                "key": "shack-bg",
+                "frame": "bg"
+            },
+            "x": 762,
+            "y": 481
+        },
+        {
+            "type": "Sprite",
+            "id": "8ff44d28-de94-4d5b-95bd-9acd93f4b1fc",
+            "label": "l2_bucketback0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "L2-bucketback",
+            "Animation.end": 10,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "shack-bg",
+                "frame": "L2-bucketback0001"
+            },
+            "x": 673,
+            "y": 205
+        },
+        {
+            "type": "Sprite",
+            "id": "3f100db5-787c-410c-a4ec-e4e357a963a3",
+            "label": "l3_flowend",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "L3-flowend",
+            "Animation.end": 24,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "shack-flowend",
+                "frame": "L3-flowend0001"
+            },
+            "x": 733,
+            "y": 140,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "aeee13a2-b922-4ae4-9b02-aca98a4c983d",
+            "label": "l3_pipewater",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "L3-flowanimation",
+            "Animation.end": 13,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "shack-bg",
+                "frame": "L3-pipewater0001"
+            },
+            "x": 733,
+            "y": 140
+        },
+        {
+            "type": "Sprite",
+            "id": "2fef75c3-4810-4aec-9baa-4f75665ce5f9",
+            "label": "l4_bucketfront0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "L4-bucketfront",
+            "Animation.end": 10,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "shack-bg",
+                "frame": "L4-bucketfront0001"
+            },
+            "x": 672,
+            "y": 249
+        },
+        {
+            "type": "Image",
+            "id": "29c45e5c-4145-4f66-95dc-adb352d4aade",
+            "label": "bg2",
+            "texture": {
+                "key": "shack-bg",
+                "frame": "bg2"
+            },
+            "x": 787,
+            "y": 325
+        },
+        {
+            "type": "Sprite",
+            "id": "9340153d-0bdd-4c18-9d72-94977068a1ca",
+            "label": "l5_shutdown",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "L5-shutdown",
+            "Animation.end": 36,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "shack-bg",
+                "frame": "L5-shutdown0001"
+            },
+            "x": 950,
+            "y": 314,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "1a9515f0-8895-41bd-8abf-d15ef502bb59",
+            "label": "l5_flowingdown",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "L5-flowingdown",
+            "Animation.end": 82,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "shack-bg",
+                "frame": "L5-flowingdown0001"
+            },
+            "x": 942,
+            "y": 314,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "4a5b9f07-d3a8-4917-adf6-953134fab708",
+            "label": "l5_operating",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "L5-operating",
+            "Animation.end": 12,
+            "texture": {
+                "key": "shack-bg",
+                "frame": "L5-operating0001"
+            },
+            "x": 942,
+            "y": 314,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "19d2f2ec-e2d7-45e5-a526-2bc73d8af897",
+            "label": "l5_park",
+            "scope": "CLASS",
+            "texture": {
+                "key": "shack-bg",
+                "frame": "L5-park"
+            },
+            "x": 942,
+            "y": 314
+        },
+        {
+            "type": "Image",
+            "id": "f31f2b7d-5742-4fa7-b247-f8812992a6e7",
+            "label": "bush",
+            "texture": {
+                "key": "shack-bg",
+                "frame": "bush"
+            },
+            "x": 169,
+            "y": 408
+        },
+        {
+            "type": "Image",
+            "id": "5e18db80-3bf7-4dd4-82fc-3fb1a79e5aae",
+            "label": "recycle",
+            "texture": {
+                "key": "shack-bg",
+                "frame": "recycle"
+            },
+            "x": -28.4744803397528,
+            "y": 123.04314989376635,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "4edbc7bd-61a1-4bcf-9d00-771ca8df84ff",
+            "label": "trees_1",
+            "texture": {
+                "key": "shack",
+                "frame": "trees_1"
+            },
+            "x": 196,
+            "y": 645,
+            "originX": 0.8208955223880597,
+            "originY": 0.36511156186612576
+        },
+        {
+            "type": "Image",
+            "id": "43d346f4-3000-4ed0-a8f2-b4bd8fc16119",
+            "label": "plant_doors",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "plant_doors",
+            "MoveTo.x": "96",
+            "MoveTo.y": "478",
+            "texture": {
+                "key": "shack",
+                "frame": "plant_doors"
+            },
+            "x": 6,
+            "y": 355,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "a446c3cf-8762-40b4-98f3-ab6ea6dca0c1",
+            "label": "shovel",
+            "texture": {
+                "key": "shack",
+                "frame": "shovel"
+            },
+            "x": 1143,
+            "y": 470,
+            "originX": 0.17543859649122806,
+            "originY": 0.856
+        },
+        {
+            "type": "Image",
+            "id": "5309e7a9-b5dc-4a90-b0fe-27eb154ee886",
+            "label": "flowercart",
+            "texture": {
+                "key": "shack-bg",
+                "frame": "flowercart"
+            },
+            "x": 1083,
+            "y": 489.31549980908807,
+            "originY": 0.6692958317424006
+        },
+        {
+            "type": "Image",
+            "id": "1b75df5a-e789-491c-98d5-76fa6178cd01",
+            "label": "flowers",
+            "texture": {
+                "key": "shack",
+                "frame": "flowers"
+            },
+            "x": 206,
+            "y": 464,
+            "originX": 0.5352112676056338,
+            "originY": 0.7903225806451613
+        },
+        {
+            "type": "Image",
+            "id": "9a0a504e-14ce-4e47-a4c4-b2ca2dc2a306",
+            "label": "cart_2",
+            "texture": {
+                "key": "shack",
+                "frame": "cart_2"
+            },
+            "x": 625,
+            "y": 526,
+            "originX": 0.5206611570247934,
+            "originY": 0.7475728155339806
+        },
+        {
+            "type": "Image",
+            "id": "c5c109f1-761a-4b75-b951-88bc9f1b107f",
+            "label": "cart_1",
+            "texture": {
+                "key": "shack",
+                "frame": "cart_1"
+            },
+            "x": 519,
+            "y": 568,
+            "originX": 0.4928571428571429,
+            "originY": 0.7401574803149606
+        },
+        {
+            "type": "Image",
+            "id": "b1a96675-73c0-4550-9e90-cd46ef205df8",
+            "label": "fence",
+            "texture": {
+                "key": "shack",
+                "frame": "fence"
+            },
+            "x": 718,
+            "y": 584,
+            "originX": 0.5180722891566265,
+            "originY": 0.5562130177514792
+        },
+        {
+            "type": "Image",
+            "id": "057c49b1-bfc1-468c-b342-0d224d03b020",
+            "label": "barrel_2",
+            "texture": {
+                "key": "shack",
+                "frame": "barrel_2"
+            },
+            "x": 1252,
+            "y": 492,
+            "originX": 0.759493670886076,
+            "originY": 0.8953488372093024
+        },
+        {
+            "type": "Image",
+            "id": "d6016795-3581-4a4c-b316-f44c5efdc1e2",
+            "label": "bag",
+            "texture": {
+                "key": "shack",
+                "frame": "bag"
+            },
+            "x": 1154,
+            "y": 507,
+            "originX": 0.09859154929577464,
+            "originY": 0.7682926829268293
+        },
+        {
+            "type": "Image",
+            "id": "ed7d3cf2-15d8-4ed5-808c-33a2e61b6b1e",
+            "label": "bear",
+            "texture": {
+                "key": "shack",
+                "frame": "bear"
+            },
+            "x": 1142,
+            "y": 482,
+            "originX": 0.71,
+            "originY": 0.7178423236514523,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "9e25e333-7a12-490b-92fa-fca1f4f4166b",
+            "label": "house_back",
+            "texture": {
+                "key": "shack",
+                "frame": "house_back"
+            },
+            "x": 1298,
+            "y": 332,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "e927b451-7e12-4264-a4a8-ca9f6d507400",
+            "label": "harvest",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "harvest",
+            "HoverAnimation.checkpoints": "11,21,31",
+            "HoverAnimation.end": 37,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "HoverAnimation.loop": false,
+            "texture": {
+                "key": "shack-harvest",
+                "frame": "harvest0001"
+            },
+            "x": 1413,
+            "y": 427
+        },
+        {
+            "type": "Image",
+            "id": "e0583c81-2e85-4c6f-a881-1e67317c684e",
+            "label": "house",
+            "texture": {
+                "key": "shack",
+                "frame": "house"
+            },
+            "x": 1291,
+            "y": 500,
+            "originX": 0.08679245283018867,
+            "originY": 0.8169014084507042
+        },
+        {
+            "type": "Image",
+            "id": "81dacd10-d79b-45be-8105-9626ee126513",
+            "label": "pipe_1",
+            "texture": {
+                "key": "shack",
+                "frame": "pipe_10001"
+            },
+            "x": 1004,
+            "y": 588,
+            "originX": 0.44106463878326996,
+            "originY": 0.40707964601769914
+        },
+        {
+            "type": "Image",
+            "id": "53559ae5-dc78-47be-852f-e0a590982e1f",
+            "label": "pipe_2",
+            "texture": {
+                "key": "shack",
+                "frame": "pipe_20001"
+            },
+            "x": 1268,
+            "y": 681,
+            "originX": 0.054945054945054944,
+            "originY": 0.3333333333333333
+        },
+        {
+            "type": "Image",
+            "id": "4d5377c0-4850-4c54-a790-a347b2765240",
+            "label": "trees_2",
+            "texture": {
+                "key": "shack",
+                "frame": "trees_2"
+            },
+            "x": 1204,
+            "y": 968,
+            "originX": 0,
+            "originY": 1
+        },
+        {
+            "type": "Sprite",
+            "id": "297e0761-6230-49a4-a4fd-e643323fa939",
+            "label": "plant0_0",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant0",
+            "HoverAnimation.checkpoints": "1,9,16,23",
+            "HoverAnimation.end": 31,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant00001"
+            },
+            "x": 762.7197899098514,
+            "y": 711.4709243145564,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646
+        },
+        {
+            "type": "Sprite",
+            "id": "a0bf2e4a-a81e-41f1-84e0-ce733627fc44",
+            "label": "plant0_1",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant0",
+            "HoverAnimation.checkpoints": "1,9,16,23",
+            "HoverAnimation.end": 31,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant00001"
+            },
+            "x": 821,
+            "y": 664,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646
+        },
+        {
+            "type": "Sprite",
+            "id": "c43b431d-0972-414e-a9bf-5cc15b504faf",
+            "label": "plant0_2",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant0",
+            "HoverAnimation.checkpoints": "1,9,16,23",
+            "HoverAnimation.end": 31,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant00001"
+            },
+            "x": 866,
+            "y": 638,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646
+        },
+        {
+            "type": "Sprite",
+            "id": "c9b7361d-3331-4c2e-8b28-373841ad2c13",
+            "label": "plant0_3",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant0",
+            "HoverAnimation.checkpoints": "1,9,16,23",
+            "HoverAnimation.end": 31,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant00001"
+            },
+            "x": 906,
+            "y": 604,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646
+        },
+        {
+            "type": "Sprite",
+            "id": "11aef931-d9ae-49c0-84e2-8ba7543b5a36",
+            "label": "plant_1_0",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant1",
+            "HoverAnimation.checkpoints": "1,7,15,25",
+            "HoverAnimation.end": 33,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant10001"
+            },
+            "x": 840.5557088713826,
+            "y": 754.9425663255628,
+            "originX": 0.5960233187338186,
+            "originY": 0.9754061124155748
+        },
+        {
+            "type": "Sprite",
+            "id": "85c11d16-776d-497f-806d-68243a1e4096",
+            "label": "plant_1_1",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant1",
+            "HoverAnimation.checkpoints": "1,7,15,25",
+            "HoverAnimation.end": 33,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant10001"
+            },
+            "x": 892,
+            "y": 711,
+            "originX": 0.5960233187338186,
+            "originY": 0.9754061124155748
+        },
+        {
+            "type": "Sprite",
+            "id": "8476c8f5-b993-4206-aa3e-fa3346dab310",
+            "label": "plant_1_2",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant1",
+            "HoverAnimation.checkpoints": "1,7,15,25",
+            "HoverAnimation.end": 33,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant10001"
+            },
+            "x": 938,
+            "y": 671,
+            "originX": 0.5960233187338186,
+            "originY": 0.9754061124155748
+        },
+        {
+            "type": "Sprite",
+            "id": "1d04c510-cad8-4757-8e95-2061d544f335",
+            "label": "plant_1_3",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant1",
+            "HoverAnimation.checkpoints": "1,7,15,25",
+            "HoverAnimation.end": 33,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant10001"
+            },
+            "x": 981,
+            "y": 633,
+            "originX": 0.5960233187338186,
+            "originY": 0.9754061124155748
+        },
+        {
+            "type": "Sprite",
+            "id": "27b93142-2f1d-44b5-8c6b-a7bff7ee523c",
+            "label": "plant_2_0",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant2",
+            "HoverAnimation.checkpoints": "1,7,15,25",
+            "HoverAnimation.end": 33,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant20001"
+            },
+            "x": 934,
+            "y": 795,
+            "originX": 0.2269815866164309,
+            "originY": 0.9662820977897065
+        },
+        {
+            "type": "Sprite",
+            "id": "b9bfda5b-c10c-41e4-8292-b4e354cff6e2",
+            "label": "plant_2_1",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant2",
+            "HoverAnimation.checkpoints": "1,7,15,25",
+            "HoverAnimation.end": 33,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant20001"
+            },
+            "x": 977,
+            "y": 746,
+            "originX": 0.2269815866164309,
+            "originY": 0.9662820977897065
+        },
+        {
+            "type": "Sprite",
+            "id": "c726f936-14bf-4466-b7a6-ab6375e77084",
+            "label": "plant_2_2",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant2",
+            "HoverAnimation.checkpoints": "1,7,15,25",
+            "HoverAnimation.end": 33,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant20001"
+            },
+            "x": 1025,
+            "y": 700,
+            "originX": 0.2269815866164309,
+            "originY": 0.9662820977897065
+        },
+        {
+            "type": "Sprite",
+            "id": "16ec3e21-f3eb-4876-9dd2-9d913ee5426f",
+            "label": "plant_2_3",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant2",
+            "HoverAnimation.checkpoints": "1,7,15,25",
+            "HoverAnimation.end": 33,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant20001"
+            },
+            "x": 1058,
+            "y": 657,
+            "originX": 0.2269815866164309,
+            "originY": 0.9662820977897065
+        },
+        {
+            "type": "Sprite",
+            "id": "7d082e38-eb2d-4e7d-8dcb-8cf6aee4a602",
+            "label": "plant_3_0",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant3",
+            "HoverAnimation.checkpoints": "1,8,16,26",
+            "HoverAnimation.end": 34,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant30001"
+            },
+            "x": 1051,
+            "y": 828,
+            "originX": 0.2269815866164309,
+            "originY": 0.9662820977897065
+        },
+        {
+            "type": "Sprite",
+            "id": "cc279531-2bc7-4822-aa61-eef70cd6399a",
+            "label": "plant_3_1",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant3",
+            "HoverAnimation.checkpoints": "1,8,16,26",
+            "HoverAnimation.end": 34,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant30001"
+            },
+            "x": 1099,
+            "y": 784,
+            "originX": 0.2269815866164309,
+            "originY": 0.9662820977897065
+        },
+        {
+            "type": "Sprite",
+            "id": "d5959fd4-89d1-4995-82ca-fce1211a7ac1",
+            "label": "plant_3_2",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant3",
+            "HoverAnimation.checkpoints": "1,8,16,26",
+            "HoverAnimation.end": 34,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant30001"
+            },
+            "x": 1140,
+            "y": 743,
+            "originX": 0.2269815866164309,
+            "originY": 0.9662820977897065
+        },
+        {
+            "type": "Sprite",
+            "id": "cff84e04-67ab-4287-a6c1-748c7a2eb41e",
+            "label": "plant_3_3",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant3",
+            "HoverAnimation.checkpoints": "1,8,16,26",
+            "HoverAnimation.end": 34,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant30001"
+            },
+            "x": 1182,
+            "y": 700,
+            "originX": 0.2269815866164309,
+            "originY": 0.9662820977897065
+        },
+        {
+            "type": "Sprite",
+            "id": "377ebb8f-a105-4078-80bd-66824650f2c2",
+            "label": "plant_4_0",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant4",
+            "HoverAnimation.checkpoints": "1,6,15,27",
+            "HoverAnimation.end": 33,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant40001"
+            },
+            "x": 1138.4814194829776,
+            "y": 857.6214783839525,
+            "originX": 0.05571316080727203,
+            "originY": 0.9752441335318609
+        },
+        {
+            "type": "Sprite",
+            "id": "4cc168d4-3ad0-4554-9ee8-17b0ff49100d",
+            "label": "plant_4_1",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant4",
+            "HoverAnimation.checkpoints": "1,6,15,27",
+            "HoverAnimation.end": 33,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant40001"
+            },
+            "x": 1193,
+            "y": 802,
+            "originX": 0.05571316080727203,
+            "originY": 0.9752441335318609
+        },
+        {
+            "type": "Sprite",
+            "id": "f78de3fb-70c1-4bc6-bd93-515331d726ab",
+            "label": "plant_4_2",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant4",
+            "HoverAnimation.checkpoints": "1,6,15,27",
+            "HoverAnimation.end": 33,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant40001"
+            },
+            "x": 1247,
+            "y": 765,
+            "originX": 0.05571316080727203,
+            "originY": 0.9752441335318609
+        },
+        {
+            "type": "Sprite",
+            "id": "9914d3aa-d13d-4af7-aa27-0a4829ad06d1",
+            "label": "plant_4_3",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant4",
+            "HoverAnimation.checkpoints": "1,6,15,27",
+            "HoverAnimation.end": 33,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plants",
+                "frame": "plant40001"
+            },
+            "x": 1297,
+            "y": 722,
+            "originX": 0.05571316080727203,
+            "originY": 0.9752441335318609
+        },
+        {
+            "type": "Rectangle",
+            "id": "7e3253c0-b258-4698-b3dc-60810fc90dde",
+            "label": "rectangle_invalid",
+            "scope": "CLASS",
+            "x": -215,
+            "y": 53,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Sprite",
+            "id": "bb15b6cd-274b-4f48-97f8-0deeda7caaf3",
+            "label": "spray1_end",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "spray1-end",
+            "Animation.end": 21,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "shack-waterspray",
+                "frame": "spray1-end0001"
+            },
+            "x": 1024.5791692421303,
+            "y": 631.6059018406636,
+            "originX": 0.5121087757846494,
+            "originY": 1.0237091743562106,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "080d4237-d668-4141-bfff-8979c80b175c",
+            "label": "spray1_operating",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "spray1-operating",
+            "Animation.start": 6,
+            "Animation.end": 16,
+            "texture": {
+                "key": "shack-waterspray",
+                "frame": "spray1-end0001"
+            },
+            "x": 1021.484166151574,
+            "y": 632.1217356890896,
+            "originX": 0.4975782448430702,
+            "originY": 1.0276468373212948,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "8822e290-0b0b-461e-922a-8b2aa205b5f5",
+            "label": "spray1_start",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "spray1-start",
+            "Animation.end": 12,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "shack-waterspray",
+                "frame": "spray1-start0012"
+            },
+            "x": 1017.5698435050567,
+            "y": 623.9783614516042,
+            "originX": 0.873418101199076,
+            "originY": 1.0073732993965063,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "45a7a11a-acd3-4da5-94f0-2957c2f520bc",
+            "label": "spray2_operating",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "spray2-operating",
+            "Animation.start": 5,
+            "Animation.end": 16,
+            "texture": {
+                "key": "shack-waterspray",
+                "frame": "spray2-operating0015"
+            },
+            "x": 1349,
+            "y": 700.6581336753925,
+            "originY": 0.9690567932906712,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "47b7cd27-b4a3-4184-9e2c-67c5af2bd3d5",
+            "label": "spray2_end",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "spray2-end",
+            "Animation.end": 6,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "shack-waterspray",
+                "frame": "spray2-end0001"
+            },
+            "x": 1342.7644357640147,
+            "y": 696.951440967437,
+            "originX": 0.48970363136678924,
+            "originY": 0.9558392326935626,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "146634e8-bef4-400c-85ca-3f04d00b4db7",
+            "label": "spray2_start",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "spray2-start",
+            "Animation.end": 24,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "shack-waterspray",
+                "frame": "spray2-start0001"
+            },
+            "x": 1390.0198206105906,
+            "y": 706.2988693894229,
+            "originX": 0.9700977373347014,
+            "originY": 0.9977849861841444,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "fafa919a-fccd-4b34-9aa2-1a8f4d037e4f",
+            "label": "plantbad_0_0",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant0",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant00001"
+            },
+            "x": 725,
+            "y": 635,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "ad718d47-a042-466f-bb30-e3ac2d21099a",
+            "label": "plantbad_0_1",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant0",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant00001"
+            },
+            "x": 783,
+            "y": 587,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "d961f592-f396-44e3-9f7d-76a282d0b45e",
+            "label": "plantbad_0_2",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant0",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant00001"
+            },
+            "x": 828,
+            "y": 561,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "71702657-baa7-46d8-866e-eb1dd51170ab",
+            "label": "plantbad_0_3",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant0",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant00001"
+            },
+            "x": 868,
+            "y": 527,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "f3a31765-a71f-4d01-870a-c452c0175ea0",
+            "label": "plantbad_1_0",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant1",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant10001"
+            },
+            "x": 861,
+            "y": 679,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "1bdefa12-0902-4f1e-bfc6-a3b39281d705",
+            "label": "plantbad_1_1",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant1",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant10001"
+            },
+            "x": 912,
+            "y": 635,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "7d12b032-3895-421d-88cd-c9aaf8b1af00",
+            "label": "plantbad_1_2",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant1",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant10001"
+            },
+            "x": 958,
+            "y": 595,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "394867be-1db8-4ad1-9b40-6e57ae718e6d",
+            "label": "plantbad_1_3",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant1",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant10001"
+            },
+            "x": 1002,
+            "y": 557,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "d9b11bb4-4e17-43c1-9910-dd27ce29ed16",
+            "label": "plantbad_2_0",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant2",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant20001"
+            },
+            "x": 1012,
+            "y": 714,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "540b23a7-d16a-4ec2-abe6-a385537d5ccb",
+            "label": "plantbad_2_1",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant2",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant20001"
+            },
+            "x": 1056,
+            "y": 664,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "2fcc762d-cd0e-46e3-9f13-005ae2dbeb3d",
+            "label": "plantbad_2_2",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant2",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant20001"
+            },
+            "x": 1104,
+            "y": 619,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "aed3d952-79d7-47a8-86f3-e525467f8202",
+            "label": "plantbad_2_3",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant2",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant20001"
+            },
+            "x": 1136,
+            "y": 576,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "cf675115-12b3-46e7-ace6-b11064fa7ef5",
+            "label": "plantbad_3_0",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant3",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant30001"
+            },
+            "x": 1189,
+            "y": 750,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "d593641e-8aab-4384-afe6-585f840c9a1a",
+            "label": "plantbad_3_1",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant3",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant30001"
+            },
+            "x": 1237,
+            "y": 706,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "407e4ebc-7c35-4e19-b0d8-9699ed0bc139",
+            "label": "plantbad_3_2",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant3",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant30001"
+            },
+            "x": 1279,
+            "y": 665,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "1b27b2ca-06b7-4432-bfda-09055076a7c6",
+            "label": "plantbad_3_3",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant3",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant30001"
+            },
+            "x": 1321,
+            "y": 622,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "4e3b420a-da02-4919-bd81-d8568758a28e",
+            "label": "plantbad_4_0",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant4",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant40001"
+            },
+            "x": 1336,
+            "y": 769,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "ab70ccef-7ab6-4583-9c83-1f31aa37d9b6",
+            "label": "plantbad_4_1",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant4",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant40001"
+            },
+            "x": 1390,
+            "y": 713,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "5f690fd6-082a-4b11-95e9-a1f8450780b7",
+            "label": "plantbad_4_2",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant4",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant40001"
+            },
+            "x": 1444,
+            "y": 676,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "638309f5-61fb-4004-8fed-bad1fc762f9b",
+            "label": "plantbad_4_3",
+            "scope": "CLASS",
+            "components": [
+                "HoverAnimation"
+            ],
+            "HoverAnimation.key": "plant4",
+            "HoverAnimation.checkpoints": "30,31,60,61",
+            "HoverAnimation.end": 90,
+            "HoverAnimation.hoverZone": "rectangle_invalid",
+            "texture": {
+                "key": "shack-plantsbad",
+                "frame": "plant40001"
+            },
+            "x": 1495,
+            "y": 633,
+            "originX": 0.6573975199587457,
+            "originY": 0.8836124306416646,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "39921aaf-06c6-459a-b3b1-7fd5a23cf13e",
+            "label": "flowers_1",
+            "texture": {
+                "key": "shack",
+                "frame": "flowers"
+            },
+            "x": 1092,
+            "y": 527,
+            "originX": 0.5352112676056338,
+            "originY": 0.7903225806451613
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "5b05df9c-2b13-4c2e-9199-6607fd85e390",
+            "label": "sort",
+            "objectIds": [
+                "e0583c81-2e85-4c6f-a881-1e67317c684e",
+                "81dacd10-d79b-45be-8105-9626ee126513",
+                "53559ae5-dc78-47be-852f-e0a590982e1f",
+                "4d5377c0-4850-4c54-a790-a347b2765240",
+                "ed7d3cf2-15d8-4ed5-808c-33a2e61b6b1e",
+                "d6016795-3581-4a4c-b316-f44c5efdc1e2",
+                "057c49b1-bfc1-468c-b342-0d224d03b020",
+                "a446c3cf-8762-40b4-98f3-ab6ea6dca0c1",
+                "b1a96675-73c0-4550-9e90-cd46ef205df8",
+                "c5c109f1-761a-4b75-b951-88bc9f1b107f",
+                "9a0a504e-14ce-4e47-a4c4-b2ca2dc2a306",
+                "1b75df5a-e789-491c-98d5-76fa6178cd01",
+                "4edbc7bd-61a1-4bcf-9d00-771ca8df84ff",
+                "1d04c510-cad8-4757-8e95-2061d544f335",
+                "8476c8f5-b993-4206-aa3e-fa3346dab310",
+                "85c11d16-776d-497f-806d-68243a1e4096",
+                "11aef931-d9ae-49c0-84e2-8ba7543b5a36",
+                "c9b7361d-3331-4c2e-8b28-373841ad2c13",
+                "c43b431d-0972-414e-a9bf-5cc15b504faf",
+                "a0bf2e4a-a81e-41f1-84e0-ce733627fc44",
+                "297e0761-6230-49a4-a4fd-e643323fa939",
+                "16ec3e21-f3eb-4876-9dd2-9d913ee5426f",
+                "c726f936-14bf-4466-b7a6-ab6375e77084",
+                "b9bfda5b-c10c-41e4-8292-b4e354cff6e2",
+                "27b93142-2f1d-44b5-8c6b-a7bff7ee523c",
+                "7d082e38-eb2d-4e7d-8dcb-8cf6aee4a602",
+                "cff84e04-67ab-4287-a6c1-748c7a2eb41e",
+                "d5959fd4-89d1-4995-82ca-fce1211a7ac1",
+                "cc279531-2bc7-4822-aa61-eef70cd6399a",
+                "377ebb8f-a105-4078-80bd-66824650f2c2",
+                "9914d3aa-d13d-4af7-aa27-0a4829ad06d1",
+                "f78de3fb-70c1-4bc6-bd93-515331d726ab",
+                "4cc168d4-3ad0-4554-9ee8-17b0ff49100d",
+                "bb15b6cd-274b-4f48-97f8-0deeda7caaf3",
+                "080d4237-d668-4141-bfff-8979c80b175c",
+                "8822e290-0b0b-461e-922a-8b2aa205b5f5",
+                "47b7cd27-b4a3-4184-9e2c-67c5af2bd3d5",
+                "45a7a11a-acd3-4da5-94f0-2957c2f520bc",
+                "fafa919a-fccd-4b34-9aa2-1a8f4d037e4f",
+                "638309f5-61fb-4004-8fed-bad1fc762f9b",
+                "5f690fd6-082a-4b11-95e9-a1f8450780b7",
+                "ab70ccef-7ab6-4583-9c83-1f31aa37d9b6",
+                "4e3b420a-da02-4919-bd81-d8568758a28e",
+                "1b27b2ca-06b7-4432-bfda-09055076a7c6",
+                "407e4ebc-7c35-4e19-b0d8-9699ed0bc139",
+                "d593641e-8aab-4384-afe6-585f840c9a1a",
+                "cf675115-12b3-46e7-ace6-b11064fa7ef5",
+                "aed3d952-79d7-47a8-86f3-e525467f8202",
+                "2fcc762d-cd0e-46e3-9f13-005ae2dbeb3d",
+                "540b23a7-d16a-4ec2-abe6-a385537d5ccb",
+                "d9b11bb4-4e17-43c1-9910-dd27ce29ed16",
+                "394867be-1db8-4ad1-9b40-6e57ae718e6d",
+                "7d12b032-3895-421d-88cd-c9aaf8b1af00",
+                "1bdefa12-0902-4f1e-bfc6-a3b39281d705",
+                "f3a31765-a71f-4d01-870a-c452c0175ea0",
+                "71702657-baa7-46d8-866e-eb1dd51170ab",
+                "d961f592-f396-44e3-9f7d-76a282d0b45e",
+                "ad718d47-a042-466f-bb30-e3ac2d21099a",
+                "146634e8-bef4-400c-85ca-3f04d00b4db7",
+                "5309e7a9-b5dc-4a90-b0fe-27eb154ee886",
+                "39921aaf-06c6-459a-b3b1-7fd5a23cf13e"
+            ]
+        }
+    ]
+}

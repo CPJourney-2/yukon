@@ -1,0 +1,295 @@
+{
+    "id": "085809c3-72bb-4fe1-b4a3-6db8d96f6c04",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/mainmenu/mainmenu-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Start",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "96cc930f-376d-4def-b717-53a62834f7f0",
+            "label": "bg",
+            "texture": {
+                "key": "load",
+                "frame": "bg"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "prefabId": "688ff040-1606-4b2d-b25a-81eef3aa282f",
+            "id": "7df07808-1b35-41c5-b617-ea224d2c189b",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "carousel",
+            "scope": "CLASS",
+            "x": 758,
+            "y": 463,
+            "visible": true
+        },
+        {
+            "type": "Image",
+            "id": "f7fbef40-3953-4da5-aa12-8a3206b3495f",
+            "label": "fair24_login",
+            "texture": {
+                "key": "fair24_login"
+            },
+            "x": 760,
+            "y": 480,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "17b698fc-769a-49c8-acd0-5b4f8e354a86",
+            "label": "bottom",
+            "texture": {
+                "key": "start",
+                "frame": "bottom"
+            },
+            "x": 760,
+            "y": 770
+        },
+        {
+            "type": "Ellipse",
+            "id": "6ea4b1c6-41f9-4115-aa9e-d2c17a25c082",
+            "label": "ellipse_1",
+            "x": 257,
+            "y": 894,
+            "visible": false,
+            "isFilled": true,
+            "fillColor": "#000",
+            "fillAlpha": 0.2,
+            "width": 170,
+            "height": 70
+        },
+        {
+            "type": "Image",
+            "id": "bc86b0eb-af07-400d-a00a-8dfd7d821c6b",
+            "label": "loginBtnShadow",
+            "texture": {
+                "key": "start",
+                "frame": "start-btn-bg"
+            },
+            "x": 996,
+            "y": 843,
+            "scaleX": 0.95,
+            "scaleY": 0.9,
+            "originY": 0.5047619047619047
+        },
+        {
+            "type": "Image",
+            "id": "0a38815c-7026-4a9b-a4dd-e3e8ed25f0e3",
+            "label": "loginPenguin",
+            "scope": "CLASS",
+            "texture": {
+                "key": "start",
+                "frame": "login_penguin0001"
+            },
+            "x": 1271,
+            "y": 804,
+            "scaleX": 0.8,
+            "scaleY": 0.8
+        },
+        {
+            "type": "Image",
+            "id": "9b29fc6c-8334-4b30-83f3-3617b78d2dd0",
+            "label": "loginPenguinHover",
+            "scope": "CLASS",
+            "texture": {
+                "key": "start",
+                "frame": "login_penguin0002"
+            },
+            "x": 1271,
+            "y": 804,
+            "scaleX": 0.8,
+            "scaleY": 0.8,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "5082ff76-888f-48a6-b552-e3e784863cec",
+            "label": "loginBtn",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "start-btn",
+            "Button.hoverCallback": "() => this.onStartHover()",
+            "Button.hoverOutCallback": "() => this.onStartOut()",
+            "Button.callback": "() => this.onStartClick()",
+            "Button.activeFrame": true,
+            "texture": {
+                "key": "start",
+                "frame": "start-btn"
+            },
+            "x": 996,
+            "y": 843,
+            "scaleX": 0.95,
+            "scaleY": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "918dff4c-5c00-4c44-ba3d-455c520de067",
+            "label": "loginPenguinArm",
+            "scope": "CLASS",
+            "texture": {
+                "key": "start",
+                "frame": "login_penguin_arm"
+            },
+            "x": 1191,
+            "y": 787,
+            "scaleX": 0.8,
+            "scaleY": 0.8
+        },
+        {
+            "type": "Image",
+            "id": "3fb08a5c-4d87-4b12-a9a1-0fe5ffc8ba02",
+            "label": "createBtnShadow",
+            "texture": {
+                "key": "start",
+                "frame": "start-btn-bg"
+            },
+            "x": 520,
+            "y": 843,
+            "scaleX": 0.95,
+            "scaleY": 0.9,
+            "originY": 0.5047619047619047
+        },
+        {
+            "type": "Image",
+            "id": "3913d800-875f-4ce3-b180-ab32594e096a",
+            "label": "create_penguin",
+            "texture": {
+                "key": "start",
+                "frame": "create_penguin"
+            },
+            "x": 259,
+            "y": 819,
+            "scaleX": 0.9,
+            "scaleY": 0.9
+        },
+        {
+            "type": "Image",
+            "id": "bcba3ff8-fd57-4d3d-a705-8df7da2e487b",
+            "label": "createBtn",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "start-btn",
+            "Button.callback": "() => this.onCreateClick()",
+            "Button.activeFrame": true,
+            "texture": {
+                "key": "start",
+                "frame": "start-btn"
+            },
+            "x": 520.8010242855681,
+            "y": 843,
+            "scaleX": 0.95,
+            "scaleY": 0.9
+        },
+        {
+            "type": "Text",
+            "id": "6ae377e5-f6a3-489c-bce7-559dc41cbb8c",
+            "label": "loginTxt",
+            "x": 991,
+            "y": 844,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Login",
+            "fixedWidth": 400,
+            "fixedHeight": 70,
+            "align": "center",
+            "fontFamily": "CCFaceFront",
+            "fontSize": "44px",
+            "fontStyle": "italic",
+            "stroke": "#000",
+            "strokeThickness": 10
+        },
+        {
+            "type": "Text",
+            "id": "ab54cdf3-3ee0-49f7-bd48-084ec9bc7bed",
+            "label": "createTxt",
+            "x": 520,
+            "y": 845,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Create a Penguin",
+            "fixedWidth": 400,
+            "fixedHeight": 70,
+            "align": "center",
+            "fontFamily": "CCFaceFront",
+            "fontSize": "42px",
+            "fontStyle": "italic",
+            "stroke": "#000",
+            "strokeThickness": 10
+        },
+        {
+            "type": "Image",
+            "id": "41c37bca-e713-4df3-bfb4-7dea97673939",
+            "label": "logo",
+            "texture": {
+                "key": "start",
+                "frame": "logo"
+            },
+            "x": 760,
+            "y": 685,
+            "scaleX": 0.7,
+            "scaleY": 0.7
+        },
+        {
+            "type": "Sprite",
+            "id": "2afaec4d-548b-4037-b625-935ec858a3e1",
+            "label": "unlock",
+            "scope": "CLASS",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "unlock_",
+            "Animation.end": 200,
+            "SimpleButton.callback": "() => { this.unlockPrompt.visible = true }",
+            "texture": {
+                "key": "newstart",
+                "frame": "unlock_0001"
+            },
+            "x": 1351,
+            "y": 127,
+            "scaleX": 0.85,
+            "scaleY": 0.85
+        },
+        {
+            "prefabId": "63d46f35-0075-4db9-8d15-0153b5a2693b",
+            "id": "65bbcd24-42bc-4c44-8a5c-f9121bf33e72",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "unlockPrompt",
+            "scope": "CLASS",
+            "x": 760,
+            "y": 480,
+            "visible": false
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

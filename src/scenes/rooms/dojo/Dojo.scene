@@ -1,0 +1,333 @@
+{
+    "id": "81fecd10-8935-40a2-8e63-3a5888d045b3",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/dojo/dojo-pack.json",
+            "yukon/assets/media/rooms/dojo/dojo-test-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Dojo",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "b3738427-584d-4364-b598-c78e992d5769",
+            "label": "dojobg",
+            "texture": {
+                "key": "dojo",
+                "frame": "dojobg"
+            },
+            "x": 770,
+            "y": 481
+        },
+        {
+            "type": "Image",
+            "id": "8291eedb-e696-46c8-a69c-547f1a47bb9d",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "MoveTo.x": "410",
+            "MoveTo.y": "503",
+            "texture": {
+                "key": "dojo",
+                "frame": "door"
+            },
+            "x": 408,
+            "y": 505
+        },
+        {
+            "prefabId": "c67c0d84-a20e-44f3-a3e4-70e0123372ab",
+            "id": "498d687f-60ce-40c0-9d33-7089d02ac40f",
+            "unlock": [
+                "x",
+                "y",
+                "texture"
+            ],
+            "label": "mat1",
+            "texture": {
+                "key": "dojo",
+                "frame": "mat_b"
+            },
+            "x": 614,
+            "y": 706
+        },
+        {
+            "prefabId": "c67c0d84-a20e-44f3-a3e4-70e0123372ab",
+            "id": "7a7d630b-8505-4ec2-b336-78b2cd46389a",
+            "unlock": [
+                "x",
+                "y",
+                "texture",
+                "waddleid",
+                "flipX",
+                "flipY"
+            ],
+            "label": "mat2",
+            "waddleid": "201",
+            "texture": {
+                "key": "dojo",
+                "frame": "mat_b"
+            },
+            "x": 929,
+            "y": 706,
+            "flipX": true,
+            "flipY": false
+        },
+        {
+            "prefabId": "c67c0d84-a20e-44f3-a3e4-70e0123372ab",
+            "id": "33654811-7cb8-40e2-b12e-49271237418a",
+            "unlock": [
+                "x",
+                "y",
+                "texture",
+                "waddleid",
+                "flipX",
+                "flipY"
+            ],
+            "label": "mat3",
+            "waddleid": "203",
+            "texture": {
+                "key": "dojo",
+                "frame": "mat_a"
+            },
+            "x": 1190,
+            "y": 813,
+            "flipX": true,
+            "flipY": false
+        },
+        {
+            "prefabId": "c67c0d84-a20e-44f3-a3e4-70e0123372ab",
+            "id": "bed0d5e5-6f02-4f38-9ba6-ca0702106d0e",
+            "unlock": [
+                "x",
+                "y",
+                "texture",
+                "waddleid",
+                "flipX",
+                "flipY"
+            ],
+            "label": "mat4",
+            "waddleid": "202",
+            "texture": {
+                "key": "dojo",
+                "frame": "mat_a"
+            },
+            "x": 353,
+            "y": 814,
+            "flipX": false,
+            "flipY": false
+        },
+        {
+            "type": "Image",
+            "id": "5fc61e27-12f1-48ba-9486-764a768a68a2",
+            "label": "paper",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "paper",
+            "Button.callback": "() => this.interface.loadWidget('CardJitsuProgress')",
+            "texture": {
+                "key": "dojo",
+                "frame": "paper"
+            },
+            "x": 573,
+            "y": 454
+        },
+        {
+            "type": "Image",
+            "id": "078b7e86-0d04-48e3-b7fd-e3c277a3ffd2",
+            "label": "paper_1",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "paper",
+            "Button.callback": "() => this.interface.loadWidget('CardJitsuInstructions')",
+            "texture": {
+                "key": "dojo",
+                "frame": "paper"
+            },
+            "x": 691,
+            "y": 457
+        },
+        {
+            "type": "Image",
+            "id": "cf43f45a-fa84-470a-9c5f-1c9d65785748",
+            "label": "legeends",
+            "texture": {
+                "key": "dojo",
+                "frame": "legeends"
+            },
+            "x": 568,
+            "y": 446
+        },
+        {
+            "type": "Image",
+            "id": "581e7532-04f3-485a-8f4f-9688aaf19cbf",
+            "label": "instrucctions",
+            "texture": {
+                "key": "dojo",
+                "frame": "instrucctions"
+            },
+            "x": 690,
+            "y": 446
+        },
+        {
+            "type": "Image",
+            "id": "48dbcf5a-a18f-444c-8312-f779791b70ee",
+            "label": "stand",
+            "texture": {
+                "key": "dojo",
+                "frame": "stand"
+            },
+            "x": 1094,
+            "y": 498
+        },
+        {
+            "type": "Image",
+            "id": "bdaa82a9-7692-43c8-ac36-f6d0e09324ec",
+            "label": "tree",
+            "texture": {
+                "key": "dojo",
+                "frame": "tree"
+            },
+            "x": 1249,
+            "y": 517
+        },
+        {
+            "type": "Image",
+            "id": "870a5831-7a9c-468b-8113-e5d4a9bdac59",
+            "label": "cauldron_back",
+            "texture": {
+                "key": "dojo",
+                "frame": "cauldron_back"
+            },
+            "x": 952,
+            "y": 563
+        },
+        {
+            "type": "Sprite",
+            "id": "88573e86-9d27-4723-b036-1fe48450b171",
+            "label": "sensei",
+            "scope": "CLASS",
+            "texture": {
+                "key": "dojo",
+                "frame": "sensei0001"
+            },
+            "x": 1084,
+            "y": 492
+        },
+        {
+            "type": "Sprite",
+            "id": "8b81514f-0dd2-4c86-9cc9-1489ec45f23f",
+            "label": "thirdattempt",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "thirdattempt",
+            "Animation.end": 118,
+            "texture": {
+                "key": "dojo",
+                "frame": "thirdattempt0001"
+            },
+            "x": 1740,
+            "y": 529
+        },
+        {
+            "type": "Image",
+            "id": "4232350e-a89d-44b8-917d-13555a7e7e43",
+            "label": "cauldron_front",
+            "texture": {
+                "key": "dojo",
+                "frame": "cauldron_front"
+            },
+            "x": 1743,
+            "y": 650
+        },
+        {
+            "type": "Rectangle",
+            "id": "02a61be2-2f97-4480-a3be-649257be5b61",
+            "label": "senseitangle",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onSenseiHover()",
+            "SimpleButton.hoverOutCallback": "() => this.onSenseiOut()",
+            "MoveTo.x": "1111",
+            "MoveTo.y": "613",
+            "x": 1104,
+            "y": 512,
+            "alpha": 0.000001,
+            "isFilled": true,
+            "width": 250,
+            "height": 200
+        },
+        {
+            "type": "Rectangle",
+            "id": "5e451148-ba15-4e8a-8c3f-d11bc04e86aa",
+            "label": "rectangle_1",
+            "x": 1111,
+            "y": 613,
+            "visible": false,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "619a388f-0204-438e-9bf4-fd10577edfb3",
+            "label": "rectangle_2",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.onSenseiEnter()",
+            "x": 1098,
+            "y": 572,
+            "width": 200,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "ce353443-9386-48d5-88ad-0502710732b6",
+            "label": "interfaceIcons",
+            "scope": "CLASS",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "cards_button",
+            "Button.callback": "() => this.onNinjaProgress()",
+            "texture": {
+                "key": "dojo",
+                "frame": "cards_button"
+            },
+            "x": 1427,
+            "y": 965,
+            "originY": 1.245409073326819
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "09507045-c43d-47ba-bb5e-e528ddec4255",
+            "label": "sort"
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "id": "18e692c1-d98e-4507-b94d-26191d2f102d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "fa66fc56-bc73-4525-aef5-90afbb1f43ab",
+            "label": "container_3",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "59434539-27c6-447b-9864-7381cd8c8a31",
+                    "label": "bear0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "bear",
+                    "Button.callback": "() => this.interface.prompt.showItem(5006)",
+                    "Button.pixelPerfect": true,
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "forestprizes",
+                        "frame": "bear0001"
+                    },
+                    "x": 87
+                },
+                {
+                    "type": "Image",
+                    "id": "f0efff54-1625-4235-9ed5-ac89f4cb4e35",
+                    "label": "shelf_1",
+                    "texture": {
+                        "key": "forestprizes",
+                        "frame": "shelf"
+                    },
+                    "x": 86,
+                    "y": 117
+                },
+                {
+                    "type": "Image",
+                    "id": "5f387aa3-02af-4a2f-94ea-025efdae0e5e",
+                    "label": "ticketsign",
+                    "texture": {
+                        "key": "forestprizes",
+                        "frame": "ticketsign1"
+                    },
+                    "x": 88,
+                    "y": 137
+                },
+                {
+                    "type": "Image",
+                    "id": "fed4198c-a820-47cf-8abf-038d73244a5e",
+                    "label": "ticketicon_1",
+                    "texture": {
+                        "key": "forestprizes",
+                        "frame": "ticketicon"
+                    },
+                    "x": 142,
+                    "y": 136
+                },
+                {
+                    "type": "Text",
+                    "id": "de39cdbf-2344-4f30-b8c0-258202787935",
+                    "label": "text",
+                    "x": 73,
+                    "y": 134,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "250",
+                    "fixedWidth": 150,
+                    "paddingLeft": 10,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "50px",
+                    "fontStyle": "bold italic",
+                    "color": "#3d3120ff",
+                    "shadow.offsetX": 3,
+                    "shadow.offsetY": 3,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#1b0e0e51"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

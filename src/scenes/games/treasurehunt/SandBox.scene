@@ -1,0 +1,3973 @@
+{
+    "id": "d05d1c36-ac03-4965-80fa-79e8df704965",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "5d716e50-7a3d-439f-b74a-79e6a91a6745",
+            "label": "container_2",
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "43b8e458-20cc-4225-af49-70297b763f7d",
+                    "label": "bottomLayer",
+                    "scope": "CLASS",
+                    "x": 5,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "a0b6fed6-f12b-44fe-b162-49676e8abc2a",
+                            "label": "bottomLayerImg",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "bottomLayer"
+                            },
+                            "x": 178.97644961782962,
+                            "y": 178.98434571495147,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6b4309ae-a994-45f3-8634-b349e33607e3",
+                    "label": "middleLayer",
+                    "scope": "CLASS",
+                    "x": 5,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "7e559617-638f-4062-8e77-7f217f84621a",
+                            "label": "dt101",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "764467b7-bdbd-4e54-9da5-c7e0977dc5e3",
+                            "label": "dt102",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3bdb351e-7c6e-46f6-9dda-6bb10927dab9",
+                            "label": "dt104",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3c52e9b8-7927-4865-a295-eebf24d85f8c",
+                            "label": "dt103",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "861e5de6-d4b3-4fd0-8876-a68ae46ee6c0",
+                            "label": "dt105",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c6227c53-e9af-491d-a766-4da24fc7c9a2",
+                            "label": "dt110",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "81a44fca-eba1-4171-a628-61c52ed5281e",
+                            "label": "dt108",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7465136e-6d6d-4ccc-9866-b5ca9ba4af22",
+                            "label": "dt109",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ee8c76f6-cfdd-4109-b98e-cf87f7a99bb2",
+                            "label": "dt106",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7e7a2788-c64c-45ec-b5af-53bc75406f58",
+                            "label": "dt107",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5b5ada37-09b8-47b9-8dd9-d74e0282e965",
+                            "label": "dt207",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f122acb5-e962-48e0-b4e4-ec947d3e5198",
+                            "label": "dt206",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f2213cf7-ea6b-48d8-b95d-5ee3b3d89b83",
+                            "label": "dt209",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a6189bcc-4ca1-4c02-a7eb-f2b8e4a2232e",
+                            "label": "dt208",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "82b57a53-a387-4c54-9c92-0d8006185f3d",
+                            "label": "dt210",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c1b27976-27d3-49d4-9e37-9917ea3f4210",
+                            "label": "dt205",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e05daaca-1564-48bf-9028-3bd8f49b58cd",
+                            "label": "dt203",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "6901de1e-27ef-43e4-a2fc-d57b17c6d09b",
+                            "label": "dt204",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c5d4ac2c-77d8-4939-8755-4086f452643e",
+                            "label": "dt202",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ba757d3f-ed95-4c56-a435-95d39ff7f046",
+                            "label": "dt201",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a68a4310-5c4a-4052-bc47-e8d29eb0bc5d",
+                            "label": "dt301",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "518713be-fb87-4fff-88a1-cab9432a1929",
+                            "label": "dt401",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2c1c348e-46b5-42bc-b56e-8ba9534ad48a",
+                            "label": "dt402",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e5010af6-2ce5-44a6-81e4-3485abd7a49e",
+                            "label": "dt404",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f3a4cc13-d7ec-4b96-8a80-62df53c447b9",
+                            "label": "dt403",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "adf8cd08-a346-4a34-85c5-9566039a68cf",
+                            "label": "dt405",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3222d55e-c0f6-4084-a2db-63241e59d1cf",
+                            "label": "dt410",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "29b38fc5-64cf-4e19-853f-7d2cf63738b1",
+                            "label": "dt408",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9b5ae872-83ad-4bb6-bb70-b889a6f9ca05",
+                            "label": "dt409",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cb96902d-ea2d-4d9f-b90d-3dae8e796af2",
+                            "label": "dt406",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "6733e90c-ddd5-4ac8-a481-981cca7107f5",
+                            "label": "dt407",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7a8521e6-be69-4ece-9a1b-138d863be4c1",
+                            "label": "dt307",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "233e6f22-608a-41da-a70d-455dea61aa48",
+                            "label": "dt306",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "27c008f8-f358-43d1-90f7-8cb2376ce061",
+                            "label": "dt309",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "caa6b9e8-fe38-436d-8090-ed24f75a634f",
+                            "label": "dt308",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4c011be1-9b11-4b6d-a0e2-756c623e7703",
+                            "label": "dt310",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9d46bd02-2baa-4243-adb9-68ce7c2f099c",
+                            "label": "dt305",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "52ba64ff-eec8-4257-8764-74c5a853c2ae",
+                            "label": "dt303",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c41addff-a742-441b-b708-fd6166fb1e4f",
+                            "label": "dt304",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c3d4e8b1-87e1-4dca-8890-b0b2de682f68",
+                            "label": "dt302",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b9760f80-d98f-46ba-b7c1-fa1b84264556",
+                            "label": "dt701",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "62bd4110-4bd7-4fe0-a389-fef915152323",
+                            "label": "dt801",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fcbe657c-9191-482d-9f16-04bdf1f32817",
+                            "label": "dt802",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "69b023e3-e157-4f3e-97b0-ebeae03a8821",
+                            "label": "dt702",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8f5e92f8-5c30-4256-81af-73d6135f9d0f",
+                            "label": "dt703",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b768b1b7-c878-405d-baa1-e4fac014e305",
+                            "label": "dt803",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "63f57817-ee19-4f37-8f26-7cdf253abf12",
+                            "label": "dt804",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e7129543-1799-4f67-9f28-41f77695fccb",
+                            "label": "dt704",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "706bfbe2-7e77-4eed-9ecf-60da64c248fd",
+                            "label": "dt706",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "586f1f80-4902-4014-86bf-75ffc234bc91",
+                            "label": "dt805",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "6f8fc63d-4e32-4c59-86a8-dfe1145e44fe",
+                            "label": "dt705",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b511bc73-0af2-477b-b657-324832bc48cf",
+                            "label": "dt806",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b33075e1-ae9b-4cc9-b389-c14a7afef430",
+                            "label": "dt807",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "63fc9f0f-ef6c-4663-922e-d6aae10e8f4f",
+                            "label": "dt707",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "694a95bc-cd98-4145-9cbf-8535091d868f",
+                            "label": "dt808",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "599ffcb0-8c2e-4f67-a35b-24d061cfb0ba",
+                            "label": "dt708",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2a75420a-ad22-44e4-b2ca-f4a22f1badf5",
+                            "label": "dt709",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "09c8e527-12ad-41eb-9879-ab3d9057b310",
+                            "label": "dt809",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cbe3a492-bd0d-4ded-b776-3e3baf7280a8",
+                            "label": "dt810",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "144205f3-f1ed-49dc-8776-6900b8cda48a",
+                            "label": "dt710",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "af6426a8-5d8f-482e-b657-90220748108f",
+                            "label": "dt901",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "bfe49280-8671-49fc-a1a0-72c33c03db83",
+                            "label": "dt1001",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ff794c97-5897-49ce-a1ee-74465c98ba81",
+                            "label": "dt1002",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "65564ffc-0570-4c21-8c06-0ed1d3c636ab",
+                            "label": "dt902",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ed0935e8-d1af-4d7a-913e-e118d511cfaa",
+                            "label": "dt903",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c6cf9418-58ee-4cfb-a1ed-2619ba2eee74",
+                            "label": "dt1003",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2bdd7d26-81f3-4dfb-9dfb-869bac28aea0",
+                            "label": "dt1004",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "893d0432-d0f2-4ff3-883c-f76e2ed44679",
+                            "label": "dt904",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "95190486-dc15-4512-8b51-09fa7e3e366f",
+                            "label": "dt905",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4a93ea03-5663-45f0-9f3f-51f5cebc3b99",
+                            "label": "dt1005",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5d12c907-a54c-465b-a8ba-8ec0d57fe547",
+                            "label": "dt1006",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a78877d7-1f15-45cf-b249-61489aa1ebb1",
+                            "label": "dt906",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "04c68c4d-73fa-4908-80d7-f9b6b2056bb3",
+                            "label": "dt907",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7649e9a3-2f4b-4e4f-b740-de8f5a2e19e6",
+                            "label": "dt1007",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "90aaf328-5ead-45cf-bd38-f68e11e92c3a",
+                            "label": "dt1009",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7a9eb186-051c-417c-9280-ce7e23658ea9",
+                            "label": "dt909",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0bfc6f0a-eff3-4abf-9f48-df8cb7da53ef",
+                            "label": "dt908",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cdd8faa5-f184-4309-a339-14d9a1bf5e3a",
+                            "label": "dt1008",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "de06cac3-5e11-4dcd-9eef-f47fc72c5294",
+                            "label": "dt910",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "abc68e96-9507-4acb-8ea7-97bf3db6a09f",
+                            "label": "dt1010",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7b6925b4-0658-410a-9769-9c0b4b1e6ab0",
+                            "label": "dt501",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ba520cb9-15cc-416a-a8aa-de7a5672e57d",
+                            "label": "dt502",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5fbbd36a-e441-4b93-850c-24e139653695",
+                            "label": "dt504",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e9fe9338-551b-469c-af78-c5075a62d0aa",
+                            "label": "dt503",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ed976d52-97e6-453d-9ac9-72764e7212e5",
+                            "label": "dt505",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4822fc5f-1e6a-4d49-a2ad-99d0520f3660",
+                            "label": "dt510",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8d678a2f-50f7-4a5a-8a84-8647ed87fab6",
+                            "label": "dt508",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1834b795-1d95-4d02-915d-64f3f07c66f0",
+                            "label": "dt509",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4eba7aca-207b-42f3-88e2-3524ca81ed33",
+                            "label": "dt506",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "bac4da5a-042f-4d69-a9ee-f2cb5732066c",
+                            "label": "dt507",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "197b6355-e5b2-4462-b105-6508cb164fdb",
+                            "label": "dt607",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "68886921-fa10-4a56-96f4-94b87f4f3c0b",
+                            "label": "dt606",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "feea182b-aa13-4e7c-ad2d-7a8a70a735ae",
+                            "label": "dt609",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "bfa3214b-0a45-476d-b730-d66b0c064079",
+                            "label": "dt608",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "48cb0db0-c2cb-494c-83bb-ff7529095cdf",
+                            "label": "dt610",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "16900bad-4d19-4182-b535-b4adcc7db354",
+                            "label": "dt605",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2788b3f5-cc29-44e8-a685-81774bb19410",
+                            "label": "dt603",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f0d5164c-05ad-47bf-834e-7ffcd4fd5183",
+                            "label": "dt604",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a470e39d-2ae2-45eb-b324-07e59f269c2e",
+                            "label": "dt602",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2e9d9204-2e19-42f8-a7bd-6c43c70a570c",
+                            "label": "dt601",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95,
+                            "tintTopLeft": "#cacaca",
+                            "tintTopRight": "#cacaca",
+                            "tintBottomLeft": "#cacaca",
+                            "tintBottomRight": "#cacaca"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "23aeefcc-ed93-430d-b49b-37283f19c00b",
+                    "label": "topLayer",
+                    "x": 5,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "0d6cdcc2-71f5-402a-beed-55b6c8cbd329",
+                            "label": "t101",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e591968b-39c2-4795-b821-8bfe46c89129",
+                            "label": "t102",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3c097b0c-55b6-48d6-9d22-89f0b5d211cd",
+                            "label": "t104",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5099711d-87ed-4f07-a5ee-14461461b8d6",
+                            "label": "t103",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "48c08c6c-77c6-4611-9cbf-79c070420d3e",
+                            "label": "t105",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ee766d2a-32cc-4442-ac35-b6f52b9e4dd6",
+                            "label": "t110",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7be57151-cecf-4fa6-97f6-033f751dd806",
+                            "label": "t108",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3a5cd536-985d-48c4-b777-6faa21b8bb21",
+                            "label": "t109",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "31cdc0c2-6481-4f4c-8e64-948617284147",
+                            "label": "t106",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7e6ef544-6574-4db0-bcca-95565074b22f",
+                            "label": "t107",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "356cf775-3d69-44c6-bd52-a1872ca988de",
+                            "label": "t207",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d3c74896-9115-48d6-ae94-58a5b1139fd3",
+                            "label": "t206",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b732da00-34dc-4b3d-a936-84ed5a0325b6",
+                            "label": "t209",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5793771b-4ddf-4b93-9e92-c4f24286d22b",
+                            "label": "t208",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b6a90ac9-a5ba-4571-8830-656e89ef71a4",
+                            "label": "t210",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a8f7e3bd-ae0a-4a36-ad5a-78dad3ca5803",
+                            "label": "t205",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "92614d5e-46fb-4abc-9c31-9a6ba0528f55",
+                            "label": "t203",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9d6f500f-6f86-4192-923a-1c1d44fb5fec",
+                            "label": "t204",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8cf331a5-891b-4705-955d-48d574561be9",
+                            "label": "t202",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d7ea9d94-7f22-42f1-866d-197b91a3543d",
+                            "label": "t201",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 40,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c32464f0-0262-4761-8767-7375de3b5203",
+                            "label": "t301",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "57150973-87f9-428c-829f-01514e6cfa4e",
+                            "label": "t401",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cd158811-7082-4f9e-b5e2-8642f0e1fe36",
+                            "label": "t402",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1e615e8f-2123-45f7-97ce-1f15af2dc47b",
+                            "label": "t404",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1d43d977-9bf9-4364-aa10-07ada75b0210",
+                            "label": "t403",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1451da28-4637-43e6-a274-1a49acc47664",
+                            "label": "t405",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3b877a2d-67da-481d-9de8-eda7b108332d",
+                            "label": "t410",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0aa5bd36-ec14-4caa-92cd-c9f836974f6f",
+                            "label": "t408",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fbc6d746-fc27-4f9c-b999-3e5c25f16aa4",
+                            "label": "t409",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "aa947194-dc02-4981-9f41-9103189f87d4",
+                            "label": "t406",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8d78ac32-1af7-4dc4-8b7d-916393c42d6a",
+                            "label": "t407",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 119,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4eab7168-5cfd-403e-a4a3-8f41df0f6045",
+                            "label": "t307",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "89eec70c-8d47-4c42-ba8a-5b38aed1afe2",
+                            "label": "t306",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "742f849c-a2ef-4418-b3ce-ec2285880232",
+                            "label": "t309",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c035dd59-0dd0-465c-adb7-9b113437e007",
+                            "label": "t308",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ef235392-08c0-432a-ab08-bdb9aaf10f4a",
+                            "label": "t310",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "20622c48-6a94-432c-b052-aef3d2e1ca37",
+                            "label": "t305",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "df13317b-c152-45a4-a6f3-cba0ac9da4af",
+                            "label": "t303",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5a5506d4-06ce-44f6-8f6f-0de27cd09200",
+                            "label": "t304",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d372731c-c3ba-482d-bbd5-82ce66001f3b",
+                            "label": "t302",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 79,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "261634da-854b-4122-b222-32765af05fbd",
+                            "label": "t701",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "155226ec-9684-4ff4-b470-cf8ec27ce65a",
+                            "label": "t801",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e4ef9c0f-3c29-4ae9-854e-dcf733f6ab89",
+                            "label": "t802",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9651500f-94e5-400c-b926-926c9efeecee",
+                            "label": "t702",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8d9b4767-6d34-4c22-b6e6-5ee97bd87ddb",
+                            "label": "t703",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9ffda32c-eb09-41c7-809d-f3e27bc3f0f4",
+                            "label": "t803",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e5811654-1eea-4ea7-b2f8-51cc7e614513",
+                            "label": "t804",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9c2fc59f-25bb-480e-bcba-b2ff6db1fa15",
+                            "label": "t704",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "96710b50-fa8a-488e-9025-436654ca9e12",
+                            "label": "t706",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7fa34089-d1bc-4e7c-8e09-d45f98ca0c0a",
+                            "label": "t805",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c0ec66f7-82f8-4ba5-9b7a-f0de0b7d8d76",
+                            "label": "t705",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4d801ea5-495b-4a75-88a8-d12cf1c43b9d",
+                            "label": "t806",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b9b4b4cc-f0d2-452e-b40e-fd8ff0c69a23",
+                            "label": "t807",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ceb0e9d1-4bdc-43c4-9c92-e74d54874079",
+                            "label": "t707",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "52a57f09-1aac-4250-bd1d-6b9cf5e63e15",
+                            "label": "t808",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b4b41933-8dff-46cc-9c63-49d03b35150d",
+                            "label": "t708",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "65d1faef-3ac6-431e-9d43-282765768fa5",
+                            "label": "t709",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1c2524b4-d8dd-432a-ace4-bc97f81ddd13",
+                            "label": "t809",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5ea370a6-843f-4f0b-b0a6-b3b1347df7bd",
+                            "label": "t810",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 279,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "74d9a620-e940-45db-877c-f96e0c7ab96f",
+                            "label": "t710",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 239,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9c3fa70f-0971-432c-ac81-2197217bba51",
+                            "label": "t901",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "41e26af2-6fe3-454d-bc61-a16fe64c6af1",
+                            "label": "t1001",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "111fff7d-1494-40df-961b-3ef37ba2c78a",
+                            "label": "t1002",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2d7723b2-504b-4dde-acd5-fcdf515ca8ed",
+                            "label": "t902",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f0ccddc8-db42-41ed-b440-80b6b89a7b68",
+                            "label": "t903",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "18a19f36-ef0d-45ef-bdca-52d3e88aa84c",
+                            "label": "t1003",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5bad6d4a-81f6-4634-b578-aa5723cb659a",
+                            "label": "t1004",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "24b8cb18-a3ee-4d33-a1a6-cb521d9e857a",
+                            "label": "t904",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "49875347-e98b-4764-ac86-1219c72a7a17",
+                            "label": "t905",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4496a7d6-2302-4757-a18e-1628f923fa40",
+                            "label": "t1005",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e74c6da9-1ed8-4e7a-9780-8d94ed9dedb7",
+                            "label": "t1006",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "38c3b34e-a886-4c83-b4d1-bd1046ae4afc",
+                            "label": "t906",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f2886205-7b0f-423d-905d-a10737c91af6",
+                            "label": "t907",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "87be7bef-881d-49ca-bd7b-ae24cf8139cd",
+                            "label": "t1007",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "dc277c99-e9f3-4ac8-91a9-b429b6d5750b",
+                            "label": "t1009",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ae433b42-39d5-4dea-88ef-58c55ccd8abc",
+                            "label": "t909",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c79cae61-b6fa-4e97-aa0b-4cd428a3ac9b",
+                            "label": "t908",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c7d20692-d572-4ced-983e-2f75ee39082e",
+                            "label": "t1008",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3fb36d28-2097-47a4-afc3-c356caaded24",
+                            "label": "t910",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 318,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8bf0107d-3763-4434-a9eb-e906443dd1f6",
+                            "label": "t1010",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 358,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b8a0bb58-43e3-4722-8c99-977ff6d34b81",
+                            "label": "t501",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f5299130-ff67-432e-a69f-4c1b935a3580",
+                            "label": "t502",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e843e11e-197f-4d5e-9341-9cd581145a82",
+                            "label": "t504",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5d4d4e6a-6db4-40a5-912c-cc4b27a37e12",
+                            "label": "t503",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "08e61d33-a70b-46c7-b457-b81cc58602c8",
+                            "label": "t505",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "89352ec6-b144-4d1e-96e2-292ff12dbc76",
+                            "label": "t510",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f70cd2d9-6cf1-41e7-8368-d77521df6f02",
+                            "label": "t508",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "54cb836f-4e95-4a4a-8460-8d2df299b23e",
+                            "label": "t509",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "026dd1bd-f667-44a0-8113-eee787932462",
+                            "label": "t506",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3529b29e-676b-4129-9ad9-0d8d23daeac4",
+                            "label": "t507",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 159,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "860476bd-c9ba-40ec-97b8-6515943eb6c2",
+                            "label": "t607",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 240,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d6d80914-16aa-4103-9b45-17a157af643b",
+                            "label": "t606",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 200,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5894b640-bdab-4134-b40a-c93f5482976f",
+                            "label": "t609",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 320,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d2bcefbc-1180-409a-84e3-577b13770d6e",
+                            "label": "t608",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 280,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "12735c96-9a76-45c7-99a0-734df6f18e79",
+                            "label": "t610",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 360,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4e50ae42-4022-4a70-858e-5d8dc61731b4",
+                            "label": "t605",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 160,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2fffca83-b50b-4673-8fcb-4931e318dea4",
+                            "label": "t603",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 80,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "799e7720-541d-4882-8cfd-d380b86619be",
+                            "label": "t604",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 120,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5f1ec96f-a3d1-41a9-a1fe-b6ef574cdb4c",
+                            "label": "t602",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "x": 40,
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c3bcd8ce-83c5-41a3-b13a-0c653cc29d23",
+                            "label": "t601",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "tiles/tile0001"
+                            },
+                            "y": 199,
+                            "scaleX": 0.95,
+                            "scaleY": 0.95
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ab929d47-7700-4e2f-90be-a133b72a2e66",
+                    "label": "player1DigBtns",
+                    "scope": "CLASS",
+                    "x": 173,
+                    "y": -1,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "3aaab9ee-0370-4734-bee6-23c410db62ff",
+                            "label": "row10Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearRow(10)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": -9,
+                            "y": 359,
+                            "angle": -90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cd5dd37d-b0c2-4d80-a525-4616afa29343",
+                            "label": "row9Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearRow(9)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": -9,
+                            "y": 320,
+                            "angle": -90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "08b2a923-a301-423d-9254-ef20df238ae3",
+                            "label": "row8Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearRow(8)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": -9,
+                            "y": 279,
+                            "angle": -90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2dc66bbc-a9d9-4c9e-8802-85a636af5bcc",
+                            "label": "row7Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearRow(7)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": -9,
+                            "y": 239,
+                            "angle": -90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e3311df9-e5b4-4464-86ef-bbadf09d168c",
+                            "label": "row6Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearRow(6)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": -9,
+                            "y": 200,
+                            "angle": -90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d7ba0253-9016-4183-8f61-a2214e9379b6",
+                            "label": "row5Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearRow(5)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": -9,
+                            "y": 161,
+                            "angle": -90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "eda2dcf6-6415-45db-b2dc-ba3654589a01",
+                            "label": "row4Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearRow(4)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": -9,
+                            "y": 120,
+                            "angle": -90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0b9b95c1-06a4-4677-8949-7809080a51bd",
+                            "label": "row3Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearRow(3)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": -9,
+                            "y": 80,
+                            "angle": -90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "dc70871c-8527-4b16-9a2a-a848f7096b3c",
+                            "label": "row2Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearRow(2)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": -9,
+                            "y": 41,
+                            "angle": -90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "aac947cd-bff2-4c38-94fd-347548a62724",
+                            "label": "row1Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearRow(1)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": -9,
+                            "angle": -90
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "22935b28-830e-41d2-bcf6-8365b1155278",
+                    "label": "player2DigBtns",
+                    "scope": "CLASS",
+                    "x": 3,
+                    "y": 159,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9d1d1836-af10-4bf2-9918-0ab470b68140",
+                            "label": "col10Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearColumn(10)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": 362
+                        },
+                        {
+                            "type": "Image",
+                            "id": "af880a8d-f226-4681-bddc-fdee6efaf5ce",
+                            "label": "col9Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearColumn(9)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": 322
+                        },
+                        {
+                            "type": "Image",
+                            "id": "da4195f5-843a-49b8-be4b-49a30a1f2439",
+                            "label": "col8Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearColumn(8)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": 283
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7407d00f-e3f2-489f-8165-50c1b1fe566d",
+                            "label": "col7Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearColumn(7)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": 242
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1cd8c2ae-9468-498b-b8c2-69aac61d88bd",
+                            "label": "col6Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearColumn(6)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": 200
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8c2258f6-7b5d-409e-90f3-058d17a5b6be",
+                            "label": "col5Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearColumn(5)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": 161
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fbc08427-957c-4e7f-9ca8-26cb43324c47",
+                            "label": "col4Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearColumn(4)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": 122
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cae97740-9d2e-44a5-88ee-be755a7dfa84",
+                            "label": "col3Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearColumn(3)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": 81
+                        },
+                        {
+                            "type": "Image",
+                            "id": "bba26834-63c1-4797-b4c0-d7c202df3b10",
+                            "label": "col2Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearColumn(2)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            },
+                            "x": 41
+                        },
+                        {
+                            "type": "Image",
+                            "id": "04f1ee7a-d81b-49e5-8405-70dad04cb2b6",
+                            "label": "col1Dig",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "digBtn",
+                            "Button.callback": "() => this.parentContainer.sendClearColumn(1)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "treasurehunt",
+                                "frame": "digBtn"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "50ce1d3d-eb67-47af-944c-8ac4e447c726",
+                    "label": "clearAnims",
+                    "x": 4,
+                    "y": -3,
+                    "list": [
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "1bf39930-3123-4c8a-bc63-a5097a54b08f",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index"
+                            ],
+                            "label": "row1Clear",
+                            "scope": "CLASS",
+                            "index": 1,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "383759a7-b1f4-428c-903c-e55360297cdd",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index"
+                            ],
+                            "label": "row2Clear",
+                            "scope": "CLASS",
+                            "index": 2,
+                            "x": 0,
+                            "y": 38
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "52bb4411-f1f1-407c-9074-07da05e17e86",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index"
+                            ],
+                            "label": "row3Clear",
+                            "scope": "CLASS",
+                            "index": 3,
+                            "x": 0,
+                            "y": 79
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "bf349382-3d99-44fe-a189-892493afe729",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index"
+                            ],
+                            "label": "row4Clear",
+                            "scope": "CLASS",
+                            "index": 4,
+                            "x": 0,
+                            "y": 118
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "def49b89-ca20-4061-8dc6-6562cab714ed",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index"
+                            ],
+                            "label": "row5Clear",
+                            "scope": "CLASS",
+                            "index": 5,
+                            "x": 0,
+                            "y": 158
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "d33551b7-6d84-4059-8831-d2d8ffca7a37",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index"
+                            ],
+                            "label": "row6Clear",
+                            "scope": "CLASS",
+                            "index": 6,
+                            "x": 0,
+                            "y": 199
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "0674149b-8bfd-425b-b3ca-335fbc4347a5",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index"
+                            ],
+                            "label": "row7Clear",
+                            "scope": "CLASS",
+                            "index": 7,
+                            "x": 0,
+                            "y": 239
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "fa7f7060-8fda-4333-bbaf-af7029a6014e",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index"
+                            ],
+                            "label": "row8Clear",
+                            "scope": "CLASS",
+                            "index": 8,
+                            "x": 0,
+                            "y": 278
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "b60d233f-5efc-4235-8187-7e988870d3b7",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index"
+                            ],
+                            "label": "row9Clear",
+                            "scope": "CLASS",
+                            "index": 9,
+                            "x": 0,
+                            "y": 317
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "b7f3eb2b-adcb-4dd5-b2d1-c42f7f5325cc",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index"
+                            ],
+                            "label": "row10Clear",
+                            "scope": "CLASS",
+                            "index": 10,
+                            "x": 0,
+                            "y": 357
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "be9e2c87-9dfb-4220-aabb-e914ed8656f2",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index",
+                                "direction"
+                            ],
+                            "label": "col1Clear",
+                            "scope": "CLASS",
+                            "direction": "column",
+                            "index": 1,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "db505800-3ead-4eb2-93cd-7b85501391c8",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index",
+                                "direction"
+                            ],
+                            "label": "col2Clear",
+                            "scope": "CLASS",
+                            "direction": "column",
+                            "index": 2,
+                            "x": 40,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "00723fd0-18e4-4897-8c79-867515a9d46a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index",
+                                "direction"
+                            ],
+                            "label": "col3Clear",
+                            "scope": "CLASS",
+                            "direction": "column",
+                            "index": 3,
+                            "x": 81,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "ad9c7333-4fff-4219-8f6a-468b856b8a22",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index",
+                                "direction"
+                            ],
+                            "label": "col4Clear",
+                            "scope": "CLASS",
+                            "direction": "column",
+                            "index": 4,
+                            "x": 121,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "9b7b5ea9-d5d0-4cc2-9ba4-4798f5acd203",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index",
+                                "direction"
+                            ],
+                            "label": "col5Clear",
+                            "scope": "CLASS",
+                            "direction": "column",
+                            "index": 5,
+                            "x": 159,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "b369f60a-b12b-4fe7-91fe-5ab4edc21a4d",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index",
+                                "direction"
+                            ],
+                            "label": "col6Clear",
+                            "scope": "CLASS",
+                            "direction": "column",
+                            "index": 6,
+                            "x": 199,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "3fed06e4-092a-491f-9f59-273bbcf12263",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index",
+                                "direction"
+                            ],
+                            "label": "col7Clear",
+                            "scope": "CLASS",
+                            "direction": "column",
+                            "index": 7,
+                            "x": 239,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "e6694b4b-e732-4a8d-a83e-dc974ba105e2",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index",
+                                "direction"
+                            ],
+                            "label": "col8Clear",
+                            "scope": "CLASS",
+                            "direction": "column",
+                            "index": 8,
+                            "x": 279,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "cd5b12e9-2fa7-41bb-9b05-14c423683a7c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index",
+                                "direction"
+                            ],
+                            "label": "col9Clear",
+                            "scope": "CLASS",
+                            "direction": "column",
+                            "index": 9,
+                            "x": 319,
+                            "y": 0
+                        },
+                        {
+                            "prefabId": "2ab75b38-3894-4db5-a2e0-9beeba1902ce",
+                            "id": "8ad6bb26-2b27-4476-9bae-fc2e243d8257",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "index",
+                                "direction"
+                            ],
+                            "label": "col10Clear",
+                            "scope": "CLASS",
+                            "direction": "column",
+                            "index": 10,
+                            "x": 359,
+                            "y": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "d0987e15-bf86-4347-b26e-1b2643ac830b",
+            "label": "digBtns",
+            "objectIds": [
+                "04f1ee7a-d81b-49e5-8405-70dad04cb2b6",
+                "bba26834-63c1-4797-b4c0-d7c202df3b10",
+                "cae97740-9d2e-44a5-88ee-be755a7dfa84",
+                "fbc08427-957c-4e7f-9ca8-26cb43324c47",
+                "8c2258f6-7b5d-409e-90f3-058d17a5b6be",
+                "1cd8c2ae-9468-498b-b8c2-69aac61d88bd",
+                "7407d00f-e3f2-489f-8165-50c1b1fe566d",
+                "da4195f5-843a-49b8-be4b-49a30a1f2439",
+                "af880a8d-f226-4681-bddc-fdee6efaf5ce",
+                "9d1d1836-af10-4bf2-9918-0ab470b68140",
+                "aac947cd-bff2-4c38-94fd-347548a62724",
+                "dc70871c-8527-4b16-9a2a-a848f7096b3c",
+                "0b9b95c1-06a4-4677-8949-7809080a51bd",
+                "eda2dcf6-6415-45db-b2dc-ba3654589a01",
+                "d7ba0253-9016-4183-8f61-a2214e9379b6",
+                "e3311df9-e5b4-4464-86ef-bbadf09d168c",
+                "2dc66bbc-a9d9-4c9e-8802-85a636af5bcc",
+                "08b2a923-a301-423d-9254-ef20df238ae3",
+                "cd5dd37d-b0c2-4d80-a525-4616afa29343",
+                "3aaab9ee-0370-4734-bee6-23c410db62ff"
+            ]
+        },
+        {
+            "id": "7e282ef4-1815-4a85-998a-a642c6cd3400",
+            "label": "clears",
+            "objectIds": [
+                "8ad6bb26-2b27-4476-9bae-fc2e243d8257",
+                "cd5b12e9-2fa7-41bb-9b05-14c423683a7c",
+                "e6694b4b-e732-4a8d-a83e-dc974ba105e2",
+                "3fed06e4-092a-491f-9f59-273bbcf12263",
+                "b369f60a-b12b-4fe7-91fe-5ab4edc21a4d",
+                "9b7b5ea9-d5d0-4cc2-9ba4-4798f5acd203",
+                "ad9c7333-4fff-4219-8f6a-468b856b8a22",
+                "00723fd0-18e4-4897-8c79-867515a9d46a",
+                "db505800-3ead-4eb2-93cd-7b85501391c8",
+                "be9e2c87-9dfb-4220-aabb-e914ed8656f2",
+                "b7f3eb2b-adcb-4dd5-b2d1-c42f7f5325cc",
+                "b60d233f-5efc-4235-8187-7e988870d3b7",
+                "fa7f7060-8fda-4333-bbaf-af7029a6014e",
+                "0674149b-8bfd-425b-b3ca-335fbc4347a5",
+                "d33551b7-6d84-4059-8831-d2d8ffca7a37",
+                "def49b89-ca20-4061-8dc6-6562cab714ed",
+                "bf349382-3d99-44fe-a189-892493afe729",
+                "52bb4411-f1f1-407c-9074-07da05e17e86",
+                "383759a7-b1f4-428c-903c-e55360297cdd",
+                "1bf39930-3123-4c8a-bc63-a5097a54b08f"
+            ]
+        }
+    ]
+}

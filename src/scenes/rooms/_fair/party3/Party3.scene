@@ -1,0 +1,753 @@
+{
+    "id": "747d0ab0-ee84-4a1c-b57d-dd8cd9c561a4",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/party3/fair-party3-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Party3",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "a6768fa1-6362-4cc0-abd4-88ab7dd1e907",
+            "label": "bg",
+            "scope": "CLASS",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "bg"
+            },
+            "x": 760,
+            "y": 480
+        },
+        {
+            "type": "Image",
+            "id": "544c0a66-ef6c-494b-adae-a8a585765543",
+            "label": "chair1",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chair1"
+            },
+            "x": 23.685038088712645,
+            "y": 681.5133895427333,
+            "originX": 0.574803132746219,
+            "originY": 0.3351338954273331
+        },
+        {
+            "type": "Image",
+            "id": "78dfa350-7dea-46c6-b3ae-6203db8a1459",
+            "label": "chair",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chair1"
+            },
+            "x": 58,
+            "y": 740,
+            "originX": 0.574803132746219,
+            "originY": 0.3351338954273331
+        },
+        {
+            "type": "Image",
+            "id": "f13919ef-75b9-4f03-94c2-46a8751bd4c4",
+            "label": "chairseat",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 173,
+            "y": 769,
+            "originX": 1,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "8ba0c84d-3f07-46a0-a1ca-fc4aa165e251",
+            "label": "chairback",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 130,
+            "y": 808.2943884569695,
+            "originY": 0.6695528280095049
+        },
+        {
+            "type": "Image",
+            "id": "961c1cd0-fc33-4d9b-8e62-b448275b2f49",
+            "label": "chairseat_1",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 242,
+            "y": 807,
+            "originX": 1,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "1bfdb7bf-56f0-4aea-9a20-091149e0bce9",
+            "label": "chairback_1",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 199,
+            "y": 846,
+            "originY": 0.6695528280095049
+        },
+        {
+            "type": "Image",
+            "id": "c3abe688-5bfe-4335-88b8-70aa253e73e0",
+            "label": "chairseat_2",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 312,
+            "y": 841,
+            "originX": 1,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "372ddf11-fdbf-47eb-9645-9a8151eadd21",
+            "label": "chairback_2",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 269,
+            "y": 880,
+            "originY": 0.6695528280095049
+        },
+        {
+            "type": "Image",
+            "id": "1b285a7b-7885-4a17-ac67-aed0ea05df4c",
+            "label": "chairseat_3",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 82,
+            "y": 808,
+            "originX": 1,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "a294f84b-29dc-4d5a-8b7c-5260081bc452",
+            "label": "chairback_3",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 39,
+            "y": 847,
+            "originY": 0.6695528280095049
+        },
+        {
+            "type": "Image",
+            "id": "c900b882-1e09-4019-9aa0-502473344d84",
+            "label": "chairseat_4",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 150,
+            "y": 846,
+            "originX": 1,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "cd89f10f-6c7e-4568-968f-1b102ecfc691",
+            "label": "chairback_4",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 107,
+            "y": 885,
+            "originY": 0.6695528280095049
+        },
+        {
+            "type": "Image",
+            "id": "d992eef7-7615-4708-8a73-cae62e2f3e45",
+            "label": "chairseat_5",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 220,
+            "y": 882,
+            "originX": 1,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "018dc2ab-6580-48b4-b870-b258f3565cac",
+            "label": "chairback_5",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 177,
+            "y": 921,
+            "originY": 0.6695528280095049
+        },
+        {
+            "type": "Image",
+            "id": "d9391277-f0e1-486a-bfcc-8469752dcba1",
+            "label": "chairseat_6",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 61,
+            "y": 893,
+            "originX": 1,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "851d6233-56a8-4bcf-902b-384e2973d3ce",
+            "label": "chairback_6",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 18,
+            "y": 932,
+            "originY": 0.6695528280095049
+        },
+        {
+            "type": "Image",
+            "id": "7cd790f6-d8ee-4da1-bf0c-9dbe36575b24",
+            "label": "chairseat_7",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 131,
+            "y": 932,
+            "originX": 1,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "f7520771-77a0-42bf-9437-8cd274066e68",
+            "label": "chairback_7",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 88,
+            "y": 971,
+            "originY": 0.6695528280095049
+        },
+        {
+            "type": "Image",
+            "id": "6d690674-2144-4080-bf9d-dd152dacb589",
+            "label": "chair_1",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chair1"
+            },
+            "x": 1506,
+            "y": 683,
+            "originX": 0.574803132746219,
+            "originY": 0.3351338954273331,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "99e03313-506f-4045-b43a-4c171c8dc575",
+            "label": "chair_2",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chair1"
+            },
+            "x": 1473,
+            "y": 739,
+            "originX": 0.574803132746219,
+            "originY": 0.3351338954273331,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "8ccc000b-bb7b-4aaa-9041-6d891b862f40",
+            "label": "chairseat_8",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 1411,
+            "y": 768,
+            "originX": 1,
+            "originY": 0,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "a5ab8b75-d554-43b7-a0d2-54205e33808d",
+            "label": "chairback_8",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 1389,
+            "y": 806,
+            "originY": 0.6695528280095049,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "58e789b3-ecf0-4fff-ae14-e882af87a0d2",
+            "label": "chairseat_9",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 1343,
+            "y": 806,
+            "originX": 1,
+            "originY": 0,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "84fcc373-27b7-4e5c-a5b0-ed026e177768",
+            "label": "chairback_9",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 1321,
+            "y": 844,
+            "originY": 0.6695528280095049,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "a3e5493a-5cd9-4fb5-9a08-877614b7fdf7",
+            "label": "chairseat_10",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 1271,
+            "y": 842,
+            "originX": 1,
+            "originY": 0,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "c94e1a7c-284e-4070-8540-b210b2174340",
+            "label": "chairback_10",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 1249,
+            "y": 880,
+            "originY": 0.6695528280095049,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "aff99c99-03ad-47bf-95ca-23cc2d8950c2",
+            "label": "chairseat_11",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 1503,
+            "y": 809,
+            "originX": 1,
+            "originY": 0,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "1c5f67b2-9432-4577-9ab6-2fe9103d5d4b",
+            "label": "chairback_11",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 1481,
+            "y": 847,
+            "originY": 0.6695528280095049,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "27a2d4c9-4909-4042-a0b8-9491bdfe23d2",
+            "label": "chairseat_12",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 1434,
+            "y": 846,
+            "originX": 1,
+            "originY": 0,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "1a86c77e-cd4a-404c-9fc4-203e4dd05326",
+            "label": "chairback_12",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 1412,
+            "y": 884,
+            "originY": 0.6695528280095049,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "83ef8aa5-6639-4642-bc5a-7a476190a398",
+            "label": "chairseat_13",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 1364,
+            "y": 882,
+            "originX": 1,
+            "originY": 0,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "671e73bc-d422-444e-ac00-4ca725b9e084",
+            "label": "chairback_13",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 1342,
+            "y": 920,
+            "originY": 0.6695528280095049,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "f63b53ce-5c4c-47d2-925d-3c0523cac587",
+            "label": "chairseat_14",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 1523,
+            "y": 894,
+            "originX": 1,
+            "originY": 0,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "73b09276-92ab-42c4-9beb-521323613f45",
+            "label": "chairback_14",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 1501,
+            "y": 932,
+            "originY": 0.6695528280095049,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "50b30836-210f-4c7c-aef5-9d4ba184aad2",
+            "label": "chairseat_15",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairseat"
+            },
+            "x": 1447,
+            "y": 920,
+            "originX": 1,
+            "originY": 0,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "61a490c2-1cf8-4295-a2a0-0afc3cd9e11b",
+            "label": "chairback_15",
+            "texture": {
+                "key": "fair-party3",
+                "frame": "chairback"
+            },
+            "x": 1425,
+            "y": 958,
+            "originY": 0.6695528280095049,
+            "flipX": true
+        },
+        {
+            "type": "Container",
+            "id": "ae3b479f-d788-44d6-912e-a23f9b1c8c9c",
+            "label": "pickActContainer",
+            "scope": "CLASS",
+            "x": 760,
+            "y": 57,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "f3bf7451-c0de-4534-8ad7-4fe9a37be6a3",
+                    "label": "pick_act_bg",
+                    "texture": {
+                        "key": "fair-party3",
+                        "frame": "pick_act/bg"
+                    },
+                    "y": 84
+                },
+                {
+                    "type": "Image",
+                    "id": "b9a4c845-aea5-460f-9f94-c80d1ac0c51b",
+                    "label": "pick_act_lettering",
+                    "texture": {
+                        "key": "fair-party3",
+                        "frame": "pick_act/lettering"
+                    },
+                    "x": -8,
+                    "y": 57
+                },
+                {
+                    "type": "Image",
+                    "id": "d7cb991b-c736-486b-b260-6676bb28490e",
+                    "label": "pick_act_black0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pick_act/black",
+                    "Button.callback": "() => this.pickAct(1)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "fair-party3",
+                        "frame": "pick_act/black0001"
+                    },
+                    "x": -285,
+                    "y": 143
+                },
+                {
+                    "type": "Image",
+                    "id": "88bd4a9d-68c3-409f-a7b8-2811eaee3eb3",
+                    "label": "pick_act_white0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pick_act/white",
+                    "Button.callback": "() => this.pickAct(2)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "fair-party3",
+                        "frame": "pick_act/white0001"
+                    },
+                    "x": -212,
+                    "y": 137
+                },
+                {
+                    "type": "Image",
+                    "id": "a826e4f5-7ab8-4a29-bb9b-59a501bf8faa",
+                    "label": "pick_act_red0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pick_act/red",
+                    "Button.callback": "() => this.pickAct(3)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "fair-party3",
+                        "frame": "pick_act/red0001"
+                    },
+                    "x": -141,
+                    "y": 131
+                },
+                {
+                    "type": "Image",
+                    "id": "9c89164c-d33f-4db8-9c72-107702edbf88",
+                    "label": "pick_act_pink0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pick_act/pink",
+                    "Button.callback": "() => this.pickAct(4)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "fair-party3",
+                        "frame": "pick_act/pink0001"
+                    },
+                    "x": -70,
+                    "y": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "1a0d5579-fb00-47da-821b-8ebe27ccc7b0",
+                    "label": "pick_act_green0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pick_act/green",
+                    "Button.callback": "() => this.pickAct(5)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "fair-party3",
+                        "frame": "pick_act/green0001"
+                    },
+                    "x": 2,
+                    "y": 124
+                },
+                {
+                    "type": "Image",
+                    "id": "ad813c28-31ad-4404-a58d-c13250fb2d1c",
+                    "label": "pick_act_blue0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pick_act/blue",
+                    "Button.callback": "() => this.pickAct(6)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "fair-party3",
+                        "frame": "pick_act/blue0001"
+                    },
+                    "x": 75,
+                    "y": 127
+                },
+                {
+                    "type": "Image",
+                    "id": "e60399de-c5b6-423b-8194-cff55f7a0422",
+                    "label": "pick_act_purple0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pick_act/purple",
+                    "Button.callback": "() => this.pickAct(7)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "fair-party3",
+                        "frame": "pick_act/purple0001"
+                    },
+                    "x": 147,
+                    "y": 131
+                },
+                {
+                    "type": "Image",
+                    "id": "984b7d2e-2cd3-49db-a216-20f4d795c9b9",
+                    "label": "pick_act_orange0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pick_act/orange",
+                    "Button.callback": "() => this.pickAct(8)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "fair-party3",
+                        "frame": "pick_act/orange0001"
+                    },
+                    "x": 215,
+                    "y": 138
+                },
+                {
+                    "type": "Image",
+                    "id": "e3ae23cc-f013-4672-82aa-47b3cf04fbaf",
+                    "label": "pick_act_brown0001",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "pick_act/brown",
+                    "Button.callback": "() => this.pickAct(9)",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "fair-party3",
+                        "frame": "pick_act/brown0001"
+                    },
+                    "x": 281,
+                    "y": 146
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "42d4784e-1260-4c98-99bd-521ec0b37940",
+                    "label": "pickActBlock",
+                    "scope": "CLASS",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 2,
+                    "y": 144,
+                    "scaleX": 5.791834152585762,
+                    "scaleY": 1.244723533627,
+                    "visible": false,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "528d71e2-a474-4325-aa76-2ccaa2e1016f",
+            "label": "sort",
+            "objectIds": [
+                "61a490c2-1cf8-4295-a2a0-0afc3cd9e11b",
+                "50b30836-210f-4c7c-aef5-9d4ba184aad2",
+                "73b09276-92ab-42c4-9beb-521323613f45",
+                "f63b53ce-5c4c-47d2-925d-3c0523cac587",
+                "671e73bc-d422-444e-ac00-4ca725b9e084",
+                "83ef8aa5-6639-4642-bc5a-7a476190a398",
+                "1a86c77e-cd4a-404c-9fc4-203e4dd05326",
+                "27a2d4c9-4909-4042-a0b8-9491bdfe23d2",
+                "1c5f67b2-9432-4577-9ab6-2fe9103d5d4b",
+                "aff99c99-03ad-47bf-95ca-23cc2d8950c2",
+                "c94e1a7c-284e-4070-8540-b210b2174340",
+                "a3e5493a-5cd9-4fb5-9a08-877614b7fdf7",
+                "84fcc373-27b7-4e5c-a5b0-ed026e177768",
+                "58e789b3-ecf0-4fff-ae14-e882af87a0d2",
+                "a5ab8b75-d554-43b7-a0d2-54205e33808d",
+                "8ccc000b-bb7b-4aaa-9041-6d891b862f40",
+                "99e03313-506f-4045-b43a-4c171c8dc575",
+                "6d690674-2144-4080-bf9d-dd152dacb589",
+                "f7520771-77a0-42bf-9437-8cd274066e68",
+                "7cd790f6-d8ee-4da1-bf0c-9dbe36575b24",
+                "851d6233-56a8-4bcf-902b-384e2973d3ce",
+                "d9391277-f0e1-486a-bfcc-8469752dcba1",
+                "018dc2ab-6580-48b4-b870-b258f3565cac",
+                "d992eef7-7615-4708-8a73-cae62e2f3e45",
+                "cd89f10f-6c7e-4568-968f-1b102ecfc691",
+                "c900b882-1e09-4019-9aa0-502473344d84",
+                "a294f84b-29dc-4d5a-8b7c-5260081bc452",
+                "1b285a7b-7885-4a17-ac67-aed0ea05df4c",
+                "372ddf11-fdbf-47eb-9645-9a8151eadd21",
+                "c3abe688-5bfe-4335-88b8-70aa253e73e0",
+                "1bfdb7bf-56f0-4aea-9a20-091149e0bce9",
+                "961c1cd0-fc33-4d9b-8e62-b448275b2f49",
+                "8ba0c84d-3f07-46a0-a1ca-fc4aa165e251",
+                "f13919ef-75b9-4f03-94c2-46a8751bd4c4",
+                "78dfa350-7dea-46c6-b3ae-6203db8a1459",
+                "544c0a66-ef6c-494b-adae-a8a585765543"
+            ]
+        }
+    ]
+}

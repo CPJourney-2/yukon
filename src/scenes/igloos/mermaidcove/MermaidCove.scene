@@ -1,0 +1,76 @@
+{
+    "id": "d037dbf0-4893-4069-86d2-d24b0a3865c4",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/mermaidcove/mermaidcove-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "MermaidCove",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "10cc4116-4336-43fe-8ca3-1100c2469f0b",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "mermaidcove",
+                "frame": "floor"
+            },
+            "x": -42,
+            "y": -144,
+            "originX": 0,
+            "originY": 0,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "7985aaf1-6261-406b-add2-543c4e81072f",
+            "label": "background",
+            "components": [],
+            "texture": {
+                "key": "mermaidcove",
+                "frame": "background"
+            },
+            "x": -42,
+            "y": -144,
+            "originX": 0,
+            "originY": 0,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "36fa4493-bcb2-4783-bd14-95b6fc0ae025",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 392,
+            "y": 697,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0,
+            "originY": 0,
+            "width": 128,
+            "height": 128,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

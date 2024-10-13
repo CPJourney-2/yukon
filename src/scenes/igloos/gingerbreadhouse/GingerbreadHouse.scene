@@ -1,0 +1,87 @@
+{
+    "id": "a895be50-9e19-4f33-9b38-fa447cfc9183",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/gingerbreadhouse/gingerbreadhouse-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "GingerbreadHouse",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "f2fc1f4b-a447-4774-b688-ccd6a5ac31ed",
+            "label": "bg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "gingerbreadhouse",
+                "frame": "bg"
+            },
+            "x": 760,
+            "y": 551,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "81a6400d-2f18-48f8-a301-8a41d3bf7cb0",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "gingerbreadhouse",
+                "frame": "floor"
+            },
+            "x": 778,
+            "y": 739,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ec28c60c-719e-4570-a7b7-dc3fdf30a43a",
+            "label": "fg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "gingerbreadhouse",
+                "frame": "fg"
+            },
+            "x": 755,
+            "y": 237,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "4cbab0d7-9c66-4130-afcc-5732fd407485",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 599.8059425569436,
+            "y": 594.0024405137626,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.47739292200966954,
+            "originY": 0.8698640437370897,
+            "width": 128,
+            "height": 128,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

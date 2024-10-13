@@ -1,0 +1,72 @@
+{
+    "id": "c4050678-c895-42e0-b92a-d6ff5f3fe64e",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/igloos/buildings/sprites/icecastle/icecastle-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "IceCastle",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "62131354-b5c5-4129-8bf6-8c2d1e7d32ab",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "icecastle",
+                "frame": "floor"
+            },
+            "x": 760,
+            "y": 414,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "eb56d61c-b3ae-4915-9ea7-00c065b802ef",
+            "label": "door",
+            "components": [],
+            "texture": {
+                "key": "icecastle",
+                "frame": "door"
+            },
+            "x": 758,
+            "y": 516,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "0ee401f4-b29b-4f3b-9b8e-4fe19bca51e4",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 765.0000000000001,
+            "y": 608.0000000000001,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.5104776570378418,
+            "originY": 0.6978474073698582,
+            "width": 128,
+            "height": 128,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

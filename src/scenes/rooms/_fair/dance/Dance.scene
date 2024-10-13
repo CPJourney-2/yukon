@@ -1,0 +1,963 @@
+{
+    "id": "17a9e516-e1e2-47c9-9492-49fe717c06c9",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/dance/dance-pack.json",
+            "yukon/assets/media/rooms/_fair/dance/fair-dance-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Dance",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "827705b8-e5f0-4b55-a123-ebd0b4c793bf",
+            "label": "bg",
+            "texture": {
+                "key": "fair-dance",
+                "frame": "backgroundDance"
+            },
+            "x": 760,
+            "y": 480
+        },
+        {
+            "type": "Image",
+            "id": "b506480b-8171-4d98-b6d0-e060959d1bec",
+            "label": "door_behind",
+            "texture": {
+                "key": "dance",
+                "frame": "door/behind"
+            },
+            "x": 154,
+            "y": 434,
+            "tintTopLeft": "#7e7e7e",
+            "tintTopRight": "#7e7e7e",
+            "tintBottomLeft": "#7e7e7e",
+            "tintBottomRight": "#7e7e7e"
+        },
+        {
+            "type": "Sprite",
+            "id": "0d666dba-aac4-4c5d-899e-9648089b32db",
+            "label": "door",
+            "components": [
+                "SimpleButton",
+                "Animation",
+                "MoveTo"
+            ],
+            "Animation.key": "door/door",
+            "Animation.end": 5,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "Animation.onHover": true,
+            "MoveTo.x": 220,
+            "MoveTo.y": 540,
+            "texture": {
+                "key": "dance",
+                "frame": "door/door0001"
+            },
+            "x": 154,
+            "y": 440,
+            "originY": 0.5016722408026756,
+            "tintTopLeft": "#7e7e7e",
+            "tintTopRight": "#7e7e7e",
+            "tintBottomLeft": "#7e7e7e",
+            "tintBottomRight": "#7e7e7e"
+        },
+        {
+            "type": "Image",
+            "id": "072a9d40-7f36-4292-a10f-448da1e80d9e",
+            "label": "door_frame",
+            "texture": {
+                "key": "dance",
+                "frame": "door/frame"
+            },
+            "x": 152,
+            "y": 437,
+            "originX": 0.5031446540880503,
+            "tintTopLeft": "#7e7e7e",
+            "tintTopRight": "#7e7e7e",
+            "tintBottomLeft": "#7e7e7e",
+            "tintBottomRight": "#7e7e7e"
+        },
+        {
+            "type": "Image",
+            "id": "bfdeced5-573b-4a0d-a376-4886bbbe7534",
+            "label": "neonOutlines",
+            "texture": {
+                "key": "fair-dance",
+                "frame": "neonOutlines"
+            },
+            "x": 761,
+            "y": 375
+        },
+        {
+            "type": "Sprite",
+            "id": "a8eb744d-dc90-456b-b1ab-c134085598c0",
+            "label": "neon",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "neon",
+            "Animation.end": 38,
+            "texture": {
+                "key": "fair-dance",
+                "frame": "neon0001"
+            },
+            "x": 657,
+            "y": 167
+        },
+        {
+            "type": "Sprite",
+            "id": "48b2b0ba-2bad-44d8-b12b-296c9b6d3fa3",
+            "label": "dancefloor",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "dancefloor",
+            "Animation.end": 190,
+            "texture": {
+                "key": "fair-dance",
+                "frame": "dancefloor0001"
+            },
+            "x": 646,
+            "y": 698
+        },
+        {
+            "type": "Image",
+            "id": "5b00960f-fbed-4eb1-9360-497cb991b12e",
+            "label": "stage",
+            "texture": {
+                "key": "dance",
+                "frame": "stage"
+            },
+            "x": 660,
+            "y": 388,
+            "originX": 0.5008576329331046,
+            "originY": 0.5028248587570622,
+            "tintTopLeft": "#7e7e7e",
+            "tintTopRight": "#7e7e7e",
+            "tintBottomLeft": "#7e7e7e",
+            "tintBottomRight": "#7e7e7e"
+        },
+        {
+            "type": "Image",
+            "id": "adfa27af-cd92-4b74-8b62-31b2ae1aa1c2",
+            "label": "fg_wire",
+            "texture": {
+                "key": "fair-dance",
+                "frame": "wires"
+            },
+            "x": 217,
+            "y": 32,
+            "originX": 0.5106382978723404,
+            "originY": 0.5063291139240507
+        },
+        {
+            "type": "Sprite",
+            "id": "2bea90c4-d813-48d7-b039-20dcfd8c051c",
+            "label": "fg_speaker_1",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "speakerTLB",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fair-dance",
+                "frame": "speakerTLB0001"
+            },
+            "x": 268,
+            "y": 151
+        },
+        {
+            "type": "Sprite",
+            "id": "cbb6e959-c4b1-4d22-adac-a6554d401318",
+            "label": "fg_speaker_2",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "speakerTLS",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fair-dance",
+                "frame": "speakerTLS0001"
+            },
+            "x": 170,
+            "y": 131,
+            "originX": 0.503448275862069,
+            "originY": 0.5026455026455027
+        },
+        {
+            "type": "Image",
+            "id": "33ef0225-8757-4bcb-b044-b4f46779abf9",
+            "label": "fg_wire_1",
+            "texture": {
+                "key": "fair-dance",
+                "frame": "wires"
+            },
+            "x": 1130,
+            "y": 32,
+            "originX": 0.5106382978723404,
+            "originY": 0.5063291139240507,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "10195d7e-54b1-4e52-a938-07d0824977a7",
+            "label": "fg_speaker_1_1",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "speakerTLB",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fair-dance",
+                "frame": "speakerTLB0001"
+            },
+            "x": 1080,
+            "y": 151,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "5afcee12-4520-4be3-ba1c-f7ff61ee1643",
+            "label": "speaker_3",
+            "texture": {
+                "key": "fair-dance",
+                "frame": "speakerBL"
+            },
+            "x": 119,
+            "y": 827,
+            "originX": 0.5297297297297298,
+            "originY": 0.8456140350877193
+        },
+        {
+            "type": "Sprite",
+            "id": "d011f2f7-fdee-4885-9cb2-f479ae51ab32",
+            "label": "fg_speaker_2_1",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "speakerTLS",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fair-dance",
+                "frame": "speakerTLS0001"
+            },
+            "x": 1178,
+            "y": 131,
+            "originX": 0.503448275862069,
+            "originY": 0.5026455026455027,
+            "flipX": true
+        },
+        {
+            "type": "Sprite",
+            "id": "63796597-60bb-489c-b7a9-06624cc1ea34",
+            "label": "speaker_1",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "speaker",
+            "Animation.end": 10,
+            "texture": {
+                "key": "fair-dance",
+                "frame": "speaker0001"
+            },
+            "x": 338,
+            "y": 432,
+            "originX": 0.5655737704918032,
+            "originY": 0.770949720670391
+        },
+        {
+            "type": "Image",
+            "id": "adf2a2f8-ec26-4c74-a8eb-78a53a0c45f7",
+            "label": "lights_frame",
+            "texture": {
+                "key": "dance",
+                "frame": "lights/frame"
+            },
+            "x": 665,
+            "y": 95,
+            "tintTopLeft": "#838383",
+            "tintTopRight": "#838383",
+            "tintBottomLeft": "#838383",
+            "tintBottomRight": "#838383"
+        },
+        {
+            "type": "Sprite",
+            "id": "3b32268a-d724-470f-a666-e2fca35081db",
+            "label": "lights",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "lights/lights",
+            "Animation.end": 80,
+            "texture": {
+                "key": "dance",
+                "frame": "lights/lights0001"
+            },
+            "x": 666,
+            "y": 94
+        },
+        {
+            "type": "Sprite",
+            "id": "ce4327c6-8e34-40ff-bb8c-0308c70a0c96",
+            "label": "desk0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "dancetable",
+            "Animation.end": 55,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "fair-dance",
+                "frame": "dancetable0001"
+            },
+            "x": 1122,
+            "y": 501
+        },
+        {
+            "type": "Image",
+            "id": "62fc3321-b915-466f-8912-d4add5d55f0e",
+            "label": "stairs",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "stairs",
+            "MoveTo.x": 1324,
+            "MoveTo.y": 769,
+            "texture": {
+                "key": "dance",
+                "frame": "stairs"
+            },
+            "x": 1361,
+            "y": 433,
+            "originX": 0.5026455026455027,
+            "originY": 0.5010141987829615
+        },
+        {
+            "type": "Container",
+            "id": "4dfc59f6-228a-404e-9295-f232e65fb617",
+            "label": "puffle_speaker",
+            "x": 1160,
+            "y": 732,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "6c4cba5d-d47d-4d86-be9f-c3bc2c1f43c5",
+                    "label": "speaker_4",
+                    "texture": {
+                        "key": "fair-dance",
+                        "frame": "speakerBR"
+                    },
+                    "x": 2,
+                    "y": 1.4705234832657652,
+                    "originX": 0.45918367346938777,
+                    "originY": 0.8421052631578947
+                },
+                {
+                    "type": "Sprite",
+                    "id": "0533211a-1c41-4299-9067-7b5f97c80689",
+                    "label": "puffle",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "dance",
+                        "frame": "puffle/puffle0001"
+                    },
+                    "y": -199.52947651673423,
+                    "originY": 0.7933884297520661
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "595b30dd-eb9e-42d4-91f7-d53fcd6f87c6",
+            "label": "boiler",
+            "x": 979.3584381110322,
+            "y": 418.96573398979467,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "f721e982-7e27-4875-b825-c132cb482777",
+                    "label": "speaker_1_1",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "speaker",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "fair-dance",
+                        "frame": "speaker0001"
+                    },
+                    "x": 21,
+                    "y": 4,
+                    "originX": 0.5655737704918032,
+                    "originY": 0.770949720670391,
+                    "flipX": true
+                },
+                {
+                    "type": "Image",
+                    "id": "9a436e9a-37dd-4b57-9e46-2dd1cfe91ed3",
+                    "label": "boiler_door",
+                    "components": [
+                        "Button",
+                        "MoveTo"
+                    ],
+                    "Button.spriteName": "boiler",
+                    "MoveTo.x": 960,
+                    "MoveTo.y": 420,
+                    "texture": {
+                        "key": "dance",
+                        "frame": "boiler"
+                    },
+                    "x": 25,
+                    "y": -50,
+                    "originY": 0.4236453201970443,
+                    "flipX": true,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                },
+                {
+                    "type": "Image",
+                    "id": "42d9707c-2793-476e-a5ef-5713f02f304d",
+                    "label": "speakerNeon_2",
+                    "texture": {
+                        "key": "fair-dance",
+                        "frame": "speakerNeon"
+                    },
+                    "x": 2,
+                    "y": -30,
+                    "flipX": true
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "43e90a8b-ac6b-457f-bed7-77da9a82d963",
+            "label": "dj_speaker",
+            "x": 790.7929422877853,
+            "y": 305.10866987575673,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "50acead0-a33b-4ba0-830c-bad87b5abac2",
+                    "label": "dj_speaker_speaker",
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/speaker"
+                    },
+                    "x": 1.2070577122146915,
+                    "y": -0.10866987575673193,
+                    "originX": 0.4,
+                    "originY": 0.6923076923076923,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "39eb4617-23b3-48d5-99a7-218f86ce7ce8",
+                    "label": "dj_speaker_sound",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "dj/speaker_sound",
+                    "Animation.end": 2,
+                    "Animation.repeatDelay": 250,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/speaker_sound0001"
+                    },
+                    "x": 6.2070577122146915,
+                    "y": -39.10866987575673,
+                    "originY": 0.5061728395061729,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "fddb63fc-c183-495a-8d07-76dae057349c",
+            "label": "mixer",
+            "x": 656.758588457557,
+            "y": 340.0371580227643,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "6ab927ea-c842-4262-bd7d-6e00f23edbe1",
+                    "label": "dj_mixer_wave_green",
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/mixer/wave/green"
+                    },
+                    "y": 12
+                },
+                {
+                    "type": "Sprite",
+                    "id": "c6273a95-4066-47c3-b0a1-69dee637628e",
+                    "label": "dj_mixer_wave",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/mixer/wave/wave0001"
+                    },
+                    "y": 12,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                },
+                {
+                    "type": "Image",
+                    "id": "0795ef57-6abb-45b2-af8a-418015d03a82",
+                    "label": "dj_mixer",
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/mixer/mixer"
+                    },
+                    "x": 0.24141154244296104,
+                    "y": 2.962841977235712,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d5946c7d-94a3-4ac1-963f-7a4d57fc268f",
+                    "label": "dj_mixer_tables_under",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "dj/mixer/tables/tables_under",
+                    "Animation.end": 23,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/mixer/tables/tables_under0001"
+                    },
+                    "x": 1.241411542442961,
+                    "y": -4.037158022764288,
+                    "originX": 0.5027027027027027,
+                    "originY": 0.5128205128205128,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d0f8492f-e678-4257-bd22-7e85b2081829",
+                    "label": "dj_mixer_tables",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "dj/mixer/tables/tables",
+                    "Animation.end": 6,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/mixer/tables/tables0001"
+                    },
+                    "x": 0.24141154244296104,
+                    "y": -7.037158022764288,
+                    "originY": 0.5161290322580645,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "7e320690-eb5e-4cbf-bd06-a89d0a3d43c8",
+                    "label": "dj_mixer_lights",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "dj/mixer/lights/lights",
+                    "Animation.end": 23,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/mixer/lights/lights0001"
+                    },
+                    "x": 0.24141154244296104,
+                    "y": -20.037158022764288,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "a1828fff-a08b-4f4b-93dc-075ed97f6777",
+                    "label": "dj_mixer_slider",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "dj/mixer/slider/slider",
+                    "Animation.end": 23,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/mixer/slider/slider0001"
+                    },
+                    "x": 0.24141154244296104,
+                    "y": -20.037158022764288,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                },
+                {
+                    "type": "Image",
+                    "id": "d5c83a2b-816d-4200-b174-4916e432af49",
+                    "label": "dj_wires",
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/wires"
+                    },
+                    "x": 5.241411542442961,
+                    "y": 29.962841977235712,
+                    "originX": 0.5014836795252225,
+                    "originY": 0.5050505050505051,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "2e01dc76-ddeb-4860-8a94-ded19a24c254",
+            "label": "box",
+            "x": 520.6001395292443,
+            "y": 309.6122881275866,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "0ccf0804-4712-4d46-998e-8067473eedb4",
+                    "label": "dj_box_headphones_back",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "dj/box/headphones/back",
+                    "Animation.end": 30,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/box/headphones/back0001"
+                    },
+                    "x": -52.600168515674795,
+                    "y": -58.61229112964787,
+                    "originX": 0.5135135135135135,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                },
+                {
+                    "type": "Image",
+                    "id": "3310c14a-ebf7-4f05-817d-92c733cc4e67",
+                    "label": "dj_box",
+                    "components": [
+                        "SimpleButton",
+                        "MoveTo",
+                        "ShowHint"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.onBoxOver()",
+                    "SimpleButton.hoverOutCallback": "() => this.onBoxOut()",
+                    "MoveTo.x": 520,
+                    "MoveTo.y": 300,
+                    "ShowHint.text": "DJ3K",
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/box/box"
+                    },
+                    "x": 1.3998314843252047,
+                    "y": 2.387708870352128,
+                    "originY": 0.75,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "e51b9d3e-302a-4fad-8d41-4bdda94ee5f9",
+                    "label": "dj_box_sliders",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/box/sliders/sliders0001"
+                    },
+                    "x": 30.399831484325205,
+                    "y": 2.387708870352128,
+                    "originY": 0.5151515151515151,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "9aafe413-97e6-4a22-b3a8-15b3c451b77e",
+                    "label": "dj_box_lights",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "dj/box/lights/lights",
+                    "Animation.end": 30,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/box/lights/lights0001"
+                    },
+                    "x": 43.399831484325205,
+                    "y": -44.61229112964787,
+                    "originY": 0.5072463768115942,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                },
+                {
+                    "type": "Sprite",
+                    "id": "5554cd5e-9837-4964-b567-012ae8dca542",
+                    "label": "dj_box_headphones_front",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "dj/box/headphones/front",
+                    "Animation.end": 30,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "dance",
+                        "frame": "dj/box/headphones/front0001"
+                    },
+                    "x": -26.600168515674795,
+                    "y": -70.61229112964787,
+                    "originY": 0.509090909090909,
+                    "tintTopLeft": "#7e7e7e",
+                    "tintTopRight": "#7e7e7e",
+                    "tintBottomLeft": "#7e7e7e",
+                    "tintBottomRight": "#7e7e7e"
+                }
+            ]
+        },
+        {
+            "type": "Rectangle",
+            "id": "2adc89c9-024e-4434-b55a-fe7e0a495b04",
+            "label": "zone",
+            "components": [
+                "Zone"
+            ],
+            "Zone.hoverCallback": "() => this.onPuffleOver()",
+            "x": 1160,
+            "y": 533,
+            "alpha": 0.5,
+            "isFilled": true,
+            "fillColor": "#00ff00",
+            "width": 60,
+            "height": 50
+        },
+        {
+            "type": "Image",
+            "id": "5234bc29-2ff4-42e7-ace0-19e96cb1f3d6",
+            "label": "poster",
+            "scope": "CLASS",
+            "texture": {
+                "key": "dance",
+                "frame": "poster"
+            },
+            "x": 1168,
+            "y": 365,
+            "tintTopLeft": "#7e7e7e",
+            "tintTopRight": "#7e7e7e",
+            "tintBottomLeft": "#7e7e7e",
+            "tintBottomRight": "#7e7e7e"
+        },
+        {
+            "type": "Polygon",
+            "id": "ad80e077-e676-4c74-8eb6-ba6aa8e2ddc2",
+            "label": "polygon_1",
+            "components": [
+                "ShowHint",
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "ShowHint.text": "dancing_hint",
+            "SimpleButton.hoverCallback": "() => this.onDanceContestOver()",
+            "SimpleButton.hoverOutCallback": "() => this.onDanceContestOut()",
+            "MoveTo.x": "1066",
+            "MoveTo.y": "545",
+            "x": 1142.7683850705682,
+            "y": 436.6970015883089,
+            "originX": 0.4903090404500476,
+            "originY": 0.43468346884600356,
+            "alpha": 0.8,
+            "fillColor": "#6fff34",
+            "points": "-28.654961469025196 174.44148245048498 -15.0055715075965 149.62735118505242 57.77927367475783 111.91094395310469 90.45638148052265 -53.96163885365911 201.62503171025634 -28.60698628060078 179.6806758193739 173.50819083112114 94.47314030269035 221.146211760087 46.74288207050404 256.8783500761387"
+        },
+        {
+            "type": "Image",
+            "id": "eecab69d-e913-4d61-b453-b985f2296be9",
+            "label": "neonFG",
+            "texture": {
+                "key": "fair-dance",
+                "frame": "neonFG"
+            },
+            "x": 669,
+            "y": 984.2399651323096,
+            "originY": 2.6511827019685743
+        },
+        {
+            "type": "Image",
+            "id": "be142d67-0c19-467c-bac7-f4964bcd569b",
+            "label": "speakerNeon",
+            "texture": {
+                "key": "fair-dance",
+                "frame": "speakerNeon"
+            },
+            "x": 340,
+            "y": 397
+        },
+        {
+            "type": "Sprite",
+            "id": "754c9309-d5dc-4f0d-a2a0-725850ccf031",
+            "label": "catalogPaper",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "catalog/paper",
+            "Animation.end": 7,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "dance",
+                "frame": "catalog/paper0001"
+            },
+            "x": 253,
+            "y": 362,
+            "tintTopLeft": "#838383",
+            "tintTopRight": "#838383",
+            "tintBottomLeft": "#838383",
+            "tintBottomRight": "#838383"
+        },
+        {
+            "type": "Image",
+            "id": "b2cc357c-917a-4347-aef0-06dec3b9a28c",
+            "label": "catalogBox",
+            "scope": "CLASS",
+            "texture": {
+                "key": "dance",
+                "frame": "catalog/box"
+            },
+            "x": 281,
+            "y": 473,
+            "originY": 0.7032867669320754,
+            "tintTopLeft": "#838383",
+            "tintTopRight": "#838383",
+            "tintBottomLeft": "#838383",
+            "tintBottomRight": "#838383"
+        },
+        {
+            "type": "Polygon",
+            "id": "09673894-b43d-4a5a-bd5b-0709cd4f80ac",
+            "label": "polygon_2",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onCatalogOver()",
+            "SimpleButton.hoverOutCallback": "() => this.onCatalogOut()",
+            "SimpleButton.callback": "() => this.interface.loadWidget('DanceCatalog')",
+            "x": 220,
+            "y": 338,
+            "originX": 0,
+            "originY": 0,
+            "alpha": 0.8,
+            "fillColor": "#6fff34",
+            "points": "66.1946175725401 180.9666965418778 11.544880888460526 148.19550372532404 8.736256330428134 80.22514100602649 2.6813278184423552 -0.6590267900156164 46.13778922914082 -10.687440961715254 60.62327636604027 45.02597110328276 75.10876350293978 63.96853120538202 109.6510789832385 80.68255482488144 126.36510260273792 145.31011282027913"
+        },
+        {
+            "type": "Image",
+            "id": "4b395c52-ee2d-4cfd-8f4e-b002af57965b",
+            "label": "interfaceIcons",
+            "scope": "CLASS",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "catalog/icon",
+            "Button.callback": "() => this.interface.loadWidget('DanceCatalog')",
+            "texture": {
+                "key": "dance",
+                "frame": "catalog/icon"
+            },
+            "x": 1418,
+            "y": 884
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "ea8e175e-1cf7-4732-9fcc-55c343477d5f",
+            "label": "sort",
+            "objectIds": [
+                "5afcee12-4520-4be3-ba1c-f7ff61ee1643",
+                "595b30dd-eb9e-42d4-91f7-d53fcd6f87c6",
+                "2e01dc76-ddeb-4860-8a94-ded19a24c254",
+                "43e90a8b-ac6b-457f-bed7-77da9a82d963",
+                "fddb63fc-c183-495a-8d07-76dae057349c",
+                "4dfc59f6-228a-404e-9295-f232e65fb617",
+                "eecab69d-e913-4d61-b453-b985f2296be9"
+            ]
+        },
+        {
+            "id": "f80b8666-fcd4-4a26-a5b2-46de00531095",
+            "label": "animate",
+            "objectIds": [
+                "5554cd5e-9837-4964-b567-012ae8dca542",
+                "9aafe413-97e6-4a22-b3a8-15b3c451b77e",
+                "a1828fff-a08b-4f4b-93dc-075ed97f6777",
+                "7e320690-eb5e-4cbf-bd06-a89d0a3d43c8",
+                "d0f8492f-e678-4257-bd22-7e85b2081829",
+                "d5946c7d-94a3-4ac1-963f-7a4d57fc268f",
+                "39eb4617-23b3-48d5-99a7-218f86ce7ce8",
+                "0ccf0804-4712-4d46-998e-8067473eedb4"
+            ]
+        }
+    ]
+}

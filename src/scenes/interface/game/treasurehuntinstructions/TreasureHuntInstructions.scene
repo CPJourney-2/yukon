@@ -1,0 +1,1120 @@
+{
+    "id": "23434d6d-a6ad-4b70-acdb-7c50578eedba",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8610f1b5-8398-4d32-b22b-6d7a8d165b0f",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "c2826836-0916-43b9-8aa2-328f7178f001",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 12.996400499553676,
+                    "y": -11.3585407236192,
+                    "scaleX": 12.036334357595884,
+                    "scaleY": 11.350381326698546,
+                    "originX": 0.017191915249913314,
+                    "originY": 0.01646058144870876,
+                    "alpha": 0.2,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "8e725117-1b2c-4a47-a64c-e95714f4965c",
+                    "label": "window",
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "width": 1136,
+                    "height": 664,
+                    "leftWidth": 51,
+                    "rightWidth": 41,
+                    "topHeight": 45,
+                    "bottomHeight": 43
+                },
+                {
+                    "type": "Container",
+                    "id": "427bd70a-2bea-4062-8b21-ce001bb4f992",
+                    "label": "page5",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "622d316b-2ac2-4a7a-93ce-45a8004e93d3",
+                            "label": "text45",
+                            "y": -129,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "ENDING THE GAME",
+                            "fixedWidth": 500,
+                            "align": "center",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b56592a9-be85-4bb5-b3a4-a60eb6bd1c17",
+                            "label": "text_245",
+                            "y": 31,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "The game is over when both players have used all 6 of their turns. All completely revealed treasure on the board has their coin values added up and each player receives that many coins. The more precious treasure you find, the greater the reward.",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "36px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 800
+                        },
+                        {
+                            "type": "Text",
+                            "id": "82d16ef3-ab7b-4b76-90b5-05a2a963754f",
+                            "label": "text_545",
+                            "x": 309,
+                            "y": 268,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "alpha": 0.5,
+                            "alphaTopLeft": 0.5,
+                            "alphaTopRight": 0.5,
+                            "alphaBottomLeft": 0.5,
+                            "alphaBottomRight": 0.5,
+                            "text": "Page 5 of 5",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "33px",
+                            "color": "#ffffffff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "3c79103a-81bb-4e5e-8441-729a21e2f2c4",
+                            "label": "polygon_145",
+                            "x": 47,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "81b47372-e39b-4694-8a60-f72515ff9565",
+                            "label": "polygon45",
+                            "x": 85,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "7485e768-ee5c-477a-b0a5-eaa58da3099f",
+                            "label": "polygon_25",
+                            "x": 122,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "eb0fe11d-f3d3-463e-a951-7cf8ebc11460",
+                            "label": "polygon_35",
+                            "x": 159,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "a3ee0eaa-25bb-43a0-8bc1-3d7bc070a8b1",
+                            "label": "polygon_445",
+                            "x": 197,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0dda3764-cd75-4e42-b45f-4af73063167b",
+                            "label": "blue_button_345",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 444,
+                            "y": 272
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d104849b-1e5e-4580-ad75-6103806dba95",
+                            "label": "blue_arrow_245",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 444,
+                            "y": 270,
+                            "angle": 90,
+                            "flipY": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "46751a4f-8cba-456b-91b2-9e0c4c3f5011",
+                    "label": "page4",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "7faa99fc-9810-4958-b4ff-dc4591245067",
+                            "label": "text4",
+                            "y": -163,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "SHINES IN THE SAND",
+                            "fixedWidth": 500,
+                            "align": "center",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Text",
+                            "id": "e633153d-ed91-4829-b7b2-8f128a5acf4b",
+                            "label": "text_24",
+                            "y": -87,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Look out for shines in the sand. This indicates where a piece of treasure is buried.",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "36px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 800
+                        },
+                        {
+                            "type": "Text",
+                            "id": "96839bfa-7005-42bd-8256-9eed2e050748",
+                            "label": "text_34",
+                            "y": 31,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "THE TREASURE",
+                            "fixedWidth": 500,
+                            "align": "center",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 500
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f23c48df-ed34-4a11-993a-e9c136a04211",
+                            "label": "text_44",
+                            "x": 26,
+                            "y": 118,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Coins are worth 1 coin each.\n\nGems are worth 25 coins each.",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "33px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 700
+                        },
+                        {
+                            "type": "Text",
+                            "id": "98261860-d3ae-4240-9ab3-6a26b6da8ede",
+                            "label": "text_54",
+                            "x": 309,
+                            "y": 268,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "alpha": 0.5,
+                            "alphaTopLeft": 0.5,
+                            "alphaTopRight": 0.5,
+                            "alphaBottomLeft": 0.5,
+                            "alphaBottomRight": 0.5,
+                            "text": "Page 4 of 5",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "33px",
+                            "color": "#ffffffff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "9bfa41d9-231e-4d83-8460-a5c89776dff6",
+                            "label": "polygon_14",
+                            "x": 47,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "c19b8e1d-21eb-4e3b-83c7-7bd4649547a5",
+                            "label": "polygon4",
+                            "x": 85,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "562335aa-560f-475b-8bf3-a30e3639bcfc",
+                            "label": "polygon_24",
+                            "x": 122,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "aa00843a-6f53-4e4c-bbe4-d62a4a4256ae",
+                            "label": "polygon_34",
+                            "x": 159,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "f8dc298a-52e6-4075-b93e-322d038f87f9",
+                            "label": "polygon_44",
+                            "x": 197,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "6ed651fb-dd46-43be-8202-10f20279365e",
+                            "label": "blue_button4",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 512,
+                            "y": 274
+                        },
+                        {
+                            "type": "Image",
+                            "id": "65754a8b-01e0-4442-9230-48c82b2286a6",
+                            "label": "blue_arrow4",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 512,
+                            "y": 272,
+                            "angle": 90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9f31faff-61bb-46d9-9534-548672cb706b",
+                            "label": "blue_button_34",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 444,
+                            "y": 272
+                        },
+                        {
+                            "type": "Image",
+                            "id": "67d80ce5-55d1-4b38-a4e7-fe756c729e01",
+                            "label": "blue_arrow_24",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 444,
+                            "y": 270,
+                            "angle": 90,
+                            "flipY": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ecb93cef-0093-4cdd-b474-390d9d30922b",
+                            "label": "shine_png",
+                            "texture": {
+                                "key": "treasurehuntinstructions",
+                                "frame": "shine.png"
+                            },
+                            "x": -406,
+                            "y": -105
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b6bdde14-a6ce-4946-ad15-7774a4d81cf2",
+                            "label": "coin_png",
+                            "texture": {
+                                "key": "treasurehuntinstructions",
+                                "frame": "coin.png"
+                            },
+                            "x": -212,
+                            "y": 90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "78273a11-9d50-4789-bdc7-d0e1b9ceb345",
+                            "label": "gem_png",
+                            "texture": {
+                                "key": "treasurehuntinstructions",
+                                "frame": "gem.png"
+                            },
+                            "x": -232,
+                            "y": 144
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2b249436-a6ab-4533-ac41-09c0c70f7eff",
+                    "label": "page3",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "a7bf9232-0844-48db-967e-3be23dc6a48d",
+                            "label": "text3",
+                            "y": -117,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "HOW TO PLAY",
+                            "fixedWidth": 500,
+                            "align": "center",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 500
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f3851d00-7235-43fa-92f8-548e191b26ad",
+                            "label": "text_23",
+                            "y": 35,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Players alternate turns and have 6 turns each. Player 1 selects where a row of sand is dug up and player 2 selects where a column of sand is dug up. Where the rows and columns intersect the sand is dug all the way down to where treasure may be.",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "36px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 800
+                        },
+                        {
+                            "type": "Text",
+                            "id": "5b4e292d-2043-4f9d-a9ee-0993aa35d63a",
+                            "label": "text_53",
+                            "x": 309,
+                            "y": 268,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "alpha": 0.5,
+                            "alphaTopLeft": 0.5,
+                            "alphaTopRight": 0.5,
+                            "alphaBottomLeft": 0.5,
+                            "alphaBottomRight": 0.5,
+                            "text": "Page 3 of 5",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "33px",
+                            "color": "#ffffffff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 700
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "9c77b33d-a267-431d-8d42-9d330a38c316",
+                            "label": "polygon_13",
+                            "x": 47,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "be9544da-d22f-4bf9-98f2-a31dd1887e68",
+                            "label": "polygon3",
+                            "x": 85,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "9b01712c-a520-4d20-a435-fd81ed4f5730",
+                            "label": "polygon_23",
+                            "x": 122,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "ea3171f1-3d0e-4b8e-9620-8eff153f47d1",
+                            "label": "polygon_33",
+                            "x": 159,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "22e328cf-064f-4f41-a8c0-922cb58ebe8f",
+                            "label": "polygon_43",
+                            "x": 197,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b181ed6a-e809-40d6-b5b0-bf8b389b7172",
+                            "label": "blue_button3",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 512,
+                            "y": 274
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f024a028-189c-4641-903c-ae77c50b29f5",
+                            "label": "blue_arrow3",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 512,
+                            "y": 272,
+                            "angle": 90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "99c20356-e3c3-4a72-93d0-c22c4bf6d62c",
+                            "label": "blue_button_333",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 444,
+                            "y": 272
+                        },
+                        {
+                            "type": "Image",
+                            "id": "00fba5f0-007f-43ac-81c5-fc293eb752ca",
+                            "label": "blue_arrow_2543",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 444,
+                            "y": 270,
+                            "angle": 90,
+                            "flipY": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "7e22a694-b372-428b-8a29-9e11de9dceae",
+                    "label": "page2",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "f35a2778-5026-495f-911a-21fbb0ee0e53",
+                            "label": "text_32",
+                            "y": -169,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "THE BOARD",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f02007a2-701a-4d5f-9cad-9b1f52673768",
+                            "label": "text_52",
+                            "x": 309,
+                            "y": 268,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "alpha": 0.5,
+                            "alphaTopLeft": 0.5,
+                            "alphaTopRight": 0.5,
+                            "alphaBottomLeft": 0.5,
+                            "alphaBottomRight": 0.5,
+                            "text": "Page 2 of 5",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "33px",
+                            "color": "#ffffffff",
+                            "stroke": "#134263",
+                            "wordWrapWidth": 700
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "6609f303-6668-4c84-9262-167e92c9a5a8",
+                            "label": "polygon_12",
+                            "x": 47,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "5a0894aa-dc98-42a3-83db-b698470613ed",
+                            "label": "polygon2",
+                            "x": 85,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "08c51b70-a4ab-4aec-aa50-269fd981a605",
+                            "label": "polygon_22",
+                            "x": 122,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "b5b10d66-ce26-450e-a4ac-7c0fd1866811",
+                            "label": "polygon_32",
+                            "x": 159,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "02990d7d-c2f1-40f9-a3b8-43f1706ad9b1",
+                            "label": "polygon_42",
+                            "x": 197,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "75e9c3bd-10a5-4285-8820-35a2ea8b4140",
+                            "label": "blue_button2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 512,
+                            "y": 274
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5555296b-c68a-4b89-9407-900789f61c84",
+                            "label": "blue_arrow2",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 512,
+                            "y": 272,
+                            "angle": 90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cc81f057-5b32-4915-92ae-c1c0056ae2f1",
+                            "label": "blue_button_2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 444,
+                            "y": 272
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e71cf03f-8d2e-4191-8d1c-0c190de07e32",
+                            "label": "blue_arrow_1",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 444,
+                            "y": 270,
+                            "angle": 90,
+                            "flipY": true
+                        },
+                        {
+                            "type": "Text",
+                            "id": "04720819-195b-4582-8a7a-3ea411349d43",
+                            "label": "text_7",
+                            "x": 415,
+                            "y": -67,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Player 2 chooses which columns are dug.",
+                            "fontFamily": "Arial",
+                            "fontSize": "25px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "wordWrapWidth": 195
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f57b482d-7383-48fc-a588-cea5123a6a36",
+                            "label": "text_6",
+                            "x": 407,
+                            "y": 45,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Player 1 chooses which rows are dug.",
+                            "fontFamily": "Arial",
+                            "fontSize": "25px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "wordWrapWidth": 195
+                        },
+                        {
+                            "type": "Text",
+                            "id": "256ced76-375f-40b2-8d0e-4f1a65d02360",
+                            "label": "text_9",
+                            "x": 418,
+                            "y": 163,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Sand is dug all the way down where columns and rows intersect.",
+                            "fontFamily": "Arial",
+                            "fontSize": "23px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "wordWrapWidth": 195
+                        },
+                        {
+                            "type": "Text",
+                            "id": "93e0dec0-5d72-4f74-9b73-18f53da9c24f",
+                            "label": "text_8",
+                            "x": -413,
+                            "y": -97,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Player 2 Side",
+                            "fontFamily": "Arial",
+                            "fontSize": "30px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "wordWrapWidth": 195
+                        },
+                        {
+                            "type": "Text",
+                            "id": "d991d30b-672c-4067-88ac-96f1b5f68a81",
+                            "label": "text_10",
+                            "x": -408,
+                            "y": 88,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Player 1 Side",
+                            "fontFamily": "Arial",
+                            "fontSize": "30px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "wordWrapWidth": 195
+                        },
+                        {
+                            "type": "Image",
+                            "id": "80fad3ea-f51e-4f1f-83fb-34691c67760e",
+                            "label": "theboard_png_1",
+                            "texture": {
+                                "key": "treasurehuntinstructions",
+                                "frame": "theboard.png"
+                            },
+                            "x": -51,
+                            "y": 59
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "fe619b96-98b7-478a-b54d-f07e6b3079b6",
+                    "label": "page1",
+                    "x": 760,
+                    "y": 480,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "0cfbaabf-dab6-413b-8ee7-fc144de346c2",
+                            "label": "text",
+                            "y": -163,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "OBJECT OF THE GAME",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Text",
+                            "id": "bde9d8dc-2469-461c-9c8a-6719ddfbcd8a",
+                            "label": "text_2",
+                            "y": -67,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Players work together to uncover as much buried treasure as they can before they run out of turns.",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "36px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 600
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b5f56ebb-5242-46df-bad2-630ebde829ef",
+                            "label": "text_3",
+                            "y": 43,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "THE BOARD",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "36px",
+                            "fontStyle": "bold italic",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001
+                        },
+                        {
+                            "type": "Text",
+                            "id": "52754430-d145-4676-b9ed-42b117d353de",
+                            "label": "text_4",
+                            "y": 151,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Each player has a side of the board (top and left) and controls where along their side of the board sand is dug up from.",
+                            "align": "center",
+                            "fontFamily": "Arial",
+                            "fontSize": "33px",
+                            "color": "#000000ff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 500
+                        },
+                        {
+                            "type": "Text",
+                            "id": "1171dd62-92b4-4418-af80-083bce1bb704",
+                            "label": "text_5",
+                            "x": 309,
+                            "y": 268,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "alpha": 0.5,
+                            "alphaTopLeft": 0.5,
+                            "alphaTopRight": 0.5,
+                            "alphaBottomLeft": 0.5,
+                            "alphaBottomRight": 0.5,
+                            "text": "Page 1 of 5",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "33px",
+                            "color": "#ffffffff",
+                            "stroke": "#134263",
+                            "shadow.fill": true,
+                            "shadow.blur": 0.00001,
+                            "wordWrapWidth": 700
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "7a55d836-042a-45f8-9d97-bcee695de91e",
+                            "label": "polygon_1",
+                            "x": 47,
+                            "y": 263,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "e376fc49-f9b5-4116-9802-aac1390a7cff",
+                            "label": "polygon",
+                            "x": 85,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "d48f3ed4-70c8-43e1-9fc7-6b310ae59c8b",
+                            "label": "polygon_2",
+                            "x": 122,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "170248f9-be67-4b2f-a3cb-53516eaf2a71",
+                            "label": "polygon_3",
+                            "x": 159,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Polygon",
+                            "id": "6c304cbd-8554-4293-af0d-c79f88fb1b82",
+                            "label": "polygon_4",
+                            "x": 197,
+                            "y": 263,
+                            "alpha": 0.4,
+                            "isFilled": true,
+                            "points": "1.153311635145542 45.41174031466869 1.3348819333690471 17.458090960599407 12.600727485704397 5.850856149102469 32.79662333738145 5.811573126814665 32.60330621423009 45.35955085641274"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3e6868e7-633e-4b17-b06b-afa6495fe8ee",
+                            "label": "blue_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 512,
+                            "y": 274
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4df4b286-57e0-499c-b230-839696d235c5",
+                            "label": "blue_arrow",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 512,
+                            "y": 272,
+                            "angle": 90
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "48ec1425-369b-4377-82d8-a9540d3a0d89",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 515.5541691235741,
+                    "y": 262.32643943873194,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "5a7037a9-6e3c-4765-94af-8da68b26c2a6",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": -109,
+                            "y": -387,
+                            "visible": false,
+                            "text": "New text"
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "a7867e2f-a70e-4040-ad69-ae3d59ddbb66",
+                    "label": "blue_button_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 1268,
+                    "y": 209
+                },
+                {
+                    "type": "Image",
+                    "id": "53d648a1-84bc-44f6-95d1-a8b01eab604c",
+                    "label": "blue_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 1268,
+                    "y": 207
+                },
+                {
+                    "type": "Text",
+                    "id": "3838e261-7bbe-4b35-926c-50acc9d7f27b",
+                    "label": "text_1",
+                    "x": 760,
+                    "y": 225,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "HOW TO PLAY TREASURE HUNT",
+                    "fixedWidth": 1000,
+                    "align": "center",
+                    "fontFamily": "CCComicrazy",
+                    "fontSize": "36px",
+                    "fontStyle": "bold italic",
+                    "stroke": "#134263",
+                    "strokeThickness": 10,
+                    "shadow.fill": true,
+                    "shadow.blur": 0.00001
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "93639825-c427-4863-8fd8-ff8579694de6",
+            "label": "pages",
+            "objectIds": [
+                "fe619b96-98b7-478a-b54d-f07e6b3079b6",
+                "7e22a694-b372-428b-8a29-9e11de9dceae",
+                "2b249436-a6ab-4533-ac41-09c0c70f7eff",
+                "46751a4f-8cba-456b-91b2-9e0c4c3f5011",
+                "427bd70a-2bea-4062-8b21-ce001bb4f992"
+            ]
+        }
+    ]
+}

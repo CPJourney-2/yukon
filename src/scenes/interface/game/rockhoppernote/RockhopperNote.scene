@@ -1,0 +1,81 @@
+{
+    "id": "c77ffe02-a828-4774-93e4-e683f1b9e292",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "69809e84-3552-4c66-b8eb-3067f502cbb5",
+            "label": "container_1",
+            "components": [],
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "b494e5fa-34c8-4cde-8e0e-b4da4b7f9059",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -18,
+                    "y": -9,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "Image",
+                    "id": "425bb034-4dc5-4b65-90c4-4e856e96b97f",
+                    "label": "bg",
+                    "components": [],
+                    "texture": {
+                        "key": "rockhoppernote",
+                        "frame": "bg"
+                    },
+                    "x": -29,
+                    "y": -24
+                },
+                {
+                    "type": "Image",
+                    "id": "1d2c3f8e-b849-4a0f-9ea7-fecb7c3932f5",
+                    "label": "buttons_close_btn",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buttons/close-btn",
+                    "Button.callback": "() => this.interface.destroyWidget(this)",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "rockhoppernote",
+                        "frame": "buttons/close-btn"
+                    },
+                    "x": 290,
+                    "y": -400
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

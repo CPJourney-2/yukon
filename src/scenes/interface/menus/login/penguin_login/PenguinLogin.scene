@@ -1,0 +1,294 @@
+{
+    "id": "cc85f042-e26b-4237-bfe1-c03a9fa9193b",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "_create",
+        "sceneKey": "PenguinLogin",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "385f13f1-fb27-4bc9-8d86-2ea5ae428468",
+            "label": "bg",
+            "components": [],
+            "texture": {
+                "key": "load",
+                "frame": "bg"
+            },
+            "originX": 0,
+            "originY": 0,
+            "list": []
+        },
+        {
+            "prefabId": "ad6f3593-431e-4451-9b81-a589ddd72242",
+            "id": "6a557e30-f782-45f1-bb56-983d09b9eea0",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "container",
+            "scope": "CLASS",
+            "components": [],
+            "x": 475,
+            "y": 430,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "af01790b-a65f-401e-ba68-c56b37148b86",
+            "label": "backButton",
+            "components": [
+                "SimpleButton",
+                "Animation"
+            ],
+            "SimpleButton.callback": "() => this.onBackClick()",
+            "Animation.key": "small-button",
+            "Animation.end": 3,
+            "Animation.repeat": 0,
+            "Animation.onHover": true,
+            "texture": {
+                "key": "login",
+                "frame": "larger-button"
+            },
+            "x": 760,
+            "y": 876,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "278e7b20-0cd7-4bb5-ba09-81d2a5c7799b",
+            "label": "forgetButton",
+            "components": [
+                "SimpleButton",
+                "Animation"
+            ],
+            "SimpleButton.callback": "() => this.onForgetClick()",
+            "Animation.key": "small-button",
+            "Animation.end": 3,
+            "Animation.repeat": 0,
+            "Animation.onHover": true,
+            "texture": {
+                "key": "login",
+                "frame": "small-button"
+            },
+            "x": 955,
+            "y": 661,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "bd749e14-6e72-4e26-98a7-f0b40e1833bd",
+            "label": "forgotButton",
+            "components": [
+                "SimpleButton",
+                "Animation"
+            ],
+            "SimpleButton.callback": "() => this.onForgetPasswordClick()",
+            "Animation.key": "small-button",
+            "Animation.end": 3,
+            "Animation.repeat": 0,
+            "Animation.onHover": true,
+            "texture": {
+                "key": "login",
+                "frame": "small-button"
+            },
+            "x": 955,
+            "y": 604,
+            "list": []
+        },
+        {
+            "type": "Text",
+            "id": "78099562-cddb-4cc7-8fc5-29bb4ba6fb42",
+            "label": "backText",
+            "components": [],
+            "x": 760,
+            "y": 876,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Login as a different penguin",
+            "fixedWidth": 400,
+            "lineSpacing": 25,
+            "align": "center",
+            "fontFamily": "Arial Narrow",
+            "fontSize": "30px",
+            "color": "#ffffffff",
+            "list": []
+        },
+        {
+            "type": "Text",
+            "id": "35ff102a-44af-41b7-b6b0-fba01c4e47ae",
+            "label": "forgotText_1",
+            "components": [],
+            "x": 929,
+            "y": 661,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Forget my penguin",
+            "fixedWidth": 300,
+            "lineSpacing": 25,
+            "fontFamily": "Arial Narrow",
+            "fontSize": "30px",
+            "color": "#ffffffff",
+            "list": []
+        },
+        {
+            "type": "Text",
+            "id": "f5278893-baa5-40e6-89e8-ef1e7c0a142c",
+            "label": "forgotText",
+            "components": [],
+            "x": 929,
+            "y": 604,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Forgot your password?",
+            "fixedWidth": 300,
+            "lineSpacing": 25,
+            "fontFamily": "Arial Narrow",
+            "fontSize": "30px",
+            "color": "#ffffffff",
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "7f8e9d38-c33c-4377-bdce-9aada9f2160e",
+            "label": "loginButton",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "login-button",
+            "Button.callback": "() => this.onLoginSubmit()",
+            "Button.activeFrame": true,
+            "texture": {
+                "key": "login",
+                "frame": "login-button"
+            },
+            "x": 935,
+            "y": 487,
+            "list": []
+        },
+        {
+            "type": "Text",
+            "id": "a976a534-7052-4d70-b43d-afa82f6d59a5",
+            "label": "loginText",
+            "components": [],
+            "x": 935,
+            "y": 487,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Login",
+            "fixedWidth": 100,
+            "lineSpacing": 25,
+            "align": "center",
+            "fontFamily": "Arial Narrow",
+            "fontSize": "38px",
+            "color": "#ffffffff",
+            "list": []
+        },
+        {
+            "type": "Text",
+            "id": "296f7e91-ccad-47b4-8fe7-e836c097a613",
+            "label": "passwordText",
+            "components": [],
+            "x": 783,
+            "y": 194,
+            "originY": 0.5,
+            "text": "Password:",
+            "lineSpacing": 25,
+            "align": "right",
+            "fontFamily": "Arial Narrow",
+            "fontSize": "30px",
+            "color": "#000000ff",
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "475b6711-c774-497a-8474-54d19949497c",
+            "label": "input",
+            "components": [],
+            "texture": {
+                "key": "login",
+                "frame": "input"
+            },
+            "x": 973,
+            "y": 249,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "fe0fb835-ffd2-4d00-a7f3-f729e0826de1",
+            "label": "note",
+            "components": [],
+            "texture": {
+                "key": "login",
+                "frame": "note"
+            },
+            "x": 1258,
+            "y": 760,
+            "list": []
+        },
+        {
+            "prefabId": "1a09293b-d8f0-454f-ad6c-dc0364729549",
+            "id": "0675aa2e-5fb6-48a7-b8b3-f855c5a5e015",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "checks",
+            "scope": "CLASS",
+            "components": [],
+            "x": 806,
+            "y": 330,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "4a66782f-1b3a-41da-b0c3-3d9d3c24217c",
+            "id": "5a909a7f-4488-4135-8504-236229928934",
+            "unlock": [
+                "visible",
+                "x",
+                "y"
+            ],
+            "label": "savePrompt",
+            "scope": "CLASS",
+            "components": [],
+            "x": 760,
+            "y": 480,
+            "visible": false,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "b1f49bb5-b7f5-4eb9-81d7-21aa125e487f",
+            "id": "c54783e2-b3a0-4e41-9fd3-508f9ba42d23",
+            "unlock": [
+                "visible",
+                "x",
+                "y"
+            ],
+            "label": "waitPrompt",
+            "scope": "CLASS",
+            "components": [],
+            "x": 760,
+            "y": 480,
+            "visible": false,
+            "nestedPrefabs": [],
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

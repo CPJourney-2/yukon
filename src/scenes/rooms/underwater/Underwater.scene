@@ -1,0 +1,366 @@
+{
+    "id": "556b6e96-18fc-4300-ad6e-41ec15dc04dc",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/underwater/underwater-room-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Underwater",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "a4c90521-bf58-48ed-80c9-e7edb65eb413",
+            "label": "background",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "background"
+            },
+            "x": 759,
+            "y": 450,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "9dbd8e03-a60a-4bfb-9a5a-f71a0293610f",
+            "label": "fishgroup0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "fishgroup0001"
+            },
+            "x": 669,
+            "y": 161,
+            "visible": false,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "b20ec827-ab84-459a-9ebc-94ee4150f449",
+            "label": "abovefish",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "abovefish"
+            },
+            "x": 759,
+            "y": 528,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "cd2d09a3-1fc5-41a5-adff-d568cf8f6e85",
+            "label": "aboveabovefish",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "aboveabovefish"
+            },
+            "x": 762,
+            "y": 556,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "27342c18-d4cb-4ea6-8106-51abe84a9801",
+            "label": "fishone0015",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "fishone0015"
+            },
+            "x": 765,
+            "y": 109,
+            "visible": false,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "e44591d7-4b89-49a1-a3cb-b4b407109bfc",
+            "label": "shellfront",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "shellfront"
+            },
+            "x": 1300.8171995550035,
+            "y": 616.7922361760972,
+            "originX": 0.490255239219131,
+            "originY": 0.4989346355284951,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "016a3668-1166-4350-942b-cd9e2dafc5b1",
+            "label": "shellback",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "shellback"
+            },
+            "x": 1422.0872187996006,
+            "y": 651.5016068594249,
+            "originX": 0.45885249285476537,
+            "originY": 0.7323623932907347,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "e0048b7b-59e8-4842-adcc-bfe98464658b",
+            "label": "anvil",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "anvil"
+            },
+            "x": 1363.769295413336,
+            "y": 774.461409173328,
+            "originX": 0.3633487965490357,
+            "originY": 0.768563058805364,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "0a9a5289-a836-46f5-a531-2b9d6d9385fb",
+            "label": "back",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "back"
+            },
+            "x": 118.99852752685547,
+            "y": 642.5226798653448,
+            "originX": 0.4405149872066536,
+            "originY": 0.7385961008135953,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "76c97a0c-5d11-4490-b35e-2a8c2abd143f",
+            "label": "front",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "front"
+            },
+            "x": 358.2319030761719,
+            "y": 715.4504313266222,
+            "originX": 0.5019040231141575,
+            "originY": 0.8629210684074289,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ca691f87-89f6-44e7-8232-8743c196ef72",
+            "label": "wheel",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "wheel"
+            },
+            "x": 365.06838697194127,
+            "y": 773.1287724971401,
+            "originX": 0.5608616534589359,
+            "originY": 0.8095890543651354,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "7562a924-4cf5-48f5-809f-2dfd7618e90a",
+            "label": "clam",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "clam"
+            },
+            "x": 625,
+            "y": 784.3920848700204,
+            "originY": 0.6719089504655913,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "7f21ff61-260b-4774-bf3d-fb4d45cd7dcd",
+            "label": "bush",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "bush"
+            },
+            "x": 84,
+            "y": 656,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "600b1de5-2eff-476e-b6e0-11a9246a4397",
+            "label": "bushright",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "bushright"
+            },
+            "x": 1484,
+            "y": 451,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "98844387-4dcd-496f-a0eb-36f1836a81b1",
+            "label": "foreground",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "foreground"
+            },
+            "x": 728.1299309670391,
+            "y": 1057.5344346009265,
+            "originX": 0.5114963527446148,
+            "originY": 1.094744648654737,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "9f32fa56-e27c-4717-bac0-b98006a73355",
+            "label": "fishoneref",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "fishoneref"
+            },
+            "x": 764,
+            "y": 42,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "41125487-7c3a-4115-9358-60355e0d9572",
+            "label": "bigthing",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "bigthing"
+            },
+            "x": 998.077919780723,
+            "y": 682.1430202235706,
+            "originX": 0.3556234510816635,
+            "originY": 0.8222085907384583,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "a40c755a-de80-43e8-becb-143782a24cbb",
+            "label": "fishgroupref",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "fishgroupref"
+            },
+            "x": 637,
+            "y": 49,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "54816569-b44a-4900-b80f-c24de6a87862",
+            "label": "realreference",
+            "components": [],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "realreference"
+            },
+            "x": 754,
+            "y": 450,
+            "visible": false,
+            "list": []
+        },
+        {
+            "type": "Container",
+            "id": "0b2593cc-154b-4bd9-9f56-a1cb5e16a272",
+            "label": "pin",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "prefabId": "8147a4f8-6098-4a09-b0db-f725f761e412",
+                    "id": "a26caa98-0a9d-43a0-9c86-0311f1afa15d",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY",
+                        "itemId"
+                    ],
+                    "label": "roomPin",
+                    "itemId": 7016,
+                    "components": [],
+                    "x": 760,
+                    "y": 335,
+                    "scaleX": 0.7,
+                    "scaleY": 0.7,
+                    "nestedPrefabs": [],
+                    "list": []
+                }
+            ]
+        },
+        {
+            "type": "Sprite",
+            "id": "16ec8fb5-c83b-49aa-a701-ca971013d6bd",
+            "label": "jellyfish0001",
+            "components": [
+                "Animation"
+            ],
+            "texture": {
+                "key": "underwater-room",
+                "frame": "jellyfish0001"
+            },
+            "x": 747.5799159634506,
+            "y": 1077.5439830411378,
+            "originX": 0.49241373611256206,
+            "originY": 6.334882300804742,
+            "visible": false,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "672dde11-c1fa-4288-8b95-0278f69713f1",
+            "label": "sort",
+            "objectIds": [
+                "0a9a5289-a836-46f5-a531-2b9d6d9385fb",
+                "76c97a0c-5d11-4490-b35e-2a8c2abd143f",
+                "ca691f87-89f6-44e7-8232-8743c196ef72",
+                "7562a924-4cf5-48f5-809f-2dfd7618e90a",
+                "016a3668-1166-4350-942b-cd9e2dafc5b1",
+                "e44591d7-4b89-49a1-a3cb-b4b407109bfc",
+                "e0048b7b-59e8-4842-adcc-bfe98464658b",
+                "98844387-4dcd-496f-a0eb-36f1836a81b1",
+                "41125487-7c3a-4115-9358-60355e0d9572",
+                "7f21ff61-260b-4774-bf3d-fb4d45cd7dcd",
+                "600b1de5-2eff-476e-b6e0-11a9246a4397",
+                "a26caa98-0a9d-43a0-9c86-0311f1afa15d",
+                "16ec8fb5-c83b-49aa-a701-ca971013d6bd"
+            ]
+        }
+    ]
+}

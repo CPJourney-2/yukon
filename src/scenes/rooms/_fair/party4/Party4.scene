@@ -1,0 +1,244 @@
+{
+    "id": "887cf692-bfe1-4f9e-8eb3-489dd2c5bf98",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/_fair/party4/fair-party4-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Party4",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "c3c099a5-86a9-49d4-88aa-698de1305160",
+            "label": "skybox",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "skybox"
+            },
+            "x": 801,
+            "y": 107
+        },
+        {
+            "type": "Sprite",
+            "id": "f784b139-a40d-4e61-b2a9-5cc8037b9894",
+            "label": "wheel0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "wheel",
+            "Animation.end": 144,
+            "texture": {
+                "key": "fair-party4",
+                "frame": "wheel0001"
+            },
+            "x": 852,
+            "y": 61
+        },
+        {
+            "type": "Image",
+            "id": "34e8b460-d837-46dd-8712-57d65c67ba63",
+            "label": "bg",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "bg"
+            },
+            "x": 772,
+            "y": 475
+        },
+        {
+            "type": "Image",
+            "id": "ca138eb3-ec0b-4d5b-84d5-04efc2ffdaa0",
+            "label": "stuffbg",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "stuffbg"
+            },
+            "x": 732.6788205213089,
+            "y": 320.8627543265531,
+            "originX": 0.611131676008983,
+            "originY": 0.7906422072131034
+        },
+        {
+            "type": "Image",
+            "id": "77ae8215-1225-44c8-a230-aa010c3283e1",
+            "label": "pedestal",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "pedestal"
+            },
+            "x": 1414.227578879634,
+            "y": 400.08682133367796,
+            "originX": 0.45414985330855645,
+            "originY": 0.5421896823053777
+        },
+        {
+            "type": "Image",
+            "id": "43c45875-53a8-4b6b-a4ce-b6685af7cbbc",
+            "label": "arcade0001",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "arcade",
+            "Button.lazyName": true,
+            "MoveTo.x": "1415",
+            "MoveTo.y": "460",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "arcade0001"
+            },
+            "x": 1439.6461155451516,
+            "y": 420.23313975949753,
+            "originX": 0.3062933321068946,
+            "originY": 0.7989865852503658
+        },
+        {
+            "type": "Image",
+            "id": "b1d2b005-84ac-4d34-b4a4-5597686f35d0",
+            "label": "righttree",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "righttree"
+            },
+            "x": 1476.9766737687205,
+            "y": 559.8740972959769,
+            "originX": 0.32617234647762927,
+            "originY": 0.7316932046284889
+        },
+        {
+            "type": "Image",
+            "id": "f8aebbce-39b1-4632-bb2a-8103f58224be",
+            "label": "chair1",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "chair1"
+            },
+            "x": 841.0823912869273,
+            "y": 718.5056817385957,
+            "originX": 0.4669376743606398,
+            "originY": 0.6438211165312182
+        },
+        {
+            "type": "Image",
+            "id": "8e06221d-9682-4c0c-a260-5ef9caa1443d",
+            "label": "chair2",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "chair2"
+            },
+            "x": 733,
+            "y": 754
+        },
+        {
+            "type": "Image",
+            "id": "2f84ded8-0db4-4a36-8ee5-bc88fd1ff46f",
+            "label": "chair3",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "chair3"
+            },
+            "x": 921,
+            "y": 759
+        },
+        {
+            "type": "Image",
+            "id": "13af800b-9331-453c-8249-e37ea804e534",
+            "label": "table2",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "table2"
+            },
+            "x": 819.4691772460938,
+            "y": 804.321482961688,
+            "originX": 0.5031071271776151,
+            "originY": 0.8446677352027111
+        },
+        {
+            "type": "Image",
+            "id": "5e452b66-5b5c-4e8d-af4c-ddf749b64d23",
+            "label": "chairs",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "chairs"
+            },
+            "x": 533,
+            "y": 387.5313253397589,
+            "originY": 0.46304949553891145
+        },
+        {
+            "type": "Image",
+            "id": "225c3e11-2b1e-4737-8ca9-997d041f16ff",
+            "label": "table1",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "table1"
+            },
+            "x": 556,
+            "y": 444.7206258710189,
+            "originX": 0.5084698110380602,
+            "originY": 0.7809783120243199
+        },
+        {
+            "type": "Image",
+            "id": "d056cc97-b35a-4c2b-a747-ece1b1551526",
+            "label": "leftstuff",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "leftstuff"
+            },
+            "x": 195.02581787109375,
+            "y": 552.7579585864956,
+            "originX": 0.8352357743279053,
+            "originY": 0.7532254867215381
+        },
+        {
+            "type": "Image",
+            "id": "24a03d48-b5ec-47f3-b926-71d7e9c848a7",
+            "label": "fg",
+            "texture": {
+                "key": "fair-party4",
+                "frame": "fg"
+            },
+            "x": -44,
+            "y": 1042,
+            "originX": 0,
+            "originY": 1
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "528d71e2-a474-4325-aa76-2ccaa2e1016f",
+            "label": "sort",
+            "objectIds": [
+                "b1d2b005-84ac-4d34-b4a4-5597686f35d0",
+                "43c45875-53a8-4b6b-a4ce-b6685af7cbbc",
+                "77ae8215-1225-44c8-a230-aa010c3283e1",
+                "f8aebbce-39b1-4632-bb2a-8103f58224be",
+                "8e06221d-9682-4c0c-a260-5ef9caa1443d",
+                "2f84ded8-0db4-4a36-8ee5-bc88fd1ff46f",
+                "13af800b-9331-453c-8249-e37ea804e534",
+                "5e452b66-5b5c-4e8d-af4c-ddf749b64d23",
+                "225c3e11-2b1e-4737-8ca9-997d041f16ff",
+                "ca138eb3-ec0b-4d5b-84d5-04efc2ffdaa0",
+                "d056cc97-b35a-4c2b-a747-ece1b1551526",
+                "24a03d48-b5ec-47f3-b926-71d7e9c848a7"
+            ]
+        }
+    ]
+}

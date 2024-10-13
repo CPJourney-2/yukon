@@ -1,0 +1,820 @@
+{
+    "id": "02355a7f-406d-4ed5-bd91-10dc476029c1",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/stage/stage-basic/stage-basic-pack.json",
+            "yukon/assets/media/rooms/stage/normanswarm/stage-normanswarm-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Stage",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "8f301df5-1726-4997-8330-25f62aa1a9b1",
+            "label": "background",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "background"
+            },
+            "x": 661,
+            "y": 416
+        },
+        {
+            "type": "Image",
+            "id": "d940f8de-4be2-4f35-83d1-1695bfbdbe1b",
+            "label": "previeeieieieiei",
+            "texture": {
+                "key": "previeeieieieiei"
+            },
+            "x": 760,
+            "y": 480,
+            "visible": false,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Sprite",
+            "id": "d8abff76-5809-4e7c-8138-2b6843f35ee9",
+            "label": "pond",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "pond",
+            "Animation.end": 37,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "pond0001"
+            },
+            "x": 749,
+            "y": 668
+        },
+        {
+            "type": "Image",
+            "id": "7ca719b1-b291-4fc3-a252-e3e2a649526b",
+            "label": "tree2",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "tree2"
+            },
+            "x": 1391,
+            "y": 474.14741853579494,
+            "originY": 0.8946257368587939
+        },
+        {
+            "type": "Container",
+            "id": "92e0e70b-29ee-4cce-9b6a-00bbc4326f45",
+            "label": "hoseContain",
+            "x": 1316,
+            "y": 523.8566284179688,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "c32517b1-4350-44c5-b4fa-2541dd628e90",
+                    "label": "hoseGlow",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "shine0031"
+                    },
+                    "x": -235,
+                    "y": 37,
+                    "scaleX": 1.080913279151555,
+                    "scaleY": 0.7727547082478015,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "c0652bd6-5747-49ca-a830-362812fd8ea9",
+                    "label": "hose",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "hose/hose0001"
+                    },
+                    "originY": 0.3513747970076247
+                },
+                {
+                    "type": "Sprite",
+                    "id": "5639a4f9-8080-4074-a9c4-fd5d30aaabf1",
+                    "label": "hoseWater",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "hose/waterloop",
+                    "Animation.end": 12,
+                    "Animation.autoPlay": false,
+                    "Animation.showOnStart": true,
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "hose/waterloop0001"
+                    },
+                    "x": -292,
+                    "y": 105,
+                    "angle": -6.000000000000001,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "982de79f-f41a-4084-8979-2870681c24cb",
+            "label": "switchboxrock",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "switchboxrock"
+            },
+            "x": 751,
+            "y": 853.2762879169409,
+            "originY": 0.15187545542319017
+        },
+        {
+            "prefabId": "f4de90d7-6921-46e9-933e-fbf15d1e3667",
+            "id": "604777ef-66bb-4c22-9493-44a1c8ea0a8e",
+            "unlock": [
+                "x",
+                "y",
+                "switch1Callback",
+                "switch2Callback",
+                "switch3Callback",
+                "switch4Callback",
+                "switch5Callback",
+                "switch6Callback",
+                "switch7Callback",
+                "switch8Callback"
+            ],
+            "label": "switchbox_1",
+            "switch1Callback": "() => this.switchboxOne()",
+            "switch2Callback": "() => this.switchboxTwo()",
+            "switch3Callback": "() => this.switchboxThree()",
+            "switch4Callback": "() => this.switchboxFour()",
+            "switch5Callback": "() => this.switchboxFive()",
+            "switch6Callback": "() => this.switchboxSix()",
+            "switch7Callback": "() => this.switchboxSeven()",
+            "switch8Callback": "() => this.switchboxEight()",
+            "x": 748,
+            "y": 864
+        },
+        {
+            "type": "Container",
+            "id": "258e01cb-14ef-42f6-8adc-ad4ffb49c60c",
+            "label": "hivecontain",
+            "x": 1401,
+            "y": 569.2909641113239,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "fb7c0eec-2b76-427b-9251-965b581dac22",
+                    "label": "puffle",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "yellowpuff",
+                    "Animation.end": 62,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "Animation.showOnStart": true,
+                    "Animation.hideOnComplete": true,
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "yellowpuff0048"
+                    },
+                    "x": 170,
+                    "y": -40.29098478991261,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "dbeaaf04-b3d4-4bde-b52b-4b91c34b03a9",
+                    "label": "hive",
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "hive"
+                    },
+                    "y": -63.29098478991261,
+                    "originY": 0.8289834910016561
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "8390d332-41c5-4350-8614-15a55b1de34b",
+            "label": "pottedplant",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "pottedplant"
+            },
+            "x": 1224,
+            "y": 897.2103816397358,
+            "originY": 0.9224207676533158
+        },
+        {
+            "type": "Container",
+            "id": "2d241f04-c95b-4da8-a283-663cc63bea69",
+            "label": "treecontain",
+            "x": 160,
+            "y": 406.56170654296875,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "c691dcae-04cd-4683-aee6-021e055a8b33",
+                    "label": "tree",
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "tree"
+                    },
+                    "originY": 0.6425596635733375
+                },
+                {
+                    "type": "Image",
+                    "id": "1eed0f13-a8aa-4593-841d-dd05f93a65d8",
+                    "label": "door_btn0001",
+                    "components": [
+                        "Button",
+                        "MoveTo"
+                    ],
+                    "Button.spriteName": "door-btn",
+                    "Button.lazyName": true,
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "door-btn0001"
+                    },
+                    "x": 64.22616905113273,
+                    "y": 83.99571513969175,
+                    "originX": 0.6575356218556576,
+                    "originY": 0.8705630302334809
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "1dc2c580-77c8-4cd1-9a40-1fda13eaac3f",
+            "label": "costumebtn",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "costumebtn",
+            "Button.callback": "() => {this.interface.loadWidget(\"NormanSwarmCatalog\")}",
+            "texture": {
+                "key": "stage-basic",
+                "frame": "costumebtn"
+            },
+            "x": 1430,
+            "y": 1005,
+            "originX": 0.5238205532906157,
+            "originY": 1.5775175497198353
+        },
+        {
+            "type": "Image",
+            "id": "05d151d4-df1a-4211-96f9-fe2efd25bdf8",
+            "label": "scriptbtn",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "scriptbtn",
+            "Button.callback": "() => this.interface.loadWidget('StageScript',true)",
+            "texture": {
+                "key": "stage-basic",
+                "frame": "scriptbtn"
+            },
+            "x": 1437,
+            "y": 994,
+            "originX": 0.5600749118702879,
+            "originY": 2.1517673137045117
+        },
+        {
+            "type": "Image",
+            "id": "5a831265-8f63-422d-aac6-5043069fe2cc",
+            "label": "rock3",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "rock3"
+            },
+            "x": 557,
+            "y": 538.1671971944714,
+            "originY": 0.494176204157143
+        },
+        {
+            "type": "Sprite",
+            "id": "79045fb3-d2d2-4552-bd05-9f5d358687a9",
+            "label": "jug",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "jug",
+            "Animation.end": 12,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "jug0001"
+            },
+            "x": 533,
+            "y": 566.4158721774608,
+            "originY": 0.6330867564949715
+        },
+        {
+            "type": "Image",
+            "id": "82ceb36f-3bc7-4edf-85da-c002892c31cf",
+            "label": "rock2",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "rock2"
+            },
+            "x": 440,
+            "y": 581.7848959067067,
+            "originY": 0.6103838874594871
+        },
+        {
+            "type": "Container",
+            "id": "d6a5675c-fc3b-48b7-84e0-dad5115d6c2f",
+            "label": "appleContain",
+            "x": 162,
+            "y": 839.202880859375,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "7d66e5b6-98ff-40d7-a927-ccf28dba2127",
+                    "label": "appleGlow",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "shine0031"
+                    },
+                    "x": 3,
+                    "y": -202,
+                    "scaleX": 1.4527929702534326,
+                    "scaleY": 1.0667961757717577,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "88f112a6-dbfe-45a4-97dd-1410c23784fe",
+                    "label": "apple",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "apple0001"
+                    },
+                    "originY": 0.9059255591455426
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "bc83bc62-04cf-4757-8026-73b6e3095971",
+            "label": "rock1",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "rock1"
+            },
+            "x": 392,
+            "y": 643,
+            "originX": 0.507466350048873,
+            "originY": 0.7231289995374747
+        },
+        {
+            "type": "Image",
+            "id": "621ed39b-9466-4d4a-a3f1-f56d166b7594",
+            "label": "rocks",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "rocks"
+            },
+            "x": 397,
+            "y": 664
+        },
+        {
+            "type": "Sprite",
+            "id": "3c5378ed-060a-437b-b803-9e50cc1b82b7",
+            "label": "boulderGlow",
+            "scope": "CLASS",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "shine0031"
+            },
+            "x": 685,
+            "y": 110,
+            "scaleX": 1.5944991335939651,
+            "scaleY": 1.3471434801936877,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "3b83f69b-2120-4ce2-b368-bdc425c6efd9",
+            "label": "boulder",
+            "scope": "CLASS",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "boulder0001"
+            },
+            "x": 697.7079467773438,
+            "y": 319.80303955078125,
+            "originX": 0.350507240323072,
+            "originY": 0.8120110621764921
+        },
+        {
+            "type": "Image",
+            "id": "4d145701-da5e-43c4-a15c-680eaf9c3eb3",
+            "label": "rock4",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "rock4"
+            },
+            "x": 530,
+            "y": 343.12161203761855,
+            "originY": 0.6652165208056064
+        },
+        {
+            "type": "Image",
+            "id": "b4b49fff-1aa3-41cc-a7a2-b2fd0b7a592c",
+            "label": "shovel",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "shovel"
+            },
+            "x": 1119,
+            "y": 349,
+            "originY": 0.8409801401596345
+        },
+        {
+            "type": "Container",
+            "id": "1008dc81-acbc-4731-96be-0d7295323f93",
+            "label": "flowerContain",
+            "x": 557,
+            "y": 369.62139892578125,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "911ecad6-4674-4432-93ea-647d93bef32a",
+                    "label": "flowerGlow",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "shine0031"
+                    },
+                    "x": -35,
+                    "y": -57,
+                    "scaleX": 1.080913279151555,
+                    "scaleY": 0.6170755701685378,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "dc09fc5f-9910-4ff3-9253-c3e3a4339ebb",
+                    "label": "flowers",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "flowers0001"
+                    },
+                    "originY": 0.8647757993651115
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "b9f5601e-222f-4485-9947-5a27409783fc",
+            "label": "wateringcan",
+            "texture": {
+                "key": "stage-normanswarm",
+                "frame": "wateringcan"
+            },
+            "x": 866,
+            "y": 402.180552701682,
+            "originY": 0.8957043725087783
+        },
+        {
+            "type": "Container",
+            "id": "e882cce8-5214-40ea-a54e-34cef716b408",
+            "label": "honeyContain",
+            "x": 1393,
+            "y": 573.79248046875,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "8ed21632-8443-4dd0-a083-c84fb24efbb6",
+                    "label": "honeyGlow",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "shine0031"
+                    },
+                    "x": -2,
+                    "y": -131,
+                    "scaleX": 1.080913279151555,
+                    "scaleY": 0.8901011208411005,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d2ff0ac7-6df0-4a27-8841-e3f02330367c",
+                    "label": "honey",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "honey0001"
+                    },
+                    "originY": 0.6052805663906651
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "151539cc-d64a-4a70-bfec-f664c5bc023c",
+            "label": "mantis",
+            "x": 940,
+            "y": 481,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "9e337516-4d9f-4fdf-859e-11144c29dce7",
+                    "label": "leg2",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "mantis/leg2",
+                    "Animation.end": 23,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "mantis/leg20001"
+                    },
+                    "x": -84,
+                    "y": -34
+                },
+                {
+                    "type": "Sprite",
+                    "id": "213a81b1-af6d-43e2-b90b-93f956061206",
+                    "label": "eye2",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "mantis/eyeball",
+                    "Animation.end": 35,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "mantis/eyeball0001"
+                    },
+                    "x": -87,
+                    "y": -210,
+                    "scaleX": 0.9,
+                    "scaleY": 0.9
+                },
+                {
+                    "type": "Sprite",
+                    "id": "96b5817d-7dce-4133-ab1f-7320a2fd2089",
+                    "label": "arm2",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "mantis/arm2",
+                    "Animation.end": 39,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "mantis/arm20001"
+                    },
+                    "x": -111,
+                    "y": -165
+                },
+                {
+                    "type": "Image",
+                    "id": "cd55b8af-2177-4fd1-8186-24992196ce2c",
+                    "label": "mantis_body",
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "mantis/body"
+                    },
+                    "y": -88.26236346827875
+                },
+                {
+                    "type": "Image",
+                    "id": "8d7d72ca-7475-440c-b865-cd19ce0936d6",
+                    "label": "mantis_antetnna",
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "mantis/antetnna"
+                    },
+                    "x": -89,
+                    "y": -246
+                },
+                {
+                    "type": "Sprite",
+                    "id": "f5f08705-9d4e-4f88-912b-f89fb77f8189",
+                    "label": "arm1",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "mantis/arm1",
+                    "Animation.end": 42,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "mantis/arm10001"
+                    },
+                    "x": -107,
+                    "y": -145
+                },
+                {
+                    "type": "Sprite",
+                    "id": "8e501644-4edd-475d-9419-7341e16af494",
+                    "label": "eye1",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "mantis/eyeball",
+                    "Animation.end": 35,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "mantis/eyeball0001"
+                    },
+                    "x": -50,
+                    "y": -200
+                },
+                {
+                    "type": "Sprite",
+                    "id": "23208569-c123-4133-bba5-53f7d7395312",
+                    "label": "leg1",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "mantis/leg1",
+                    "Animation.end": 20,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "stage-normanswarm",
+                        "frame": "mantis/leg10001"
+                    },
+                    "x": -72,
+                    "y": -15
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "7b60ae7d-ebe7-4b99-a93f-ea7e230411a0",
+            "label": "globalTriggersLayer",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9b3bbf11-ab25-492c-91a6-cc242ab6db51",
+                    "label": "boulderTrigger",
+                    "components": [
+                        "GlobalTrigger"
+                    ],
+                    "GlobalTrigger.checkOccupants": "(l) => this.checkBoulderTrigger(l)",
+                    "x": 690,
+                    "y": 422,
+                    "isFilled": true,
+                    "fillColor": "#00ff00",
+                    "fillAlpha": 0.5,
+                    "width": 220,
+                    "height": 100
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "0fc2dcad-4c7e-4dee-9c00-3a0df9818db7",
+                    "label": "appleTrigger",
+                    "components": [
+                        "GlobalTrigger"
+                    ],
+                    "GlobalTrigger.checkOccupants": "(l) => this.checkAppleTrigger(l)",
+                    "x": 327,
+                    "y": 826,
+                    "isFilled": true,
+                    "fillColor": "#00ff00",
+                    "fillAlpha": 0.5,
+                    "width": 70,
+                    "height": 60
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "990a6083-7ea5-4906-acf7-d307713a918c",
+                    "label": "flowerTrigger",
+                    "components": [
+                        "GlobalTrigger"
+                    ],
+                    "GlobalTrigger.checkOccupants": "(l) => this.checkFlowerTrigger(l)",
+                    "x": 390,
+                    "y": 417,
+                    "isFilled": true,
+                    "fillColor": "#00ff00",
+                    "fillAlpha": 0.5,
+                    "width": 140,
+                    "height": 60
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "54ef1c30-58d5-4785-b354-938f5ed81a38",
+                    "label": "honeyTrigger",
+                    "components": [
+                        "GlobalTrigger"
+                    ],
+                    "GlobalTrigger.checkOccupants": "(l) => this.checkHoneyTrigger(l)",
+                    "x": 1130,
+                    "y": 448,
+                    "isFilled": true,
+                    "fillColor": "#00ff00",
+                    "fillAlpha": 0.5,
+                    "width": 150,
+                    "height": 120
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "17592781-c886-448c-a660-68bda6023e6e",
+                    "label": "hoseTrigger",
+                    "components": [
+                        "GlobalTrigger"
+                    ],
+                    "GlobalTrigger.checkOccupants": "(l) => this.checkHoseTrigger(l)",
+                    "x": 954,
+                    "y": 824,
+                    "isFilled": true,
+                    "fillColor": "#00ff00",
+                    "fillAlpha": 0.5,
+                    "width": 150,
+                    "height": 110
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "c458aaf8-5e43-4a2e-9190-cc40c34eb344",
+            "label": "sort",
+            "objectIds": [
+                "05d151d4-df1a-4211-96f9-fe2efd25bdf8",
+                "1dc2c580-77c8-4cd1-9a40-1fda13eaac3f",
+                "982de79f-f41a-4084-8979-2870681c24cb",
+                "8390d332-41c5-4350-8614-15a55b1de34b",
+                "2d241f04-c95b-4da8-a283-663cc63bea69",
+                "bc83bc62-04cf-4757-8026-73b6e3095971",
+                "621ed39b-9466-4d4a-a3f1-f56d166b7594",
+                "82ceb36f-3bc7-4edf-85da-c002892c31cf",
+                "79045fb3-d2d2-4552-bd05-9f5d358687a9",
+                "5a831265-8f63-422d-aac6-5043069fe2cc",
+                "4d145701-da5e-43c4-a15c-680eaf9c3eb3",
+                "b9f5601e-222f-4485-9947-5a27409783fc",
+                "b4b49fff-1aa3-41cc-a7a2-b2fd0b7a592c",
+                "7ca719b1-b291-4fc3-a252-e3e2a649526b",
+                "258e01cb-14ef-42f6-8adc-ad4ffb49c60c",
+                "c0652bd6-5747-49ca-a830-362812fd8ea9",
+                "151539cc-d64a-4a70-bfec-f664c5bc023c",
+                "d6a5675c-fc3b-48b7-84e0-dad5115d6c2f",
+                "1008dc81-acbc-4731-96be-0d7295323f93",
+                "e882cce8-5214-40ea-a54e-34cef716b408",
+                "604777ef-66bb-4c22-9493-44a1c8ea0a8e"
+            ]
+        },
+        {
+            "id": "eb8320af-920c-4f72-aeee-8351bd577a31",
+            "label": "globalTriggers",
+            "objectIds": [
+                "9b3bbf11-ab25-492c-91a6-cc242ab6db51",
+                "0fc2dcad-4c7e-4dee-9c00-3a0df9818db7",
+                "990a6083-7ea5-4906-acf7-d307713a918c",
+                "54ef1c30-58d5-4785-b354-938f5ed81a38",
+                "17592781-c886-448c-a660-68bda6023e6e"
+            ]
+        }
+    ]
+}

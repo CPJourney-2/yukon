@@ -1,0 +1,41 @@
+{
+    "id": "3fcd8726-163b-45ad-b73c-3bda9ed49a60",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [],
+        "createMethodName": "_create",
+        "sceneKey": "Party12",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "8f5a6c1f-8add-4b1d-831d-ca24f077eb41",
+            "label": "penguin_color_block",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.useHandCursor": false,
+            "originX": 0,
+            "originY": 0,
+            "isFilled": true,
+            "fillColor": "#b89a9a",
+            "width": 1520,
+            "height": 960
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

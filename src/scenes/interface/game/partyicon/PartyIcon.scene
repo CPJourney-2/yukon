@@ -1,0 +1,72 @@
+{
+    "id": "eacc16db-4e62-4df2-baa2-2c60b200ef39",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "654d67e3-4ba9-4181-98ed-573bafcf2224",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "9b7cd9de-69b6-4967-a0fc-722a44a18d9c",
+                    "label": "ticket",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onClick()",
+                    "texture": {
+                        "key": "ticket"
+                    }
+                },
+                {
+                    "type": "Text",
+                    "id": "ea79b00e-b0c5-4695-9fc1-1f3645910d5a",
+                    "label": "ticketCount",
+                    "scope": "CLASS",
+                    "y": -16,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fixedWidth": 140,
+                    "align": "center",
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "22px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Text",
+                    "id": "37b3e499-d17d-40b6-851c-426158757b13",
+                    "label": "tickets",
+                    "y": 13.08855676651001,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "TICKETS",
+                    "fixedWidth": 150,
+                    "align": "center",
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "22px",
+                    "color": "#000"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

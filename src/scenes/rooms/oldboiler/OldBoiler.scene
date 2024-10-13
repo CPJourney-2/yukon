@@ -1,0 +1,121 @@
+{
+    "id": "4d0a4405-4220-4d9a-b8e9-3715a8ea5b41",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/oldboiler/boilerbeta-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "OldBoiler",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "45ba28d8-57fd-4c1b-bcf9-fabb67797dc5",
+            "label": "boilerbeta",
+            "texture": {
+                "key": "bgOldBoiler"
+            },
+            "x": 760,
+            "y": 480
+        },
+        {
+            "type": "Rectangle",
+            "id": "a21c0fcb-6a0a-4699-9019-45b9de035639",
+            "label": "rectangle_1",
+            "x": 85,
+            "y": 501,
+            "scaleX": 2.5017420905867516,
+            "scaleY": 9.958506435162235,
+            "isFilled": true,
+            "fillColor": "#312E3F",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "b285e7cd-f857-453b-9447-f3dc8d27a621",
+            "label": "rectangle",
+            "x": 1498,
+            "y": 525,
+            "scaleX": 2.5017420905867516,
+            "scaleY": 9.958506435162235,
+            "isFilled": true,
+            "fillColor": "#312E3F",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "4c5f9e4d-2646-46c7-a516-3cada63d6a39",
+            "label": "rectangle_2",
+            "components": [
+                "MoveTo",
+                "SimpleButton"
+            ],
+            "x": 949.892011215691,
+            "y": 456.003211830013,
+            "scaleX": 1.1357439251176802,
+            "scaleY": 1.5685665275129232,
+            "originX": 0.4511059150930965,
+            "originY": 0.883526977737022,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "113455b2-8012-4e91-8617-8ca65936111c",
+            "label": "boiler",
+            "texture": {
+                "key": "boilerandsmoke",
+                "frame": "boiler"
+            },
+            "x": 463.18711448459675,
+            "y": 550.2252739442891,
+            "originX": 0.705161335188068,
+            "originY": 0.9010438605588578
+        },
+        {
+            "type": "Sprite",
+            "id": "1a75eafa-9f67-45fe-b878-932e5600812f",
+            "label": "smoke0001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "smoke",
+            "Animation.end": 14,
+            "Animation.repeatDelay": 5000,
+            "texture": {
+                "key": "boilerandsmoke",
+                "frame": "smoke0001"
+            },
+            "x": 533,
+            "y": 129,
+            "scaleX": 0.5263283603845028,
+            "scaleY": 0.5263283603845028
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "6caa7b6c-325a-45ac-9ed9-88a7135e9def",
+            "label": "sort",
+            "objectIds": [
+                "113455b2-8012-4e91-8617-8ca65936111c"
+            ]
+        }
+    ]
+}

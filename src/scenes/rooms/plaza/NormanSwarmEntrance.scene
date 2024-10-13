@@ -1,0 +1,160 @@
+{
+    "id": "e2168eb9-843c-444c-903c-6e01daa9c54b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "402dc8ce-a18a-47df-9f97-b9aa19cd413c",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "b1155e6b-1ee1-4e89-b796-cf4e79f67bfd",
+                    "label": "door1",
+                    "components": [
+                        "Button",
+                        "MoveTo"
+                    ],
+                    "Button.spriteName": "door",
+                    "texture": {
+                        "key": "normanswarmbuilding",
+                        "frame": "door"
+                    },
+                    "x": 3.628261089324951,
+                    "y": 92.51008976090432,
+                    "originX": 0.5453148462016134,
+                    "originY": 0.9965499079833923
+                },
+                {
+                    "type": "Image",
+                    "id": "dce0a673-b03c-4ae4-bde9-ec96c19d7a66",
+                    "label": "arch1",
+                    "texture": {
+                        "key": "normanswarmbuilding",
+                        "frame": "arch"
+                    }
+                },
+                {
+                    "type": "Sprite",
+                    "id": "22c3a7ef-0db1-43f5-9f52-9064ee284279",
+                    "label": "lights1",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "lights",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "normanswarmbuilding",
+                        "frame": "lights0001"
+                    },
+                    "x": -2,
+                    "y": -45
+                },
+                {
+                    "type": "Sprite",
+                    "id": "e798d713-2a63-48c4-b9d8-6dc3e6ebef5c",
+                    "label": "laser1",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "laser",
+                    "Animation.end": 60,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "normanswarmbuilding",
+                        "frame": "laser0001"
+                    },
+                    "x": -40,
+                    "y": -37
+                },
+                {
+                    "type": "Image",
+                    "id": "d6cb96b8-f18f-4125-97cb-5774624ef398",
+                    "label": "door2",
+                    "components": [
+                        "Button",
+                        "MoveTo"
+                    ],
+                    "Button.spriteName": "door",
+                    "texture": {
+                        "key": "normanswarmbuilding",
+                        "frame": "door"
+                    },
+                    "x": 234,
+                    "y": 93,
+                    "originX": 0.5453148462016134,
+                    "originY": 0.9965499079833923,
+                    "flipX": true
+                },
+                {
+                    "type": "Image",
+                    "id": "406648b0-31bc-438a-8c78-74f1483826eb",
+                    "label": "arch2",
+                    "texture": {
+                        "key": "normanswarmbuilding",
+                        "frame": "arch"
+                    },
+                    "x": 232,
+                    "flipX": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "c01618af-ef54-464d-a968-8ac419c97ebe",
+                    "label": "lights2",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "lights",
+                    "Animation.end": 10,
+                    "texture": {
+                        "key": "normanswarmbuilding",
+                        "frame": "lights0001"
+                    },
+                    "x": 234,
+                    "y": -45,
+                    "flipX": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "abce45de-d138-4340-8595-c02e71a68e7d",
+                    "label": "laser2",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "laser",
+                    "Animation.end": 60,
+                    "Animation.repeat": 0,
+                    "Animation.autoPlay": false,
+                    "texture": {
+                        "key": "normanswarmbuilding",
+                        "frame": "laser0001"
+                    },
+                    "x": 277,
+                    "y": -37,
+                    "flipX": true
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

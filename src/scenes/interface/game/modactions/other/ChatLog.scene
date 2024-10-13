@@ -1,0 +1,179 @@
+{
+    "id": "13b2b0bb-4b2a-45e0-814d-8c552f023ff8",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "b03631d8-7496-4675-9a4f-50820d1f52cd",
+            "label": "banrecom",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "NineSlice",
+                    "id": "5fa2818c-acf7-4a33-92d7-eed6f72a0ae2",
+                    "label": "bg",
+                    "scope": "CLASS",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "texture": {
+                        "key": "main",
+                        "frame": "chatlog/bg"
+                    },
+                    "x": 406,
+                    "y": 356,
+                    "width": 1000,
+                    "height": 720,
+                    "leftWidth": 45,
+                    "rightWidth": 45,
+                    "topHeight": 45,
+                    "bottomHeight": 45
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "00955697-287e-4cb8-847f-954a4d9a6e96",
+                    "label": "rectangle_1",
+                    "x": 851,
+                    "y": 388,
+                    "isFilled": true,
+                    "fillColor": "#bdbdbd",
+                    "width": 50,
+                    "height": 510
+                },
+                {
+                    "type": "Image",
+                    "id": "cb779a2b-e7c4-4240-8fd1-ef96af91a35d",
+                    "label": "x_button_3",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 851,
+                    "y": 57
+                },
+                {
+                    "type": "Image",
+                    "id": "b5bfe38a-2848-49b9-a3cf-830e2cf4744e",
+                    "label": "blue_x_1",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 851,
+                    "y": 55
+                },
+                {
+                    "type": "Image",
+                    "id": "18f9b0a3-88b6-4afd-bd44-c9c3022f38e4",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.listController.scrollDown()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 851,
+                    "y": 137
+                },
+                {
+                    "type": "Image",
+                    "id": "00627ee2-3c4f-4f6b-ab5d-3389b30c2217",
+                    "label": "x_button_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.listController.scrollUp()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 851,
+                    "y": 647
+                },
+                {
+                    "type": "Image",
+                    "id": "43efb35d-35fc-42f8-926c-bd4ad1eff573",
+                    "label": "blue_arrow",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 851,
+                    "y": 135
+                },
+                {
+                    "type": "Image",
+                    "id": "a32b6345-839e-4cf3-a35a-b53bc6c3fb67",
+                    "label": "blue_arrow_1",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 851,
+                    "y": 645,
+                    "flipY": true
+                },
+                {
+                    "type": "Text",
+                    "id": "2dd9b70c-8f49-4dd4-aef8-bd3f0039449e",
+                    "label": "noMessages",
+                    "scope": "CLASS",
+                    "x": 13,
+                    "y": 142,
+                    "visible": false,
+                    "text": "No recorded messages from this user.\n\nWhen they send a message, it will be logged here.\n\nNOTE: it only logs when they are in this room. These logs are lost when you switch rooms.",
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#000",
+                    "wordWrapWidth": 800
+                },
+                {
+                    "type": "Container",
+                    "id": "38b736e8-53f3-4aec-b04a-0b7d012e0caa",
+                    "label": "texts",
+                    "scope": "CLASS",
+                    "x": 362,
+                    "y": 700
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "2fe32761-743a-4fec-8e54-4d36eecc3778",
+            "label": "items"
+        }
+    ]
+}

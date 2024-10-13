@@ -1,0 +1,187 @@
+{
+    "id": "261c46fa-7660-4455-8c0e-10b71de4a450",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "superClassName": "GameScene",
+        "preloadPackFiles": [
+            "yukon/assets/media/games/card/card-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Card",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "10da8501-9402-45e5-ae24-0a3d548269f2",
+            "label": "container_2",
+            "scope": "CLASS",
+            "x": 105,
+            "y": 21,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "724d5cb8-3ef8-49fb-b249-68655b266695",
+                    "label": "cardselector",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "card",
+                        "frame": "cardselector"
+                    },
+                    "x": 655,
+                    "y": 832
+                },
+                {
+                    "type": "Container",
+                    "id": "17a69916-17e7-42ff-8c08-991c62ae46e6",
+                    "label": "container_1",
+                    "scope": "CLASS",
+                    "x": 650,
+                    "y": 485,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "8d4cc6d1-85cd-4284-a561-63a40cde382d",
+                            "label": "clock_clock0001",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "card",
+                                "frame": "clock/clock0001"
+                            },
+                            "x": 3,
+                            "y": 168,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "9abc1b9e-f0c5-4ba6-844f-d2bec38ef6a4",
+                            "label": "loader_loader0001",
+                            "scope": "CLASS",
+                            "components": [
+                                "Animation"
+                            ],
+                            "Animation.key": "loader/loader",
+                            "Animation.end": 20,
+                            "texture": {
+                                "key": "card",
+                                "frame": "loader/loader0001"
+                            },
+                            "x": -3,
+                            "y": -112
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "5f3040f5-4a02-4a57-846a-25a2512645f1",
+                            "label": "close",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "close",
+                            "Button.callback": "() => this.onExit()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "card",
+                                "frame": "close"
+                            },
+                            "x": 699,
+                            "y": -443
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b8a4cc3c-003f-493f-b3b7-366ab8535083",
+                            "label": "text_1",
+                            "scope": "CLASS",
+                            "x": -49,
+                            "y": 142,
+                            "visible": false,
+                            "text": "20",
+                            "fixedWidth": 100,
+                            "fixedHeight": 100,
+                            "align": "center",
+                            "fontFamily": "CCComicrazy",
+                            "fontSize": "45px",
+                            "stroke": "#000",
+                            "strokeThickness": 5
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "7daddb17-f527-471c-91ab-bbb53e025cbe",
+                    "label": "seat1",
+                    "scope": "CLASS",
+                    "x": 818,
+                    "y": 715,
+                    "text": "LOADING...",
+                    "fixedWidth": 500,
+                    "align": "right",
+                    "fontFamily": "CCComicrazy-Roman",
+                    "fontSize": "30px",
+                    "fontStyle": "bold",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "3c82c870-cb2f-4f1b-8fa3-5ddbd3834722",
+                    "label": "seat0",
+                    "scope": "CLASS",
+                    "x": 10,
+                    "y": 715,
+                    "text": "LOADING...",
+                    "fixedWidth": 500,
+                    "fontFamily": "CCComicrazy-Roman",
+                    "fontSize": "30px",
+                    "fontStyle": "bold",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Container",
+                    "id": "6540a9bc-fc0e-4e6c-8739-2565ae797076",
+                    "label": "cards",
+                    "scope": "CLASS",
+                    "y": 740
+                }
+            ]
+        },
+        {
+            "type": "Sprite",
+            "id": "0804a547-6ee1-4fc6-863d-f843c51d5671",
+            "label": "dropdown_dropdown0001",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => {this.instructions()}",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "card",
+                "frame": "dropdown/dropdown0001"
+            },
+            "x": 752,
+            "y": 21
+        },
+        {
+            "type": "Image",
+            "id": "50d2af14-c43c-49d8-988e-75633c19e61d",
+            "label": "frame",
+            "scope": "CLASS",
+            "texture": {
+                "key": "card",
+                "frame": "frame"
+            },
+            "x": 756,
+            "y": 479
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

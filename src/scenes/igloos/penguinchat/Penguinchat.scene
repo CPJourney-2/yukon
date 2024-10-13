@@ -1,0 +1,148 @@
+{
+    "id": "50e32ca1-360c-4b0b-b199-d657b709968f",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/penguinchat/penguinchat-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Penguinchat",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Layer",
+            "id": "30867d6f-1114-47db-8acb-1a9739ed02ec",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "73cda13f-b7b3-4c33-9377-dbf00c8f09d2",
+                    "label": "ellipse_1",
+                    "components": [],
+                    "x": 758,
+                    "y": 623,
+                    "scaleX": 4.861492659181984,
+                    "scaleY": 3.4199804822419697,
+                    "strokeColor": "#000000",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "c34b7ec7-da4a-4be5-8498-5ff868840045",
+                    "label": "rectangle_1",
+                    "components": [],
+                    "x": 741,
+                    "y": 521,
+                    "scaleX": 26.923623185290104,
+                    "scaleY": 11.189798848949042,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "29ce6606-c5ea-4484-9fc1-29eef143aa94",
+            "label": "bg",
+            "components": [],
+            "texture": {
+                "key": "penguinchat+",
+                "frame": "bg"
+            },
+            "x": 760,
+            "y": 480,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "89941619-d149-4185-9cc4-986eaa3a7946",
+            "label": "bandguy20001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "drum",
+            "Animation.end": 8,
+            "texture": {
+                "key": "penguinchat+",
+                "frame": "drum0001"
+            },
+            "x": 775,
+            "y": 358,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "55b0cb36-c7ba-4cdc-99f6-0cee9700f427",
+            "label": "bandguy10001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "piano",
+            "Animation.end": 12,
+            "texture": {
+                "key": "penguinchat+",
+                "frame": "piano0001"
+            },
+            "x": 655,
+            "y": 350,
+            "list": []
+        },
+        {
+            "type": "Sprite",
+            "id": "0ff77c99-7ef1-4990-b9e5-f45510b189f4",
+            "label": "bandguy30001",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "violin",
+            "Animation.end": 6,
+            "texture": {
+                "key": "penguinchat+",
+                "frame": "violin0001"
+            },
+            "x": 864,
+            "y": 395,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "1d90104d-f94e-4441-b5d0-215177ef51b6",
+            "label": "rectangle",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 495.1367879743403,
+            "y": 480.73130507884485,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.4835133440867163,
+            "originY": 0.7063557648391405,
+            "width": 128,
+            "height": 128,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

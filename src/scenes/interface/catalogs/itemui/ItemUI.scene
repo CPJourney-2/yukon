@@ -1,0 +1,499 @@
+{
+    "id": "e6846d3d-6cbb-4872-8744-b32b47ed4d18",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "5f412ea8-5b94-4496-99e0-8a0a36950046",
+            "label": "container_1",
+            "components": [],
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "29fbb81c-4818-434d-b91b-fecff811bb92",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "a4b8b9e7-f7da-4073-be90-f65d85eda933",
+                    "label": "page5",
+                    "components": [],
+                    "x": 2,
+                    "y": 4,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "51299e0a-9544-4486-a0cb-909cf4ed6026",
+                            "label": "paperbackground_5",
+                            "components": [],
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "paperbackground"
+                            },
+                            "x": 771,
+                            "y": 469,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ea2fdab7-7cda-4252-829b-5735d3cc0c3f",
+                            "label": "clothingdays0005",
+                            "components": [],
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "clothingdays0005"
+                            },
+                            "x": 754,
+                            "y": 446,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fae5f3ac-61c8-4334-aa8a-30dbbc710175",
+                            "label": "buy_button5",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy_button",
+                            "Button.callback": "() => {this.interface.prompt.showItem(380043)}",
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "buy_button"
+                            },
+                            "x": 757,
+                            "y": 797,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3388f926-9744-4f79-9482-9be582354849",
+                            "label": "lock_icon4",
+                            "components": [],
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "lock_icon"
+                            },
+                            "x": 759,
+                            "y": 416,
+                            "visible": false,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "19a2cac8-ffe1-42b7-b3c2-e11f95908db4",
+                    "label": "page4",
+                    "components": [],
+                    "x": 2,
+                    "y": 4,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "6d9c01c2-8e93-44ce-8a77-f549bb865ace",
+                            "label": "paperbackground_4",
+                            "components": [],
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "paperbackground"
+                            },
+                            "x": 771,
+                            "y": 469,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b2c273e4-18c2-440e-b226-195af2466fba",
+                            "label": "clothingdays0004",
+                            "components": [],
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "clothing3"
+                            },
+                            "x": 759,
+                            "y": 415,
+                            "scaleX": 0.925,
+                            "scaleY": 0.925,
+                            "angle": -0.20000000000004547,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "6288ed9b-881c-46a0-998e-395afd0f66d7",
+                            "label": "buy_button4",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy_button",
+                            "Button.callback": "() => {this.interface.prompt.showItem(4846)}",
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "buy_button"
+                            },
+                            "x": 757,
+                            "y": 797,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f43d7608-fca8-44b0-9553-957c44561ccd",
+                            "label": "lock_icon3",
+                            "components": [],
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "lock_icon"
+                            },
+                            "x": 759,
+                            "y": 416,
+                            "visible": false,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "48bcde24-e37d-4095-aa8d-5b68f17bb92e",
+                    "label": "page3",
+                    "components": [],
+                    "x": 2,
+                    "y": 4,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "a7169909-93d4-4c57-bd98-3412d059de85",
+                            "label": "paperbackground_3",
+                            "components": [],
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "paperbackground"
+                            },
+                            "x": 771,
+                            "y": 469,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5839827a-6718-4ad4-9a86-8103b8d16823",
+                            "label": "clothingdays0003",
+                            "components": [],
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "clothing2"
+                            },
+                            "x": 760,
+                            "y": 423,
+                            "scaleX": 0.98,
+                            "scaleY": 0.98,
+                            "angle": -1.5000000000000002,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ab3c1955-d106-4ee1-bfe3-a81c63783ea0",
+                            "label": "buy_button3",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy_button",
+                            "Button.callback": "() => {this.interface.prompt.showItem(4458)}",
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "buy_button"
+                            },
+                            "x": 757,
+                            "y": 797,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2e21e582-755a-42b2-813f-c3942971fd1a",
+                    "label": "page2",
+                    "components": [],
+                    "x": 2,
+                    "y": 4,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "d8b24e1e-48bf-4a8d-bbb6-2e60d6a65a05",
+                            "label": "paperbackground_2",
+                            "components": [],
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "paperbackground"
+                            },
+                            "x": 771,
+                            "y": 469,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1d32b613-0270-4fc7-9ba4-d3d1ca8bc763",
+                            "label": "clothingdays0002",
+                            "components": [],
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "clothingdays0002"
+                            },
+                            "x": 758,
+                            "y": 426,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3f16dec3-7460-4071-985f-60cab12701b5",
+                            "label": "buy_button2",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy_button",
+                            "Button.callback": "() => {this.interface.prompt.showItem(4454)}",
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "buy_button"
+                            },
+                            "x": 757,
+                            "y": 797,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "afd7caba-a1d3-41d7-991e-f6b36ad591fa",
+                            "label": "lock_icon",
+                            "components": [],
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "lock_icon"
+                            },
+                            "x": 759,
+                            "y": 416,
+                            "visible": false,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "05917a5f-7873-4a4d-a592-7beded4ba186",
+                    "label": "buy_button // move it down per day",
+                    "components": [],
+                    "texture": {
+                        "key": "cardjitsupartyitemui",
+                        "frame": "buy_button"
+                    },
+                    "x": 759,
+                    "y": 801,
+                    "visible": false,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "d5340b9e-a792-44ac-9ebd-660308775819",
+                    "label": "page1",
+                    "components": [],
+                    "x": 1,
+                    "y": 4,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "e4611d9d-f67c-43a8-bb83-2c5880b5156f",
+                            "label": "paperbackground",
+                            "components": [],
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "paperbackground"
+                            },
+                            "x": 772,
+                            "y": 469,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a9ba8dae-02c3-46d5-a288-1b6da352c3b1",
+                            "label": "clothingdays0001",
+                            "components": [],
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "clothingdays0001"
+                            },
+                            "x": 754,
+                            "y": 455,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7d52f21d-f570-44ce-8852-3a9e2d1ee0f8",
+                            "label": "buy_button1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy_button",
+                            "Button.callback": "() => {this.interface.prompt.showItem(1588)}",
+                            "texture": {
+                                "key": "cardjitsupartyitemui",
+                                "frame": "buy_button"
+                            },
+                            "x": 758,
+                            "y": 797,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "0d5feff1-712f-4fa8-9bce-d23be326aedf",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 190,
+                    "y": 47,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "19b45a80-8b62-4d6c-af9d-9cda533cf892",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 889,
+                            "y": 362,
+                            "originX": 1,
+                            "visible": false,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "b3b0e631-6690-4cda-bb98-6097fc3f9fbb",
+                    "label": "pageleft_1",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.prevPage()",
+                    "x": 402,
+                    "y": 444,
+                    "alpha": 0.000001,
+                    "isFilled": true,
+                    "width": 60,
+                    "height": 110,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "9a6f424b-0041-48fb-b172-70e5607d8db4",
+                    "label": "rectangle",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.close()",
+                    "x": 1457,
+                    "y": 55,
+                    "alpha": 1e-22,
+                    "isFilled": true,
+                    "width": 100,
+                    "height": 100,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "ccfeb010-3f11-4802-a1c9-c670c36546ae",
+                    "label": "getrealcorner_1",
+                    "components": [],
+                    "texture": {
+                        "key": "cardjitsupartyitemui",
+                        "frame": "getrealcorner"
+                    },
+                    "x": 1397,
+                    "y": 93,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "c31ce046-ac1d-4a75-887e-03a6614feb31",
+                    "label": "pageright_1",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.nextPage()",
+                    "x": 1098,
+                    "y": 446,
+                    "alpha": 0.000001,
+                    "isFilled": true,
+                    "width": 60,
+                    "height": 110,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "3e2fa239-998c-4487-a549-3a9a622e3160",
+                    "label": "the_corner_x",
+                    "components": [],
+                    "texture": {
+                        "key": "cardjitsupartyitemui",
+                        "frame": "the_corner_x"
+                    },
+                    "x": 1455,
+                    "y": 59,
+                    "scaleX": 0.45,
+                    "scaleY": 0.45,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "574d04ef-a7d5-4c55-963e-d98537ab9f61",
+            "label": "pages",
+            "objectIds": [
+                "d5340b9e-a792-44ac-9ebd-660308775819",
+                "2e21e582-755a-42b2-813f-c3942971fd1a",
+                "48bcde24-e37d-4095-aa8d-5b68f17bb92e",
+                "19a2cac8-ffe1-42b7-b3c2-e11f95908db4",
+                "a4b8b9e7-f7da-4073-be90-f65d85eda933"
+            ]
+        }
+    ]
+}

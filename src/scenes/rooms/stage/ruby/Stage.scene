@@ -1,0 +1,815 @@
+{
+    "id": "6ed4cad1-510a-497b-b1a2-336a2690e4d7",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/stage/ruby/stage-ruby-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Stage",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "417b0287-92c1-4ebf-96f9-75f850f38872",
+            "label": "bgStage",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "bgStage"
+            },
+            "x": 775,
+            "y": 466
+        },
+        {
+            "type": "Image",
+            "id": "38d4f187-45ea-4118-a880-615d5b41d17b",
+            "label": "railBack",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "railBack"
+            },
+            "x": 1229,
+            "y": 271
+        },
+        {
+            "type": "Image",
+            "id": "bb2c3f9d-8070-4c05-bfc1-9b0cb058d09c",
+            "label": "stairs",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "stairs"
+            },
+            "x": 1245,
+            "y": 331
+        },
+        {
+            "type": "Image",
+            "id": "234b3de6-92f4-4e2a-a4b2-daba2a8efb3c",
+            "label": "rug1",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "rug1"
+            },
+            "x": 1386,
+            "y": 677
+        },
+        {
+            "type": "Image",
+            "id": "86c5d98f-ff8b-424a-a506-a85be326220e",
+            "label": "pottedPlant",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "pottedPlant"
+            },
+            "x": 599,
+            "y": 739.0124878308309,
+            "originY": 0.7803976350820521
+        },
+        {
+            "type": "Image",
+            "id": "18a312fe-1643-4817-966e-2c626e05bfef",
+            "label": "pottedPlant_1",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "pottedPlant"
+            },
+            "x": 953,
+            "y": 741.0124921769627,
+            "originY": 0.7803976350820521
+        },
+        {
+            "type": "Image",
+            "id": "e498492b-aa88-412b-b969-f0538efa38ae",
+            "label": "lamppost",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "lamppost"
+            },
+            "x": 702,
+            "y": 497.8655819732951,
+            "originY": 0.8883251690602229
+        },
+        {
+            "type": "Image",
+            "id": "9c0a06f6-c4c0-483a-80c9-15a1bd671847",
+            "label": "boothL2",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "boothL2"
+            },
+            "x": 118,
+            "y": 286
+        },
+        {
+            "type": "Sprite",
+            "id": "14961b5e-5e20-47f3-b847-2d035c477e51",
+            "label": "window",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "window",
+            "Animation.end": 320,
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "window0001"
+            },
+            "x": 423,
+            "y": 332
+        },
+        {
+            "type": "Sprite",
+            "id": "ffc88b2b-80bb-49a9-92c9-71f316347c2b",
+            "label": "fileCabinet",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton",
+                "Animation"
+            ],
+            "SimpleButton.callback": "() => this.fileCabinet.__Animation.play()",
+            "Animation.key": "fileCabinet",
+            "Animation.end": 40,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "fileCabinet0001"
+            },
+            "x": 333,
+            "y": 234
+        },
+        {
+            "type": "Image",
+            "id": "73f4db71-fac8-43a6-9df6-f7b41da17eae",
+            "label": "chairBack",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "chairBack"
+            },
+            "x": 455,
+            "y": 256
+        },
+        {
+            "type": "Image",
+            "id": "1f53f84a-0cee-4ab8-a0b1-1c477de18b5c",
+            "label": "desk",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "desk"
+            },
+            "x": 446,
+            "y": 301
+        },
+        {
+            "type": "Image",
+            "id": "90707df2-5329-400b-90bc-4192de60cf3c",
+            "label": "boothL",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "boothL"
+            },
+            "x": 138,
+            "y": 260,
+            "originY": 0.8106970132319447
+        },
+        {
+            "type": "Image",
+            "id": "5a25165f-afb8-413b-a0d6-b46796090ace",
+            "label": "bigChair",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "bigChair"
+            },
+            "x": 149,
+            "y": 270.7468780422923,
+            "originY": 0.4399147924824174
+        },
+        {
+            "type": "Image",
+            "id": "f0e0d9d9-e2e5-4d35-b37c-0058531a4d6b",
+            "label": "bigChairArm",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "bigChairArm"
+            },
+            "x": 132,
+            "y": 289.0687526076791,
+            "originY": 0.31116077637331124
+        },
+        {
+            "type": "Image",
+            "id": "93b10ba6-7dee-4ed4-9f2e-1a4d4b566bd9",
+            "label": "bigChairArm_1",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "bigChairArm"
+            },
+            "x": 83,
+            "y": 342.8281184808023,
+            "originY": 0.9720980590667212
+        },
+        {
+            "type": "Image",
+            "id": "777eae27-8060-49e6-80bc-b2534e3acdff",
+            "label": "bigChair_1",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "bigChair"
+            },
+            "x": 100,
+            "y": 295.42500347690543,
+            "originY": 0.4313311914084768
+        },
+        {
+            "type": "Image",
+            "id": "f10892aa-7cd2-4024-8591-66579e4b1d1a",
+            "label": "woodPost",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "woodPost"
+            },
+            "x": 347,
+            "y": 475.3322652207396,
+            "originY": 0.8600757112391333
+        },
+        {
+            "type": "Image",
+            "id": "063ad15e-9169-4350-89b2-9a57daffd98d",
+            "label": "traintrack",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "traintrack"
+            },
+            "x": 772,
+            "y": 164
+        },
+        {
+            "type": "Sprite",
+            "id": "940ba4bd-a47a-4a40-b147-c89367a169db",
+            "label": "train",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "train",
+            "Animation.end": 120,
+            "Animation.repeatDelay": 5000,
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "train0001"
+            },
+            "x": 768,
+            "y": 49
+        },
+        {
+            "type": "Image",
+            "id": "fe6c78da-6ea1-4582-9c78-ab1ecba10962",
+            "label": "walldoor",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "walldoor"
+            },
+            "x": 237,
+            "y": 515.0232895188094,
+            "originY": 0.7410789026058471
+        },
+        {
+            "type": "Image",
+            "id": "d330745e-da5f-4791-b258-378785239746",
+            "label": "pottedVase_1",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "pottedVase"
+            },
+            "x": 99,
+            "y": 736.5142401029875,
+            "originY": 0.7500800005785816
+        },
+        {
+            "type": "Image",
+            "id": "a967cd73-a90c-4bb5-945a-d34901e06834",
+            "label": "boothR1",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "boothR1"
+            },
+            "x": 1405,
+            "y": 256
+        },
+        {
+            "type": "Image",
+            "id": "7bea206b-211d-4c0e-b8b8-2deb94429091",
+            "label": "boothR",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "boothR"
+            },
+            "x": 1398,
+            "y": 259.5309377150537,
+            "originY": 0.6912775742322017
+        },
+        {
+            "type": "Image",
+            "id": "234e0439-f70b-4644-bb6c-5784c3b93f3a",
+            "label": "boothL3",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "boothL3"
+            },
+            "x": 140,
+            "y": 668.6773994699129,
+            "originY": 2.5278416635113863
+        },
+        {
+            "type": "Image",
+            "id": "e577ba08-3556-4a8d-88cd-c3d13da6ca2c",
+            "label": "walltrain",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "walltrain"
+            },
+            "x": 1072,
+            "y": 522.6165256709676,
+            "originY": 0.7564838843693364
+        },
+        {
+            "type": "Sprite",
+            "id": "931e47c5-1eda-4eaf-8e42-f365781ac901",
+            "label": "safe",
+            "scope": "CLASS",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "safe",
+            "Animation.end": 12,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "SimpleButton.callback": "() => this.interface.prompt.showItem(7045)",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "safe0001"
+            },
+            "x": 1424,
+            "y": 526.8721752236559,
+            "originY": 1.0533834111241442
+        },
+        {
+            "type": "Sprite",
+            "id": "b9a63c68-79cf-4579-bf9b-b6669969aee1",
+            "label": "painting",
+            "scope": "CLASS",
+            "components": [
+                "Animation",
+                "SimpleButton"
+            ],
+            "Animation.key": "painting",
+            "Animation.end": 15,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "SimpleButton.callback": "() => this.onPainting()",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "painting0001"
+            },
+            "x": 1396,
+            "y": 714.0051982811742,
+            "originY": 1.006374524761279
+        },
+        {
+            "type": "Image",
+            "id": "e006cf4a-abfd-4e44-8e51-444b1db9163e",
+            "label": "boothR2",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "boothR2"
+            },
+            "x": 1426,
+            "y": 636.0907631962784,
+            "originY": 3.519539964365389
+        },
+        {
+            "type": "Image",
+            "id": "a8d29c3d-efd0-4214-81d4-bf3e8b23597d",
+            "label": "archL",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "archL"
+            },
+            "x": -29,
+            "y": 950.5424284924724,
+            "originX": 0,
+            "originY": 0.9963757112080424
+        },
+        {
+            "type": "Image",
+            "id": "15707949-bc9b-45ae-83ad-e06e6b15c1db",
+            "label": "archR",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "archR"
+            },
+            "x": 1376,
+            "y": 932.8588391602148,
+            "originY": 0.9736465819289463
+        },
+        {
+            "type": "Sprite",
+            "id": "a95510f9-a3d1-41e2-b351-21eb62978f70",
+            "label": "bigDoor",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.onBigDoor()",
+            "SimpleButton.pixelPerfect": true,
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "bigDoor"
+            },
+            "x": 775,
+            "y": 681.6687247924355,
+            "originY": 0.8318992415256946
+        },
+        {
+            "type": "Image",
+            "id": "44eb0c03-55a4-4222-b9b2-60b57c609178",
+            "label": "lampDesk",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "lampDesk"
+            },
+            "x": 443,
+            "y": 802.8102997935484,
+            "originY": 0.22723446501722544
+        },
+        {
+            "type": "Sprite",
+            "id": "661370d8-e5a5-4919-a6c6-34e306061399",
+            "label": "lamp",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.onLamp()",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "lamp-off"
+            },
+            "x": 534,
+            "y": 998.9248086064347,
+            "originY": 2.5290725074551963
+        },
+        {
+            "type": "Sprite",
+            "id": "115657a1-51a4-4165-8d57-d4827beec525",
+            "label": "book",
+            "components": [
+                "SimpleButton",
+                "Animation"
+            ],
+            "SimpleButton.callback": "() => this.book.__Animation.play()",
+            "Animation.key": "book",
+            "Animation.end": 23,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "book0001"
+            },
+            "x": 444,
+            "y": 1012.862913076344,
+            "originY": 2.0686291307634392
+        },
+        {
+            "type": "Image",
+            "id": "9fc07766-8612-45c4-89b9-59c62442ea73",
+            "label": "coffeeTable",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "coffeeTable"
+            },
+            "x": 1211,
+            "y": 766
+        },
+        {
+            "type": "Sprite",
+            "id": "dfbf531d-c0d1-4d66-b701-72a08010b580",
+            "label": "costumesTrunk",
+            "scope": "CLASS",
+            "components": [
+                "MoveTo",
+                "SimpleButton",
+                "Animation"
+            ],
+            "SimpleButton.hoverCallback": "() => this.costumesTrunk.__Animation.play()",
+            "SimpleButton.hoverOutCallback": "() => this.costumesTrunk.setTexture('stage-ruby', 'costumesTrunk0001')",
+            "SimpleButton.pixelPerfect": true,
+            "Animation.key": "costumesTrunk",
+            "Animation.end": 16,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "costumesTrunk0001"
+            },
+            "x": 1048.0112193962311,
+            "y": 627.0379013935901,
+            "originX": 0.16486714746497835,
+            "originY": 0.7475155988902694
+        },
+        {
+            "type": "Image",
+            "id": "6f2b45d7-16c0-451e-a1e4-dc68c6e508f1",
+            "label": "chairBottom",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "chairBottom"
+            },
+            "x": 985,
+            "y": 287
+        },
+        {
+            "type": "Image",
+            "id": "d8e9c716-8635-4e55-8d87-3d67d1ba70d1",
+            "label": "chair",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "chair"
+            },
+            "x": 980,
+            "y": 346.1185626290322,
+            "originY": 1.0487275410786285
+        },
+        {
+            "type": "Image",
+            "id": "7e46ca4a-e3d7-4e7c-9484-8fdd1d1b4e86",
+            "label": "couch",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "couch"
+            },
+            "x": 1253,
+            "y": 825
+        },
+        {
+            "type": "Image",
+            "id": "8b4f3fab-805e-4657-b4e4-bee1e5042923",
+            "label": "couchBack",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "couchBack"
+            },
+            "x": 1270,
+            "y": 905.1185626290322,
+            "originY": 0.7280426144742352
+        },
+        {
+            "type": "Image",
+            "id": "7d5e4691-a26c-43e9-824b-fc71f461ca82",
+            "label": "divider2",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "divider2"
+            },
+            "x": 601,
+            "y": 244
+        },
+        {
+            "type": "Image",
+            "id": "19624895-cb3c-40d5-8d36-e977f20ad01d",
+            "label": "divider1",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "divider1"
+            },
+            "x": 920,
+            "y": 242
+        },
+        {
+            "type": "Sprite",
+            "id": "83069f3a-6e25-4c41-97e1-9b090a558086",
+            "label": "garbageCan",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton",
+                "Animation"
+            ],
+            "SimpleButton.callback": "() => this.garbageCan.__Animation.play()",
+            "Animation.key": "garbageCan",
+            "Animation.end": 49,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "garbageCan0001"
+            },
+            "x": 859,
+            "y": 277
+        },
+        {
+            "type": "Image",
+            "id": "bd6363a1-4f11-4267-ae43-b8d78ac0cf87",
+            "label": "plaza",
+            "components": [
+                "MoveTo",
+                "Button"
+            ],
+            "Button.spriteName": "plaza",
+            "Button.pixelPerfect": true,
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "plaza"
+            },
+            "x": 168.69193426239343,
+            "y": 654.4708907081981,
+            "originX": 0.7868405071251723,
+            "originY": 0.8338246096721361
+        },
+        {
+            "type": "Image",
+            "id": "c0717d7b-5b3f-4d65-80cc-4cce1d084522",
+            "label": "pottedVase",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "pottedVase"
+            },
+            "x": 219,
+            "y": 576.857082543396,
+            "originY": 0.7744780494155161
+        },
+        {
+            "type": "Image",
+            "id": "be7e2409-b47b-4167-b53e-6076fb8294fe",
+            "label": "rug",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "rug"
+            },
+            "x": 775,
+            "y": 779
+        },
+        {
+            "type": "Image",
+            "id": "8be0278e-496a-4123-8db4-a8775e8faa6f",
+            "label": "railSide",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "railSide"
+            },
+            "x": 1205,
+            "y": 503
+        },
+        {
+            "type": "Image",
+            "id": "8c801106-5d10-41c8-bee5-5640b351fbd0",
+            "label": "tableWeird",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "tableWeird"
+            },
+            "x": 1073,
+            "y": 281
+        },
+        {
+            "type": "Image",
+            "id": "c77a3f8c-6b5b-4261-8d47-ca4a975a8407",
+            "label": "tableFlowers",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "tableFlowers"
+            },
+            "x": 1214,
+            "y": 750.4905277719658,
+            "originY": 1.0498947530218428
+        },
+        {
+            "type": "Sprite",
+            "id": "3aa6bd6f-4d32-43ab-a1a6-35cc78608db6",
+            "label": "flowerPot",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton",
+                "Animation"
+            ],
+            "SimpleButton.callback": "() => this.flowerPot.__Animation.play()",
+            "Animation.key": "flowerPot",
+            "Animation.end": 10,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "flowerPot0001"
+            },
+            "x": 1073,
+            "y": 335.42392551140404,
+            "originY": 1.749223848164552
+        },
+        {
+            "type": "Sprite",
+            "id": "608e7f89-f617-4be0-80ae-fc178e1e5750",
+            "label": "smallDoor",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton"
+            ],
+            "SimpleButton.callback": "() => this.onSmallDoor()",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "smallDoor"
+            },
+            "x": 410,
+            "y": 485.8177529507851,
+            "originY": 0.8439298892501343
+        },
+        {
+            "type": "Image",
+            "id": "f9dcb93a-70e9-4926-a7ed-5f4514602751",
+            "label": "script",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "script",
+            "Button.callback": "() => this.interface.loadWidget('StageScript',true);",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "script"
+            },
+            "x": 1442,
+            "y": 1028.6917054966193,
+            "originY": 2.468957342085493
+        },
+        {
+            "type": "Image",
+            "id": "09d51f01-cd91-4c46-b5f4-f197a9e9effc",
+            "label": "costume",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "costume",
+            "Button.callback": "() => {this.interface.loadWidget(\"RubyAndRubyCatalog\")}",
+            "texture": {
+                "key": "stage-ruby",
+                "frame": "costume"
+            },
+            "x": 1435,
+            "y": 1080.0857214381288,
+            "originY": 2.379006273375033
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1e3d1d79-bbc9-4969-8105-70209fd3fab9",
+            "label": "sort",
+            "objectIds": [
+                "8c801106-5d10-41c8-bee5-5640b351fbd0",
+                "c77a3f8c-6b5b-4261-8d47-ca4a975a8407",
+                "3aa6bd6f-4d32-43ab-a1a6-35cc78608db6",
+                "608e7f89-f617-4be0-80ae-fc178e1e5750",
+                "f9dcb93a-70e9-4926-a7ed-5f4514602751",
+                "09d51f01-cd91-4c46-b5f4-f197a9e9effc",
+                "8be0278e-496a-4123-8db4-a8775e8faa6f",
+                "c0717d7b-5b3f-4d65-80cc-4cce1d084522",
+                "d330745e-da5f-4791-b258-378785239746",
+                "fe6c78da-6ea1-4582-9c78-ab1ecba10962",
+                "f10892aa-7cd2-4024-8591-66579e4b1d1a",
+                "5a25165f-afb8-413b-a0d6-b46796090ace",
+                "777eae27-8060-49e6-80bc-b2534e3acdff",
+                "93b10ba6-7dee-4ed4-9f2e-1a4d4b566bd9",
+                "90707df2-5329-400b-90bc-4192de60cf3c",
+                "1f53f84a-0cee-4ab8-a0b1-1c477de18b5c",
+                "e498492b-aa88-412b-b969-f0538efa38ae",
+                "86c5d98f-ff8b-424a-a506-a85be326220e",
+                "18a312fe-1643-4817-966e-2c626e05bfef",
+                "a95510f9-a3d1-41e2-b351-21eb62978f70",
+                "15707949-bc9b-45ae-83ad-e06e6b15c1db",
+                "8b4f3fab-805e-4657-b4e4-bee1e5042923",
+                "d8e9c716-8635-4e55-8d87-3d67d1ba70d1",
+                "dfbf531d-c0d1-4d66-b701-72a08010b580",
+                "115657a1-51a4-4165-8d57-d4827beec525",
+                "661370d8-e5a5-4919-a6c6-34e306061399",
+                "44eb0c03-55a4-4222-b9b2-60b57c609178",
+                "a8d29c3d-efd0-4214-81d4-bf3e8b23597d",
+                "b9a63c68-79cf-4579-bf9b-b6669969aee1",
+                "931e47c5-1eda-4eaf-8e42-f365781ac901",
+                "e577ba08-3556-4a8d-88cd-c3d13da6ca2c",
+                "7bea206b-211d-4c0e-b8b8-2deb94429091",
+                "e006cf4a-abfd-4e44-8e51-444b1db9163e",
+                "234e0439-f70b-4644-bb6c-5784c3b93f3a"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1182 @@
+{
+    "id": "f7e65799-662a-4745-a7b1-2dd8d59e8d35",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 1000,
+        "snapHeight": 1000,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [],
+        "createMethodName": "_create",
+        "sceneKey": "IglooEdit",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "4e750e30-dbe3-4e90-905d-081a279203b7",
+            "label": "defaultControls",
+            "scope": "CLASS",
+            "x": 1426,
+            "y": 758,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "536c2427-aa97-4306-8d3e-ccbe16d7e20f",
+                    "label": "button_edit",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "edit",
+                    "Button.callback": "() => this.onEditClick()",
+                    "ShowHint.text": "edit_igloo_hint",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "edit"
+                    },
+                    "y": 126,
+                    "originX": 0.6422018348623854
+                },
+                {
+                    "type": "Image",
+                    "id": "2f257361-5079-49b1-9efd-16ad2b8c389d",
+                    "label": "button_lock",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "button/lock",
+                    "Button.hoverOutCallback": "() => this.onLockOut()",
+                    "Button.callback": "() => this.onLockClick()",
+                    "ShowHint.text": "open_igloo_hint",
+                    "texture": {
+                        "key": "iglooedit",
+                        "frame": "button/lock"
+                    },
+                    "originY": 0.5045871559633027,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "6abc4fd7-9ca3-4fa7-aa92-73218076b6c9",
+                    "label": "button_contest",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "button/contest",
+                    "Button.callback": "() => this.onIglooContest()",
+                    "ShowHint.text": "Igloo Contest",
+                    "texture": {
+                        "key": "iglooedit",
+                        "frame": "button/contest"
+                    },
+                    "y": -124,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "5aebe2f5-2ecf-43e9-a438-fdaa0213fb02",
+            "label": "controls",
+            "scope": "CLASS",
+            "x": 162,
+            "y": 359,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "5d5104f2-aa6c-4d59-8e01-e8543c8869bd",
+                    "label": "button_save",
+                    "components": [
+                        "SimpleButton",
+                        "ShowHint"
+                    ],
+                    "SimpleButton.callback": "() => this.onSaveClick()",
+                    "ShowHint.text": "save_igloo_hint",
+                    "texture": {
+                        "key": "iglooedit",
+                        "frame": "button/save"
+                    },
+                    "x": 1263,
+                    "y": 520,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "a01066f8-1c7e-4651-af2f-88044dcc3098",
+                    "label": "button_igloo_catalog",
+                    "components": [
+                        "SimpleButton",
+                        "ShowHint"
+                    ],
+                    "SimpleButton.callback": "() => this.interface.loadWidget('IglooCatalog')",
+                    "ShowHint.text": "upgrade_igloo_hint",
+                    "texture": {
+                        "key": "iglooedit",
+                        "frame": "button/igloo_catalog"
+                    },
+                    "x": 1263,
+                    "y": 390,
+                    "originX": 0.5046728971962616,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "31b8f480-fe56-4bad-9886-17e2cff52a01",
+                    "label": "button_furniture_catalog",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "button/furniture_catalog",
+                    "Button.callback": "() => this.interface.loadWidget('FurnitureCatalog')",
+                    "ShowHint.text": "buy_items_hint",
+                    "texture": {
+                        "key": "iglooedit",
+                        "frame": "button/furniture_catalog"
+                    },
+                    "x": 1263,
+                    "y": 260,
+                    "originX": 0.6405228758169934,
+                    "originY": 0.5043478260869565,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "151d56f4-b183-4ee4-b5a9-78d527173e78",
+                    "label": "button_furniture",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "button/furniture",
+                    "Button.callback": "() => this.onFurnitureClick()",
+                    "ShowHint.text": "view_items_hint",
+                    "texture": {
+                        "key": "iglooedit",
+                        "frame": "button/furniture"
+                    },
+                    "x": 1263,
+                    "y": 130,
+                    "originY": 0.584,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "ad320d7f-2225-4183-8c56-f288d3af51c0",
+                    "label": "button_music",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "button/music",
+                    "Button.callback": "() => iglooMusic.visible = true",
+                    "ShowHint.text": "play_music_hint",
+                    "texture": {
+                        "key": "iglooedit",
+                        "frame": "button/music"
+                    },
+                    "x": 1263,
+                    "originX": 0.5039370078740157,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "582b61cc-d437-499b-9c7f-675384f6191d",
+                    "label": "button_no_igloo",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "button/no_igloo",
+                    "Button.callback": "() => this.noIglooClick();",
+                    "ShowHint.text": "remove_igloo_hint",
+                    "texture": {
+                        "key": "iglooedit",
+                        "frame": "button/no_igloo"
+                    },
+                    "x": 1258,
+                    "y": -118,
+                    "originX": 0.5039370078740157,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "55543d38-5386-4032-9deb-3a79f1f09d48",
+                    "label": "trash_box",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "box"
+                    },
+                    "x": 1255,
+                    "y": 520
+                },
+                {
+                    "type": "Image",
+                    "id": "cf85dcad-b9ca-476d-ab12-e405d834ed79",
+                    "label": "store",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "store",
+                    "Button.callback": "() => {this.openStore();}",
+                    "ShowHint.text": "Igloo Store",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "store"
+                    },
+                    "x": 1255,
+                    "y": 394
+                },
+                {
+                    "type": "Image",
+                    "id": "fcf6f22f-ee6e-46dd-b6ee-0d71be4e9f21",
+                    "label": "switch_button",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "switch",
+                    "Button.callback": "() => {this.onSwitchClick();}",
+                    "ShowHint.text": "Switch Igloo",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "switch"
+                    },
+                    "x": 1256,
+                    "y": 268,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "8c1d1f9b-cf0e-4f5c-94d8-9746a95748cd",
+            "label": "music_container",
+            "scope": "CLASS",
+            "x": -42,
+            "y": -112,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "3a1a105b-e3b6-46d3-abb3-daed27895bd0",
+                    "label": "music_container_1",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "music_container"
+                    },
+                    "x": 116,
+                    "y": 116
+                },
+                {
+                    "type": "Image",
+                    "id": "9a6cdf75-cb62-418c-984a-85d5aefca907",
+                    "label": "music_tween",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onMusicShow()}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "music_tween"
+                    },
+                    "x": 148,
+                    "y": 394
+                },
+                {
+                    "type": "Image",
+                    "id": "e7575e35-cba3-4647-a582-6d906a991555",
+                    "label": "music_play",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onMusicShow()}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "play"
+                    },
+                    "x": 215,
+                    "y": 383
+                },
+                {
+                    "type": "Image",
+                    "id": "7dc0e6cb-be54-4b68-8926-9dccd8b3381c",
+                    "label": "music_txt",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "music_txt"
+                    },
+                    "x": 148,
+                    "y": 350
+                },
+                {
+                    "type": "Image",
+                    "id": "2f434e94-59c2-4931-bc13-ef21d590df12",
+                    "label": "music_hide_button",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "music_hide_button"
+                    },
+                    "x": 165,
+                    "y": 459
+                },
+                {
+                    "type": "Image",
+                    "id": "d7bcfea7-9860-4e61-969f-2c5508a60118",
+                    "label": "hide_txt",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "",
+                    "SimpleButton.hoverOutCallback": "",
+                    "SimpleButton.callback": "() => {this.tweenHide();}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "hide_txt"
+                    },
+                    "x": 165,
+                    "y": 460
+                },
+                {
+                    "type": "Image",
+                    "id": "f0a990b2-63e1-4544-adce-dea27ab749ce",
+                    "label": "show_txt",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "",
+                    "SimpleButton.hoverOutCallback": "",
+                    "SimpleButton.callback": "() => {this.tweenShow();}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "show_txt"
+                    },
+                    "x": 165,
+                    "y": 460,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "e79ce834-00ff-4354-b454-c4746c83819b",
+            "label": "unlock_container",
+            "scope": "CLASS",
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "0d3cfdd7-ba7b-406e-b9a2-993b365524ee",
+                    "label": "bounds_container",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "bounds_container"
+                    },
+                    "x": 325,
+                    "y": 244
+                },
+                {
+                    "type": "Image",
+                    "id": "f457cd97-278b-40a4-b3b8-d249de0c7d33",
+                    "label": "bounds_container_1",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "bounds_container_wall"
+                    },
+                    "x": 498,
+                    "y": 244
+                },
+                {
+                    "type": "Image",
+                    "id": "cfc54f19-01cd-40a7-a4f5-17cbadc555f6",
+                    "label": "button_container_png",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "button_container.png"
+                    },
+                    "x": 325,
+                    "y": 257,
+                    "scaleX": 0.6,
+                    "scaleY": 0.6
+                },
+                {
+                    "type": "Image",
+                    "id": "4fda6e01-3a7b-4448-b7dc-3a8055d61e82",
+                    "label": "lock_button",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onLockClick();}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "lock_button"
+                    },
+                    "x": 304,
+                    "y": 257
+                },
+                {
+                    "type": "Image",
+                    "id": "b6bd3f3d-6296-4c14-9d0a-4f86d3b27f98",
+                    "label": "button_container_png_1",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "button_container.png"
+                    },
+                    "x": 498,
+                    "y": 258,
+                    "scaleX": 0.6,
+                    "scaleY": 0.6
+                },
+                {
+                    "type": "Image",
+                    "id": "b94b8f3d-4f52-4ffc-b79b-6ca88b006e9f",
+                    "label": "bounds_button",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onBoundsClick();}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "boundary_button"
+                    },
+                    "x": 477,
+                    "y": 258
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "443e63ac-f824-4b35-9fa8-4383ed92b122",
+            "label": "furniture",
+            "scope": "CLASS",
+            "x": 1238,
+            "y": 294,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "be7df35b-e90c-47e9-9ed9-77c18e9c0293",
+                    "label": "all_button",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onItemFilter(\"all\");}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "all_button"
+                    },
+                    "x": -586,
+                    "y": -57
+                },
+                {
+                    "type": "Image",
+                    "id": "786d51e6-5f15-432f-b1d9-06acfa81e235",
+                    "label": "floor_button",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onItemFilter(\"floor\");}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "floor_button"
+                    },
+                    "x": -126,
+                    "y": -57
+                },
+                {
+                    "type": "Image",
+                    "id": "0cbb19e7-ced1-45a5-8ccf-02cae87a5079",
+                    "label": "flooring_button",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onItemFilter(\"flooring\");}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "flooring_button"
+                    },
+                    "x": -241,
+                    "y": -57
+                },
+                {
+                    "type": "Image",
+                    "id": "8494d638-40f9-4203-abd7-5e66a8339ee4",
+                    "label": "igloo_button",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onItemFilter(\"igloo\");}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "igloo_button"
+                    },
+                    "x": -356,
+                    "y": -57
+                },
+                {
+                    "type": "Image",
+                    "id": "227e45ce-d6f7-4b4c-98a8-0434607967d1",
+                    "label": "location_button",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onItemFilter(\"location\");}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "location_button"
+                    },
+                    "x": -471,
+                    "y": -57
+                },
+                {
+                    "type": "Image",
+                    "id": "388e75f2-983d-4e8e-89ea-50ed436d3797",
+                    "label": "wall_button",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onItemFilter(\"wall\");}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "wall_button"
+                    },
+                    "x": -12,
+                    "y": -57
+                },
+                {
+                    "type": "Image",
+                    "id": "ec52408a-bd26-4542-af22-133beb499c64",
+                    "label": "puffle_button",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onItemFilter(\"puffle\");}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "puffle_button"
+                    },
+                    "x": 103,
+                    "y": -57
+                },
+                {
+                    "type": "Image",
+                    "id": "25c32256-b38b-4f67-bdea-f84884001d26",
+                    "label": "item_container_1",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "item_container"
+                    },
+                    "x": -470,
+                    "y": -201
+                },
+                {
+                    "type": "Image",
+                    "id": "9b8857bb-890f-4bcc-875a-9d9bd1937569",
+                    "label": "igloo_x",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "igloo_x",
+                    "Button.callback": "() => this.onSaveClick()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "igloo_x"
+                    },
+                    "x": 214,
+                    "y": -235
+                },
+                {
+                    "type": "Image",
+                    "id": "fec9a9f0-2761-4dd7-b0fd-4975e752558e",
+                    "label": "x",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "x"
+                    },
+                    "x": 214,
+                    "y": -236
+                },
+                {
+                    "type": "Image",
+                    "id": "d957884f-352d-4c71-9909-d7aab4b93f09",
+                    "label": "help_btn",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "igloo_x",
+                    "Button.callback": "() => this.onHelpClick()",
+                    "Button.activeFrame": true,
+                    "ShowHint.text": "Help",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "igloo_x"
+                    },
+                    "x": 214,
+                    "y": -161
+                },
+                {
+                    "type": "Image",
+                    "id": "c73992a0-4a2d-4c16-8f9c-b41db3eb91f1",
+                    "label": "help_icon",
+                    "texture": {
+                        "key": "main",
+                        "frame": "help-icon"
+                    },
+                    "x": 214,
+                    "y": -163
+                },
+                {
+                    "type": "Container",
+                    "id": "31f04b6d-e3f8-4480-b32f-9749ae4d62e9",
+                    "label": "text_container_inv",
+                    "scope": "CLASS",
+                    "x": -427,
+                    "y": -87,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "bfddd7f1-7552-4855-a1be-85ff2c6aeb96",
+                            "label": "put_input_here_inv",
+                            "scope": "CLASS",
+                            "x": -65,
+                            "y": -33,
+                            "alpha": 0.000001,
+                            "isFilled": true,
+                            "width": 200,
+                            "height": 44
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e9562bad-24e2-46e0-b4dd-b92d179ed660",
+                            "label": "search_button_inv",
+                            "texture": {
+                                "key": "new-iglooedit",
+                                "frame": "search_container"
+                            },
+                            "x": -65,
+                            "y": -33
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "prefabId": "d6cf4a9b-bcc7-4de0-bd9b-d33346f4fd2b",
+            "id": "216bc4ea-cd4c-40f8-9055-10f5864b6fd8",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "iglooMusic",
+            "scope": "CLASS",
+            "x": 760,
+            "y": 480,
+            "visible": false
+        },
+        {
+            "prefabId": "956df868-6697-404e-bc47-3ade95fd1023",
+            "id": "f749e1e6-e14e-4503-8aed-0e0d28e0ef65",
+            "unlock": [
+                "visible",
+                "x",
+                "y"
+            ],
+            "label": "gridView",
+            "scope": "CLASS",
+            "x": 0,
+            "y": 0,
+            "visible": false
+        },
+        {
+            "type": "Container",
+            "id": "6c85b913-2a71-47b3-bb3a-c784c9443d08",
+            "label": "hidden_x",
+            "scope": "CLASS",
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "a09d7599-fae2-4286-b3ec-aaf7e747a95b",
+                    "label": "igloo_x_2",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "igloo_x",
+                    "Button.callback": "() => this.onSaveClick()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "igloo_x"
+                    },
+                    "x": 1452,
+                    "y": 59
+                },
+                {
+                    "type": "Image",
+                    "id": "b7058db6-ba1c-4e36-8000-f9f0d964ae05",
+                    "label": "x_2",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "x"
+                    },
+                    "x": 1452,
+                    "y": 58
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "b7cd8c8f-4ca6-42fe-9802-09eb7d33a2e0",
+            "label": "arrow_container",
+            "scope": "CLASS",
+            "x": -8,
+            "y": -4,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "219b47ae-f2f0-4109-b1c5-e47bd994609c",
+                    "label": "arrow_container_1",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "arrow_container"
+                    },
+                    "x": 774,
+                    "y": 129
+                },
+                {
+                    "type": "Image",
+                    "id": "3babceb2-a0cb-45c4-9db4-64566e11ec5d",
+                    "label": "arrow_txt",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "arrow_txt"
+                    },
+                    "x": 771,
+                    "y": 122
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "060514c7-7032-463a-a3bb-9b1813791c06",
+            "label": "igloo_store",
+            "scope": "CLASS",
+            "visible": false,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "33da3d0f-af11-4f2a-91e6-b884f0b80256",
+                    "label": "block_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "c1781805-5ad0-44ad-83f2-0b2836fb869a",
+                    "label": "store_background",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "store_background"
+                    },
+                    "x": 760,
+                    "y": 480
+                },
+                {
+                    "type": "Image",
+                    "id": "1c25810f-9a60-429a-8c6a-4f399e5c00d3",
+                    "label": "seasonal",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onStoreSubfilter('seasonal');}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "seasonal"
+                    },
+                    "x": 819,
+                    "y": 193
+                },
+                {
+                    "type": "Image",
+                    "id": "9e972167-d8f2-4b99-b600-ae369d0e5303",
+                    "label": "evergreen",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onStoreSubfilter('evergreen');}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "evergreen"
+                    },
+                    "x": 580,
+                    "y": 193
+                },
+                {
+                    "type": "Image",
+                    "id": "5a670fb2-b0cb-45f1-9084-bad332649d57",
+                    "label": "store_x",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "store_x",
+                    "Button.callback": "() => {this.closeStore();}",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "store_x"
+                    },
+                    "x": 1273,
+                    "y": 184
+                },
+                {
+                    "type": "Image",
+                    "id": "2dc02315-1d1f-4c7d-9551-7e19da9039bb",
+                    "label": "wall_button_store",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onStoreFilter(\"wall\");}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "wall_button_store"
+                    },
+                    "x": 328,
+                    "y": 760
+                },
+                {
+                    "type": "Image",
+                    "id": "8c5c58c2-282f-494a-a83c-43f84c3bbcd5",
+                    "label": "room_button_store",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onStoreFilter(\"floor\");}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "room_button_store"
+                    },
+                    "x": 328,
+                    "y": 666
+                },
+                {
+                    "type": "Image",
+                    "id": "5fa87cb7-1f65-49cd-b6c3-8ee5758521f2",
+                    "label": "flooring_button_store",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onStoreFilter(\"flooring\");}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "flooring_button_store"
+                    },
+                    "x": 328,
+                    "y": 572
+                },
+                {
+                    "type": "Image",
+                    "id": "cd9f8f5b-829f-4dbf-b080-fda425cfc014",
+                    "label": "location_button_store",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onStoreFilter(\"location\");}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "location_button_store"
+                    },
+                    "x": 328,
+                    "y": 478
+                },
+                {
+                    "type": "Image",
+                    "id": "811a7889-c203-4474-ba3e-d82930ec0dad",
+                    "label": "igloo_button_store",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onStoreFilter(\"igloo\");}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "igloo_button_store"
+                    },
+                    "x": 328,
+                    "y": 384
+                },
+                {
+                    "type": "Image",
+                    "id": "91758d0d-cf9b-432a-ac51-44a4578a9aee",
+                    "label": "all_button_store",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onStoreFilter(\"all\");}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "all_button_store"
+                    },
+                    "x": 328,
+                    "y": 290
+                },
+                {
+                    "type": "Image",
+                    "id": "6823fa8b-6bbc-4779-adf3-36f21aa2eb47",
+                    "label": "igloo_store_txt",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "igloo_store_txt"
+                    },
+                    "x": 338,
+                    "y": 197
+                },
+                {
+                    "type": "Container",
+                    "id": "897494d8-8c3e-4a04-a11f-9f85f2feab39",
+                    "label": "text_container",
+                    "scope": "CLASS",
+                    "x": 1138,
+                    "y": 226,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "f8684c89-5975-4ea0-b8ae-034d337d7d09",
+                            "label": "put_input_here",
+                            "scope": "CLASS",
+                            "x": -65,
+                            "y": -33,
+                            "alpha": 0.000001,
+                            "isFilled": true,
+                            "width": 200,
+                            "height": 44
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ef8bc192-3668-4e26-a934-3fea9f323978",
+                            "label": "search_button",
+                            "texture": {
+                                "key": "new-iglooedit",
+                                "frame": "search_container"
+                            },
+                            "x": -65,
+                            "y": -33
+                        }
+                    ]
+                },
+                {
+                    "prefabId": "5e67778f-f6b1-47c7-a8e0-fccf4a610c82",
+                    "id": "3247a8cd-6d40-44bd-a7f7-b528827000d3",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "storeGridView",
+                    "scope": "CLASS",
+                    "x": 365,
+                    "y": 202,
+                    "visible": true
+                }
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "724cd9c9-89a5-47e1-be37-d38a8494e027",
+            "label": "coins",
+            "scope": "CLASS",
+            "x": 1309,
+            "y": 838,
+            "originX": 1,
+            "visible": false,
+            "text": "YOUR COINS:",
+            "fixedWidth": 600,
+            "align": "right",
+            "fontFamily": "CCFaceFront",
+            "fontSize": "32px",
+            "stroke": "#000",
+            "strokeThickness": 9
+        },
+        {
+            "type": "Container",
+            "id": "3c7df2a2-c233-41c0-bd36-7aecadb54e0c",
+            "label": "chooseIgloo",
+            "scope": "CLASS",
+            "visible": false,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9e9ee3ab-c71b-44a6-ba29-a223a5248758",
+                    "label": "block_2",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "f74490be-3f14-468f-a7e3-f0b394e8a91f",
+                    "label": "swap_bg",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "swap_bg"
+                    },
+                    "x": 760,
+                    "y": 480
+                },
+                {
+                    "prefabId": "29608fba-c20a-4778-8a88-5f061225f853",
+                    "id": "b53cd914-85be-48ef-acc4-c55057e3e74a",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "allowAppendChildren"
+                    ],
+                    "label": "iglooslot_2",
+                    "scope": "CLASS",
+                    "x": 760,
+                    "y": 734,
+                    "allowAppendChildren": false
+                },
+                {
+                    "prefabId": "29608fba-c20a-4778-8a88-5f061225f853",
+                    "id": "54a71dd3-4fb9-48ca-8b18-59fa338c8e8e",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "allowAppendChildren"
+                    ],
+                    "label": "iglooslot_1",
+                    "scope": "CLASS",
+                    "x": 760,
+                    "y": 480,
+                    "allowAppendChildren": false
+                },
+                {
+                    "prefabId": "29608fba-c20a-4778-8a88-5f061225f853",
+                    "id": "15822530-e2cc-45c8-9519-e55e08620b3c",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "allowAppendChildren"
+                    ],
+                    "label": "iglooslot_0",
+                    "scope": "CLASS",
+                    "x": 760,
+                    "y": 226,
+                    "allowAppendChildren": false
+                },
+                {
+                    "type": "Image",
+                    "id": "8faa65a3-5f3f-4b77-a617-52f985bf23da",
+                    "label": "igloo_x_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "igloo_x",
+                    "Button.callback": "() => this.closeSwitch()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "igloo_x"
+                    },
+                    "x": 1237,
+                    "y": 126
+                },
+                {
+                    "type": "Image",
+                    "id": "89bdb4a5-7f5f-4bfb-8848-b7d7007c700d",
+                    "label": "x_1",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "x"
+                    },
+                    "x": 1237,
+                    "y": 125
+                }
+            ]
+        },
+        {
+            "prefabId": "d6cf4a9b-bcc8-4de0-bd9b-d33346f4fd2b",
+            "id": "2ac6faab-d54b-45d6-8aa3-6f50c219c623",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "iglooTutorial",
+            "scope": "CLASS",
+            "x": 760,
+            "y": 490,
+            "visible": false
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "dd3182d4-32eb-4672-ade0-cbb48833844a",
+            "label": "iglooSlots",
+            "objectIds": [
+                "15822530-e2cc-45c8-9519-e55e08620b3c",
+                "54a71dd3-4fb9-48ca-8b18-59fa338c8e8e",
+                "b53cd914-85be-48ef-acc4-c55057e3e74a"
+            ]
+        }
+    ]
+}

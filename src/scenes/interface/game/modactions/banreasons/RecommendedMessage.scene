@@ -1,0 +1,66 @@
+{
+    "id": "36c3907f-9cd5-462e-92f1-2bc0a9d77777",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "ce5d5d6b-57c7-493c-a8d6-7ccc57ed295b",
+            "label": "container_1",
+            "scaleX": 0.4451462735620042,
+            "scaleY": 0.4451462735620042,
+            "list": [
+                {
+                    "type": "RoundedRectangleImage",
+                    "id": "03c2dd77-0589-4f57-8707-0fc5321cae2c",
+                    "label": "btn",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => btn.alpha = 0.6",
+                    "SimpleButton.hoverOutCallback": "() => btn.alpha = 1",
+                    "SimpleButton.callback": "() => this.setChat()",
+                    "x": 443,
+                    "y": 43,
+                    "width": 900,
+                    "height": 100,
+                    "fillColor": "#0e5297",
+                    "isStroked": false,
+                    "radiusTopLeft": 50,
+                    "radiusTopRight": 50,
+                    "radiusBottomLeft": 50,
+                    "radiusBottomRight": 50
+                },
+                {
+                    "type": "Text",
+                    "id": "577a7a4a-d62e-4de0-b0d2-000a610c5a2e",
+                    "label": "text_1",
+                    "scope": "CLASS",
+                    "x": 13,
+                    "y": 18,
+                    "text": "Please ensure igloo designs are appropriate.",
+                    "fixedWidth": 860,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "42px"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

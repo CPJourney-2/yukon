@@ -1,0 +1,553 @@
+{
+    "id": "57a903bf-4bf4-4c64-8a12-483c357d6e5b",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 1476,
+        "snapHeight": 975,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "a8214ef9-62e8-4418-97f7-4c23bb906ca7",
+            "label": "buttons",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "69d3ffab-4765-4abe-b9fc-358dc7849a83",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 775,
+                    "y": 480,
+                    "scaleX": 11.961414097039036,
+                    "scaleY": 7.609571892641703,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Container",
+                    "id": "f65594fe-5530-4ad6-a28c-b5bef84f499e",
+                    "label": "_page7",
+                    "x": 676,
+                    "y": 407,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "c57bc3ed-5d5a-49f6-a45a-f852eb5db422",
+                            "label": "page5",
+                            "texture": {
+                                "key": "newspaper-buttons-v2",
+                                "frame": "pageAA"
+                            },
+                            "x": 111,
+                            "y": 107
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8e6aef6a-5c19-4d64-a200-61aaccc976da",
+                            "label": "left_122",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "left",
+                            "Button.callback": "() => { this.prevPage();}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "newspaper-buttons-v2",
+                                "frame": "left"
+                            },
+                            "x": -566,
+                            "y": 369,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3a5dc60c-02da-45da-b267-3494772854a6",
+                            "label": "close_232",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "close",
+                            "Button.callback": "() => {this.closeNews()}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "newspaper-buttons-v2",
+                                "frame": "close"
+                            },
+                            "x": 723,
+                            "y": -250,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a5551613-0b02-4917-8f9c-028aeb00ae0d",
+                            "label": "main_122",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "main",
+                            "Button.callback": "() => {this.showPage(0)}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "newspaper-buttons-v2",
+                                "frame": "main"
+                            },
+                            "x": -565,
+                            "y": -207,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "600714be-7edd-43f8-9045-aa64dc241069",
+                            "label": "submit_question",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.callback": "() => {this.interface.loadWidget(\"Newsform\")}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "newspaper-buttons-v2",
+                                "frame": "submit"
+                            },
+                            "x": 426,
+                            "y": 188,
+                            "angle": -1,
+                            "alpha": 0.5,
+                            "alphaTopLeft": 0.5,
+                            "alphaTopRight": 0.5,
+                            "alphaBottomLeft": 0.5,
+                            "alphaBottomRight": 0.5
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "3633fbf3-6cef-4af0-b488-97fc6c2ce5ba",
+                    "label": "_page6",
+                    "x": 676,
+                    "y": 407,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9b63ea3a-917a-4ac5-870e-f659439f5125",
+                            "label": "adaptedpg6",
+                            "texture": {
+                                "key": "sixteenth-edition",
+                                "frame": "sixteen_page0006"
+                            },
+                            "x": 107,
+                            "y": 107
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2ec0cee0-23f2-4a28-9ee4-aae65c7d25ac",
+                    "label": "_page5",
+                    "x": 676,
+                    "y": 407,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "bf9b9d71-5862-4f23-9195-ab839be4e3fc",
+                            "label": "adaptedpg5",
+                            "texture": {
+                                "key": "sixteenth-edition",
+                                "frame": "sixteen_page0005"
+                            },
+                            "x": 107,
+                            "y": 107
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "14787b12-aef6-4da9-ba54-9a31c8a831af",
+                    "label": "_page4",
+                    "x": 676,
+                    "y": 407,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "d3b3c3fc-f37a-4092-9a42-809117ce802d",
+                            "label": "adaptedpg2",
+                            "texture": {
+                                "key": "sixteenth-edition",
+                                "frame": "sixteen_page0004"
+                            },
+                            "x": 107,
+                            "y": 107
+                        },
+                        {
+                            "type": "Image",
+                            "id": "751f344e-7fb3-4e93-9b61-bafee3b8f46f",
+                            "label": "aasecret",
+                            "components": [
+                                "Button"
+                            ],
+                            "texture": {
+                                "key": "newspaper-buttons-v2",
+                                "frame": "aasecret"
+                            },
+                            "x": -533,
+                            "y": -173,
+                            "angle": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ac4f7f6f-21fb-438e-90b7-8ff07af9bcde",
+                    "label": "_page3",
+                    "x": 676,
+                    "y": 407,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "642e3bbe-f55d-4153-9de9-9076ecae3cfc",
+                            "label": "page3",
+                            "texture": {
+                                "key": "sixteenth-edition",
+                                "frame": "sixteen_page0003"
+                            },
+                            "x": 107,
+                            "y": 107
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "257b7fcb-cbba-43e6-874a-552b75d63e96",
+                    "label": "_page2",
+                    "x": 676,
+                    "y": 407,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "3b31a940-049a-45b7-80d7-f97d632a97a1",
+                            "label": "page2 ",
+                            "texture": {
+                                "key": "sixteenth-edition",
+                                "frame": "sixteen_page0002"
+                            },
+                            "x": 107,
+                            "y": 107
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2b2dffd0-93b5-4179-aef5-a1a5f0bc57de",
+                            "label": "interview0001",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.onInterview()",
+                            "texture": {
+                                "key": "sixteenth-edition",
+                                "frame": "interview0001"
+                            },
+                            "x": 437,
+                            "y": 58,
+                            "angle": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "87fe1632-3697-40e6-b3c8-ea3248fbaaec",
+                    "label": "_page1",
+                    "x": 677,
+                    "y": 438,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "c082660e-725e-4a3d-b047-676aba68ed9a",
+                            "label": "adaptedpg1",
+                            "texture": {
+                                "key": "sixteenth-edition",
+                                "frame": "sixteen_page0001"
+                            },
+                            "x": 109,
+                            "y": 70
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8139cc3b-077d-4d4b-b9a9-e3ffbdd541d6",
+                            "label": "close_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "close",
+                            "Button.callback": "() => {this.closeNews()}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "newspaper-buttons-v2",
+                                "frame": "close"
+                            },
+                            "x": 607,
+                            "y": -272,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7eaf6954-881b-4f1e-bd2e-7cc153f8b184",
+                            "label": "right_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "right",
+                            "Button.callback": "() => { this.nextPage();}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "newspaper-buttons-v2",
+                                "frame": "right"
+                            },
+                            "x": 616,
+                            "y": 307,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b2c6874b-e6d4-4d76-a0b1-997d6a20bbc8",
+                            "label": "construction",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => {this.showPage(1)}",
+                            "x": -269,
+                            "y": -80,
+                            "scaleX": 2.936192991169804,
+                            "scaleY": 1.4472187285201359,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "5755dea7-025f-4239-b458-8ad3d162ec21",
+                            "label": "questions",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => {this.showPage(2)}",
+                            "x": 129,
+                            "y": -86,
+                            "scaleX": 2.608448576426685,
+                            "scaleY": 1.4521025367799516,
+                            "angle": -1,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "31380532-1d2f-400d-9737-979335f6916a",
+                            "label": "events",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => {this.showPage(3)}",
+                            "x": 483,
+                            "y": -84,
+                            "scaleX": 2.608448576426685,
+                            "scaleY": 1.4521025367799516,
+                            "angle": -1,
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Image",
+                            "id": "641d8076-988b-4d86-a3c9-b6e4bc2fc149",
+                            "label": "we_need_you",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "we_need_you",
+                            "Button.callback": "() => {this.showPage(6)}",
+                            "texture": {
+                                "key": "newspaper-buttons-v2",
+                                "frame": "we_need_you"
+                            },
+                            "x": -398,
+                            "y": -285,
+                            "angle": -1
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "72b0cd7e-5478-4631-bc94-068ff18a32bc",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": -16,
+                    "y": -41,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ed66f831-4b14-4438-8dda-0b6f8dc3c6b8",
+                            "label": "right",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "right",
+                            "Button.callback": "() => { this.nextPage();}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "newspaper-buttons-v2",
+                                "frame": "right"
+                            },
+                            "x": 1424,
+                            "y": 794,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c037d7fc-fe9e-4c48-a5be-aa0d62f60e18",
+                            "label": "main",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "main",
+                            "Button.callback": "() => {this.showPage(0)}",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "newspaper-buttons-v2",
+                                "frame": "main"
+                            },
+                            "x": 127,
+                            "y": 241,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1d3ffaf3-4264-4c02-bee7-adebcca578e8",
+                            "label": "left",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "left",
+                            "Button.callback": "() => { this.prevPage();}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "newspaper-buttons-v2",
+                                "frame": "left"
+                            },
+                            "x": 126,
+                            "y": 817,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4506479b-982e-4fee-a245-ad526ee3da9b",
+                            "label": "close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "close",
+                            "Button.callback": "() => {this.closeNews()}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "newspaper-buttons-v2",
+                                "frame": "close"
+                            },
+                            "x": 1415,
+                            "y": 198,
+                            "angle": -1
+                        },
+                        {
+                            "type": "Text",
+                            "id": "244491e8-ea0e-4e04-b234-4921a677998f",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 538,
+                            "y": 196,
+                            "visible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1029921f-26d0-4b4f-8a57-2e9fcf458660",
+            "label": "pages",
+            "objectIds": [
+                "297a4696-b6f0-41bf-b85e-50f430678b66",
+                "4ea22717-221e-4e01-9828-9a77d81f5aeb",
+                "a6587c42-1227-40ed-a8ad-655fdd0853fe",
+                "a73f9418-7f76-4427-85af-611e964d7e2e",
+                "fce6fe02-62bd-4119-ad21-d1ecef6320ea",
+                "4602b03e-53b3-41d4-8fb6-a1de99dd39b1",
+                "2741339d-c902-443e-8dbc-397c33a0a2dc",
+                "58957b73-41c4-4e02-ab72-d85f6a252791",
+                "e0693b36-c512-464e-9e9a-c7f495196f59",
+                "3608adb8-0d6a-46e4-bcfe-ecb8fedcf388",
+                "eb22e33a-a726-4df9-9b99-977988d39bee",
+                "5d5e5cc8-30f5-4f28-bee3-21f2de5a2ac1",
+                "6579188f-a803-4a34-b0c5-1d8288eada23",
+                "505633e9-0895-4816-8dfe-a4ca5f26a693",
+                "70509f2d-ae66-4515-95b9-22a81f1262a7",
+                "360500cb-997c-4c4a-a99a-46c9931bba50",
+                "269b241b-830d-4670-a784-bb3503e7083c",
+                "2292d328-c99f-473e-9186-ac2d02f0441c",
+                "f2cc0516-f48c-45ce-8379-fbd82de540a2",
+                "ba7e8081-e7a1-4b23-8920-58e55d2bb383",
+                "30d260f5-d2f5-41c1-88c2-f55c64c12318",
+                "72106732-7a2e-4aae-8aa6-112f7f454974",
+                "f54ba30a-df84-47b6-8914-0fd8ef19b334",
+                "b2ab8ba0-466d-42aa-bb04-bbc6227ae8ae",
+                "ee6e60d7-9c74-4840-961e-d70f13e9f1ac",
+                "46ee3e78-6b32-45af-a2ac-03ff8f5ad561",
+                "8a8242e2-f2b6-4fa3-b119-3e98247be733",
+                "a5b6db3f-c4e6-4381-ab17-848e020ee4e4",
+                "93004182-a420-4dce-8460-e88314205813",
+                "55d1affa-47cc-4b09-b828-f46729fe61ad",
+                "694f0121-be0a-48ac-8718-9e45805b9eeb",
+                "849f4388-7107-46a7-8f50-84af80b50240",
+                "503e4247-4287-466a-9f96-c98617565186",
+                "7428516c-f80e-4ef8-9bed-18d6ae470fc2",
+                "17eadebd-647b-4c07-9c60-038a50f0a22f",
+                "d36aaf59-dd2f-4546-b546-ca2d6a8c2921",
+                "5127e8a7-5e7b-4152-8257-78009cb71be1",
+                "cb03e9cc-fff7-4dec-8bfa-567e8e6d1a99",
+                "ec1dd316-70f7-4f2c-8d45-0ca137f038ea",
+                "d631c5e9-b357-4cb4-98df-dc4a6d5753ae",
+                "e293257a-c2ab-4e0a-9ea5-4c6337adac89",
+                "453cbe60-4554-4836-86ff-b59b29e10b6b",
+                "87fe1632-3697-40e6-b3c8-ea3248fbaaec",
+                "257b7fcb-cbba-43e6-874a-552b75d63e96",
+                "ac4f7f6f-21fb-438e-90b7-8ff07af9bcde",
+                "14787b12-aef6-4da9-ba54-9a31c8a831af",
+                "2ec0cee0-23f2-4a28-9ee4-aae65c7d25ac",
+                "3633fbf3-6cef-4af0-b488-97fc6c2ce5ba",
+                "f65594fe-5530-4ad6-a28c-b5bef84f499e"
+            ]
+        }
+    ]
+}

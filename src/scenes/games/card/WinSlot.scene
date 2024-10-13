@@ -1,0 +1,90 @@
+{
+    "id": "4736d630-5d58-4c94-8db3-727b9481c078",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "3ba51055-1bb7-410e-a44c-9d28c3dde026",
+            "label": "container_1",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "fdd3434f-0350-4696-ad78-be6932839af2",
+                    "label": "smallbox",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "cjcard",
+                        "frame": "smallbox"
+                    },
+                    "y": -1,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "61b89c3b-306f-4391-92be-d606cfdf9a82",
+                    "label": "smallbg",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "cjcard",
+                        "frame": "smallbg"
+                    },
+                    "x": 54,
+                    "y": 51
+                },
+                {
+                    "type": "Image",
+                    "id": "0220d863-8d2f-4f3e-b4ad-cee88fea7409",
+                    "label": "smalltype0002",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "cjcard",
+                        "frame": "smalltype0002"
+                    },
+                    "x": 51.5,
+                    "y": 49
+                },
+                {
+                    "type": "Sprite",
+                    "id": "79c49343-50a7-437c-9b0f-6b7f6e238735",
+                    "label": "explosion0001",
+                    "scope": "CLASS",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.end": 14,
+                    "Animation.repeat": 0,
+                    "texture": {
+                        "key": "explosion_1",
+                        "frame": "explosion0001"
+                    },
+                    "x": 74,
+                    "y": 5,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

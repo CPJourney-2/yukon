@@ -1,0 +1,245 @@
+{
+    "id": "52e6b945-f46e-41b5-ba8d-4f9d699dc6f9",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "604d13b8-868d-46c8-a5a3-13d96bb18968",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "028ec836-255b-461d-bbb6-01fca27a428f",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "5f2ef7be-9650-4018-9f65-261a7a760d57",
+                    "label": "page1",
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "96b6d35b-70ae-4eb9-b879-a98db0c017f4",
+                            "label": "bg",
+                            "texture": {
+                                "key": "dancecatalog",
+                                "frame": "dj3kcatalog"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "e117c6ec-2554-4973-a383-b995e76a0561",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_4",
+                            "item": 5121,
+                            "x": 913,
+                            "y": 510,
+                            "angle": 30
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "44ea7f3b-b414-428a-82dc-372ae522bd41",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_3",
+                            "item": 5070,
+                            "x": 967,
+                            "y": 465,
+                            "angle": -49.99999999999994
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "f258f94d-f377-4424-905c-e74b79085794",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_2",
+                            "item": 5072,
+                            "x": 851,
+                            "y": 428,
+                            "angle": -25
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "a4a25bee-c383-4c2d-a66f-fad3967097ef",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_1",
+                            "item": 5037,
+                            "x": 586,
+                            "y": 267,
+                            "angle": 0
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "9d70d702-8c16-4c76-8e4b-efd07c622832",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag",
+                            "item": 5039,
+                            "x": 568,
+                            "y": 394,
+                            "angle": 30
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "aae04c94-906d-4ab9-abe6-a705f34b7568",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag1",
+                            "item": 5071,
+                            "x": 632,
+                            "y": 541,
+                            "angle": -20
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "4e3bd581-8c05-406f-af60-1238b6610e76",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag2",
+                            "item": 5038,
+                            "x": 709,
+                            "y": 394,
+                            "angle": 8
+                        },
+                        {
+                            "type": "Text",
+                            "id": "00affe62-6c46-4fa5-890d-97027fc692e3",
+                            "label": "text_1",
+                            "x": 715,
+                            "y": 243,
+                            "text": "How these records work:",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "23px",
+                            "fontStyle": "bold",
+                            "color": "#000"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "0e73464a-8c10-45af-b36d-8341fbb4ee9c",
+                            "label": "text",
+                            "x": 717,
+                            "y": 273,
+                            "text": "Just buy a record and play\n DJ3K. You'll be able to\n  choose your new tunes in\n   the music menu!",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "23px",
+                            "color": "#000"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6079dde9-029e-4b2f-94a8-f65c926132cf",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": -1035.7052001953125,
+                    "y": 364.5936584472656,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "e332f4d8-499e-49f4-84eb-b699b870b880",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1130,
+                            "y": 790,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCComiccrazy",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "96d36ccc-682b-4c6f-bb34-f59d14dd3f94",
+                    "label": "dj3kcatalog_close",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "closebtn",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "dancecatalog",
+                        "frame": "closebtn"
+                    },
+                    "x": 1031,
+                    "y": 108
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "3003f2ec-9394-4489-a981-17b8c2a9bffb",
+            "label": "pages",
+            "objectIds": [
+                "5f2ef7be-9650-4018-9f65-261a7a760d57"
+            ]
+        }
+    ]
+}

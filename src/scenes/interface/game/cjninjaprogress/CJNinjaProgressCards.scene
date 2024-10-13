@@ -1,0 +1,108 @@
+{
+    "id": "619a5671-6408-44f7-9bdd-7ce59d5d7037",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0eca2b5c-5743-4df3-bce3-b0044a2f9d12",
+            "label": "cardsView",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "f1deb1b1-43b8-4960-a9c2-e503d2748690",
+                    "label": "bg",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "cjninjaprogress-cards",
+                        "frame": "bg"
+                    },
+                    "x": 2,
+                    "y": 68,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "bd2672d7-2c86-4bf8-b2a4-ff8692912973",
+                    "label": "toolbar",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.onHide()",
+                    "texture": {
+                        "key": "cjninjaprogress-cards",
+                        "frame": "toolbar"
+                    },
+                    "y": 359,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "e489f53c-0739-4288-986c-1698401fc7ba",
+                    "label": "scrollbg",
+                    "components": [],
+                    "texture": {
+                        "key": "cjninjaprogress-cards",
+                        "frame": "scrollbg"
+                    },
+                    "x": 474,
+                    "y": 60,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "a53574d5-35b6-47b0-b40e-74f16ad558f0",
+                    "label": "btndown",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.onDown()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "cjninjaprogress-cards",
+                        "frame": "btndown"
+                    },
+                    "x": 474,
+                    "y": 281,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "616e859d-c83f-4311-b937-6dc38684714f",
+                    "label": "btnup",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.callback": "() => this.onUp()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "cjninjaprogress-cards",
+                        "frame": "btnup"
+                    },
+                    "x": 474,
+                    "y": -160,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

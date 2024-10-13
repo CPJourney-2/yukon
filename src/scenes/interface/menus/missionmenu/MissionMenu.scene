@@ -1,0 +1,572 @@
+{
+    "id": "d5fbb3ce-d337-4b3f-a561-edc259904233",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "be8a0767-07ca-4e60-90e1-7dc459a718be",
+            "label": "container_1",
+            "components": [],
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "1bf13607-5dac-46e1-8db3-e74e09debd6b",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 761.8998803600497,
+                    "y": 508.2756149693346,
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "e97d68f1-ba55-4236-a593-c7c67cb9e947",
+                    "label": "greenblock",
+                    "components": [],
+                    "x": 764.8998803600497,
+                    "y": 458.2756149693346,
+                    "scaleX": 9.53665914233435,
+                    "scaleY": 7.960012916745185,
+                    "isFilled": true,
+                    "fillColor": "#003300",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "156c71dc-6964-438b-aab5-71b1fb415c54",
+                    "label": "currentSlot3",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => { currentSlot3.fillColor = 3107863 }",
+                    "SimpleButton.hoverOutCallback": "() => { currentSlot3.fillColor = 13056 }",
+                    "SimpleButton.callback": "() => this.selectMission(this.currentMissionSplit[2])",
+                    "x": 186,
+                    "y": 378,
+                    "originX": 0,
+                    "isFilled": true,
+                    "fillColor": "#003300",
+                    "width": 525,
+                    "height": 98,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "45ef8647-8070-456f-9c35-436053f493ce",
+                    "label": "currentSlot2",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => { currentSlot2.fillColor = 3107863 }",
+                    "SimpleButton.hoverOutCallback": "() => { currentSlot2.fillColor = 13056 }",
+                    "SimpleButton.callback": "() => this.selectMission(this.currentMissionSplit[1])",
+                    "x": 186,
+                    "y": 280,
+                    "originX": 0,
+                    "isFilled": true,
+                    "fillColor": "#003300",
+                    "width": 525,
+                    "height": 98,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "d852a6a0-cf5b-4896-8e4e-f81cfa456779",
+                    "label": "currentSlot1",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => { currentSlot1.fillColor = 3107863 }",
+                    "SimpleButton.hoverOutCallback": "() => { currentSlot1.fillColor = 13056 }",
+                    "SimpleButton.callback": "() => this.selectMission(this.currentMissionSplit[0])",
+                    "x": 186,
+                    "y": 182,
+                    "originX": 0,
+                    "isFilled": true,
+                    "fillColor": "#003300",
+                    "width": 525,
+                    "height": 98,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "2709e77b-a2fb-48f6-ae44-7ddbf0ebbadf",
+                    "label": "trainingSlot3",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => { trainingSlot3.fillColor = 3107863 }",
+                    "SimpleButton.hoverOutCallback": "() => { trainingSlot3.fillColor = 13056 }",
+                    "SimpleButton.callback": "() => this.selectMission(this.trainingMissionSplit[2])",
+                    "x": 186,
+                    "y": 749,
+                    "originX": 0,
+                    "isFilled": true,
+                    "fillColor": "#003300",
+                    "width": 525,
+                    "height": 98,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "117216ba-6d82-41cf-b267-c189084296d5",
+                    "label": "trainingSlot2",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => { trainingSlot2.fillColor = 3107863 }",
+                    "SimpleButton.hoverOutCallback": "() => { trainingSlot2.fillColor = 13056 }",
+                    "SimpleButton.callback": "() => this.selectMission(this.trainingMissionSplit[1])",
+                    "x": 186,
+                    "y": 651,
+                    "originX": 0,
+                    "isFilled": true,
+                    "fillColor": "#003300",
+                    "width": 525,
+                    "height": 98,
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "2712312c-07e0-4a89-a090-63af1b6f0070",
+                    "label": "trainingSlot1",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => { trainingSlot1.fillColor = 3107863 }",
+                    "SimpleButton.hoverOutCallback": "() => { trainingSlot1.fillColor = 13056 }",
+                    "SimpleButton.callback": "() => this.selectMission(this.trainingMissionSplit[0])",
+                    "x": 186,
+                    "y": 553,
+                    "originX": 0,
+                    "isFilled": true,
+                    "fillColor": "#003300",
+                    "width": 525,
+                    "height": 98,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "5cd969fc-d8c4-4727-8b5b-fd8780482f88",
+                    "label": "currentContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 186,
+                    "y": 136,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "1dd2900d-0e92-4357-83c6-17e106b6d2ce",
+                    "label": "trainingContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 186,
+                    "y": 504,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "0b422bf9-a99a-496d-80f9-adc81da672ed",
+                    "label": "missionContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 814,
+                    "y": 229,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "5f13f56d-6cc4-4573-b474-332a7fabda8e",
+                            "label": "launchMissionBtn",
+                            "scope": "PUBLIC",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "launch-btn",
+                            "Button.callback": "() => this.launchMission()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "missionmenu",
+                                "frame": "launch-btn"
+                            },
+                            "x": 254,
+                            "y": 505,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "fa118931-c57b-4056-b91f-3ad95b0b6bef",
+                            "label": "missionTitle",
+                            "scope": "CLASS",
+                            "components": [],
+                            "y": 179,
+                            "text": "MISSION NAME",
+                            "paddingLeft": 10,
+                            "paddingRight": 10,
+                            "fontFamily": "CPLCD",
+                            "fontSize": "36px",
+                            "color": "#f6ef26ff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "37f0e7d2-3e92-4052-bdc9-602dcd52d1b3",
+                            "label": "missionDescription",
+                            "scope": "CLASS",
+                            "components": [],
+                            "y": 223,
+                            "text": "GARY NEEDS HELP WITH SOMETHING. IT'S ANOTHER MISSION. YEAH, THAT'S PRETTY MUCH IT.",
+                            "fixedWidth": 500,
+                            "fixedHeight": 215,
+                            "paddingLeft": 10,
+                            "paddingRight": 10,
+                            "fontFamily": "CPLCD",
+                            "fontSize": "35px",
+                            "color": "#E0FFCC",
+                            "wordWrapWidth": 500,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e74eb837-f3ba-482b-8101-c84e0168eb81",
+                            "label": "missionPreview",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "missionmenu",
+                                "frame": "classifiedpreview"
+                            },
+                            "x": 172,
+                            "y": 40,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "9918ff87-346d-4d0c-8255-4869730ff111",
+                    "label": "scrollbar",
+                    "components": [],
+                    "x": 728.8998803600497,
+                    "y": 468.2756149693346,
+                    "scaleX": 0.3387053524637344,
+                    "scaleY": 7.960012916745185,
+                    "isFilled": true,
+                    "fillColor": "#255811",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "e1814ec6-b565-489b-8c2d-73c84fa95d82",
+                    "label": "clickATitle",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 803,
+                    "y": 156,
+                    "visible": false,
+                    "text": "CLICK A TITLE ON THE LEFT\nTO CHOOSE A MISSION.",
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                    "fontFamily": "CPLCD",
+                    "fontSize": "40px",
+                    "color": "#E0FFCC",
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "dc420208-635c-4c75-9890-b7b00a1cef44",
+                    "label": "flashbang",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 1066,
+                    "y": 481,
+                    "scaleX": 4.582005166070725,
+                    "scaleY": 8.072761620151748,
+                    "alpha": 0,
+                    "isFilled": true,
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "a09dfbe8-dfb9-4623-beff-dfca5903112e",
+                    "label": "console",
+                    "components": [],
+                    "texture": {
+                        "key": "missionmenu",
+                        "frame": "console"
+                    },
+                    "x": 766.8998803600497,
+                    "y": 473.2756149693346,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "e5a82a34-08d2-47b1-87bc-219fe5247d4b",
+                    "label": "tabs",
+                    "components": [],
+                    "x": 216.89988708496094,
+                    "y": 99.2756118774414,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "d01bf2fc-80b2-40ff-a9ae-d78f223e15a2",
+                            "label": "consoletab",
+                            "components": [],
+                            "texture": {
+                                "key": "missionmenu",
+                                "frame": "consoletab"
+                            },
+                            "x": 79.10011291503906,
+                            "y": 12.724388122558594,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "c1011f43-c13e-4997-ab2f-4bb9fa4f369f",
+                            "label": "currentitle",
+                            "components": [],
+                            "text": "CURRENT",
+                            "paddingLeft": 10,
+                            "paddingRight": 10,
+                            "fontFamily": "CPLCD",
+                            "fontSize": "33px",
+                            "color": "#E0FFCC",
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "15f82e90-3ab8-4e95-97d0-e88330ca0603",
+                            "label": "consoletab_1",
+                            "components": [],
+                            "texture": {
+                                "key": "missionmenu",
+                                "frame": "consoletab"
+                            },
+                            "x": 78.99998474121094,
+                            "y": 380.99999237060547,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b9241a89-e195-4bc2-a848-447a9405782e",
+                            "label": "trainingtitle",
+                            "components": [],
+                            "y": 366.99999237060547,
+                            "text": "TRAINING",
+                            "paddingLeft": 10,
+                            "paddingRight": 10,
+                            "fontFamily": "CPLCD",
+                            "fontSize": "33px",
+                            "color": "#E0FFCC",
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "705173b4-9301-4939-abcd-3a5c8d8590d3",
+                            "label": "consoletab_2",
+                            "components": [],
+                            "texture": {
+                                "key": "missionmenu",
+                                "frame": "consoletab"
+                            },
+                            "x": 691.0000152587891,
+                            "y": 15,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "752bed81-b0ef-496f-a4e1-783a76ee4ae2",
+                            "label": "infotitle",
+                            "components": [],
+                            "x": 613.0000152587891,
+                            "text": "INFO",
+                            "paddingLeft": 10,
+                            "paddingRight": 10,
+                            "fontFamily": "CPLCD",
+                            "fontSize": "33px",
+                            "color": "#E0FFCC",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "1bb8336e-11a0-406a-af12-3e03709c640c",
+                    "label": "currentScrollDown",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "scroll-btn",
+                    "Button.callback": "() => this.currentScroll(\"down\")",
+                    "texture": {
+                        "key": "missionmenu",
+                        "frame": "scroll-btn"
+                    },
+                    "x": 724,
+                    "y": 398,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "5b3d5f76-5b28-4e0f-ba70-5c348fbc3c42",
+                    "label": "currentScrollUp",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "scroll-btn",
+                    "Button.callback": "() => this.currentScroll(\"up\")",
+                    "texture": {
+                        "key": "missionmenu",
+                        "frame": "scroll-btn"
+                    },
+                    "x": 724,
+                    "y": 168,
+                    "flipY": true,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "aa7fa836-0df2-4b4f-8e35-cebc5e3c92e1",
+                    "label": "trainingScrollUp",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "scroll-btn",
+                    "Button.callback": "() => this.trainingScroll(\"up\")",
+                    "texture": {
+                        "key": "missionmenu",
+                        "frame": "scroll-btn"
+                    },
+                    "x": 724,
+                    "y": 537,
+                    "flipY": true,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "4ed774a9-2c2d-421f-8f90-70f245329e18",
+                    "label": "trainingScrollDown",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "scroll-btn",
+                    "Button.callback": "() => this.trainingScroll(\"down\")",
+                    "texture": {
+                        "key": "missionmenu",
+                        "frame": "scroll-btn"
+                    },
+                    "x": 724,
+                    "y": 767,
+                    "list": []
+                },
+                {
+                    "type": "Sprite",
+                    "id": "56687364-086b-4658-b714-c6ad4247d159",
+                    "label": "greenlight0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "greenlight",
+                    "Animation.end": 43,
+                    "texture": {
+                        "key": "missionmenu",
+                        "frame": "greenlight0001"
+                    },
+                    "x": 223.39988036004965,
+                    "y": 839.2756149693346,
+                    "list": []
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d32b867f-cac5-41b4-99c2-ad776f4b1056",
+                    "label": "redlight0001",
+                    "components": [
+                        "Animation"
+                    ],
+                    "Animation.key": "redlight",
+                    "Animation.end": 43,
+                    "texture": {
+                        "key": "missionmenu",
+                        "frame": "redlight0001"
+                    },
+                    "x": 173.89988036004965,
+                    "y": 839.2756149693346,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "27643369-24ce-4c2d-b543-569d9eb0ccab",
+                    "label": "grey_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.hide()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 1362.8998803600498,
+                    "y": 103.27561496933461,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "8e875d57-8a4c-4afd-b067-ffab4afab096",
+                    "label": "grey_x",
+                    "components": [],
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 1362.8998803600498,
+                    "y": 102.27561496933461,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "id": "b9b095a2-2d1f-4e28-ba92-376faecb76a6",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/snow/snow-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Snow",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "10cc4116-4336-43fe-8ca3-1100c2469f0b",
+            "label": "floor",
+            "scope": "CLASS",
+            "texture": {
+                "key": "snow",
+                "frame": "floor"
+            },
+            "x": 765,
+            "y": 639,
+            "originX": 0.5006337135614702
+        },
+        {
+            "type": "Image",
+            "id": "2db06e46-6b0d-4fab-8a45-a512d5ae6faf",
+            "label": "wall_1",
+            "texture": {
+                "key": "snow",
+                "frame": "wall_1"
+            },
+            "x": 570,
+            "y": 378,
+            "originX": 0.5010266940451745
+        },
+        {
+            "type": "Image",
+            "id": "3c2cf664-5f90-48ed-a80b-4a9e9c9faacc",
+            "label": "wall_2",
+            "texture": {
+                "key": "snow",
+                "frame": "wall_2"
+            },
+            "x": 972,
+            "y": 388
+        },
+        {
+            "type": "Image",
+            "id": "b9624c25-82fe-4807-a7d3-3b65be90734d",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "texture": {
+                "key": "snow",
+                "frame": "door"
+            },
+            "x": 491,
+            "y": 467
+        },
+        {
+            "type": "Rectangle",
+            "id": "8772fa0a-0588-4e4c-a9ad-04f716b46234",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 503,
+            "y": 548.0000000000001,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.5886589198274206,
+            "originY": 0.6585320604757818,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

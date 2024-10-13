@@ -1,0 +1,223 @@
+{
+    "id": "a0cfc93a-88fc-4a48-a4bd-7b04b12f223f",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/shiphold/shiphold-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "ShipHold",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "284147d2-9082-4fc8-996c-8672c8b1bc7f",
+            "label": "bg",
+            "texture": {
+                "key": "shiphold",
+                "frame": "bg"
+            },
+            "x": 760,
+            "y": 466
+        },
+        {
+            "type": "Image",
+            "id": "f2935a7a-c5a6-4fec-bdc6-ea0ec8ef68ca",
+            "label": "open_door",
+            "scope": "CLASS",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "buttons/door",
+            "texture": {
+                "key": "shiphold",
+                "frame": "buttons/door"
+            },
+            "x": 1291.7391520285755,
+            "y": 518.2359580067902,
+            "originX": 0.24099394306125368,
+            "originY": 0.8411427295039214,
+            "visible": false
+        },
+        {
+            "type": "Container",
+            "id": "1d9303de-7336-4dd3-8cbb-aae73b96cb14",
+            "label": "locked_door",
+            "scope": "CLASS",
+            "x": 1331.720642865176,
+            "y": 354.3380867933949,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "cedb775b-21c0-45d9-b02d-b010ab738a32",
+                    "label": "door_1",
+                    "texture": {
+                        "key": "shiphold",
+                        "frame": "buttons/door"
+                    },
+                    "x": -39.98150712298843,
+                    "y": 163.8978751206676,
+                    "originX": 0.24099394306125368,
+                    "originY": 0.8411427295039214
+                },
+                {
+                    "type": "Image",
+                    "id": "1835d749-a51b-4b00-aa59-ed062102235b",
+                    "label": "buttons_note_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "buttons/note",
+                    "Button.callback": "() => this.interface.loadWidget('RockHopperNote')",
+                    "texture": {
+                        "key": "shiphold",
+                        "frame": "buttons/note"
+                    },
+                    "x": 5.2793571348240675,
+                    "y": 51.66191320660511,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "de57de0d-c489-4dd6-a3bc-bd820a824a32",
+            "label": "stairs",
+            "texture": {
+                "key": "shiphold",
+                "frame": "stairs"
+            },
+            "x": 1352.7487610383473,
+            "y": 631.446569597782,
+            "originX": 0.4440146044121083,
+            "originY": 0.6335236463828268
+        },
+        {
+            "type": "Image",
+            "id": "8a4cd13a-25c0-463c-807d-252968c9de59",
+            "label": "table",
+            "texture": {
+                "key": "shiphold",
+                "frame": "table"
+            },
+            "x": 345.8605656589173,
+            "y": 623.0856638403122,
+            "originX": 0.6037444812112952,
+            "originY": 0.6641660998003753
+        },
+        {
+            "type": "Image",
+            "id": "93c52d72-3404-41f4-a9dc-632a243db613",
+            "label": "bike",
+            "texture": {
+                "key": "shiphold",
+                "frame": "bike"
+            },
+            "x": 131,
+            "y": 656
+        },
+        {
+            "type": "Image",
+            "id": "7eea6195-a2f8-46d1-8f49-ae2cd5634e1d",
+            "label": "puffle_treat",
+            "texture": {
+                "key": "shiphold",
+                "frame": "puffle_treat"
+            },
+            "x": 40,
+            "y": 710
+        },
+        {
+            "type": "Image",
+            "id": "f7356717-317c-47ab-962f-43d33235ad0c",
+            "label": "puffle_bubbles",
+            "texture": {
+                "key": "shiphold",
+                "frame": "puffle_bubbles"
+            },
+            "x": 54,
+            "y": 762
+        },
+        {
+            "type": "Image",
+            "id": "b64f1661-a7f5-43a4-981e-bfad7f94049c",
+            "label": "suf",
+            "texture": {
+                "key": "shiphold",
+                "frame": "suf"
+            },
+            "x": 59,
+            "y": 820
+        },
+        {
+            "type": "Image",
+            "id": "262e878a-ac7e-45a1-8737-c76f12398213",
+            "label": "fg",
+            "texture": {
+                "key": "shiphold",
+                "frame": "fg"
+            },
+            "x": 760,
+            "y": 968.6354674775224,
+            "originY": 1.0351171778600183
+        },
+        {
+            "type": "Image",
+            "id": "581c0961-e755-4921-803b-4eb44801c3ca",
+            "label": "box",
+            "texture": {
+                "key": "shiphold",
+                "frame": "box"
+            },
+            "x": 823,
+            "y": 475
+        },
+        {
+            "type": "Image",
+            "id": "c42cbcb7-ad91-469f-873a-bad1a508e5a1",
+            "label": "interfaceIcons",
+            "scope": "CLASS",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "buttons/map",
+            "Button.callback": "() => this.interface.loadWidget('RockHopper')",
+            "texture": {
+                "key": "shiphold",
+                "frame": "buttons/map"
+            },
+            "x": 1431,
+            "y": 875.9999843877508
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "d8014338-e465-4139-bd11-d2d330aded64",
+            "label": "sort",
+            "objectIds": [
+                "de57de0d-c489-4dd6-a3bc-bd820a824a32",
+                "262e878a-ac7e-45a1-8737-c76f12398213",
+                "8a4cd13a-25c0-463c-807d-252968c9de59",
+                "93c52d72-3404-41f4-a9dc-632a243db613",
+                "7eea6195-a2f8-46d1-8f49-ae2cd5634e1d",
+                "f7356717-317c-47ab-962f-43d33235ad0c",
+                "b64f1661-a7f5-43a4-981e-bfad7f94049c"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "id": "09772baf-fc76-478c-913b-476d459e509f",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "e7cc6fc5-d6a2-4467-9901-f4fc4097eeb2",
+            "label": "stampListView",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "665fc5c3-7ccc-49aa-80ea-f8baec20e3a5",
+                    "label": "stampListView0001",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "main-stampcoins",
+                        "frame": "stampListView0003"
+                    },
+                    "x": 289,
+                    "y": 3
+                },
+                {
+                    "type": "Container",
+                    "id": "3255e15a-4321-40c6-a582-49af81b676b1",
+                    "label": "prevbtn",
+                    "scope": "CLASS",
+                    "y": -1,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "565c637b-9a2e-448b-84de-2dee0809fe1c",
+                            "label": "prevbtn_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.onPrev()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "y": 1,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7df2e127-be59-418e-8e5f-bff7eeaa2199",
+                            "label": "blue_arrow",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "angle": -90
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b72fea0a-fff3-4f4f-b6e9-20821be8da1f",
+                    "label": "nextbtn",
+                    "scope": "CLASS",
+                    "x": 578,
+                    "y": -2,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "dade86d1-e121-4ab6-aa00-f8c656a01419",
+                            "label": "nextbtn_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.onNext()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "y": 2
+                        },
+                        {
+                            "type": "Image",
+                            "id": "02491c7e-baa5-43a0-a20f-66f90aba36d8",
+                            "label": "blue_arrow_1",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "angle": -90,
+                            "flipY": true
+                        }
+                    ]
+                },
+                {
+                    "prefabId": "68707838-4ef1-4671-8028-4b71d1e8add2",
+                    "id": "c963568f-46c0-4445-9662-06d0f47007ed",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "stampItem_3",
+                    "scope": "CLASS",
+                    "x": 445,
+                    "y": 3
+                },
+                {
+                    "prefabId": "68707838-4ef1-4671-8028-4b71d1e8add2",
+                    "id": "ad71f4ad-0734-4cdd-8077-c6bc34732538",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "stampItem_2",
+                    "scope": "CLASS",
+                    "x": 289,
+                    "y": 3
+                },
+                {
+                    "prefabId": "68707838-4ef1-4671-8028-4b71d1e8add2",
+                    "id": "f060976f-47d8-4aa7-8162-7885c4688d1b",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "stampItem_1",
+                    "scope": "CLASS",
+                    "x": 133,
+                    "y": 3
+                },
+                {
+                    "prefabId": "68707838-4ef1-4671-8028-4b71d1e8add2",
+                    "id": "eef15334-8b5b-40ee-8c20-559017a6cfa2",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "stampItem_m2",
+                    "scope": "CLASS",
+                    "x": 367,
+                    "y": 3,
+                    "visible": false
+                },
+                {
+                    "prefabId": "68707838-4ef1-4671-8028-4b71d1e8add2",
+                    "id": "88cbbbd4-f827-499e-9c05-5bf46f52c4f6",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "stampItem_m1",
+                    "scope": "CLASS",
+                    "x": 211,
+                    "y": 3,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

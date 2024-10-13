@@ -1,0 +1,165 @@
+{
+    "id": "c161b28a-414a-490f-933b-7dcb7face3b7",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "client/assets/media/igloos/buildings/sprites/apartment/apartment-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Apartment",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "b668254a-d1e7-4181-b731-bdb7e9479bcb",
+            "label": "sideladder",
+            "texture": {
+                "key": "apartment",
+                "frame": "sideladder"
+            },
+            "x": 1328,
+            "y": 630
+        },
+        {
+            "type": "Image",
+            "id": "a343b19d-be2f-472d-afac-e1e9f6b59d95",
+            "label": "floor",
+            "scope": "CLASS",
+            "texture": {
+                "key": "apartment",
+                "frame": "floor"
+            },
+            "x": 701,
+            "y": 598
+        },
+        {
+            "type": "Image",
+            "id": "2152ddc7-44d6-44f1-9173-2ca8ba3e60f9",
+            "label": "wall",
+            "texture": {
+                "key": "apartment",
+                "frame": "wall"
+            },
+            "x": 705,
+            "y": 380
+        },
+        {
+            "type": "Image",
+            "id": "d1c7df1c-c1c1-435f-a67b-ea0e557983f4",
+            "label": "wall_shelf",
+            "texture": {
+                "key": "apartment",
+                "frame": "wall_shelf"
+            },
+            "x": 1214,
+            "y": 192
+        },
+        {
+            "type": "Image",
+            "id": "225c8776-59ff-47b7-88dc-2c99e5fe1e05",
+            "label": "doorframe",
+            "texture": {
+                "key": "apartment",
+                "frame": "doorframe"
+            },
+            "x": 1239,
+            "y": 510
+        },
+        {
+            "type": "Image",
+            "id": "01759edc-6ce3-4fd8-9f94-ce9269b642c2",
+            "label": "door",
+            "components": [
+                "Button",
+                "MoveTo"
+            ],
+            "Button.spriteName": "door",
+            "MoveTo.x": "1320",
+            "MoveTo.y": "520",
+            "texture": {
+                "key": "apartment",
+                "frame": "door"
+            },
+            "x": 1230.400830697391,
+            "y": 553.0236897342318,
+            "originX": 0.41111903257787064,
+            "originY": 0.682559245584979
+        },
+        {
+            "type": "Image",
+            "id": "3230b171-c970-44ee-8ab1-4ef4ce0b5f6c",
+            "label": "shelf",
+            "texture": {
+                "key": "apartment",
+                "frame": "shelf"
+            },
+            "x": 695,
+            "y": 732
+        },
+        {
+            "type": "Image",
+            "id": "9752eaaa-7511-4f04-a0f5-f3cdf6f647e4",
+            "label": "fg",
+            "texture": {
+                "key": "apartment",
+                "frame": "fg"
+            },
+            "x": 720.731210119527,
+            "y": 880.2480417645054,
+            "originX": 0.5122996169816474,
+            "originY": 0.9461231865865237
+        },
+        {
+            "type": "Image",
+            "id": "87be994e-5033-4e5d-bfa8-0ce0ee55b4c5",
+            "label": "windowlight",
+            "texture": {
+                "key": "apartment",
+                "frame": "windowlight"
+            },
+            "x": 734,
+            "y": 596
+        },
+        {
+            "type": "Rectangle",
+            "id": "8cf6f2f3-2992-4d56-a540-400eb5f3714c",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger",
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 1390.3082930413177,
+            "y": 636.6632205156897,
+            "originX": 0.3930335393852946,
+            "originY": 0.20049391027882546,
+            "width": 128,
+            "height": 128
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "45beb3eb-ad52-4391-9ab2-58b673564cad",
+            "label": "sort",
+            "objectIds": [
+                "9752eaaa-7511-4f04-a0f5-f3cdf6f647e4",
+                "01759edc-6ce3-4fd8-9f94-ce9269b642c2"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,651 @@
+{
+    "id": "26f8cd8b-411a-46a9-8a7d-c4cd69793dbb",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "604d13b8-868d-46c8-a5a3-13d96bb18968",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "028ec836-255b-461d-bbb6-01fca27a428f",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "42fc311d-8d0d-4f99-a501-759645bdc75f",
+                    "label": "page6",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "888d8c9b-7932-48d5-8772-7fdc7fb17a3b",
+                            "label": "pages_page666",
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "pages/page6"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e0fba22d-5261-4325-a1ec-70e6abe2b03a",
+                            "label": "turns_left_1235235",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/left",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "turns/left"
+                            },
+                            "x": -181,
+                            "y": 176,
+                            "scaleX": 0.4,
+                            "scaleY": 0.4
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3f506a93-6b95-4d82-b20e-36ac698a7104",
+                            "label": "turns_close_2324543",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/left_close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "turns/left_close"
+                            },
+                            "x": -202,
+                            "y": -326,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "85eb6c65-d67c-41c2-a0dc-88c874b91308",
+                    "label": "page5",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "7247c59f-45b1-4b19-973f-6158d76a860c",
+                            "label": "pages_page15",
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "pages/page5"
+                            }
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4877fac3-2b7c-46e2-b7a7-cf743dc12598",
+                            "label": "misc_hat",
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "misc/hat"
+                            },
+                            "x": -195,
+                            "y": -240
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cb90c4c9-0fbf-4068-9747-cd72eba1f072",
+                            "label": "misc_book",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "misc/book",
+                            "Button.callback": "() => {this.interface.loadWidget(\"FairyFablesBook\")}",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "misc/book"
+                            },
+                            "x": 289,
+                            "y": 65
+                        },
+                        {
+                            "type": "Image",
+                            "id": "29ab1c5c-06ea-42d8-95fb-3c6072df26d1",
+                            "label": "misc_outline",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "misc/outline"
+                            },
+                            "x": -293,
+                            "y": 141,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9a4087b9-e5b0-489d-8fcf-422ea602fe91",
+                            "label": "misc_bg",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => {this.onBgHover(false)}",
+                            "SimpleButton.hoverOutCallback": "() => {this.onBgHover(true)}",
+                            "SimpleButton.callback": "() => {this.interface.prompt.showItem(9009)}",
+                            "SimpleButton.pixelPerfect": true,
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "misc/bg"
+                            },
+                            "x": -293,
+                            "y": 141
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "3ec40026-d1b5-4bf9-9138-cd385531d831",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton",
+                            "item": 489,
+                            "x": -469,
+                            "y": -225
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                    "label": "page_4",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "cf7034b4-9a6a-40a0-9c02-d5ab79479dd1",
+                            "label": "pages_page14",
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "pages/page4"
+                            }
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "1081c75c-3a73-40de-b34b-93cc192825ea",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "texture"
+                            ],
+                            "label": "tag_4",
+                            "item": 4039,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy1"
+                            },
+                            "x": -525,
+                            "y": -49
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "d25bc252-7cd2-42de-8586-df927edde313",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "item"
+                            ],
+                            "label": "tag_5",
+                            "item": 1024,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy2"
+                            },
+                            "x": 328,
+                            "y": -184
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "d34488ad-fa4c-49cb-9253-3180a7304e3a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_6",
+                            "item": 6010,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy2"
+                            },
+                            "x": -165,
+                            "y": 149,
+                            "angle": -32.00000000000006
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "3aaaf2e9-8c6a-4de4-bc39-572936b3bfbd",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "texture"
+                            ],
+                            "label": "tag_7",
+                            "item": 4037,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy1"
+                            },
+                            "x": 65,
+                            "y": -54
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "69fe0ce8-1b3a-45d3-bfd0-a8b23d138f18",
+                            "label": "rectangle2",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => {this.interface.prompt.showItem(310)}",
+                            "x": 513,
+                            "y": -177,
+                            "scaleX": 0.6998956655321859,
+                            "scaleY": 0.4664612190804188,
+                            "width": 128,
+                            "height": 128
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                    "label": "page3",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b89a2a9e-6cd3-4b32-aa80-3ca7a5812434",
+                            "label": "pages_page13",
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "pages/page3"
+                            }
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "0b4fd15b-2ab5-4319-ae88-1fe3bbd52be1",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag_1",
+                            "item": 1023,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy2"
+                            },
+                            "x": 354,
+                            "y": -231,
+                            "angle": -32.00000000000006
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "3742bdb1-8203-4a8b-a237-cfdc1179f2fb",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "item"
+                            ],
+                            "label": "tag_2",
+                            "item": 301,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy2"
+                            },
+                            "x": 373,
+                            "y": -44
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "3ff03377-dc52-42ea-a1e3-169fcb35054a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "texture"
+                            ],
+                            "label": "tag_3",
+                            "item": 4036,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy1"
+                            },
+                            "x": 88,
+                            "y": 24
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                    "label": "page2",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "2f47ec01-971d-4587-8f5c-b071eec64838",
+                            "label": "pages_page12",
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "pages/page2"
+                            }
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "c29e74c5-6ffe-4361-8d91-127dd2294e74",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "texture"
+                            ],
+                            "label": "tag1",
+                            "item": 3008,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy1"
+                            },
+                            "x": 120,
+                            "y": -127
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "691df7c3-9080-4fdc-9ecd-7d7d2d492330",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "item"
+                            ],
+                            "label": "tag2",
+                            "item": 4038,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy2"
+                            },
+                            "x": 374,
+                            "y": 104
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "6e46662e-fddc-47e3-927c-212c804558ce",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "texture",
+                                "item",
+                                "angle"
+                            ],
+                            "label": "tag",
+                            "item": 1025,
+                            "texture": {
+                                "key": "buybuttons",
+                                "frame": "buy2"
+                            },
+                            "x": 354,
+                            "y": -236,
+                            "angle": -32.00000000000006
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "46a4f8a3-8e98-4216-b8a5-8cd3f22b07e4",
+                            "label": "rectangle_1",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => {this.interface.prompt.showItem(5013)}",
+                            "x": 405,
+                            "y": -351,
+                            "scaleX": 0.6998956655321859,
+                            "scaleY": 0.4664612190804188,
+                            "width": 128,
+                            "height": 128
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "73f02308-7820-4110-a76c-523342558eb9",
+                    "label": "page1",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "54aca0f8-4784-4718-8bbb-b2d45b1a2853",
+                            "label": "pages_page1",
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "pages/page1"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "a90a6b36-99ec-4c13-b748-c40f3429a6dd",
+                            "label": "turns_close_111111",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "turns/close"
+                            },
+                            "x": 225,
+                            "y": -323,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3781075c-2928-4cc8-9bd8-10ec7a0c8af4",
+                            "label": "turns_right_1111",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/right",
+                            "Button.callback": "() => this.nextPage();",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "turns/right"
+                            },
+                            "x": 205,
+                            "y": 176,
+                            "scaleX": 0.4,
+                            "scaleY": 0.4
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ad71a0bc-b1f8-4ee2-b189-b90b5a445f56",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 190,
+                    "y": 41,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "bb9facc3-7a86-49f0-a497-0ec458025950",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1133,
+                            "y": 798,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "36c5d442-1418-42f3-a3e7-c0bbfafba6a9",
+                            "label": "turns_right",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/right",
+                            "Button.callback": "() => this.nextPage();",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "turns/right"
+                            },
+                            "x": 1054,
+                            "y": 616,
+                            "scaleX": 0.4,
+                            "scaleY": 0.4
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "b2fd8d5d-6c96-48a5-b231-2589ceae057c",
+                            "label": "turns_left",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/left",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "turns/left"
+                            },
+                            "x": 87,
+                            "y": 615,
+                            "scaleX": 0.4,
+                            "scaleY": 0.4
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3b010612-b4c6-4ebd-8057-dbbb5bc5b3d6",
+                            "label": "turns_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "turns/close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "fablescatalog",
+                                "frame": "turns/close"
+                            },
+                            "x": 1074,
+                            "y": 117,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "cd721394-ee83-422b-bd88-e37ba274276b",
+                    "label": "buy button so pack loads",
+                    "texture": {
+                        "key": "buybuttons",
+                        "frame": "buy1"
+                    },
+                    "x": -209,
+                    "y": 147,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "3b131962-6547-441b-8d2f-888204700f28",
+                    "label": "buy2",
+                    "texture": {
+                        "key": "buybuttons",
+                        "frame": "buy2"
+                    },
+                    "x": -679,
+                    "y": 482,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "3003f2ec-9394-4489-a981-17b8c2a9bffb",
+            "label": "pages",
+            "objectIds": [
+                "73f02308-7820-4110-a76c-523342558eb9",
+                "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                "85eb6c65-d67c-41c2-a0dc-88c874b91308",
+                "42fc311d-8d0d-4f99-a501-759645bdc75f"
+            ]
+        }
+    ]
+}

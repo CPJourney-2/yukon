@@ -1,0 +1,172 @@
+{
+    "id": "5f555d01-fbbf-4b8e-9571-24991073ba47",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "460fe828-2a5c-48b5-8e64-374780777136",
+            "label": "container_1",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "13a92a5e-3ca1-4352-a27b-7613c2243d6b",
+                    "label": "item",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onClick()}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "music"
+                    },
+                    "scaleX": 0.9,
+                    "scaleY": 0.9
+                },
+                {
+                    "type": "Image",
+                    "id": "8c736703-05c7-4b30-888d-14827d531acc",
+                    "label": "music_active",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onClick()}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "music-active"
+                    },
+                    "scaleX": 0.9,
+                    "scaleY": 0.9,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "6917a6b0-1858-411e-90e5-02afeb2bb7d5",
+                    "label": "music_button",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onPreview()}",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "music_button"
+                    },
+                    "x": -128,
+                    "scaleX": 0.9,
+                    "scaleY": 0.9
+                },
+                {
+                    "type": "Image",
+                    "id": "8d502b21-f161-4709-9fd1-ca3c96a4a7a7",
+                    "label": "play",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "play"
+                    },
+                    "x": -126,
+                    "scaleX": 0.9,
+                    "scaleY": 0.9
+                },
+                {
+                    "type": "Image",
+                    "id": "ff7ec459-aa7c-43fd-ad36-8b2938383ea4",
+                    "label": "stop",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "new-iglooedit",
+                        "frame": "stop"
+                    },
+                    "x": -127.56019716495553,
+                    "scaleX": 0.9,
+                    "scaleY": 0.9,
+                    "originX": 0.5274876771902797,
+                    "visible": false
+                },
+                {
+                    "type": "Text",
+                    "id": "730363a5-60c9-4711-80a6-53256a41c9bd",
+                    "label": "title",
+                    "scope": "CLASS",
+                    "x": 11,
+                    "scaleX": 0.9,
+                    "scaleY": 0.9,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "fixedWidth": 250,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "20px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "985e98ad-4c54-46ba-b171-6428bedb2f11",
+                    "label": "newIcon",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "main",
+                        "frame": "news-new"
+                    },
+                    "x": 140,
+                    "y": -19,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "name",
+            "label": "name",
+            "tooltip": "name",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "musicId",
+            "label": "musicId",
+            "tooltip": "musicId",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "bold",
+            "label": "bold",
+            "tooltip": "bold",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

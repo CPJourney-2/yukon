@@ -1,0 +1,174 @@
+{
+    "id": "44fa1368-624d-425c-920f-ecf2548bf022",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseScene",
+        "preloadPackFiles": [
+            "yukon/assets/media/interface/menus/load/load-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Load",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "a57c75e9-6bb6-4de4-99aa-f0fac23f918f",
+            "label": "bg",
+            "components": [
+                "Interactive"
+            ],
+            "texture": {
+                "key": "load",
+                "frame": "bg"
+            },
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Text",
+            "id": "2204b5e0-60c2-423e-a689-2f10286dda6d",
+            "label": "text",
+            "scope": "CLASS",
+            "x": 754,
+            "y": 644,
+            "originX": 0.5,
+            "text": "Joining Blizzard",
+            "fixedWidth": 1000,
+            "align": "center",
+            "fontFamily": "Arial",
+            "fontSize": "28px"
+        },
+        {
+            "type": "Container",
+            "id": "4e899707-ef42-4301-9171-05d4b38598a2",
+            "label": "bar",
+            "scope": "CLASS",
+            "x": 760,
+            "y": 480,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "92869fcf-ac42-4a9f-a02e-e9d4c2ecfbb5",
+                    "label": "outline",
+                    "x": -6,
+                    "y": 127,
+                    "strokeColor": "#006699",
+                    "lineWidth": 4,
+                    "isStroked": true,
+                    "width": 200,
+                    "height": 40
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "800df959-2ff3-4e68-bee7-de36f6a26650",
+                    "label": "progress",
+                    "scope": "CLASS",
+                    "x": -98,
+                    "y": 127,
+                    "scaleX": 0,
+                    "originX": 0,
+                    "isFilled": true,
+                    "width": 180,
+                    "height": 20
+                }
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "937bfd51-2498-4b1c-be04-566423ddafe1",
+            "label": "trivia_text",
+            "scope": "CLASS",
+            "x": 760,
+            "y": 644,
+            "originX": 0.5,
+            "visible": false,
+            "text": "Rockhopper isn't real",
+            "align": "center",
+            "fontFamily": "Arial",
+            "fontSize": "32px"
+        },
+        {
+            "type": "Image",
+            "id": "e2b8b0b4-2760-44fe-a898-3d2281830930",
+            "label": "spinner",
+            "scope": "CLASS",
+            "texture": {
+                "key": "load",
+                "frame": "spinner"
+            },
+            "x": 754,
+            "y": 665,
+            "scaleX": 0.6,
+            "scaleY": 0.6,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "c584becb-b236-43fb-aa61-0950fd94860c",
+            "label": "penguin1",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "penguin1_",
+            "Animation.end": 16,
+            "texture": {
+                "key": "newload",
+                "frame": "penguin1_0001"
+            },
+            "x": 804,
+            "y": 391,
+            "angle": 1,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "43cbaa70-5699-434d-8e9d-c6491cfe4fda",
+            "label": "penguin2",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "penguin2_",
+            "Animation.end": 72,
+            "texture": {
+                "key": "newload",
+                "frame": "penguin2_0001"
+            },
+            "x": 765,
+            "y": 301,
+            "visible": false
+        },
+        {
+            "type": "Sprite",
+            "id": "4db0bc32-3153-46d3-b945-61e89712a4c2",
+            "label": "penguin3",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "penguin3_",
+            "Animation.end": 66,
+            "texture": {
+                "key": "newload",
+                "frame": "penguin3_0001"
+            },
+            "x": 746,
+            "y": 367,
+            "visible": false
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

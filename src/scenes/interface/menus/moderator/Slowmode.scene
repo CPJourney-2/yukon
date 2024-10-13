@@ -1,0 +1,623 @@
+{
+    "id": "f02d10bd-f2cb-4ae8-9772-558566fbd2b3",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "4fef8f09-d8a0-4fd6-b5ce-983164f96864",
+            "label": "slowmode",
+            "scope": "CLASS",
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "NineSlice",
+                    "id": "f6d449ef-139b-4d2f-b68a-456ee3a800c4",
+                    "label": "bg_2",
+                    "scope": "CLASS",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "x": -278.7192474992712,
+                    "y": 25.871093541339178,
+                    "scaleX": 1.0738810227811926,
+                    "originX": 0,
+                    "width": 500,
+                    "height": 580,
+                    "leftWidth": 44,
+                    "rightWidth": 39,
+                    "topHeight": 40,
+                    "bottomHeight": 41
+                },
+                {
+                    "type": "Text",
+                    "id": "a0f987f5-44f1-44dc-80f3-a85e0d05d3cf",
+                    "label": "users_to_verify_3",
+                    "x": -29,
+                    "y": -214,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Toggle Chat Slow Mode",
+                    "fixedWidth": 370,
+                    "fixedHeight": 40,
+                    "paddingLeft": 20,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "30px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Text",
+                    "id": "4988c0fb-4655-4b62-a16e-f61a251c56fc",
+                    "label": "text_13",
+                    "x": -210,
+                    "y": -168,
+                    "text": "Entire Server",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "22px"
+                },
+                {
+                    "type": "Text",
+                    "id": "a3f97622-5027-43d4-8a7e-881eb7ffe128",
+                    "label": "text_14",
+                    "x": -15,
+                    "y": -167,
+                    "visible": false,
+                    "text": "For Room",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "22px"
+                },
+                {
+                    "type": "Text",
+                    "id": "6d57684c-9271-4151-8475-803980831e81",
+                    "label": "text_15",
+                    "x": 139,
+                    "y": -168,
+                    "visible": false,
+                    "text": "For User",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "22px"
+                },
+                {
+                    "type": "Text",
+                    "id": "9d5e9686-dbf3-462f-8473-0b36682b4ea9",
+                    "label": "users_to_verify_4",
+                    "x": -76.7192474992712,
+                    "y": -45.12890645866082,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Select Duration",
+                    "fixedWidth": 350,
+                    "paddingLeft": 20,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px"
+                },
+                {
+                    "type": "Text",
+                    "id": "bccb5613-3dfd-4508-9bb1-e872ce5b4a6d",
+                    "label": "users_to_verify_5",
+                    "x": -16,
+                    "y": 107,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "visible": false,
+                    "text": "If not for the server, enter User/Room ID.",
+                    "paddingLeft": 20,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px"
+                },
+                {
+                    "type": "Image",
+                    "id": "3847d52c-0e09-4dec-b54d-9421cbb3a6af",
+                    "label": "window_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "window-button",
+                    "Button.callback": "() => this.setCoolDown()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window-button"
+                    },
+                    "x": -126,
+                    "y": 249,
+                    "scaleX": 0.701068458123139,
+                    "scaleY": 0.8,
+                    "originY": 0.5047619047619047
+                },
+                {
+                    "type": "Image",
+                    "id": "b4ff4a25-d6d7-4754-962a-1c332fc640da",
+                    "label": "window_button_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "window-button",
+                    "Button.callback": "() => this.removeCoolDown()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window-button"
+                    },
+                    "x": 108,
+                    "y": 249,
+                    "scaleX": 0.701068458123139,
+                    "scaleY": 0.8,
+                    "originY": 0.5047619047619047
+                },
+                {
+                    "type": "Text",
+                    "id": "ea99ed5c-d795-4efa-ac22-b1203fdbafdb",
+                    "label": "textContent_8",
+                    "x": -124,
+                    "y": 247,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Set Cooldown",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "30px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Image",
+                    "id": "30365240-7c88-4bd3-bf3d-1709392d8f76",
+                    "label": "checkbox_15s",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.setTime('15s')}",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": -211.7192474992712,
+                    "y": -1.128906458660822,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "originX": 0.41509,
+                    "originY": 0.5849
+                },
+                {
+                    "type": "Text",
+                    "id": "1aa73a64-6ab1-4097-99fe-1add6a1594a9",
+                    "label": "kick_player_text_2",
+                    "x": -148.7192474992712,
+                    "y": -16.128906458660822,
+                    "originX": 0.5,
+                    "text": "15s",
+                    "fixedWidth": 70,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Image",
+                    "id": "b316167a-1eda-40d5-844e-25d3b1f453d5",
+                    "label": "checkbox_30s",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.setTime('30s')}",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": -103.7192474992712,
+                    "y": -1.128906458660822,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "originX": 0.41509,
+                    "originY": 0.5849
+                },
+                {
+                    "type": "Text",
+                    "id": "5e43194c-87e9-41e8-bc35-32d259c9c555",
+                    "label": "kick_player_text",
+                    "x": -40.719247499271205,
+                    "y": -16.128906458660822,
+                    "originX": 0.5,
+                    "text": "30s",
+                    "fixedWidth": 70,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Image",
+                    "id": "f9168d70-306c-4c1c-82e2-d506438e3cf6",
+                    "label": "checkbox_1m",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.setTime('1m')}",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": 2.280752500728795,
+                    "y": -1.128906458660822,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "originX": 0.41509,
+                    "originY": 0.5849
+                },
+                {
+                    "type": "Text",
+                    "id": "99ef5b9b-bd2d-4958-b75c-cb9299d13199",
+                    "label": "kick_player_text_1",
+                    "x": 65.2807525007288,
+                    "y": -16.128906458660822,
+                    "originX": 0.5,
+                    "text": "1m",
+                    "fixedWidth": 70,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Image",
+                    "id": "ec447ad3-0466-4e6b-93f7-80ca5f6f136e",
+                    "label": "checkbox_2m",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.setTime('2m')}",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": 102.2807525007288,
+                    "y": -1.128906458660822,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "originX": 0.41509,
+                    "originY": 0.5849
+                },
+                {
+                    "type": "Text",
+                    "id": "1235ddcc-7615-40dd-99d7-7f77d82208f8",
+                    "label": "kick_player_text_3",
+                    "x": 165.2807525007288,
+                    "y": -16.128906458660822,
+                    "originX": 0.5,
+                    "text": "2m",
+                    "fixedWidth": 70,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "c3a783a1-03d8-4e49-af21-84d0201ea202",
+                    "label": "kick_player_text_4",
+                    "x": -40.719247499271205,
+                    "y": 30.871093541339178,
+                    "originX": 0.5,
+                    "text": "10m",
+                    "fixedWidth": 70,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Image",
+                    "id": "a3448a75-687c-4c32-b517-a305ae253361",
+                    "label": "checkbox_10m",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.setTime('10m')}",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": -103.7192474992712,
+                    "y": 45.87109354133918,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "originX": 0.41509,
+                    "originY": 0.5849
+                },
+                {
+                    "type": "Text",
+                    "id": "a6ce44b8-cb19-4b66-bb1f-59b673a1ff38",
+                    "label": "kick_player_text_5",
+                    "x": -148.7192474992712,
+                    "y": 30.871093541339178,
+                    "originX": 0.5,
+                    "text": "5m",
+                    "fixedWidth": 70,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Image",
+                    "id": "2fcb13b2-ba13-4d44-8917-c8c971d37d9e",
+                    "label": "checkbox_5m",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.setTime('5m')}",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": -211.7192474992712,
+                    "y": 45.87109354133918,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "originX": 0.41509,
+                    "originY": 0.5849
+                },
+                {
+                    "type": "Image",
+                    "id": "dfd7fee0-cd4e-427d-a950-0ae2b83db2e9",
+                    "label": "checkbox_15m",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.setTime('15m')}",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": 2.280752500728795,
+                    "y": 45.87109354133918,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "originX": 0.41509,
+                    "originY": 0.5849
+                },
+                {
+                    "type": "Text",
+                    "id": "5c1c8c5a-3fdd-4f4c-b642-16f3fdbe34b7",
+                    "label": "kick_player_text_6",
+                    "x": 65.2807525007288,
+                    "y": 30.871093541339178,
+                    "originX": 0.5,
+                    "text": "15m",
+                    "fixedWidth": 70,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "24px",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "bc8c14ff-8a37-469c-865d-5d0c327449bf",
+                    "label": "coolset_text",
+                    "scope": "CLASS",
+                    "x": -16,
+                    "y": -94,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Current Setting: N/A",
+                    "fixedWidth": 500,
+                    "fixedHeight": 40,
+                    "paddingLeft": 20,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Image",
+                    "id": "09c70961-9d47-4b7d-8e5b-1c584cafaced",
+                    "label": "x_button_4",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.close()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 206,
+                    "y": -211
+                },
+                {
+                    "type": "Image",
+                    "id": "9622a8f2-ed87-478d-8d11-99b68013ad96",
+                    "label": "x_button_5",
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 206,
+                    "y": -214
+                },
+                {
+                    "type": "Image",
+                    "id": "269b079c-64c3-4282-8e73-da5457b3019f",
+                    "label": "tab_2",
+                    "texture": {
+                        "key": "main",
+                        "frame": "tab-2"
+                    },
+                    "x": -13,
+                    "y": -277,
+                    "visible": false
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "7dd644fd-4a00-4be0-9ad9-c5603bb94b2d",
+                    "label": "rectangle_1",
+                    "x": -18,
+                    "y": 162,
+                    "scaleX": 2.8326135681721185,
+                    "scaleY": 0.38683571804083605,
+                    "visible": false,
+                    "isFilled": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Text",
+                    "id": "00ed75cf-a91d-48e1-8479-57b946d16c4e",
+                    "label": "idInput",
+                    "scope": "CLASS",
+                    "x": -192,
+                    "y": 144,
+                    "visible": false,
+                    "text": "aaaaa",
+                    "fixedWidth": 350,
+                    "fixedHeight": 40,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "25px",
+                    "color": "#000"
+                },
+                {
+                    "type": "Image",
+                    "id": "292c3b54-9f4a-46eb-8656-824fc9629d55",
+                    "label": "checkbox_server",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.setServer()",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": -234,
+                    "y": -154,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "originX": 0.41509,
+                    "originY": 0.5849
+                },
+                {
+                    "type": "Image",
+                    "id": "30e48567-6086-4fcd-8c64-ba52f46c6236",
+                    "label": "checkbox_room",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.setRoom()",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": -38,
+                    "y": -154,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "originX": 0.41509,
+                    "originY": 0.5849,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "537caeab-b63a-4a2c-9a96-b7d1795f611f",
+                    "label": "checkbox_user",
+                    "scope": "CLASS",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => this.setUser()",
+                    "texture": {
+                        "key": "login",
+                        "frame": "checkbox"
+                    },
+                    "x": 115,
+                    "y": -154,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "originX": 0.41509,
+                    "originY": 0.5849,
+                    "visible": false
+                },
+                {
+                    "type": "Text",
+                    "id": "71cf4add-7f92-4297-8f1b-6a579c4db860",
+                    "label": "textContent",
+                    "x": 110,
+                    "y": 246,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Remove\nCooldown",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "30px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "7bcaba46-31c2-4635-a2c1-78858436c086",
+                    "label": "server_cool_text",
+                    "scope": "CLASS",
+                    "x": -11,
+                    "y": 141,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Current Server Cooldown: No",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "30px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "c075cf6c-bff9-4935-b9ef-e0143165b7f6",
+            "label": "modeCheckboxes",
+            "objectIds": [
+                "292c3b54-9f4a-46eb-8656-824fc9629d55",
+                "30e48567-6086-4fcd-8c64-ba52f46c6236",
+                "537caeab-b63a-4a2c-9a96-b7d1795f611f"
+            ]
+        },
+        {
+            "id": "a87479de-5863-4317-84ce-23b127bfb3b0",
+            "label": "timeCheckboxes",
+            "objectIds": [
+                "30365240-7c88-4bd3-bf3d-1709392d8f76",
+                "a3448a75-687c-4c32-b517-a305ae253361",
+                "b316167a-1eda-40d5-844e-25d3b1f453d5",
+                "f9168d70-306c-4c1c-82e2-d506438e3cf6",
+                "dfd7fee0-cd4e-427d-a950-0ae2b83db2e9",
+                "ec447ad3-0466-4e6b-93f7-80ca5f6f136e",
+                "2fcb13b2-ba13-4d44-8917-c8c971d37d9e"
+            ]
+        }
+    ]
+}

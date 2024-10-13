@@ -1,0 +1,243 @@
+{
+    "id": "9193fbcc-a6cd-4a50-ac39-3c1155fa2bd6",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "604d13b8-868d-46c8-a5a3-13d96bb18968",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "028ec836-255b-461d-bbb6-01fca27a428f",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 481,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "5f2ef7be-9650-4018-9f65-261a7a760d57",
+                    "label": "page1",
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "c1b75400-f62b-4ed5-a78b-a5ee4266b9b0",
+                            "label": "cove",
+                            "texture": {
+                                "key": "covecatalog",
+                                "frame": "cove"
+                            },
+                            "x": 760,
+                            "y": 480
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "4042b6a8-080a-4702-8e7f-1d0a04cbcedc",
+                            "label": "openSecret",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.secret.visible=true;",
+                            "x": 901,
+                            "y": 107,
+                            "scaleX": 1.474300017320576,
+                            "scaleY": 0.436681937276649,
+                            "isFilled": true,
+                            "fillAlpha": 0,
+                            "width": 140,
+                            "height": 130
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c3edcd2c-2fdd-41fb-afe6-16ccf8c2b706",
+                            "label": "closebtn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "closebtn",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "covecatalog",
+                                "frame": "closebtn"
+                            },
+                            "x": 1043,
+                            "y": 94
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "c64f7fbc-330a-4dec-af2d-a37630538490",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "scaleX",
+                                "scaleY",
+                                "angle",
+                                "visible"
+                            ],
+                            "label": "tag_one",
+                            "item": 702,
+                            "x": 564,
+                            "y": 289,
+                            "scaleX": 0.75,
+                            "scaleY": 0.75,
+                            "angle": 22,
+                            "visible": true
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "56880433-1294-4d65-b571-25ddfb729ee6",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "scaleX",
+                                "scaleY",
+                                "angle",
+                                "visible"
+                            ],
+                            "label": "tag_two",
+                            "item": 701,
+                            "x": 726,
+                            "y": 406,
+                            "scaleX": 0.75,
+                            "scaleY": 0.75,
+                            "angle": 25,
+                            "visible": true
+                        },
+                        {
+                            "type": "Container",
+                            "id": "d941ee15-0821-4722-ac89-d26ea7ee0140",
+                            "label": "secret",
+                            "scope": "CLASS",
+                            "x": 760,
+                            "y": 480,
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "26839d4f-32c0-48be-8ef2-400383129976",
+                                    "label": "secretbg",
+                                    "texture": {
+                                        "key": "covecatalog",
+                                        "frame": "secret"
+                                    }
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "056cd304-4ada-4c42-80c9-705f4781c9cf",
+                                    "label": "secretclosebtn",
+                                    "scope": "CLASS",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "secretclosebtn",
+                                    "Button.callback": "() => this.secret.visible=false;",
+                                    "Button.activeFrame": true,
+                                    "texture": {
+                                        "key": "covecatalog",
+                                        "frame": "secretclosebtn"
+                                    },
+                                    "x": 183,
+                                    "y": -94
+                                },
+                                {
+                                    "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                                    "id": "ee78f40f-eea1-48d5-9783-c5763099c07e",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "item",
+                                        "scaleX",
+                                        "scaleY",
+                                        "visible"
+                                    ],
+                                    "label": "buyButton",
+                                    "item": 703,
+                                    "x": 12,
+                                    "y": 12,
+                                    "scaleX": 1.2,
+                                    "scaleY": 1.2,
+                                    "visible": true
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "fed9f2e7-be78-4316-bd41-d4b0b45d2e0f",
+                                    "label": "surfboard",
+                                    "texture": {
+                                        "key": "covecatalog",
+                                        "frame": "surfboard"
+                                    },
+                                    "x": -101
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6079dde9-029e-4b2f-94a8-f65c926132cf",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": -1035.7052001953125,
+                    "y": 364.5936584472656,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "e332f4d8-499e-49f4-84eb-b699b870b880",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1130,
+                            "y": 790,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCComiccrazy",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "3003f2ec-9394-4489-a981-17b8c2a9bffb",
+            "label": "pages",
+            "objectIds": [
+                "5f2ef7be-9650-4018-9f65-261a7a760d57"
+            ]
+        }
+    ]
+}

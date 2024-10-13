@@ -1,0 +1,476 @@
+{
+    "id": "d21032cd-2c2f-4c32-8fa1-7ec40d8552d1",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/forest/forest-pack.json",
+            "yukon/assets/media/rooms/_fair/forest/fair-forest-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Forest",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "d88a2316-a268-48c8-a7f3-8bcb416bbcdf",
+            "label": "rectangle_2",
+            "x": 517,
+            "y": 684,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "5080d887-d532-415b-83ec-53af0f423cce",
+            "label": "bg",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "background"
+            },
+            "x": -24,
+            "y": -13,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "6e3db976-9917-4d00-b9c1-bf0c18983238",
+            "label": "rock0001",
+            "scope": "CLASS",
+            "components": [
+                "SimpleButton",
+                "MoveTo"
+            ],
+            "SimpleButton.hoverCallback": "() => {this.onRockUp();}",
+            "SimpleButton.hoverOutCallback": "() => {this.onRockDown();}",
+            "MoveTo.x": "312",
+            "MoveTo.y": "664",
+            "texture": {
+                "key": "forest",
+                "frame": "rock0001"
+            },
+            "x": 254,
+            "y": 681,
+            "originX": 0.6005747126436781,
+            "originY": 0.7300884955752213,
+            "visible": false
+        },
+        {
+            "type": "Rectangle",
+            "id": "7a3318d3-8b0f-4b02-b267-6d443b00d31b",
+            "label": "rectangle_1",
+            "x": 287,
+            "y": 652,
+            "isFilled": true,
+            "width": 190,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "a0c5ffb3-138e-40ad-a79c-f9bb8cb88507",
+            "label": "tree",
+            "texture": {
+                "key": "forest",
+                "frame": "tree"
+            },
+            "x": -17,
+            "y": 272,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "68230858-5ed1-4a66-b956-6f9ba462bf8b",
+            "label": "fg",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "fgL3"
+            },
+            "x": -8,
+            "y": 976,
+            "originX": 0,
+            "originY": 1
+        },
+        {
+            "type": "Image",
+            "id": "f375e9d0-76b5-4bff-a7bc-68ab12b63736",
+            "label": "middle",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "middle"
+            },
+            "x": 795,
+            "y": 530,
+            "originY": 0.608540925266904
+        },
+        {
+            "type": "Image",
+            "id": "956385da-974c-4842-8041-66c0c32df5ea",
+            "label": "stairs",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "fgR3"
+            },
+            "x": 1129,
+            "y": 302,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "44a1f1df-8536-406f-a92e-d43130ae3799",
+            "label": "rail",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "fgR2"
+            },
+            "x": 1441,
+            "y": 831,
+            "originY": 0.5885714285714285
+        },
+        {
+            "type": "Image",
+            "id": "610c10a8-e1b6-47bf-9293-ac3f7bf11de7",
+            "label": "sign",
+            "texture": {
+                "key": "forest",
+                "frame": "sign"
+            },
+            "x": 1317,
+            "y": 681,
+            "originX": 0.4794520547945205,
+            "originY": 0.9397590361445783
+        },
+        {
+            "type": "Image",
+            "id": "e88b58e3-c1b4-4db6-a982-58a4ad133f58",
+            "label": "circusSign",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "circusSign"
+            },
+            "x": 978,
+            "y": 234
+        },
+        {
+            "type": "Image",
+            "id": "edf4fe7c-5e37-40e6-9a09-b91d1d685ddb",
+            "label": "fenceR",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "fenceR"
+            },
+            "x": 1075,
+            "y": 326.994374031799,
+            "originY": 0.547552071807131
+        },
+        {
+            "type": "Image",
+            "id": "0a01a364-0117-45ee-9ed7-92825baed660",
+            "label": "fgL1",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "fgL1"
+            },
+            "x": -105,
+            "y": 177
+        },
+        {
+            "type": "Image",
+            "id": "ef5c32cf-4d92-49d9-a2d7-f7182fe3ac9e",
+            "label": "fgR1",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "fgR1"
+            },
+            "x": 1566,
+            "y": 695.2885920590592,
+            "originY": 0.6719372208394845
+        },
+        {
+            "type": "Image",
+            "id": "754b1e0f-a231-4077-86a6-02757eaaad34",
+            "label": "hay3",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "hay3"
+            },
+            "x": 1032,
+            "y": 825
+        },
+        {
+            "type": "Image",
+            "id": "74b0b1b9-8a21-4976-8faa-91c2fc29b390",
+            "label": "hay2",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "hay2"
+            },
+            "x": 673,
+            "y": 684
+        },
+        {
+            "type": "Image",
+            "id": "2f2af9a8-0b56-4a4d-9882-56c91214582d",
+            "label": "hay1",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "hay1"
+            },
+            "x": 385,
+            "y": 450
+        },
+        {
+            "type": "Image",
+            "id": "6fd392ff-0a76-43df-a205-d2c9d9f8d2f3",
+            "label": "memoryInside",
+            "components": [
+                "Button",
+                "MoveTo",
+                "ShowHint"
+            ],
+            "Button.spriteName": "memoryInside",
+            "Button.pixelPerfect": true,
+            "MoveTo.x": "471",
+            "MoveTo.y": "343",
+            "ShowHint.text": "Memory Game",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "memoryInside"
+            },
+            "x": 471,
+            "y": 260.21875,
+            "originY": 0.5706086048151815
+        },
+        {
+            "type": "Image",
+            "id": "b485c283-dbc5-435a-bc6c-ad868e8b3e02",
+            "label": "memory",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "memory"
+            },
+            "x": 467,
+            "y": 335.05661736741104,
+            "originY": 0.847617563184777
+        },
+        {
+            "type": "Container",
+            "id": "b7437bb3-d82c-4d4f-be90-f180b61223be",
+            "label": "paddleBooth",
+            "x": 954,
+            "y": 588.0220947265625,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "62374147-8a9b-4d1f-9f40-837bb483db90",
+                    "label": "puffleTent",
+                    "texture": {
+                        "key": "fair-forest",
+                        "frame": "puffleTent"
+                    },
+                    "originY": 0.7554366733106611
+                },
+                {
+                    "type": "Sprite",
+                    "id": "d6e11d0e-2116-40e8-85ef-1386b80c3cf4",
+                    "label": "paddle",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "fair-forest",
+                        "frame": "paddle0001"
+                    },
+                    "x": 7,
+                    "y": 22.9779052734375,
+                    "scaleX": 0.75,
+                    "scaleY": 0.75,
+                    "originY": 1.0738503182199266
+                },
+                {
+                    "type": "Image",
+                    "id": "53f36d24-65fb-4026-bb45-f7ec745e45a7",
+                    "label": "puffleFront",
+                    "texture": {
+                        "key": "fair-forest",
+                        "frame": "puffleFront"
+                    },
+                    "x": 6,
+                    "y": 53.3848876953125,
+                    "scaleX": 0.75,
+                    "scaleY": 0.75,
+                    "originY": 1.0104813519791274
+                },
+                {
+                    "type": "Image",
+                    "id": "f85035ef-8a7a-4fa9-90c7-0b11565b07f6",
+                    "label": "puffle",
+                    "texture": {
+                        "key": "fair-forest",
+                        "frame": "puffle"
+                    },
+                    "x": 6,
+                    "y": 113.935791015625,
+                    "originY": 3.0542679846587073
+                }
+            ]
+        },
+        {
+            "type": "Rectangle",
+            "id": "eb9073fb-65cc-4e81-8bfd-71cb285014a0",
+            "label": "rectangle",
+            "components": [
+                "SimpleButton",
+                "ShowHint",
+                "MoveTo"
+            ],
+            "SimpleButton.hoverCallback": "() => this.onPaddle()",
+            "SimpleButton.hoverOutCallback": "() => this.onPaddleOut()",
+            "ShowHint.text": "Puffle Paddle",
+            "MoveTo.x": "957",
+            "MoveTo.y": "637",
+            "x": 956.9486694335938,
+            "y": 520.8768920898438,
+            "scaleX": 1.6953319608985584,
+            "scaleY": 1.3684037640462006,
+            "originX": 0.49284544471386793,
+            "originY": 0.3761046215236066,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "6e4d4572-65f7-40a7-98a2-4646b40a620a",
+            "label": "circusTrigger",
+            "components": [
+                "SimpleButton",
+                "MoveTo",
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.triggerRoom(852, 768, 791)",
+            "x": 781,
+            "y": 247.701748105089,
+            "width": 300,
+            "height": 200
+        },
+        {
+            "type": "Rectangle",
+            "id": "8f9c7b66-698e-4683-b3af-3bbb13d4af44",
+            "label": "prizeTrigger",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('PrizeBooth2')",
+            "x": 639,
+            "y": 608.8508740525444,
+            "width": 200,
+            "height": 100
+        },
+        {
+            "type": "Rectangle",
+            "id": "f51dc9db-0b40-4304-b125-8c5b005ea3bf",
+            "label": "rectangle_5",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.triggerGame(921)",
+            "x": 485,
+            "y": 331.08911878725695,
+            "width": 200,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "c75b60e9-3c97-4ece-890d-dcad22714be7",
+            "label": "rectangle_6",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.triggerGame(922)",
+            "x": 954,
+            "y": 618,
+            "width": 220,
+            "height": 80
+        },
+        {
+            "type": "Image",
+            "id": "3844df72-4b69-4735-945f-734187487f81",
+            "label": "tent",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "tent1",
+            "Button.alias": "tentbtn",
+            "texture": {
+                "key": "fair-forest",
+                "frame": "tent1"
+            },
+            "x": 642,
+            "y": 601.1740621554534,
+            "originY": 0.8380001924317442
+        },
+        {
+            "type": "Rectangle",
+            "id": "8496d543-ea7e-4c3b-863e-35114d3581c7",
+            "label": "tentbtn",
+            "components": [
+                "MoveTo"
+            ],
+            "x": 642.2645263671874,
+            "y": 651.5253757138486,
+            "scaleX": 1.7671177264994549,
+            "scaleY": 1.5872922902190512,
+            "originX": 0.5100114980244945,
+            "originY": 1.075560768045535,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "prefabId": "03c1e2c5-a3a8-4d2d-a4b8-4cdd167a2b9a",
+            "id": "fcb105d6-d7f2-4d0b-a3c7-d134d6c340c8",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sharedCoaster",
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "adc6dee8-ab4a-4215-92af-f5272ec15c19",
+            "label": "sort",
+            "objectIds": [
+                "610c10a8-e1b6-47bf-9293-ac3f7bf11de7",
+                "44a1f1df-8536-406f-a92e-d43130ae3799",
+                "f375e9d0-76b5-4bff-a7bc-68ab12b63736",
+                "68230858-5ed1-4a66-b956-6f9ba462bf8b",
+                "a0c5ffb3-138e-40ad-a79c-f9bb8cb88507",
+                "6e3db976-9917-4d00-b9c1-bf0c18983238",
+                "754b1e0f-a231-4077-86a6-02757eaaad34",
+                "74b0b1b9-8a21-4976-8faa-91c2fc29b390",
+                "2f2af9a8-0b56-4a4d-9882-56c91214582d",
+                "b485c283-dbc5-435a-bc6c-ad868e8b3e02",
+                "edf4fe7c-5e37-40e6-9a09-b91d1d685ddb",
+                "b7437bb3-d82c-4d4f-be90-f180b61223be",
+                "ef5c32cf-4d92-49d9-a2d7-f7182fe3ac9e",
+                "3844df72-4b69-4735-945f-734187487f81"
+            ]
+        }
+    ]
+}

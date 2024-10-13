@@ -1,0 +1,474 @@
+{
+    "id": "d771ae71-b92c-4ffd-83a4-5cf0d64a3600",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "RoomScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/rooms/forts/forts-pack.json",
+            "yukon/assets/media/rooms/_fair/forts/fair-forts-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "Forts",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "0502af23-1a8b-4632-b17c-741a3ca0c218",
+            "label": "bg",
+            "texture": {
+                "key": "forts",
+                "frame": "bg"
+            },
+            "x": -35,
+            "y": -18,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "25ea7d4b-f9e9-4dd3-a3fa-f84f31e606fa",
+            "label": "fortsrink",
+            "texture": {
+                "key": "fortsrink"
+            },
+            "x": 749,
+            "y": 453,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "a98d4e84-d78a-4838-b571-bdb020907624",
+            "label": "background",
+            "texture": {
+                "key": "fair-forts",
+                "frame": "background"
+            },
+            "x": 932,
+            "y": 567
+        },
+        {
+            "type": "Image",
+            "id": "dac86d3b-8a81-418a-98d8-0a6b441e3797",
+            "label": "flagSign",
+            "texture": {
+                "key": "fair-forts",
+                "frame": "flagSign"
+            },
+            "x": 924,
+            "y": 151
+        },
+        {
+            "type": "Sprite",
+            "id": "88713680-42fe-4a68-86a8-6ce006cfc288",
+            "label": "fairSign0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "fairSign",
+            "Animation.end": 8,
+            "texture": {
+                "key": "fair-forts",
+                "frame": "fairSign0001"
+            },
+            "x": 828.6854005367383,
+            "y": 195.66300626194618,
+            "originX": 0.4498302387992821,
+            "originY": -0.024343684771393963
+        },
+        {
+            "type": "Image",
+            "id": "3b2a720f-7bd6-4c37-831b-1f6b4ef36eed",
+            "label": "tower_shadow",
+            "texture": {
+                "key": "forts",
+                "frame": "tower_shadow"
+            },
+            "x": 1065,
+            "y": 304,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Sprite",
+            "id": "185a8965-22fe-4cbb-9ce8-893d8372328a",
+            "label": "clockTower0001",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "clockTower",
+            "Animation.end": 24,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "fair-forts",
+                "frame": "clockTower0001"
+            },
+            "x": 1037.4309863943888,
+            "y": -36.223440993973895,
+            "originX": 0.0038467376193247593,
+            "originY": -0.005558602484934738
+        },
+        {
+            "type": "Sprite",
+            "id": "1502a63b-6cb6-4f1e-bab6-e4b217577883",
+            "label": "tower",
+            "scope": "CLASS",
+            "components": [
+                "Animation"
+            ],
+            "Animation.key": "tower",
+            "Animation.end": 24,
+            "Animation.repeat": 0,
+            "Animation.autoPlay": false,
+            "texture": {
+                "key": "forts",
+                "frame": "tower0001"
+            },
+            "x": 1046,
+            "y": -13,
+            "originX": 0,
+            "originY": 0,
+            "alpha": 0,
+            "alphaTopLeft": 0,
+            "alphaTopRight": 0,
+            "alphaBottomLeft": 0,
+            "alphaBottomRight": 0
+        },
+        {
+            "type": "Image",
+            "id": "b2ca6101-5086-4b8d-abd1-92dc5d0fb2b0",
+            "label": "clock",
+            "texture": {
+                "key": "forts",
+                "frame": "clock"
+            },
+            "x": 1070,
+            "y": 83,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "b402d711-30c1-460e-b798-b448eddf538e",
+            "label": "secret_message",
+            "texture": {
+                "key": "forts",
+                "frame": "secret_message"
+            },
+            "x": 1252,
+            "y": 327,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "0b4516d5-7e71-4a28-90f7-821cb7f3bf3f",
+            "label": "sign",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "clockSign",
+            "Button.callback": "() => {this.interface.loadWidget(\"ClocktowerUI\")}",
+            "texture": {
+                "key": "fair-forts",
+                "frame": "clockSign"
+            },
+            "x": 1379,
+            "y": 269,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "1f0cdaf0-e9e6-4541-a76f-2a26400b2146",
+            "label": "snowballs",
+            "texture": {
+                "key": "forts",
+                "frame": "snowballs"
+            },
+            "x": 662.215049762836,
+            "y": 873.0262066824602,
+            "originX": 0.48023153250516887,
+            "originY": 0.31169339551345354
+        },
+        {
+            "type": "Rectangle",
+            "id": "6f93abab-6009-4afb-b0ed-a744f686a16d",
+            "label": "hitbox",
+            "scope": "CLASS",
+            "x": 1337,
+            "y": 134,
+            "visible": false,
+            "width": 70,
+            "height": 75
+        },
+        {
+            "type": "Text",
+            "id": "6a5ead00-a184-40b0-bb5c-699b02fe8e5e",
+            "label": "clockTime",
+            "scope": "CLASS",
+            "x": 1076,
+            "y": 85,
+            "scaleX": 0.45,
+            "scaleY": 0.7166177259864144,
+            "angle": -1,
+            "text": "12:24",
+            "fixedWidth": 300,
+            "fixedHeight": 130,
+            "fontFamily": "CPLCD",
+            "fontSize": "112px",
+            "color": "#DBEDF0"
+        },
+        {
+            "type": "Text",
+            "id": "c9927a09-ea4c-433b-aae8-fbe474208c23",
+            "label": "day",
+            "scope": "CLASS",
+            "x": 1087,
+            "y": 188,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "angle": 3.0000000000000004,
+            "text": "THURSDAY",
+            "fixedWidth": 240,
+            "fixedHeight": 40,
+            "align": "center",
+            "fontFamily": "CCComiccrazy",
+            "fontSize": "30px",
+            "fontStyle": "bold italic",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Text",
+            "id": "f8b06f6f-b7e8-428e-b359-e27bc253d4e5",
+            "label": "am_pm",
+            "scope": "CLASS",
+            "x": 1187,
+            "y": 94,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "angle": -1,
+            "text": "AM",
+            "fontFamily": "CPLCD",
+            "fontSize": "64px",
+            "color": "#DBEDF0"
+        },
+        {
+            "type": "Text",
+            "id": "214205d0-fdfb-4739-8603-bb10f5cc8f51",
+            "label": "clock_text",
+            "x": 1066,
+            "y": 38,
+            "scaleY": 1.2195577762568657,
+            "angle": -5,
+            "visible": false,
+            "text": "CLUB PENGUIN\nTime Zone",
+            "align": "center",
+            "fontFamily": "CCComiccrazy",
+            "fontSize": "19px",
+            "fontStyle": "bold italic",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Image",
+            "id": "fff5f36c-0a0c-441a-bb94-ce6bfb31360c",
+            "label": "forts_towertext",
+            "texture": {
+                "key": "forts-towertext"
+            },
+            "x": 1152,
+            "y": 53
+        },
+        {
+            "type": "Image",
+            "id": "eb71da51-6837-4f10-a92b-d71502002354",
+            "label": "fenceRight",
+            "texture": {
+                "key": "fair-forts",
+                "frame": "fenceRight"
+            },
+            "x": 1389.7825888402665,
+            "y": 914.1532295906514,
+            "originX": 0.4405500642792344,
+            "originY": 0.8929436629964423
+        },
+        {
+            "type": "Image",
+            "id": "f28f3039-fe6a-4c0e-a435-59924e1e81d6",
+            "label": "fenceLeft",
+            "texture": {
+                "key": "fair-forts",
+                "frame": "fenceLeft"
+            },
+            "x": 37.6621757744272,
+            "y": 911.2866264548829,
+            "originX": 0.44923222307469185,
+            "originY": 0.8875953149711818
+        },
+        {
+            "type": "Image",
+            "id": "871553af-0ff3-4247-a839-cb4e1355ec9d",
+            "label": "fortTwoRight",
+            "texture": {
+                "key": "fair-forts",
+                "frame": "fortTwoRight"
+            },
+            "x": 1226.9135027024415,
+            "y": 426.1335144042969,
+            "originX": 0.15846006876195345,
+            "originY": 0.8085340581149915
+        },
+        {
+            "type": "Image",
+            "id": "58f0c5c3-bc8e-4d20-8a51-8ceaef215361",
+            "label": "fortTwoWall",
+            "texture": {
+                "key": "fair-forts",
+                "frame": "fortTwoWall"
+            },
+            "x": 890.1986038086787,
+            "y": 347.98154374987257,
+            "originX": 0.4919859454856612,
+            "originY": 0.45725040711246534
+        },
+        {
+            "type": "Image",
+            "id": "22e1292a-5037-4af3-a6df-82a03988d06f",
+            "label": "fortTwoLeft",
+            "texture": {
+                "key": "fair-forts",
+                "frame": "fortTwoLeft"
+            },
+            "x": 903.5651187808314,
+            "y": 458.5252580123979,
+            "originX": 0.5320766461843726,
+            "originY": 0.7573633146959439
+        },
+        {
+            "type": "Image",
+            "id": "f32c583c-fb3b-4280-9b2e-bfe0cb55d6f9",
+            "label": "fortOneLeft",
+            "texture": {
+                "key": "fair-forts",
+                "frame": "fortOneLeft"
+            },
+            "x": 389,
+            "y": 608,
+            "originX": 0.5647119776146694,
+            "originY": 0.5023828271070897
+        },
+        {
+            "type": "Image",
+            "id": "0194d679-4764-44e8-bf1a-8181769097a7",
+            "label": "fortOneLeftMid",
+            "texture": {
+                "key": "fair-forts",
+                "frame": "fortOneLeftMid"
+            },
+            "x": 466.87928553706774,
+            "y": 595.2028796229795,
+            "originX": 0.26731814215751826,
+            "originY": 0.5459133687516006
+        },
+        {
+            "type": "Image",
+            "id": "8e43e73a-3700-49d6-bf10-4fbb172f5aed",
+            "label": "fortOneLeftWall",
+            "texture": {
+                "key": "fair-forts",
+                "frame": "fortOneLeftWall"
+            },
+            "x": 457,
+            "y": 739,
+            "originX": 0.32970866793413617,
+            "originY": 0.519360352460766
+        },
+        {
+            "type": "Image",
+            "id": "1c4e2069-0907-42b6-bdab-8e0059956b6e",
+            "label": "fortOneMid",
+            "texture": {
+                "key": "fair-forts",
+                "frame": "fortOneMid"
+            },
+            "x": 788.3533935546875,
+            "y": 664.3790839455376,
+            "originX": 0.42124144496602367,
+            "originY": 0.5384467012894739
+        },
+        {
+            "type": "Image",
+            "id": "6ada28cb-ac5e-40c5-a352-984514c54445",
+            "label": "fortOneRight",
+            "texture": {
+                "key": "fair-forts",
+                "frame": "fortOneRight"
+            },
+            "x": 858.9116178007484,
+            "y": 796.3320368951455,
+            "originX": 0.20708554576458882,
+            "originY": 0.5666601359019581
+        },
+        {
+            "type": "Rectangle",
+            "id": "e7571142-3e21-400b-9d4e-5feb79778be5",
+            "label": "rectangle_1",
+            "components": [
+                "SimpleButton",
+                "MoveTo",
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.triggerRoom(851, 768, 791)",
+            "x": 950,
+            "y": 321.6094446001244,
+            "originY": 0.7391362859384718,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "prefabId": "03c1e2c5-a3a8-4d2d-a4b8-4cdd167a2b9a",
+            "id": "06fa1059-b1a6-4e66-9612-6fb9cddcbee9",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sharedCoaster",
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "1e3d1d79-bbc9-4969-8105-70209fd3fab9",
+            "label": "sort",
+            "objectIds": [
+                "871553af-0ff3-4247-a839-cb4e1355ec9d",
+                "22e1292a-5037-4af3-a6df-82a03988d06f",
+                "58f0c5c3-bc8e-4d20-8a51-8ceaef215361",
+                "6ada28cb-ac5e-40c5-a352-984514c54445",
+                "1c4e2069-0907-42b6-bdab-8e0059956b6e",
+                "8e43e73a-3700-49d6-bf10-4fbb172f5aed",
+                "0194d679-4764-44e8-bf1a-8181769097a7",
+                "f32c583c-fb3b-4280-9b2e-bfe0cb55d6f9",
+                "eb71da51-6837-4f10-a92b-d71502002354",
+                "f28f3039-fe6a-4c0e-a435-59924e1e81d6",
+                "1f0cdaf0-e9e6-4541-a76f-2a26400b2146"
+            ]
+        }
+    ]
+}

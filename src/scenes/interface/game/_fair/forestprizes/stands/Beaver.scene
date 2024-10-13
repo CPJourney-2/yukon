@@ -1,0 +1,41 @@
+{
+    "id": "a93c8a53-50ac-418c-bb19-9cfe5d9f8757",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "BaseImage",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "ee2e2791-4bdd-465a-adf2-daee289af7e3",
+            "label": "beefer0001",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "beefer",
+            "Button.callback": "() => this.interface.prompt.showItem(380579)",
+            "Button.pixelPerfect": true,
+            "Button.lazyName": true,
+            "texture": {
+                "key": "forestprizes",
+                "frame": "beefer0001"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

@@ -1,0 +1,514 @@
+{
+    "id": "747d6342-243d-43b3-bf81-0deeca9843bc",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "604d13b8-868d-46c8-a5a3-13d96bb18968",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "028ec836-255b-461d-bbb6-01fca27a428f",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "42fc311d-8d0d-4f99-a501-759645bdc75f",
+                    "label": "page5",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "66e15722-8bad-4a39-880c-da8f0aa6fa99",
+                            "label": "pg5",
+                            "texture": {
+                                "key": "twelfthfish-catalog",
+                                "frame": "pg5"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e0fba22d-5261-4325-a1ec-70e6abe2b03a",
+                            "label": "back_left_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "x": -204,
+                            "y": 220
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3f506a93-6b95-4d82-b20e-36ac698a7104",
+                            "label": "back_catalog_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": -204,
+                            "y": -329,
+                            "flipX": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                    "label": "page4",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9920e113-be77-4df1-91d9-4a7a3a0c6094",
+                            "label": "pg4",
+                            "texture": {
+                                "key": "twelfthfish-catalog",
+                                "frame": "pg4"
+                            }
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "e902d9aa-d090-431d-8b16-7872f2c1f126",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_3",
+                            "item": 5580,
+                            "x": 88,
+                            "y": -276,
+                            "angle": -29.999999999999996
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "62f2ef45-8834-4a18-9331-12ccc8f4784c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton",
+                            "item": 489,
+                            "x": -501,
+                            "y": -239
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3ef4724a-f967-4fef-a256-2f564e5715b8",
+                            "label": "photoshadow",
+                            "texture": {
+                                "key": "twelfthfish-catalog",
+                                "frame": "photoshadow"
+                            },
+                            "x": -313,
+                            "y": 142
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2a46a33c-f241-45d4-a870-376f9b933a9a",
+                            "label": "photohover",
+                            "texture": {
+                                "key": "twelfthfish-catalog",
+                                "frame": "photohover"
+                            },
+                            "x": -321,
+                            "y": 136,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8a7a7e5c-4912-4bab-9209-7a994f0e5211",
+                            "label": "photo",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => { photohover.visible = true }",
+                            "SimpleButton.hoverOutCallback": "() => { photohover.visible = false }",
+                            "SimpleButton.callback": "() => this.interface.prompt.showItem(990)",
+                            "texture": {
+                                "key": "twelfthfish-catalog",
+                                "frame": "photo"
+                            },
+                            "x": -320,
+                            "y": 136
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                    "label": "page3",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "9b5826eb-9ddd-41a5-a75c-71f887f78e87",
+                            "label": "pg3",
+                            "texture": {
+                                "key": "twelfthfish-catalog",
+                                "frame": "pg3"
+                            }
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "7212a1be-7cb6-4d31-923c-deba702629ba",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag",
+                            "item": 762,
+                            "x": -323,
+                            "y": -24,
+                            "angle": -35
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "8262a95e-39cb-4263-b55d-015fcfd82b95",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_1",
+                            "item": 477,
+                            "x": -483,
+                            "y": -248,
+                            "angle": 20,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "2f17cc3c-2424-4cbd-adbc-9734929464be",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_2",
+                            "item": 763,
+                            "x": -129,
+                            "y": -328,
+                            "angle": 10,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "d4a177ca-8a11-42d3-b394-2609f5dd126e",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_4",
+                            "item": 367,
+                            "x": 41,
+                            "y": 64,
+                            "angle": 10
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "d13e7af6-2c71-4d67-86e3-a3a7673fd142",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_6",
+                            "item": 761,
+                            "x": 250,
+                            "y": -8,
+                            "angle": 14.999999999999998,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "8f5351ee-5611-47ef-aa9c-eb8f8e1033c0",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_7",
+                            "item": 476,
+                            "x": 433,
+                            "y": -217,
+                            "angle": -29.999999999999996
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "a314e229-e92e-48da-80c9-cd927cc0d442",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag_8",
+                            "item": 186,
+                            "x": 460,
+                            "y": -67,
+                            "angle": 29.999999999999996
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                    "label": "page2",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "77f42957-bf82-43e0-a920-f773f79a83b5",
+                            "label": "pg2",
+                            "texture": {
+                                "key": "twelfthfish-catalog",
+                                "frame": "pg2"
+                            }
+                        },
+                        {
+                            "prefabId": "fdabdf4b-9d2e-4b40-a724-14fda606e501",
+                            "id": "1b938268-f956-4095-871f-6d7d2e42fe0e",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "originX",
+                                "originY",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag1",
+                            "item": 760,
+                            "x": 186,
+                            "y": -46,
+                            "angle": -20,
+                            "originX": 0.894463955816078,
+                            "originY": 0.4372934895100823
+                        },
+                        {
+                            "prefabId": "714b350d-3862-428b-abc3-cc301ab1aa15",
+                            "id": "94669d90-8a40-42bf-b692-0b76d1398d2d",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item"
+                            ],
+                            "label": "tag2",
+                            "item": 475,
+                            "x": 376,
+                            "y": -316,
+                            "angle": 29.999999999999996
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "73f02308-7820-4110-a76c-523342558eb9",
+                    "label": "page1",
+                    "x": 760,
+                    "y": 480,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4c456861-e585-486f-81b9-92e8bc8eca42",
+                            "label": "pg1",
+                            "texture": {
+                                "key": "twelfthfish-catalog",
+                                "frame": "pg1"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "413414bc-32b3-4f4d-ab5e-d3c279d25d00",
+                            "label": "right_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-front",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-front"
+                            },
+                            "x": 2,
+                            "y": -54
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "914e79f6-dbfd-41bc-b43f-fa8ef4e07489",
+                            "label": "catalog_close_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 227,
+                            "y": -330
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ad71a0bc-b1f8-4ee2-b189-b90b5a445f56",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 190,
+                    "y": 41,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "bb9facc3-7a86-49f0-a497-0ec458025950",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1133,
+                            "y": 793,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "36c5d442-1418-42f3-a3e7-c0bbfafba6a9",
+                            "label": "right_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-right",
+                            "Button.callback": "() => this.nextPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-right"
+                            },
+                            "x": 1130,
+                            "y": 659
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "b2fd8d5d-6c96-48a5-b231-2589ceae057c",
+                            "label": "left_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage();",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "x": 11,
+                            "y": 660
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3b010612-b4c6-4ebd-8057-dbbb5bc5b3d6",
+                            "label": "catalog_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 1129,
+                            "y": 112
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "3003f2ec-9394-4489-a981-17b8c2a9bffb",
+            "label": "pages",
+            "objectIds": [
+                "73f02308-7820-4110-a76c-523342558eb9",
+                "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                "42fc311d-8d0d-4f99-a501-759645bdc75f"
+            ]
+        }
+    ]
+}

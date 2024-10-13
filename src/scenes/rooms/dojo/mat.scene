@@ -1,0 +1,53 @@
+{
+    "id": "c67c0d84-a20e-44f3-a3e4-70e0123372ab",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "e0e97367-50e1-4713-92df-e8c94ed9c9c4",
+            "label": "mat_b",
+            "components": [
+                "Button",
+                "ShowHint",
+                "MoveTo",
+                "ZoneTrigger"
+            ],
+            "Button.spriteName": "mat_b",
+            "ShowHint.text": "Practice Card-Jitsu",
+            "ZoneTrigger.callback": "() => this.scene.triggerWaddle(waddleid)",
+            "texture": {
+                "key": "dojo",
+                "frame": "mat_b"
+            },
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "waddleid",
+            "label": "waddleid",
+            "tooltip": "waddleid",
+            "defValue": "200",
+            "customDefinition": true,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

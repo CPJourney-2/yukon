@@ -1,0 +1,533 @@
+{
+    "id": "f2e8b538-6469-4a45-b23d-beac8cbf03a0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "e52313af-e586-4f06-8227-62f4145f0a32",
+            "label": "container_1",
+            "x": 740,
+            "y": 492,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "d01167ee-5a47-44bf-a26b-93a09559d1bc",
+                    "label": "rectangle_1",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": -166,
+                    "y": 35,
+                    "scaleX": 4.791874314738883,
+                    "scaleY": 4.969437201140557,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "bf7bbb00-9abd-47bd-9688-c8ba704e33cf",
+                    "label": "bg",
+                    "texture": {
+                        "key": "main",
+                        "frame": "chatlog/bg"
+                    },
+                    "x": 103,
+                    "y": 340,
+                    "originX": 1,
+                    "originY": 1,
+                    "width": 605,
+                    "height": 613,
+                    "leftWidth": 57,
+                    "rightWidth": 60,
+                    "topHeight": 58,
+                    "bottomHeight": 60
+                },
+                {
+                    "type": "Sprite",
+                    "id": "481498e8-795d-4019-bd0f-442cdb990198",
+                    "label": "use",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => {this.onWear()}",
+                    "Button.activeFrame": true,
+                    "ShowHint.text": "Wear Outfit",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 54,
+                    "y": -203
+                },
+                {
+                    "type": "Image",
+                    "id": "9cc68ef6-ebf6-46ce-be30-914f6831cd10",
+                    "label": "save-button",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.onSave()",
+                    "Button.activeFrame": true,
+                    "ShowHint.text": "Save Outfit",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 54,
+                    "y": -83
+                },
+                {
+                    "type": "Sprite",
+                    "id": "5d8d14fa-9a38-41b4-b898-d021b715c322",
+                    "label": "save",
+                    "texture": {
+                        "key": "iglooedit",
+                        "frame": "button/save"
+                    },
+                    "x": 53,
+                    "y": -84,
+                    "scaleX": 0.3,
+                    "scaleY": 0.3
+                },
+                {
+                    "type": "Sprite",
+                    "id": "41fcbbb8-8d04-4d96-aebf-dcfc417c2f66",
+                    "label": "deleteButton",
+                    "components": [
+                        "Button",
+                        "ShowHint"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.onDelete()",
+                    "Button.activeFrame": true,
+                    "ShowHint.text": "Delete Outfit",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 55,
+                    "y": -143
+                },
+                {
+                    "type": "Container",
+                    "id": "a27e214d-291c-437f-ba2c-b0950a73c8bf",
+                    "label": "page2",
+                    "scope": "CLASS",
+                    "x": -680,
+                    "y": -492,
+                    "visible": false,
+                    "list": [
+                        {
+                            "prefabId": "3d298f83-83b4-4cea-97e5-02b0b1349017",
+                            "id": "297425e5-b796-431e-9b88-784841bcb08a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slot",
+                                "slotID",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "Slot12",
+                            "slotID": 12,
+                            "x": -165,
+                            "y": 235,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        {
+                            "prefabId": "3d298f83-83b4-4cea-97e5-02b0b1349017",
+                            "id": "5cfaa018-b09c-4047-a145-231e25484192",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slot",
+                                "slotID",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "Slot11",
+                            "slotID": 11,
+                            "x": -360,
+                            "y": 235,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        {
+                            "prefabId": "3d298f83-83b4-4cea-97e5-02b0b1349017",
+                            "id": "97435ab2-820c-4d58-93cf-95eed74ab735",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slot",
+                                "slotID",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "Slot10",
+                            "slotID": 10,
+                            "x": -165,
+                            "y": 50,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        {
+                            "prefabId": "3d298f83-83b4-4cea-97e5-02b0b1349017",
+                            "id": "e7d77700-099e-4d45-a36b-ced08b99eae1",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slot",
+                                "slotID",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "Slot9",
+                            "slotID": 9,
+                            "x": -360,
+                            "y": 50,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        {
+                            "prefabId": "3d298f83-83b4-4cea-97e5-02b0b1349017",
+                            "id": "47c4b44e-e432-4c8c-b685-91610563dacb",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slot",
+                                "slotID",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "Slot8",
+                            "slotID": 8,
+                            "x": -165,
+                            "y": -135,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        {
+                            "prefabId": "3d298f83-83b4-4cea-97e5-02b0b1349017",
+                            "id": "878f7a62-eb60-4b5f-9ab2-80aa29c0548a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slot",
+                                "slotID",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "Slot7",
+                            "slotID": 7,
+                            "x": -360,
+                            "y": -135,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        {
+                            "type": "Text",
+                            "id": "2b05c1bb-1690-418a-a5c3-de004e89c3a7",
+                            "label": "pageTwoLabel",
+                            "x": 717,
+                            "y": 643,
+                            "text": "2/2",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "20px",
+                            "color": "#000000ff"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "426db74b-83de-48a0-bcc0-c8011aea8b83",
+                    "label": "page1",
+                    "scope": "CLASS",
+                    "x": -680,
+                    "y": -492,
+                    "list": [
+                        {
+                            "prefabId": "3d298f83-83b4-4cea-97e5-02b0b1349017",
+                            "id": "2fd4fe3a-e890-436a-bb75-ff0a430b9c98",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slot",
+                                "slotID",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "Slot6",
+                            "slotID": 6,
+                            "x": -165,
+                            "y": 235,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        {
+                            "prefabId": "3d298f83-83b4-4cea-97e5-02b0b1349017",
+                            "id": "9a736f9e-59b4-4240-af11-775b584cfe67",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slot",
+                                "slotID",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "Slot5",
+                            "slotID": 5,
+                            "x": -360,
+                            "y": 235,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        {
+                            "prefabId": "3d298f83-83b4-4cea-97e5-02b0b1349017",
+                            "id": "323a787a-7275-4784-84d6-b9edc7e3d465",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slot",
+                                "slotID",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "Slot4",
+                            "slotID": 4,
+                            "x": -165,
+                            "y": 50,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        {
+                            "prefabId": "3d298f83-83b4-4cea-97e5-02b0b1349017",
+                            "id": "ef2a9fcd-744c-4269-8dbd-f9dea828411d",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slot",
+                                "slotID",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "Slot3",
+                            "slotID": 3,
+                            "x": -360,
+                            "y": 50,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        {
+                            "prefabId": "3d298f83-83b4-4cea-97e5-02b0b1349017",
+                            "id": "7ba8dd8d-7f78-4bcc-8235-40f55366fb0d",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slot",
+                                "slotID",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "Slot2",
+                            "slotID": 2,
+                            "x": -165,
+                            "y": -135,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        {
+                            "prefabId": "3d298f83-83b4-4cea-97e5-02b0b1349017",
+                            "id": "3c35064b-484b-46db-900b-556bad1a1e28",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "slot",
+                                "slotID",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "Slot1",
+                            "slotID": 1,
+                            "x": -360,
+                            "y": -135,
+                            "scaleX": 1,
+                            "scaleY": 1
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f4535056-de51-4284-9e1d-c17eaffc799e",
+                            "label": "pageOneLabel",
+                            "x": 720,
+                            "y": 643,
+                            "text": "1/2",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "20px",
+                            "color": "#000000ff"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b3ccd9a8-eca1-4d19-a10f-2fb379cdfbc0",
+                    "label": "arrowContainer",
+                    "x": 140,
+                    "y": -167,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "e4f6f6b7-ea6c-4349-aadf-1687c675ae89",
+                            "label": "scroll_out",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => {this.onArrowClick()}",
+                            "texture": {
+                                "key": "main",
+                                "frame": "tab"
+                            },
+                            "x": -26,
+                            "y": 280,
+                            "angle": -90
+                        },
+                        {
+                            "type": "Image",
+                            "id": "90a8a809-8206-4e09-a46d-dbbb984d6442",
+                            "label": "tab_arrow",
+                            "texture": {
+                                "key": "main",
+                                "frame": "tab-arrow"
+                            },
+                            "x": -38,
+                            "y": 277,
+                            "angle": 90
+                        }
+                    ]
+                },
+                {
+                    "type": "Sprite",
+                    "id": "bad4e66a-29fc-4072-bc45-5fbb3ca33bf1",
+                    "label": "down",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.onPageDown()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 54,
+                    "y": 280
+                },
+                {
+                    "type": "Image",
+                    "id": "e6d3db04-b29b-44dd-8e07-f99e028a8841",
+                    "label": "down-arrow",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 53.52435302734375,
+                    "y": 278.15069580078125,
+                    "flipY": true
+                },
+                {
+                    "type": "Sprite",
+                    "id": "fa889942-d985-4f53-ad81-b0f2cd04340b",
+                    "label": "up",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "grey-button",
+                    "Button.callback": "() => this.onPageUp()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-button"
+                    },
+                    "x": 54,
+                    "y": 215
+                },
+                {
+                    "type": "Image",
+                    "id": "cf773bce-6962-4ebf-985a-29ee12d3adc7",
+                    "label": "up-arrow",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-arrow"
+                    },
+                    "x": 54,
+                    "y": 213
+                },
+                {
+                    "type": "Image",
+                    "id": "4e243c2d-a29b-4108-bd22-b72ec86ceef6",
+                    "label": "emotes_1_small",
+                    "texture": {
+                        "key": "main",
+                        "frame": "emotes/1-small"
+                    },
+                    "x": 54.5,
+                    "y": -205,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8
+                },
+                {
+                    "type": "Image",
+                    "id": "a2bd0379-d5b2-4ac7-900b-4622ff4f29d0",
+                    "label": "grey_x",
+                    "texture": {
+                        "key": "main",
+                        "frame": "grey-x"
+                    },
+                    "x": 55,
+                    "y": -145
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "9a0ed82d-3125-40d6-a28c-5d2f64b34421",
+            "label": "slots",
+            "objectIds": [
+                "3c35064b-484b-46db-900b-556bad1a1e28",
+                "7ba8dd8d-7f78-4bcc-8235-40f55366fb0d",
+                "ef2a9fcd-744c-4269-8dbd-f9dea828411d",
+                "323a787a-7275-4784-84d6-b9edc7e3d465",
+                "9a736f9e-59b4-4240-af11-775b584cfe67",
+                "2fd4fe3a-e890-436a-bb75-ff0a430b9c98",
+                "878f7a62-eb60-4b5f-9ab2-80aa29c0548a",
+                "47c4b44e-e432-4c8c-b685-91610563dacb",
+                "e7d77700-099e-4d45-a36b-ced08b99eae1",
+                "97435ab2-820c-4d58-93cf-95eed74ab735",
+                "5cfaa018-b09c-4047-a145-231e25484192",
+                "297425e5-b796-431e-9b88-784841bcb08a"
+            ]
+        }
+    ]
+}

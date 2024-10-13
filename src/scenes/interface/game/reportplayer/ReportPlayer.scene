@@ -1,0 +1,285 @@
+{
+    "id": "9fabb6d7-e924-437f-a565-89ecf6a04544",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8bb89fb5-8fd3-4d6d-a8b9-f11a53a7735f",
+            "label": "container_1",
+            "components": [],
+            "x": 760,
+            "y": 480,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9d274e25-df95-406f-883b-f4102166d431",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960,
+                    "list": []
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "72b107fe-d052-40b8-ab5c-8dc45d6f189a",
+                    "label": "nineslice_1",
+                    "components": [],
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "scaleY": 1.1848719663783185,
+                    "width": 708,
+                    "height": 600,
+                    "leftWidth": 43,
+                    "rightWidth": 38,
+                    "topHeight": 40,
+                    "bottomHeight": 40,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "049efdf7-a9e9-4774-81b7-5a3c6b0e7c7e",
+                    "label": "title",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": -288,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "REPORT PLAYER",
+                    "fixedWidth": 600,
+                    "align": "center",
+                    "fontFamily": "CCFaceFront",
+                    "fontSize": "40px",
+                    "fontStyle": "bold italic",
+                    "stroke": "#003366",
+                    "strokeThickness": 10,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "e656c20c-78a6-4d94-917f-6cf411b1f4d4",
+                    "label": "x_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => hide()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 300,
+                    "y": -298,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "56d93af1-ac83-4be9-a548-efd7ba743bf2",
+                    "label": "blue_x",
+                    "components": [],
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 300,
+                    "y": -300,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "94dffb06-cb98-44d1-8509-e34a643a2e4f",
+                    "label": "reportplayer_option4_btn",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue_btn_large",
+                    "Button.callback": "() => this.clickBtn(\"badname\",4)",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "blue_btn_large",
+                        "frame": "blue_btn_large"
+                    },
+                    "x": 5,
+                    "y": 239,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "16518a4c-c75c-4be7-8f86-dfccab48c8d6",
+                    "label": "reportplayer_option3_btn",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue_btn_large",
+                    "Button.callback": "() => this.clickBtn(\"rudemean\",3)",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "blue_btn_large",
+                        "frame": "blue_btn_large"
+                    },
+                    "x": 5,
+                    "y": 116,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "a3cc217b-8bd9-47f3-87df-50c29db942f2",
+                    "label": "reportplayer_option2_btn",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue_btn_large",
+                    "Button.callback": "() => this.clickBtn(\"personalinfo\",2)",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "blue_btn_large",
+                        "frame": "blue_btn_large"
+                    },
+                    "x": 5,
+                    "y": -7,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "93af33e1-bd7b-4fef-a3ae-a89f66c42b99",
+                    "label": "reportplayer_option1_btn",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue_btn_large",
+                    "Button.callback": "() => this.clickBtn(\"badlanguage\",1)",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "blue_btn_large",
+                        "frame": "blue_btn_large"
+                    },
+                    "x": 5,
+                    "y": -128,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "8d1cc4d7-9fc2-476a-9a7f-1f4a77c03434",
+                    "label": "textContent",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": -230,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Please select a reason for this report.",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "32px",
+                    "color": "#000000ff",
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "50e080bd-490b-4aa8-b9ef-b8134dc7df44",
+                    "label": "reportplayer_option1_txt",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 5,
+                    "y": -131,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Inappropriate Language",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "243d545d-bc95-4d09-8949-ffe8515f1ba0",
+                    "label": "reportplayer_option2_txt",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 5,
+                    "y": -10,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Personal Information",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "5bf00643-5206-4480-97b7-353a64459bb8",
+                    "label": "reportplayer_option3_txt",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 5,
+                    "y": 113,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Rude or Mean",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "b42fe01d-7586-41cc-adf0-d65416fb087a",
+                    "label": "reportplayer_option4_txt",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 5,
+                    "y": 237,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Bad Penguin Name",
+                    "lineSpacing": -5,
+                    "align": "center",
+                    "fontFamily": "Arial Narrow",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

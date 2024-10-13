@@ -1,0 +1,867 @@
+{
+    "id": "c56ba021-c77e-4d5f-9760-3e7470287f99",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "604d13b8-868d-46c8-a5a3-13d96bb18968",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "028ec836-255b-461d-bbb6-01fca27a428f",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "0d6bc6b2-b775-4a1f-986d-7889566a78c3",
+                    "label": "page5",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "939e2d9b-3275-4df2-8365-7498a951c998",
+                            "label": "p5",
+                            "texture": {
+                                "key": "new-petfurniture",
+                                "frame": "p5"
+                            },
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "30dc1a52-e95b-4e54-b75f-056c248ebc32",
+                            "label": "closeLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 492,
+                            "y": 39,
+                            "originX": 0,
+                            "originY": 0,
+                            "flipX": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "973e0591-4c62-4499-88b2-62bf58831623",
+                            "label": "pageLeft_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "x": 490,
+                            "y": 591,
+                            "originX": 0,
+                            "originY": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "e38aea02-3618-4312-8c4a-64730bfdf901",
+                    "label": "page4",
+                    "x": 1,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "56470226-98f5-496f-8c1c-734307126e3b",
+                            "label": "p4",
+                            "texture": {
+                                "key": "new-petfurniture",
+                                "frame": "p4"
+                            },
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "d944ff27-e5f5-4ee0-81d2-d0680854423f",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_13",
+                            "item": 232,
+                            "itemType": "Furniture",
+                            "x": 405,
+                            "y": 411
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "55fd2d0c-9194-4a5d-bf58-e8da0a784da5",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_14",
+                            "item": 227,
+                            "itemType": "Furniture",
+                            "x": 567,
+                            "y": 384
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "ba1d5af8-ea39-4a91-b92a-2982188c8744",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_15",
+                            "item": 222,
+                            "itemType": "Furniture",
+                            "x": 240,
+                            "y": 539
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "54f35746-98cf-40c5-80a7-b2c522cd9ed7",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_16",
+                            "item": 200,
+                            "itemType": "Furniture",
+                            "x": 408,
+                            "y": 557
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "c825a1bf-ac11-44a8-9948-da46a2d73931",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_17",
+                            "item": 221,
+                            "itemType": "Furniture",
+                            "x": 567,
+                            "y": 538
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "6d0da130-df0e-4e30-9a05-b6da970cb12a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_18",
+                            "item": 201,
+                            "itemType": "Furniture",
+                            "x": 243,
+                            "y": 695
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "c2118cd7-cea7-453c-a88a-c5ab57628cf9",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_19",
+                            "item": 202,
+                            "itemType": "Furniture",
+                            "x": 411,
+                            "y": 701
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "b2a2aa3f-0754-4a9b-890c-274131050ce3",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_20",
+                            "item": 203,
+                            "itemType": "Furniture",
+                            "x": 570,
+                            "y": 697
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "cf6ea326-1f87-4087-b681-8e0d16248798",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_21",
+                            "item": 212,
+                            "itemType": "Furniture",
+                            "x": 1084,
+                            "y": 370
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "fe061d6a-d574-43ef-9a4d-00eba4e5abb8",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_22",
+                            "item": 225,
+                            "itemType": "Furniture",
+                            "x": 862,
+                            "y": 521
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "92c02a80-1315-4b98-8e43-53d25fbbbfe4",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_23",
+                            "item": 214,
+                            "itemType": "Furniture",
+                            "x": 1047,
+                            "y": 712
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5372e685-92e8-4824-ac72-d0ce23471069",
+                    "label": "page3",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "eb1b62d5-a081-47fe-99e8-2db2bf08c8d7",
+                            "label": "p3",
+                            "texture": {
+                                "key": "new-petfurniture",
+                                "frame": "p3"
+                            },
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "b60a0aec-5188-4750-822c-274f1264781a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_5",
+                            "item": 223,
+                            "itemType": "Furniture",
+                            "x": 500,
+                            "y": 356
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "1e1294e7-3637-42b2-87c1-047d279ed1db",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_6",
+                            "item": 208,
+                            "itemType": "Furniture",
+                            "x": 331,
+                            "y": 538
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "8f2aae22-6f0f-4845-bf11-0fb3b418306c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_7",
+                            "item": 209,
+                            "itemType": "Furniture",
+                            "x": 499,
+                            "y": 719
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "ccb16e64-99a1-4f69-b217-924c91b9d2db",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_8",
+                            "item": 206,
+                            "itemType": "Furniture",
+                            "x": 868,
+                            "y": 717
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "4bb7ffdb-1c18-4ea6-8cab-d060f050ece2",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_9",
+                            "item": 207,
+                            "itemType": "Furniture",
+                            "x": 1088,
+                            "y": 534
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "861dbf41-7280-4ec2-b628-841ce0bd69e3",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_10",
+                            "item": 233,
+                            "itemType": "Furniture",
+                            "x": 862,
+                            "y": 354
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "bd1fb0de-4998-4d22-9706-4f045218ba46",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_11",
+                            "item": 228,
+                            "itemType": "Furniture",
+                            "x": 1088,
+                            "y": 167
+                        },
+                        {
+                            "type": "Container",
+                            "id": "15138c71-e6ff-4ae7-953e-0863e63a4537",
+                            "label": "puffleHouse",
+                            "scope": "CLASS",
+                            "x": 755,
+                            "y": 470,
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "a2e5be5d-57b0-472c-b844-ba8f7b54f5c4",
+                                    "label": "greyhouse",
+                                    "texture": {
+                                        "key": "new-petfurniture",
+                                        "frame": "greyhouse"
+                                    },
+                                    "x": 5,
+                                    "y": 10
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "a3154960-8a8e-43ce-a630-f5a909e316fd",
+                                    "label": "secret_close_2",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "secret_close",
+                                    "Button.callback": "() => this.puffleHouse.visible = false",
+                                    "Button.activeFrame": true,
+                                    "texture": {
+                                        "key": "new-petfurniture",
+                                        "frame": "secret_close"
+                                    },
+                                    "x": 245,
+                                    "y": -219
+                                },
+                                {
+                                    "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                                    "id": "5a20d4a5-5d2e-4ac9-a2c3-b1cfb8926a39",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "item",
+                                        "itemType"
+                                    ],
+                                    "label": "buyButton_12",
+                                    "item": 204,
+                                    "itemType": "Furniture",
+                                    "x": -74,
+                                    "y": 122
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "51695876-d41e-4967-9868-8184d35cb707",
+                            "label": "showPuffleHouse",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.puffleHouse.visible = true",
+                            "x": 343,
+                            "y": 98,
+                            "alpha": 0.0001,
+                            "isFilled": true,
+                            "width": 263,
+                            "height": 65
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "9a123068-c30c-4ec4-9d12-3d3cc674de6c",
+                    "label": "page2",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ffaf8d37-0ac5-413d-89dc-a587ec8f6ab9",
+                            "label": "p2",
+                            "texture": {
+                                "key": "new-petfurniture",
+                                "frame": "p2"
+                            },
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "a1a6636f-5f30-4704-8346-388927e1b6ee",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton",
+                            "item": 211,
+                            "itemType": "Furniture",
+                            "x": 273,
+                            "y": 701,
+                            "angle": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "a61fe59d-fff2-4354-8c58-b025379b65b5",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_1",
+                            "item": 210,
+                            "itemType": "Furniture",
+                            "x": 548,
+                            "y": 496,
+                            "angle": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "ea3f696e-7cbc-47b6-92cb-0a989b924fb9",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_2",
+                            "item": 224,
+                            "itemType": "Furniture",
+                            "x": 1058,
+                            "y": 214,
+                            "angle": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "ce44a278-723e-4d24-967a-175f74d7a6fc",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_3",
+                            "item": 218,
+                            "itemType": "Furniture",
+                            "x": 878,
+                            "y": 445,
+                            "angle": 0
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "c9e6e6b9-d083-46e7-b018-2e95d89829e3",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "angle",
+                                "item",
+                                "itemType"
+                            ],
+                            "label": "buyButton_4",
+                            "item": 220,
+                            "itemType": "Furniture",
+                            "x": 1061,
+                            "y": 681,
+                            "angle": 0
+                        },
+                        {
+                            "type": "Container",
+                            "id": "8528fd17-1d2a-4ac4-bf24-b9a415b94b45",
+                            "label": "largePuffleRug",
+                            "scope": "CLASS",
+                            "x": 760,
+                            "y": 205,
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "7e3a06cd-2e6b-42a4-b491-e7467d4511eb",
+                                    "label": "largepufflecarpet",
+                                    "texture": {
+                                        "key": "new-petfurniture",
+                                        "frame": "largepufflecarpet"
+                                    },
+                                    "y": 230
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "58c147ee-dcd3-401a-9c8c-1195306d831c",
+                                    "label": "secret_close_1",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "secret_close",
+                                    "Button.callback": "() => this.largePuffleRug.visible = false",
+                                    "Button.activeFrame": true,
+                                    "texture": {
+                                        "key": "new-petfurniture",
+                                        "frame": "secret_close"
+                                    },
+                                    "x": 241
+                                },
+                                {
+                                    "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                                    "id": "8bb883b3-63b7-4dcf-98b2-12cdfe531663",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "itemType",
+                                        "item"
+                                    ],
+                                    "label": "buyButton_25",
+                                    "item": 800001,
+                                    "itemType": "Furniture",
+                                    "x": -80,
+                                    "y": 345
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "714a276f-6e39-4e29-a81d-b1369facadd0",
+                            "label": "puffleRug",
+                            "scope": "CLASS",
+                            "x": 760,
+                            "y": 205,
+                            "visible": false,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "1db39407-1e34-4349-aa00-ba8b79b85c66",
+                                    "label": "pufflecarpet",
+                                    "texture": {
+                                        "key": "new-petfurniture",
+                                        "frame": "pufflecarpet"
+                                    },
+                                    "y": 230
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "cd34c45a-6e3b-4da0-bd06-8b34c5a616db",
+                                    "label": "secret_close",
+                                    "components": [
+                                        "Button"
+                                    ],
+                                    "Button.spriteName": "secret_close",
+                                    "Button.callback": "() => this.puffleRug.visible = false",
+                                    "Button.activeFrame": true,
+                                    "texture": {
+                                        "key": "new-petfurniture",
+                                        "frame": "secret_close"
+                                    },
+                                    "x": 240
+                                },
+                                {
+                                    "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                                    "id": "a1b8e22a-da4d-48ae-bf9b-f4a447263b8f",
+                                    "unlock": [
+                                        "x",
+                                        "y",
+                                        "item",
+                                        "itemType"
+                                    ],
+                                    "label": "buyButton_24",
+                                    "item": 800000,
+                                    "itemType": "Furniture",
+                                    "x": -87,
+                                    "y": 345
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "ff76d7c1-a940-4751-8148-685fa13539c3",
+                            "label": "showSmallPuffle",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.puffleRug.visible = true",
+                            "x": 338,
+                            "y": 421,
+                            "width": 120,
+                            "height": 100
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "cc31f10b-8b92-4c47-ad73-0722a4d07c64",
+                            "label": "showLargePuffle",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.largePuffleRug.visible = true",
+                            "x": 620,
+                            "y": 665,
+                            "width": 80,
+                            "height": 185
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5f2ef7be-9650-4018-9f65-261a7a760d57",
+                    "label": "page1",
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4eed18f6-b5ba-4d7d-9128-604c8012468d",
+                            "label": "p1",
+                            "texture": {
+                                "key": "new-petfurniture",
+                                "frame": "p1"
+                            },
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "dd5251c3-1d11-427b-91c6-5b45eb624372",
+                            "label": "pageFront",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "page_front",
+                            "Button.callback": "() => this.nextPage()",
+                            "texture": {
+                                "key": "new-petfurniture",
+                                "frame": "page_front"
+                            },
+                            "x": 469,
+                            "y": 42,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "19f2322d-f703-4866-a29a-d8ed221d6863",
+                            "label": "closeRight_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 925,
+                            "y": 37,
+                            "originX": 0,
+                            "originY": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ad71a0bc-b1f8-4ee2-b189-b90b5a445f56",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 190,
+                    "y": 41,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "29b10cf1-38cf-4cc2-ae5b-d14dce746c79",
+                            "label": "closeRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-close"
+                            },
+                            "x": 1012,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c1807dd0-690e-4094-b44e-f5d7674cb4d8",
+                            "label": "pageRight",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-right",
+                            "Button.callback": "() => this.nextPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-right"
+                            },
+                            "x": 1012,
+                            "y": 549,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "38c55173-6068-46af-8b96-50e02fa3f9f2",
+                            "label": "pageLeft",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "cc-page-left",
+                            "Button.callback": "() => this.prevPage()",
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "commonbook",
+                                "frame": "cc-page-left"
+                            },
+                            "y": 549,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Text",
+                            "id": "bb9facc3-7a86-49f0-a497-0ec458025950",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1130,
+                            "y": 790,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "3003f2ec-9394-4489-a981-17b8c2a9bffb",
+            "label": "pages",
+            "objectIds": [
+                "5f2ef7be-9650-4018-9f65-261a7a760d57",
+                "9a123068-c30c-4ec4-9d12-3d3cc674de6c",
+                "8d3ed7c6-bc37-4b8a-be83-bb00b8784b81",
+                "5372e685-92e8-4824-ac72-d0ce23471069",
+                "e38aea02-3618-4312-8c4a-64730bfdf901",
+                "0d6bc6b2-b775-4a1f-986d-7889566a78c3"
+            ]
+        }
+    ]
+}

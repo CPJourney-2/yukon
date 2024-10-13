@@ -1,0 +1,76 @@
+{
+    "id": "7c13c387-f046-4128-b8f9-306b0d309581",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapEnabled": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "37549f01-e125-4863-89fd-8732d638ee15",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Text",
+                    "id": "7b6668b2-4667-4f75-8a65-a213eb587648",
+                    "label": "dialogue",
+                    "scope": "CLASS",
+                    "x": 10,
+                    "y": -12,
+                    "tintTopLeft": "#fff",
+                    "tintTopRight": "#fff",
+                    "tintBottomLeft": "#fff",
+                    "tintBottomRight": "#fff",
+                    "text": "Hello it is I, mascot, and i am one of the mascots of all time and you smell",
+                    "fixedWidth": 400,
+                    "fixedHeight": 60,
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "23px",
+                    "maxLines": 2,
+                    "wordWrapWidth": 400
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "755dad79-e5ec-4f10-bdda-4b80460b1ffd",
+                    "label": "ellipse_1",
+                    "isFilled": true,
+                    "width": 10,
+                    "height": 10
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "dd462bc9-eb32-422b-a3ae-de77003fb0c8",
+                    "label": "rectangle_1",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.hoverCallback": "() => this.setDialogueTint(true)",
+                    "SimpleButton.hoverOutCallback": "() => this.setDialogueTint(false)",
+                    "SimpleButton.callback": "() => this.onClick()",
+                    "x": 208,
+                    "y": 16,
+                    "scaleX": 3.1192943416079615,
+                    "scaleY": 0.3688120745149507,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

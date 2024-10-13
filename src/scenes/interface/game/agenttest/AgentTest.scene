@@ -1,0 +1,1818 @@
+{
+    "id": "bfb3645c-dac1-418a-8053-5bd1cb158899",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "snapWidth": 159,
+        "snapHeight": 31,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BaseContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c2df2194-bb4a-4b41-8d90-aa5a6f01b553",
+            "label": "container_1",
+            "components": [],
+            "y": -6,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "d158c3ee-85e0-4239-a8ee-9059e72a1bda",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 770,
+                    "y": 483,
+                    "scaleX": 12.444192787335947,
+                    "scaleY": 7.954135715180971,
+                    "alpha": 0.2,
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "width": 128,
+                    "height": 128,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "95259965-5d9e-4ac9-b5a5-deb7ebabc157",
+                    "label": "agent",
+                    "components": [],
+                    "texture": {
+                        "key": "agenttest",
+                        "frame": "agent"
+                    },
+                    "x": 366,
+                    "y": 461,
+                    "list": []
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "dba4dbd5-c178-4355-a09e-3b1e92b760e7",
+                    "label": "nineslice_1",
+                    "components": [],
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "scaleY": 1.1848719663783185,
+                    "width": 708,
+                    "height": 500,
+                    "leftWidth": 43,
+                    "rightWidth": 38,
+                    "topHeight": 40,
+                    "bottomHeight": 40,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "4afee690-c37a-464f-97a7-670c3130bcce",
+                    "label": "question6",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "239fef5f-0411-44d2-a621-76b5ac1e8d37",
+                            "label": "q6a3btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f7a3a6df-bb22-4792-b93f-7e257e1f09fc",
+                            "label": "q6a2btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion(true)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 81,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c95359d7-8d22-477f-aa36-3a697ef6c887",
+                            "label": "q6a1btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": -40,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "c019251c-eeaf-4ebb-a303-eeb8a4edc59d",
+                            "label": "q6title",
+                            "components": [],
+                            "y": -143,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Pick another reason why you want\nto be a Secret Agent.",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "35px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "2ce637ba-f6aa-4ffe-9512-b93d63114016",
+                            "label": "q6quiztitle",
+                            "components": [],
+                            "y": -215.30469494874058,
+                            "originX": 0.5146440579845443,
+                            "originY": 0.5313945379862857,
+                            "text": "AGENT QUIZ",
+                            "fixedWidth": 460,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "40px",
+                            "fontStyle": "bold italic",
+                            "stroke": "#003366",
+                            "strokeThickness": 10,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "1c39b620-76f1-42be-a5c8-5eacdc612815",
+                            "label": "q6a3txt",
+                            "components": [],
+                            "x": -7,
+                            "y": 201,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "I want to hang out in the HQ",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ef34f485-ce2c-4313-a66b-31489d6ea578",
+                            "label": "q6a2txt",
+                            "components": [],
+                            "y": 81,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "I want to help other penguins",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "a93863e4-eb59-4cc9-8fc8-e8e6c9e41297",
+                            "label": "q6a1txt",
+                            "components": [],
+                            "y": -41,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "I've always wanted to be a spy",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ff39a753-168b-4bbb-be95-712f08479416",
+                    "label": "question5",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "49929cee-d78a-448f-b88f-73dd9c3b86c1",
+                            "label": "q5a3btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion(true)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "57cb94f8-1908-4b0e-9d73-bb75bb19131b",
+                            "label": "q5a2btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 81,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d800f6d5-a62a-4dbd-be2c-3138e0c96f7f",
+                            "label": "q5a1btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": -40,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "1031bdf4-b8c5-46f6-92cf-90839e588510",
+                            "label": "q5title",
+                            "components": [],
+                            "y": -143,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Pick one reason why you want to\nbe a Secret Agent.",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "35px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "e39b1718-0643-4c83-9e0f-1d299029f7ea",
+                            "label": "q5quiztitle",
+                            "components": [],
+                            "y": -215.30469494874058,
+                            "originX": 0.5146440579845443,
+                            "originY": 0.5313945379862857,
+                            "text": "AGENT QUIZ",
+                            "fixedWidth": 460,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "40px",
+                            "fontStyle": "bold italic",
+                            "stroke": "#003366",
+                            "strokeThickness": 10,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "48c35449-768c-4adb-aab4-6a5a6eecf27e",
+                            "label": "q5a3txt",
+                            "components": [],
+                            "x": -7,
+                            "y": 201,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "I want to keep Club Penguin safe",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "a7db2983-95db-4cdc-8e19-c086e3d85787",
+                            "label": "q5a2txt",
+                            "components": [],
+                            "y": 81,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "I want a spy phone",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "28cac363-8eb9-413d-a558-81519581c5fc",
+                            "label": "q5a1txt",
+                            "components": [],
+                            "y": -41,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "My friends are Secret Agents",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "439f70d9-a251-4f3d-9a23-caeb736f3a98",
+                    "label": "question4",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "498a57f1-c24e-406b-9096-2d7e4d816865",
+                            "label": "q4a3btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion(true)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7ea58c5b-2881-4b52-9aeb-6fb75ccfed33",
+                            "label": "q4a2btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 81,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "86553a7d-a087-4eba-85df-a11f70abe21c",
+                            "label": "q4a1btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": -40,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "a909b5d6-48aa-4181-ab68-0f0716e24882",
+                            "label": "q4title",
+                            "components": [],
+                            "y": -143,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Which type of personal information\nshould be reported?",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "35px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "8cfdf1f5-e7ce-4a77-bc9e-7a00cdb7705f",
+                            "label": "q4quiztitle",
+                            "components": [],
+                            "y": -215.30469494874058,
+                            "originX": 0.5146440579845443,
+                            "originY": 0.5313945379862857,
+                            "text": "AGENT QUIZ",
+                            "fixedWidth": 460,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "40px",
+                            "fontStyle": "bold italic",
+                            "stroke": "#003366",
+                            "strokeThickness": 10,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b5e74840-690a-41aa-a5a0-c8f5e0270405",
+                            "label": "q4a3txt",
+                            "components": [],
+                            "y": 201,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Saying their address",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "25189127-41c1-4768-b726-64eb56b64fbc",
+                            "label": "q4a2txt",
+                            "components": [],
+                            "y": 81,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Saying boy or girl",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ea3c1da2-b08c-4e25-8fd1-2775d2054677",
+                            "label": "q4a1txt",
+                            "components": [],
+                            "y": -41,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Saying their country",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "307dc261-a38a-4c6a-9805-ac0af6559d60",
+                    "label": "question3",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "65fc5848-0d90-4bbf-99e3-6c9ad0c8da61",
+                            "label": "q3a3btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ea365403-8f44-4567-a916-97d3a6a1272f",
+                            "label": "q3a2btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion(true)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 81,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ced1b20b-0da3-43ff-bafd-3318da2dbd72",
+                            "label": "q3a1btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": -40,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "49ec95de-57a2-4037-acef-af9430505139",
+                            "label": "q3title",
+                            "components": [],
+                            "y": -143,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "What would you do if you saw\na penguin breaking the rules?",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "35px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "44e63e90-6539-4755-86c5-f1ed225227fe",
+                            "label": "q3quiztitle",
+                            "components": [],
+                            "y": -215.30469494874058,
+                            "originX": 0.5146440579845443,
+                            "originY": 0.5313945379862857,
+                            "text": "AGENT QUIZ",
+                            "fixedWidth": 460,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "40px",
+                            "fontStyle": "bold italic",
+                            "stroke": "#003366",
+                            "strokeThickness": 10,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ce948719-3168-4df5-a8a1-bea6284c6907",
+                            "label": "q3a3txt",
+                            "components": [],
+                            "y": 201,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Throw snowballs at them",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "7c50c9c6-132e-4988-988b-a5876ee9b1ac",
+                            "label": "q3a2txt",
+                            "components": [],
+                            "y": 81,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Report them",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "4835a4d1-be9f-4b0a-97cb-957b3eeb46d1",
+                            "label": "q3a1txt",
+                            "components": [],
+                            "y": -41,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Yell at them",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "3310a977-832f-4b1b-ae75-a10d935f5d38",
+                    "label": "question2",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f06a2d55-33da-4943-a59b-59f4c5574ed5",
+                            "label": "q2a3btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion(true)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "261a8ba2-61fa-4774-89a0-1714d37db211",
+                            "label": "q2a2btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 81,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ed8b2240-6f0c-49b2-96dd-d1b51aceb199",
+                            "label": "q2a1btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": -40,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "d1dd56d5-d076-4ffa-9980-fe43331e3e78",
+                            "label": "q2title",
+                            "components": [],
+                            "y": -143,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Pick the correct reason to\nreport a player to a moderator.",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "35px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "2cf19daa-9e01-4feb-b660-2656a5bc9d91",
+                            "label": "q2quiztitle",
+                            "components": [],
+                            "y": -215.30469494874058,
+                            "originX": 0.5146440579845443,
+                            "originY": 0.5313945379862857,
+                            "text": "AGENT QUIZ",
+                            "fixedWidth": 460,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "40px",
+                            "fontStyle": "bold italic",
+                            "stroke": "#003366",
+                            "strokeThickness": 10,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "a391ca59-a598-4513-8ff3-6484da145723",
+                            "label": "q2a3txt",
+                            "components": [],
+                            "y": 201,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Being mean or rude",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "a21637ff-4b73-49fa-aa7d-35e2fe43f434",
+                            "label": "q2a2txt",
+                            "components": [],
+                            "y": 81,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Not being your buddy",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "a0000c04-5f9c-4c8c-970f-0ac7dbce76ca",
+                            "label": "q2a1txt",
+                            "components": [],
+                            "y": -41,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Throwing snowballs at you",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6c2cfc42-f362-4c28-ac0c-8530ca0bb1ff",
+                    "label": "question1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "98c6ba28-4533-445c-bd9f-7d0f59036cbc",
+                            "label": "q1a3btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "40bb9a2b-6dbf-494b-98c1-36db386792fc",
+                            "label": "q1a2btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion(true)",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 81,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "c5bbf654-21f3-4dfa-bb1a-a1d7531ac39d",
+                            "label": "q1a1btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.nextQuestion()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": -40,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "eae9aba4-6ae2-4558-8566-ad9f62d98510",
+                            "label": "q1title",
+                            "components": [],
+                            "y": -143,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Pick one quality that you think a\nSecret Agent should have.",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "35px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "cefe090f-2ae5-46ab-a36e-d22844a1d3e7",
+                            "label": "q1quiztitle",
+                            "components": [],
+                            "y": -215.30469494874058,
+                            "originX": 0.5146440579845443,
+                            "originY": 0.5313945379862857,
+                            "text": "AGENT QUIZ",
+                            "fixedWidth": 460,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "40px",
+                            "fontStyle": "bold italic",
+                            "stroke": "#003366",
+                            "strokeThickness": 10,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "65e08e18-a6fe-425c-9a87-13a0d3edfb0a",
+                            "label": "q1a3txt",
+                            "components": [],
+                            "y": 201,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "In Charge",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6093822e-e205-42dd-9225-eb61d8cbaca8",
+                            "label": "q1a2txt",
+                            "components": [],
+                            "y": 81,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Honest",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "807a5e35-ed3e-443e-8412-fe6ca056c899",
+                            "label": "q1a1txt",
+                            "components": [],
+                            "y": -41,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Popular",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "7e1093bd-7592-4cf0-8756-bd1b2c75446a",
+                    "label": "endscreen",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "3e3eaad2-0e16-4a7e-b8ad-b7ef8f79b1cd",
+                            "label": "ednscreenbtn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.hide()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "42c967d9-0e31-4084-98b5-d01052de8fe7",
+                            "label": "endscreentntntnt",
+                            "components": [],
+                            "y": -36,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Your application has been sent to the Penguin Secret agency.\n\nIf you are accepted, you will be prompted to accept a spy phone. If not, please try again later.",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "35px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "29f0dd1f-5898-48a2-a0dc-e6d6d1ea98ae",
+                            "label": "endscreentitle",
+                            "components": [],
+                            "y": -215.30469494874058,
+                            "originX": 0.5146440579845443,
+                            "originY": 0.5313945379862857,
+                            "text": "THANK YOU",
+                            "fixedWidth": 460,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "40px",
+                            "fontStyle": "bold italic",
+                            "stroke": "#003366",
+                            "strokeThickness": 10,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "8684ce02-fbbf-4de8-ba1b-599ae1675c52",
+                            "label": "endscreenbtnxt",
+                            "components": [],
+                            "x": -7,
+                            "y": 201,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Done",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "485b7dfe-21f7-4696-b958-1ca32226c809",
+                    "label": "areyousure",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4efbcb82-15db-46d5-af5b-a5de8c2b6b8e",
+                            "label": "yousurenobtn",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.hide()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f4f06e9a-d6ac-42d6-a08e-c9a737f857d8",
+                            "label": "yousureyesbtn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.showASpecificPage('question1')",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 81,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b44a2d64-c856-443d-a3a9-a384bf4a1c76",
+                            "label": "text_yousureque",
+                            "components": [],
+                            "y": -129,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Are you ready to take the challenge\nto become a Secret Agent?",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "35px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b3fedf06-4650-49d1-81be-2119d3e7b0e6",
+                            "label": "text_areyousure",
+                            "components": [],
+                            "y": -215.30469494874058,
+                            "originX": 0.5146440579845443,
+                            "originY": 0.5313945379862857,
+                            "text": "ARE YOU SURE?",
+                            "fixedWidth": 460,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "40px",
+                            "fontStyle": "bold italic",
+                            "stroke": "#003366",
+                            "strokeThickness": 10,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "84cf2d61-ebe7-49c8-ab1b-6a95323bcede",
+                            "label": "text_yousureno",
+                            "components": [],
+                            "y": 201,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "No",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ea447fd4-8837-4948-969a-69c9a97052de",
+                            "label": "text_yousureyes",
+                            "components": [],
+                            "y": 81,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Yes",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "bfca4984-12d6-47e2-9632-1a6a6f3f8e03",
+                    "label": "therewards",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "7bbf832c-3972-43f7-bc68-0c67b32a114e",
+                            "label": "rewardscontinuebtn",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.showASpecificPage('areyousure')",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "0d682102-6f4f-4f23-be20-8c59c7ebd5b5",
+                            "label": "text_rewardsbsbsssshss",
+                            "components": [],
+                            "y": -154,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "If you choose to accept this mission:",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "32px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ea11edf6-a520-46af-a0da-9fcf6b19639b",
+                            "label": "text_thereward",
+                            "components": [],
+                            "y": -215.30469494874058,
+                            "originX": 0.5146440579845443,
+                            "originY": 0.5313945379862857,
+                            "text": "THE REWARDS",
+                            "fixedWidth": 460,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "40px",
+                            "fontStyle": "bold italic",
+                            "stroke": "#003366",
+                            "strokeThickness": 10,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "adf678ff-6656-48e2-8949-f0ff9f313969",
+                            "label": "text_yrewardycontinue",
+                            "components": [],
+                            "y": 201,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Continue",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "67fee047-3b52-40e1-adba-c077b25fc366",
+                            "label": "text_therewueeh",
+                            "components": [],
+                            "x": -178,
+                            "y": -73,
+                            "originY": 0.5,
+                            "text": "You will get a spy phone for your penguin.",
+                            "lineSpacing": -5,
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "30px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "18a0a9ca-310a-41f7-a249-7d2adbcbf6bb",
+                            "label": "text_therewueeh_1",
+                            "components": [],
+                            "x": -178,
+                            "y": 40,
+                            "originY": 0.5,
+                            "text": "You will get access to the Super Secret Agent Headquarters. This will allow you to hang out with other agents after a long day of keeping the peace.",
+                            "lineSpacing": -5,
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "30px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 500,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d5a0e9c3-1e8d-4bcc-9fac-d4679cb630d6",
+                            "label": "spyphoneicon",
+                            "components": [],
+                            "texture": {
+                                "key": "agenttest",
+                                "frame": "spyphoneicon"
+                            },
+                            "x": -254,
+                            "y": -72,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fa7992a1-51e1-4c5d-9dd3-d3435dfe9d14",
+                            "label": "headquartersicon",
+                            "components": [],
+                            "texture": {
+                                "key": "agenttest",
+                                "frame": "headquartersicon"
+                            },
+                            "x": -254,
+                            "y": 41,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "45d31ab2-beba-49c6-a796-408547d4ff89",
+                    "label": "yourmission",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "01e1cd08-2d69-4e98-aa26-89fc091f6f57",
+                            "label": "yourmissionrewarddsbtn",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.showASpecificPage('therewards')",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "d9445502-c1cd-4b8a-b616-a9f0e91c9bb4",
+                            "label": "text_yourmission1",
+                            "components": [],
+                            "y": -154,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "As a Secret Agent Penguin, your mission is to:",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "32px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "4a982b7c-9dd4-445c-887c-33755fab7140",
+                            "label": "text_yourmission",
+                            "components": [],
+                            "y": -215.30469494874058,
+                            "originX": 0.5146440579845443,
+                            "originY": 0.5313945379862857,
+                            "text": "YOUR MISSION",
+                            "fixedWidth": 460,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "40px",
+                            "fontStyle": "bold italic",
+                            "stroke": "#003366",
+                            "strokeThickness": 10,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "943ce251-f758-405a-956f-510a7a9e35ac",
+                            "label": "text_youemiisio",
+                            "components": [],
+                            "y": 201,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "The Rewards",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "8feeed29-ed8b-4634-bbc7-7cdbc9bdc808",
+                            "label": "text_yourmission_1",
+                            "components": [],
+                            "x": -218,
+                            "y": -85,
+                            "originY": 0.5,
+                            "text": "Report any players that are using bad language,\nbeing mean, or breaking any of the other rules.",
+                            "lineSpacing": -5,
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "30px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "16d6091b-69d8-44ea-857b-85a782a1b72b",
+                            "label": "text_yourmission_2",
+                            "components": [],
+                            "x": -218,
+                            "y": 1,
+                            "originY": 0.5,
+                            "text": "Help other penguins so they can have the best\nexperience possible.",
+                            "lineSpacing": -5,
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "30px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "58a12c7e-f81b-4725-ae04-174e490bc2e6",
+                            "label": "text_yourmission_3",
+                            "components": [],
+                            "x": -218,
+                            "y": 86,
+                            "originY": 0.5,
+                            "text": "Keep your identity and the identity of other\nSecret Agent Penguins a secret.",
+                            "lineSpacing": -5,
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "30px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "91a300c5-85ff-4270-be9f-1ac87168536c",
+                            "label": "text_yourmission_4",
+                            "components": [],
+                            "x": -289,
+                            "y": -85,
+                            "originY": 0.5,
+                            "text": "(1)",
+                            "lineSpacing": -5,
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "45px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "2c2e6a69-334d-4bde-8617-794273a1b39c",
+                            "label": "text_yourmission_5",
+                            "components": [],
+                            "x": -289,
+                            "y": 1,
+                            "originY": 0.5,
+                            "text": "(2)",
+                            "lineSpacing": -5,
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "45px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "8a6491a1-9087-490a-8790-da6d5024f153",
+                            "label": "text_yourmission_6",
+                            "components": [],
+                            "x": -289,
+                            "y": 86,
+                            "originY": 0.5,
+                            "text": "(3)",
+                            "lineSpacing": -5,
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "45px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ed7a8ec6-e257-4227-9e45-354e89267a40",
+                    "label": "secretagents",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "18522b25-df22-4f5a-b72b-0d88140de420",
+                            "label": "secretgaentnsbtn",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.showASpecificPage('yourmission')",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "d98babbd-70a3-4583-a302-856bca2ecdad",
+                            "label": "text_tourfront1",
+                            "components": [],
+                            "y": -30,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "We are looking for a few good penguins to\nhelp make Club Penguin the best it can be.\nEven though Club Penguin has live moderators,\nwe need the help of Secret Agent Penguins to help be our eyes and ears throughout the Club Penguin World.",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "32px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "774247e8-690a-41f0-a919-58f1c9ff2eb2",
+                            "label": "text_tourfront",
+                            "components": [],
+                            "y": -215.30469494874058,
+                            "originX": 0.5146440579845443,
+                            "originY": 0.5313945379862857,
+                            "text": "SECRET AGENTS",
+                            "fixedWidth": 460,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "40px",
+                            "fontStyle": "bold italic",
+                            "stroke": "#003366",
+                            "strokeThickness": 10,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "8a034338-bce4-4161-8bcf-ea1cf4255a6e",
+                            "label": "text_tourfront5",
+                            "components": [],
+                            "y": 201,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Your Mission",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b5747dac-e686-4d17-8b23-d0eff248d8b6",
+                    "label": "alreadyagent",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "36e1fded-ab9c-404e-9346-0f666e9928c6",
+                            "label": "pst_btn",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.hide()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "1868ae9c-90a2-45d4-86c0-f0f23cbdc964",
+                            "label": "psst_text",
+                            "components": [],
+                            "y": -114,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Check your inventory. You are already a Secret Agent.",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "35px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "bb381b66-7345-4aa9-8213-eed33fbc710d",
+                            "label": "pssst_titile",
+                            "components": [],
+                            "y": -215.30469494874058,
+                            "originX": 0.5146440579845443,
+                            "originY": 0.5313945379862857,
+                            "text": "PSSST!",
+                            "fixedWidth": 460,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "40px",
+                            "fontStyle": "bold italic",
+                            "stroke": "#003366",
+                            "strokeThickness": 10,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b8fe0dbd-1581-465b-94ed-776cb6cdaa86",
+                            "label": "psst_btntxext",
+                            "components": [],
+                            "y": 201,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Ok",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ad13b505-5ef3-4e88-81f9-acffbc6e761a",
+                    "label": "tooyoung",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "0c8875da-fad8-4312-b142-c76f52ec5283",
+                            "label": "tooyoung_btn",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "help-button",
+                            "Button.callback": "() => this.hide()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "help-button"
+                            },
+                            "y": 201,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "1830f940-54e5-4e11-b023-48269a9821d8",
+                            "label": "tooyoung_text",
+                            "components": [],
+                            "y": -114,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Your penguin must be more than 30 days old to become a Secret Agent.",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "35px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "682f6470-12cc-41d2-b23a-070ecafeb8f3",
+                            "label": "tooyoung_title",
+                            "components": [],
+                            "y": -215.30469494874058,
+                            "originX": 0.5146440579845443,
+                            "originY": 0.5313945379862857,
+                            "text": "SORRY",
+                            "fixedWidth": 460,
+                            "align": "center",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "40px",
+                            "fontStyle": "bold italic",
+                            "stroke": "#003366",
+                            "strokeThickness": 10,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "bd896263-5b96-4076-a8d1-c7df2fd6cee5",
+                            "label": "tooyoung_btntxext",
+                            "components": [],
+                            "y": 201,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Ok",
+                            "lineSpacing": -10,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#ffffffff",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "f53296c0-1efc-47bb-8fb5-c2963191f967",
+                            "label": "penguinage",
+                            "components": [],
+                            "y": -17,
+                            "originX": 0.485201514741174,
+                            "originY": 0.5619386721906781,
+                            "text": "Your penguin is 0 days old.",
+                            "lineSpacing": -5,
+                            "align": "center",
+                            "fontFamily": "Arial Narrow",
+                            "fontSize": "35px",
+                            "color": "#000000ff",
+                            "wordWrapWidth": 600,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "716f8662-d4be-4d2c-b6b8-04d379368fcf",
+                    "label": "blue_button",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "blue-button",
+                    "Button.callback": "() => this.hide()",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-button"
+                    },
+                    "x": 1060,
+                    "y": 238,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "465f2358-3f70-41dc-b76b-c326ae75b82f",
+                    "label": "blue_x",
+                    "components": [],
+                    "texture": {
+                        "key": "main",
+                        "frame": "blue-x"
+                    },
+                    "x": 1060,
+                    "y": 236,
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "1029921f-26d0-4b4f-8a57-2e9fcf458660",
+            "label": "pages",
+            "objectIds": [
+                "ed7a8ec6-e257-4227-9e45-354e89267a40",
+                "45d31ab2-beba-49c6-a796-408547d4ff89",
+                "bfca4984-12d6-47e2-9632-1a6a6f3f8e03",
+                "485b7dfe-21f7-4696-b958-1ca32226c809",
+                "7e1093bd-7592-4cf0-8756-bd1b2c75446a",
+                "b5747dac-e686-4d17-8b23-d0eff248d8b6",
+                "ad13b505-5ef3-4e88-81f9-acffbc6e761a"
+            ]
+        },
+        {
+            "id": "9d8bcf41-ac21-4876-9418-5e1ae7226ded",
+            "label": "questions",
+            "objectIds": [
+                "6c2cfc42-f362-4c28-ac0c-8530ca0bb1ff",
+                "3310a977-832f-4b1b-ae75-a10d935f5d38",
+                "307dc261-a38a-4c6a-9805-ac0af6559d60",
+                "4afee690-c37a-464f-97a7-670c3130bcce",
+                "ff39a753-168b-4bbb-be95-712f08479416",
+                "439f70d9-a251-4f3d-9a23-caeb736f3a98"
+            ]
+        }
+    ]
+}

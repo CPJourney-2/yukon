@@ -1,0 +1,495 @@
+{
+    "id": "2eee53ea-7e16-4bc2-8503-ad1fb52ae12e",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "BookContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "604d13b8-868d-46c8-a5a3-13d96bb18968",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "028ec836-255b-461d-bbb6-01fca27a428f",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "x": 760,
+                    "y": 480,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "fillAlpha": 0.2,
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Container",
+                    "id": "42fc311d-8d0d-4f99-a501-759645bdc75f",
+                    "label": "page6",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "52bf2096-23f5-4f6a-8f90-fbdd0ae0cb0d",
+                            "label": "page_6",
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "timeforgotp6"
+                            }
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e0fba22d-5261-4325-a1ec-70e6abe2b03a",
+                            "label": "back_left_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "back_left_button",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "back_left_button"
+                            },
+                            "x": -204,
+                            "y": 220
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3f506a93-6b95-4d82-b20e-36ac698a7104",
+                            "label": "back_catalog_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "back_catalog_close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "back_catalog_close"
+                            },
+                            "x": -204,
+                            "y": -329
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "9671f277-8c6d-47ab-88f1-36cbb8cb684a",
+                    "label": "page5",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f653e609-9d6a-4d1d-9f11-87cd2c18b690",
+                            "label": "page_5",
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "timeforgotp5"
+                            }
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "ed678597-beab-4d00-9a74-8ab9961f2e1c",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_7",
+                            "item": 489,
+                            "x": -486,
+                            "y": -218
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7a40531d-3d7a-470c-8581-24d889976dc7",
+                            "label": "background_outline",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "background_outline"
+                            },
+                            "x": -296,
+                            "y": 150,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "738d8969-1ed8-4926-85ec-81fdc1c908d7",
+                            "label": "background_base",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.hoverCallback": "() => {this.onBgHover(false)}",
+                            "SimpleButton.hoverOutCallback": "() => {this.onBgHover(true)}",
+                            "SimpleButton.callback": "() => {this.interface.prompt.showItem(992)}",
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "background_base"
+                            },
+                            "x": -290,
+                            "y": 154
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                    "label": "page4",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b5c3a3bb-0d03-4c45-906e-876df1322b87",
+                            "label": "page_4",
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "timeforgotp4"
+                            }
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "ad2e19f4-0da5-4568-ad0c-58d708948840",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_2",
+                            "item": 190,
+                            "x": 419,
+                            "y": -104
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "5e0f7a23-2377-42e8-8906-ac44e747a084",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_3",
+                            "item": 675,
+                            "x": 60,
+                            "y": -291
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "84cde952-a443-4d33-8288-6477acd0c3ba",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_4",
+                            "item": 835,
+                            "x": 407,
+                            "y": 208
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "df10bcb5-ce31-432b-9d69-1e270acbaf53",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_5",
+                            "item": 126,
+                            "x": -529,
+                            "y": -285
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "d4490a32-de3a-4092-8b15-a810fd245d7e",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_6",
+                            "item": 834,
+                            "x": -159,
+                            "y": 204
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                    "label": "page3",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "75d7cff1-5d67-4a7a-87cc-08e55eff604c",
+                            "label": "page_3",
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "timeforgotp3"
+                            }
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "71be650f-afee-41ce-92d5-abb16daa4f75",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton",
+                            "item": 128,
+                            "x": 104,
+                            "y": 156
+                        },
+                        {
+                            "prefabId": "dd77dec9-5b4f-4467-bec6-4b227fd1d6ac",
+                            "id": "5b987578-2349-4f2d-9e5c-b9f0328715f2",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "item"
+                            ],
+                            "label": "buyButton_1",
+                            "item": 127,
+                            "x": 380,
+                            "y": -193
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "8b00161f-5b9b-49e8-82a6-224e5ca8000f",
+                            "label": "skirtSecret",
+                            "scope": "CLASS",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.interface.prompt.showSecret(212);",
+                            "x": -187,
+                            "y": -26,
+                            "width": 80,
+                            "height": 110
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                    "label": "page2",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "ddf8dd92-d71d-4d6b-a335-cb2a3683ef54",
+                            "label": "page_2",
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "timeforgotp2"
+                            }
+                        },
+                        {
+                            "type": "Image",
+                            "id": "62db62c3-94ee-400c-aab9-073d0f7138f8",
+                            "label": "buy_tag",
+                            "scope": "CLASS",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "buy_tag",
+                            "Button.callback": "() => this.interface.prompt.showItem(676);",
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "buy_tag"
+                            },
+                            "x": 254,
+                            "y": -287
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "73f02308-7820-4110-a76c-523342558eb9",
+                    "label": "page1",
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "938eb656-a988-4207-a1ca-9185aee4a924",
+                            "label": "page_1",
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "timeforgotp1"
+                            },
+                            "x": -760,
+                            "y": -480,
+                            "originX": 0,
+                            "originY": 0
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "413414bc-32b3-4f4d-ab5e-d3c279d25d00",
+                            "label": "right_button_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "right_button",
+                            "Button.callback": "() => this.nextPage();",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "right_button"
+                            },
+                            "x": 227,
+                            "y": 219
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "914e79f6-dbfd-41bc-b43f-fa8ef4e07489",
+                            "label": "catalog_close_1",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "catalog_close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "catalog_close"
+                            },
+                            "x": 227,
+                            "y": -330
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ad71a0bc-b1f8-4ee2-b189-b90b5a445f56",
+                    "label": "buttons",
+                    "scope": "CLASS",
+                    "x": 190,
+                    "y": 41,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "bb9facc3-7a86-49f0-a497-0ec458025950",
+                            "label": "coins",
+                            "scope": "CLASS",
+                            "x": 1133,
+                            "y": 793,
+                            "originX": 1,
+                            "text": "YOUR COINS:",
+                            "fixedWidth": 600,
+                            "align": "right",
+                            "fontFamily": "CCFaceFront",
+                            "fontSize": "32px",
+                            "stroke": "#000",
+                            "strokeThickness": 9
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "36c5d442-1418-42f3-a3e7-c0bbfafba6a9",
+                            "label": "right_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "right_button",
+                            "Button.callback": "() => this.nextPage();",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "right_button"
+                            },
+                            "x": 1077,
+                            "y": 658
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "b2fd8d5d-6c96-48a5-b231-2589ceae057c",
+                            "label": "left_button",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "left_button",
+                            "Button.callback": "() => this.prevPage();",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "left_button"
+                            },
+                            "x": 66,
+                            "y": 659
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3b010612-b4c6-4ebd-8057-dbbb5bc5b3d6",
+                            "label": "catalog_close",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "catalog_close",
+                            "Button.callback": "() => this.close()",
+                            "Button.activeFrame": true,
+                            "Button.pixelPerfect": true,
+                            "texture": {
+                                "key": "timeforgot-catalog",
+                                "frame": "catalog_close"
+                            },
+                            "x": 1077,
+                            "y": 114
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    },
+    "lists": [
+        {
+            "id": "3003f2ec-9394-4489-a981-17b8c2a9bffb",
+            "label": "pages",
+            "objectIds": [
+                "73f02308-7820-4110-a76c-523342558eb9",
+                "d89d4fa3-ae1b-498d-a610-af2620d1b2c0",
+                "5f1ca286-8520-45d5-b5eb-9556c9824b3c",
+                "70f903ba-1b56-458e-b336-2b3c698a7b25",
+                "9671f277-8c6d-47ab-88f1-36cbb8cb684a",
+                "42fc311d-8d0d-4f99-a501-759645bdc75f"
+            ]
+        }
+    ]
+}

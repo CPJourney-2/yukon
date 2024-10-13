@@ -1,0 +1,846 @@
+{
+    "id": "d9fde61f-2f69-4774-813d-c31ab3fcf87d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "cb12fe73-9c6d-4bd1-b4ab-49be240a413f",
+            "label": "cover",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "2158caf4-5dcb-4b3e-8b9e-1300807e6f42",
+                    "label": "editBackground",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "stampbook-editor",
+                        "frame": "editBackground"
+                    },
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "2d0b708d-bf8c-410f-bd1a-0b84a4df5fca",
+                    "label": "colour",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "testCover"
+                    },
+                    "x": 760,
+                    "y": 520,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "340f24aa-ca0a-4260-bc06-5f02e01ed625",
+                    "label": "cinamoroll",
+                    "components": [],
+                    "texture": {
+                        "key": "cinamoroll"
+                    },
+                    "x": 485,
+                    "y": 464,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "visible": false,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "aa808986-71a0-4453-abea-3ab008850fe7",
+                    "label": "text_1",
+                    "components": [],
+                    "x": 935,
+                    "y": 234,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "angle": 20,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "visible": false,
+                    "text": "banger stmapbooooookk",
+                    "fontFamily": "burbank small",
+                    "fontSize": "160px",
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "5d4ae7a2-d0e2-4b33-b76f-e24214f20d55",
+                    "label": "stageClasp",
+                    "components": [
+                        "SimpleButton"
+                    ],
+                    "SimpleButton.callback": "() => {this.onNext()}",
+                    "texture": {
+                        "key": "stampbook-inside",
+                        "frame": "stageClasp"
+                    },
+                    "x": 1341,
+                    "y": 531,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "dc8202ca-0675-4519-ba6c-c34f44fa8d89",
+                    "label": "clasp",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "testClasp"
+                    },
+                    "x": 1324,
+                    "y": 524,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "4af3c353-0437-4e7b-ad72-d35a3c025869",
+                    "label": "highlight",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "testHighlight"
+                    },
+                    "x": 1341,
+                    "y": 530,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "4a287ff5-6e8d-43ee-ab56-4974917025f5",
+                    "label": "penguinName",
+                    "components": [],
+                    "x": 244,
+                    "y": 671,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "9c5a2dce-fc60-4708-82a7-2565b8d56652",
+                            "label": "field7",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 6,
+                            "y": 8,
+                            "alpha": 0.3,
+                            "alphaTopLeft": 0.3,
+                            "alphaTopRight": 0.3,
+                            "alphaBottomLeft": 0.3,
+                            "alphaBottomRight": 0.3,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "108px",
+                            "fontStyle": "bold",
+                            "color": "#4DE5AD",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "33bb922c-5dd9-4b90-be55-f0af0c11dbf1",
+                            "label": "field6",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 2,
+                            "alpha": 0.2,
+                            "alphaTopLeft": 0.2,
+                            "alphaTopRight": 0.2,
+                            "alphaBottomLeft": 0.2,
+                            "alphaBottomRight": 0.2,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "108px",
+                            "fontStyle": "bold",
+                            "color": "000",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "eb6fef21-c09e-4f2a-9529-3cbb09f9871c",
+                            "label": "field5",
+                            "scope": "CLASS",
+                            "components": [],
+                            "alpha": 0.2,
+                            "alphaTopLeft": 0.2,
+                            "alphaTopRight": 0.2,
+                            "alphaBottomLeft": 0.2,
+                            "alphaBottomRight": 0.2,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "108px",
+                            "fontStyle": "bold",
+                            "color": "000",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "b8a71daf-9135-4764-8839-f3d8cc8a3654",
+                            "label": "field4",
+                            "scope": "CLASS",
+                            "components": [],
+                            "y": 4,
+                            "alpha": 0.2,
+                            "alphaTopLeft": 0.2,
+                            "alphaTopRight": 0.2,
+                            "alphaBottomLeft": 0.2,
+                            "alphaBottomRight": 0.2,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "108px",
+                            "fontStyle": "bold",
+                            "color": "000",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "4ddb4918-aa29-4401-9b4e-defa6b512a70",
+                            "label": "field3",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 4,
+                            "y": 10,
+                            "alpha": 0.3,
+                            "alphaTopLeft": 0.3,
+                            "alphaTopRight": 0.3,
+                            "alphaBottomLeft": 0.3,
+                            "alphaBottomRight": 0.3,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "108px",
+                            "fontStyle": "bold",
+                            "color": "#4DE5AD",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "50cee398-04f8-4ab8-af5e-c02ec288b77e",
+                            "label": "field2",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 8,
+                            "y": 12,
+                            "alpha": 0.3,
+                            "alphaTopLeft": 0.3,
+                            "alphaTopRight": 0.3,
+                            "alphaBottomLeft": 0.3,
+                            "alphaBottomRight": 0.3,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "108px",
+                            "fontStyle": "bold",
+                            "color": "#4DE5AD",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "fb9a8858-2ae5-4ee3-a21e-baf1d5078871",
+                            "label": "penguinName1",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 4,
+                            "y": 6,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "108px",
+                            "fontStyle": "bold",
+                            "color": "#38A87D",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b3d0f38a-dbae-48a3-9605-5ce49d8eef66",
+                    "label": "totalStamps",
+                    "components": [],
+                    "x": 490,
+                    "y": 803,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "069d472e-ef9b-4ac0-beff-9fc24997654c",
+                            "label": "sField7",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 1.5,
+                            "y": 2,
+                            "alpha": 0.3,
+                            "alphaTopLeft": 0.3,
+                            "alphaTopRight": 0.3,
+                            "alphaBottomLeft": 0.3,
+                            "alphaBottomRight": 0.3,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "28px",
+                            "fontStyle": "bold",
+                            "color": "#4DE5AD",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "9a87aad2-3492-4bef-a8d8-7d04e6eb7e45",
+                            "label": "sField6",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 0.5,
+                            "alpha": 0.2,
+                            "alphaTopLeft": 0.2,
+                            "alphaTopRight": 0.2,
+                            "alphaBottomLeft": 0.2,
+                            "alphaBottomRight": 0.2,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "28px",
+                            "fontStyle": "bold",
+                            "color": "000",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "827e6786-237b-4df1-9341-6542de44d0ed",
+                            "label": "sField5",
+                            "scope": "CLASS",
+                            "components": [],
+                            "alpha": 0.2,
+                            "alphaTopLeft": 0.2,
+                            "alphaTopRight": 0.2,
+                            "alphaBottomLeft": 0.2,
+                            "alphaBottomRight": 0.2,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "28px",
+                            "fontStyle": "bold",
+                            "color": "000",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "a3cb07fc-beea-4dc6-9e3d-44d0902f7617",
+                            "label": "sField4",
+                            "scope": "CLASS",
+                            "components": [],
+                            "y": 1,
+                            "alpha": 0.2,
+                            "alphaTopLeft": 0.2,
+                            "alphaTopRight": 0.2,
+                            "alphaBottomLeft": 0.2,
+                            "alphaBottomRight": 0.2,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "28px",
+                            "fontStyle": "bold",
+                            "color": "000",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6f5bce7d-2a8f-41c5-8830-81e6d90ff73f",
+                            "label": "sField3",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 1,
+                            "y": 2.5,
+                            "alpha": 0.3,
+                            "alphaTopLeft": 0.3,
+                            "alphaTopRight": 0.3,
+                            "alphaBottomLeft": 0.3,
+                            "alphaBottomRight": 0.3,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "28px",
+                            "fontStyle": "bold",
+                            "color": "#4DE5AD",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "36788850-4ffa-40d7-b1dd-1a9c6ae8ded2",
+                            "label": "sField2",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 2,
+                            "y": 3,
+                            "alpha": 0.3,
+                            "alphaTopLeft": 0.3,
+                            "alphaTopRight": 0.3,
+                            "alphaBottomLeft": 0.3,
+                            "alphaBottomRight": 0.3,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "28px",
+                            "fontStyle": "bold",
+                            "color": "#4DE5AD",
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "c31e161c-1bc0-4fc6-99fc-331403b5b8c7",
+                            "label": "stampCount",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 1,
+                            "y": 1.5,
+                            "text": "Penguin88888888",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "28px",
+                            "fontStyle": "bold",
+                            "color": "#38A87D",
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "5bed0605-010e-41f2-8cf4-8ad659a2847f",
+                    "label": "closebtn_1",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "closebtn",
+                    "Button.callback": "() => {this.book.onClose()}",
+                    "Button.activeFrame": true,
+                    "texture": {
+                        "key": "stampbook-inside",
+                        "frame": "closebtn"
+                    },
+                    "x": 1342,
+                    "y": 200,
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "a400d50d-3c31-49d9-a3a1-9141057617f4",
+                    "label": "edit",
+                    "scope": "CLASS",
+                    "components": [
+                        "Button"
+                    ],
+                    "Button.spriteName": "edit",
+                    "Button.callback": "() => this.onEdit()",
+                    "texture": {
+                        "key": "stampbook-editor",
+                        "frame": "edit"
+                    },
+                    "x": 1471,
+                    "y": 906,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "dd3d1f5c-f0bd-49fb-8c8c-0c868df43e44",
+                    "label": "stampContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "list": []
+                },
+                {
+                    "type": "Container",
+                    "id": "712b0fba-7bc4-489f-9684-d44a5bd9d53d",
+                    "label": "editor",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 51,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "354b44ed-3428-4a60-b07b-e68daebcddc7",
+                            "label": "coverlist",
+                            "components": [],
+                            "texture": {
+                                "key": "stampbook-editor",
+                                "frame": "coverlist"
+                            },
+                            "x": 745,
+                            "originY": 0,
+                            "list": []
+                        },
+                        {
+                            "type": "Container",
+                            "id": "5f59265c-9572-4de8-8c01-0ba800d16b38",
+                            "label": "clonableStamps",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -51,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1e2908cd-ea17-42ac-8ec6-96c5171d19da",
+                            "label": "dragHere",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "stampbook-editor",
+                                "frame": "dragHere0001"
+                            },
+                            "x": 1469,
+                            "originX": 1,
+                            "originY": 0,
+                            "visible": false,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "22ea979d-c02a-4381-b23f-51d684f321dd",
+                            "label": "editorui",
+                            "components": [],
+                            "texture": {
+                                "key": "stampbook-editor",
+                                "frame": "editorui"
+                            },
+                            "y": 303,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "617b5909-c90f-476e-abe5-ffc32b5c6c8f",
+                            "label": "colorTool",
+                            "components": [],
+                            "texture": {
+                                "key": "stampbook-editor",
+                                "frame": "colorTool"
+                            },
+                            "x": 21,
+                            "y": 220,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "936a84e9-9390-4b05-ad11-699a025e2978",
+                            "label": "colorTool_1",
+                            "components": [],
+                            "texture": {
+                                "key": "stampbook-editor",
+                                "frame": "colorTool"
+                            },
+                            "x": 21,
+                            "y": 335,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f8b24d5c-2f82-4b78-917b-5691adac426c",
+                            "label": "colorTool_2",
+                            "components": [],
+                            "texture": {
+                                "key": "stampbook-editor",
+                                "frame": "colorTool"
+                            },
+                            "x": 21,
+                            "y": 451,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5e82d3d4-440b-453a-b1de-6b1a5afc019f",
+                            "label": "save",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.onSave()",
+                            "texture": {
+                                "key": "stampbook-editor",
+                                "frame": "save"
+                            },
+                            "x": 1414,
+                            "y": 908,
+                            "list": []
+                        },
+                        {
+                            "prefabId": "654cef24-5eeb-4b53-b068-235d14f9e485",
+                            "id": "52950025-880b-44b0-8848-53d647ca6d35",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "visible"
+                            ],
+                            "label": "editorSelectionBox",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 192,
+                            "y": 566,
+                            "visible": false,
+                            "nestedPrefabs": [],
+                            "list": []
+                        },
+                        {
+                            "prefabId": "9577a0b7-ac2a-4c45-9c50-c1b8206df8f8",
+                            "id": "c9be3dee-decb-4d13-b79f-497c0dfa2a85",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "claspThumb",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 23,
+                            "y": 566,
+                            "nestedPrefabs": [],
+                            "list": []
+                        },
+                        {
+                            "prefabId": "9577a0b7-ac2a-4c45-9c50-c1b8206df8f8",
+                            "id": "6d66f5de-741a-4c6b-9294-73d50f5685b9",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "patternThumb",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 23,
+                            "y": 450,
+                            "nestedPrefabs": [],
+                            "list": []
+                        },
+                        {
+                            "prefabId": "9577a0b7-ac2a-4c45-9c50-c1b8206df8f8",
+                            "id": "8578c22e-8c1d-417b-9dd0-166c7db5b94c",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "highlightThumb",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 23,
+                            "y": 334,
+                            "nestedPrefabs": [],
+                            "list": []
+                        },
+                        {
+                            "prefabId": "9577a0b7-ac2a-4c45-9c50-c1b8206df8f8",
+                            "id": "b813188f-31ea-437b-837d-624679db1901",
+                            "unlock": [
+                                "x",
+                                "y"
+                            ],
+                            "label": "colourThumb",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 23,
+                            "y": 219,
+                            "nestedPrefabs": [],
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "35c34abe-d66e-4535-8211-2138ffbf643c",
+                            "label": "rectangleColourThumb",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.onColourThumb()",
+                            "x": 23,
+                            "y": 219,
+                            "width": 128,
+                            "height": 90,
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "d5537b85-a955-44a6-8fb5-dd730078a45c",
+                            "label": "rectangleHighlightThumb",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.onHighlightThumb()",
+                            "x": 23,
+                            "y": 334,
+                            "width": 128,
+                            "height": 90,
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "d7195207-76e5-4b80-845f-cebc9db6c724",
+                            "label": "rectanglePatternThumb",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.onPatternThumb()",
+                            "x": 23,
+                            "y": 450,
+                            "width": 128,
+                            "height": 90,
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "7fd84b05-44e4-471b-b16b-6b4976c0c88d",
+                            "label": "rectangleClaspThumb",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.onClaspThumb()",
+                            "x": 23,
+                            "y": 565,
+                            "width": 128,
+                            "height": 90,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f1a92eb0-286a-421a-a3d2-dc19a22a1c43",
+                            "label": "specificCategoryBg",
+                            "components": [],
+                            "texture": {
+                                "key": "stampbook-editor",
+                                "frame": "specificCategoryBg"
+                            },
+                            "y": 58,
+                            "visible": false,
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "623e1d62-7e5c-4e45-8d5f-e78ec219437b",
+                            "label": "rectangleLeftArrow",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.onEditorLeft()",
+                            "x": 137,
+                            "y": 55,
+                            "width": 50,
+                            "height": 128,
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "bf655a9a-0d60-4ebd-973d-feaf14c651b7",
+                            "label": "rectangleRightArrow",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.onEditorRight()",
+                            "x": 1352,
+                            "y": 55,
+                            "width": 50,
+                            "height": 128,
+                            "list": []
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "5c77e126-ae67-456d-8910-c5279540c3bd",
+                            "label": "filterButtonRectangle",
+                            "components": [
+                                "SimpleButton"
+                            ],
+                            "SimpleButton.callback": "() => this.onFilter()",
+                            "x": 34,
+                            "y": 71,
+                            "width": 150,
+                            "height": 150,
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "24dd2c85-6976-4c37-b6b7-ea41aa2b0ea9",
+                            "label": "categoryIcon",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "testCategory"
+                            },
+                            "x": 31,
+                            "y": 101,
+                            "list": []
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ff54b05a-c37c-4519-9a76-a8dd8ce62259",
+                            "label": "categoryText",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 36,
+                            "y": 30,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "All Stamps",
+                            "fixedWidth": 150,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "20px",
+                            "fontStyle": "bold",
+                            "color": "#4d4d4d",
+                            "wordWrapWidth": 160,
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "5847de61-0fef-4b84-87f9-e1bcafcc3bbc",
+                    "label": "text_3",
+                    "components": [],
+                    "x": 483,
+                    "y": 127,
+                    "angle": 29.999999999999996,
+                    "visible": false,
+                    "text": "made by misabr\nfrom club penguin misabr",
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "64px",
+                    "fontStyle": "bold",
+                    "list": []
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "014f45d1-a3fd-4c5a-a453-32d08ce02063",
+                    "label": "stageArea",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 170,
+                    "y": 255,
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 1130,
+                    "height": 530,
+                    "list": []
+                },
+                {
+                    "prefabId": "5de52f1d-5ba2-4704-9d58-90a0801e5303",
+                    "id": "c961c963-fd2a-4bd2-9f0a-d07789ddb644",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "recentlyEarned",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 760,
+                    "y": 480,
+                    "visible": false,
+                    "nestedPrefabs": [],
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

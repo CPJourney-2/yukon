@@ -1,0 +1,109 @@
+{
+    "id": "7937519a-0aa4-4c33-b398-867358fbdf2c",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "superClassName": "IglooScene",
+        "preloadMethodName": "_preload",
+        "preloadPackFiles": [
+            "yukon/assets/media/igloos/buildings/sprites/dojo/dojo-igloo-pack.json"
+        ],
+        "createMethodName": "_create",
+        "sceneKey": "DojoIgloo",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "81a6400d-2f18-48f8-a301-8a41d3bf7cb0",
+            "label": "floor",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "dojo-igloo",
+                "frame": "dojo_floor"
+            },
+            "x": 760,
+            "y": 770,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "f2fc1f4b-a447-4774-b688-ccd6a5ac31ed",
+            "label": "fg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "dojo-igloo",
+                "frame": "dojo_walls"
+            },
+            "x": 760.5,
+            "y": 396,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "ab1db028-1fba-4de0-95c7-9a64e03b4fa4",
+            "label": "dojo_door",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "dojo_door",
+            "texture": {
+                "key": "dojo-igloo",
+                "frame": "dojo_door"
+            },
+            "x": 522,
+            "y": 579,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "45a33c17-c5a3-4e17-a5d1-ec9bc1656ff3",
+            "label": "bg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "dojo-igloo",
+                "frame": "dojo_walls"
+            },
+            "x": 813,
+            "y": 582,
+            "visible": false,
+            "alpha": 1e-18,
+            "alphaTopLeft": 1e-18,
+            "alphaTopRight": 1e-18,
+            "alphaBottomLeft": 1e-18,
+            "alphaBottomRight": 1e-18,
+            "list": []
+        },
+        {
+            "type": "Rectangle",
+            "id": "0624d334-38ae-4a3a-a857-587709b4df76",
+            "label": "rectangle_1",
+            "components": [
+                "ZoneTrigger"
+            ],
+            "ZoneTrigger.callback": "() => this.interface.loadWidget('Map')",
+            "x": 519.0000000000001,
+            "y": 646,
+            "scaleX": 1.6987766126222235,
+            "scaleY": 1.5897100335089185,
+            "originX": 0.473686474548628,
+            "originY": 0.8698520500314428,
+            "width": 128,
+            "height": 128,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

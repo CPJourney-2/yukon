@@ -1,0 +1,223 @@
+{
+    "id": "5de52f1d-5ba2-4704-9d58-90a0801e5303",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerInsertSpaces": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0e6f1195-f550-45fa-ba30-6865a7fb09c5",
+            "label": "recentlyEarned",
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "692a4b95-7a05-4cd5-8c66-b94a6498cd90",
+                    "label": "block",
+                    "components": [
+                        "Interactive"
+                    ],
+                    "scaleX": 12.517257088815434,
+                    "scaleY": 12.517257088815434,
+                    "alpha": 0.3,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "strokeColor": "#000000",
+                    "width": 128,
+                    "height": 90
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "f2919e4b-0598-46cf-ba20-b2dcfcba1279",
+                    "label": "bg_1",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "prompt",
+                        "frame": "window"
+                    },
+                    "width": 734,
+                    "height": 626,
+                    "leftWidth": 44,
+                    "rightWidth": 39,
+                    "topHeight": 40,
+                    "bottomHeight": 41
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "12c9606b-6d59-441f-8e4b-78daff34f6ce",
+                    "label": "stampbg",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "stampbook-inside",
+                        "frame": "stampbg"
+                    },
+                    "width": 475,
+                    "height": 300,
+                    "leftWidth": 43,
+                    "rightWidth": 40,
+                    "topHeight": 36,
+                    "bottomHeight": 39
+                },
+                {
+                    "type": "Text",
+                    "id": "82d6968c-cab8-4bbb-8028-438b0c311767",
+                    "label": "congratsText",
+                    "scope": "CLASS",
+                    "y": 183,
+                    "originX": 0.5,
+                    "text": "Congratulations on earning\n420 stamps!",
+                    "fixedWidth": 700,
+                    "align": "center",
+                    "fontFamily": "Burbank Small",
+                    "fontSize": "32px"
+                },
+                {
+                    "type": "Container",
+                    "id": "162b588f-31ad-42f5-812a-638609364607",
+                    "label": "topStuff",
+                    "scope": "CLASS",
+                    "x": -354,
+                    "y": -288,
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "0474dc55-00c5-4359-99ab-74b6088e0d5e",
+                            "label": "text_2",
+                            "text": "Your New Stamps",
+                            "fixedWidth": 714,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "50px",
+                            "fontStyle": "bold"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2a196618-338a-4fac-96f4-ccc2bf09b600",
+                            "label": "closebtn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => {this.visible = false}",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            },
+                            "x": 663,
+                            "y": 30
+                        },
+                        {
+                            "type": "Text",
+                            "id": "132566e0-6495-4b82-ab60-936dfe58c9c2",
+                            "label": "text",
+                            "y": 63,
+                            "text": "These are your recently earned stamps:",
+                            "fixedWidth": 714,
+                            "align": "center",
+                            "fontFamily": "Burbank Small",
+                            "fontSize": "32px"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "53003080-909f-498f-9e6d-e39f0faae2e1",
+                            "label": "blue_x",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-x"
+                            },
+                            "x": 663,
+                            "y": 28
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2009ae6f-6490-407b-b792-cd33f2351817",
+                    "label": "nextbtn",
+                    "scope": "CLASS",
+                    "x": 300,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "c3ce739a-5a99-46e6-bf28-2e9fdb3ebec6",
+                            "label": "next_btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.onNext()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            }
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4d1ac5ef-d102-4c3d-8090-a90eee0edc60",
+                            "label": "blue_arrow",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "x": 0.5,
+                            "y": -2,
+                            "angle": 90
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "733dc9dc-03d7-4d91-9c77-399d103cbb40",
+                    "label": "prevbtn",
+                    "scope": "CLASS",
+                    "x": -300,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "2c6b5a9d-3fa5-4433-a32f-e238c00a0e22",
+                            "label": "prev_btn",
+                            "components": [
+                                "Button"
+                            ],
+                            "Button.spriteName": "blue-button",
+                            "Button.callback": "() => this.onPrev()",
+                            "Button.activeFrame": true,
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-button"
+                            }
+                        },
+                        {
+                            "type": "Image",
+                            "id": "17e390fe-5ebf-4f95-98a6-ede288bbb8ff",
+                            "label": "blue_arrow_1",
+                            "texture": {
+                                "key": "main",
+                                "frame": "blue-arrow"
+                            },
+                            "y": -2,
+                            "angle": 90,
+                            "flipY": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}
